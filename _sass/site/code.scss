@@ -1,0 +1,23 @@
+.highlighter-rouge {
+  border: 0;
+  background: #123 !important;
+  
+  .highlight {
+    border: 0;
+    background: #123 !important;
+  }
+
+  code {
+    background: transparent !important;
+  }
+}
+
+div.highlighter-rouge {
+  border-radius: 10px;
+  div.highlight {
+    border-radius: 10px;
+    pre.highlight {
+      border-radius: 10px;
+    }
+  }
+}

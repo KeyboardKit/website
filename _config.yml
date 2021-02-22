@@ -1,0 +1,68 @@
+# Site settings
+# These are used to personalize your site. You access them via {{ site.title }}, 
+# {{ site.email }} and so on. You can create any custom variable you like. They
+# will be accessible in the templates via {{ site.myvariable }}.
+
+title: KeyboardKit
+email: info@getkeyboardkit.com
+description: >-
+  KeyboardKit helps you create custom keyboards for iOS and ipadOS. 
+
+baseurl: ""
+url: "http://getkeyboardkit.com"
+theme: minima
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+google_analytics: UA-2575180-1
+
+github_username:  KeyboardKit
+twitter_username: KeyboardKitApp
+
+github_url: https://github.com/KeyboardKit
+twitter_url: https://twitter.com/KeyboardKitApp
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+
+header_pages:
+  - pages/open-source.md
+  - pages/pro.md
+  - pages/app.md
+  - pages/blog/blog.md
+
+collections_dir: collections
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:categories/:year/:month/:day/:title
+  sponsors:
+    output: true
+    permalink: /sponsor/:name/
+
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      author: "danielsaidi"
+      layout: "post"
+  -
+    scope:
+      type: "sponsors"
+    values:
+      layout: "sponsor"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,0 +1,13 @@
+{% for post in site.posts %}
+  {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+  {% assign year = year | plus: 0 %}
+  {% if year == include.year %}
+  <hr />
+  <article>
+    {%- include blog/post-header.html post=include.post link=true -%}
+    <p>
+      {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+    </p>
+  </article>
+  {% endif %}
+{% endfor %}

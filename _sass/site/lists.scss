@@ -1,0 +1,25 @@
+ul.horizontal {
+  margin: 0;
+  padding: 0;
+  display: inline;
+
+  li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+
+  li:before {
+    content: '\2022';
+    margin: 0 5px;
+  }
+
+  li:first-child:before {
+    content: '';
+    margin: 0px;
+  }
+
+  .svg-icon {
+    padding-right: 0px;
+  }
+}

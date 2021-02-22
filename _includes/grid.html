@@ -1,0 +1,17 @@
+{%- assign type = include.type -%}
+{%- if type == "bands" or type == "photos" -%}
+{%- assign extension = "jpg" -%}
+{%- else -%}
+{%- assign extension = "png" -%}
+{%- endif -%}
+
+<section class="grid {{type}}">
+  {% for item in include.items %}
+    <a href="{{ item.url }}" name="{{ item.name | slugify }}">
+      <img alt="{{ item.name }}" src="/assets/{{type}}/{{ item.name | slugify }}.{{extension}}" />
+      {%- if item.name -%}
+      <p>{{ item.name }}</p>
+      {%- endif -%}
+    </a>
+  {% endfor %}
+</section>

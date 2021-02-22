@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{%- assign sponsor = site.data.sponsors | where:"name", page.name | first -%}
+
+<article>
+    <a href="/sponsors#{{ page.name | slugify }}"><h4>sponsors</h4></a>
+    <header>
+      <h1>{{ sponsor.name | escape }}</h1>
+    </header>
+  
+    {{ content }}
+
+    <hr />
+
+    <h2>Links</h2>
+
+    <ul>
+        {% if sponsor.website %}
+        <li><a href="{{sponsor.website}}" title="Visit the {{sponsor.name}} website">Visit the {{sponsor.name}} website</a></li>
+        {% endif %}
+    </ul>
+</article>

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<a href="/blog">Blog</a>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  {%- include blog/post-header.html post=page -%}
+
+  <div class="e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+
+{%- include disqus-card.html -%}

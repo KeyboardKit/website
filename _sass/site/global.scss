@@ -1,0 +1,14 @@
+html, body {
+  width: 100%;
+}
+
+.site-header, .site-footer {
+  border: 0 !important;
+  text-align: center;
+}
+
+.site-footer {
+  margin-top: 0;
+
+  p { padding: 20px 0; }
+}
