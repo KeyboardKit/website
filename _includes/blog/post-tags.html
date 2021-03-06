@@ -1,8 +1,0 @@
-{%- if include.post.tags -%}
-<ul class="horizontal">
-  {%- for tag in include.post.tags -%}
-  {%- assign href = "blog/tags#" | append: tag -%}
-  <li><a href="{{ href | relative_url }}">{{ tag }}</a></li>
-  {%- endfor -%}
-</ul>
-{%- endif -%}

@@ -20,8 +20,10 @@ kramdown:
 google_analytics: UA-2575180-1
 
 copyright: © 2021 Daniel Saidi. All rights reserved.
-github_url: https://github.com/KeyboardKit
-github_username:  KeyboardKit
+github: https://github.com/KeyboardKit
+github_repo: https://github.com/KeyboardKit/KeyboardKit
+github_repo_pro: https://github.com/KeyboardKit/KeyboardKitPro
+github_username: KeyboardKit
 twitter_url: https://twitter.com/KeyboardKitApp
 twitter_username: KeyboardKitApp
 
@@ -32,10 +34,10 @@ plugins:
 
 header_pages:
   - index.html
+  - pages/app.md
   - pages/open-source.md
   - pages/pro.md
-  - pages/app.md
-  - pages/blog/blog.md
+  - pages/blog.md
 
 collections_dir: collections
 

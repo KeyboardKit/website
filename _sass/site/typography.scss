@@ -6,6 +6,10 @@ h1, h2, h3, h4, h5 {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 2em;
+}
+
 .home {
   h1 { font-size: 2.5em; }
   
@@ -18,21 +22,31 @@ h1, h2, h3, h4, h5 {
 }
 
 footer {
-  margin-top: 50px;
   font-size: 0.8em;
 }
 
+p.post-date {
+  font-size: small; 
+  margin: 10px 0 30px 0;
+}
 
+.emoji-h1 {
+  font-size: 10em !important;
+}
+.emoji-h2 {
+  font-size: 3em !important;
+}
 
 // Header lines ******
 
-h2, h3, h4 {
+h2, .blog h1 {
   overflow: hidden;
   width: 50%;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-h2:before, h2:after, h3:before, h3:after, h4:before, h4:after {
+.blog h1:before, .blog h1:after, h2:before, h2:after {
   background-color: #000;
   content: "";
   display: inline-block;
@@ -42,12 +56,12 @@ h2:before, h2:after, h3:before, h3:after, h4:before, h4:after {
   width: 50%;
 }
 
-h2:before, h3:before, h4:before {
+.blog h1:before, h2:before {
   right: 0.5em;
   margin-left: -50%;
 }
 
-h2:after, h3:after, h4:after {
+.blog h1:after, h2:after {
   left: 0.5em;
   margin-right: -50%;
 }

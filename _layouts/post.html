@@ -2,10 +2,12 @@
 layout: default
 ---
 
-<a href="/blog">Blog</a>
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-  {%- include blog/post-header.html post=page -%}
-
+<article class="blog post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <h1>{{ page.title | escape }}</h1>
+  <p class="post-date">
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {{ page.date | date: date_format }}
+  </p>
   <div class="e-content" itemprop="articleBody">
     {{ content }}
   </div>
