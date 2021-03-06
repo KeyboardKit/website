@@ -41,7 +41,7 @@ p.post-date {
 
 h2, .blog h1 {
   overflow: hidden;
-  width: 50%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -53,15 +53,15 @@ h2, .blog h1 {
   height: 0.5px;
   position: relative;
   vertical-align: middle;
-  width: 50%;
+  width: 60%;
 }
 
 .blog h1:before, h2:before {
   right: 0.5em;
-  margin-left: -50%;
+  margin-left: -60%;
 }
 
 .blog h1:after, h2:after {
   left: 0.5em;
-  margin-right: -50%;
+  margin-right: -60%;
 }
