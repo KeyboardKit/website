@@ -1,0 +1,28 @@
+{% if page.title %}
+    {% if page.image %}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="{{ page.image | absolute_url }}" />
+    {% elsif page.icon %}
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="https://getkeyboardkit.com/assets/icons/{{ page.icon }}.png" />
+    {% else %}
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="https://getkeyboardkit.com/assets/icon/icon-1024.png" />
+    {% endif %}
+    <meta name="twitter:site" content="@keyboardkit" />
+    <meta name="twitter:creator" content="@danielsaidi" />
+    <meta name="twitter:title" content="{{ page.title }}" />
+    {% if page.excerpt %}
+    <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncate:140 }}" />
+    {% endif %}
+
+    <meta property="og:image"       content="https://getkeyboardkit.com/assets/icon/icon-1024.png" />
+    <meta property="og:url"         content="{{ page.url }}" />
+    <meta property="og:type"        content="article" />
+    <meta property="og:title"       content="{{ page.title }}" />
+    
+    {% if page.excerpt %}
+    <meta property="og:description" content="How much does culture influence creative thinking?" />
+    {% endif %}
+
+{% endif %}
