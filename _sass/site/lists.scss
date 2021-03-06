@@ -11,7 +11,7 @@ ul.horizontal {
 
   li:before {
     content: '\2022';
-    margin: 0 5px;
+    margin: 0 5px 0 0;
   }
 
   li:first-child:before {

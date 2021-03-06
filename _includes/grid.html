@@ -9,8 +9,8 @@
   {% for item in include.items %}
     <a href="{{ item.url }}" name="{{ item.name | slugify }}">
       <img alt="{{ item.name }}" src="/assets/{{type}}/{{ item.name | slugify }}.{{extension}}" />
-      {%- if item.name -%}
-      <p>{{ item.name }}</p>
+      {%- if item.title -%}
+      <p>{{ item.title }}</p>
       {%- endif -%}
     </a>
   {% endfor %}

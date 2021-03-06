@@ -1,23 +1,20 @@
 <header class="site-header" role="banner">
   <div class="wrapper">
     <p>
-      <h2>
-        <a class="title" rel="author" href="/">
-          <img src="/assets/logo.png" alt="KeyboardKit" title="KeyboardKit" width="300">
-        </a>
-      </h2>
+      <a class="title" rel="author" href="/">
+        <img src="/assets/icon/icon-80.png" alt="KeyboardKit" title="KeyboardKit" height="80">
+      </a>
     </p>
-    <!--<p>
-      {%- assign default_paths = site.pages | map: "path" -%}
-      {%- assign page_paths = site.header_pages | default: default_paths -%}
-      <ul class="horizontal">
-        {%- for path in page_paths -%}
-          {%- assign page = site.pages | where: "path", path | first -%}
-          {%- if page.title -%}
-            <li><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></li>
-          {%- endif -%}
-        {%- endfor -%}
-      </ul>
-    </p>-->
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <ul class="horizontal">
+      {%- for path in page_paths -%}
+        {%- assign page = site.pages | where: "path", path | first -%}
+        {%- if page.title -%}
+          <li><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>&nbsp;</li> 
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </p>
   </div>
 </header>
