@@ -22,7 +22,9 @@
     <meta property="og:title"       content="{{ page.title }}" />
     
     {% if page.excerpt %}
-    <meta property="og:description" content="How much does culture influence creative thinking?" />
+    <meta property="og:description" content="{{ page.excerpt | strip_html | truncate:140 }}" />
+    {% else %}
+    <meta property="og:description" content="KeyboardKit helps you create custom keyboards for iOS and iPadOS." />
     {% endif %}
 
 {% endif %}
