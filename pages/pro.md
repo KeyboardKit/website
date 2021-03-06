@@ -22,11 +22,15 @@ KeyboardKit Pro requires a commercial license.
 
 {% include grid-licenses.html %}
 
-\* KeyboardKit Pro licenses are valid for one bundle (app or extension). Additional bundles can be added to a license at a 50% discount.
+### * Bundles
 
-KeyboardKit Pro licenses are valid for one year. After expiration, you can continue to use any versions that were released during your license's validity period.
+Licenses are valid for one bundle (app or extension). Unlimited additional bundles can be added to a license at a 50% discount.
 
-Expired licenses don't affect shipped apps. They will continue to function even after the license expires. New app versions that are created after the license expires qill require a new license.
+### Expiration
+
+Licenses are valid for one year. After expiration, you can continue to use any versions that were released during your license's validity period.
+
+Expired licenses don't affect shipped apps. They will continue to function after the license expires.
 
 ### [Contact us for more information](mailto:{{site.email}})
 
