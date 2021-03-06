@@ -2,6 +2,7 @@
 layout: page
 title: Pro
 permalink: /pro
+description: KeyboardKit Pro extends KeyboardKit with pro features like more locales, autocomplete, more views etc.
 ---
 
 # KeyboardKit Pro
