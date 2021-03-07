@@ -44,14 +44,7 @@ Expired licenses don't affect shipped apps. They will continue to function after
 
 KeyboardKit Pro contains additional support for German, Italian and Swedish, with more locales being added regularly. 
 
-### Input sets
-
-Locale supports include localized strings as well as locale-specific input sets, keyboard layouts and secondary callout actions.
-
-
-### Keyboard layouts
-
-Locale supports include localized strings as well as locale-specific input sets, keyboard layouts and secondary callout actions.
+Locale supports include localized strings, locale-specific input sets, keyboard layouts and secondary callout actions.
 
 
 ### Autocomplete
