@@ -17,7 +17,7 @@ h1 {
   
   .usp { 
     font-weight: 600 !important;
-    font-size: 1.2em; 
+    font-size: 1.2em;
   }
 }
 
@@ -39,29 +39,34 @@ p.post-date {
 
 // Header lines ******
 
-h2, .blog h1 {
-  overflow: hidden;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-}
+.centered {
 
-.blog h1:before, .blog h1:after, h2:before, h2:after {
-  background-color: #000;
-  content: "";
-  display: inline-block;
-  height: 0.5px;
-  position: relative;
-  vertical-align: middle;
-  width: 60%;
-}
+  text-align: center;
 
-.blog h1:before, h2:before {
-  right: 0.5em;
-  margin-left: -60%;
-}
-
-.blog h1:after, h2:after {
-  left: 0.5em;
-  margin-right: -60%;
+  h2 {
+    overflow: hidden;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h2:before, h2:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 0.5px;
+    position: relative;
+    vertical-align: middle;
+    width: 60%;
+  }
+  
+  h2:before {
+    right: 0.5em;
+    margin-left: -60%;
+  }
+  
+  h2:after {
+    left: 0.5em;
+    margin-right: -60%;
+  }
 }

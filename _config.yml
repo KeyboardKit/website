@@ -34,10 +34,8 @@ plugins:
 
 header_pages:
   - index.html
-  - pages/app.md
   - pages/open-source.md
   - pages/pro.md
-  - pages/blog.md
 
 collections_dir: collections
 

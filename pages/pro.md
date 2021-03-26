@@ -5,61 +5,35 @@ permalink: /pro
 description: KeyboardKit Pro extends KeyboardKit with pro features like more locales, autocomplete, more views etc.
 ---
 
-# KeyboardKit Pro
+<div class="centered hero no-title">
+    <h1>KeyboardKit Pro</h1>
+    <div class="emoji-h1">👑</div>
+</div>
 
 
-<span class="emoji-h1">👑</span>
+## KeyboardKit Pro
 
-
-KeyboardKit Pro is a closed-source library that extends [KeyboardKit](/open-source) with pro features, such as more locales, an autocomplete engine and more views.
+KeyboardKit Pro is a closed-source library that extends the [KeyboardKit](/open-source) open source project with pro features, like more locales, an autocomplete engine and more views.
 
 Checkout the [GitHub repository]({{site.github_repo_pro}}) for more information about features and how to add KeyboardKit Pro to your own projects.
 
 
-## Licensing
+## Licenses
 
 KeyboardKit Pro requires a commercial license.
 
 {% include grid-licenses.html %}
 
-### * Bundles
 
-Licenses are valid for one bundle (app or extension). Unlimited additional bundles can be added to a license at a 50% discount.
+## License Information
 
-### Expiration
+Licenses are valid for one bundle (app or extension). Additional bundles can be added to a license at a 50% discount per bundle.
 
 Licenses are valid for one year. After expiration, you can continue to use any versions that were released during your license's validity period.
 
-Expired licenses don't affect shipped apps. They will continue to function after the license expires.
-
-### [Contact us for more information](mailto:{{site.email}})
+Expired licenses don't affect shipped apps. They will continue to function after the license expires. You will however need to purchase a new license to ship new versions of your apps.
 
 
+## How to purchase
 
-## Features
-
-### Locales
-
-🇺🇸 🇩🇪 🇮🇹 🇸🇪
-
-KeyboardKit Pro contains additional support for German, Italian and Swedish, with more locales being added regularly. 
-
-Locale supports include localized strings, locale-specific input sets, keyboard layouts and secondary callout actions.
-
-
-### Autocomplete
-
-KeyboardKit defines a basic autocomplete model, but doesn't include an autocomplete engine. KeyboardKit Pro will soon include an autocomplete engine. 
-
-This means that registering a pro license will enable autocomplete support.
-
-**This feature is being developed!**
-
-
-### Views
-
-KeyboardKit contains a lot of views that make it super simple to build custom or system keyboards. KeyboardKit Pro will soon include even more views, such as an improved emoji keyboard.
-
-This means that registering a pro license will unlock even more views.
-
-**This feature is being developed!**
+Licenses are currently purchased over e-mail, using your preferred payment option of choice. Just [send an e-mail](mailto:{{site.email}}) and we'll discuss your needs.

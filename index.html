@@ -3,7 +3,7 @@ layout: plain
 title: Home
 ---
 
-<div class="home">
+<div class="home centered">
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
       <section class="title">
@@ -12,7 +12,7 @@ title: Home
           <p class="usp">
             KeyboardKit lets you create custom keyboards for iOS and iPadOS. It supports a ton of functions and can be styled with custom colors and effects.
           </p>
-          <p class="usp">
+          <p>
             <img src="/assets/devices.png" />
           </p>
           <p>
@@ -39,13 +39,10 @@ title: Home
         <h2>Open Source</h2>
         <img src="/assets/github.png" alt="GitHub logo" title="GitHub" width="100" style="margin-top:20px;" />
         <p>
-          KeyboardKit is open-source and can be used to build your own keyboard apps.
+          KeyboardKit is an open-source library that can be used to build your own keyboard apps.
         </p>
         <p>
-          <ul class="horizontal">
-            <li><a href="/open-source">Read more</a></li>
-            <li><a href="https://github.com/KeyboardKit/KeyboardKit">GitHub</a></li>
-          </ul>
+          <a href="/open-source">Read more</a>
         </p>
       </section>
 
@@ -57,10 +54,7 @@ title: Home
           KeyboardKit Pro is a closed-source library that extends the open-source library with pro features.
         </p>
         <p>
-          <ul class="horizontal">
-            <li><a href="/pro">Read more</a></li>
-            <li><a href="https://github.com/KeyboardKit/KeyboardKitPro">GitHub</a></li>
-          </ul>
+          <a href="/pro">Read more</a>
         </p>
       </section>
 
@@ -72,9 +66,6 @@ title: Home
         {%- include grid.html items=site.data.sponsors type="sponsors" -%}
         <p>
           You can sponsor KeyboardKit on <a href="https://github.com/sponsors/danielsaidi">GitHub</a> or by upgrading to <a href="#pro">Pro</a> or paying for consultation.
-        </p>
-        <p>
-          <a href="mailto:{{site.email}}">Contact us for more information</a>
         </p>
       </section>
     </div>
