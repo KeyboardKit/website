@@ -7,16 +7,11 @@ ul.horizontal {
     display: inline-block;
     margin: 0;
     padding: 0;
+    margin-left: 15px;
   }
 
-  li:before {
-    content: '\2022';
-    margin: 0 5px 0 0;
-  }
-
-  li:first-child:before {
-    content: '';
-    margin: 0px;
+  li:first-child {
+    margin-left: 0px;
   }
 
   .svg-icon {

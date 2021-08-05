@@ -1,0 +1,21 @@
+.hero {
+    background-color: $gray;
+    padding-top: 70px;
+}
+
+.hero-top {
+    height: 30px;
+    background: linear-gradient(to bottom right, #fff 0%, #fff 50%, $gray 50%, $gray 100%);
+}
+
+.hero-bottom-line {
+    height: 100px;
+    margin-top: -250px;
+    background: linear-gradient(to top left, #fff 0%, #fff 50%, $gray 50%, $gray 100%);
+}
+
+.hero-bottom {
+    height: 150px;
+    margin-bottom: -25px;
+    background: #fff;
+}
