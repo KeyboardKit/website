@@ -1,8 +1,10 @@
+$background: #fff;
+$foreground: #111;
 $gray: hsl(230, 8%, 90%);
 
 html, body {
-  color: #111;
-  background-color: #fff;
+  color: $foreground;
+  background-color: $background;
 }
 
 .site-header {
@@ -10,7 +12,7 @@ html, body {
 }
 
 a, a:visited {
-  color: #111;
+  color: $foreground;
   font-weight: bold;
 }
 
