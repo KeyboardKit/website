@@ -14,7 +14,6 @@ html, body {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    
   }
   
   .column {
@@ -37,25 +36,19 @@ html, body {
 
 
 .site-footer {
-  margin-top: 0;
+  margin-top: 30px;
   text-align: center;
-  p { padding: 20px 0; }
-}
 
-a {
-  text-decoration: underline;
-}
-
-footer {
-  margin-top: 50px;
+  p { 
+    margin-top: 20px; 
+  }
 }
 
 
 .site-header, .site-footer {
   border: 0 !important;
   padding-top: 30px;
-  text-align: center;
-  
+
   a {
     font-size: 0.9em;
     text-decoration: none;

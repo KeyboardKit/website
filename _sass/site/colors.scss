@@ -1,5 +1,6 @@
 $background: #fff;
 $foreground: #111;
+$foreground-light: #777;
 $gray: hsl(230, 8%, 90%);
 $box: #f0f0f0;
 
@@ -18,5 +19,5 @@ a, a:visited {
 }
 
 a:hover {
-  color: #555;
+  color: $foreground-light;
 }

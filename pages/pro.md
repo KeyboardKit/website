@@ -19,7 +19,7 @@ Check out the [GitHub repository]({{site.github_repo_pro}}) for more information
 
 KeyboardKit Pro requires a commercial license, which unlocks more features and locales. There are three tiers to choose from, depending on your needs:
 
-{% include grid-licenses.html %}
+{% include grids/licenses.html %}
 
 Licenses are currently purchased over e-mail, using your preferred payment option (Xoom, PayPal etc.). Just [send an e-mail](mailto:{{site.email}}) and we'll discuss your needs.
 

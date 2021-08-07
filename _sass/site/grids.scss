@@ -18,8 +18,9 @@
 
   margin: 30px 0;
   grid-template-columns: repeat(3, 1fr);
+  text-align: center;
 
-  div {
+  .license {
     background-color: $box;
     border-radius: 7px;
     padding: 20px 10px;
@@ -28,7 +29,7 @@
     h2, h3 { margin-top: 0px; }
     h4 { margin: 20px 0 0 0; }
 
-    div {
+    .features {
       padding: 0 10px;
       text-align: left;
       box-shadow: none;
@@ -41,10 +42,8 @@
   }
 }
 
-@media (max-width: 600px) {
-  .grid.grid.licenses { 
+@media (max-width: 800px) {
+  .grid.licenses { 
     grid-template-columns: repeat(1, 1fr);
-    margin-left: 50px;
-    margin-right: 50px;
   }
 }
