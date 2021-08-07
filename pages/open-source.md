@@ -5,15 +5,27 @@ permalink: /open-source
 hero: open-source
 
 description: KeyboardKit is open-source and completely free. You can use KeyboardKit to build your own keyboard apps for iPhone and iPad, using technologies like Swift, SwiftUI and UIKit.
+
+sponsors: https://github.com/sponsors/danielsaidi
 ---
+
+
+## About
 
 KeyboardKit is an open-source library that can be used to build your own custom keyboards for iOS and iPadOS, using technologies like Swift, SwiftUI and UIKit. 
 
-KeyboardKit can be used to create keyboards that mimic Apple's native keyboards, with alphabetic, numeric and symbolic inputs, emojis etc. as well as entirely custom keyboards.
+KeyboardKit can be used to create keyboards that mimic Apple's native keyboards, with alphabetic, numeric and symbolic input sets, emojis etc. You can also create keyboards that only use the logic that KeyboardKit provides, but look completely different.
 
-Checkout the [GitHub repository]({{site.github_repo}}) for more information about features and how to add KeyboardKit to your own projects.
+Check out the [GitHub repository]({{site.github_repo}}) for more information about the library, the features it provides and how to use it in your own apps.
 
 
 ## Contribute
 
-KeyboardKit is completely open-source, which means that you can contribute to the project by sending PRs with new features, bug fixes etc. 
+KeyboardKit is open-source, which means that it's community-driven. Anyone can contribute to the project and submit PRs that you think can make it better.
+
+
+## Support
+
+If you need help or if something isn't working, you can create an issue at the open-source project's [issues page]({{site.github_repo}}/issues). If your problem is critical or specific, we offer [paid support](mailto:{{site.email}}?subject=Support).
+
+You can support KeyboardKit by sponsoring the project on [GitHub]({{page.sponsors}}) and signing up for a [pro](/pro) license. We also offer consultation, if you need help with KeyboardKit or app development in general.
