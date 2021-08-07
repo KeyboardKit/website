@@ -1,6 +1,6 @@
 ---
 layout: page
-title: KeyboardKit Pro
+title: Pro
 permalink: /pro
 hero: pro
 
