@@ -36,6 +36,7 @@ header_pages:
   - index.html
   - pages/open-source.md
   - pages/pro.md
+  - pages/blog.md
 
 collections_dir: collections
 
@@ -48,6 +49,11 @@ collections:
     permalink: /sponsor/:name/
 
 defaults:
+  -
+    scope:
+      type: "pages"
+    values:
+      hero: ""
   -
     scope:
       type: "posts"

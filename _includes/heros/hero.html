@@ -1,4 +1,10 @@
-{% if page.hero != "" %}
+
+
+{% assign size = {{ page.hero | size }} %}
+
+{% if size == 0 %}
+<div style="padding-top: 70px"></div>
+{% else %}
 <section>
     <div class="hero {{ page.hero }}">
         <div class="wrapper">
@@ -8,6 +14,7 @@
                 {% include heros/open-source.html %}
             {% elsif page.hero == "pro" %}
                 {% include heros/pro.html %}
+            {% elsif page.hero == "blog" %}
             {% endif %}
         </div>
         <div class="hero-line"></div>

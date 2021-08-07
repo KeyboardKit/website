@@ -5,6 +5,9 @@ permalink: /privacy-policy
 
 ---
 
+
+# Privacy Policy
+
 This is the privacy policy for the KeyboardKit iOS app (hereby referred to as "the app"). 
 
 This policy explains how we collect and use data in the app.

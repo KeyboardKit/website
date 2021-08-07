@@ -17,11 +17,11 @@ Check out the [GitHub repository]({{site.github_repo_pro}}) for more information
 
 ## Licenses
 
-KeyboardKit Pro requires a commercial license, which unlocks more features and locales. There are three tiers to choose from, depending on your needs:
+KeyboardKit Pro requires a commercial license that unlocks more features and locales. There are three tiers to choose from:
 
 {% include grids/licenses.html %}
 
-Licenses are currently purchased over e-mail, using your preferred payment option (Xoom, PayPal etc.). Just [send an e-mail](mailto:{{site.email}}) and we'll discuss your needs.
+Licenses are currently purchased over e-mail, using your preferred payment option (Xoom, PayPal etc.). Just [send an e-mail](mailto:{{site.email}}?subject=KeyboardKit License) and we'll discuss your needs.
 
 
 ## License Information
