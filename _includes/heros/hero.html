@@ -1,0 +1,16 @@
+{% if page.hero != "" %}
+<section>
+    <div class="hero {{ page.hero }}">
+        <div class="wrapper">
+            {% if page.hero == "home" %}
+                {% include heros/home.html %}
+            {% elsif page.hero == "open-source" %}
+                {% include heros/open-source.html %}
+            {% elsif page.hero == "pro" %}
+                {% include heros/pro.html %}
+            {% endif %}
+        </div>
+        <div class="hero-line"></div>
+    </div>
+</section>
+{% endif %}

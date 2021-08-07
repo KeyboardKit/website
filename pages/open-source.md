@@ -2,16 +2,10 @@
 layout: page
 title: Open Source
 permalink: /open-source
+hero: open-source
 
 description: KeyboardKit is open-source and completely free. You can use KeyboardKit to build your own keyboard apps for iPhone and iPad, using technologies like Swift, SwiftUI and UIKit.
 ---
-
-<div class="centered hero">
-    <h1>Open-Source</h1>
-    <img src="/assets/github.png" alt="GitHub logo" title="GitHub" width="250" />
-</div>
-
-{% include home-link.html %}
 
 KeyboardKit is an open-source library that can be used to build your own custom keyboards for iOS and iPadOS, using technologies like Swift, SwiftUI and UIKit. 
 

@@ -1,78 +1,61 @@
 ---
-layout: plain
+layout: default
 title: Home
+hero: home
 ---
 
 <div class="home centered">
   <main class="page-content" aria-label="Content">
 
-    <section>
-      <div class="hero">
-        <div class="wrapper">
-          <h1>Welcome to KeyboardKit!</h1>
-          <p class="usp">
-            KeyboardKit lets you create custom keyboards for iOS and iPadOS. It supports a ton of functionality and can be styled with custom colors and effects.
-          </p>
-          <p>
-            <img src="/assets/devices.png" />
-          </p>
-        </div>
-        <div class="hero-line"></div>
-      </div>
+    <p>
+      The <a href="#app">app</a> lets you create custom keyboards directly on your iPhone and iPad. If you are a developer, you can use the <a href="#open-source">open-source library</a> and <a href="#pro">Pro extension</a> to create your own apps.
+    </p>
+    
+    <a name="app"></a>
+    <section class="app">
+      <h2>App</h2>
+      <span class="emoji-h2">📱</span>
+      <p>
+        We are building an app that will let you create keyboards directly on your iPhone and iPad.
+      </p>
+      <p>
+        <a href="mailto:{{site.email}}">Contact us for more information</a>
+      </p>
     </section>
 
-    <div class="wrapper">
-
+    <a name="open-source"></a>
+    <section class="open-source">
+      <h2>Open Source</h2>
+      <img src="/assets/github.png" alt="GitHub logo" title="GitHub" width="100" style="margin-top:20px;" />
       <p>
-        The <a href="#app">app</a> lets you create custom keyboards directly on your iPhone and iPad. If you are a developer, you can use the <a href="#open-source">open-source library</a> and <a href="#pro">Pro extension</a> to create your own apps.
+        KeyboardKit is an open-source library that can be used to build your own keyboard apps.
       </p>
-      
-      <a name="app"></a>
-      <section class="app">
-        <h2>App</h2>
-        <span class="emoji-h2">📱</span>
-        <p>
-          We are building an app that will let you create keyboards directly on your iPhone and iPad.
-        </p>
-        <p>
-          <a href="mailto:{{site.email}}">Contact us for more information</a>
-        </p>
-      </section>
+      <p>
+        <a href="/open-source">Read more</a>
+      </p>
+    </section>
 
-      <a name="open-source"></a>
-      <section class="open-source">
-        <h2>Open Source</h2>
-        <img src="/assets/github.png" alt="GitHub logo" title="GitHub" width="100" style="margin-top:20px;" />
-        <p>
-          KeyboardKit is an open-source library that can be used to build your own keyboard apps.
-        </p>
-        <p>
-          <a href="/open-source">Read more</a>
-        </p>
-      </section>
+    <a name="pro"></a>
+    <section class="pro">
+      <h2>KeyboardKit Pro</h2>
+      <span class="emoji-h2">👑</span>
+      <p>
+        KeyboardKit Pro extends the open-source library with pro features.
+      </p>
+      <p>
+        <a href="/pro">Read more</a>
+      </p>
+    </section>
 
-      <a name="pro"></a>
-      <section class="pro">
-        <h2>KeyboardKit Pro</h2>
-        <span class="emoji-h2">👑</span>
-        <p>
-          KeyboardKit Pro extends the open-source library with pro features.
-        </p>
-        <p>
-          <a href="/pro">Read more</a>
-        </p>
-      </section>
-
-      <section class="sponsors">
-        <h2>Sponsors</h2>
-        <p>
-          KeyboardKit is sponsored by the following companies.
-        </p>
-        {%- include grid.html items=site.data.sponsors type="sponsors" -%}
-        <p>
-          You can sponsor KeyboardKit on <a href="https://github.com/sponsors/danielsaidi">GitHub</a> or by upgrading to <a href="#pro">Pro</a> or paying for consultation.
-        </p>
-      </section>
-    </div>
+    <section class="sponsors">
+      <h2>Sponsors</h2>
+      <p>
+        KeyboardKit is sponsored by the following companies.
+      </p>
+      {%- include grid.html items=site.data.sponsors type="sponsors" -%}
+      <p>
+        You can sponsor KeyboardKit on <a href="https://github.com/sponsors/danielsaidi">GitHub</a> or by upgrading to <a href="#pro">Pro</a> or paying for consultation.
+      </p>
+    </section>
   </main>
 </div>

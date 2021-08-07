@@ -2,15 +2,10 @@
 layout: page
 title: KeyboardKit Pro
 permalink: /pro
+hero: pro
+
 description: KeyboardKit Pro extends KeyboardKit with pro features.
 ---
-
-<div class="centered hero">
-    <h1>KeyboardKit Pro</h1>
-    <div class="emoji-h1">👑</div>
-</div>
-
-{% include home-link.html %}
 
 KeyboardKit Pro is a closed-source library that extends the [KeyboardKit](/open-source) open source library with pro features like additional locales, a multi-local autocomplete engine, more views etc.
 
