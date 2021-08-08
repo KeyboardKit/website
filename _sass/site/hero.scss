@@ -1,5 +1,5 @@
 .hero {
-    background-color: $gray;
+    background-color: $hero-background;
     text-align: center;
     padding-top: 50px;
 
@@ -20,7 +20,7 @@
 
 .hero-line {
     height: 100px;
-    background: linear-gradient(to top left, #fff 0%, #fff 50%, $gray 50%, $gray 100%);
+    background: linear-gradient(to top left, $background 0%, $background 50%, $hero-background 50%, $hero-background 100%);
     margin-top: -70px;
     margin-bottom: 30px;
 }

@@ -1,7 +1,7 @@
 $background: #fff;
 $foreground: #111;
 $foreground-light: #777;
-$gray: hsl(230, 8%, 90%);
+$hero-background: hsl(230, 8%, 90%);
 $box: #f0f0f0;
 
 html, body {
@@ -10,12 +10,11 @@ html, body {
 }
 
 .site-header {
-  background-color: $gray;
+  background-color: $hero-background;
 }
 
 a, a:visited {
   color: $foreground;
-  font-weight: bold;
 }
 
 a:hover {
