@@ -1,7 +1,7 @@
 .hero {
     background-color: $hero-background;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
 
     p { 
         font-weight: 600 !important;
@@ -20,7 +20,7 @@
 
 .hero-line {
     height: 100px;
-    background: linear-gradient(to top left, $background 0%, $background 50%, $hero-background 50%, $hero-background 100%);
+    background: linear-gradient(to top left, $background 0%, $background 50%, transparent 50%, transparent 100%) !important;
     margin-top: -70px;
     margin-bottom: 30px;
 }
@@ -28,7 +28,7 @@
 .home {
 
     .hero-line {
-        margin-top: -200px;
-        margin-bottom: 150px;
+        margin-top: -180px;
+        margin-bottom: 120px;
     }
 }
