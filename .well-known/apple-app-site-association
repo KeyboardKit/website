@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps":[],
+        "details": [
+            {
+                "appID": "PMEDFW438U.com.keyboardkit.app",
+                "paths": ["/data?=*"]
+            }
+        ]
+    }
+}
