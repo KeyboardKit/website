@@ -27,7 +27,6 @@ github_username: KeyboardKit
 twitter_url: https://twitter.com/GetKeyboardKit
 twitter_username: KeyboardKitApp
 
-
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
@@ -65,6 +64,9 @@ defaults:
       type: "sponsors"
     values:
       layout: "sponsor"
+
+include:
+  - .well-known/
 
 exclude:
   - Gemfile
