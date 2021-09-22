@@ -43,7 +43,7 @@ We have had several exciting client projects, where we have implemented Keyboard
 
 ## KeyboardKit 5
 
-WIth KeyboardKit 4, focus shifted from UIKit to SwiftUI. The next step will be to bump the library to 5.0, where all UIKit-specific things will be removed along with a lot of deprecated functionality.
+With KeyboardKit 4, focus shifted from UIKit to SwiftUI. The next step will be to bump the library to 5.0, where all UIKit-specific things will be removed along with a lot of deprecated functionality.
 
 You will still be able to use UIKit when creating custom keyboards with KeyboardKit, but the library will not include UIKit-specific views or extensions. We will happily link to any community-driven projects for this.
 
