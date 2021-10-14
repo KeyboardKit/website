@@ -4,7 +4,7 @@ date:   2021-10-06 23:00:00 +0100
 tags:   general
 ---
 
-The KeyboardKit 5.0 RC is out! This post will explain what to expect when upgrading your apps to the RC or running the latest demo, as well as when 5.0 can expect to launch.
+The KeyboardKit 5.0 RC is out! This post explains what to expect when upgrading your apps to the RC or running the latest demo, as well as when 5.0 can expect to launch.
 
 
 ## Biggest changes
