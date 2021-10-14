@@ -26,6 +26,8 @@ KeyboardKit is open-source, which means that it's community-driven. Anyone can c
 
 ## Support
 
-If you need help or if something isn't working, you can create an issue at the open-source project's [issues page]({{site.github_repo}}/issues). If your problem is critical or specific, we offer [paid support](mailto:{{site.email}}?subject=Support).
+If you need help or if something isn't working, you can create an issue at the open-source project's [issues page]({{site.github_repo}}/issues). If your problem is critical or specific to your app, [reach out for paid support](mailto:{{site.email}}?subject=Support).
 
-You can support KeyboardKit by sponsoring the project on [GitHub]({{page.sponsors}}) and signing up for a [pro](/pro) license. We also offer consultation, if you need help with KeyboardKit or app development in general.
+You can also support KeyboardKit by sponsoring [the GitHub project]({{page.sponsors}}) and signing up for a [KeyboardKit Pro](/pro) license. This really helps this project going.
+
+Finally don't hesistate to [reach out](mailto:{{site.email}}?subject=Support) for consultation, if you need help with KeyboardKit or app development in general.
