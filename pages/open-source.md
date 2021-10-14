@@ -12,22 +12,20 @@ sponsors: https://github.com/sponsors/danielsaidi
 
 ## About
 
-KeyboardKit is an open-source library that can be used to build your own custom keyboards for iOS and iPadOS, using technologies like Swift, SwiftUI and UIKit. 
+KeyboardKit is an open-source library that can be used to build your own custom keyboards for iOS and iPadOS, using technologies like Swift, SwiftUI and UIKit.
 
-KeyboardKit can be used to create keyboards that mimic Apple's native keyboards, with alphabetic, numeric and symbolic input sets, emojis etc. You can also create keyboards that only use the logic that KeyboardKit provides, but look completely different.
+KeyboardKit extends your extension with powerful features and can be used to create keyboards that mimic Apple's native keyboards, as well as completely custom keyboards.
 
 Check out the [GitHub repository]({{site.github_repo}}) for more information about the library, the features it provides and how to use it in your own apps.
 
 
-## Contribute
+## Community
 
-KeyboardKit is open-source, which means that it's community-driven. Anyone can contribute to the project and submit PRs that you think can make it better.
+KeyboardKit is open-source, which means that it's community-driven. Anyone can contribute to the project, create issues and submit PRs that you think can make it better.
 
 
 ## Support
 
-If you need help or if something isn't working, you can create an issue at the open-source project's [issues page]({{site.github_repo}}/issues). If your problem is critical or specific to your app, [reach out for paid support](mailto:{{site.email}}?subject=Support).
+KeyboardKit is open-source and completely free, but any financial support is greatly appreciated to keep the project going.
 
-You can also support KeyboardKit by sponsoring [the GitHub project]({{page.sponsors}}) and signing up for a [KeyboardKit Pro](/pro) license. This really helps this project going.
-
-Finally don't hesistate to [reach out](mailto:{{site.email}}?subject=Support) for consultation, if you need help with KeyboardKit or app development in general.
+You can support KeyboardKit by sponsoring [the GitHub project]({{page.sponsors}}) and signing up for a [Pro](/pro) license. You are also welcome to [reach out](mailto:{{site.email}}?subject=Support) for paid consultation, if you need help with the library, to build a custom keyboard or app development in general.
