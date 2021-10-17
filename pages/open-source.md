@@ -19,6 +19,15 @@ KeyboardKit extends your extension with powerful features and can be used to cre
 Check out the [GitHub repository]({{site.github_repo}}) for more information about the library, the features it provides and how to use it in your own apps.
 
 
+## Locales
+
+KeyboardKit comes with support for the following locales:
+
+{% include locales.html %}
+
+This support includes locale information and localized strings. For localized input sets, keyboard layouts and secondary input actions, [KeyboardKit Pro](/pro) has you covered.
+
+
 ## Community
 
 KeyboardKit is open-source, which means that it's community-driven. Anyone can contribute to the project, create issues and submit PRs that you think can make it better.

@@ -50,11 +50,11 @@ Previously purchased licenses will renew at the original price of purchase, so m
 
 ## Locales
 
-KeyboardKit Pro provides ready to use implementations for all available locales:
+KeyboardKit Pro provides complete keyboard support for all available locales:
 
 {% include locales.html %}
 
-This means that for each locale you add to your license, KeyboardKit Pro will unlock a fully implemented input set, keyboard layout and secondary input actions for that locale.
+This means that KeyboardKit Pro unlocks a fully implemented input set, keyboard layout and secondary input actions for each locale.
 
 
 ## Local autocomplete
