@@ -21,9 +21,7 @@ KeyboardKit Pro requires a commercial license that unlocks more features and loc
 
 {% include grids/licenses.html %}
 
-Licenses are currently purchased over e-mail, using your preferred payment option (Xoom, PayPal etc.). Just [send an e-mail](mailto:{{site.email}}?subject=KeyboardKit License) and we'll discuss your needs.
-
-*Note: Prices will be adjusted at October 31. If you already signed up for a license, your price will stay the same forever. Read more below.*
+Licenses are currently purchased over e-mail, using your preferred payment option (Bank Transfer, Xoom etc.). Just [send an e-mail](mailto:{{site.email}}?subject=KeyboardKit License) and we'll discuss your needs.
 
 
 ## License Information
@@ -35,17 +33,6 @@ Licenses are valid for **one year**. After expiration, you can continue to use a
 Expired licenses don't affect shipped apps. They will continue to function after the license expires. You will however need to renew expired licenses to ship new versions of your apps.
 
 Licenses will renew at the price that was in effect when the license was purchased. This means that no purchased licenses will be affected by future price adjustments.
-
-
-## Upcoming Price Adjustments
-
-After 6 months of KeyboardKit Pro, with a lot more features added since launch, the KeyboardKit Pro license prices will be adjusted at October 31. 
-
-After the price change, a **Basic** license will be **$500** and a **Silver** license **$750**. The **Gold** license will stay at **$1000**, making it the best value with all locales unlocked. 
-
-Due to this adjustment, Basic licenses have been extended with access to remote autocomplete. This change is already in effect in KeyboardKit 5.0, so you can start using it right away.
-
-Previously purchased licenses will renew at the original price of purchase, so make sure to sign up before October 31 to get an amazing deal for the entire lifespan of your app.
 
 
 ## Locales
