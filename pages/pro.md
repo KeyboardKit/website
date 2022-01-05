@@ -10,7 +10,7 @@ description: KeyboardKit Pro extends KeyboardKit with pro features.
 
 ## About
 
-KeyboardKit Pro is a closed-source library that extends the [open source library](/open-source) with pro features like additional locales, a multi-local autocomplete engine etc.
+KeyboardKit Pro is a closed-source library that extends the [open source library](/open-source) with pro features like localized system keyboards, autocomplete engines etc.
 
 Check out the [GitHub repository]({{site.github_repo_pro}}) for more information about the library, the features it provides and how to use it in your own apps.
 
@@ -26,13 +26,13 @@ Licenses are currently purchased over e-mail, using your preferred payment optio
 
 ## License Information
 
-Licenses are valid for **one app** (app plus keyboard extension). Additional bundle IDs can be added to a license at a 50% discount of the current price.
+Licenses are valid for **one app** (app plus keyboard extension). Additional apps can be added to a license at a 50% discount per additional app.
 
-Licenses are valid for **one year**. After expiration, you can continue to use any versions that were released during your license's validity period.
+Licenses are valid for **one year**. After expiration, you can continue to use all versions that were released during your license's validity period.
 
-Expired licenses don't affect shipped apps. They will continue to function after the license expires. You will however need to renew expired licenses to ship new versions of your apps.
+Expired licenses don't affect shipped apps. Apps will continue to function after the license expires. You will however need to renew your license to ship new app versions.
 
-Licenses will renew at the price that was in effect when the license was purchased. This means that no purchased licenses will be affected by future price adjustments.
+Licenses will renew at the price that was in effect when the license was purchased. This means that licenses are not affected by future price adjustments.
 
 
 ## Locales
@@ -46,11 +46,22 @@ This means that KeyboardKit Pro unlocks a fully implemented input set, keyboard 
 
 ## Local autocomplete
 
-The local autocomplete engine is currently not predictable, which means that it will autocomplete the current word, but not predict new words based on previously typed text.
+KeyboardKit Pro unlocks a local autocomplete engine that provides basic autocomplete suggestions as the user types on the keyboard.
+
+The local autocomplete engine is currently not predictable. It will autocomplete the currently typed word, but not predict new words based on previously typed text.
 
 
 ## Remote autocomplete
 
-The remote autocomplete provider engine lets you connect your keyboard to a remote provider, such as an external API och web service.
+KeyboardKit Pro unlocks a remote autocomplete engine that lets you connect your keyboard to a remote autocomplete service, such as an external API or web service.
 
-Remote autocomplete makes it possible to provide more powerful suggestions and predictions, since the memory limit of iOS extensions doesn't limit the remote engine. However, remote autocomplete requires full access and an Internet connection.
+Remote autocomplete makes it possible to provide more powerful suggestions and predictions, since iOS extensions limit how much memory your autocomplete engine can consume.
+
+Remote autocomplete also makes it possible to adjust and improve the autocomplete capabilities without having to ship new versions of the app. 
+
+ However, remote autocomplete requires full access and an Internet connection, so it may be a good idea to combine local and remote autocomplete whenever possible.
+
+
+## Additional Views
+
+KeyboardKit Pro adds a bunch of additional views. Check the documentation for more information.
