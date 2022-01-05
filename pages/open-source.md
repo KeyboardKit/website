@@ -12,9 +12,9 @@ sponsors: https://github.com/sponsors/danielsaidi
 
 ## About
 
-KeyboardKit is an open-source library that can be used to build your own custom keyboards for iOS and iPadOS, using technologies like Swift, SwiftUI and UIKit.
+KeyboardKit is an open-source library that can be used to build your own custom keyboards for iOS and iPadOS, using technologies like Swift and SwiftUI.
 
-KeyboardKit extends your extension with powerful features and can be used to create keyboards that mimic Apple's native keyboards, as well as completely custom keyboards.
+KeyboardKit extends your extension with powerful features that can be used to create keyboards that mimic native iOS keyboards as well as completely custom keyboards.
 
 Check out the [GitHub repository]({{site.github_repo}}) for more information about the library, the features it provides and how to use it in your own apps.
 
@@ -25,7 +25,7 @@ KeyboardKit comes with support for the following locales:
 
 {% include locales.html %}
 
-This support includes locale information and localized strings. For localized input sets, keyboard layouts and secondary input actions, [KeyboardKit Pro](/pro) has you covered.
+This support includes locale information and localized strings. For completely localized system keyboards, input sets, keyboard layouts and callout actions, [KeyboardKit Pro](/pro) has you covered.
 
 
 ## Community
@@ -37,4 +37,4 @@ KeyboardKit is open-source, which means that it's community-driven. Anyone can c
 
 KeyboardKit is open-source and completely free, but any financial support is greatly appreciated to keep the project going.
 
-You can support KeyboardKit by sponsoring [the GitHub project]({{page.sponsors}}) and signing up for a [Pro](/pro) license. You are also welcome to [reach out](mailto:{{site.email}}?subject=Support) for paid consultation, if you need help with the library, to build a custom keyboard or app development in general.
+You can support KeyboardKit by sponsoring [the GitHub project]({{page.sponsors}}) and signing up for a [Pro](/pro) license. You are also welcome to [reach out](mailto:{{site.email}}?subject=Support) for paid consultation.
