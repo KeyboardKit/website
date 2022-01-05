@@ -4,11 +4,11 @@ date:   2022-01-03 12:00:00 +0100
 tags:   general
 ---
 
-KeyboardKit 5.5 is out, with RTL support! 🚀 5.5 adds support for 🇦🇪 Arabic, 🇹🇯 Kurdish Sorani and 🇮🇷 Persian.
+KeyboardKit 5.5 is out! 🚀 It adds overall RTL support and support for 🇦🇪 Arabic, 🇹🇯 Kurdish Sorani and 🇮🇷 Persian.
 
-As is always the case with new locales, KeyboardKit adds a new keyboard locale as well as localized content for the new locales. KeyboardKit Pro then adds full system keyboard support for all new locales.
+As with all new locales, KeyboardKit adds new keyboard locales as well as localized strings for the new locales, after which KeyboardKit Pro adds full system keyboard support for all new locales.
 
-This means that with KeyboardKit alone, you can create new keyboards that can use the localized content of all available locales. If you add KeyboardKit Pro to the mix, you can create complete system keyboards that mimic the native keyboards, together with native features like secondary input action callouts.
+This means that KeyboardKit lets you create keyboards that can use the localized content of all available locales, while KeyboardKit Pro lets you create complete system keyboards that mimic native keyboards.
 
 RTL support has involved some behavioral changes in the library, where some images are changed to conform to RTL keyboards. Other than that, the keyboard layout direction is still LTR, which means that you keep defining your keyboards as you've always done.
 
