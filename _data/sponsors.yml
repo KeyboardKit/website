@@ -1,11 +1,14 @@
 - name: Oribi
   url:  https://www.oribi.se/en
   
-- name: Milo Creative
-  url:  https://www.milocreative.com
+- name: phonetoroam
+  url:  https://www.phonetoroam.com
+  
+- name: Vitalis
+  url:  https://vitalisapps.com
   
 - name: Anomaly
   url:  https://www.anomaly.net.au
   
-- name: phonetoroam
-  url:  https://www.phonetoroam.com
+- name: Milo Creative
+  url:  https://www.milocreative.com
