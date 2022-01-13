@@ -10,7 +10,7 @@ description: KeyboardKit Pro extends KeyboardKit with pro features.
 
 ## About
 
-KeyboardKit Pro is a closed-source library that extends the [open source library](/open-source) with pro features like localized system keyboards, autocomplete engines etc.
+KeyboardKit Pro is a closed-source library that extends the [open source library](/open-source) with pro features like fully localized system keyboards, input sets, callout actions, local and remote autocomplete etc.
 
 Check out the [GitHub repository]({{site.github_repo_pro}}) for more information about the library, the features it provides and how to use it in your own apps.
 
