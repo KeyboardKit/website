@@ -21,7 +21,7 @@ Check out the [GitHub repository]({{site.github_repo}}) for more information abo
 
 ## Locales
 
-KeyboardKit comes with support for 39 locales:
+KeyboardKit comes with support for <b>50</b> locales:
 
 {% include locales.html %}
 
