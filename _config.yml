@@ -34,6 +34,7 @@ plugins:
 
 header_pages:
   - index.html
+  - pages/locales.md
   - pages/open-source.md
   - pages/pro.md
   - pages/blog.md

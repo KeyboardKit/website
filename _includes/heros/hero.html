@@ -1,5 +1,3 @@
-
-
 {% assign size = {{ page.hero | size }} %}
 
 {% if size == 0 %}
@@ -10,6 +8,8 @@
         <div class="wrapper">
             {% if page.hero == "home" %}
                 {% include heros/home.html %}
+            {% elsif page.hero == "locales" %}
+                {% include heros/locales.html %}
             {% elsif page.hero == "open-source" %}
                 {% include heros/open-source.html %}
             {% elsif page.hero == "pro" %}
