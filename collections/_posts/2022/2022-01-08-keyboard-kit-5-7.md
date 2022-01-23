@@ -4,7 +4,7 @@ date:   2022-01-08 12:00:00 +0100
 tags:   general
 ---
 
-KeyboardKit 5.7 is out! 🚀 It adds support for for 🇧🇾 Belarusian, 🇨🇿 Czech and 🇷🇴 Romanian, adjust emoji keyboard styles on iPad and much more.
+KeyboardKit 5.7 is out! 🚀 It adds support for 🇧🇾 Belarusian, 🇨🇿 Czech and 🇷🇴 Romanian, adjust emoji keyboard styles on iPad and much more.
 
 To explain what adding new locales mean, KeyboardKit adds new keyboard locales as well as localized strings, after which KeyboardKit Pro adds full system keyboard support for all new locales. This means that with KeyboardKit, you get access to the locales and their localized content, while KeyboardKit Pro lets you create system keyboards for the locales.
 

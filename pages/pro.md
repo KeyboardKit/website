@@ -28,6 +28,8 @@ Licenses are currently purchased using your preferred method of payment (Bank Tr
 
 Licenses are valid for **one app** (app plus keyboard extension). Additional apps can be added to a license at a 50% discount per additional app.
 
+Gold licenses can be extended to support **tvOS** and **watchOS**, with support for **macOS** coming in 6.0. Additional platforms can be added to a license at a 50% discount per platform.
+
 Licenses are valid for **one year**. After your license expires, you can continue to use all versions that were released during your license's validity period.
 
 Expired licenses don't affect shipped apps. Apps will continue to function after the license expires. You will however need to renew your license to ship new app versions.
@@ -35,14 +37,16 @@ Expired licenses don't affect shipped apps. Apps will continue to function after
 Licenses will renew at the price that was in effect when the license was purchased. This means that licenses are not affected by future price adjustments.
 
 
-## Locales
+## Features
 
-KeyboardKit Pro provides localized keyboard support for all locales that come with the library, including localized input sets and callout actions.
+### Locale-specific features
 
-This means that a KeyboardKit Pro license unlock the locales that your license includes and lets you create system keyboards in those locales.
+KeyboardKit Pro unlocks locale-specific features, including localized system keyboards, input sets and callout actions.
+
+This means that with KeyboardKit Pro, you can create a complete system keyboard in any locale that your license includes, with a single line of code.
 
 
-## Local autocomplete
+### Local autocomplete
 
 KeyboardKit Pro unlocks a local autocomplete engine that provides basic autocomplete suggestions as the user types.
 
