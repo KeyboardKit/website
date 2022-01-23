@@ -12,7 +12,7 @@ sponsors: https://github.com/sponsors/danielsaidi
 
 ## About
 
-KeyboardKit comes with support for <b>{% include locales-count.html %}</b> locales, with more locales added over time:
+KeyboardKit comes with support for <b>{% include locales-count.html %}</b> locales, with more being added over time:
 
 {% include locales.html %}
 
