@@ -26,15 +26,11 @@ Licenses are currently purchased using your preferred method of payment (Bank Tr
 
 ## License Information
 
-Licenses are valid for **one app** (app plus keyboard extension). Additional apps can be added at a 50% discount per additional app.
+Licenses are valid for **one year**. After your license expires, you can continue to use all versions that were released during the license’s validity period.
 
-Gold licenses can be extended to support **tvOS** and **watchOS**, with support for **macOS** coming in 6.0. Additional platforms can be added at a 50% discount per platform.
+Licenses are valid for **one app** and keyboard extension. Additional apps can be added to a license at a 50% discount per additional app.
 
-Licenses are valid for **one year**. After your license expires, you can continue to use all versions that were released during your license's validity period.
-
-Expired licenses don't affect shipped apps. Apps will continue to function after the license expires. You will however need to renew your license to ship new version of your app.
-
-Licenses will renew at the price that was in effect when the license was purchased. This means that licenses are not affected by future price adjustments.
+Gold licenses can be extended to support **tvOS** and **watchOS**. Additional platforms can be added to a license at a 50% discount per additional platform.
 
 
 ## Features
@@ -43,25 +39,21 @@ Licenses will renew at the price that was in effect when the license was purchas
 
 KeyboardKit Pro unlocks locale-specific features, including localized system keyboards, input sets and callout actions.
 
-This means that with KeyboardKit Pro, you can create a complete system keyboard in any locale that your license includes, with a single line of code.
+This means that with KeyboardKit Pro, you can create a system keyboard in any locale that your license includes with a single line of code.
 
 
 ### Local autocomplete
 
-KeyboardKit Pro unlocks a local autocomplete engine that provides suggestions as the user types.
-
-The local autocomplete engine is currently not predictable and can not predict new words based on previously typed text.
+KeyboardKit Pro unlocks a local autocomplete engine that provides suggestions as the user types. This engine is currently not predictable.
 
 Have a look at the demo app in the [GitHub repository]({{site.github_repo}}) to see local autocomplete in action.
 
 
 ### Remote autocomplete
 
-KeyboardKit Pro unlocks a remote autocomplete engine that lets you connect your keyboard to a remote web API or web service.
+KeyboardKit Pro unlocks a remote autocomplete engine that lets you connect your keyboard to any remote autocomplete API or web service.
 
-Remote autocomplete makes it possible to provide more powerful suggestions and predictions and also makes it possible to adjust the behavior without having to ship new versions of the app. 
-
-Remote autocomplete requires full access and an Internet connection, so it may be a good idea to combine local and remote autocomplete whenever possible.
+Remote autocomplete makes it possible to provide more powerful suggestions and makes it possible to adjust the autocomplete without having to ship new versions of the app.
 
 
 ### Additional Views
