@@ -9,9 +9,9 @@ KeyboardKit 6.0 is just around the corner! This post explains what to expect in 
 
 ## No new locales
 
-One of the big goals with KeyboardKit 5, was to get the keyboard layout engine as good as possible, to make adding new locales easy. As a result, KeyboardKit now supports <b>{% include locales-count.html %}</b> locales, with more locales being added over time.
+One of the big goals with KeyboardKit 5 was to improve the keyboard layout, to make it easier to add new locales. As a result, KeyboardKit now supports <b>{% include locales-count.html %}</b> locales, with more added over time.
 
-KeyboardKit 6.0 will not add any new locales, but will instead remove a lot of old, deprecated code and make sure that the library is clean and easy to use. More locales will be added as minor updates.
+KeyboardKit 6.0 will not add any new locales, but will instead remove a lot of deprecated code and make sure that the library is clean and easy to use. More locales will be added as minor updates.
 
 
 ## macOS support
@@ -33,14 +33,12 @@ First of all, since the two libraries are released separately, there is nothing 
 
 Second, since KeyboardKit Pro is compiled with a KeyboardKit dependency, adding it means that you will import some symbols twice, which will cause annoying warning messages.
 
-To fix this, KeyboardKit Pro will (most probably) become a standalone library that includes KeyboardKit instead of depending on it.
-
-This means that you will just have to add a single dependency to your app, and that the duplicate import warnings will disappear.
+To fix this, KeyboardKit Pro will (most probably) become a standalone library and include KeyboardKit instead of depending on it. This means that you will just have to add a single dependency and that the duplicate symbol warnings will disappear.
 
 
 ## Conclusion
 
-KeyboardKit 6.0 will not add any drastic new features, but will remove deprecated logic and aim to harmonize things, improve styling and make things nice. macOS support will let you use KeyboardKit on all platforms, and a standalone KeyboardKit Pro means more stability.
+KeyboardKit 6.0 will not add any drastic new features, but will remove deprecated logic and aim to harmonize the public APIs. macOS support will let you use KeyboardKit on all platforms, and a standalone KeyboardKit Pro library will hopefully mean more stability.
 
 KeyboardKit 6.0 will be released later in February.
 
