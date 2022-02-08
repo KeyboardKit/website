@@ -30,7 +30,7 @@ Licenses are valid for **one year**. After your license expires, you can continu
 
 Licenses are valid for **one app** and keyboard extension. Additional apps can be added to a license at a 50% discount per additional app.
 
-Gold licenses can be extended to support **tvOS** and **watchOS**. Additional platforms can be added to a license at a 50% discount per additional platform.
+Gold licenses can be extended to support **tvOS**, **watchOS** and **macOS**. Additional platforms can be added to a license at a 50% discount per additional platform.
 
 
 ## Features
@@ -39,7 +39,7 @@ Gold licenses can be extended to support **tvOS** and **watchOS**. Additional pl
 
 KeyboardKit Pro unlocks locale-specific features, including localized system keyboards, input sets and callout actions.
 
-This means that with KeyboardKit Pro, you can create a system keyboard in any locale that your license includes with a single line of code.
+This means that with KeyboardKit Pro, you can create a system keyboard in any keyboardlocale that your license includes with a single line of code.
 
 
 ### Local autocomplete
