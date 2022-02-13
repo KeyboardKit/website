@@ -21,7 +21,7 @@ KeyboardKit Pro requires a commercial license that unlocks more features and loc
 
 {% include grids/licenses.html %}
 
-Licenses are currently purchased using your preferred method of payment (Bank Transfer, Xoom etc.). Just [send an e-mail](mailto:{{site.email}}?subject=KeyboardKit License) and we'll discuss your needs.
+Licenses are purchased using your preferred method of payment (Bank Transfer, Xoom etc.). Just [send an e-mail](mailto:{{site.email}}?subject=KeyboardKit License) and we'll discuss your needs.
 
 
 ## License Information
@@ -39,7 +39,7 @@ Gold licenses can be extended to support **tvOS**, **watchOS** and **macOS**. Ad
 
 KeyboardKit Pro unlocks locale-specific features, including localized system keyboards, input sets and callout actions.
 
-This means that with KeyboardKit Pro, you can create a system keyboard in any keyboardlocale that your license includes with a single line of code.
+This means that with KeyboardKit Pro, you can create a system keyboard in any locale that your license includes with a single line of code.
 
 
 ### Local autocomplete
@@ -53,7 +53,7 @@ Have a look at the demo app in the [GitHub repository]({{site.github_repo}}) to 
 
 KeyboardKit Pro unlocks a remote autocomplete engine that lets you connect your keyboard to any remote autocomplete API or web service.
 
-Remote autocomplete makes it possible to provide more powerful suggestions and makes it possible to adjust the autocomplete without having to ship new versions of the app.
+Remote autocomplete makes it possible to provide more powerful suggestions and to adjust the autocomplete without having to ship new versions of the app.
 
 
 ### Additional Views
