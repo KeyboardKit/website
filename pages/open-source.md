@@ -28,4 +28,4 @@ KeyboardKit is open-source, which means that it's community-driven. Anyone can c
 
 KeyboardKit is open-source and completely free, but any financial support is greatly appreciated.
 
-You can support KeyboardKit by sponsoring [the GitHub project]({{page.sponsors}}), upgrading to [Pro](/pro) or paying for consultation. Please [reach out](mailto:{{site.email}}?subject=Support) for more information.
+You can support KeyboardKit by sponsoring [the GitHub project]({{page.sponsors}}), upgrading to [Pro](/pro) or paying for support and consultation. Please [reach out](mailto:{{site.email}}?subject=Support) for more information.
