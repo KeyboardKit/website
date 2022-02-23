@@ -4,7 +4,7 @@ title: Locales
 permalink: /locales
 hero: locales
 
-description: KeyboardKit supports.
+description: KeyboardKit comes with support for 50+ locales, with more being added over time.
 
 sponsors: https://github.com/sponsors/danielsaidi
 ---
