@@ -12,7 +12,7 @@ sponsors: https://github.com/sponsors/danielsaidi
 
 ## About
 
-KeyboardKit is an open-source library that can be used to build your own custom keyboards for iOS and iPadOS, using technologies like **Swift** and **SwiftUI**.
+KeyboardKit is an open-source library that can be used to build your own custom keyboards, using technologies like **Swift** and **SwiftUI**.
 
 KeyboardKit extends your keyboard extension with powerful features that can be used to create keyboards that mimic native iOS keyboards as well as completely custom keyboards.
 
