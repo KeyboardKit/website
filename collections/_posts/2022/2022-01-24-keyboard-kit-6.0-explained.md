@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit 6.0 explained
 date:   2022-01-24 12:00:00 +0100
-tags:   general
+tags:   general localization macos
 ---
 
 KeyboardKit 6.0 is just around the corner! This post explains what to expect in this major bump.
@@ -41,5 +41,3 @@ To fix this, KeyboardKit Pro will (most probably) become a standalone library an
 KeyboardKit 6.0 will not add any drastic new features, but will remove deprecated logic and aim to harmonize the public APIs. macOS support will let you use KeyboardKit on all platforms, and a standalone KeyboardKit Pro library will hopefully mean more stability.
 
 KeyboardKit 6.0 will be released later in February.
-
-

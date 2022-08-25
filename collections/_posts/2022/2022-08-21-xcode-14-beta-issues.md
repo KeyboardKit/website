@@ -1,7 +1,7 @@
 ---
 title:  Xcode 14 beta issues
 date:   2022-08-21 08:00:00 +0100
-tags:   swift spm
+tags:   xcode spm
 ---
 
 For those of you who are using KeyboardKit Pro, fetching the latest version with the lastest Xcode 14 betas may cause problems.
