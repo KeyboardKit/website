@@ -1,15 +1,15 @@
 ---
 title:  KeyboardKit 6.2
-date:   2022-08-27 08:00:00 +0100
+date:   2022-08-26 08:00:00 +0100
 tags:   releases autocomplete
 ---
 
-KeyboardKit 6.2 is out, with a bunch of new emojis, input set improvements and more improvements made to the standard KeyboardKit Pro autocomplete provider.
+KeyboardKit 6.2 is out, with a bunch of new emojis, input set updates and more improvements made to the standard KeyboardKit Pro autocomplete provider.
 
 
 ## Emojis
 
-KeyboardKit 6.2 adds a bunch of new emojis, which have been added in later versions of iOS without being added to KeyboardKit. The reason for delaying, is that there is currently no way to add a platform version for an emoji, which means that we lack this information. 
+KeyboardKit 6.2 adds a bunch of new emojis, which have been added in later versions of iOS without being added to KeyboardKit. The reason for delaying keeping the KeyboardKit emoji list in sync with the various platforms, is that there is currently no way to add a platform version to an emoji. This means that we lack this information and can't filter out emojis that aren't supported on a certain device.
 
 Adding emojis too early to the KeyboardKit emoji keyboards would thus mean that a bunch of users would most probably have empy gaps where their iOS version lacks added emojis. While delaying doesn't guarantee that all users will be able to see all emojis, the risk is however smaller the longer we wait.
 
@@ -21,7 +21,7 @@ To make it even easier to create localized input sets, the various locale-specif
 
 ## Input set variations
 
-Thanks to the change above, KeyboardKit can now start offering input set variations, such as English AZERTY, QWERTZ etc. The input set providers that support variations now accept a custom alphabetic input set, which means that you can insert `englishAzerty` into an English input set provider to get an AZERTY keyboard.
+Thanks to the change above, KeyboardKit can now start offering input set variations, such as English AZERTY, QWERTZ etc. The input set providers that support variations now accept a custom alphabetic input set, which means that you can create an English input set provider with an "englishAzerty" input set to get an AZERTY keyboard.
 
 
 ## Autocomplete
