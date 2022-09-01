@@ -19,11 +19,6 @@ Adding emojis too early to the KeyboardKit emoji keyboards would thus mean that 
 To make it even easier to create localized input sets, the various locale-specific alphabetic, numeric and symbolic input sets can now be accessed as extensions on the input set types, instead of having to create an input set provider.
 
 
-## Input set variations
-
-Thanks to the change above, KeyboardKit can now start offering input set variations, such as English AZERTY, QWERTZ etc. The input set providers that support variations now accept a custom alphabetic input set, which means that you can create an English input set provider with an "englishAzerty" input set to get an AZERTY keyboard.
-
-
 ## Autocomplete
 
 The standard autocomplete provider's case handling has been improved further, and will handle suggestions differently depending on where they come from. Suggestions from your contacts will be prioritized lower than locale-specific ones.
