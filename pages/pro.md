@@ -4,15 +4,15 @@ title: Pro
 permalink: /pro
 hero: pro
 
-description: KeyboardKit Pro extends KeyboardKit with pro features.
+description: KeyboardKit Pro extends KeyboardKit with 50+ locales, localized system keyboards, on-device and remote autocomplete etc.
 ---
 
 
 ## About
 
-KeyboardKit Pro is a closed-source library that extends the [open source library](/open-source) with pro features like localized system keyboards, input sets, callout actions, local and remote autocomplete etc.
+KeyboardKit Pro extends [KeyboardKit](/open-source) with 50+ locales, localized system keyboards, input sets and callout actions, as well as on-device and remote autocomplete, a bunch of new views etc. It lets you create a localized system keyboard in a single line of code.
 
-Check out the [GitHub repository]({{site.github_repo_pro}}) for more information about the library, the features it provides and how to use it in your app.
+Check out the [GitHub repository]({{site.github_repo_pro}}) for more information about KeyboardKit Pro, the features that it provides and how to use it in your app.
 
 
 ## Licenses
@@ -21,7 +21,7 @@ KeyboardKit Pro requires a commercial license that unlocks more features and loc
 
 {% include grids/licenses.html %}
 
-Licenses are purchased using your preferred method of payment (Bank Transfer, Xoom etc.). Just [send an e-mail](mailto:{{site.email}}?subject=KeyboardKit License) and we'll discuss your needs.
+You will soon be able to buy your license online. Until then, licenses can be purchased using your preferred payment method (Bank Transfer, Xoom etc.). Just [send an e-mail](mailto:{{site.email}}?subject=KeyboardKit License) and we'll sort it out.
 
 
 ## License Information
@@ -35,18 +35,14 @@ Licenses are valid for **one app** and keyboard extension. Additional apps can b
 
 ### Locale-specific features
 
-KeyboardKit Pro unlocks locale-specific features, including localized system keyboards, input sets, input set providers and callout actions.
-
-This means that with KeyboardKit Pro, you can create a system keyboard in any locale that your license includes with a single line of code.
+KeyboardKit Pro unlocks more locales and locale-specific features, like localized system keyboards, input sets and callout actions. It lets you create localized keyboards with a single line of code.
 
 
 ### Autocomplete
 
-KeyboardKit Pro unlocks a local autocomplete engine that provides suggestions as the user types, with limited prediction capabitlites.
+KeyboardKit Pro unlocks a local, on-device autocomplete engine that provides suggestions as the user types, with limited prediction capabitlites. It support most of the 50+ locales.
 
-KeyboardKit Pro also unlocks a remote autocomplete engine, that lets you connect your keyboard to any external and remote autocomplete api. This makes it possible to provide more powerful suggestions and to be able to adjust the autocomplete without having to ship new versions of the app.
-
-Have a look at the demo app in the [GitHub repository]({{site.github_repo}}) to see local autocomplete in action.
+KeyboardKit Pro also unlocks a remote autocomplete engine, that lets you connect your keyboard to any remote api. This makes it possible to provide more powerful and dynamic suggestions.
 
 
 ### Additional Views

@@ -16,6 +16,6 @@ KeyboardKit comes with support for <b>{% include locales-count.html %}</b> local
 
 {% include locales.html %}
 
-KeyboardKit adds locale information and localized strings for each locale, which means that you can create localized features with little effort.
+KeyboardKit adds locale-specific information and localized strings for each locale. It lets you create localized keyboard features with little effort.
 
 [KeyboardKit Pro](/pro) unlocks fully localized system keyboards, input sets, keyboard layouts and callout actions and lets you create a localized system keyboard with a single line of code.
