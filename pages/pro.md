@@ -17,34 +17,15 @@ Check out the [GitHub repository]({{site.github_repo_pro}}) for more information
 
 ## Licenses
 
-KeyboardKit Pro requires a commercial license that unlocks more features and locales. There are three tiers to choose from:
+KeyboardKit Pro requires a commercial license, which unlocks more locales and features when it's registered by your app. There are three tiers to choose from:
 
 {% include grids/licenses.html %}
 
-You will soon be able to buy your license online. Until then, licenses can be purchased using your preferred payment method (Bank Transfer, Xoom etc.). Just [send an e-mail](mailto:{{site.email}}?subject=KeyboardKit License) and we'll sort it out.
+Licenses can be purchased from [Gumroad]({{site.gumroad}}) or with your preferred payment method (Paypal, Xoom, etc.). Just [send an e-mail](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) and we'll discuss your needs.
 
+Licenses are valid for **one year**, **one app** and **one keyboard extension**. After your license expires, you can continue to use all versions that were released during the license’s validity period.
 
-## License Information
-
-Licenses are valid for **one year**. After your license expires, you can continue to use all versions that were released during the license’s validity period.
-
-Licenses are valid for **one app** and keyboard extension. Additional apps can be added to a license at a 50% discount per additional app.
-
-
-## Features
-
-### Locale-specific features
-
-KeyboardKit Pro unlocks more locales and locale-specific features, like localized system keyboards, input sets and callout actions. It lets you create localized keyboards with a single line of code.
-
-
-### Autocomplete
-
-KeyboardKit Pro unlocks a local, on-device autocomplete engine that provides suggestions as the user types, with limited prediction capabitlites. It support most of the 50+ locales.
-
-KeyboardKit Pro also unlocks a remote autocomplete engine, that lets you connect your keyboard to any remote api. This makes it possible to provide more powerful and dynamic suggestions.
-
-
-### Additional Views
-
-KeyboardKit Pro adds a bunch of additional views, such as app templates, toolbars etc. Have a look at the documentation for more information.
+<div class="cta-container">
+    <script src="https://gumroad.com/js/gumroad.js"></script>
+    <a class="gumroad-button" href="https://danielsaidi.gumroad.com/l/keyboardkit-pro-gold">Buy on</a>
+</div>

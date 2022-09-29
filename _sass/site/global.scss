@@ -54,3 +54,26 @@ html, body {
     text-decoration: none;
   }
 }
+
+
+
+a.cta {
+  padding: 5px 10px;
+  border-radius: 9999px;
+  background: orange;
+  text-decoration: none;
+}
+
+a.cta:hover {
+  color: black;
+  opacity: 70%;
+}
+
+.cta-container {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 250px;
+  padding: 40px;
+}
