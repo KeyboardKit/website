@@ -2,6 +2,8 @@
 title:  KeyboardKit 5.6 
 date:   2022-01-05 12:00:00 +0100
 tags:   releases localization
+
+image:  /assets/blog/image-icon.png
 ---
 
 KeyboardKit 5.6 is out! 🚀 It adds support for for 🇧🇷 Brazilian, 🇮🇪 Irish, 🇵🇹 Portuguese and 🇹🇷 Turkish and makes it easier to setup system keyboards.

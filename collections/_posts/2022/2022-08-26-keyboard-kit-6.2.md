@@ -2,9 +2,13 @@
 title:  KeyboardKit 6.2
 date:   2022-08-26 08:00:00 +0100
 tags:   releases autocomplete
+
+image:  /assets/blog/image-icon.png
 ---
 
 KeyboardKit 6.2 is out, with a bunch of new emojis, input set updates and more improvements made to the standard KeyboardKit Pro autocomplete provider.
+
+![Icon badge]({{page.image}})
 
 
 ## Emojis

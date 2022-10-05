@@ -2,6 +2,8 @@
 title:  KeyboardKit 5.9
 date:   2022-01-23 12:00:00 +0100
 tags:   releases localization multi-platform
+
+image:  /assets/blog/image-icon.png
 ---
 
 KeyboardKit 5.9 is out! 🚀 It adds support for 11 new locales and makes the library build on more platforms.

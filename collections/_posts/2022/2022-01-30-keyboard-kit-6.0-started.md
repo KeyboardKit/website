@@ -1,7 +1,9 @@
 ---
 title:  KeyboardKit 6.0 started
 date:   2022-01-30 12:00:00 +0100
-tags:   general
+tags:   
+
+image:  /assets/blog/image-icon.png
 ---
 
 Work on KeyboardKit 6.0 has begun and is planned to finish later in February. This post explains how you can get started with the new version and start migrating your code, to make the transition as smooth as possible.

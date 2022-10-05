@@ -1,7 +1,9 @@
 ---
 title:  KeyboardKit 6.0 explained
 date:   2022-01-24 12:00:00 +0100
-tags:   general localization macos
+tags:   localization macos
+
+image:  /assets/blog/image-icon.png
 ---
 
 KeyboardKit 6.0 is just around the corner! This post explains what to expect in this major bump.
