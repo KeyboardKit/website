@@ -28,7 +28,6 @@
     background-color: $box;
     border-radius: 7px;
     padding: 20px 10px;
-    box-shadow: 0px 2px 0px #0004;
     
     h2, h3 { margin-top: 0px; }
     h4 { margin: 20px 0 0 0; }
@@ -45,6 +44,20 @@
     }
   }
 
+  .license.basic {
+    border: solid 2px lightgray;
+  }
+
+  .license.silver {
+    border: solid 2px lightgray;
+    background-color: #00000008;
+  }
+
+  .license.gold {
+    border: solid 2px gold;
+    background-color: rgba(255, 215, 0, 0.2);
+  }
+
   .license + div {
     margin-top: 20px;
   }
@@ -56,10 +69,6 @@
   }
 
   .grid.licenses { 
-    grid-template-columns: repeat(3, 1fr);
-    .license {
-      margin-left: 30px;
-      max-width: 300px;
-    }
+    grid-template-columns: repeat(1, 1fr);
   }
 }
