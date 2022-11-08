@@ -1,13 +1,11 @@
-code.highlighter-rouge {
-  background-color: #ddd !important;
-}
-
 .highlighter-rouge {
   border: 0;
+  background: $code-background !important;
+  color: white;
   
   .highlight {
     border: 0;
-    background: #123 !important;
+    background: $code-background !important;
   }
 
   code {

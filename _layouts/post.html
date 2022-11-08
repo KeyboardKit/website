@@ -3,11 +3,11 @@ layout: default
 ---
 
 <article class="blog post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-  <h1>{{ page.title | escape }}</h1>
-  <p class="post-date">
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    {{ page.date | date: date_format }}
-  </p>
+  
+  <h1>
+    {{ page.title | escape }}
+    {%- include kankoda/blog/post-header.html post=page -%}
+  </h1>
   <div class="e-content" itemprop="articleBody">
     {{ content }}
   </div>
@@ -15,4 +15,4 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
-{%- include disqus-card.html -%}
+{%- include kankoda/disqus/disqus-card.html -%}

@@ -1,3 +1,4 @@
+{% include kankoda/gumroad/script.html %}
 <section class="grid licenses">
   <div>
     <div class="license basic">
@@ -11,10 +12,10 @@
         <p>✔&nbsp; Additional views</p>
       </div>
       <h4>
-        <a href="{{site.gumroad-basic}}">$500/year</a>
+        <a href="{{site.gumroad_url_basic}}">$500/year</a>
       </h4>
     </div>
-    {% include gumroad-button.html product="keyboardkit-pro-basic" %}
+    {% include kankoda/gumroad/button.html product="keyboardkit-pro-basic" %}
   </div>
   <div>
     <div class="license silver">
@@ -28,10 +29,10 @@
         <p>✔&nbsp; Additional views</p>
       </div>
       <h4>
-        <a href="{{site.gumroad-silver}}">$750/year</a>
+        <a href="{{site.gumroad_url_silver}}">$750/year</a>
       </h4>
     </div>
-    {% include gumroad-button.html product="keyboardkit-pro-silver" omit-script=true %}
+    {% include kankoda/gumroad/button.html product="keyboardkit-pro-silver" %}
   </div>
   <div>
     <div class="license gold">
@@ -45,9 +46,9 @@
         <p>✔&nbsp; Additional views</p>
       </div>
       <h4>
-        <a href="{{site.gumroad-gold}}">$1000/year</a>
+        <a href="{{site.gumroad_url_gold}}">$1000/year</a>
       </h4>
     </div>
-    {% include gumroad-button.html product="keyboardkit-pro-gold" omit-script=true %}
+    {% include kankoda/gumroad/button.html product="keyboardkit-pro-gold" %}
   </div>
 </section>

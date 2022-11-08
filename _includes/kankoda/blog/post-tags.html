@@ -1,0 +1,6 @@
+{%- if include.post.tags -%}
+  {%- for tag in include.post.tags -%}
+  {%- assign href = "blog/tags#" | append: tag -%}
+  <a href="{{ href | relative_url }}" class="tag {{ tag | slugify }}">{{ tag }}</a>
+  {%- endfor -%}
+{%- endif -%}

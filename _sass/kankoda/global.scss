@@ -1,0 +1,20 @@
+html, body {
+  color: $foreground;
+  background-color: $background;
+  width: 100%;
+}
+
+a {
+  transition: all 200ms ease-in-out, color 1s ease-out 100ms !important;
+}
+
+a, a:visited {
+  color: $foreground-dimmed;
+  display: inline-block;
+}
+
+a:hover, a:visited:hover {
+  color: $foreground-light;
+  text-decoration: none;
+  transform: translateY(-2px);
+}

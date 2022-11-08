@@ -1,0 +1,26 @@
+h1 {
+  margin-top: 40px;
+}
+
+.hero {
+  background: $hero-background;
+  margin-top: -100px;
+  padding-top: 30px;
+  text-align: center;
+  
+  h1 {
+    margin-top: 100px;
+  }
+
+  p { 
+    font-size: 1.2em;
+    font-weight: 600 !important;
+  }
+}
+
+.hero-line {
+  height: 100px;
+  background: linear-gradient(to top left, $hero-line 0%, $hero-line 50%, transparent 50%, transparent 100%) !important;
+  margin-top: -70px;
+  margin-bottom: 30px;
+}

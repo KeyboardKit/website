@@ -1,0 +1,21 @@
+p > img { margin: 20px 0; }
+
+.page-content {
+
+  padding-top: 0;
+  padding-bottom: 30px;
+
+  h2, h3 { margin-top: 1.8em; }
+
+  hr + h2 { margin-top: 0px; }
+  hr + h3 { margin-top: 0px; }
+
+  p + p { margin-top: 1.1em; }
+}
+
+.home {
+
+  .page-content {
+    text-align: center;
+  }
+}

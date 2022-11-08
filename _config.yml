@@ -6,37 +6,39 @@
 title: KeyboardKit
 email: info@getkeyboardkit.com
 description: >-
-  KeyboardKit helps you create custom keyboards for iOS and iPadOS. 
+  KeyboardKit helps you create custom keyboards for iOS and iPadOS, using Swift and SwiftUI. 
 
-baseurl: ""
 url: "http://getkeyboardkit.com"
-theme: minima
+is_lib: 1
 
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+copyright_year: 2021-2022
+copyright_owner: Kankoda Sweden AB
+copyright_url: https://kankoda.com
 
-google_analytics: UA-2575180-1
-
-copyright: © 2021 Daniel Saidi. All rights reserved.
-appstore: http://itunes.apple.com/app/keyboardkit/id1568444977
-github: https://github.com/KeyboardKit
-github_repo: https://github.com/KeyboardKit/KeyboardKit
-github_repo_pro: https://github.com/KeyboardKit/KeyboardKitPro
+appstore_url: http://itunes.apple.com/app/keyboardkit/id1568444977
+documentation_url: https://licensekit.github.io/LicenseKit/documentation/licensekit/
+github_url: https://github.com/KeyboardKit/KeyboardKit
+github_url_pro: https://github.com/KeyboardKit/KeyboardKitPro
 github_username: KeyboardKit
-gumroad: https://danielsaidi.gumroad.com
-gumroad-basic: https://danielsaidi.gumroad.com/l/keyboardkit-pro-basic
-gumroad-silver: https://danielsaidi.gumroad.com/l/keyboardkit-pro-silver
-gumroad-gold: https://danielsaidi.gumroad.com/l/keyboardkit-pro-gold
+gumroad_url: https://danielsaidi.gumroad.com
+gumroad_url_basic: https://danielsaidi.gumroad.com/l/keyboardkit-pro-basic
+gumroad_url_silver: https://danielsaidi.gumroad.com/l/keyboardkit-pro-silver
+gumroad_url_gold: https://danielsaidi.gumroad.com/l/keyboardkit-pro-gold
 twitter_url: https://twitter.com/GetKeyboardKit
 twitter_username: GetKeyboardKit
 
-plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
+assets: /assets/
+header_icon: /assets/icon/icon-1024.png
+header_icon_type: icon
 
 header_pages:
+  - index.html
+  - pages/open-source.md
+  - pages/pro.md
+  - pages/blog.md
+
+footer_pages_sitemap:
+  - index.html
   - pages/features.md
   - pages/open-source.md
   - pages/pro.md
@@ -51,6 +53,16 @@ collections:
   sponsors:
     output: true
     permalink: /sponsor/:name/
+
+baseurl: ""
+theme: minima
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
 
 defaults:
   -

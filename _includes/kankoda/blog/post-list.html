@@ -1,0 +1,5 @@
+<div class="blog list">
+  {% for post in site.posts %}
+  {%- include kankoda/blog/post-list-item.html post=post -%}
+  {% endfor %}
+</div>

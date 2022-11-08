@@ -12,7 +12,7 @@ description: KeyboardKit Pro extends KeyboardKit with 50+ locales, localized sys
 
 KeyboardKit Pro extends [KeyboardKit](/open-source) with 50+ locales, localized system keyboards, input sets and callout actions, as well as on-device and remote autocomplete, a bunch of new views etc. It lets you create a localized system keyboard in a single line of code.
 
-Check out the [GitHub repository]({{site.github_repo_pro}}) for more information about KeyboardKit Pro, the features that it provides and how to use it in your app.
+Check out the [GitHub repository]({{site.github_url_pro}}) for more information about KeyboardKit Pro, the features that it provides and how to use it in your app.
 
 
 ## Licenses

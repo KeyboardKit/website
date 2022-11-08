@@ -14,7 +14,7 @@ sponsors: https://github.com/sponsors/danielsaidi
 
 KeyboardKit is an open-source, Swift-based SDK that helps you build custom keyboard extensions with technologies like Swift and SwiftUI.
 
-Check out the [GitHub repository]({{site.github_repo}}) for more information about the library, the features it has and how to use it in your own apps. There you also find documentation, sample code, demo apps etc.
+Check out the [GitHub repository]({{site.github_url}}) for more information about the library, the features it has and how to use it in your own apps. There you also find documentation, sample code, demo apps etc.
 
 
 ## Community

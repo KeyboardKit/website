@@ -1,0 +1,4 @@
+{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+<span class="date">
+    {{ include.date | date: date_format }}
+</span>

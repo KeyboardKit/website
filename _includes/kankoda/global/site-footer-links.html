@@ -1,0 +1,6 @@
+{%- for path in include.paths -%}
+  {%- assign page = pages | where: "path", path | first -%}
+  {%- if page.title -%}
+  <a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+  {%- endif -%}
+{%- endfor -%}

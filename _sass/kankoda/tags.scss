@@ -1,0 +1,61 @@
+.tag, .tag:visited {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 1px 7px 2px 7px;
+  border-radius: 5px;
+  background-color: $tag-background;
+  border: $tag-border;
+  color: $tag-foreground !important;
+  font-weight: normal;
+}
+
+.tag:hover {
+  background-color: $tag-hover;
+  color: $tag-foreground;
+}
+
+.tag.releases {
+  color: black !important;
+  background-color: #ffcc00;
+}
+
+.tag.swift {
+  background-color: $swift-color;
+}
+
+.tag.swiftui {
+  background-color: $swiftui-color;
+}
+
+section.tag-list {
+  margin-left: -4px;
+  
+  .tag {
+    font-size: small; 
+    margin-bottom: 5px;
+  }
+}
+
+.blog {
+  
+  .post-header {
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+    .spacer {
+      margin: 5px;
+    }
+
+    .tag {
+      font-size: smaller; 
+      font-weight: normal;
+    }
+  }
+}
+
+.blog.list {
+  
+  .post-header {
+    margin-top: -10px;
+  }
+}

@@ -1,0 +1,25 @@
+p > img { margin: 30px 0; }
+
+.wrapper article {
+
+  img {
+    border-radius: 13px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, .35);
+  }
+
+  img.plain {
+    border-radius: 0px;
+    box-shadow: none !important;
+  }
+
+  img {
+    display: block;
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+img.cover {
+  border-radius: 5px;
+}

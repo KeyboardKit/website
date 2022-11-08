@@ -8,7 +8,7 @@ image:  /assets/blog/image-icon-pro.png
 article: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/pro-uitextdocumentproxy-extensions
 ---
 
-KeyboardKit Pro `6.4.2` has been extended with new `UITextDocumentProxy` extensions that let you read all text from the proxy.
+KeyboardKit Pro 6.4.2 has been extended with new text document proxy extensions that let you read all text from the proxy.
 
 ![Icon badge]({{page.image}})
 

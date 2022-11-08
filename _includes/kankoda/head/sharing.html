@@ -7,13 +7,13 @@
     <meta name="twitter:image" content="{{ page.image | absolute_url }}" />
     {% elsif page.icon %}
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:image" content="https://getkeyboardkit.com/assets/icons/{{ page.icon }}.png" />
+    <meta name="twitter:image" content="{{ site.assets }}/icons/{{ page.icon }}.png" />
     {% else %}
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:image" content="https://getkeyboardkit.com/assets/icon/icon-twitter.png" />
+    <meta name="twitter:image" content="{{ site.assets }}/icon/icon-twitter.png" />
     {% endif %}
-    <meta name="twitter:site" content="@getkeyboardkit" />
-    <meta name="twitter:creator" content="@danielsaidi" />
+    <meta name="twitter:site" content="@{{site.twitter_username }} " />
+    <meta name="twitter:creator" content="@{{site.twitter_username }} " />
     <meta name="twitter:title" content="{{ page.title }}" />
     {% if page.excerpt %}
     <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncate:140 }}" />
@@ -22,8 +22,8 @@
 
     <!-- Facebook -->
 
-    <meta property="og:image" content="https://getkeyboardkit.com/assets/icon/icon-facebook.png" />
-    <meta property="og:url" t="{{ page.url }}" />
+    <meta property="og:image" content="{{ site.assets }}/icon/icon-facebook.png" />
+    <meta property="og:url" t="{{ page.url }}" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="{{ page.title }}" />
     
@@ -32,7 +32,7 @@
     {% elsif page.excerpt %}
     <meta property="og:description" content="{{ page.excerpt | strip_html | truncate:140 }}" />
     {% else %}
-    <meta property="og:description" content="KeyboardKit is a Swift library that helps you create custom keyboard extensions for iOS and ipadOS." />
+    <meta property="og:description" content="{{ site.description }}" />
     {% endif %}
 
 {% endif %}

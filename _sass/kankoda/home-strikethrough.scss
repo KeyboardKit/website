@@ -1,0 +1,37 @@
+.home {
+
+  section.strikethrough-sections {
+
+    p {
+      margin-top: 20px;
+    }
+  
+    h2 {
+      overflow: hidden;
+      width: 60%;
+      margin-top: 70px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    h2:before, h2:after {
+      background-color: #000;
+      content: "";
+      display: inline-block;
+      height: 0.5px;
+      position: relative;
+      vertical-align: middle;
+      width: 60%;
+    }
+    
+    h2:before {
+      right: 0.5em;
+      margin-left: -60%;
+    }
+    
+    h2:after {
+      left: 0.5em;
+      margin-right: -60%;
+    }
+  }
+}

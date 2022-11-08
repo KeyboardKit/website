@@ -1,15 +1,7 @@
-$standard-margin: 20px;
+@import "kankoda/_variables";
+@import "site/_variables";
+@import "kankoda/_styles";
 
-@import "site/global";
-
-@import "site/code";
-@import "site/colors";
-@import "site/content";
-@import "site/grids";
-@import "site/hero";
-@import "site/home";
-@import "site/images";
-@import "site/lists";
-@import "site/typography";
+@import "site/heros";
 
 @import url("css/syntax.css");
