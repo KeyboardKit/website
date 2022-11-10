@@ -3,7 +3,7 @@ title:  KeyboardKit 6.0 explained
 date:   2022-01-24 12:00:00 +0100
 tags:   localization macos
 
-image:  /assets/blog/image-icon.png
+image:  /assets/headers/icon.png
 ---
 
 KeyboardKit 6.0 is just around the corner! This post explains what to expect in this major bump.
@@ -11,7 +11,7 @@ KeyboardKit 6.0 is just around the corner! This post explains what to expect in 
 
 ## No new locales
 
-One of the big goals with KeyboardKit 5 was to improve the keyboard layout, to make it easier to add new locales. As a result, KeyboardKit now supports <b>{% include locales/count.html %}</b> locales, with more added over time.
+One of the big goals with KeyboardKit 5 was to improve the keyboard layout, to make it easier to add new locales. As a result, KeyboardKit now supports <b>{%- include locales/count.html -%}</b> locales, with more added over time.
 
 KeyboardKit 6.0 will not add any new locales, but will instead remove a lot of deprecated code and make sure that the library is clean and easy to use. More locales will be added as minor updates.
 

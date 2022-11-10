@@ -1,9 +1,9 @@
 ---
-title:  KeyboardKit Pro now lets you get all text from the text document proxy
+title:  KeyboardKit Pro can now get all text from the proxy
 date:   2022-10-05 06:00:00 +0100
-tags:   releases uitextdocumentproxy
+tags:   keyboardkit-pro uitextdocumentproxy
 
-image:  /assets/blog/image-icon-pro.png
+image:  /assets/headers/icon-pro.png
 
 article: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/pro-uitextdocumentproxy-extensions
 ---

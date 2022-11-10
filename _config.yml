@@ -28,8 +28,8 @@ twitter_url: https://twitter.com/GetKeyboardKit
 twitter_username: GetKeyboardKit
 
 assets: /assets/
-header_icon: /assets/icon/icon-1024.png
-header_icon_type: icon
+header_image: /assets/icon/icon-1024.png
+header_image_type: icon
 
 header_pages:
   - index.html

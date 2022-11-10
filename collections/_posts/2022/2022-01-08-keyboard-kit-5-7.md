@@ -3,7 +3,7 @@ title:  KeyboardKit 5.7
 date:   2022-01-08 12:00:00 +0100
 tags:   releases localization
 
-image:  /assets/blog/image-icon.png
+image:  /assets/headers/icon.png
 ---
 
 KeyboardKit 5.7 is out! 🚀 It adds support for 🇧🇾 Belarusian, 🇨🇿 Czech and 🇷🇴 Romanian, adjust emoji keyboard styles on iPad and much more.

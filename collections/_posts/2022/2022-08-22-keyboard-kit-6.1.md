@@ -3,7 +3,7 @@ title:  KeyboardKit 6.1
 date:   2022-08-22 08:00:00 +0100
 tags:   releases rtl localization autocomplete
 
-image:  /assets/blog/image-icon.png
+image:  /assets/headers/icon.png
 ---
 
 KeyboardKit 6.1 is out, with improved preview capabilities, a bunch of autocomplete improvements and support for Kurdish Sorani (Arabic).

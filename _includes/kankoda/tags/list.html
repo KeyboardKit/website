@@ -1,0 +1,14 @@
+{% assign tags = (site.tags | sort:0) %}
+
+<section class="tag-list">
+  <a class="tag all" href="javascript:showAllTags()">
+    all
+  </a>
+  {% for tag in tags %}
+    {% assign name = tag | first %}
+    {% assign posts = tag | last %}
+    <a class="tag {{ name | slugify }}" href="javascript:showTag('{{ name | slugify }}')">
+      {{name}}
+    </a>
+  {% endfor %}
+</section>

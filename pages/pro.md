@@ -19,7 +19,7 @@ Check out the [GitHub repository]({{site.github_url_pro}}) for more information 
 
 KeyboardKit Pro requires a commercial license, which unlocks more locales and features when it's registered by your app. There are three tiers to choose from:
 
-{% include grids/licenses.html %}
+{%- include grids/licenses.html -%}
 
 Licenses can be purchased from Gumroad or with your preferred payment method (Paypal, Xoom, etc.). Just [send an e-mail](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) and we'll discuss your needs.
 
