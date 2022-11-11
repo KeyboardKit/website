@@ -9,12 +9,12 @@ a {
 }
 
 a, a:visited {
-  color: $foreground-dimmed;
+  color: $link;
   display: inline-block;
 }
 
 a:hover, a:visited:hover {
-  color: $foreground-light;
+  color: $link-hover;
   text-decoration: none;
   transform: translateY(-2px);
 }

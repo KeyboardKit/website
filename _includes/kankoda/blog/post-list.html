@@ -1,5 +1,14 @@
+{%- assign posts = include.posts -%}
 <div class="blog list">
-  {% for post in site.posts %}
-  {%- include kankoda/blog/post-list-item.html post=post -%}
-  {% endfor %}
+{% for post in posts %}
+  {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+  {% assign year = year | plus: 0 %}
+  {% if include.from && include.to %}
+    {% if year >= include.from && year <= include.to %}
+      {%- include kankoda/blog/post-list-item.html post=post -%}
+    {% endif %}
+  {% else %}  
+    {%- include kankoda/blog/post-list-item.html post=post -%}
+  {% endif %}
+{% endfor %}
 </div>

@@ -8,14 +8,14 @@
       
       <div class="column">
         <p>Site</p>
-        {%- include kankoda/global/site-footer-links.html paths=site.footer_pages_sitemap -%}
+        {%- include kankoda/global/site-footer-links.html paths=site.footer_sitemap -%}
       </div>
       
       {% if site.is_app == 1 %}
       <div class="column">
         <p>App</p>
         <a href="{{ site.appstore_url }}">App Store</a>
-        {%- include kankoda/global/site-footer-links.html title="App" paths=site.footer_pages_app -%}
+        {%- include kankoda/global/site-footer-links.html title="App" paths=site.footer_app -%}
       </div>
       {% endif %}
       
@@ -25,7 +25,6 @@
         <a href="{{ site.github_url }}">GitHub</a>
         <a href="{{ site.github_url }}/issues">Issues</a>
         <a href="{{ site.documentation_url }}">Documentation</a>
-        {%- include kankoda/global/site-footer-links.html title="App" paths=site.footer_pages_app -%}
       </div>
       {% endif %}
       
@@ -36,6 +35,12 @@
         {% endif %}
         {% if site.instagram_url %}
         <a href="{{site.instagram_url}}">Instagram</a>
+        {% endif %}
+        {% if site.linkedin_url %}
+        <a href="{{site.linkedin_url}}">LinkedIn</a>
+        {% endif %}
+        {% if site.rss_url %}
+        <a href="{{site.rss_url}}">RSS</a>
         {% endif %}
         <a href="mailto:{{site.email}}">E-mail</a>
       </div>
