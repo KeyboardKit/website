@@ -1,8 +1,50 @@
+.grid-header {
+  margin: 15px;
+  margin-top: 0px;
+  align-items: center;
+
+  h2 { 
+    font-weight: 400;
+    margin: 0 !important; 
+  }
+
+  .column:nth-of-type(2) {
+    text-align: right;
+  }
+}
+
 .grid { 
   display: grid; 
   grid-column-gap: 20px;
   grid-row-gap: 50px;
   grid-template-columns: repeat(4, 1fr);
+
+  p {
+    margin: 10px 0 0 0;
+  }
+}
+
+.grid.icons {
+  
+  img {
+    border-radius: 23%;
+  }
+}
+
+.grid.icons, .grid.bands {
+
+  grid-column-gap: 40px;
+
+  a {
+    color: white;
+    text-align: center;
+  }
+
+  a:hover, a:visited:hover {
+    color: $foreground;
+    text-decoration: none;
+    transform: scale(1.04);
+  }
 }
 
 .grid.sponsors {
@@ -20,5 +62,9 @@
   img:hover {
     opacity: 1;
     filter: grayscale(0%);
+  }
+
+  p {
+    display: none;
   }
 }

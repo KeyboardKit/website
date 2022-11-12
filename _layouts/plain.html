@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  {%- include kankoda/head/head.html -%}
+  {% include kankoda/head/head.html %}
 
   <body>
-    {%- include kankoda/global/site-header.html -%}
+    {% include kankoda/global/site-header.html %}
     {{ content }}
-    {%- include kankoda/global/site-footer.html -%}
+    {% include kankoda/global/site-footer.html %}
   </body>
 </html>

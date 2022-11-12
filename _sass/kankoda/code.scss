@@ -15,10 +15,11 @@
 
 div.highlighter-rouge {
   border-radius: 10px;
-  div.highlight {
-    border-radius: 10px;
-    pre.highlight {
-      border-radius: 10px;
-    }
+  margin: 20px 0;
+
+  overflow: hidden;
+  
+  pre {
+    margin-bottom: 0px;
   }
 }

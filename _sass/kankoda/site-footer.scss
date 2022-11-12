@@ -1,7 +1,8 @@
 .site-footer {
-  
+  margin-top: 60px;
   background-color: $footer-background;
   border: 0 !important;
+  padding-top: 0;
   text-align: center;
 
   ul + p { 
@@ -9,19 +10,13 @@
   }
 
   .row {
-    display: flex;
-    align-items: top;
-    flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 50px;
   }
 
   .column {
-    display: flex;
-    flex-direction: column;
     flex-basis: 25%;
-    text-align: left;
-
+    
     p {
       font-weight: bold;
     }
@@ -49,5 +44,12 @@
       flex-basis: 100%;
       margin-bottom: 30px;
     }
+  }
+}
+
+.site-footer.paper {
+
+  hr {
+    margin-top: 0;
   }
 }

@@ -19,3 +19,19 @@ p > img { margin: 20px 0; }
     text-align: center;
   }
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: left;
+}
+
+article + .grid {
+  margin-top: 60px;
+}

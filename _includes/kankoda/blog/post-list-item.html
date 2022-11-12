@@ -1,11 +1,11 @@
 {%- assign post = include.post -%}
-<article class="tag-item {%- include kankoda/tags/classes.html tags=post.tags -%}">
+<article class="tag-item {% include kankoda/tags/classes.html tags=post.tags %}">
   <h2>
     <a href="{{ post.url }}">
     {{ post.title | escape }}
     </a>
   </h2>
-  {%- include kankoda/blog/post-header.html post=post -%}
+  {% include kankoda/blog/post-header.html post=post %}
   <p>
     {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
   </p>

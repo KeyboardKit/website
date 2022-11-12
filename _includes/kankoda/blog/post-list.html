@@ -5,10 +5,10 @@
   {% assign year = year | plus: 0 %}
   {% if include.from && include.to %}
     {% if year >= include.from && year <= include.to %}
-      {%- include kankoda/blog/post-list-item.html post=post -%}
+      {% include kankoda/blog/post-list-item.html post=post %}
     {% endif %}
   {% else %}  
-    {%- include kankoda/blog/post-list-item.html post=post -%}
+    {% include kankoda/blog/post-list-item.html post=post %}
   {% endif %}
 {% endfor %}
 </div>

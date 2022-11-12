@@ -3,25 +3,16 @@
 	border: 0 !important;
   padding: 15px 0;
 
+  .row {
+    align-items: center;
+  }
+
 	.logo {
     height: 60px;
 	}
   
   .logo:hover {
     transform: none;
-  }
-
-  .row {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-  }
-	
-  .column {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    flex-basis: 100%;
   }
 
   .column:nth-of-type(1) {

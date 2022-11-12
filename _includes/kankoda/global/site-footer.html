@@ -1,6 +1,7 @@
-<footer class="site-footer">
+<footer class="site-footer paper">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
   <div class="wrapper">
+    <hr />
     <div class="row">
       {%- assign pages = site.pages -%}
       {%- assign paths_site = site.footer_pages_sitemap -%}
@@ -8,14 +9,14 @@
       
       <div class="column">
         <p>Site</p>
-        {%- include kankoda/global/site-footer-links.html paths=site.footer_sitemap -%}
+        {% include kankoda/global/site-footer-links.html paths=site.footer_sitemap %}
       </div>
       
       {% if site.is_app == 1 %}
       <div class="column">
         <p>App</p>
         <a href="{{ site.appstore_url }}">App Store</a>
-        {%- include kankoda/global/site-footer-links.html title="App" paths=site.footer_app -%}
+        {% include kankoda/global/site-footer-links.html title="App" paths=site.footer_app %}
       </div>
       {% endif %}
       
