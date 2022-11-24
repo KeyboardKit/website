@@ -2,7 +2,12 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include kankoda/head/head.html %}
 
-  <body class="layout-{{page.layout}}">
+  {% assign hero = page.hero | size %}
+  {% if hero == 0 %}
+  {% assign body_class = "layout-no-hero" %}
+  {% endif %}
+  
+  <body class="{{body_class}}">
     {% include kankoda/global/site-header.html %}
     {{ content }}
     {% include kankoda/global/site-footer.html %}

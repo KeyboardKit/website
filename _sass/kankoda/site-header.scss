@@ -25,3 +25,15 @@
     text-align: right;
   }
 }
+
+.layout-no-hero {
+  
+  .site-header {
+      background-color: $site-background;
+      box-shadow: 0 0 8px $shadow;
+  }
+
+  .site-header + .page-content {
+      padding-top: 30px;
+  }
+}

@@ -1,6 +1,6 @@
 html, body {
   color: $foreground;
-  background-color: $background;
+  background-color: $site-background;
   width: 100%;
 }
 
@@ -30,4 +30,8 @@ blockquote {
 
 .home {
   text-align: center;
+}
+
+.page-content {
+  background-color: $content-background;
 }
