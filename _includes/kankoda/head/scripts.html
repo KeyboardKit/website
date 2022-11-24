@@ -1,1 +1,58 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script rel="javascript">
+
+  // Scroll
+
+  function scrollToOffset(offset) {
+    window.scrollTo({ top: offset, behavior: 'smooth' });
+  }
+
+  function scrollToAnchor(name) {
+    var anchor = $("a[name='"+ name +"']");
+    var offset = anchor.offset().top;
+    scrollToOffset(offset);
+  }
+  
+  function scrollToTop() {
+    scrollToOffset(0);
+  }
+
+
+  // Tags
+
+  function toggleTagList() {
+    let el = $(".tag-list");
+    let toggle = $(".tag-list-toggle");
+    el.toggleClass("expanded");
+    let isExpanded = el.hasClass("expanded");
+    if (isExpanded) {
+      toggle.text("Hide tags");
+    } else {
+      toggle.text("Show tags");
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
+
+  function hideAllTags() {
+    $(".tag-item").hide();
+  }
+
+  function hideTag(tag) {
+    $(".tag-" + tag).hide();
+  }
+
+  function showAllTags() {
+    $(".tag-item").show();
+  }
+
+  function showTag(tag) {
+    if ($(".tag-item")[0]){
+      hideAllTags();
+      $(".tag-" + tag).show();
+      scrollToAnchor("tag-item-list");
+    } else {
+      window.location.href = "/blog#" + tag; 
+    }
+  }
+</script>

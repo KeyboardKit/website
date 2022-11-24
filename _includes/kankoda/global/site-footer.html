@@ -12,11 +12,18 @@
         {% include kankoda/global/site-footer-links.html paths=site.footer_sitemap %}
       </div>
       
+      {% if site.footer_extra_title %}
+      <div class="column">
+        <p>{{ site.footer_extra_title }}</p>
+        {% include kankoda/global/site-footer-links.html paths=site.footer_extra %}
+      </div>
+      {% endif %}
+      
       {% if site.is_app == 1 %}
       <div class="column">
         <p>App</p>
         <a href="{{ site.appstore_url }}">App Store</a>
-        {% include kankoda/global/site-footer-links.html title="App" paths=site.footer_app %}
+        {% include kankoda/global/site-footer-links.html paths=site.footer_app %}
       </div>
       {% endif %}
       
@@ -33,6 +40,9 @@
         <p>Social</p>
         {% if site.twitter_url %}
         <a href="{{site.twitter_url}}">Twitter</a>
+        {% endif %}
+        {% if site.mastodon_url %}
+        <a href="{{site.mastodon_url}}">Mastodon</a>
         {% endif %}
         {% if site.instagram_url %}
         <a href="{{site.instagram_url}}">Instagram</a>

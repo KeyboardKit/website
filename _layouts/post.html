@@ -4,6 +4,8 @@ layout: default
 
 <article class="blog post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   
+  {% include kankoda/buttons/back.html href="/blog" title="Blog" %}
+
   <h1>
     {{ page.title | escape }}
     {% include kankoda/blog/post-header.html post=page %}
@@ -11,6 +13,24 @@ layout: default
   <div class="e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  {%- if page.tweet -%}
+  <h2>Discussion</h2>
+
+    {%- if site.disqus.shortname -%}
+    <p>
+      I hope that you found this post interesting. I would love to 
+      hear your thoughts and feedback, so feel free to comment in
+      the Disqus section below or as a reply to <a href="{{page.tweet}}">this tweet</a>.
+    </p>
+    {%- else -%}
+    <p>
+      We hope that you found this post interesting. We would love to 
+      hear your thoughts and feedback, so feel free to discuss it as
+      a reply to <a href="{{page.tweet}}">this tweet</a>.
+    </p>
+    {%- endif -%}
+  {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

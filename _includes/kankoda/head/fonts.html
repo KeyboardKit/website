@@ -1,2 +1,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+{% if site.fonts %}
+{% assign fonts = '' %}
+{% for font in site.fonts %}
+    {% assign fonts = fonts | append: 'family=' | append: font | append: '&' %}
+{% endfor%}
+<link href="https://fonts.googleapis.com/css2?{{fonts}}display=swap" rel="stylesheet">
+{% endif %}

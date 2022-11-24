@@ -1,0 +1,39 @@
+a.back-button:before {
+  content: "«";
+}
+
+a.forward-button:after {
+  content: "»";
+}
+
+.social-button {
+  width: 30px;
+  height: 30px;
+  padding: 0 10px;
+  background-color: $foreground;
+}
+
+.social-button.instagram {
+  mask: url(/assets/kankoda/social-icons/instagram.svg) no-repeat center;
+  -webkit-mask: url(/assets/kankoda/social-icons/instagram.svg) no-repeat center;
+}
+
+.social-button.github {
+  mask: url(/assets/kankoda/social-icons/github.svg) no-repeat center;
+  -webkit-mask: url(/assets/kankoda/social-icons/github.svg) no-repeat center;
+}
+
+.social-button.linkedin {
+  mask: url(/assets/kankoda/social-icons/linkedin.svg) no-repeat center;
+  -webkit-mask: url(/assets/kankoda/social-icons/linkedin.svg) no-repeat center;
+}
+
+.social-button.mastodon {
+  mask: url(/assets/kankoda/social-icons/mastodon.svg) no-repeat center;
+  -webkit-mask: url(/assets/kankoda/social-icons/mastodon.svg) no-repeat center;
+}
+
+.social-button.twitter {
+  mask: url(/assets/kankoda/social-icons/twitter.svg) no-repeat center;
+  -webkit-mask: url(/assets/kankoda/social-icons/twitter.svg) no-repeat center;
+}

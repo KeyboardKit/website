@@ -1,8 +1,12 @@
 <header class="site-header" role="banner">
   <div class="row wrapper">
     <div class="column">
-      <a class="logo" rel="author" href="/">
+      <a class="logo" href="/">
+        {%- if site.header_image -%}
         <img src="{{ site.header_image }}" alt="{{site.title}} {{ site.header_image }}" title="{{site.title}} home page" >
+        {%- elsif site.header_logo_text -%}
+        <span>{{ site.header_logo_text }}</span>
+        {%- endif -%}
       </a>
     </div>
     <div class="column">

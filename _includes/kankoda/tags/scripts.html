@@ -1,28 +1,6 @@
 <script rel="javascript">
-  
-  function hideAllTags() {
-    $(".tag-item").hide();
-  }
-
-  function hideTag(tag) {
-    $(".tag-" + tag).hide();
-  }
-
-  function showAllTags() {
-    $(".tag-item").show();
-  }
-
-  function showTag(tag) {
-    if ($(".tag-item")[0]){
-      hideAllTags();
-      $(".tag-" + tag).show();
-    } else {
-      window.location.href = "/blog#" + tag; 
-    }
-  }
-  
   let tag = window.location.hash.substring(1);
   if (tag.length) {
-    showTag(tag);
+      showTag(tag);
   }
 </script>

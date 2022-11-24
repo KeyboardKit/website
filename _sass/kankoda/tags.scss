@@ -36,26 +36,6 @@ section.tag-list {
   }
 }
 
-.blog {
-  
-  .post-header {
-    margin-top: 5px;
-    margin-bottom: 20px;
-
-    .spacer {
-      margin: 5px;
-    }
-
-    .tag {
-      font-size: smaller; 
-      font-weight: normal;
-    }
-  }
-}
-
-.blog.list {
-  
-  .post-header {
-    margin-top: -10px;
-  }
+.tag-list-toggle {
+  font-size: small;
 }

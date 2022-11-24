@@ -4,6 +4,10 @@ html, body {
   width: 100%;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 a {
   transition: all 200ms ease-in-out, color 1s ease-out 100ms !important;
 }
@@ -17,4 +21,13 @@ a:hover, a:visited:hover {
   color: $link-hover;
   text-decoration: none;
   transform: translateY(-2px);
+}
+
+blockquote {
+  color: $foreground !important;
+  background-color: #fff3;
+}
+
+.home {
+  text-align: center;
 }
