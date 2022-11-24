@@ -1,5 +1,6 @@
 .site-header {
 
+  min-height: 0px;
 	border: 0 !important;
   padding: 15px 0;
 
@@ -9,11 +10,8 @@
   
   .logo:hover {
     transform: none;
+    transform: scale(1.04);
   }
-
-	.logo.img {
-    height: 60px;
-	}
 
   .column:nth-of-type(1) {
     flex-basis: 10%;
