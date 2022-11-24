@@ -2,7 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include kankoda/head/head.html %}
 
-  <body>
+  <body class="layout-{{page.layout}}">
     {% include kankoda/global/site-header.html %}
     {{ content }}
     {% include kankoda/global/site-footer.html %}
