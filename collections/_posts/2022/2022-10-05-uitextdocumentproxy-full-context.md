@@ -1,11 +1,11 @@
 ---
 title:  KeyboardKit Pro can now get all text from the proxy
 date:   2022-10-05 06:00:00 +0100
-tags:   keyboardkit-pro uitextdocumentproxy
+tags:   keyboardkit-pro proxy
 
 image:  /assets/headers/icon-pro.png
 
-article: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/pro-uitextdocumentproxy-extensions
+article: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/pro-document-proxy-extensions
 ---
 
 KeyboardKit Pro 6.4.2 has been extended with new text document proxy extensions that let you read all text from the proxy.

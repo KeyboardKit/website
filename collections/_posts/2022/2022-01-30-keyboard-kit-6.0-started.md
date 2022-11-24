@@ -1,7 +1,6 @@
 ---
 title:  KeyboardKit 6.0 started
 date:   2022-01-30 12:00:00 +0100
-tags:   
 
 image:  /assets/headers/icon.png
 ---

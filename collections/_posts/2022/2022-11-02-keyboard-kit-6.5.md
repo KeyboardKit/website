@@ -8,7 +8,7 @@ image:  /assets/headers/icon.png
 licensekit: https://getlicensekit.com
 ---
 
-KeyboardKit 6.5 is out, with a bunch of changes to the KeyboardKit Pro license model and improves the documentation by nesting types.
+KeyboardKit 6.5 is out, with a bunch of changes to the Pro license model. The release also improves the library documentation by introducing namespaces.
 
 ![Icon badge]({{page.image}})
 

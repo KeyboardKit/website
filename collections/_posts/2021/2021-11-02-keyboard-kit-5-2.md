@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit 5.2
 date:   2021-11-02 12:00:00 +0100
-tags:   general
+tags:   releases
 ---
 
 KeyboardKit 5.2 is out. This version adds support for 🇷🇺 Russian and 🇺🇦 Ukrainian and bumps the package's Swift version to 5.5 to enable DocC support.

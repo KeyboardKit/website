@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit App
 date:   2021-09-22 18:00:00 +0100
-tags:   general
+tags:   app
 ---
 
 The KeyboardKit app has been finished and sent to the App Store for review. If approved, this app will let you create custom keyboards directly on your phone and iPad.

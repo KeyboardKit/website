@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit 5.1
 date:   2021-10-17 12:00:00 +0100
-tags:   general
+tags:   releases
 ---
 
 Sveika, Latvija! KeyboardKit 5.1 is out, with new features and support for 🇪🇪 Estonian, 🇱🇻 Latvian and 🇱🇹 Lithuanian. Sākam rakstīt!
