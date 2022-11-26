@@ -1,7 +1,6 @@
 ---
 title:  What to expect in KeyboardKit 7
 date:   2022-11-24 06:00:00 +0100
-tags:   code-structure
 
 image:  /assets/headers/icon.png
 

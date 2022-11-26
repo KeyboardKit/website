@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit 6.5
 date:   2022-11-02 08:00:00 +0100
-tags:   releases keyboardkit-pro licenses
+tags:   releases licenses
 
 image:  /assets/headers/icon.png
 

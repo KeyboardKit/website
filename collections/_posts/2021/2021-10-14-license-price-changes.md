@@ -12,4 +12,4 @@ Due to this adjustment, Basic licenses have been extended with access to remote 
 
 Previously purchased licenses will renew at the original price of purchase, so make sure to sign up before October 31 to get an amazing deal for the entire lifespan of your app.
 
-[Read more here](https://getkeyboardkit.com/pro)
+[Read more here](/pro)

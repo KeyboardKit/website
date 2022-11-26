@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit Pro can now get all text from the proxy
 date:   2022-10-05 06:00:00 +0100
-tags:   keyboardkit-pro proxy
+tags:   releases proxy
 
 image:  /assets/headers/icon-pro.png
 

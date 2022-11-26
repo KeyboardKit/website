@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit Pro
 date:   2021-02-18 18:00:00 +0100
-tags:   keyboardkit-pro
+tags:   releases
 ---
 
 The KeyboardKit family has a new member - KeyboardKit Pro! It's a closed-source extension to the open-source library and unlocks pro features that are not available in the core library.
