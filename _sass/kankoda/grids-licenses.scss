@@ -5,8 +5,8 @@
   text-align: center;
 
   .license {
-    background-color: #f0f0f0;
-    border: solid 2px lightgray;
+    background-color: #ddd;
+    border: solid 2px #ccc;
     border-radius: 7px;
     padding: 20px 10px;
     
@@ -23,6 +23,11 @@
         font-size: 0.8em;
       }
     }
+  }
+
+  .license.silver {
+    background-color: #f7f7f7;
+    border: solid 2px #d5d5d5;
   }
 
   .license.gold {
