@@ -26,6 +26,11 @@ Licenses can be purchased from Gumroad or with your preferred payment method (Pa
 Licenses are valid for **one year**, **one app** and **one keyboard extension**. After your license expires, you can continue to use all versions that were released during the license’s validity period.
 
 
+## Autocomplete
+
+Note that local autocomplete will not work with all 60 locales. Make sure to try the demo app before you buy to verify that everything works as needed.
+
+
 ## Demo app
 
 If you want to try KeyboardKit Pro before you sign up for a Pro license, there is a demo app in both the [main]({{site.github_url}}) and the [Pro]({{site.github_url_pro}}) repositories, that shows you how to set up KeyboardKit Pro.
