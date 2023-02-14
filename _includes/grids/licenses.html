@@ -1,57 +1,74 @@
 {% include kankoda/gumroad/script.html %}
-<section class="grid licenses">
-  <div>
-    <div class="license basic">
+
+<section class="license-table">
+
+  <div class="grid header">
+    <div class="feature"></div>
+    <div class="basic">
       <h3>Basic</h3>
-      <div class="features">
-        <p>✔&nbsp; 1 App</p>
-        <p>✔&nbsp; 1 Locale</p>
-        <p>✔&nbsp; Emoji skintones</p>
-        <p>✔&nbsp; Local autocomplete</p>
-        <p>✔&nbsp; Remote autocomplete</p>
-        <p>✔&nbsp; Document proxy utils</p>
-        <p>✔&nbsp; Additional views</p>
-      </div>
-      <h4>
-        <a href="{{site.gumroad_url_basic}}">$500/year</a>
-      </h4>
+      <p>$500/year</p>
     </div>
-    {% include kankoda/gumroad/button.html product="keyboardkit-pro-basic" %}
-  </div>
-  <div>
-    <div class="license silver">
+    <div class="silver">
       <h3>Silver</h3>
-      <div class="features">
-        <p>✔&nbsp; 1 App</p>
-        <p>✔&nbsp; 5 Locales</p>
-        <p>✔&nbsp; Emoji skintones</p>
-        <p>✔&nbsp; Local autocomplete</p>
-        <p>✔&nbsp; Remote autocomplete</p>
-        <p>✔&nbsp; Document proxy utils</p>
-        <p>✔&nbsp; Additional views</p>
-      </div>
-      <h4>
-        <a href="{{site.gumroad_url_silver}}">$750/year</a>
-      </h4>
+      <p>$750/year</p>
     </div>
-    {% include kankoda/gumroad/button.html product="keyboardkit-pro-silver" %}
-  </div>
-  <div>
-    <div class="license gold">
+    <div class="gold">
       <h3>Gold</h3>
-      <div class="features">
-        <p>✔&nbsp; 1 App</p>
-        <p>✔&nbsp; {% include locales/count.html %} Locales</p>
-        <p>✔&nbsp; Emoji skintones</p>
-        <p>✔&nbsp; Local autocomplete</p>
-        <p>✔&nbsp; Remote autocomplete</p>
-        <p>✔&nbsp; Document proxy utils</p>
-        <p>✔&nbsp; Additional views</p>
-      </div>
-      <h4>
-        <a href="{{site.gumroad_url_gold}}">$1000/year</a>
-      </h4>
+      <p>$1,000/year</p>
     </div>
-    {% include kankoda/gumroad/button.html product="keyboardkit-pro-gold" %}
+  </div>
+  <div class="grid">
+    <div class="feature">Locales</div>
+    <div>1</div>
+    <div>5</div>
+    <div>10</div>
+  </div>
+  <div class="grid even">
+    <div class="feature">Custom look</div>
+    <div>✔</div>
+    <div>✔</div>
+    <div>✔</div>
+  </div>
+  <div class="grid">
+    <div class="feature">Custom views</div>
+    <div>✔</div>
+    <div>✔</div>
+    <div>✔</div>
+  </div>
+  <div class="grid even">
+    <div class="feature">Local autocomplete *</div>
+    <div>✔</div>
+    <div>✔</div>
+    <div>✔</div>
+  </div>
+  <div class="grid">
+    <div class="feature">Remote autocomplete</div>
+    <div>✔</div>
+    <div>✔</div>
+    <div>✔</div>
+  </div>
+  <div class="grid even">
+    <div class="feature">Emoji skintones</div>
+    <div>✔</div>
+    <div>✔</div>
+    <div>✔</div>
+  </div>
+  <div class="grid">
+    <div class="feature">Full proxy content</div>
+    <div>✔</div>
+    <div>✔</div>
+    <div>✔</div>
+  </div>
+  <div class="grid even">
+    <div class="feature">Additional views</div>
+    <div>✔</div>
+    <div>✔</div>
+    <div>✔</div>
+  </div>
+  <div class="grid">
+    <div class="feature"></div>
+    <div>{% include kankoda/gumroad/button.html product="keyboardkit-pro-basic" %}</div>
+    <div>{% include kankoda/gumroad/button.html product="keyboardkit-pro-silver" %}</div>
+    <div>{% include kankoda/gumroad/button.html product="keyboardkit-pro-gold" %}</div>
   </div>
 </section>

@@ -1,3 +1,67 @@
+.license-table {
+
+  padding: 20px 0;
+
+  .grid {
+    grid-row-gap: 10px;
+    grid-column-gap: 5px;
+
+    > div.feature { 
+      justify-content: left;
+    }
+
+    > div {
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    .gumroad-button {
+      span.logo-full {
+        display: none;
+      }
+    }
+  }
+
+  .grid.header {
+
+    > div {
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      display: block;
+      text-align: center;
+    }
+
+    div.basic {
+      background-color: #ddd;
+      border: solid 2px #ccc;
+    }
+
+    div.silver {
+      background-color: #f7f7f7;
+      border: solid 2px #d5d5d5;
+    }
+
+    div.gold {
+      border: solid 2px gold;
+      background-color: rgba(255, 215, 0, 0.2);
+    }
+
+    h3, h3 + p {
+      margin: 0;
+    }
+  }
+
+  .grid.even {
+    background-color: #fafafa;
+  }
+}
+
+
+
 .grid.licenses {
 
   margin: 40px 0;
