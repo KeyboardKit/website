@@ -10,9 +10,9 @@ description: KeyboardKit Pro extends KeyboardKit with 50+ locales, localized sys
 
 ## About
 
-KeyboardKit Pro extends KeyboardKit with 60 localized input sets, keyboard layouts and secondary callout actions, as well as on-device and remote autocomplete engines, emoji skintones, additional views, the possibility to read the full text from the proxy, etc.
+KeyboardKit Pro extends KeyboardKit with up to 60 locales (including localized input sets, keyboard layouts and secondary callout actions), local and remote autocomplete, emoji skintones, being able to read the full document proxy content, additional views etc.
 
-KeyboardKit Pro lets you create a fully localized system keyboard with a single line of code and can elevate your keyboard with Pro features. Check out the [GitHub repository]({{site.github_url_pro}}) for more information.
+KeyboardKit Pro lets you create fully localized system keyboards with a single line of code and can elevate your keyboard with Pro features. Check out the [GitHub repository]({{site.github_url_pro}}) for more information.
 
 
 ## Licenses
@@ -28,7 +28,7 @@ Licenses are valid for **one year**, **one app** and **one keyboard extension**.
 
 ## Autocomplete
 
-Note that local autocomplete will not work with all 60 locales. Make sure to try the demo app before you buy to verify that everything works as needed.
+Local autocomplete uses on-device capabilities to provide suggestions as the user types. It doesn't work with all locales, so make sure to try the demo app to verify if it would work for your use case.
 
 
 ## Demo app
