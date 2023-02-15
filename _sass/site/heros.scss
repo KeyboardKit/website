@@ -1,11 +1,17 @@
-.home {
+.home.hero {
+
+    img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
     .hero-line {
         margin-top: -180px;
         margin-bottom: 120px;
     }
 }
 
-.hero.about, .hero.open-source, .hero.pro {
+.hero {
 
     img {
         width: 350px;
@@ -14,23 +20,5 @@
     .hero-line {
         margin-top: -215px;
         margin-bottom: 160px;
-    }
-}
-
-.hero {
-
-    .emoji-h1 {
-        margin-top: -20px;
-        margin-bottom: -40px;
-    }
-
-    .emoji-h1.globe {
-        margin-top: -20px;
-        margin-bottom: -60px;
-    }
-
-    .emoji-h1.license {
-        margin-top: -20px;
-        margin-bottom: -80px;
     }
 }

@@ -10,9 +10,9 @@ description: KeyboardKit Pro unlocks 60 locales, fully localized system keyboard
 
 ## About
 
-KeyboardKit Pro is a license-based extension to KeyboardKit that unlocks {% include locales/count.html %} locales and lets you create fully localized system keyboards with a single line of code.
+KeyboardKit Pro is a license-based extension to KeyboardKit that unlocks **{% include locales/count.html %}** locales and lets you create fully localized system keyboards with a single line of code.
 
-KeyboardKit Pro also unlocks local and remote autocomplete, emoji skintone support, additional views etc. The Gold tier also lets you read all text content from the text document. 
+KeyboardKit Pro also unlocks localized services, local and remote autocomplete, emoji skintone support, more views etc. The Gold tier also lets you read all text content from the text document. 
 
 Visit the [GitHub repo]({{site.github_url_pro}}) for a full list of features, online documentation, a demo application etc.
 
@@ -30,14 +30,16 @@ Licenses are valid for **one year**, **one app** and **one keyboard extension**.
 
 ## Features
 
-### Custom design
+### Customizable
 
-Just like with the open-source library, the KeyboardKit Pro keyboards can be fully customized. You can use custom appearances to change colors, fonts, shadows icons etc., use custom views for any key, insert additional keys anywhere etc.
+Just like with the open-source library, the KeyboardKit Pro keyboards can be fully customized. You can change colors, fonts, icons etc., use custom views, insert additional keys anywhere etc.
+
+KeyboardKit Pro also supports replacing any services with custom ones, and lets you subclass pro services to build custom things upon pro functionality.
 
 
 ### Additional views
 
-KeyboardKit Pro unlocks additional views that can be used to streamline the development process, such as additional toolbars and buttons.
+KeyboardKit Pro unlocks additional views that can be used to streamline the development process, such as additional toolbars, buttons, toggles etc.
 
 
 ### Emoji Skintones
@@ -54,8 +56,8 @@ The local autocomplete engine uses on-device capabilities to provide suggestions
 The remote autocomplete engine lets you connect to any external autocomplete API, and lets you customize your communication layer to great extent.
 
 
-### Full proxy content
+### Reading the full document content
 
 The iOS text document proxy will not provide you with all text in the document, which means that it may be hard to build features like spell-checking, contextual support, AI assistance etc.
 
-To fix this, KeyboardKit Pro unlocks additional proxy capabilities that makes the standard iOS text document proxy capable of reading the entire text document.
+KeyboardKit Pro therefore unlocks additional proxy capabilities that make the text document proxy able to read the entire content of text document.

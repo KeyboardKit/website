@@ -18,10 +18,39 @@
   }
 }
 
+
 .grid.blog {
   grid-column-gap: 40px;
   grid-template-columns: repeat(2, 1fr);
 }
+
+
+.grid.home-features {
+  margin: 80px 0;
+  grid-template-columns: repeat(2, 1fr);
+
+  img {
+      box-shadow: none;
+      width: 225px;
+  }
+
+  .flags {
+      padding: 40px 0;
+
+  }
+
+  a p {
+      font-weight: normal;
+  }
+  h2, p {
+      text-align: left;
+  }
+
+  h2 {
+      font-size: 1.2em;
+  }
+}
+
 
 .grid.icons {
   
@@ -46,6 +75,7 @@
   }
 }
 
+
 .grid.sponsors {
   grid-template-columns: repeat(6, 1fr);
 
@@ -65,6 +95,7 @@
     display: none;
   }
 }
+
 
 @media (max-width: 600px) {
   
