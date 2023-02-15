@@ -25,7 +25,7 @@
     }
   }
 
-  .grid.header {
+  .table-header {
 
     > div {
       padding: 10px;
@@ -55,10 +55,18 @@
     }
   }
 
-  .grid.even {
+  .table-section-header {
+    display: none;
+    padding: 8px;
+    font-size: smaller;
+    font-weight: bold;
+  }
+
+  .even {
     background-color: #fafafa;
   }
 }
+
 
 
 
@@ -108,5 +116,25 @@
 
   .grid.licenses { 
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+
+  .license-table {
+
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+
+
+      .feature {
+        display: none;
+        background-color: red;
+      }
+    }
+
+    .table-section-header { 
+      display: inherit;
+    }
   }
 }

@@ -2,7 +2,7 @@
 
 <section class="license-table">
 
-  <div class="grid header">
+  <div class="grid table-header">
     <div class="feature"></div>
     <div class="basic">
       <h3>Basic</h3>
@@ -17,54 +17,63 @@
       <p>$1,000/year</p>
     </div>
   </div>
+
+  <div class="table-section-header">Locales</div>
   <div class="grid">
     <div class="feature">Locales</div>
     <div>1</div>
     <div>5</div>
-    <div>10</div>
+    <div>{% include locales/count.html %}</div>
   </div>
+  
+  <div class="table-section-header even">Custom design</div>
   <div class="grid even">
-    <div class="feature">Custom look</div>
+    <div class="feature">Custom design</div>
     <div>✔</div>
     <div>✔</div>
     <div>✔</div>
   </div>
+
+  <div class="table-section-header">Additional views</div>
   <div class="grid">
-    <div class="feature">Custom views</div>
+    <div class="feature">Additional views</div>
     <div>✔</div>
     <div>✔</div>
     <div>✔</div>
   </div>
-  <div class="grid even">
-    <div class="feature">Local autocomplete *</div>
-    <div>✔</div>
-    <div>✔</div>
-    <div>✔</div>
-  </div>
-  <div class="grid">
-    <div class="feature">Remote autocomplete</div>
-    <div>✔</div>
-    <div>✔</div>
-    <div>✔</div>
-  </div>
+
+  <div class="table-section-header even">Emoji skintones</div>
   <div class="grid even">
     <div class="feature">Emoji skintones</div>
     <div>✔</div>
     <div>✔</div>
     <div>✔</div>
   </div>
+
+  <div class="table-section-header">Local autocomplete *</div>
+  <div class="grid">
+    <div class="feature">Local autocomplete *</div>
+    <div>✔</div>
+    <div>✔</div>
+    <div>✔</div>
+  </div>
+
+  <div class="table-section-header even">Remote autocomplete</div>
+  <div class="grid even">
+    <div class="feature">Remote autocomplete</div>
+    <div>✗</div>
+    <div>✗</div>
+    <div>✔</div>
+  </div>
+
+  <div class="table-section-header">Full proxy content</div>
   <div class="grid">
     <div class="feature">Full proxy content</div>
-    <div>✔</div>
-    <div>✔</div>
-    <div>✔</div>
-  </div>
-  <div class="grid even">
-    <div class="feature">Additional views</div>
-    <div>✔</div>
-    <div>✔</div>
+    <div>✗</div>
+    <div>✗</div>
     <div>✔</div>
   </div>
+
   <div class="grid">
     <div class="feature"></div>
     <div>{% include kankoda/gumroad/button.html product="keyboardkit-pro-basic" %}</div>

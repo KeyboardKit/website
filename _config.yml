@@ -35,7 +35,7 @@ header_image: /assets/icon/icon-1024.png
 header_image_type: icon
 
 header_pages:
-  - index.html
+  - pages/about.md
   - pages/open-source.md
   - pages/pro.md
   - pages/blog.md
