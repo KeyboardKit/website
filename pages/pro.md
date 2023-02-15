@@ -56,8 +56,8 @@ The local autocomplete engine uses on-device capabilities to provide suggestions
 The remote autocomplete engine lets you connect to any external autocomplete API, and lets you customize your communication layer to great extent.
 
 
-### Reading the full document content
+### Reading the full document
 
 The iOS text document proxy will not provide you with all text in the document, which means that it may be hard to build features like spell-checking, contextual support, AI assistance etc.
 
-KeyboardKit Pro therefore unlocks additional proxy capabilities that make the text document proxy able to read the entire content of text document.
+KeyboardKit Pro therefore unlocks additional proxy capabilities that make the text document proxy able to read the entire document and get all text instead of just the text closest to the text cursor.
