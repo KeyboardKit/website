@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 6.9
+title:  KeyboardKit 6.9 is out
 date:   2023-01-10 08:00:00 +0100
 tags:   releases multi-platform
 

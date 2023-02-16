@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 6.8
+title:  KeyboardKit 6.8 is out
 date:   2023-01-04 08:00:00 +0100
 tags:   releases localization
 
