@@ -9,8 +9,8 @@ image:  /assets/headers/icon.png
 release: https://github.com/KeyboardKit/KeyboardKit/releases
 documentation: https://github.com/KeyboardKit/KeyboardKit/releases/download/7.0-rc/KeyboardKit-7rc.doccarchive.zip
 
-tweet:  
-toot:   
+tweet:  https://twitter.com/GetKeyboardKit/status/1626337838382866437?s=20
+toot:   https://mastodon.social/@danielsaidi/109876618450642984
 ---
 
 
