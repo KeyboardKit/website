@@ -42,6 +42,7 @@ header_pages:
 
 footer_sitemap:
   - index.html
+  - pages/locales.md
   - pages/features.md
   - pages/open-source.md
   - pages/pro.md
