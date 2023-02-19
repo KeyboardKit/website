@@ -7,30 +7,23 @@ hero: about
 description: KeyboardKit is a Swift-based library that helps you build custom keyboards for iOS and  macOS, tvOS and watchOS, using SwiftUI or UIKit.
 ---
 
-
-## About
-
-KeyboardKit is a Swift-based library that lets you build custom keyboards for iOS, macOS, tvOS and watchOS, using Apple-specific technologies like SwiftUI and UIKit.
+KeyboardKit is a Swift-based library that lets you build custom keyboards for iOS, macOS, tvOS and watchOS, using native technologies like SwiftUI and UIKit.
 
 
-## Why is it needed?
+## Why is KeyboardKit needed?
 
-If you've ever tried to build a custom keyboard for iOS, you may have noticed that the native APIs are quite limited, and basically only lets you insert and delete text, move the text cursor around and get limited information about the current document.
+If you've ever tried to build a custom keyboard for iOS, you may have noticed that the native APIs are very limited and basically only lets you insert and delete text, move the text input cursor and get limited information about the document and its content. 
 
-Keyboard extends these native APIs and provides you with a lot more functionality than is natively available. KeyboardKit extends existing types and adds brand new services and utilities to the mix, to let you create keyboards that mimic the iOS stock keyboard in a single line of code.
+This is where KeyboardKit comes in.
 
 
-## What can it do?
+## What does Keyboard do?
 
-KeyboardKit adds a bunch of extension to existing types, as well as brand new services and utilities to control things like autocomplete, input sets, keyboard layouts, haptic and audio feedback etc. 
+Keyboard extends these native APIs to provide you with a lot more functionality than is natively available, for instance to easier read and affect the text document, analyze texts etc. 
 
-KeyboardKit adds standard implementations of all services, but you can replace any service with custom ones and inherit the standard ones to build upon already implemented functionality.
+KeyboardKit also adds [additional locales, services and utilities](/features) to the mix, to let you create localized and customizable keyboards that mimic the native iOS keyboard.
 
-KeyboardKit has a system keyboard that can be used to mimics the stock iOS keyboard, as well as a bunch of views that can be used together with existing services or completely standalone. 
-
-KeyboardKit lets you customize the look, feel and behavior or the system keyboard and all other views. You can change things like the appearance (colors, icons, fonts), keys, keyboard layout etc.
-
-KeyboardKit also provides you with a lot of utilities that don't have to be used in a keyboard, such as string utilities, word analysis, proxy extensions, emoji information etc. These utilities can be used on all major Apple platforms, such as iOS, macOS, tvOS and watchOS.
+With KeyboardKit, you'll be able to create keyboards that look just like the native iOS keyboards with a single line of code.
 
 
 ## Open-source

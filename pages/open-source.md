@@ -10,20 +10,19 @@ sponsors: https://github.com/sponsors/danielsaidi
 ---
 
 
-## About
+KeyboardKit is open-source and hosted at [GitHub]({{site.github_url}}), where you find the source code, getting started guides, code examples, online documentation, demo apps etc.
 
-KeyboardKit is open-source and hosted at [GitHub]({{site.github_url}}), where you will find the source code, a getting started guide, code examples, documentation, demo apps etc. 
+
+## Contribute
+
+KeyboardKit is open-source, which means that anyone can contribute by implementing features, improving things, fixing bugs, or just by giving feedback and reporting issues.
+
+
+## License
 
 KeyboardKit released under the MIT license, which means that you can use the library in any way you like. You can fork it and modify it as you see fit, release your own versions etc.
 
-Check out the [GitHub repository]({{site.github_url}}) for more information about the library, the features it has and how to use it in your own apps. There you also find documentation, sample code, demo apps etc.
 
-
-## Community-driven
-
-KeyboardKit is open-source, which means that it's community-driven. Anyone can contribute to the project by fixing bugs, improving things, creating issues etc.
-
-
-## Support
+## Financial support
 
 KeyboardKit is open-source and completely free, but any financial support is greatly appreciated to keep the project going. You can support KeyboardKit by becoming a [GitHub sponsor]({{page.sponsors}}), upgrading to [Pro](/pro), paying for [support and consultation](mailto:{{site.email}}?subject=Support) etc.

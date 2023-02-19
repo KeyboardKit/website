@@ -36,12 +36,13 @@ header_image_type: icon
 
 header_pages:
   - pages/about.md
-  - pages/open-source.md
-  - pages/pro.md
+  - pages/locales.md
+  - pages/features.md
   - pages/blog.md
 
 footer_sitemap:
   - index.html
+  - pages/about.md
   - pages/locales.md
   - pages/features.md
   - pages/open-source.md
