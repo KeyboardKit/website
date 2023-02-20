@@ -22,7 +22,7 @@ KeyboardKit comes with a bunch of keyboard-specific actions, like characters, em
 
 ## 🎨 Appearance
 
-KeyboardKit comes with an appearance engine that lets you style your keyboard to change the standard colors, fonts, images etc. for any part of the keyboard.
+KeyboardKit comes with an appearance engine that lets you change the button images and texts as well as the colors, fonts, shadows, callouts etc. for any part of the keyboard.
 
 
 ## 💡 Autocomplete
@@ -93,11 +93,6 @@ KeyboardKit supports both LTR (left-to-right) and RTL (right-to-left) locales, s
 ## ⚙️ System Settings
 
 KeyboardKit has tools for accessing and linking to an app's keyboard settings, which makes it easy for a user to enable a keyboard, give it full access etc.
-
-
-## 🎨 Styles
-
-KeyboardKit defines a bunch of stnadard keyboard component styles that can be customized to change the look of your keyboard
 
 
 ## 👑 KeyboardKit Pro
