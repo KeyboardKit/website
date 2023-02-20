@@ -47,6 +47,7 @@ footer_sitemap:
   - pages/features.md
   - pages/open-source.md
   - pages/pro.md
+  - pages/pro-trial.md
   - pages/blog.md
 
 collections_dir: collections

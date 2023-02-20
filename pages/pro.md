@@ -17,7 +17,6 @@ KeyboardKit Pro requires a commercial license to be used. There are three tiers 
 Licenses can be purchased from [Gumroad]({{site.gumroad_url}}) or with your preferred payment method (Paypal, Xoom, etc.). You can add your company information and VAT number directly on Gumroad. Just tap any of the purchase buttons above or [send an e-mail](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) and we'll discuss your needs.
 
 
-
 ## Features
 
 Visit [GitHub]({{site.github_url_pro}}) for a full list of features, sample code, online documentation, articles, a demo app etc.
