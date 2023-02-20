@@ -61,8 +61,8 @@
     font-weight: bold;
   }
 
-  .even {
-    background-color: #fafafa;
+  .even, .even + .grid {
+    background-color: #f7f7f7;
   }
 }
 

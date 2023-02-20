@@ -21,9 +21,7 @@ This is where KeyboardKit comes in.
 
 Keyboard extends these native APIs to provide you with a lot more functionality than is natively available, for instance to easier read and affect the text document, analyze texts etc. 
 
-KeyboardKit also adds [additional locales, services and utilities](/features) to the mix, to let you create localized and customizable keyboards that mimic the native iOS keyboard.
-
-With KeyboardKit, you'll be able to create keyboards that look just like the native iOS keyboards with a single line of code.
+KeyboardKit also adds [additional locales, services and utilities](/features) to the mix, to let you create localized and customizable keyboards that mimic the native iOS keyboard with a few lines of code.
 
 
 ## Open-source
@@ -33,4 +31,4 @@ KeyboardKit is [open-source](/open-source) and completely free, which means that
 
 ## KeyboardKit Pro
 
-[KeyboardKit Pro](/pro) is a license-based extension to KeyboardKit. It unlocks {% include locales/count.html %} locales and a bunch of pro features and lets you create fully localized system keyboards with a single line of code.
+[KeyboardKit Pro](/pro) is a license-based extension that unlocks [{% include locales/count.html %} locales](/locales) and a bunch of [pro features](/pro) that take your keyboards to the next level.
