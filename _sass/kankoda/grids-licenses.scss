@@ -49,6 +49,18 @@
       background-color: rgba(255, 215, 0, 0.2);
     }
 
+    .trial {
+      background-color: white;
+      margin-top: 12px;
+      padding: 5px 20px;
+      border-radius: 16px;
+      font-size: small;
+    }
+
+    .trial:hover {
+      box-shadow: #00000011 0px 2px 10px 0px;
+    }
+
     h3, h3 + p {
       margin: 0;
     }
