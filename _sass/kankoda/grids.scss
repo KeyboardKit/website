@@ -79,7 +79,7 @@
   img { 
     object-fit: cover;
     opacity: 0.5;
-    filter: grayscale(100%);
+    filter: grayscale(50%);
     transition: all 200ms ease-in-out, color 1s ease-out 100ms !important;
   }
 
