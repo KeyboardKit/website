@@ -19,6 +19,6 @@ Please [send an e-mail](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20Trial%
 You can try many of the Gold features without a trial version and without having to write a single line of code. Just visit the [GitHub project website]({{site.github_url_pro}}) to try out the demo app that is pre-configured with a Gold license.
 
 
-## KeyboardKit App
+## App Store
 
 You can also try out many of the Gold features by downloading the [KeyboardKit app]({{site.appstore_url}}) from the App Store. It's a bit dated, but will soon be updated with the latest and greatest technologies.
