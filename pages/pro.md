@@ -21,7 +21,7 @@ Licenses can be purchased from [Gumroad]({{site.gumroad_url}}) or with your pref
 
 Visit [GitHub]({{site.github_url_pro}}) for a full list of features, sample code, online documentation, articles, a demo app etc.
 
-Note that local autocomplete uses on-device capabilities that may not be available for some of the locales, and that the provided suggestions are not predictable nor as advanced as the native ones. You can evaulate it for all locales in the demo app, to see if it meets your needs.
+Note that local autocomplete uses on-device technologies that may not be available for all locales, and that the provided suggestions are not predictable nor as advanced as the native ones. You can evaulate the local autocomplete result for all locales in the demo app, to see if it meets your needs.
 
 
 ## License terms
