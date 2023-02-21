@@ -1,12 +1,18 @@
+code.highlighter-rouge {
+  border: solid 1px $code-border;
+  background: $code-background !important;
+  color: $code-foreground;
+}
+
 .highlighter-rouge {
   border: 0;
-  background: $code-background !important;
-  color: white;
+  background: $code-block-background !important;
+  color: $code-block-foreground;
   
   .highlight {
     border: 0;
     margin-bottom: 0px;
-    background: $code-background !important;
+    background: $code-block-background !important;
   }
 
   code {

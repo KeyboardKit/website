@@ -1,5 +1,5 @@
 ---
-title:  How to open your app's System Settings screen
+title:  How to open your System Settings app screen
 date:   2023-02-20 11:00:00 +0100
 
 tags:   settings

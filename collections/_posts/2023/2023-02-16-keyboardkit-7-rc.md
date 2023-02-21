@@ -74,6 +74,6 @@ The biggest breaking change is that KeyboardKit 7 targets iOS and tvOS 14. If yo
 
 Another big change that may affect you, is that the `.return` and `.newLine` keyboard actions are now part of the `.primary` action type. Just use `.primary(.return)` and `.primary(.newLine)` instead of the old actions. Furthermore, the `.shift` action's `currentState` parameter has been renamed to `currentCasing`.
 
-As mentioned before, many shared instances are removed, including the `ActionCalloutContext`, `InputCalloutContext` and `KeyboardInputViewController`. This may require you to pass some more parameters, where the shared instances were used internally before.
+As mentioned before, many shared things are removed, including the `ActionCalloutContext`, `InputCalloutContext` and `KeyboardInputViewController`. This may require you to pass some more parameters, where the shared instances were used internally before.
 
 There are many more things to know about KeyboardKit 7, so if you update and run into problems, you find the preliminary release notes [here]({{page.release}}) and can download the documentation [here]({{page.documentation}}).
