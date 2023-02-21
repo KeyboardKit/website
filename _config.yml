@@ -36,8 +36,8 @@ header_image_type: icon
 
 header_pages:
   - pages/about.md
-  - pages/locales.md
   - pages/features.md
+  - pages/pro.md
   - pages/blog.md
 
 footer_sitemap:
