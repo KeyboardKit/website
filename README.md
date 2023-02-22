@@ -1,6 +1,6 @@
 # About this website
 
-This repository contains the [website][Website] for the KeyboardKit app and open-source library.
+This repository contains the old [KeyboardKit website][Website].
 
 
 ## Device resources
