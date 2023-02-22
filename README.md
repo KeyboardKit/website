@@ -1,6 +1,6 @@
 # About this website
 
-This repository contains the old [KeyboardKit website][Website].
+This repository contains the code for the [KeyboardKit website][Website].
 
 
 ## Device resources
@@ -10,4 +10,4 @@ Make sure to continously update the home page device hero with the latest resour
 
 
 [Apple-marketing]: https://developer.apple.com/app-store/marketing/guidelines/#section-products
-[Website]: https://getkeyboardkit.com
+[Website]: https://keyboardkit.com
