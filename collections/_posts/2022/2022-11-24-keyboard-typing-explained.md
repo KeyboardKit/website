@@ -6,26 +6,50 @@ tags:   gestures
 image:  /assets/headers/icon.png
 ---
 
-KeyboardKit is getting a new gesture engine, which will make the typing experience a lot closer to the one in the native iOS keyboards. But have you ever considered what is involved in typing on a software keyboard? It's actually a quite complex combination of gestures and features. Let's take a look at some of them.
+KeyboardKit is getting a new gesture engine that will make the typing experience a lot closer to the one in native iOS keyboards. But have you ever considered what is involved in typing on a software keyboard? It's actually a complex combination of gestures and features. Let's take a closer look at it.
 
 ![Icon badge]({{page.image}})
 
-Typing on a keyboard is not as trivial as it may seem at first. It may seem like all you have to do is to handle key presses, but in reality keyboard typings involves a lot of gestures that have to play well play together.
+Typing on a keyboard is not as trivial as it may seem, where it at first glance may seem like all you have to do is to handle key presses and the occasional long press.
 
-For instance, although a character key will insert the character when it's tapped, it will also display an input callout when it's pressed and open an action callout when it's long pressed, but only if it has any secondary actions. If so, it should *not* insert the character when the button is released, once the action callout has been presented. It must also update the selected action in the action callout when you keep your finger pressed and swipe it sideways, plus hide the callout if you move your finger too far away. Oh, and you should not insert the character if you press the button, but release it outside the button bounds.
+In reality, typing on a software keyboard involves a lot of gestures that have to play well together, as well as many sophisticated features that we may take for granted.
 
-Non-character keys may not be as complicated as above, but involve various behavior as well. For instance, the shift button should switch between shift up and shift down when its released, but to caps-lock when it's double-tapped. The space bar should insert a blank space when released, but also enter cursor movement mode when it's long pressed. The backspace button should perform a backspace when it's released, but also start a repeating action it you keep it pressed down. We may also want to perform some actions for all buttons when the gesture ends, such as making sure to reset any ongoing state.
 
-So to summarize, we have identified these gestures: **press**, **release inside**, **release outside**, **drag**, including detecting when a drag starts and ends, **double tap**, **long press**, **repeat** and **gesture end**.
+## Character keys
 
-In addition, native keyboards have swipe to type support for many languages, which lets you swipe between characters to let the keyboard guess which word you intended to type. This should cancel any key-specific gestures and not show any input or action callouts, and have to work across keys instead of just handling a single key.
+For instance, although you may think that a character key should just insert the character when it's **released**, but only if it's released within its bounds. it should also display an input callout when it's **pressed**, hide it when it's **released** and present an action callout when it's **long pressed**, but only if a character has secondary characters. If so, the secondary callout should hide the input callout, and the key should *not* insert the character if it's released after the action callout has been presented. 
 
-As you can see, typing on a keyboard is a bit more complex than what one may first expect. On top of all these gestures and their features, comes the typing experiecne itself. How does it feel to type on the keyboard? Given how much time we spend with out keyboards, it should feel great as well.
+Regarding the secondary callout, it must update the selected character when you keep your finger **pressed** and **swipe** sideways, plus hide itself if you move your finger too far away. It should also present itself with a leading or trailing alignment, depending on which screen edge it's closest to.
 
-Alhough KeyboardKit has supported all the gestures above for a long time, the typing experience has so far been a bit limited compared to the snappy feeling of the native keyboards. It hasn't been bad, but there has been an almost undetectable delay that has made typing feedback feel not as immediate as in native keyboards, in a way that has been hard to reason about. The reason for this has been caused by the many gestures that the KeyboardKit gesture engine has involved to get the gestures above working. 
 
-It's therefore a pleasure to announce that a **brand new gesture engine** is coming in KeyboardKit 6.6. The old engine has been rewritten from scratch and now works with *one single gesture*, which means that feedback will be immediate and there is no risk of conflicting gestures. For scroll views, which are used in emoji keyboards, there is a toggle that makes the gestures a bit less responsive, which is needed to make the gestures not conflict with the scroll view gestures.
+## Action keys
 
-Since typing is at the heart of the keyboard experience, the new gesture engine will most probably be feature toggled and force you to actively enable it. Once we have verified that it works well, we can then remove the feature toggle.
+Non-input keys also involve complex behaviors. For instance, a shift button should switch between shift up and shift down when its **released**, but to caps-lock when it's **double-tapped**. The space bar should insert a space when it's **released**, but start moving the input cursor when it's **long pressed** and **panned**. The backspace button should delete backwards a backspace when it's **pressed**, but it should also **repeat** that action until it's **released**. We may also want to perform some actions for all buttons when the gesture ends, such as making sure to reset any ongoing state.
+
+
+## Audio and haptic feedback
+
+Software keyboards may also enhance the typing experience by providing the user with audio and haptic feedback, but it's then important for a key to be able to determine if it will actually trigger an action, before it triggers this kind of feedback, otherwise it may confuse the user.
+
+
+## Swipe to type
+
+In addition to all the gestures mentioned above, native keyboards have "swipe to type" support for many languages, that lets you swipe between characters to let the keyboard guess which word you intended to type. Swipe to type requires gestures to be applied to the entire keyboard instead of on individual keys, and for a layout to be able to detemine which key exists on which coordinate.
+
+
+## Predictive typing
+
+Another important keyboard feature, is Predictive Typing, where a keyboard will slightly adjust the tap area of an input key based on the probability that it's going to be tapped next. This means that keys that are more likely to be tapped will be given a slightly bigger tap area, which increases the chance that the user actually taps them. This a big part of why typing on iOS keyboards sometimes feels like magic...or at least more precise than you may expect it to be.
+
+
+## Conclusion
+
+As you can see, typing on a software keyboard, at least on iOS, is a bit more complex than we may expect at first, and involves many complex gestures and features.
+
+Alhough KeyboardKit has supported all these gestures above for a long time, the typing experience has so far been decimated by an almost undetectable delay that has made typing feedback feel not as immediate as in native iOS keyboards, in a way that was hard to measure and reason about.
+
+It's therefore a pleasure to announce that a **brand new gesture engine** is coming in KeyboardKit 6.6. The old engine has been rewritten from scratch and now works with *one single gesture*, which means that feedback will be immediate and there is no risk of conflicting gestures. For scroll views, which for instance are used in emoji keyboards, there is a scroll view-specific engine works great in combination with the scroll view gestures.
+
+Since the typing experience is at the heart of the keyboard, the new gesture engine will be feature toggled and force you to actively enable it at first, until it's verified to work as good as it's intended to. Once it's verified to works well, the feature toggle will be removed.
 
 KeyboardKit 6.6 is planned for release in early December.
