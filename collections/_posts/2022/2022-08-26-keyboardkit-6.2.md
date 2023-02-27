@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 6.2
+title:  KeyboardKit 6.2 is out
 date:   2022-08-26 08:00:00 +0100
 tags:   releases autocomplete
 

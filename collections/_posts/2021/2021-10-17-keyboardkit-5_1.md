@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 5.1
+title:  KeyboardKit 5.1 is out
 date:   2021-10-17 12:00:00 +0100
 tags:   releases
 ---

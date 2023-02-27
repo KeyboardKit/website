@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 5.4
+title:  KeyboardKit 5.4 is out
 date:   2021-12-19 12:00:00 +0100
 tags:   releases
 ---

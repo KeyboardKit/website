@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 5.5 
+title:  KeyboardKit 5.5 is out
 date:   2022-01-03 12:00:00 +0100
 tags:   releases rtl localization
 

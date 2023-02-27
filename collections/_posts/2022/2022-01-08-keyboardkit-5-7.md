@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 5.7
+title:  KeyboardKit 5.7 is out
 date:   2022-01-08 12:00:00 +0100
 tags:   releases localization
 

@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 6.3
+title:  KeyboardKit 6.3 is out
 date:   2022-09-01 08:00:00 +0100
 tags:   releases autocomplete
 

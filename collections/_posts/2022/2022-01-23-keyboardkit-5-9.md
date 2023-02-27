@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 5.9
+title:  KeyboardKit 5.9 is out
 date:   2022-01-23 12:00:00 +0100
 tags:   releases localization multi-platform
 

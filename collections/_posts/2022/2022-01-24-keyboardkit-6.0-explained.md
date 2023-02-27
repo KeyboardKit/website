@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 6.0 explained
+title:  What to expect in KeyboardKit 6.0
 date:   2022-01-24 12:00:00 +0100
 tags:   localization macos
 

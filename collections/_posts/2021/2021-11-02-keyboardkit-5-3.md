@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 5.3
+title:  KeyboardKit 5.3 is out
 date:   2021-11-24 12:00:00 +0100
 tags:   releases
 ---

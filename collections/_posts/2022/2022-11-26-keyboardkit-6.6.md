@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 6.6
+title:  KeyboardKit 6.6 is out
 date:   2022-11-26 08:00:00 +0100
 tags:   releases emoji gestures
 

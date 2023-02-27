@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 5.8
+title:  KeyboardKit 5.8 is out
 date:   2022-01-14 12:00:00 +0100
 tags:   releases localization input-sets callouts
 

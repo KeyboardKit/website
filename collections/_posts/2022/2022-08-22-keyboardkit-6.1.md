@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 6.1
+title:  KeyboardKit 6.1 is out
 date:   2022-08-22 08:00:00 +0100
 tags:   releases rtl localization autocomplete
 

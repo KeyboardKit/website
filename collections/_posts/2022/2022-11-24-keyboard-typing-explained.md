@@ -10,7 +10,7 @@ KeyboardKit is getting a new gesture engine, which will make the typing experien
 
 ![Icon badge]({{page.image}})
 
-Typing on a keyboard is not as trivial as it may seem at first. It may seem like all you have to do is to handle key presses, while in reality it involves a lot of gestures to play together.
+Typing on a keyboard is not as trivial as it may seem at first. It may seem like all you have to do is to handle key presses, but in reality keyboard typings involves a lot of gestures that have to play well play together.
 
 For instance, although a character key will insert the character when it's tapped, it will also display an input callout when it's pressed and open an action callout when it's long pressed, but only if it has any secondary actions. If so, it should *not* insert the character when the button is released, once the action callout has been presented. It must also update the selected action in the action callout when you keep your finger pressed and swipe it sideways, plus hide the callout if you move your finger too far away. Oh, and you should not insert the character if you press the button, but release it outside the button bounds.
 

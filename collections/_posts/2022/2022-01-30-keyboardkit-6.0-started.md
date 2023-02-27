@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 6.0 started
+title:  KeyboardKit 6.0 development has started
 date:   2022-01-30 12:00:00 +0100
 
 image:  /assets/headers/icon.png

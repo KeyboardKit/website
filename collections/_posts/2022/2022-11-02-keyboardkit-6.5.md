@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 6.5
+title:  KeyboardKit 6.5 is out
 date:   2022-11-02 08:00:00 +0100
 tags:   releases licenses
 
