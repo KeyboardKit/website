@@ -19,7 +19,7 @@ The KeyboardKit 7.0 Release Candidate is finally out and ready to be tested! The
 ![Icon badge]({{page.image}})
 
 
-## Overall ambitions
+## Ambitions, features and changes
 
 KeyboardKit 7.0 involves a major rewrite to get more consistency in structure and naming. It aims to streamline the library to make it easier to use and to make future development easier.
 
