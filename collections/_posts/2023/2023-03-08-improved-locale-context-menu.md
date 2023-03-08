@@ -6,8 +6,8 @@ tags:   locales
 image:  /assets/headers/icon.png
 assets: /assets/blog/2023/2023-03-08/
 
-toot:   https://techhub.social/@keyboardkit/109936849629713474
-tweet:  https://twitter.com/GetKeyboardKit/status/1630191697698103296?s=20
+toot:   https://mastodon.social/@danielsaidi/109989967967718150
+tweet:  https://twitter.com/GetKeyboardKit/status/1633592146702876674?s=20
 ---
 
 KeyboardKit 7.0.1 will patch a few things that were overlooked in the 7.0 release. One such thing is improving the locale context menu that is presented when long pressing a locale switcher button.
