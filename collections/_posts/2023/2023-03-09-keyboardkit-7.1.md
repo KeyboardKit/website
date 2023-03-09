@@ -7,8 +7,8 @@ image:  /assets/headers/icon.png
 
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.1.0
 
-toot:   https://techhub.social/@keyboardkit/109936849629713474
-tweet:  https://twitter.com/GetKeyboardKit/status/1630191697698103296?s=20
+toot:   https://mastodon.social/@danielsaidi/109995065984705063
+tweet:  https://twitter.com/GetKeyboardKit/status/1633918412052221954?s=20
 ---
 
 KeyboardKit 7.1 is out! This minor release fixes a few bugs that were introduced in the 7.0 release, adds a brand new autocomplete experience, improves the locale picker context menu and makes it easier than ever to setup KeyboardKit.
@@ -18,40 +18,38 @@ KeyboardKit 7.1 is out! This minor release fixes a few bugs that were introduced
 
 ## Simplified setup
 
-KeyboardKit currently had a setup function that took a view. This could easily lead to memory leaks when the view required a `KeyboardInputController` reference, since it's easy to forget making any controller reference `weak` or  `unowned`.
+KeyboardKit currently only had a setup function that took a view value. This could lead to memory leaks when the view required a `KeyboardInputController` reference, if you forgot to make the input controller reference `weak` or  `unowned`.
 
-KeyboardKit 7.1 therefore adds a new setup function, that uses a view builder that is called with an `unowned` controller reference. This makes it easy to use the controller in the view, without having to handle the controller reference.
+KeyboardKit 7.1 therefore adds a new setup function to the mix, that takes a view builder that is called with an `unowned` controller reference. This makes it easy to use the controller in the view, without having to handle not retaining the controller reference.
 
-But this is not all. KeyboardKit will now by default setup a `SystemKeyboard`, which means that you don't have to actually setup a view if you just want to use a regular system keyboard. 
-
-If you want to use a custom view, or customize the system keyboard, you can naturally override `viewWillSetupKeyboard` as you've done before, and set up KeyboardKit in any way you want.
+Furthermore, KeyboardKit will now by default set up a `SystemKeyboard`, which means that you don't have to setup a view to use a regular system keyboard. You can of course still override `viewWillSetupKeyboard` if you want to use a custom view or customize the `SystemKeyboard`.
 
 
 ## New autocomplete provider
 
-There is a new autocomplete provider in KeyboardKit Pro, that produces way better results compared to the currently default provider. You can try it out by adding this to `viewDidLoad`:
+KeyboardKit Pro has a new autocomplete provider that produces much better results than the current standard provider. You can try it out by toggling on this feature in `viewDidLoad`:
 
 ```swift
 FeatureToggle.shared.toggleFeature(.newAutocompleteEngine, .on)
 ```
 
-If this new engine behaves as well as it should, it will replace the current one in a future update, after which the feature toggle will be removed.
+If this new engine behaves as well as it should, it will replace the current one in a future version.
 
 
 ## New locale switcher
 
-The locale context menu that is shown when long pressing the locale switcher button (or space, if it's configured in that way) has been refactored to work and look a lot better on iOS 16 and macOS 12. 
+The locale context menu that is shown when long pressing the locale switcher button (or space, if it's configured that way) has been refactored to work and look a lot better on iOS 16 and macOS 12. 
 
-The context menu will now open with a much smoother animation that keeps the keyboard open, instead of popping out the long pressed view and blur the background. This will make switching locales a lot smoother.
+The newl menu opens with a much smoother animation and keeps the keyboard visible, instead of popping out the key and blur the background. This will make switching locales a lot smoother.
 
 
 ## Bug fixes
 
-KeyboardKit 7.0 unfortunately had a single line of code removed, that caused some iPad layouts to become messed up. KeyboardKit 7.1 fixes this and also tweaks a bunch of Pro layouts to match their native counterparts even closer.
+KeyboardKit 7.0 unfortunately had a line of code removed, that caused some iPad layouts to break. KeyboardKit 7.1 fixes this and tweaks a bunch of Pro layouts to match their native look even more.
 
 
-## Release notes
+## Conclusion
 
-KeyboardKit 7.1 builds on the momentum from 7.0 by adding a brand new autocomplete provider and locale menu, while also simplifying the setup, reducing the risk of memory leaks and fixing a couple of layout bugs. 
+KeyboardKit 7.1 builds on the momentum from 7.0 by adding a brand new autocomplete provider and locale context menu, while also simplifying the setup, reducing the risk of memory leaks when setting up controller-depending views and fixing a couple of layout bugs. 
 
 You find a complete list of changes in [the release notes]({{page.release}}).
