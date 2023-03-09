@@ -10,7 +10,7 @@ toot:   https://mastodon.social/@danielsaidi/109989967967718150
 tweet:  https://twitter.com/GetKeyboardKit/status/1633592146702876674?s=20
 ---
 
-KeyboardKit 7.0.1 will patch a few things that were overlooked in the 7.0 release. One such thing is improving the locale context menu that is presented when long pressing a locale switcher button.
+KeyboardKit 7.1 will patch a few things that were overlooked in the 7.0 release. One such thing is improving the locale context menu that is presented when long pressing a locale switcher button.
 
 For reference, KeyboardKit 7.0 and earlier versions use a SwiftUI `ContextMenu`, which makes the long pressed view pop out, blur the background and present the context menu:
 
@@ -18,7 +18,7 @@ For reference, KeyboardKit 7.0 and earlier versions use a SwiftUI `ContextMenu`,
 
 This menu really pulls you out of the keyboard experience and causes a noticable delay when you select a locale and return to the keyboard.
 
-To improve this experience, KeyboardKit 7.0.1 will instead use a SwiftUI `Menu`, which has a cleaner transition, leaves the keyboard visible and updates it a lot faster when a locale is selected:
+To improve this experience, KeyboardKit 7.1 will instead use a SwiftUI `Menu`, which has a cleaner transition, leaves the keyboard visible and updates it a lot faster when a locale is selected:
 
 ![Old context menu]({{page.assets}}2_new.gif)
 
@@ -44,4 +44,4 @@ For instance, this will make the space key present a locale menu when it's long 
 context.spaceLongPressBehavior = .openLocaleContextMenu
 ```
 
-KeyboardKit 7.0.1 will unfortunately introduce a breaking change by renaming these options, so you may have to update your code if you have used this feature since upgrading to 7.0.
+KeyboardKit 7.1 will unfortunately introduce a breaking change by renaming these options, so you may have to update your code if you have used this feature since upgrading to 7.0.
