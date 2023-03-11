@@ -6,8 +6,8 @@ tags:   autocomplete
 image:  /assets/headers/icon.png
 assets: /assets/blog/2023/2023-03-11/
 
-toot:   https://mastodon.social/@danielsaidi/109989967967718150
-tweet:  https://twitter.com/GetKeyboardKit/status/1633592146702876674?s=20
+toot:   https://techhub.social/@keyboardkit/110004348468210559
+tweet:  https://twitter.com/GetKeyboardKit/status/1634512162260434944?s=20
 ---
 
 The KeyboardKit autocomplete experience will be drastically improved in the next minor version. Let's take a look at what it does and how you can try it out and provide feedback before it goes live.
