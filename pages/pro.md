@@ -14,7 +14,7 @@ KeyboardKit Pro requires a license to be used. There are three tiers to choose f
 
 {% include grids/licenses.html %}
 
-Licenses can be purchased from [Gumroad]({{site.gumroad_url}}) or [over e-mail](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) using your preferred payment method (Paypal, Xoom, etc.). You can add your company information and VAT number directly on Gumroad. 
+Licenses can be purchased from [Gumroad]({{site.gumroad_url}}), [Lemon Squeezy]({{site.lemon_url}}) or [over e-mail](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) using your preferred payment method. You can add your company information and VAT number when purchasing.
 
 
 ## Features
@@ -28,13 +28,13 @@ Note that local autocomplete uses on-device technologies that may not be availab
 
 Licenses are valid for **one year**, **one app** and **one keyboard extension**. After your license expires, you must extend it to keep using KeyboardKit Pro. Expirations do not affect already shipped apps.
 
-After your purchase has been registered, you will receive a receipt and a license key. The key will be added to a new version of KeyboardKit Pro, which is typically released within 48 hours.
+After a license expires, you must renew it to keep using KeyboardKit Pro. Expirations do not affect shipped apps. You will receive a welcome e-mail with a license agreement as soon as your license has been activated. The license period starts when the license is activated, not at purchase.
 
-If we are unable to create a new version within 48 hours, you will be informed about the reason for the delay. You are free to refund your purchase at any time before your license has been activated.
+If we are unable to activate your license within 48 hours after purchase, we will do our best to reach out with the reason for the delay. You are free to refund your purchase at any time before your license has been activated.
 
 
 ## Technical information
 
-KeyboardKit targets the current iOS version and at least two major versions back. This means that when **iOS 17** is released, it may drop support for **iOS 14**, but only in a major version bump. 
+KeyboardKit targets the current iOS version and two major versions back. This means that when iOS 17 is released, it may drop support for iOS 14, but it will only do so in a major version bump.
 
-KeyboardKit Pro will be built for the previous major version of Xcode for at least 3 months after a new major version has been released. After that, you must use the latest major version.
+KeyboardKit Pro will be built for the previous major version of Xcode 3 months after a new major version has been released. After that, you must use the latest major version of Xcode to be able to use KeyboardKit Pro.
