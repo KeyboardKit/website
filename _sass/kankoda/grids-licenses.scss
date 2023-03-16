@@ -8,6 +8,8 @@
 
     > div.feature { 
       justify-content: left;
+      font-size: small;
+      font-weight: bold;
     }
 
     > div {
@@ -17,6 +19,26 @@
       align-items: center;
       
     }
+
+    .gumroad-button {
+      span.logo-full {
+        display: none;
+      }
+    }
+  }
+
+  div.basic, div.indie {
+    border: solid 2px #ccc;
+  }
+
+  div.silver, div.startup {
+    background-color: #f7f7f7;
+    border: solid 2px #d5d5d5;
+  }
+
+  div.gold, div.business {
+    border: solid 2px gold;
+    background-color: rgba(255, 215, 0, 0.2);
   }
 
   .table-header {
@@ -27,20 +49,6 @@
       margin-bottom: 10px;
       display: block;
       text-align: center;
-    }
-
-    div.basic {
-      border: solid 2px #ccc;
-    }
-
-    div.silver {
-      background-color: #f7f7f7;
-      border: solid 2px #d5d5d5;
-    }
-
-    div.gold {
-      border: solid 2px gold;
-      background-color: rgba(255, 215, 0, 0.2);
     }
 
     .trial {
@@ -61,14 +69,14 @@
       box-shadow: #00000011 0px 2px 4px 0px;
     }
 
-    h3, h3 + p {
+    h3, p {
       margin: 0;
     }
   }
 
   .table-section-header {
     display: none;
-    padding: 8px;
+    padding: 5px 5px 0px 5px;
     font-size: smaller;
     font-weight: bold;
   }
@@ -78,63 +86,13 @@
   }
 }
 
-
-
-.grid.licenses {
-
-  margin: 40px 0;
-  grid-template-columns: repeat(3, 1fr);
-  text-align: center;
-
-  .license {
-    background-color: #ddd;
-    border: solid 2px #ccc;
-    border-radius: 7px;
-    padding: 20px 10px;
-    
-    h2, h3 { margin-top: 0px; }
-    h4 { margin: 20px 0 0 0; }
-
-    .features {
-      padding: 0 10px;
-      text-align: left;
-      box-shadow: none;
-
-      p {
-        margin: 5px 0;
-        font-size: 0.8em;
-      }
-    }
-  }
-
-  .license.silver {
-    background-color: #f7f7f7;
-    border: solid 2px #d5d5d5;
-  }
-
-  .license.gold {
-    border: solid 2px gold;
-    background-color: rgba(255, 215, 0, 0.2);
-  }
-
-  .license + div {
-    margin-top: 20px;
-  }
-}
-
-@media (max-width: 800px) {
-
-  .grid.licenses { 
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
 @media (max-width: 700px) {
 
   .license-table {
 
     .grid {
       grid-template-columns: repeat(3, 1fr);
+
 
       .feature {
         display: none;
