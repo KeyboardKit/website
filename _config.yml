@@ -38,6 +38,8 @@ assets: /assets/
 header_image: /assets/icon/icon-1024.png
 header_image_type: icon
 
+locale_count: 60
+
 header_pages:
   - pages/about.md
   - pages/features.md
