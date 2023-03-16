@@ -7,7 +7,7 @@
   {% assign body_class = "layout-no-hero" %}
   {% endif %}
   
-  <body class="{{body_class}}">
+  <body class="{{page.hero}} {{body_class}}">
     {% include kankoda/global/site-header.html %}
     {{ content }}
     {% include kankoda/global/site-footer.html %}
