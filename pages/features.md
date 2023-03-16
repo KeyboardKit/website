@@ -12,7 +12,7 @@ Visit [the project site]({{site.github_url}}) for more information, documentatio
 
 ## 🌐 Locales
 
-KeyboardKit comes with support for <a href="/locales">{% include locales/count.html %} keyboard locales</a>, with more being added over time.
+KeyboardKit supports <a href="/locales">{% include locales/count.html %} keyboard locales</a>, with more being added over time.
 
 
 ## 💥 Actions
