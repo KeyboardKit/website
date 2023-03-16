@@ -1,0 +1,42 @@
+.grid.features {
+  margin-bottom: 50px 0;
+  grid-column-gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+
+  img {
+    width: 200px;
+    box-shadow: none;
+  }
+
+  a p {
+    font-weight: normal;
+  }
+
+  h3, p {
+    text-align: left;
+  }
+
+  h3 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .grid.features { 
+    
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    grid-row-gap: 50px;
+    grid-template-columns: repeat(100, 1fr);
+    overflow: scroll;
+
+    a {
+      width: 270px;
+    }
+  }
+}

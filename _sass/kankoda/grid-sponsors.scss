@@ -1,0 +1,26 @@
+.grid.sponsors {
+  grid-template-columns: repeat(6, 1fr);
+
+  img { 
+    object-fit: cover;
+    opacity: 0.5;
+    filter: grayscale(50%);
+    transition: all 200ms ease-in-out, color 1s ease-out 100ms !important;
+  }
+
+  img:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+  }
+
+  p {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  
+  .grid.sponsors {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
