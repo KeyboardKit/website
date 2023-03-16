@@ -1,10 +1,15 @@
 .home {
 
     .wrapper {
-        max-width: 900px !important;
+        max-width: 900px;
     }
-    
-    section.sponsors {
-        margin-top: 30px;
+
+    .home-content section {
+        margin-top: 80px !important;
+        margin-bottom: 20px !important;
+
+        .grid {
+            margin-top: 40px;
+        }
     }
 }

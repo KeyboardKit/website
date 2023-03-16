@@ -5,22 +5,28 @@ hero: home
 
 image:  /assets/headers/icon.png
 
-description: KeyboardKit helps you build custom keyboard extensions that look just like the native iOS keyboards ...or completely different.
+description: KeyboardKit helps you build amazing keyboards that look and behave like the native keyboards. Bring your brand to brand new places.
 ---
 
-<div class="home paper">
-  <main class="page-content" aria-label="Content">
+<div class="home-content paper">
+  <p>
+    KeyboardKit helps you build amazing keyboards that look and behave just like the native iOS keyboards...or completely different. It extends the native APIs, adds a bunch of extra features and can be used on all major Apple platforms.
+  </p>
 
-    <p>
-      KeyboardKit is a Swift-based SDK that helps you build custom keyboard extensions for iOS with Swift and SwiftUI. 
-      It extends the native keyboard APIs and provides you with a lot of functionality that can be used on all major Apple platforms, like iOS, macOS, tvOS and watchOS.
-    </p>
+  <section>
+    <h2>Explore</h2>
 
-    <section class="grid home-features">
+    <div class="grid features">
+      <a href="/about">
+        <img src="/assets/heros/icon.png" alt="KeyboardKit icon" title="About" />
+        <h3>About</h3>
+        <p>What are custom keyboards, why should you have one and how can KeyboardKit help?</p>
+      </a>
+
       <a href="/features">
         <img src="/assets/heros/features.png" alt="KeyboardKit icon with feature icons" title="Locales" />
         <h3>Features</h3>
-        <p>KeyboardKit provides you with native-like keyboards and a bunch of tools and services.</p>
+        <p>KeyboardKit provides you with native-like keyboards and a bunch of additional features.</p>
       </a>
 
       <a href="/locales">
@@ -32,7 +38,7 @@ description: KeyboardKit helps you build custom keyboard extensions that look ju
       <a href="/open-source">
         <img src="/assets/heros/github.png" alt="GitHub logo" title="GitHub" />
         <h3>Open-Source</h3>
-        <p>KeyboardKit is open-source, completely free and hosted at the amazing GitHub.</p>
+        <p>KeyboardKit is open-source, completely free and hosted at GitHub.</p>
       </a>
 
       <a href="/pro">
@@ -64,12 +70,11 @@ description: KeyboardKit helps you build custom keyboard extensions that look ju
         <h3>Mastodon</h3>
         <p>KeyboardKit is on Mastodon! Follow for news and updates.</p>
       </a>
-    </section>
+    </div>
+  </section>
 
-    <section class="clients">
-      <h2>Trusted by</h2>
-      {% include kankoda/grids/grid.html items=site.data.sponsors type="sponsors" image-class="plain" %}
-    </section>
-  
-  </main>
+  <section class="clients">
+    <h2>Trusted by</h2>
+    {% include kankoda/grids/grid.html items=site.data.sponsors type="sponsors" image-class="plain" %}
+  </section>
 </div>

@@ -5,7 +5,7 @@
 {%- assign extension = "png" -%}
 {%- endif -%}
 
-<section class="grid {{type}} {{include.class}}">
+<div class="grid {{type}} {{include.class}}">
   {% for item in include.items %}
   <a href="{{ item.url }}" name="{{ item.name | slugify }}" title="{{ item.name }}">
     <img alt="{{ item.name }} icon" src="/assets/{{type}}/{{ item.name | slugify }}.{{extension}}" class="{{include.image-class}}" />
@@ -16,4 +16,4 @@
     {%- endif -%}
   </a>
   {% endfor %}
-</section>
+</div>
