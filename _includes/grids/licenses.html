@@ -6,18 +6,21 @@
     <div class="feature"></div>
     <div class="basic">
       <h3>Basic</h3>
-      <p>$500 / year</p>
-      <!--<a href="/pro-trial" class="trial">Free Trial</a>-->
+      <p>$500/y</p>
     </div>
     <div class="silver">
       <h3>Silver</h3>
-      <p>$1,500 / year</p>
-      <!--<a href="/pro-trial" class="trial">Free Trial</a>-->
+      <p>$1,500/y</p>
     </div>
     <div class="gold">
       <h3>Gold</h3>
-      <p>$5,000 / year</p>
-      <!--<a href="/pro-trial" class="trial">Free Trial</a>-->
+      <p>$5,000/y</p>
+    </div>
+    <div class="enterprise">
+      <a href="mailto:{{site.email}}">
+        <h3>Custom</h3>
+        <p>Contact</p>
+      </a>
     </div>
   </div>
 
@@ -27,11 +30,13 @@
     <div>✔</div>
     <div>✔</div>
     <div>✔</div>
+    <div>✔</div>
   </div>
 
   <div class="table-section-header even">Fully customizable</div>
-  <div class="grid" title="KeyboardKit Pro keyboards are fully customizable and lets you remove and insert keys, use custom views, change keyboard style etc.">
+  <div class="grid" title="KeyboardKit Pro keyboards are fully customizable and lets you customize keys, use custom views, use custom styles etc.">
     <div class="feature">Fully customizable</div>
+    <div>✔</div>
     <div>✔</div>
     <div>✔</div>
     <div>✔</div>
@@ -43,6 +48,7 @@
     <div>✔</div>
     <div>✔</div>
     <div>✔</div>
+    <div>✔</div>
   </div>
 
   <div class="table-section-header even">Additional views</div>
@@ -51,11 +57,13 @@
     <div>✔</div>
     <div>✔</div>
     <div>✔</div>
+    <div>✔</div>
   </div>
 
   <div class="table-section-header">Local autocomplete</div>
   <div class="grid" title="KeyboardKit Pro unlocks local autocomplete, which uses on-device technologies to provider the user with autocomplete suggestions.">
     <div class="feature">Local autocomplete</div>
+    <div>✔</div>
     <div>✔</div>
     <div>✔</div>
     <div>✔</div>
@@ -68,22 +76,25 @@
     <div class="feature">Locales</div>
     <div>1</div>
     <div><b>5</b></div>
-    <div style="font-size: 1.1em"><b>{% include locales/count.html %}</b></div>
+    <div style="font-size: 1.1em"><b>{{site.locale_count}}</b></div>
+    <div style="font-size: 1.1em"><b>{{site.locale_count}}</b></div>
   </div>
 
-  <div class="table-section-header">Remote autocomplete</div>
+  <div class="table-section-header">Read entire document</div>
+  <div class="grid" title="KeyboardKit Pro extends UITextDocumentProxy with functionality that lets you read the entire text document instead of just the text closest to the text input cursor.">
+    <div class="feature">Read entire document</div>
+    <div>-</div>
+    <div>✔</div>
+    <div>✔</div>
+    <div>✔</div>
+  </div>
+
+  <div class="table-section-header even">Remote autocomplete</div>
   <div class="grid" title="KeyboardKit Pro unlocks a remote autocomplete engine that lets you connect to external autocomplete apis.">
     <div class="feature">Remote autocomplete</div>
     <div>-</div>
     <div>-</div>
     <div>✔</div>
-  </div>
-
-  <div class="table-section-header even">Read entire document</div>
-  <div class="grid" title="KeyboardKit Pro extends UITextDocumentProxy with functionality that lets you read the entire text document instead of just the text closest to the text input cursor.">
-    <div class="feature">Read entire document</div>
-    <div>-</div>
-    <div>-</div>
     <div>✔</div>
   </div>
 
@@ -93,21 +104,33 @@
     <div>-</div>
     <div>-</div>
     <div>✔</div>
+    <div>✔</div>
   </div>
 
-  <div class="table-section-header even">Support</div>
+  <div class="table-section-header even">Monthly payments</div>
+  <div class="grid" title="The monthly subscription lets you spread out your cost over the year with a monthly subscription.">
+    <div class="feature">Monthly payments</div>
+    <div>-</div>
+    <div>-</div>
+    <div>-</div>
+    <div>✔</div>
+  </div>
+
+  <div class="table-section-header">Support</div>
   <div class="grid" title="The Basic and Silver tiers are limited to support via GitHub issues, while the Gold tier includes prioritized support with possibility to discuss things over e-mail and video.">
     <div class="feature">Support</div>
     <div>GitHub Issues</div>
     <div>Email</div>
-    <div>Priority email/video</div>
+    <div>Priority</div>
+    <div>Dedicated</div>
   </div>
 
-  <div class="table-section-header">Marketing use-case</div>
+  <div class="table-section-header even">Marketing use-case</div>
   <div class="grid" title="The Basic and Silver tier allows KeyboardKit to feature your company and/or app in marketing e-mails, blog posts etc.">
     <div class="feature">Marketing use-case</div>
     <div>Yes</div>
     <div>Yes</div>
+    <div>Optional</div>
     <div>Optional</div>
   </div>
 
@@ -118,5 +141,6 @@
     <div>{% include kankoda/gumroad/button.html product="keyboardkit-pro-basic" %}</div>
     <div>{% include kankoda/gumroad/button.html product="keyboardkit-pro-silver" %}</div>
     <div>{% include kankoda/gumroad/button.html product="keyboardkit-pro-gold" %}</div>
+    <div><a href="mailto:{{site.email}}">Contact</a></div>
   </div>
 </section>

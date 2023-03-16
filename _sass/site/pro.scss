@@ -1,0 +1,43 @@
+body.pro {
+    .wrapper {
+        max-width: 900px;
+    }
+}
+
+.license-table {
+    .grid {
+        grid-template-columns: repeat(5, 1fr) !important;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .license-table {
+  
+      .grid {
+        grid-template-columns: repeat(4, 1fr) !important;
+  
+        .feature {
+          display: none;
+          background-color: red;
+        }
+      }
+  
+      .table-section-header { 
+        display: inherit;
+      }
+    }
+  }
+  
+  @media (max-width: 500px) {
+  
+    .license-table {
+  
+      h3.regular { display: none !important; }
+      h3.compact { display: block !important; }
+  
+      .table-header {
+        font-size: 12px;
+      }
+     }
+  }

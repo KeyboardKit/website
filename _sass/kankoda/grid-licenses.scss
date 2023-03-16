@@ -1,10 +1,18 @@
-.license-table {
+/*
+  By default, this table supports a feature
+  column and three tier columns (4 columns).
+  You can adjust this on each site if there
+  are more than 3 tiers.
+ */
+ 
+ .license-table {
 
   padding: 30px 0;
 
   .grid {
     grid-row-gap: 10px;
     grid-column-gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
 
     > div.feature { 
       justify-content: left;
@@ -25,6 +33,13 @@
         display: none;
       }
     }
+
+    h3.regular { display: inherit; }
+    h3.compact { display: none; }
+  }
+
+  div.free {
+    border: solid 2px #ccc;
   }
 
   div.basic, div.indie {
@@ -41,6 +56,16 @@
     background-color: rgba(255, 215, 0, 0.2);
   }
 
+  div.enterprise {
+    border: solid 2px black;
+    background-color: #222;
+    color: white;
+
+    a, a:hover, a:visited { 
+      color: white; 
+    }
+  }
+
   .table-header {
 
     > div {
@@ -49,6 +74,10 @@
       margin-bottom: 10px;
       display: block;
       text-align: center;
+    }
+
+    a {
+      font-weight: normal;
     }
 
     .trial {
@@ -69,8 +98,8 @@
       box-shadow: #00000011 0px 2px 4px 0px;
     }
 
-    h3, p {
-      margin: 0;
+    h3, p, a {
+      margin: 0; padding: 0;
     }
   }
 
@@ -83,25 +112,5 @@
 
   .even, .even + .grid {
     background-color: #f7f7f7;
-  }
-}
-
-@media (max-width: 700px) {
-
-  .license-table {
-
-    .grid {
-      grid-template-columns: repeat(3, 1fr);
-
-
-      .feature {
-        display: none;
-        background-color: red;
-      }
-    }
-
-    .table-section-header { 
-      display: inherit;
-    }
   }
 }

@@ -8,9 +8,7 @@ description: KeyboardKit Pro unlocks 60 locales, fully localized system keyboard
 ---
 
 
-KeyboardKit Pro is a license-based extension that unlocks [{% include locales/count.html %} locales](/locales) and lets you create localized system keyboards with just a few lines of code. It also unlocks powerful additional pro features.
-
-KeyboardKit Pro requires a license to be used. There are three tiers to choose from for individuals, startups and small business. [Contact us for Enterprise and Educational needs](mailto:{{site.email}}).
+KeyboardKit is <a href="/open-source">open-source</a> and <a href="/open-source">completely free</a>, but you can upgrade to KeyboardKit Pro to unlock pro features like fully localized keyboards, local and remote autocomplete, additional views, AI supporting features etc.
 
 {% include grids/licenses.html %}
 

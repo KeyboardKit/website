@@ -7,7 +7,7 @@ hero: locales
 description: KeyboardKit supports 60 locales and lets you create keyboards with localized input keys, callouts, autocomplete etc.
 ---
 
-KeyboardKit comes with support for <b>{% include locales/count.html %}</b> keyboard locales, with more being added over time:
+KeyboardKit comes with support for <b>{{site.locale_count}}</b> keyboard locales, with more being added over time:
 
 {% include locales/list.html %}
 
