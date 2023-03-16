@@ -7,7 +7,11 @@
   .row {
     align-items: center;
   }
-  
+
+  .logo img {
+    height: 50px;
+  }
+
   .logo:hover {
     transform: none;
     transform: scale(1.04);
