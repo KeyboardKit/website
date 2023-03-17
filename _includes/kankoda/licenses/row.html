@@ -1,0 +1,11 @@
+{% assign row_mod = include.row | modulo:2 | plus:1 %}
+{% assign row_class = "even" %}
+{% if row_mod == 1 %}
+{% assign row_class = "odd" %}
+{% endif %}
+
+<div class="table-section-header {{row_class}} {{include.class}}">{{include.feature}}</div>
+<div class="grid" title="{{include.title}}">
+    <div class="feature">{{include.feature}}</div>
+    <div>{{include.columns | split: "," | join: "</div><div>"}}</div>
+</div>

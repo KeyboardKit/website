@@ -24,116 +24,32 @@
     </div>
   </div>
 
-  <div class="table-section-header">Works offline</div>
-  <div class="grid" title="KeyboardKit Pro works offline, except features like remote autocomplete that require a network connection.">
-    <div class="feature">Works offline</div>
-    <div>✔</div>
-    <div>✔</div>
-    <div>✔</div>
-    <div>✔</div>
-  </div>
-
-  <div class="table-section-header even">Fully customizable</div>
-  <div class="grid" title="KeyboardKit Pro keyboards are fully customizable and lets you customize keys, use custom views, use custom styles etc.">
-    <div class="feature">Fully customizable</div>
-    <div>✔</div>
-    <div>✔</div>
-    <div>✔</div>
-    <div>✔</div>
-  </div>
-
-  <div class="table-section-header">Emoji skintones</div>
-  <div class="grid" title="KeyboardKit Pro unlocks emoji skintones, which are automatically enabled in the emoji keyboards.">
-    <div class="feature">Emoji skintones</div>
-    <div>✔</div>
-    <div>✔</div>
-    <div>✔</div>
-    <div>✔</div>
-  </div>
-
-  <div class="table-section-header even">Additional views</div>
-  <div class="grid" title="KeyboardKit Pro unlocks additional views, such as toolbars and toggles.">
-    <div class="feature">Additional views</div>
-    <div>✔</div>
-    <div>✔</div>
-    <div>✔</div>
-    <div>✔</div>
-  </div>
-
-  <div class="table-section-header">Local autocomplete</div>
-  <div class="grid" title="KeyboardKit Pro unlocks local autocomplete, which uses on-device technologies to provider the user with autocomplete suggestions.">
-    <div class="feature">Local autocomplete</div>
-    <div>✔</div>
-    <div>✔</div>
-    <div>✔</div>
-    <div>✔</div>
-  </div>
+  {% include kankoda/licenses/row.html row=00 feature="Works offline" columns="✔,✔,✔,✔" title="KeyboardKit Pro works offline, except features like remote autocomplete that require a network connection." %}
+  {% include kankoda/licenses/row.html row=01 feature="Fully customizable" columns="✔,✔,✔,✔" title="KeyboardKit Pro lets you customize input and system keys, use custom views and styles, use custom logic etc." %}
+  {% include kankoda/licenses/row.html row=02 feature="Emoji skintones" columns="✔,✔,✔,✔" title="KeyboardKit Pro unlocks emoji skintones, which are automatically added to the emoji keyboards." %}
+  {% include kankoda/licenses/row.html row=03 feature="Additional views" columns="✔,✔,✔,✔" title="KeyboardKit Pro unlocks additional views, such as toolbars and toggles." %}
+  {% include kankoda/licenses/row.html row=04 feature="Local autocomplete" columns="✔,✔,✔,✔" title="KeyboardKit Pro unlocks local autocomplete that uses on-device technologies to provider autocomplete suggestions." %}
 
   <hr />
 
   <div class="table-section-header even">Locales</div>
-  <div class="grid" title="KeyboardKit Pro unlocks localized services that provide you with input set, keyboard layouts, secondary callout actions etc. for all locales that are included in your license.">
-    <div class="feature">Locales</div>
-    <div>1</div>
+  <div class="grid" title="KeyboardKit Pro unlocks fully localized keyboards and services for all locales in your license.">
+    <div class="feature">Locales (Languages)</div>
+    <div>-</div>
     <div><b>5</b></div>
     <div style="font-size: 1.1em"><b>{{site.locale_count}}</b></div>
     <div style="font-size: 1.1em"><b>{{site.locale_count}}</b></div>
   </div>
 
-  <div class="table-section-header">Read entire document</div>
-  <div class="grid" title="KeyboardKit Pro extends UITextDocumentProxy with functionality that lets you read the entire text document instead of just the text closest to the text input cursor.">
-    <div class="feature">Read entire document</div>
-    <div>-</div>
-    <div>✔</div>
-    <div>✔</div>
-    <div>✔</div>
-  </div>
-
-  <div class="table-section-header even">Remote autocomplete</div>
-  <div class="grid" title="KeyboardKit Pro unlocks a remote autocomplete engine that lets you connect to external autocomplete apis.">
-    <div class="feature">Remote autocomplete</div>
-    <div>-</div>
-    <div>-</div>
-    <div>✔</div>
-    <div>✔</div>
-  </div>
-
-  <div class="table-section-header">Onboarding call</div>
-  <div class="grid" title="The Gold tier includes an onboarding call to help you get started with KeyboardKit.">
-    <div class="feature">Onboarding call</div>
-    <div>-</div>
-    <div>-</div>
-    <div>✔</div>
-    <div>✔</div>
-  </div>
-
-  <div class="table-section-header even">Monthly payments</div>
-  <div class="grid" title="The monthly subscription lets you spread out your cost over the year with a monthly subscription.">
-    <div class="feature">Monthly payments</div>
-    <div>-</div>
-    <div>-</div>
-    <div>-</div>
-    <div>✔</div>
-  </div>
-
-  <div class="table-section-header">Support</div>
-  <div class="grid" title="The Basic and Silver tiers are limited to support via GitHub issues, while the Gold tier includes prioritized support with possibility to discuss things over e-mail and video.">
-    <div class="feature">Support</div>
-    <div>GitHub Issues</div>
-    <div>Email</div>
-    <div>Priority</div>
-    <div>Dedicated</div>
-  </div>
-
-  <div class="table-section-header even">Marketing use-case</div>
-  <div class="grid" title="The Basic and Silver tier allows KeyboardKit to feature your company and/or app in marketing e-mails, blog posts etc.">
-    <div class="feature">Marketing use-case</div>
-    <div>Yes</div>
-    <div>Yes</div>
-    <div>Optional</div>
-    <div>Optional</div>
-  </div>
-
+  {% include kankoda/licenses/row.html row=06 feature="Read entire document" columns="-,✔,✔,✔" title="KeyboardKit Pro extends UITextDocumentProxy to let you read the entire text document instead of just the text next to the input cursor." %}
+  {% include kankoda/licenses/row.html row=07 feature="Remote autocomplete" columns="-,-,✔,✔" title="KeyboardKit Pro unlocks a remote autocomplete provider that lets you connect to external autocomplete apis." %}
+  {% include kankoda/licenses/row.html row=08 feature="Onboarding call" columns="-,-,✔,✔" title="The higher tiers include an onboarding call to help us understand your needs and help you get started." %}
+  {% include kankoda/licenses/row.html row=09 feature="Monthly call" columns="-,-,-,✔" title="The monthly update call helps us keep your products in sync and moving forward." %}
+  {% include kankoda/licenses/row.html row=10 feature="Monthly plan" columns="-,-,-,✔" title="The monthly plan lets you spread out your cost over the year with a monthly subscription." %}
+  {% include kankoda/licenses/row.html row=11 feature="Multi-platform" columns="-,-,-,✔" title="Enterprise customers can get tailored mutli-platform builds for each new version." %}
+  {% include kankoda/licenses/row.html row=12 feature="Support" columns="GitHub,Email,Priority,Dedicated" title="Enterprise customers can get tailored mutli-platform builds for each new version." %}
+  {% include kankoda/licenses/row.html row=13 feature="Marketing activities" columns="Yes,Yes,Optional,Optional" title="Enterprise customers can get tailored mutli-platform builds for each new version." %}
+  
   <hr />
 
   <div class="grid">
