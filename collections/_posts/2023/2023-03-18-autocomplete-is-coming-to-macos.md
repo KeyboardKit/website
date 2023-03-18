@@ -6,8 +6,8 @@ tags:   autocomplete multi-platform macos watchos tvos
 image:  /assets/headers/icon.png
 assets: /assets/blog/2023/2023-03-18/
 
-toot:   https://techhub.social/@keyboardkit/110004348468210559
-tweet:  https://twitter.com/GetKeyboardKit/status/1634512162260434944?s=20
+toot:   https://techhub.social/@keyboardkit/110043912765961882
+tweet:  https://twitter.com/GetKeyboardKit/status/1637045041406279680?s=20
 ---
 
 The local KeyboardKit autocomplete provider will soon be available on all platforms, which means that `macOS` and `watchOS` (stubbed) will have it as well.
