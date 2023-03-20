@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit 6.0 is out
 date:   2022-02-23 08:00:00 +0100
-tags:   releases multi-platform macos tvos watchos
+tags:   releases multi-platform
 
 image:  /assets/headers/icon.png
 ---
