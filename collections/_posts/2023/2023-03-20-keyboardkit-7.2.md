@@ -8,8 +8,8 @@ assets: /assets/blog/2023/2023-03-20/
 
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.2.0
 
-toot:   https://techhub.social/@keyboardkit/110043912765961882
-tweet:  https://twitter.com/GetKeyboardKit/status/1637045041406279680?s=20
+toot:   https://techhub.social/@keyboardkit/110057656044269753
+tweet:  https://twitter.com/GetKeyboardKit/status/1637924126340837380?s=20
 
 post-autocomplete: /blog/2023/03/18/autocomplete-is-coming-to-macos
 ---
@@ -71,3 +71,10 @@ The `KeyboardThemeAppearance` then gives you the best of two worlds, where you c
 ![Tron]({{page.assets}}tron.png){:width="500px"}
 
 You can use these themes in your own keyboads, or tweak them to create your own visual styles. More themes are coming in future versions.
+
+
+## Conclusion
+
+KeyboardKit 7.2 brings autocomplete to all platforms and introduces a new theme engine that makes it easier than ever to style your keyboards. There are also many smaller additions, improvements and bug fixes. 
+
+For a complete list of changes, see the [release notes]({{page.release}}).
