@@ -75,6 +75,4 @@ You can use these themes in your own keyboads, or tweak them to create your own 
 
 ## Conclusion
 
-KeyboardKit 7.2 brings autocomplete to all platforms and introduces a new theme engine that makes it easier than ever to style your keyboards. There are also many smaller additions, improvements and bug fixes. 
-
-For a complete list of changes, see the [release notes]({{page.release}}).
+KeyboardKit 7.2 brings the standard autocomplete provider to all platforms and introduces a new theme engine that makes it easier than ever to style your keyboards. There are also many smaller additions, improvements and bug fixes. For a complete list of changes, see the [release notes]({{page.release}}).
