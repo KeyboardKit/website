@@ -12,7 +12,7 @@ KeyboardKit is <a href="/open-source">open-source</a> and <a href="/open-source"
 
 {% include grids/licenses.html %}
 
-Licenses can be purchased from [Gumroad]({{site.gumroad_url}}), [Lemon Squeezy]({{site.lemon_url}}) or [over e-mail](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) using your preferred payment method. You can add your company information and VAT number when purchasing.
+Licenses can be purchased from [Gumroad]({{site.gumroad_url}})<!--[Lemon Squeezy]({{site.lemon_url}})--> or [over e-mail](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) using your preferred payment method. You can add your company information and VAT number when purchasing.
 
 
 ## Features

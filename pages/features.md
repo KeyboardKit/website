@@ -4,7 +4,7 @@ title: Features
 permalink: /features
 hero: features
 
-description: KeyboardKit supports 60 locales, localized system keyboards, custom keys and layouts, autocomplete, audio and haptic feedback etc.
+description: KeyboardKit supports 60 locales, fully localized keyboards, customizable styles and layouts, autocomplete, audio and haptic feedback and much more.
 ---
 
 Visit [the project site]({{site.github_url}}) for information, documentation, a getting-started guide and a demo app.
