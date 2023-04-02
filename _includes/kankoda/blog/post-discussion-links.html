@@ -1,0 +1,7 @@
+{%- if page.tweet and page.toot -%}
+<a href="{{page.tweet}}">this tweet</a> or <a href="{{page.toot}}">this toot</a>
+{%- elsif page.tweet -%}
+<a href="{{page.tweet}}">this tweet</a>
+{%- elsif page.toot -%}
+<a href="{{page.toot}}">this toot</a>
+{%- endif -%}

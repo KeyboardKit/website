@@ -14,36 +14,21 @@ layout: default
     {{ content }}
   </div>
 
-  {%- if page.tweet or page.toot -%}
-    {%- assign discussion_links = "" -%}
-    {%- if page.tweet -%}
-      {%- assign discussion_links = discussion_links | append: '<a href="' -%}
-      {%- assign discussion_links = discussion_links | append: page.tweet -%}
-      {%- assign discussion_links = discussion_links | append: '">this tweet</a>' -%}
-    {%- endif -%}
-    {%- if page.tweet and page.toot -%}
-      {%- assign discussion_links = discussion_links | append: ' or ' -%}
-    {%- endif -%}
-    {%- if page.toot -%}
-      {%- assign discussion_links = discussion_links | append: '<a href="' -%}
-      {%- assign discussion_links = discussion_links | append: page.toot -%}
-      {%- assign discussion_links = discussion_links | append: '">this Mastodon post</a>' -%}
-    {%- endif -%}
+  {%- if page.tweet -%}
+  <h2>Discussion</h2>
 
-    <h2>Discussion</h2>
-
-      {%- if site.disqus.shortname -%}
-      <p>
-        I hope that you found this post interesting. I would love to 
-        hear your thoughts and feedback, so feel free to comment in
-        the Disqus section below or as a reply to {{ discussion_links }}.
-      </p>
-      {%- else -%}
-      <p>
-        If you found this post interesting and want to discuss it further, 
-        feel free to start a discussion in a reply to {{ discussion_links }}.
-      </p>
-      {%- endif -%}
+    {%- if site.disqus.shortname -%}
+    <p>
+      If you found this post interesting and would like to share 
+      your thoughts, ideas, feedback etc. please comment in the
+      Disqus section below or reply to {% include kankoda/blog/post-discussion-links.html %}.
+    </p>
+    {%- else -%}
+    <p>
+      If you found this post interesting and would like to share 
+      your thoughts, ideas, feedback etc. please reply to {% include kankoda/blog/post-discussion-links.html %}.
+    </p>
+    {%- endif -%}
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
