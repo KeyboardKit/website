@@ -1,0 +1,4 @@
+{% assign name = include.name | slugify %}
+<a class="tag {{name}}" href="javascript:showTag('{{name}}')">
+    {{name}}
+</a>
