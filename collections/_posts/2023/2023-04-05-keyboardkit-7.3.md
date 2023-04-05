@@ -8,8 +8,8 @@ assets: /assets/themes/
 
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.3-rc1
 
-toot:   https://techhub.social/@keyboardkit/110057656044269753
-tweet:  https://twitter.com/GetKeyboardKit/status/1637924126340837380?s=20
+toot:   https://techhub.social/@keyboardkit/110146436383710413
+tweet:  https://twitter.com/GetKeyboardKit/status/1643606190616707078?s=20
 ---
 
 KeyboardKit 7.3 RC1 is out to let you give the upcoming version a try before it goes live. This is a big update, so your help and feedback is very important to ensure that it works as expected.
