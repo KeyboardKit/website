@@ -36,6 +36,7 @@
   }
 
   div.free, div.basic, div.indie {
+    background-color: #fff;
     border: solid 2px #ccc;
   }
 
@@ -59,11 +60,13 @@
   }
 
   .table-header {
+    position: sticky; 
+    top: 0;
+    background-color: $content-background;
+    margin-bottom: 10px;
 
     > div {
-      padding: 10px;
       border-radius: 5px;
-      margin-bottom: 10px;
       display: block;
       text-align: center;
     }
