@@ -21,6 +21,8 @@ You will receive a welcome email with a license agreement when your license has 
 
 If we are unable to activate your license within 48 hours after purchase, we will try to get in touch regarding the reason for the delay. You are free to refund your purchase at any time before your license has been activated.
 
+If you have signed up for a Gold or Custom license, you are more than welcome to [schedule an onboarding call](mailto:{{site.email}}?subject=Onboarding%20Call), during which we can look at your needs and help you get started with whatever you want to build.
+
 
 ## License terms
 

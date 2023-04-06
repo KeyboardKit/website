@@ -4,8 +4,8 @@
 {% assign row_class = "odd" %}
 {% endif %}
 
-<div class="table-section-header {{row_class}} {{include.class}}">{{include.feature}}</div>
+<div class="table-section-header {{row_class}} {{include.class}}" title="{{include.title}}">{{include.feature}}</div>
 <div class="grid" title="{{include.title}}">
     <div class="feature">{{include.feature}}</div>
-    <div>{{include.columns | split: "," | join: "</div><div>"}}</div>
+    <div>{{include.columns | replace: "✔", "<img src='/assets/kankoda/checkmark.png' class='plain' width='20' />" | split: "," | join: "</div><div>"}}</div>
 </div>
