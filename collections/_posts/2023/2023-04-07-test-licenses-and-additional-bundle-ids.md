@@ -35,3 +35,5 @@ Additional bundle IDs can be added to a base license at a **50% discount** per I
 Test licenses can't be converted to production licenses and must never be used in production apps. If a test license is released on the App Store, the license may be revoked without warning.
 
 Additional bundle IDs can not be used to include multiple applications in the same license. You can of course still get a discount when buying multiple licenses, but that's not the idea with this feature.
+
+Test licenses and additional bundles are currently not available in the e-shop, and currently require manual handling. Just reach out if you want to use these features.
