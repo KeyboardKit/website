@@ -5,7 +5,7 @@
   are more than 3 tiers.
  */
 
- .license-table {
+.license-table {
 
   padding: 30px 0;
 
@@ -37,7 +37,7 @@
 
   div.free, div.basic, div.indie {
     background-color: #fff;
-    border: solid 2px #ccc;
+    border: solid 2px $license-border-color;
   }
 
   div.silver, div.startup {
@@ -59,11 +59,16 @@
     }
   }
 
+  hr {
+    border-top: solid 1px $license-border-color;
+  }
+
   .table-header {
     position: sticky; 
     top: 0;
     background-color: $content-background;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px $license-border-color;
 
     > div {
       border-radius: 5px;
@@ -108,12 +113,12 @@
   .even, .even + .grid {
     background-color: #f7f7f7;
   }
-}
+  }
 
-@media (max-width: 700px) {
+  @media (max-width: 700px) {
 
   .license-table {
-  
+
     .grid {
       grid-template-columns: repeat(1, 1fr);
 
