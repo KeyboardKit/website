@@ -4,6 +4,9 @@ date:   2023-04-07 06:00:00 +0100
 tags:   licenses
 
 image:  /assets/headers/icon-pro.png
+
+tweet:  https://twitter.com/GetKeyboardKit/status/1644240205409316864?s=20
+toot:   https://techhub.social/@keyboardkit/110156343564099701
 ---
 
 KeyboardKit Pro 7.3 introduces test and development licenses and additional bundle IDs, which can be added to a base license at a discounted price.
