@@ -12,28 +12,30 @@ KeyboardKit is <a href="/open-source">open-source</a> and free, but you can upgr
 
 {% include grids/licenses.html %}
 
-Licenses can be purchased directly from the [Gumroad]({{site.gumroad_url}}) e-shop<!--[Lemon Squeezy]({{site.lemon_url}})-->, or [over e-mail](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) if you require a custom setup, using your preferred method of payment and invoicing.
+You can hover the mouse pointer over each line in the grid for a more thorough description of what the title means.
+
+Licenses can be purchased directly from the [Gumroad]({{site.gumroad_url}}) e-shop<!--[Lemon Squeezy]({{site.lemon_url}})-->, or [over e-mail](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) if you require a custom setup or want to use your preferred method of payment or invoicing.
 
 
 ## License activation
 
 You will receive a welcome email with a license agreement when your license has been activated, typically within 48h. The license period starts when the license is activated, not at the time of purchase.
 
-If we are unable to activate your license within 48 hours after purchase, we will try to get in touch regarding the reason for the delay. You are free to refund your purchase at any time before your license has been activated.
+If we are unable to activate your license within 48 hours after purchase, we will try to get in touch with you regarding the reason for the delay. You are free to refund your purchase at any time before your license has been activated.
 
-If you have signed up for a Gold or Custom license, you are more than welcome to [schedule an onboarding call](mailto:{{site.email}}?subject=Onboarding%20Call), during which we can look at your needs and help you get started with whatever you want to build.
+If you have signed up for a Gold or Custom license, you are more than welcome to [schedule an onboarding call](mailto:{{site.email}}?subject=Onboarding%20Call), during which we can look at your needs and help you get started.
 
 
 ## License terms
 
 Licenses are valid for **one year**, **one app** and **one keyboard extension**. After your license expires, you must extend it to keep using KeyboardKit Pro. Expirations do not affect already shipped apps.
 
-Additional bundle IDs and test licenses can be added to a production license at a **50% discount** per ID and license. A test license can't be converted to a production license and must never be used in production builds. Using a test license in production may cause it to be terminated, which will require a new license. Bundle IDs and test licenses can be added at any time and will renew together with the main license.
+Additional bundle IDs and test licenses can be added to a production license at a **50% discount** per ID and license. A test license can't be converted to a production license and must never be used in production builds.
 
-By signing up for a license, you acknowledge and approve the information and terms listed at this page.
+By signing up for a license, you acknowledge and approve the information and terms listed on this page.
 
 
-## Feature Terms
+## Features
 
 Some Pro features make use of special technologies that may stop working in any future platform updates. If a feature stops working due to changes in the platform, the feature may be removed without replacement or license adjustment.
 
