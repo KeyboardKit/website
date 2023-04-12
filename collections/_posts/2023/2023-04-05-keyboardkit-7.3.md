@@ -1,18 +1,18 @@
 ---
-title:  KeyboardKit 7.3 RC1 is out
+title:  KeyboardKit 7.3 is out
 date:   2023-04-05 08:00:00 +0100
 tags:   releases dictation appearance themes
 
 image:  /assets/headers/icon.png
 assets: /assets/themes/
 
-release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.3-rc1
+release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.3.0
 
 toot:   https://techhub.social/@keyboardkit/110146436383710413
 tweet:  https://twitter.com/GetKeyboardKit/status/1643606190616707078?s=20
 ---
 
-KeyboardKit 7.3 RC1 is out to let you give the upcoming version a try before it goes live. This is a big update, so your help and feedback is very important to ensure that it works as expected.
+KeyboardKit 7.3 is out, with many new features. Say hello to dictation support, theme collections, theme variations...and more.
 
 ![KeyboardKit logo]({{page.image}})
 
@@ -23,9 +23,7 @@ KeyboardKit 7.3 adds dictation support, which has been a feature long in the mak
 
 Just like with autocomplete, KeyboardKit adds a bunch of protocols and state that describe how to implement dictation, after which KeyboardKit Pro adds implementations to some license tiers that just makes it work automatically after registering a pro license.
 
-Unlike other featuers, keyboard dictation requires a couple of steps to setup, and since it depends on deep links and shared data, the demo apps will not be able to demo this. Dictation will instead be added to the upcoming App Store app.
-
-There's a new chapter on dictation in the KeyboardKit 7.3 documentation, can be downloaded from the [pre-release page]({{page.release}}). Just download and unzip it you can preview it directly in Xcode.
+Unlike other featuers, keyboard dictation requires a couple of steps to setup, and since it depends on deep links and shared data, the demo apps will not be able to demo this. Dictation will instead be added to the upcoming App Store app, so that you will be able to try it out without having to implement it in your app.
 
 
 ## Appearance and theme changes
