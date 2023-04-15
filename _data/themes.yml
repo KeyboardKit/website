@@ -1,0 +1,45 @@
+- name: Standard
+  styles:
+    - name: Standard
+      image: standard
+    - name: Blue
+      image: standard-blue
+    - name: Pink
+      image: standard-pink
+
+- name: Swifty
+  styles:
+    - name: Standard
+      image: swifty
+    - name: Blue
+      image: swifty-blue
+    - name: Pink
+      image: swifty-pink
+
+- name: Minimal
+  styles:
+    - name: Standard
+      image: minimal
+    - name: Midnight
+      image: minimal-midnight
+    - name: Sunset
+      image: minimal-sunset
+
+- name: Candy
+  styles:
+    - name: Cotton Candy
+      image: candy-cotton-candy
+
+- name: Neon
+  styles:
+    - name: Night
+      image: neon-night
+
+- name: Tron
+  styles:
+    - name: Standard
+      image: tron
+    - name: fCon
+      image: tron-fcon
+    - name: Virus
+      image: tron-virus
