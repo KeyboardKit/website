@@ -62,9 +62,6 @@ collections:
   posts:
     output: true
     permalink: /blog/:categories/:year/:month/:day/:title
-  sponsors:
-    output: true
-    permalink: /sponsor/:name/
 
 baseurl: ""
 theme: minima
@@ -88,11 +85,6 @@ defaults:
     values:
       author: "danielsaidi"
       layout: "post"
-  -
-    scope:
-      type: "sponsors"
-    values:
-      layout: "sponsor"
 
 include:
   - .well-known/
