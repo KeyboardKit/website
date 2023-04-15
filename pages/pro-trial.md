@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pro - Trial Version
+title: Pro Trial
 permalink: /pro-trial
 hero: pro-trial
 

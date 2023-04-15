@@ -1,5 +1,5 @@
 {%- assign type = include.type -%}
-{%- if type == "bands" or type == "photos" -%}
+{%- if type == "bands" or type == "photos" or type == "themes" -%}
 {%- assign extension = "jpg" -%}
 {%- else -%}
 {%- assign extension = "png" -%}
@@ -7,13 +7,14 @@
 
 <div class="grid {{type}} {{include.class}}">
   {% for item in include.items %}
-  <a href="{{ item.url }}" name="{{ item.name | slugify }}" title="{{ item.name }}">
-    <img alt="{{ item.name }} icon" src="/assets/{{type}}/{{ item.name | slugify }}.{{extension}}" class="{{include.image-class}}" />
-    {%- if item.name -%}
-    <p>{{ item.name }}</p>
-    {%- elsif item.title -%}
-    <p>{{ item.title }}</p>
+    {%- if item.url -%}
+    <a href="{{ item.url }}" name="{{ item.name | slugify }}" title="{{ item.name }}">
+      {% include kankoda/grids/grid-item.html type=type name=item.name image=item.image image-class=include.image-class %}
+    </a>  
+    {%- else -%}
+    <div>
+      {% include kankoda/grids/grid-item.html type=type name=item.name image=item.image image-class=include.image-class %}
+    </div>
     {%- endif -%}
-  </a>
   {% endfor %}
 </div>

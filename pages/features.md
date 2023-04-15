@@ -95,6 +95,11 @@ KeyboardKit supports both LTR (left-to-right) and RTL (right-to-left) locales, s
 KeyboardKit has tools for accessing and linking to an app's keyboard settings, which makes it easy for a user to enable a keyboard, give it full access etc.
 
 
+## 🎨 Themes
+
+[KeyboardKit Pro](/pro) unlocks a [theme engine](/themes) that lets you style your keyboards with themes. You can create your own themes or use the ones that come with the engine.
+
+
 ## 👑 KeyboardKit Pro
 
 If you want to take your keyboard to the next level, [KeyboardKit Pro](/pro) is a license-based extension that unlocks pro features like localized system keyboards, input sets, layouts and callout actions, local and remote autocomplete engines, emoji skintone support etc.

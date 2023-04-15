@@ -32,13 +32,18 @@
   }
 }
 
+
+.grid.icons, .grid.bands, .grid.themes {
+  text-align: center;
+}
+
+
 .grid.icons, .grid.bands {
 
   grid-column-gap: 40px;
 
   a {
     color: white;
-    text-align: center;
   }
 
   a:hover, a:visited:hover {
