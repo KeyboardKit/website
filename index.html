@@ -11,67 +11,22 @@ description: KeyboardKit helps you build amazing keyboards. Bring your business 
 <div class="home-content paper">
   <p>
     KeyboardKit helps you build custom keyboards that look and behave just like the native keyboards, or completely different. It supports <a href="/locales">{{site.locale_count}} locales</a>, has many powerful <a href="/features">features</a> and can be styled and customized to great extent.
-  <p>
-    Custom keyboards can be used to expose your brand, business or functionality to all other apps. Don't hesistate to <a href="mailto:info@getkeyboardkit.com">reach out</a> if you'd like to discuss opportunities for your company to provide an amazing keyboard experience.
   </p>
 
   <section>
     <h2>Explore</h2>
 
     <div class="grid features">
-      <a href="/about">
-        <img src="/assets/heros/icon.png" alt="KeyboardKit icon" title="About" />
-        <h3>About</h3>
-        <p>Why should you build a keyboard and how can KeyboardKit help?</p>
+      {% for feature in site.data.home-features %}
+      {%- if feature.hidden -%}
+      {%- else -%}
+      <a href="{{ feature.url }}">
+        <img src="{{ feature.image }}" alt="{{ feature.title }} icon" title="{{ feature.title }}" />
+        <h3>{{ feature.title }}</h3>
+        <p>{{ feature.text }}</p>
       </a>
-
-      <a href="/features">
-        <img src="/assets/heros/features.png" alt="KeyboardKit icon with feature icons" title="Locales" />
-        <h3>Features</h3>
-        <p>KeyboardKit provides you with a lot of powerful keyboard features.</p>
-      </a>
-
-      <a href="/locales">
-        <img src="/assets/heros/locales.png" alt="KeyboardKit icon with flags" title="Locales" />
-        <h3>Locales</h3>
-        <p>KeyboardKit supports <b>{{site.locale_count}} locales</b>, with input sets, layouts and callouts.</p>
-      </a>
-      
-      <a href="/open-source">
-        <img src="/assets/heros/github.png" alt="GitHub logo" title="GitHub" />
-        <h3>Open-Source</h3>
-        <p>KeyboardKit is open-source and completely free to use.</p>
-      </a>
-
-      <a href="/pro">
-        <img src="/assets/heros/pro.png" alt="KeyboardKit Pro icon" title="KeyboardKit Pro" />
-        <h3>KeyboardKit Pro</h3>
-        <p>Unlock pro features like localized keyboards, autocomplete etc.</p>
-      </a>
-
-      <a href="{{site.appstore_url}}">
-        <img src="/assets/heros/app.png" alt="KeyboardKit icon with phone" title="KeyboardKit app" />
-        <h3>App</h3>
-        <p>The KeyboardKit app let you create and style keyboards on your phone.</p>
-      </a>
-
-      <a href="/blog">
-        <img src="/assets/heros/blog.png" alt="KeyboardKit icon with blog icon" title="Blog" />
-        <h3>Blog</h3>
-        <p>KeyboardKit is blogging! Read and follow for news and updates.</p>
-      </a>
-
-      <a href="{{site.twitter_url}}">
-        <img src="/assets/heros/twitter.png" alt="KeyboardKit icon with Twitter bird" title="Twitter" />
-        <h3>Twitter</h3>
-        <p>KeyboardKit is on Twitter! Follow for news and updates.</p>
-      </a>
-
-      <a href="{{site.mastodon_url}}">
-        <img src="/assets/heros/mastodon.png" alt="KeyboardKit icon with Mastodon mascot" title="Mastodon" />
-        <h3>Mastodon</h3>
-        <p>KeyboardKit is on Mastodon! Follow for news and updates.</p>
-      </a>
+      {%- endif -%}
+      {% endfor %}
     </div>
   </section>
 
