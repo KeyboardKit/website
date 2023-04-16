@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pro Themes
+title: Themes
 permalink: /themes
 hero: themes
 

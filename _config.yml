@@ -51,9 +51,10 @@ footer_sitemap:
   - pages/about.md
   - pages/locales.md
   - pages/features.md
+  - pages/customization.md
+  - pages/themes.md
   - pages/open-source.md
   - pages/pro.md
-  - pages/pro-trial.md
   - pages/blog.md
 
 collections_dir: collections
