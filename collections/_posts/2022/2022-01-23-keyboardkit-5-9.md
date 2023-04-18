@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit 5.9 is out
 date:   2022-01-23 12:00:00 +0100
-tags:   releases localization multi-platform
+tags:   releases localization multi-platform tvos watchos
 
 image:  /assets/headers/icon.png
 ---
@@ -34,7 +34,7 @@ With KeyboardKit Pro now able to generate system keyboards with almost pixel per
 KeyboardKit 6 will aim to take things even further and may even start to implement layouts for minor languages that lack native iOS keyboards.
 
 
-## Platform support
+## Multi-platform support
 
 Another big change in this version is that KeyboardKit now supports watchOS and tvOS as well.
 

@@ -1,7 +1,7 @@
 ---
 title:  What to expect in KeyboardKit 6.0
 date:   2022-01-24 12:00:00 +0100
-tags:   localization macos
+tags:   localization multi-platform macos
 
 image:  /assets/headers/icon.png
 ---

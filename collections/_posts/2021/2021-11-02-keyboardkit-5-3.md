@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit 5.3 is out
 date:   2021-11-24 12:00:00 +0100
-tags:   releases
+tags:   releases localization
 ---
 
 KeyboardKit 5.3 is out. This version adds support for 🇦🇱 Albanian, 🇮🇸 Icelandic and 🇵🇱 Polish and adds a bunch of new Pro and non-Pro features.

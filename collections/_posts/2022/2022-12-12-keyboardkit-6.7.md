@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit 6.7 is out
 date:   2022-12-12 08:00:00 +0100
-tags:   releases emoji
+tags:   releases emoji views
 
 image:  /assets/headers/icon.png
 pro:    /pro

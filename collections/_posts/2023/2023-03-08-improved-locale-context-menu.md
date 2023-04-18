@@ -1,7 +1,7 @@
 ---
 title:  Improved locale context menu
 date:   2023-03-08 08:00:00 +0100
-tags:   locales
+tags:   localization
 
 image:  /assets/headers/icon.png
 assets: /assets/blog/2023/2023-03-08/

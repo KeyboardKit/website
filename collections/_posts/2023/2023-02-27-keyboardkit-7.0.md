@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 7.0 is out
+title:  KeyboardKit 7.0
 date:   2023-02-27 08:00:00 +0100
 tags:   releases
 

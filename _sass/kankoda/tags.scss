@@ -14,9 +14,16 @@
   color: $tag-foreground;
 }
 
-.tag.releases {
+.tag.pro {
   color: black !important;
   background-color: #ffcc00;
+  border: solid 1px #ddaa00;
+}
+
+.tag.releases {
+  color: black !important;
+  background-color: white;
+  border: solid 1px #aaa;
 }
 
 .tag.swift {

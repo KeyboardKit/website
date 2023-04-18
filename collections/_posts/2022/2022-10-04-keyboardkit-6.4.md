@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit 6.4 is out
 date:   2022-10-04 08:00:00 +0100
-tags:   releases input-sets multi-platform
+tags:   releases localization multi-platform
 
 image:  /assets/headers/icon.png
 

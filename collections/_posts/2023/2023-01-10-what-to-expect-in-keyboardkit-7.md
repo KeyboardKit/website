@@ -2,6 +2,8 @@
 title:  What to expect in KeyboardKit 7
 date:   2023-01-10 10:00:00 +0100
 
+tags:   releases services gestures
+
 image:  /assets/headers/icon.png
 
 tweet:  https://twitter.com/getkeyboardkit/status/1596074336687099905

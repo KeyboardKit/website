@@ -6,7 +6,7 @@ tags:   multi-platform
 image:  /assets/headers/icon.png
 ---
 
-KeyboardKit 6.4 will unlock a bunch of types, extensions, mocks and tests for all platforms, which will give you more tools if you develop for macOS or watchOS.
+KeyboardKit 6.4 will unlock a bunch of types, extensions, mocks and tests for all platforms, which will give you more tools if you develop for macOS, tvOS and watchOS.
 
 ![Icon badge]({{page.image}})
 

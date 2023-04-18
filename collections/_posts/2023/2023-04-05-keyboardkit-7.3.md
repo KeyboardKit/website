@@ -1,10 +1,11 @@
 ---
-title:  KeyboardKit 7.3 is out
+title:  KeyboardKit 7.3
 date:   2023-04-05 08:00:00 +0100
 tags:   releases dictation appearance themes
 
 image:  /assets/headers/icon.png
 assets: /assets/themes/
+image-width: 300px
 
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.3.0
 
@@ -37,43 +38,45 @@ See the [release notes]({{page.release}}) for more info about these breaking cha
 
 ## New themes
 
-KeyboardKit 7.3 adds a bunch of new themes and lays the foundation for a theme library that can be extended in the future. Note that the theme engine requires a `Gold` license.
+KeyboardKit 7.3 adds a bunch of new themes and lays the foundation for a theme library that can be extended in the future.
+
+You can view a full list of themese [here](/themes). Note that you need a `Gold` license to use themes.
 
 ### Standard
 
 The `.standard` theme mimics a native keyboard. It now supports a discrete tint color variation:
 
-![Standard]({{page.assets}}standard.jpg){:width="250px"} ![Standard Pink]({{page.assets}}standard-pink.jpg){:width="250px"}
+![Standard]({{page.assets}}standard.jpg){:width="{{page.image-width}}"} ![Standard Pink]({{page.assets}}standard-pink.jpg){:width="{{page.image-width}}"}
 
 ### Swifty
 
 The `.swifty` theme removes the borders of the system keys. It also supports a discrete tint color:
 
-![Swifty]({{page.assets}}swifty.jpg){:width="250px"} ![Swifty Blue]({{page.assets}}swifty-blue.jpg){:width="250px"}
+![Swifty]({{page.assets}}swifty.jpg){:width="{{page.image-width}}"} ![Swifty Blue]({{page.assets}}swifty-blue.jpg){:width="{{page.image-width}}"}
 
 ### Minimal
 
 The `.minimal` theme removes the borders of all the keys. It supports extensive styling:
 
-![Minimal]({{page.assets}}minimal.jpg){:width="250px"} ![Minimal Sunset]({{page.assets}}minimal-sunset.jpg){:width="250px"}
+![Minimal]({{page.assets}}minimal.jpg){:width="{{page.image-width}}"} ![Minimal Sunset]({{page.assets}}minimal-sunset.jpg){:width="{{page.image-width}}"}
 
 ### Candy
 
 The `.candy` theme applies smooth button corners and lets you define pastel color themes:
 
-![Candy]({{page.assets}}candy.jpg){:width="250px"}
+![Candy]({{page.assets}}candyshop.jpg){:width="{{page.image-width}}"}
 
 ### Neon
 
 The `.neon` theme also has smooth button corners but uses a darker color scheme:
 
-![Neon]({{page.assets}}neon.jpg){:width="250px"}
+![Neon]({{page.assets}}neon.jpg){:width="{{page.image-width}}"}
 
 ### Tron
 
-The `.tron` theme uses a single tint color to create a futuristic look:
+The `.tron` theme uses a single tint color to create a futuristic look, for instance:
 
-![Minimal]({{page.assets}}tron.jpg){:width="250px"}  ![Minimal]({{page.assets}}tron-fcon.jpg){:width="250px"}
+![Minimal]({{page.assets}}tron.jpg){:width="{{page.image-width}}"}  ![Minimal]({{page.assets}}tron-fcon.jpg){:width="{{page.image-width}}"}
 
 
 ## Conclusion

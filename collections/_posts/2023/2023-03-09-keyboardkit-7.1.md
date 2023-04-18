@@ -1,7 +1,7 @@
 ---
-title:  KeyboardKit 7.1 is out
+title:  KeyboardKit 7.1
 date:   2023-03-09 08:00:00 +0100
-tags:   releases autocomplete locales layout
+tags:   releases autocomplete localization layout
 
 image:  /assets/headers/icon.png
 

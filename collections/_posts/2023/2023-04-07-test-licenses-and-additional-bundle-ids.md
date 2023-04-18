@@ -1,7 +1,7 @@
 ---
 title:  Test licenses and additional bundle IDs
 date:   2023-04-07 06:00:00 +0100
-tags:   licenses
+tags:   pro licenses
 
 image:  /assets/headers/icon-pro.png
 

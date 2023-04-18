@@ -1,7 +1,7 @@
 ---
-title:  KeyboardKit 7.2 is out
+title:  KeyboardKit 7.2
 date:   2023-03-20 08:00:00 +0100
-tags:   releases appearance autocomplete multi-platform
+tags:   releases autocomplete appearance themes multi-platform
 
 image:  /assets/headers/icon.png
 assets: /assets/blog/2023/2023-03-20/

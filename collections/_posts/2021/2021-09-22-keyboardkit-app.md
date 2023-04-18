@@ -27,9 +27,4 @@ The app is designed for iOS and iPadOS and uses the latest Apple technologies, l
 
 The app lets you create keyboards and themes. Keyboards can be customized with a language, a theme and settings. Themes can define things like colors, border, shadows and more.
 
-The app is pretty basic now, but there are many powerful features planned for the future. I'd love for you to join this journey. Don't hesitate to reach out if there's anything you want to ask, any feedback you want to give or if you just want to say hi :)
-
-
-All the best
-
-Daniel Saidi
+The app is pretty basic now, but there are many powerful features planned for the future.
