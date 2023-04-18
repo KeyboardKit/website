@@ -38,7 +38,7 @@ assets: /assets/
 header_image: /assets/icon/icon-120.png
 header_image_type: icon
 
-locale_count: 60
+locale_count: 61
 
 header_pages:
   - pages/about.md

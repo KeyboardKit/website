@@ -4,7 +4,7 @@ title: Features
 permalink: /features
 hero: features
 
-description: KeyboardKit supports 60 locales, fully localized keyboards, customizable styles and layouts, autocomplete, audio and haptic feedback and much more.
+description: KeyboardKit supports 61 locales, fully localized keyboards, customizable styles and layouts, autocomplete, audio and haptic feedback and much more.
 ---
 
 Visit [the project site]({{site.github_url}}) for information, documentation, a getting-started guide and a demo app.
@@ -70,6 +70,11 @@ KeyboardKit comes with a layout engine that determine the full set of keys of a 
 ## 🌐 Localization
 
 KeyboardKit defines [{{site.locale_count}} keyboard-specific locales](/locales) that have localized content and assets that can be used to create completely localized system keyboards.
+
+
+## 👁️ Preview Utilities
+
+KeyboardKit has utilites that help you preview keyboard views and components in SwiftUI, which means tighter feedback loops when developing.
 
 
 ## ➡️ Proxy Extensions

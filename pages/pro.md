@@ -4,7 +4,7 @@ title: Pro
 permalink: /pro
 hero: pro
 
-description: KeyboardKit Pro unlocks 60 locales, fully localized system keyboards, local and remote autocomplete, themes, dictation, emoji skintones, a full document context reader and more!
+description: KeyboardKit Pro unlocks fully localized system keyboards, autocomplete, themes, dictation, emoji skintones and version info, a full document reader and more!
 ---
 
 
