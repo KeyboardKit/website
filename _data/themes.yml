@@ -4,8 +4,14 @@
       image: standard
     - name: Blue
       image: standard-blue
+    - name: Green
+      image: standard-green
     - name: Pink
       image: standard-pink
+    - name: Purple
+      image: standard-purple
+    - name: Yellow
+      image: standard-yellow
 
 - name: Swifty
   styles:
@@ -13,22 +19,40 @@
       image: swifty
     - name: Blue
       image: swifty-blue
+    - name: Green
+      image: swifty-green
     - name: Pink
       image: swifty-pink
+    - name: Purple
+      image: swifty-purple
+    - name: Yellow
+      image: swifty-yellow
 
 - name: Minimal
   styles:
     - name: Standard
       image: minimal
+    - name: Blue
+      image: minimal-blue
+    - name: Green
+      image: minimal-green
+    - name: Pink
+      image: minimal-pink
+    - name: Purple
+      image: minimal-purple
+    - name: Yellow
+      image: minimal-yellow
     - name: Midnight
       image: minimal-midnight
     - name: Sunset
       image: minimal-sunset
 
-- name: Candy
+- name: Candy Shop
   styles:
     - name: Cotton Candy
-      image: candy-cotton-candy
+      image: candyshop-cottoncandy
+    - name: Cuppy Cake
+      image: candyshop-cuppycake
 
 - name: Neon
   styles:
@@ -41,5 +65,11 @@
       image: tron
     - name: fCon
       image: tron-fcon
+    - name: Military
+      image: tron-military
+    - name: Neutral
+      image: tron-neutral
+    - name: Sark
+      image: tron-sark
     - name: Virus
       image: tron-virus
