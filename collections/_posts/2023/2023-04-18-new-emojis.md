@@ -9,7 +9,7 @@ tweet:  https://twitter.com/GetKeyboardKit/status/1644240205409316864?s=20
 toot:   https://techhub.social/@keyboardkit/110156343564099701
 ---
 
-The upcoming KeyboardKit Pro 7.4 adds new emojis that were added in iOS 16.4, macOS 13.3, tvOS 16.4 and watchOS 9.4, as well as new tools to handle emoji versions.
+The upcoming KeyboardKit 7.4 adds new emojis that were added in iOS 16.4, macOS 13.3, tvOS 16.4 and watchOS 9.4, as well as new tools to handle emoji versions.
 
 ![KeyboardKit icon with emojis]({{page.image}})
 
@@ -44,18 +44,18 @@ All these emojis will be available in KeyboardKit 7.4.
 
 ## Emoji version information
 
-The number of emojis keeps growing, but since emojis require certain system versions, some of your users may not be able to use the latest additions, or at least see them.
+The number of emojis keeps growing, but since emojis require certain system versions, some users may not be able to use (or at least see) the latest additions if they are on older system versions.
 
-KeyboardKit Pro 7.4 will therefore add a new `EmojiVersionInfo` type, that lets you find out all emojis that have been introduced after a certain iOS, macOS, tvOS and/or watchOS version. This is then used to provide new `Emoji` collection extensions that can filter out unavailable emojis.
+KeyboardKit Pro 7.4 will therefore add a new `EmojiVersion` type that specifies all emojis released in certain Emoji versions, as well as in which system versions the Emoji version became available.
 
-This means that you will now be able to filter out unavailable emojis from the emoji keyboards. This will be added as implicit features to these keyboards in future library updates, but just reach out if you are in need of this feature sooner rather than later.
+This means that you will be able to filter out unavailable emojis from the emoji keyboards. This will be added as standard features to these keyboards in future versions, but just reach out if you need it in place sooner rather than later.
 
 
 ## Emoji localizations
 
-KeyboardKit 7.4 have used Chat GPT-4 to generate English names for all supported emojis. This means that you can now use the `KKL10n` type to get the proper English name of any emoji.
+KeyboardKit 7.4 provides localized English names for all emojis.
 
 
-## Conditions
+## Conclusion
 
-KeyboardKit 7.4 adds many new emojis and emoji-related features. It will be released during April.
+KeyboardKit 7.4 adds many new emojis and emoji-related features. It will be released during April, but you can already try out the open-source additions in the master branch.

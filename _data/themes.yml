@@ -47,6 +47,11 @@
     - name: Sunset
       image: minimal-sunset
 
+- name: Aesthetic
+  styles:
+    - name: Boho
+      image: aesthetic-boho
+
 - name: Candy Shop
   styles:
     - name: Cotton Candy
