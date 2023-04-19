@@ -30,6 +30,17 @@ description: KeyboardKit helps you build amazing custom keyboard extensions for 
     </div>
   </section>
 
+  <section>
+    <h2>Latest news</h2>
+    <div class="grid blog list">
+      {% for post in site.posts limit:2 %}
+          <div>
+            {% include kankoda/blog/post-list-item.html post=posts.first %}
+          </div>
+      {% endfor %}
+    </div>
+  </section>
+
   <section class="clients">
     <h2>Trusted by</h2>
     {% include kankoda/grids/grid.html items=site.data.sponsors type="sponsors" image-class="plain" %}

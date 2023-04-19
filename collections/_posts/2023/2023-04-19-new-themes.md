@@ -7,8 +7,8 @@ image:  /assets/headers/icon-pro.png
 assets: /assets/themes/
 image-width: 350px
 
-tweet:  https://twitter.com/GetKeyboardKit/status/1644240205409316864?s=20
-toot:   https://techhub.social/@keyboardkit/110156343564099701
+tweet:  https://twitter.com/GetKeyboardKit/status/1648583547458822145?s=20
+toot:   https://techhub.social/@keyboardkit/110224211082730077
 ---
 
 The upcoming KeyboardKit 7.4 adds many new style variations to the existing themes, as well as a brand new Aestetic theme from the community.
@@ -53,4 +53,6 @@ Future versions may add more style configuration options, but the theme can curr
 
 ## Conclusion
 
-KeyboardKit 7.4 adds many new emojis and emoji-related features, as well as new themes and style variations to existing themes. It will be released during the second half of April.
+KeyboardKit 7.4 adds many new emojis and emoji-related features, as well as new themes and style variations to existing themes. See [this page](/themes) for a list of all available themes.
+
+KeyboardKit 7.4 will be released during the second half of April.

@@ -41,21 +41,21 @@ header_image_type: icon
 locale_count: 61
 
 header_pages:
+  - index.html
   - pages/about.md
-  - pages/features.md
   - pages/pro.md
   - pages/blog.md
 
 footer_sitemap:
   - index.html
   - pages/about.md
+  - pages/blog.md
   - pages/locales.md
   - pages/features.md
   - pages/customization.md
   - pages/themes.md
   - pages/open-source.md
   - pages/pro.md
-  - pages/blog.md
 
 collections_dir: collections
 

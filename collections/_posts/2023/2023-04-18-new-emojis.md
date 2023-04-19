@@ -9,7 +9,7 @@ tweet:  https://twitter.com/GetKeyboardKit/status/1644240205409316864?s=20
 toot:   https://techhub.social/@keyboardkit/110156343564099701
 ---
 
-The upcoming KeyboardKit 7.4 adds new emojis that were added in iOS 16.4, macOS 13.3, tvOS 16.4 and watchOS 9.4, as well as new tools to handle emoji versions.
+The upcoming KeyboardKit 7.4 adds new emojis that were added in iOS 16.4, macOS 13.3, tvOS 16.4 and watchOS 9.4, as well as new emoji version tools.
 
 ![KeyboardKit icon with emojis]({{page.image}})
 

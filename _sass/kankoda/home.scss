@@ -13,18 +13,16 @@
     }
   }
 
-  section.blog {
+  .blog {
     text-align: left;
 
     .grid {
       margin-top: 10px;
+    }
 
-      article {
-        h2 {
-          font-size: 1.2em;
-          margin-top: 20px !important;
-        }
-      }
+    h2 {
+      font-size: 1.2em;
+      margin-top: 20px !important;
     }
   }
 
