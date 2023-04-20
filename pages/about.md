@@ -25,11 +25,11 @@ KeyboardKit extends the native APIs with a lot more [functionality and informati
 
 KeyboardKit supercharges your custom keyboard and is super quick to get started with. You can be up and running in minutes, with very little code.
 
-KeyboardKit is fully [customizable](/customization). You can adjust any part of the standard keyboard, add your own style or use any of the built-in [themes](/themes),  replace standard [features](/features) with your own implementations, and even create fully custom keyboards with completely custom SwiftUI views.
+KeyboardKit supports [{{site.locale_count}} locales](/locales) and is fully [customizable](/customization). You can adjust any part of the standard keyboard, use your own style or any of the built-in [themes](/themes), replace any [feature](/features) with your own implementations, and even create fully custom keyboards with completely custom SwiftUI views.
 
-KeyboardKit is [open-source](/open-source) and completely free, which means that you have full access to the source code. You can use it in any way you like and contribute to make it better.
+KeyboardKit is completely free and [open-source](/open-source). This means that you have full access to the code. You can use it in any way you like and contribute to make it better.
 
-If you want to take your keyboard to the next level, [KeyboardKit Pro](/pro) is a license-based extension that unlocks [{{site.locale_count}} locales](/locales) and a bunch of [pro features](/pro) like autocomplete and themes.
+If you want to take things to the next level, [KeyboardKit Pro](/pro) is a license-based, closed-source extension that unlocks a bunch of [pro features](/pro) like autocomplete, dictation, themes and more.
 
 
 ## Need help?
