@@ -28,10 +28,12 @@
 
 .tag.swift {
   background-color: $swift-color;
+  border: solid 1px $swift-color;
 }
 
 .tag.swiftui {
   background-color: $swiftui-color;
+  border: solid 1px $swiftui-color;
 }
 
 section.tag-list {
