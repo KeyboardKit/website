@@ -7,8 +7,8 @@ image:  /assets/headers/dictation.png
 assets: /assets/themes/
 image-width: 350px
 
-tweet:  https://twitter.com/GetKeyboardKit/status/1648583547458822145?s=20
-toot:   https://techhub.social/@keyboardkit/110224211082730077
+tweet:  https://twitter.com/GetKeyboardKit/status/1649038022019633154?s=20
+toot:  https://techhub.social/@keyboardkit/110231308301576902
 ---
 
 KeyboardKit 7.3 added a beta version of a new dictation engine, that lets you start dictation from a keyboard, perform dictation in the app, then handle the result in the keyboard. Let's take a look.
