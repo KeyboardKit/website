@@ -8,8 +8,9 @@ layout: default
 
   <h1>
     {{ page.title | escape }}
-    {% include kankoda/blog/post-header.html post=page %}
   </h1>
+
+  {% include kankoda/blog/post-header.html post=page %}
   <div class="e-content" itemprop="articleBody">
     {{ content }}
   </div>
