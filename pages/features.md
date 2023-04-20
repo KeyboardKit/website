@@ -37,6 +37,11 @@ KeyboardKit can show autocomplete suggestions as the user types. [KeyboardKit Pr
 KeyboardKit can show an input callout when the user presses an input key and a secondary action callout when the user long presses an input key with secondary actions.
 
 
+## 🎙️ Dictation
+
+KeyboardKit has tools that let you perform [dictation](/dictation) from your custom keyboard extension, as well as in your app.
+
+
 ## 😊 Emojis
 
 KeyboardKit defines emojis and emoji categories, as well as a lot of additional information about each emoji. It also has an emoji keyboard that mimics the native iOS emoji keyboard.
