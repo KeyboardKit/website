@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Pro Trial
-permalink: /pro-trial
+permalink: /pro/trial
 hero: pro-trial
 
 description: The KeyboardKit Pro trial lets you try all pro features before purchasing.
