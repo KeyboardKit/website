@@ -6,6 +6,12 @@
 
 <div class="table-section-header {{row_class}} {{include.class}}" title="{{include.title}}">{{include.feature}}</div>
 <div class="grid" title="{{include.title}}">
-    <div class="feature">{{include.feature}}</div>
+    <div class="feature">
+        {% if include.url %}
+        <a href="{{include.url}}">{{include.feature}}</a>
+        {% else %}
+        {{include.feature}}
+        {% endif %}
+    </div>
     <div>{{include.columns | replace: "✔", "<img src='/assets/kankoda/checkmark.png' class='plain' width='20' />" | split: "," | join: "</div><div>"}}</div>
 </div>
