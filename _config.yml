@@ -50,12 +50,12 @@ footer_sitemap:
   - index.html
   - pages/about.md
   - pages/blog.md
+  - pages/open-source.md
+  - pages/pro.md
   - pages/locales.md
   - pages/features.md
   - pages/customization.md
   - pages/themes.md
-  - pages/open-source.md
-  - pages/pro.md
 
 collections_dir: collections
 

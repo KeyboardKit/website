@@ -1,8 +1,10 @@
 ---
-layout: page
+id: features
 title: Features
+layout: page
 permalink: /features
-hero: features
+
+hero: /assets/heros/features.png
 
 description: KeyboardKit supports 61 locales, fully localized keyboards, customizable styles and layouts, autocomplete, audio and haptic feedback and much more.
 ---

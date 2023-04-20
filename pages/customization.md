@@ -1,7 +1,14 @@
 ---
-layout: page
+id: customization
 title: Customization
+layout: page
 permalink: /customization
+
+image:  /assets/headers/customization.png
+
+hero: /assets/heros/customization.png
+hero-title: KeyboardKit is customizable
+
 hero: customization
 
 description: KeyboardKit keyboards can be customized to great extent.

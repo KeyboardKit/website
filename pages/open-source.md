@@ -1,8 +1,10 @@
 ---
+id: open-source
+title: Open-Source
 layout: page
-title: Open Source
 permalink: /open-source
-hero: open-source
+
+hero: /assets/heros/github.png
 
 description: KeyboardKit is open-source and completely free. It's hosted at GitHub and licensed under the MIT license.
 

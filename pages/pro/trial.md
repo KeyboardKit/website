@@ -1,8 +1,13 @@
 ---
-layout: page
+id: pro-trial
 title: Pro Trial
+layout: page
 permalink: /pro/trial
-hero: pro-trial
+
+image:  /assets/headers/pro.png
+
+hero: /assets/heros/pro.png
+hero-title: KeyboardKit Pro - Trial Version
 
 description: The KeyboardKit Pro trial lets you try all pro features before purchasing.
 ---
@@ -16,7 +21,7 @@ Just [reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20Trial%20Versi
 
 ## Demo App
 
-You can try most pro features without a trial version and without having to write a single line of code. Just visit the [GitHub project]({{site.github_url_pro}}) for a demo keyboard that is pre-configured with a Gold license.
+You can try most pro features without having to write a single line of code. The [GitHub project]({{site.github_url_pro}}) has a demo app that is pre-configured with a Gold license.
 
 
 ## App Store

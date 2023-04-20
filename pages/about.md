@@ -1,8 +1,13 @@
 ---
-layout: page
+id: about
 title: About
+layout: page
 permalink: /about
-hero: about
+
+image:  /assets/headers/icon.png
+
+hero: /assets/heros/icon.png
+hero-title: About KeyboardKit
 
 description: KeyboardKit helps you build custom keyboards for iOS,macOS, tvOS and watchOS, using native technologies like Swift and SwiftUI.
 ---

@@ -1,8 +1,10 @@
 ---
-layout: page
+id: dictation
 title: Dictation
+layout: page
 permalink: /dictation
-hero: dictation
+
+hero: /assets/heros/dictation.png
 
 description: KeyboardKit lets you perform dictation directly from your keyboard.
 ---

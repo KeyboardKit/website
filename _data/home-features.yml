@@ -13,11 +13,6 @@
   image: /assets/heros/features.png
   text: KeyboardKit provides you with a lot of powerful keyboard features.
 
-- title: Customization
-  url:  /customization
-  image: /assets/heros/themes.png
-  text: KeyboardKit-based keyboards can be customized to great extent.
-
 - title: Open-Source
   url:  /open-source
   image: /assets/heros/github.png
@@ -27,6 +22,11 @@
   url:  /pro
   image: /assets/heros/pro.png
   text: Unlock pro features like localized keyboards, autocomplete etc.
+
+- title: Themes
+  url:  /themes
+  image: /assets/heros/themes.png
+  text: KeyboardKit Pro has a theme engine with many built-in themes.
 
 - title: App
   url:  http://itunes.apple.com/app/keyboardkit/id1568444977

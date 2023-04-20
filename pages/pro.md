@@ -1,8 +1,11 @@
 ---
-layout: page
+id: pro
 title: Pro
+layout: page
 permalink: /pro
-hero: pro
+
+hero: /assets/heros/pro.png
+hero-title: KeyboardKit Pro
 
 description: KeyboardKit Pro unlocks fully localized system keyboards, autocomplete, themes, dictation, emoji skintones and version info, a full document reader and more!
 ---

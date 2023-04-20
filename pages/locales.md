@@ -1,8 +1,10 @@
 ---
-layout: page
+id: locales
 title: Locales
+layout: page
 permalink: /locales
-hero: locales
+
+hero: /assets/heros/locales.png
 
 description: KeyboardKit supports 60 locales and lets you create keyboards with localized input keys, callouts, autocomplete etc.
 ---

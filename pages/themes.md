@@ -1,8 +1,10 @@
 ---
-layout: page
+id: themes
 title: Themes
+layout: page
 permalink: /themes
-hero: themes
+
+hero: /assets/heros/themes.png
 
 description: KeyboardKit Pro unlocks a theme engine with many pre-defined themes.
 ---
