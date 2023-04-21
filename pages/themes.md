@@ -9,7 +9,7 @@ hero: /assets/heros/themes.png
 description: KeyboardKit Pro unlocks a theme engine with many pre-defined themes.
 ---
 
-Although KeyboardKit is fully customizable and lets you change the appearance of your keyboard in any way you like, [KeyboardKit Pro](/pro) unlocks a theme engine that makes this even easier.
+Although KeyboardKit is fully [customizable](/customization) and lets you change the appearance of your keyboards in any way you like, [KeyboardKit Pro](/pro) unlocks a theme engine that makes this even easier.
 
 You can create your own themes or use the ones that come with the engine. A theme can also have style variations to let you adjust parts of the theme.
 
