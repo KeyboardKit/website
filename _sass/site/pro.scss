@@ -10,6 +10,12 @@ body.pro {
     }
 }
 
+.license-table.oss-vs-pro {
+    .grid {
+      grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
 @media (max-width: 950px) {
 
     .license-table {
@@ -26,6 +32,12 @@ body.pro {
       .table-section-header { 
         display: inherit;
       }
+    }
+
+    .license-table.oss-vs-pro {
+        .grid {
+          grid-template-columns: repeat(2, 1fr) !important;
+        }
     }
   }
   

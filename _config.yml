@@ -43,8 +43,8 @@ locale_count: 61
 header_pages:
   - index.html
   - pages/about.md
-  - pages/pro.md
   - pages/blog.md
+  - pages/pricing.md
 
 footer_sitemap:
   - index.html

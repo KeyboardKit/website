@@ -4,8 +4,8 @@
 {% assign row_class = "odd" %}
 {% endif %}
 
-<div class="table-section-header {{row_class}} {{include.class}}" title="{{include.title}}">{{include.feature}}</div>
-<div class="grid" title="{{include.title}}">
+<div class="table-section-header {{row_class}} {{include.table-class}}" title="{{include.title}}">{{include.feature}}</div>
+<div class="grid {{include.grid-class}}" title="{{include.title}}">
     <div class="feature">
         {% if include.url %}
         <a href="{{include.url}}">{{include.feature}}</a>

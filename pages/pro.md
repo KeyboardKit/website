@@ -7,10 +7,10 @@ permalink: /pro
 hero: /assets/heros/pro.png
 hero-title: KeyboardKit Pro
 
-description: KeyboardKit is <a href="/open-source">open-source</a> and completely free, but you can upgrade to KeyboardKit Pro to unlock additional features that take your keyboard to the next level. 
+description: KeyboardKit is open-source and completely free, but you can upgrade to KeyboardKit Pro to unlock additional features that take your keyboard to the next level. 
 ---
 
-KeyboardKit Pro unlocks fully localized system keyboards, autocomplete, themes, dictation, emoji skintones and version info, a full document reader and much more! Visit the [project site]({{site.github_url_pro}}) for a full list of features, documentation etc.
+KeyboardKit Pro unlocks [localized system keyboards](/locales), autocomplete, [dictation](/dictation), [themes](/themes), emoji skintones and version info, a full document reader and much more! Visit the [project site]({{site.github_url_pro}}) for a full list of features, documentation etc.
 
 {% include grids/licenses.html %}
 
