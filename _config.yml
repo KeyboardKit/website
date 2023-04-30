@@ -43,19 +43,17 @@ locale_count: 61
 header_pages:
   - index.html
   - pages/about.md
+  - pages/features.md
   - pages/blog.md
   - pages/pricing.md
 
 footer_sitemap:
   - index.html
   - pages/about.md
-  - pages/blog.md
-  - pages/open-source.md
-  - pages/pro.md
   - pages/locales.md
   - pages/features.md
-  - pages/customization.md
-  - pages/themes.md
+  - pages/blog.md
+  - pages/pricing.md
 
 collections_dir: collections
 
