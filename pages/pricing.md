@@ -5,7 +5,7 @@ layout: page
 permalink: /pricing
 
 hero: /assets/heros/icon.png
-hero-title: KeyboardKit Pricing
+hero-title: Pricing
 
 description: KeyboardKit is open-source and free, but you can upgrade to KeyboardKit Pro to unlock additional features that take your keyboard to the next level. 
 ---
