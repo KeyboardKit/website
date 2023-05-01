@@ -5,6 +5,9 @@ tags:   releases dictation appearance themes localization
 
 image:  /assets/headers/icon.png
 
+tweet:  https://twitter.com/GetKeyboardKit/status/1653131006298169376?s=20
+toot:   https://techhub.social/@keyboardkit/110295262500485857
+
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.5.0
 ---
 
