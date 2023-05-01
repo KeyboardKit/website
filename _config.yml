@@ -42,7 +42,6 @@ locale_count: 61
 
 header_pages:
   - index.html
-  - pages/about.md
   - pages/features.md
   - pages/blog.md
   - pages/pricing.md
