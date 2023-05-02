@@ -1,4 +1,4 @@
-body.pro {
+body.pro, body.pricing {
     .wrapper {
         max-width: 900px;
     }
@@ -7,12 +7,6 @@ body.pro {
 .license-table {
     .grid {
         grid-template-columns: repeat(5, 1fr) !important;
-    }
-}
-
-.license-table.oss-vs-pro {
-    .grid {
-      grid-template-columns: repeat(3, 1fr) !important;
     }
 }
 

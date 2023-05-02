@@ -12,11 +12,9 @@ hero-title: KeyboardKit Pro - Trial Version
 description: The KeyboardKit Pro trial lets you try all pro features before purchasing.
 ---
 
-[KeyboardKit Pro](/pro) requires a commercial license, but you can test all the pro features with the free trial version before deciding to buy.
+[KeyboardKit Pro](/pro) requires a commercial license, but you can test all the pro features with a free trial version before deciding to buy.
 
-The trial version requires that you set up your app and keyboard with a certain bundle ID and trial license key. You will not be able to send the app to the App Store with the trial version enabled.
-
-Just [reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20Trial%20Version) with some information about your company and app to get information on how to activate the trial version.
+Just [reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20Trial%20Version) with some information about your company and app to get information on how to get a trial version.
 
 
 ## Demo App

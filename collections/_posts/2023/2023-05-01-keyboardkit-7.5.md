@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit 7.5
 date:   2023-05-01 08:00:00 +0100
-tags:   releases dictation appearance themes localization
+tags:   releases dictation appearance themes
 
 image:  /assets/headers/icon.png
 
@@ -11,7 +11,7 @@ toot:   https://techhub.social/@keyboardkit/110295262500485857
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.5.0
 ---
 
-KeyboardKit 7.5 is out, which improves the theme and dictation engines to make them easier to use. It also greatly improves the way KeyboardKit changes locales, and will now correctly change the primary language of the extension as well, which affects text direction, spellchecking and more.
+KeyboardKit 7.5 is out! It improves the dictation and theme engines and makes them easier to use. It also greatly improves the way KeyboardKit handles locales. It now correctly changes the primary language, which affects text direction, spellchecking and more.
 
 ![KeyboardKit logo]({{page.image}})
 
