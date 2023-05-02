@@ -2,21 +2,21 @@
   url: /about
   image: /assets/heros/icon.png
   text: Why should you build a keyboard and how can KeyboardKit help?
+  
+- title: Features
+  url:  /features
+  image: /assets/heros/features.png
+  text: KeyboardKit provides you with many powerful keyboard features.
 
 - title: Locales
   url: /locales
   image: /assets/heros/locales.png
   text: KeyboardKit supports many locales, with localized functionality.
 
-- title: Features
-  url:  /features
-  image: /assets/heros/features.png
-  text: KeyboardKit provides you with a lot of powerful keyboard features.
-
 - title: Open-Source
   url:  /open-source
   image: /assets/heros/github.png
-  text: KeyboardKit is open-source and completely free to use.
+  text: KeyboardKit is open-source and free to use.
 
 - title: KeyboardKit Pro
   url:  /pro
@@ -26,25 +26,10 @@
 - title: Themes
   url:  /themes
   image: /assets/heros/themes.png
-  text: KeyboardKit Pro has a theme engine with many built-in themes.
+  text: KeyboardKit Pro has a theme engine for creating custom designs.
 
 - title: App
   url:  http://itunes.apple.com/app/keyboardkit/id1568444977
   image: /assets/heros/app.png
   text: The KeyboardKit app let you create and style keyboards on your phone.
-
-- title: Blog
-  url:  /blog
-  image: /assets/heros/blog.png
-  text: KeyboardKit is blogging! Read and follow for news and updates.
-
-- title: Twitter
-  url:  https://twitter.com/getkeyboardkit
-  image: /assets/heros/twitter.png
-  text: KeyboardKit is on Twitter! Follow for news and updates.
-
-- title: Mastodon
-  url:  https://techhub.social/@keyboardkit
-  image: /assets/heros/mastodon.png
-  text: KeyboardKit is on Mastodon! Follow for news and updates.
   hidden: true
