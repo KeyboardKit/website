@@ -3,7 +3,9 @@ h1 {
 }
 
 .hero {
-  background: $hero-background;
+  background: 
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.03)),
+    $site-background;
   margin-top: -100px;
   padding-top: 30px;
   text-align: center;
@@ -20,7 +22,7 @@ h1 {
 
 .hero-line {
   height: 100px;
-  background: linear-gradient(to top left, $hero-line 0%, $hero-line 50%, transparent 50%, transparent 100%) !important;
+  background: linear-gradient(to top left, $content-background 0%, $content-background 50%, transparent 50%, transparent 100%) !important;
   margin-top: -70px;
   margin-bottom: 30px;
 }
