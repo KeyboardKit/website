@@ -9,6 +9,8 @@ image:  /assets/headers/pro.png
 hero: /assets/heros/pro.png
 hero-title: KeyboardKit Pro - Trial Version
 
+redirect_from: /pro-trial
+
 description: The KeyboardKit Pro trial lets you try all pro features before purchasing.
 ---
 
