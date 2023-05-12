@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 7.6 RC 1
+title:  KeyboardKit 7.6 RC
 date:   2023-05-11 08:00:00 +0100
 tags:   releases dictation
 
@@ -8,22 +8,22 @@ image:  /assets/headers/icon.png
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.6-rc1
 ---
 
-KeyboardKit 7.6 RC 1 is out and fixes some dictation-related problems when submitting your app to App Store Connect without dictation permission keys. Read on for some important information.
+The KeyboardKit 7.6 RC is out and fixes a dictation-related problem when submitting apps to the App Store Connect without adding dictation permission keys, even it the app doesn't use dictation.
 
 ![KeyboardKit logo]({{page.image}})
 
 
 ## Dictation changes
 
-KeyboardKit 7.5 added a new dictation engine that makes it easy to perform dictation in the main app as well as from the keyboard.
+KeyboardKit 7.5 added a new dictation engine that makes it easy to perform dictation in the app as well as from the keyboard.
 
-However, after this was released, people started reporting that submitting apps started to failed with an `Invalid Binary` error if the app didn't specify dictation permission in its configuration file, even if the app didn't use dictation.
+However, after it was released, people started reporting that submitting apps to App Store Connect started to failed with an `Invalid Binary` error if the app didn't specify dictation permission, even if the app didn't use the dictation features.
 
-Turns out that the `Speech` framework that lies at the heard of the new dictation feature requires these permissions, even if it isn't used by the app.
+Turns out that the `Speech` framework at the heart of this new feature requires these permissions, even if dictation isn't used by the app.
 
-To solve this, 7.6 will separate speech recognizion from the dictation engine, and will require you to provide a speech recognizer when setting up dictation in your app. Since `Speech` usage can't be in the app, you will have to copy code into your app when you want to use dictation.
+To solve this, 7.6 will separate speech recognizion from the dictation engine, and will require you to provide a speech recognizer when setting up dictation in your app. 
 
-Here is a standard speech recognizer that you can just add to your app and use right away:
+Since `Speech` usage can't be in the app, since that triggers this problem, here is a standard speech recognizer that you can just add to your app and use right away:
 
 ```swift
 #if os(iOS)
@@ -115,6 +115,16 @@ private extension StandardSpeechRecognizer {
 #endif
 ```
 
-If would be amazing to include this recognizer in the source code, so if you know of a way how to achieve this, please reach out.
+If you know how the code could be included in the source code without causing this problem, feel free to reach out.
 
-Other than that, the dictation overlay view and the standard indicator have been redesigned to look more like the native keyboard dictation equalizer. 
+
+## More improvements
+
+Besides fixing this problem, KeyboardKit 7.6 will also improve the dictation performance, add more information and make it possible to start dictation in more ways and from a DocumentGroup.
+
+This version also redesigns the dictation overlay view and the standard indicator to look more like the native keyboard dictation equalizer. 
+
+
+## Release process
+
+There will be a few release candidates, since this is a complicated feature. Make sure that you are using the latest one.
