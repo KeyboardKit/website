@@ -9,6 +9,9 @@ release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.6-rc1
 
 dictation-post: /blog/2023/05/15/dictation-changes
 redirect_from: /blog/2023/05/11/keyboardkit-7.6-rc
+
+tweet:  https://twitter.com/GetKeyboardKit/status/1658458211492429824?s=20
+toot:   https://techhub.social/@keyboardkit/110378499100929879
 ---
 
 KeyboardKit 7.6 is out! This release fixes a dictation-related problem when submitting apps to the App Store Connect and adds a bunch of dictation and emoji-related features and fixes.

@@ -4,6 +4,9 @@ date:   2023-05-15 08:00:00 +0100
 tags:   dictation
 
 image:  /assets/headers/icon.png
+
+tweet:  https://twitter.com/GetKeyboardKit/status/1658457509068251142?s=20
+toot:   https://techhub.social/@keyboardkit/110378488624461760
 ---
 
 KeyboardKit 7.6 will fix a dictation-related problem, where you had to add dictation permissions to your app when submitting it to the App Store, even if you didn't use the dictation feature.
