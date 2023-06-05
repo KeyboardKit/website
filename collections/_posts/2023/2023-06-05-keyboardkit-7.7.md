@@ -7,8 +7,8 @@ image:  /assets/headers/icon.png
 
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.7
 
-tweet:  
-toot:   
+tweet:  https://twitter.com/GetKeyboardKit/status/1665681764021329921?s=20
+toot:   https://techhub.social/@keyboardkit/110491374338522086   
 ---
 
 KeyboardKit 7.7 is out! This release provides a much better fast-typing experience by introducing a release outside tolerance, tweaks the emoji keyboards and has many other nice features and fixes.
