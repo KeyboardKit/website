@@ -53,6 +53,7 @@ footer_sitemap:
   - pages/features.md
   - pages/blog.md
   - pages/pricing.md
+  - pages/app/privacy-policy.md
 
 collections_dir: collections
 

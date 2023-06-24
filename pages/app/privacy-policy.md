@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Privacy Policy
+title: App Privacy Policy
 permalink: /app/privacy-policy
 
 ---
@@ -14,7 +14,7 @@ This policy explains how we collect and use data in the app.
 
 Whenever this policy mentions "personal data", it refers to data that directly or indirectly may be used to identify you as an individual. Whenever this policy mentions "anonymous data", it refer to data that can not be used to identify you as an individual.
 
-This policy may be updated when new features are added to the app. Whenever that happens, we will mention it in the release notes, so that you have the chance to review the updated policy before installing the update.
+This policy may be updated when new features are added to the app. Whenever that happens, it will be mentioned it in the release notes, so that you have the chance to review the updated policy before installing the update.
 
 
 ## Overview
@@ -32,9 +32,9 @@ For more details on this, please see the remainder of the document.
 
 The app does not collect any personal data.
 
-The app will ask for your personal e-mail address when you send us suggestions, feedback or error reports.
-
 The app may collect anonymous usage data, e.g. how often it is used, as well as crash reports.
+
+The app will use your default e-mail client to let you send suggestions, feedback or error reports.
 
 
 ## How data is stored
