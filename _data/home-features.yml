@@ -3,33 +3,34 @@
   image: /assets/heros/icon.png
   text: Why should you build a keyboard and how can KeyboardKit help?
   
+- title: Open-Source
+  url:  /open-source
+  image: /assets/heros/github.png
+  text: KeyboardKit is open-source and free to use. Join the growing community!
+
 - title: Features
   url:  /features
   image: /assets/heros/features.png
-  text: KeyboardKit provides you with many powerful keyboard features.
+  text: KeyboardKit supports 61+ locales and has a rich set of features.
+
+- title: KeyboardKit Pro
+  url:  /pro
+  image: /assets/heros/pro.png
+  text: KeyboardKit Pro adds pro features, like autocomplete, dictation, etc.
+
+- title: Themes
+  url:  /themes
+  image: /assets/heros/themes.png
+  text: KeyboardKit Pro has a theme engine for creating rich, custom designs.
+
+- title: App
+  url:  http://itunes.apple.com/app/keyboardkit/id1568444977
+  image: /assets/heros/app.png
+  text: The KeyboardKit app lets you create directly on your iPhone and iPad.
+
 
 - title: Locales
   url: /locales
   image: /assets/heros/locales.png
   text: KeyboardKit supports many locales, with localized functionality.
-
-- title: Open-Source
-  url:  /open-source
-  image: /assets/heros/github.png
-  text: KeyboardKit is open-source and free to use.
-
-- title: KeyboardKit Pro
-  url:  /pro
-  image: /assets/heros/pro.png
-  text: Unlock pro features like localized keyboards, autocomplete etc.
-
-- title: Themes
-  url:  /themes
-  image: /assets/heros/themes.png
-  text: KeyboardKit Pro has a theme engine for creating custom designs.
-
-- title: App
-  url:  http://itunes.apple.com/app/keyboardkit/id1568444977
-  image: /assets/heros/app.png
-  text: The KeyboardKit app let you create and style keyboards on your phone.
   hidden: true
