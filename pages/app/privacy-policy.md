@@ -1,6 +1,6 @@
 ---
 layout: page
-title: App Privacy Policy
+title: App - Privacy Policy
 permalink: /app/privacy-policy
 
 ---

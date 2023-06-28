@@ -42,8 +42,8 @@ locale_count: 61
 
 header_pages:
   - index.html
-  - pages/features.md
   - pages/blog.md
+  - pages/app/app.md
   - pages/pricing.md
 
 footer_sitemap:
@@ -53,6 +53,7 @@ footer_sitemap:
   - pages/features.md
   - pages/blog.md
   - pages/pricing.md
+  - pages/app/app.md
   - pages/app/privacy-policy.md
 
 collections_dir: collections
