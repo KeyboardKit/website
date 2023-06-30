@@ -5,8 +5,10 @@ tags:   releases app
 
 image:  /assets/headers/icon.png
 
-beta:   https://testflight.apple.com/join/i46nqNAM
+tweet:  https://twitter.com/GetKeyboardKit/status/1674781328431271936?s=20
+toot:   https://techhub.social/@keyboardkit/110633547628471460
 
+beta:   https://testflight.apple.com/join/i46nqNAM
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.8.0
 ---
 
