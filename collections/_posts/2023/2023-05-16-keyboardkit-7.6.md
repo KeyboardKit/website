@@ -5,7 +5,7 @@ tags:   releases dictation emojis
 
 image:  /assets/headers/icon.png
 
-release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.6
+release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.6.0
 
 dictation-post: /blog/2023/05/15/dictation-changes
 redirect_from: /blog/2023/05/11/keyboardkit-7.6-rc

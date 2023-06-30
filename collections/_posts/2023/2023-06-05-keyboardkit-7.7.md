@@ -5,7 +5,7 @@ tags:   releases actions emojis gestures themes
 
 image:  /assets/headers/icon.png
 
-release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.7
+release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.7.0
 
 tweet:  https://twitter.com/GetKeyboardKit/status/1665681764021329921?s=20
 toot:   https://techhub.social/@keyboardkit/110491374338522086   

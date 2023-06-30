@@ -27,4 +27,6 @@ KeyboardKit released under the MIT license, which means that you can use the lib
 
 ## Financial support
 
-KeyboardKit is open-source and completely free, but any financial support is greatly appreciated to keep the project going. You can support KeyboardKit by becoming a [GitHub sponsor]({{page.sponsors}}), upgrading to [Pro](/pro), paying for [support and consultation](mailto:{{site.email}}?subject=Support) etc.
+KeyboardKit is open-source and completely free, but any financial support is greatly appreciated to keep the project going. 
+
+You can support KeyboardKit by becoming a [GitHub sponsor]({{page.sponsors}}), upgrading to [KeyboardKit Pro](/pro), paying for [support and consultation](mailto:{{site.email}}?subject=Support) etc.
