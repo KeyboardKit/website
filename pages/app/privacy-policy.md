@@ -10,8 +10,6 @@ permalink: /app/privacy-policy
 
 This is the privacy policy for the KeyboardKit app for iOS (hereby referred to as "the app").
 
-This policy explains how we collect and use data in the app.
-
 Whenever this policy mentions "personal data", it refers to data that directly or indirectly may be used to identify you as an individual. Whenever this policy mentions "anonymous data", it refer to data that can not be used to identify you as an individual.
 
 This policy may be updated when new features are added to the app. Whenever that happens, it will be mentioned it in the release notes, so that you have the chance to review the updated policy before installing the update.
@@ -51,9 +49,9 @@ The app only shares anonymous usage data with analytics tools.
 
 Anonymous usage data is used to improve the app and detect problems.
 
-Suggestions, feedback and error reports received via e-mail are deleted when they are no longer relevant, e.g. when answered or implemented.
+Suggestions, feedback and error reports received via e-mail are deleted when they are no longer relevant, e.g. when a question has been answered or a feature request has been implemented.
 
 
 ## Means of communication
 
-Any need to communicate any work carried out as a result of collected data is handled in the release notes, when releasing new versions of the app. We also answer e-mails.
+Any changes to this privacy policy will be communicated in the release notes, when releasing a new version of the app.
