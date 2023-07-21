@@ -5,8 +5,8 @@ tags:   releases app
 
 image:  /assets/headers/icon.png
 
-tweet:  https://twitter.com/GetKeyboardKit/status/1674781328431271936?s=20
-toot:   https://techhub.social/@keyboardkit/110633547628471460
+tweet:  https://twitter.com/GetKeyboardKit/status/1682304606544490496?s=20
+toot:   https://techhub.social/@keyboardkit/110751101248947708
 ---
 
 The brand new KeyboardKit app is out! [Download it today]({{site.appstore_url}}) and let us know what you think.
