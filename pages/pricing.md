@@ -25,15 +25,17 @@ Licenses can be purchased directly from the [Gumroad]({{site.gumroad_url}}) e-sh
 
 Licenses are valid for **one year**, **one app** and **one keyboard extension**. After your license expires, you must extend it to keep using KeyboardKit Pro. Expirations do not affect already shipped apps.
 
-Additional bundles and test licenses can be added to a license at a **50% discount** per ID/license. A test license can not be converted to a production license and must never be used in production.
+Additional bundle IDs and test licenses can be added at a **50% discount** per ID/license. A test license can not be converted to a production license and must never be used in production.
 
 By signing up for a license, you acknowledge and approve the information and terms listed on [this page](/pro/terms-and-conditions).
 
 
 ## License activation
 
-You will receive a welcome email with a license agreement when your license has been activated, typically **within 48h**. The license period starts when the license is activated, not at the time of purchase.
+After purchasing a license, you will receive a welcome e-mail with a license key and a license agreement once your license has been activated, typically **within 48 hours**.
 
-If we are unable to activate your license within 48 hours after purchase, we will try to get in touch with you regarding the reason for the delay. You are free to refund your purchase at any time before your license has been activated.
+If we are unable to activate your license within 48 hours, we will try to get in touch with you to explain the delay. You are free to refund your purchase at any time before your license has been activated.
+
+The license period starts when the license is activated, not at the time of purchase.
 
 <!--If you have signed up for a Gold or Custom license, you are more than welcome to [schedule an onboarding call](mailto:{{site.email}}?subject=Onboarding%20Call), during which we can look at your needs and help you get started.-->
