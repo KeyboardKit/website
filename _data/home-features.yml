@@ -8,15 +8,15 @@
   image: /assets/heros/github.png
   text: KeyboardKit is open-source and free to use. Join the growing community!
 
-- title: Features
-  url:  /features
-  image: /assets/heros/features.png
-  text: KeyboardKit supports 61+ locales and has a rich set of features.
-
 - title: KeyboardKit Pro
   url:  /pro
   image: /assets/heros/pro.png
   text: KeyboardKit Pro adds pro features, like autocomplete, dictation, etc.
+
+- title: Features
+  url:  /features
+  image: /assets/heros/features.png
+  text: KeyboardKit supports 61+ locales and has a rich set of features.
 
 - title: Themes
   url:  /themes
