@@ -1,4 +1,4 @@
-.grid.sponsors {
+.grid.clients {
   grid-template-columns: repeat(6, 1fr);
 
   img { 
@@ -20,7 +20,7 @@
 
 @media (max-width: 600px) {
   
-  .grid.sponsors {
+  .grid.clients {
     grid-template-columns: repeat(6, 1fr);
   }
 }
