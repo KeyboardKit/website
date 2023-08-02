@@ -52,11 +52,14 @@ footer_sitemap:
   - index.html
   - pages/about.md
   - pages/blog.md
+  - pages/app/app.md
   - pages/pro.md
   - pages/pricing.md
+  - spacer.html
+
   - pages/locales.md
   - pages/features.md
-  - pages/app/app.md
+  - pages/themes.md
 
 collections_dir: collections
 

@@ -1,6 +1,6 @@
 ---
 id: themes
-title: Pro Themes
+title: Themes
 layout: page
 permalink: /themes
 
