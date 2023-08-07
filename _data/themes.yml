@@ -59,6 +59,25 @@
     - name: Cuppy Cake
       image: candyshop-cuppycake
 
+- name: Colorful
+  styles:
+    - name: Black
+      image: colorful-black
+    - name: Blue
+      image: colorful-blue
+    - name: Green
+      image: colorful-green
+    - name: Orange
+      image: colorful-orange
+    - name: Pink
+      image: colorful-pink
+    - name: Purple
+      image: colorful-Purple
+    - name: Red
+      image: colorful-red
+    - name: White
+      image: colorful-white
+
 - name: Neon
   styles:
     - name: Night
