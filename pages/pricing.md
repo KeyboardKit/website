@@ -9,33 +9,31 @@ hero-title: Pricing
 
 redirect_from: /pro
 
-description: KeyboardKit is open-source and completely free, but you can upgrade to KeyboardKit Pro to unlock additional features that take your keyboard to the next level. 
+description: Upgrade to KeyboardKit Pro to unlock additional locales and features that take your keyboard to the next level. 
 ---
 
-KeyboardKit Pro unlocks [localized system keyboards](/locales), autocomplete, [dictation](/dictation), [themes](/themes), emoji skintones and version info, a full document reader and much more! Visit the [project site]({{site.github_url_pro}}) for a full list of features, documentation etc.
-
-The tiers below are aimed at indie developers, startups and small businesses. If you're a large business, enterprise or a larger organization, please [reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) for a custom plan.
+KeyboardKit Pro unlocks additional [locales](/locales), and features like autocomplete, autocorrect, dictation, emoji skintones and version info, a full document content reader, a theme engine with many built-in themes, and much more! Visit the [project site]({{site.github_url_pro}}) for more information.
 
 {% include grids/licenses.html %}
 
-Licenses can be purchased directly from the [Gumroad]({{site.gumroad_url}}) e-shop<!--[Lemon Squeezy]({{site.lemon_url}})-->, or [over e-mail](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) if you require a custom setup or want to use your preferred method of payment or invoicing.
+Licenses can be purchased from the [Gumroad]({{site.gumroad_url}}) e-shop <!--[Lemon Squeezy]({{site.lemon_url}})-->. [Reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) if you want to include any add-ons, or if you have another preferred method of payment or invoicing.
+
+The tiers above are aimed at indie developers, startups and small businesses. For enterprises and organizations with more than $1M USD in annual proceeds, please [reach out for a custom plan](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License).
 
 
 ## License terms
 
 Licenses are valid for **one year**, **one app** and **one keyboard extension**. After your license expires, you must extend it to keep using KeyboardKit Pro. Expirations do not affect already shipped apps.
 
-Additional bundle IDs and test licenses can be added at a **50% discount** per ID/license. A test license can not be converted to a production license and must never be used in production.
+Additional bundle IDs and development licenses can be added at a **50% discount**. A development license can not be converted to a production license and must never be used in production.
 
-By signing up for a license, you acknowledge and approve the information and terms listed on [this page](/pro/terms-and-conditions).
+By signing up for a license, you acknowledge and approve the info and terms listed on [this page](/pro/terms-and-conditions).
 
 
 ## License activation
 
-After purchasing a license, you will receive a welcome e-mail with a license key and a license agreement once your license has been activated, typically **within 48 hours**.
+After purchasing a license, you will receive a welcome e-mail with your license key once the license has been activated, typically **within 48 hours**.
 
-If we are unable to activate your license within 48 hours, we will try to get in touch with you to explain the delay. You are free to refund your purchase at any time before your license has been activated.
+If we are unable to activate your license within this time, we will get in touch with you to explain the delay. You are free to refund your purchase at any time before your license has been activated.
 
-The license period starts when the license is activated, not at the time of purchase.
-
-<!--If you have signed up for a Gold or Custom license, you are more than welcome to [schedule an onboarding call](mailto:{{site.email}}?subject=Onboarding%20Call), during which we can look at your needs and help you get started.-->
+The license period starts when the license is activated, not at the time of purchase. This means that the time it takes to activate your license doesn't affect the time you'll have to use it.

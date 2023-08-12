@@ -13,39 +13,31 @@ description: KeyboardKit Pro has many optional add-on services
 
 ## Onboarding call
 
-Gold and Custom license customers can choose to connect over an optional onboarding call, that lets us understand your needs and help you get started.
-
-During this call, we can help setting up the license, discuss how to use the pro features to fit your needs, or anything you need to get started.
+Gold customers have the option to connect over an onboarding call, where we'll discuss your needs and help you get started.
 
 
 ## Monthly call
 
-Custom license customers can choose to include an optional monthly call, that lets us keep track of your problems, discuss any problems or questions that you run into, etc.
-
-The monthly call is an advisory tool, during which we can also schedule other activities, plan paid support hours or anything you need to keep your project going...and growing.
+Gold customers have the option to connect over a monthly call, where we can keep in touch and keep track of your project, discuss any problems or questions that you may have, etc.
 
 
 ## Monthly plan
 
-Custom license customers can choose a monthly payment plan, instead of the default annual one. This plan comes at a higher price, but let's you spread out the license cost over the year.
+Gold customers can choose a monthly subscription instead of the default annual one. This plan let's you spread out your license cost over the year, at a slightly higher price.
 
 
 ## Multi-platform
 
-Due to the way that it's distributed as a pre-built binary, KeyboardKit Pro is by default distributed with support for iOS only.
-
-Custom license customers can however get a tailored build, that supports the platforms that you need to support.
+KeyboardKit Pro is by default distributed with support for iOS only. Gold customers can however get a build that supports all available platforms.
 
 
 ## Additional bundles
 
-KeyboardKit Pro licenses are valid for **one year, one app** and **one keyboard extension**. You can however add additional bundle IDs to your license, at a 50% discount per ID.
+KeyboardKit Pro licenses are valid for **one year, one app** and **one keyboard extension**. You can add additional bundle IDs to your license, at a **50% discount per bundle**.
 
 
-## Test licenses
+## Development licenses
 
-If you are building additional test versions of your app, you can add a test license to a production license, at a 50% discount per test version.
+You can add additional development licenses to a production license, for an alternate build of your app and keyboard, at a **50% discount per test license**.
 
-Unlike additional bundle IDs, a test license includes the bundle IDs of both the main test app and its keyboard extension. 
-
-A test licence can not be converted to a production license and must never be used in production.
+A development licence can not be converted to a production license and must never be used in production. Development licenses that are used in production, may be deactivated at any time.
