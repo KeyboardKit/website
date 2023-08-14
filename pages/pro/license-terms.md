@@ -16,7 +16,12 @@ Licenses are valid for **one year**, **one app** and **one keyboard extension**.
 
 Additional bundles and test licenses can be added to a license at a **50% discount** per ID/license. A test license can not be converted to a production license and must never be used in production.
 
-By signing up for a license, you acknowledge and approve of the following terms and conditions.
+
+## Monthly plan
+
+The monthly subscription plan is a **yearly subscription**, which means that by signing up for this plan, you commit to paying for at least a full year, split up in 12 separate payment. 
+
+Failing to pay any monthly payment will expire and block your license until all overdue payments have been paid, with an additional 10% unlock fee.
 
 
 ## Features
