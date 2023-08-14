@@ -1,0 +1,6 @@
+<div class="grid screenshots">
+  {%- assign images = include.images | split: "," -%}
+  {% for image in images %}
+    <img src="/assets/screenshots/{{image}}.jpg" />
+  {% endfor %}
+</div>
