@@ -1,5 +1,8 @@
-<div class="grid screenshots">
-  {%- assign images = include.images | split: "," -%}
+{%- assign images = include.images | split: "," -%}
+{% if images.size <= 3 %}
+{%- assign class = "three" -%}
+{% endif %}
+<div class="grid screenshots {{class}}">
   {% for image in images %}
     <img src="/assets/screenshots/{{image}}.jpg" />
   {% endfor %}
