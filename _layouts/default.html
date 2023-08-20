@@ -3,8 +3,11 @@ layout: plain
 ---
 
 <main class="page-content" aria-label="Content">
+  {%- assign hero = page.hero -%}
+  {%- assign hero-title = page.hero-title | default: page.title -%}
+  {%- assign hero-description = page.hero-description | default: page.description -%}
 
-  {% include kankoda/heros/hero.html %}
+  {% include kankoda/heros/hero.html hero=hero hero-title=hero-title hero-description=hero-description %}
   
   <div class="wrapper">
     {{ content }}

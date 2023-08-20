@@ -11,6 +11,7 @@ a.forward-button:after {
   height: 30px;
   padding: 0 10px;
   background-color: $foreground;
+  display: inline-block;
 }
 
 .social-button.instagram {

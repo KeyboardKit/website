@@ -2,8 +2,8 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include kankoda/head/head.html %}
 
-  {% assign hero = page.hero | size %}
-  {% if hero == 0 %}
+  {% assign hero_size = page.hero | size %}
+  {% if hero_size == 0 %}
   {% assign body_class = "layout-no-hero" %}
   {% endif %}
   

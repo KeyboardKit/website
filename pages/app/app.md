@@ -19,6 +19,6 @@ The app comes with many pre-defined themes from the [KeyboardKit Pro theme engin
 
 Download the app today! Don't hesitate to [reach out]({{site.email}}) with suggestions on how to make it better. 
 
-{% include kankoda/app-store/button.html image-class="plain" %}
+{% include kankoda/apps/app-store-button.html image-class="plain" %}
 
 For information on how the app collects and uses data (it doesn't), you find the privacy policy [here](/app/privacy-policy).
