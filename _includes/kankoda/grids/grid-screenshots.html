@@ -1,9 +1,11 @@
+{%- assign folder = include.folder | fallback: "screenshots" -%}
 {%- assign images = include.images | split: "," -%}
 {% if images.size <= 3 %}
 {%- assign class = "three" -%}
 {% endif %}
 <div class="grid screenshots {{class}}">
   {% for image in images %}
-    <img src="/assets/screenshots/{{image}}.jpg" />
+    <img src="/assets/{{folder}}/{{image}}.jpg" />
   {% endfor %}
 </div>
+
