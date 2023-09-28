@@ -14,7 +14,7 @@ description: Upgrade to KeyboardKit Pro to unlock additional locales and feature
 docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/
 ---
 
-KeyboardKit Pro unlocks additional [locales](/locales), and more features like [autocomplete](/pro/autocomplete), [autocorrect](/pro/autocomplete), [dictation](/pro/dictation), [emoji skintones](/pro/emojis) and [emoji version info](/pro/emojis), a [full document content reader](/pro/full-document-context), a [theme engine](/themes) with many built-in themes, additional views, and much more! 
+KeyboardKit Pro unlocks additional locales, and more features like autocomplete, autocorrect, an emoji skintones, emoji version info, a theme engine, and much more! 
 
 Visit the [project site]({{site.github_url_pro}}) and see the [online documentation]({{page.docs}}) for more information.
 
