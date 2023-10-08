@@ -92,8 +92,7 @@ defaults:
       author: "danielsaidi"
       layout: "post"
 
-include:
-  - .well-known/
+include: [.well-known/]
 
 exclude:
   - Gemfile
