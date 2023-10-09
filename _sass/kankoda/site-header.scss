@@ -6,6 +6,7 @@
 
   .row {
     align-items: center;
+    min-height: 40px;
   }
 
   .logo img {
@@ -32,10 +33,6 @@
   
   .site-header {
       background-color: $site-background;
-      
-      .row {
-        min-height: 40px;
-      }
   }
 
   .site-header + .page-content {
