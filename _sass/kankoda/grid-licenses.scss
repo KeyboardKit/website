@@ -14,7 +14,7 @@
 
     grid-row-gap: 10px;
     grid-column-gap: 5px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
 
     > div.feature { 
       justify-content: left;
@@ -28,7 +28,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      
     }
 
     .gumroad-button {
@@ -42,12 +41,14 @@
     background-color: transparent;
   }
 
-  .table-header {
+  .table-header-container {
     position: sticky; 
     top: 0;
+  }
+
+  .table-header {
     background-color: $content-background;
     padding: 6px 0;
-
 
     > div {
       border-radius: 5px;
@@ -55,7 +56,12 @@
       text-align: center;
     }
 
-    h3+a {
+    h3 {
+      font-size: 1em;
+    }
+
+    h3+p {
+      font-size: 0.9em;
       font-weight: normal;
     }
 
@@ -142,7 +148,7 @@
   .license-table {
 
     .grid {
-      grid-template-columns: repeat(3, 1fr) !important;
+      grid-template-columns: repeat(4, 1fr) !important;
 
       .feature {
         display: none;
