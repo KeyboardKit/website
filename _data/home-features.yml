@@ -6,12 +6,12 @@
 - title: Open-Source
   url:  /open-source
   image: /assets/heros/github.png
-  text: KeyboardKit is open-source and free to use. Join the growing community!
+  text: KeyboardKit is open-source and free to use. Join the community!
 
 - title: KeyboardKit Pro
   url:  /pro
   image: /assets/heros/pro.png
-  text: KeyboardKit Pro adds pro features, like autocomplete, dictation, etc.
+  text: Unlock pro features like autocomplete, dictation, etc.
 
 - title: Features
   url:  /features
@@ -21,12 +21,12 @@
 - title: Themes
   url:  /themes
   image: /assets/heros/themes.png
-  text: KeyboardKit Pro has a theme engine for creating rich, custom designs.
+  text: KeyboardKit Pro has a powerful theme engine for custom designs.
 
 - title: App
   url:  /app
   image: /assets/heros/app.png
-  text: The KeyboardKit app lets you create directly on your iPhone and iPad.
+  text: Use the to you create custom keyboards directly on your device.
 
 
 - title: Locales
