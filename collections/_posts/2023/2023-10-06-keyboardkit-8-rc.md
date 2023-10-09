@@ -9,7 +9,7 @@ release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/8.0-rc1
 release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/8.0-rc1
 ---
 
-KeyboardKit 8 RC 1 is out for public access! This is a massive update with lots of improvements, a bunch of cleanups and restructuring, etc. Let's take a look at what you can expect from it.
+KeyboardKit 8 RC 1 is out! This is a huge update with lots of improvements. Let's take a look at what you can expect.
 
 ![KeyboardKit logo]({{page.image}})
 

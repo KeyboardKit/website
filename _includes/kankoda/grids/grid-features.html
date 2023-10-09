@@ -1,0 +1,17 @@
+<div class="grid features">
+    {% for feature in include.features %}
+    {%- if feature.hidden -%}
+    {%- else -%}
+    <a href="{{ feature.url }}">
+      <div class="image-container">
+        <img src="{{ feature.image }}" alt="{{ feature.title }} icon" title="{{ feature.title }}" />
+      </div>
+      <div>
+        <h3>{{ feature.title }}</h3>
+        <p>{{ feature.text }}</p>
+      </div>
+    </a>
+    {%- endif -%}
+    {% endfor %}
+  </div>
+</section>

@@ -12,29 +12,18 @@ description: Build amazing custom keyboard for iOS and iPadOS
 ---
 
 <div class="home-content paper">
-  <p>
-    The KeyboardKit SDK helps you build custom keyboards that look and behave like native iOS keyboards, or completely different. It has many powerful  <a href="/features">features</a>, supports <a href="/locales">{{site.locale_count}} locales</a> and can be <a href="/themes">styled</a> and <a href="/customization">customized</a> to great extent.
-  </p>
-
-  <p>
-    KeyboardKit is <a href="/open-source">open-source</a> and completely free to use. You can extend it with <a href="/pro">pro features</a> to take things to the next level. Don't hesistate to <a href="mailto:{{site.email}}">reach out</a> if you need help getting started or need help building your keyboard.
-  </p>
+  <section>
+    <p>
+      KeyboardKit helps you build <a href="/about">custom keyboards</a> that look and behave native. Or <a href="/customization">very different</a>.
+    </p>
+    <p>
+      KeyboardKit is <a href="/open-source">open-source</a> and completely free to use. You can extend it with <a href="/pro">pro features</a>.
+    </p>
+  </section>
 
   <section>
     <h2>Explore</h2>
-
-    <div class="grid features">
-      {% for feature in site.data.home-features %}
-      {%- if feature.hidden -%}
-      {%- else -%}
-      <a href="{{ feature.url }}">
-        <img src="{{ feature.image }}" alt="{{ feature.title }} icon" title="{{ feature.title }}" />
-        <h3>{{ feature.title }}</h3>
-        <p>{{ feature.text }}</p>
-      </a>
-      {%- endif -%}
-      {% endfor %}
-    </div>
+    {% include kankoda/grids/grid-features.html features=site.data.home-features %}
   </section>
 
   <section>

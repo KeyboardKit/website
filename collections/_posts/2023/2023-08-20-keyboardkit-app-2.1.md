@@ -8,7 +8,7 @@ image:  /assets/headers/announcement.png
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.8.0
 ---
 
-Version 2.1 of the KeyboardKit app is out! This release adds a bunch of features and improvements to the app, which make it a lot better than the last version.
+A new version of the KeyboardKit app is out! It adds a bunch of new features, such as a new theme and new settings.
 
 ![KeyboardKit logo]({{page.image}})
 

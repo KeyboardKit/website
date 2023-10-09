@@ -9,7 +9,7 @@ hero-title: Pricing
 
 redirect_from: /pro
 
-description: Upgrade to KeyboardKit Pro to unlock additional locales and features that take your keyboard to the next level. 
+description: Upgrade to KeyboardKit Pro to unlock features that take your keyboard to the next level. 
 
 docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/
 ---

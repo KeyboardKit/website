@@ -6,7 +6,7 @@ permalink: /locales
 
 hero: /assets/heros/locales.png
 
-description: KeyboardKit supports 60 locales and lets you create keyboards with localized input keys, callouts, autocomplete etc.
+description: KeyboardKit supports 60 locales and lets you create fully localized keyboards.
 
 docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/localization
 ---
@@ -15,6 +15,6 @@ KeyboardKit comes with support for <b>{{site.locale_count}}</b> keyboard locales
 
 {% include locales/list.html %}
 
-KeyboardKit provides locale-specific information and localized strings for all keyboard locales. For more information, see the [online documentation]({{page.docs}}).
+[KeyboardKit](/open-source) provides locale-specific information (name, flag, unicode information, etc.) and localized strings for all keyboard locales. For more information, see the [online documentation]({{page.docs}}).
 
-If you want to take things to the next level, [KeyboardKit Pro](/pro) adds localized services for all locales and lets you create fully localized keyboards for all locales in your license.
+[KeyboardKit Pro](/pro) adds localized input sets, keyboard layouts and callout actions and lets you create fully localized keyboards for all locales in your license.
