@@ -1,7 +1,7 @@
 - title: Essentials
   url: /features/essentials  
   emoji: ⌨️
-  text: KeyboardKit Pro unlocks system keyboard and theme previews that you can use in apps.
+  text: KeyboardKit Pro unlocks system keyboard and theme previews.
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/essentials
 
 - title: Actions
@@ -55,7 +55,7 @@
 - title: Previews
   url: /features/previews
   emoji: 👁
-  text:  KeyboardKit Pro unlocks powerful system keyboard and theme previews.
+  text:  KeyboardKit Pro unlocks system keyboard and theme previews.
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-previews
   
 - title: Proxy Utilities
@@ -64,14 +64,14 @@
   text:  KeyboardKit Pro makes the proxy able to read all document content.
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-proxy-utilities
 
-- title: Routing
-  url: /features/routing  
-  emoji: 🚏
-  text: KeyboardKit Pro lets you type within the keyboard.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-routing
-
 - title: Styling
   url: /features/styling  
   emoji: 🎨
   text: KeyboardKit Pro unlocks a theme engine with many themes.
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-styling
+
+- title: Text Routing
+  url: /features/text-routing  
+  emoji: 🚏
+  text: KeyboardKit Pro lets you type within the keyboard.
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-routing

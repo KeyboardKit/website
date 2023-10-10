@@ -11,12 +11,12 @@ description: KeyboardKit is open-source and completely free.
 
 KeyboardKit is open-source and completely free. It's hosted at [GitHub]({{site.github_url}}), where you find source code, getting started guides, documentation, demo apps, etc.
 
-The open-source [core engine](/core-engine) contains a rich set of features. You can sign up for [KeyboardKit Pro](/pro) to unlock pro features like locales, autocomplete, emoji power-ups, etc.
+The open-source project contains a rich set of [core features](/core-features). You can sign up for [KeyboardKit Pro](/pro) to unlock pro features like more locales, an emoji keyboard, autocomplete, dictation, etc.
 
 
 ## Locales
 
-KeyboardKit supports **{{site.locale_count}}** locales:
+KeyboardKit supports [{{site.locale_count}} locales](/locales):
 
 {% include locales/flags.html divider=" " %}
 

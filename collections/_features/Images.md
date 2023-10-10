@@ -4,7 +4,7 @@ title: Images
 
 While you can use any native `Image` you like in your custom keyboards, having access to keyboard-specific images simplifies creating custom keyboards that look more native.
 
-KeyboardKit provides a bunch of keyboard-specific `Image` extensions, both SF Symbol and asset-based ones. 
+KeyboardKit provides keyboard-specific `Image` extensions, both SF Symbol and asset-based ones. 
 
 
 
@@ -15,15 +15,10 @@ KeyboardKit has `Image` extensions that resolve to SF Symbols, for instance:
 ```swift
 Image.keyboard
 Image.keyboardBackspace
-Image.keyboardBackspaceRtl
-Image.keyboardCommand
-Image.keyboardControl
-Image.keyboardDictation
 Image.keyboardDismiss
-Image.keyboardEmail
 ```
 
-These images are prefixed with `keyboard`, so typing `Image.keyboard` gives you a list of all available images.
+The images are prefixed with `keyboard`, so typing `Image.keyboard` gives you a list of available images.
 
 
 

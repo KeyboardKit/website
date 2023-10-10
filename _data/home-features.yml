@@ -14,14 +14,14 @@
   text: Unlock pro features like an emoji keyboard, autocomplete, etc.
 
 - title: Features
-  url:  /core-engine
+  url:  /core-features
   image: /assets/heros/features.png
-  text: KeyboardKit supports 61+ locales and has a rich set of features.
+  text: KeyboardKit supports 60+ locales and has a rich set of features.
 
 - title: Themes
   url:  /themes
   image: /assets/heros/themes.png
-  text: KeyboardKit Pro has a powerful theme engine for custom designs.
+  text: KeyboardKit Pro unlocks a theme engine for rich, custom designs.
 
 - title: App
   url:  /app

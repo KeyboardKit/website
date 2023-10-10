@@ -23,14 +23,11 @@ layout: plain
   {%- assign subtitle = feature.text -%}
   {% include kankoda/heros/hero.html hero-emoji=emoji hero-title=title hero-description=subtitle %}
   <div class="wrapper">
-    {{ content }}
+    <article>
+      {{ content }}
 
-    {% if feature.has_pro == 1 %}
-    <h2>👑 Pro Features</h2>
-    {% include features/pro-link.html title=feature.title %}
-    {% endif %}
-
-    <h2>Documentation</h2>
-    <p>The information on this page is shortened to be easier to overview. For more information about this feature, code samples, etc., please see the <a href="{{feature.docs}}">online documentation</a>.</p>
+      <h2>Documentation</h2>
+      <p>The information on this page is shortened to be easier to overview. For more information about this feature, code samples, etc., please see the <a href="{{feature.docs}}">online documentation</a>.</p>
+    </article>
   </div>
 </main>

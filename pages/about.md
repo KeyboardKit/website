@@ -46,14 +46,14 @@ KeyboardKit extends these native tools with a lot more [features](/features) and
 
 KeyboardKit supercharges your keyboard, supports many native keyboard features and gets you up and running in a few minutes, with very little code required. 
 
-KeyboardKit is free and [open-source](/open-source), which means that you have full access to the source code, and that anyone can contribute to make it better.
+KeyboardKit is [open-source](/open-source) and completely free to use, which means that you have full access to the source code, and that anyone can contribute to make it better.
 
 
 ## Is KeyboardKit actually free?
 
-KeyboardKit is [open-source](/open-source) and free to use, but you can of course [sponsor the project]({{page.sponsor}}) if you like it and want to support its ongoing development.
+KeyboardKit *is* [open-source](/open-source) and completely free to use, but you can [sponsor the project]({{page.sponsor}}) if you like it and want to support its ongoing development.
 
-There is also a license-based [KeyboardKit Pro](/pro) extension that unlocks pro features, support for all locales, autocomplete, an emoji keyboard and additional emoji tools (categories, skintones, version information, etc.), dictation, themes etc.
+You can also sign up for [KeyboardKit Pro](/pro) to unlock pro features like more locales, autocomplete, an emoji keyboard, emoji categories, skintones and versions, dictation, themes, and much more.
 
 
 ## Who are we?

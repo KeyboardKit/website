@@ -10,15 +10,15 @@ KeyboardKit adds utilities to make this easier, such as URL extensions and navig
 
 ## System Settings
 
-To make it easy to open your app's System Settings screen in iOS, KeyboardKit provides a custom URL:
+To make it easy to open your app's System Settings screen, KeyboardKit provides a custom URL:
 
 ```swift
 let url = URL.keyboardSettings
 ```
 
-You can use a standard SwiftUI `Link` to open this URL from your app or your keyboard, or the convenient ``KeyboardSettingsLink``.
+You can use a standard `Link` to open this URL from your app or keyboard, or use the convenient ``KeyboardSettingsLink`` component.
 
-> Important: The URL's behavior is a bit inconsistent. It should always link to an app's custom settings in System Settings, but can sometimes just link to the System Settings root instead. The reason for this behavior is unknown. To improve the behavior, just add an empty Settings Bundle to your application bundle. This will make your app more likely to open the correct screen.
+Note that the URL behavior inconsistent. It should always link to an app's custom settings in System Settings, but can sometimes link to the System Settings root instead. To improve the behavior, add an empty Settings Bundle to your app bundle. This makes your app more likely to open the correct url.
 
 
 

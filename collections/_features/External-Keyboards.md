@@ -5,10 +5,9 @@ title: External Keyboards
 [KeyboardKit Pro][Pro] unlocks ways to detect if an external keyboard is connected to the device, including support for the Smart Keyboard Folio, Magic Keyboard, Bluetooth keyboards, etc.
 
 
-[](){:name="pro"}
 ## 👑 Pro features
 
-KeyboardKit has an **ExternalKeyboardContext** that detects whether or not an external keyboard is connected to the device. To use it, just set it up as an observed object:
+KeyboardKit has an `ExternalKeyboardContext` that detects whether or not an external keyboard is connected to the device. To use it, just set it up as an observed object:
 
 ```swift
 struct CustomKeyboardView: View {
@@ -46,4 +45,4 @@ Due to this limitation, it may be better to collapse the keyboard to a compact t
 
 
 
-[Pro]: https://github.com/KeyboardKit/KeyboardKitPro
+[Pro]: /pro
