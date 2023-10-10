@@ -2,88 +2,106 @@
   url: /features/essentials
   emoji: ⌨️
   text: KeyboardKit comes with a bunch of essential features and types.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/essentials
 
 - title: Actions
   url: /features/actions
   emoji: 💥
   text: KeyboardKit has keyboard actions like characters, actions, etc.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-actions
 
 - title: Buttons
   url: /features/buttons
   emoji: 🔤
   text: KeyboardKit can style any view as a keyboard button.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-buttons
 
 - title: Callouts
   url: /features/callouts
   emoji: 🗯
   text: KeyboardKit can show input and secondary callouts.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-callouts
 
 - title: Colors
   url: /features/colors
   emoji: 🌈
   text: KeyboardKit defines a bunch of keyboard-related colors.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-colors
 
 - title: Device Utilities
   url: /features/device-utilities
   emoji: 📱
   text: KeyboardKit has a bunch of device-specific utilities.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-device-utilities
 
 - title: Emojis
   url: /features/emojis
   emoji: 😀
   text: KeyboardKit defines an emoji type with a lot of nice information.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-emojis
 
 - title: Feedback
   url: /features/feedback
   emoji: 🔉
   text: KeyboardKit can trigger audio and haptic feedback.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-feedback
 
 - title: Gestures
   url: /features/gestures
   emoji: 👆
   text: KeyboardKit has rich, keyboard-specific gestures.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-gestures
 
 - title: Images
   url: /features/images
   emoji: 🖼️
   text: KeyboardKit defines a bunch of keyboard-related images.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-images
 
 - title: Layout
   url: /features/layout
   emoji: 🔣
   text: KeyboardKit lets you define dynamic keyboard layouts.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-layout
 
 - title: Localization
   url: /features/localization
   emoji: 🌐
   text: KeyboardKit supports LTR and RTL locales.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-localization
 
 - title: Navigation
   url: /features/navigation
   emoji: 🗺️
   text: KeyboardKit lets you open urls and other apps.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-navigation
 
 - title: Previews
   url: /features/previews
   emoji: 👁
   text: KeyboardKit lets you preview views and components in SwiftUI.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-previews
 
 - title: Proxy Utilities
   url: /features/proxy-utilities
   emoji: ➡️
   text: KeyboardKit makes the text document proxy do a LOT more.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-proxy-utilities
 
 - title: Settings
   url: /features/settings
   emoji: ⚙️
   text: KeyboardKit has a bunch of settings tools.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-settings
 
 - title: State
   url: /features/state
   emoji: 🩺
   text: KeyboardKit detects if a keyboard is enabled, has full access, etc.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-state
 
 - title: Styling
   url: /features/styling
   emoji: 🎨
   text: KeyboardKit lets you style your keyboards to great extent.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-styling
