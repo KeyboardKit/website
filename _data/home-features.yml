@@ -11,10 +11,10 @@
 - title: KeyboardKit Pro
   url:  /pro
   image: /assets/heros/pro.png
-  text: Unlock pro features like emojis, autocomplete, dictation, etc.
+  text: Unlock pro features like an emoji keyboard, autocomplete, etc.
 
 - title: Features
-  url:  /features
+  url:  /core-engine
   image: /assets/heros/features.png
   text: KeyboardKit supports 61+ locales and has a rich set of features.
 

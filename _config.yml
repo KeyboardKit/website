@@ -56,11 +56,6 @@ footer_sitemap:
   - pages/pricing.md
   - pages/app/app.md
   - pages/blog.md
-  - spacer.html
-
-  - pages/locales.md
-  - pages/features.md
-  - pages/themes.md
 
 collections_dir: collections
 

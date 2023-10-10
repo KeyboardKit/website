@@ -2,7 +2,7 @@
 id: locales
 title: Locales
 layout: page
-permalink: /locales
+permalink: /features/locales
 
 hero: /assets/heros/locales.png
 

@@ -60,7 +60,7 @@ Features that stop working due to such platform changes may be removed without r
 
 Local autocomplete uses on-device technologies that may not be available to all locales. Make sure to evaulate the locales you need in the demo or [KeyboardKit app](/app) app before purchasing a license.
 
-Dictation is currently in BETA. It may need more work before it performs well enough to be used in production. Since dictation requires some setup, the demo app doesn't demo this feature. You can test dictation in the [KeyboardKit app](/app).
+Dictation is in BETA and may need more work before it can be used in production. Since it requires some setup, the demo app doesn't demo this feature. You can test dictation in the [KeyboardKit app](/app).
 
 
 ## Refunds

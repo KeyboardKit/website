@@ -12,7 +12,7 @@ hero-title: KeyboardKit is customizable
 description: KeyboardKit keyboards can be customized to great extent.
 ---
 
-KeyboardKit keyboards can be customized to great extent. You can adjust input keys, keyboard layout, change how every individual key looks and behaves and much more.
+KeyboardKit keyboards can be customized to great extent. You can adjust input keys, layout, change how every individual key looks and behaves and much more.
 
 
 ## Appearance

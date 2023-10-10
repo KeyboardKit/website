@@ -5,7 +5,13 @@
   .image-container {
     padding: 15px 0;
     border-radius: 13px;
+    text-align: center;
     background-color: $site-background;
+
+    .emoji {
+      font-size: 5em;
+
+    }
 
     img {
       width: 200px;
