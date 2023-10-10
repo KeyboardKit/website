@@ -1,9 +1,5 @@
 ---
-id: routing
 title: Routing
-layout: page
-permalink: /features/routing
-
 hero: /assets/heros/github.png
 description: KeyboardKit Pro lets you route text to text inputs within the keyboard.
 ---

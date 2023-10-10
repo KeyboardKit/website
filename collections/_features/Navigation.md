@@ -1,9 +1,5 @@
 ---
-id: navigation
 title: Navigation
-layout: page
-permalink: /features/navigation
-
 hero: /assets/heros/github.png
 description: KeyboardKit lets you open urls and other apps.
 ---

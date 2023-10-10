@@ -1,9 +1,5 @@
 ---
-id: device
 title: Device Utilities
-layout: page
-permalink: /features/device
-
 hero: /assets/heros/github.png
 description: KeyboardKit has a bunch of device-specific utilities.
 ---

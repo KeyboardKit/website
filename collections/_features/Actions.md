@@ -1,9 +1,5 @@
 ---
-id: actions
 title: Actions
-layout: page
-permalink: /features/actions
-
 hero: /assets/heros/github.png
 description: KeyboardKit has keyboard actions like characters, actions, etc.
 ---

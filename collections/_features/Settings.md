@@ -1,9 +1,5 @@
 ---
-id: settings
 title: Settings
-layout: page
-permalink: /features/settings
-
 hero: /assets/heros/github.png
 description: KeyboardKit has a bunch of keyboard settings tools.
 ---

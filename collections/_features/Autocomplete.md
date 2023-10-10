@@ -1,9 +1,5 @@
 ---
-id: autocomplete
 title: Autocomplete
-layout: page
-permalink: /features/autocomplete
-
 hero: /assets/heros/github.png
 description: KeyboardKit can perform autocomplete and autocorrect.
 ---

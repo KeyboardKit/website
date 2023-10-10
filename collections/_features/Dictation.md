@@ -1,9 +1,5 @@
 ---
-id: dictation
 title: Dictation (BETA)
-layout: page
-permalink: /features/dictation
-
 hero: /assets/heros/github.png
 description: KeyboardKit Pro unlocks dictation for apps and keyboards.
 ---

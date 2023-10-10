@@ -1,9 +1,5 @@
 ---
-id: previews
 title: Previews
-layout: page
-permalink: /features/previews
-
 hero: /assets/heros/github.png
 description: KeyboardKit lets you preview views and components in SwiftUI.
 ---

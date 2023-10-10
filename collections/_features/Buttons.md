@@ -1,9 +1,5 @@
 ---
-id: buttons
 title: Buttons
-layout: page
-permalink: /features/buttons
-
 hero: /assets/heros/github.png
 description: KeyboardKit can style any view as a keyboard button.
 ---

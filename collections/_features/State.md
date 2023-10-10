@@ -1,9 +1,5 @@
 ---
-id: state
 title: State
-layout: page
-permalink: /features/state
-
 hero: /assets/heros/github.png
 description: KeyboardKit detects if a keyboard is enabled, has full access, etc.
 ---

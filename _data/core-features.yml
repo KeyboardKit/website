@@ -24,7 +24,7 @@
   text: KeyboardKit defines a bunch of keyboard-related colors.
 
 - title: Device
-  url: /features/device
+  url: /features/device-utilities
   emoji: 📱
   text: KeyboardKit has a bunch of device-specific utilities.
 
@@ -69,7 +69,7 @@
   text: KeyboardKit lets you preview views and components in SwiftUI.
 
 - title: Proxy Utilities
-  url: /features/proxy
+  url: /features/proxy-utilities
   emoji: ➡️
   text: KeyboardKit makes the text document proxy do a LOT more.
 

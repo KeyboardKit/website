@@ -1,9 +1,5 @@
 ---
-id: emojis
 title: Emojis
-layout: page
-permalink: /features/emojis
-
 hero: /assets/heros/github.png
 description: KeyboardKit defines an emoji type with a lot of nice information.
 ---

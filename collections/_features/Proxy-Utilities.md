@@ -1,9 +1,5 @@
 ---
-id: proxy
 title: Proxy Utilities
-layout: page
-permalink: /features/proxy
-
 hero: /assets/heros/github.png
 description: KeyboardKit lets you preview views and components in SwiftUI.
 ---

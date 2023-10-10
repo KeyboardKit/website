@@ -1,9 +1,5 @@
 ---
-id: gestures
 title: Gestures
-layout: page
-permalink: /features/gestures
-
 hero: /assets/heros/github.png
 description: KeyboardKit has rich, keyboard-specific gestures.
 ---

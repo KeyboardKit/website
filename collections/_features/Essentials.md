@@ -1,9 +1,5 @@
 ---
-id: essentials
 title: Essentials
-layout: page
-permalink: /features/essentials
-
 hero: /assets/heros/github.png
 description: KeyboardKit comes with a bunch of essential features and types.
 ---

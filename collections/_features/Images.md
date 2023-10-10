@@ -1,9 +1,5 @@
 ---
-id: images
 title: Images
-layout: page
-permalink: /features/images
-
 hero: /assets/heros/github.png
 description: KeyboardKit defines a bunch of keyboard-related images.
 ---

@@ -39,7 +39,7 @@ If you have great language tools, a superb autocomplete engine or just want to s
 
 When building a custom keyboard, the native tools are very limited, and basically only lets you set up a custom view, get text from and send text to the focused text field, and move the input cursor.
 
-KeyboardKit extends these native tools with a lot more [features](/features) and lets you create customizable keyboards that supports [{{site.locale_count}} locales](/locales) with just a few lines of code.
+KeyboardKit extends these native tools with a lot more [features](/features) and lets you create customizable keyboards that supports [{{site.locale_count}} locales](/features/locales) with just a few lines of code.
 
 
 ## Why is KeyboardKit great?

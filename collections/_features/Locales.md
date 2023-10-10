@@ -1,11 +1,6 @@
 ---
-id: locales
 title: Locales
-layout: page
-permalink: /features/locales
-
 hero: /assets/heros/locales.png
-
 description: KeyboardKit supports 60 locales and lets you create fully localized keyboards.
 
 docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/localization

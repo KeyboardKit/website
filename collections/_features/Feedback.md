@@ -1,9 +1,5 @@
 ---
-id: feedback
 title: Feedback
-layout: page
-permalink: /features/feedback
-
 hero: /assets/heros/github.png
 description: KeyboardKit can trigger audio and haptic feedback.
 ---

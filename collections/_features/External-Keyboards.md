@@ -1,9 +1,5 @@
 ---
-id: external-keyboards
 title: External Keyboards
-layout: page
-permalink: /pro/features/external-keyboards
-
 hero: /assets/heros/github.png
 description: KeyboardKit defines an emoji type with a lot of nice information.
 ---

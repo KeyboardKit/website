@@ -58,8 +58,10 @@ footer_sitemap:
   - pages/blog.md
 
 collections_dir: collections
-
 collections:
+  features:
+    output: true
+    permalink: /features/:name/
   posts:
     output: true
     permalink: /blog/:categories/:year/:month/:day/:title
@@ -83,6 +85,12 @@ defaults:
       type: "pages"
     values:
       hero: ""
+      layout: "page"
+  -
+    scope:
+      type: "features"
+    values:
+      layout: "page"
   -
     scope:
       type: "posts"

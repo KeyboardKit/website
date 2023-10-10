@@ -1,13 +1,8 @@
 ---
-id: callouts
 title: Callouts
-layout: page
-permalink: /features/callouts
-
 hero: /assets/heros/github.png
 description: KeyboardKit can show input and secondary callouts.
 ---
-
 
 Callouts are an important part of the typing experience, where input callouts highlight the currently pressed key and action callouts present secondary keyboard actions.
 

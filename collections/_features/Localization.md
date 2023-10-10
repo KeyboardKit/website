@@ -1,9 +1,5 @@
 ---
-id: localization
 title: Localization
-layout: page
-permalink: /features/localization
-
 hero: /assets/heros/github.png
 description: KeyboardKit supports LTR and RTL locales.
 ---

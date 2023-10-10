@@ -1,9 +1,5 @@
 ---
-id: styling
 title: Styling
-layout: page
-permalink: /features/styling
-
 hero: /assets/heros/github.png
 description: KeyboardKit lets you style your keyboards to great extent.
 ---
