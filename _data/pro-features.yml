@@ -1,7 +1,7 @@
 - title: Essentials
   url: /features/essentials  
   emoji: ⌨️
-  text: KeyboardKit Pro adds a bunch of system keyboard previews.
+  text: KeyboardKit Pro unlocks system keyboard and theme previews that you can use in apps.
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/essentials
 
 - title: Actions
@@ -58,7 +58,7 @@
   text:  KeyboardKit Pro unlocks powerful system keyboard and theme previews.
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-previews
   
-- title: Proxy
+- title: Proxy Utilities
   url: /features/proxy-utilities
   emoji: ➡️
   text:  KeyboardKit Pro makes the proxy able to read all document content.

@@ -3,12 +3,14 @@
   emoji: ⌨️
   text: KeyboardKit comes with a bunch of essential features and types.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/essentials
+  has_pro: 1
 
 - title: Actions
   url: /features/actions
   emoji: 💥
   text: KeyboardKit has keyboard actions like characters, actions, etc.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-actions
+  has_pro: 1
 
 - title: Buttons
   url: /features/buttons
@@ -21,6 +23,7 @@
   emoji: 🗯
   text: KeyboardKit can show input and secondary callouts.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-callouts
+  has_pro: 1
 
 - title: Colors
   url: /features/colors
@@ -39,6 +42,7 @@
   emoji: 😀
   text: KeyboardKit defines an emoji type with a lot of nice information.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-emojis
+  has_pro: 1
 
 - title: Feedback
   url: /features/feedback
@@ -63,12 +67,14 @@
   emoji: 🔣
   text: KeyboardKit lets you define dynamic keyboard layouts.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-layout
+  has_pro: 1
 
 - title: Localization
   url: /features/localization
   emoji: 🌐
-  text: KeyboardKit supports LTR and RTL locales.
+  text: KeyboardKit supports 60+ locales.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-localization
+  has_pro: 1
 
 - title: Navigation
   url: /features/navigation
@@ -81,12 +87,14 @@
   emoji: 👁
   text: KeyboardKit lets you preview views and components in SwiftUI.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-previews
+  has_pro: 1
 
 - title: Proxy Utilities
   url: /features/proxy-utilities
   emoji: ➡️
   text: KeyboardKit makes the text document proxy do a LOT more.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-proxy-utilities
+  has_pro: 1
 
 - title: Settings
   url: /features/settings
@@ -105,3 +113,4 @@
   emoji: 🎨
   text: KeyboardKit lets you style your keyboards to great extent.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-styling
+  has_pro: 1
