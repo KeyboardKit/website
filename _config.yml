@@ -62,9 +62,6 @@ collections:
   features:
     output: true
     permalink: /features/:name/
-  pro_features:
-    output: true
-    permalink: /features/:name/pro
   posts:
     output: true
     permalink: /blog/:categories/:year/:month/:day/:title
@@ -94,12 +91,6 @@ defaults:
       type: "features"
     values:
       layout: "feature"
-  -
-    scope:
-      type: "pro_features"
-    values:
-      layout: "feature"
-      pro: 1
   -
     scope:
       type: "posts"

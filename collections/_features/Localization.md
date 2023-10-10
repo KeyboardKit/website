@@ -4,17 +4,29 @@ title: Localization
 
 A flexible localization engine is an important part of a software keyboard, which should cater to the needs of the locales it supports.
 
-In KeyboardKit, ``KeyboardLocale`` defines keyboard locales, where each locale refers to a native `Locale` and has localized strings and assets. KeyboardKit also extends `Locale` with a bunch of capabilities.
+In KeyboardKit, the ``KeyboardLocale`` enum defines keyboard locales, where each locale refers to a native `Locale` and has localized strings and assets. KeyboardKit also extends `Locale` with a bunch of additional capabilities.
 
-[KeyboardKit Pro][Pro] unlocks localized services for all the locales in your license. Information about Pro features can be found at the end of this article.
+[KeyboardKit Pro][Pro] unlocks localized services for all the locales in your license when you register a valid license key. Information about Pro features can be found at the end of this article.
 
 
 
 ## Supported locales
 
-KeyboardKit supports **{{site.locale_count}}** keyboard-specific ``KeyboardLocale``s:
+KeyboardKit supports 61 keyboard-specific ``KeyboardLocale``s:
 
-{% include locales/list.html %}
+🇦🇱 🇦🇪 🇦🇲 🇧🇾 🇧🇬 🇦🇩 🏳️ 🇭🇷 🇨🇿 🇩🇰 <br />
+
+🇳🇱 🇧🇪 🇺🇸 🇬🇧 🇺🇸 🇪🇪 🇫🇴 🇵🇭 🇫🇮 🇫🇷 <br />
+
+🇧🇪 🇨🇭 🇬🇪 🇩🇪 🇦🇹 🇨🇭 🇬🇷 🇺🇸 🇮🇱 🇭🇺 <br />
+
+🇮🇸 🇮🇩 🇮🇪 🇮🇹 🇰🇿 🇹🇯 🇹🇯 🇹🇯 🇱🇻 🇱🇹 <br />
+
+🇲🇰 🇲🇾 🇲🇹 🇲🇳 🇳🇴 🇮🇷 🇵🇱 🇵🇹 🇧🇷 🇷🇴 <br />
+
+🇷🇺 🇷🇸 🇷🇸 🇸🇰 🇸🇮 🇪🇸 🇰🇪 🇸🇪 🇹🇷 🇺🇦 <br />
+
+🇺🇿 <br />
 
 Each keyboard locale refers to a native Locale and has additional keyboard-specific information, as well as localized assets and strings that can be translated with the ``KKL10n`` enum.
 
@@ -53,16 +65,20 @@ KeyboardLocale.swedish.flag             // 🇸🇪
 KeyboardKit lets you get and use the localized names of a locale:
 
 ```swift
-let english = KeyboardLocale.english.locale
-let swedish = KeyboardLocale.swedish.locale
+let english = KeyboardLocale.english
+let swedish = KeyboardLocale.swedish
 
-english.localizedName
-swedish.localizedName(in: english)
-swedish.localizedName(in: swedish)
+english.locale.localizedName     // English (United States)
+swedish.locale.localizedName(
+    in: english.locale)          // Swedish (Sweden)
+swedish.locale.localizedName(
+    in: swedish.locale)          // Svenska (Sverige)
 
-english.localizedLanguageName
-swedish.localizedLanguageName(in: english)
-swedish.localizedLanguageName(in: swedish)
+english.locale.localizedLanguageName    // English
+swedish.locale.localizedLanguageName(
+    in: english.locale)                 // Swedish (Sweden)
+swedish.locale.localizedLanguageName(
+    in: swedish.locale)                 // Svenska (Sverige)
 ```
 
 ### Sorting
@@ -73,17 +89,17 @@ KeyboardKit also provide convenient Locale collection sorted extensions.
 
 ## How to get the current keyboard locale 
 
-You can get the current locale and all available locales from a ``KeyboardContext`` with the two ``.locale`` and ``.locales`` properties.
+You can get the current locale and all available locales from a ``KeyboardContext`` with the two ``KeyboardContext/locale`` and ``KeyboardContext/locales`` properties.
 
-These properties return raw Locales, since a keyboard extension is not limited to the ``KeyboardLocale`` model. The context also has ``KeyboardLocale``-specific functions, but they return optional locales.
+Note that these properties return raw Locale values, since a keyboard extension is not limited to the ``KeyboardLocale`` model. The context also has ``KeyboardLocale``-specific functions, but they return optional locales.
 
 
 
 ## How to change keyboard locale 
 
-You can change the keyboard locale for a ``KeyboardContext`` by setting ``.locale`` to a new locale, or use the convenience functions that support both Locale and ``KeyboardLocale``.
+You can change the keyboard locale for a ``KeyboardContext`` by setting ``KeyboardContext/locale`` to a new locale, or use the convenience functions that support both Locale and ``KeyboardLocale``.
 
-If the context's ``.locales`` has multiple values, you can switch locale using ``.selectNextLocale()`` or use a ``LocaleContextMenu`` to let the user select a locale.
+If the context's ``KeyboardContext/locales`` has multiple values, you can switch locale using ``KeyboardContext/selectNextLocale()`` or a ``LocaleContextMenu``.
 
 Setting the locale will update the controller's **primaryLanguage**, which controls things like spellchecking and text direction. It will also set the display name in the system keyboard switcher.
 
@@ -122,7 +138,7 @@ To translate the same text for a certain ``KeyboardLocale`` or `Locale`, you can
 let translation = KKL10n.keyboardTypeNumeric.text(for: .spanish)
 ```
 
-Besides localized strings, You can get a flag for a locale, using the ``.flag`` property. You can also use ``KeyboardContext`` ``.localePresentationLocale`` to set how locales are displayed.
+Besides localized strings, You can get a flag for a locale, using the ``KeyboardLocale/flag`` property. You can also use ``KeyboardContext`` ``KeyboardContext/localePresentationLocale`` to set how locales are displayed.
 
 
 
@@ -162,9 +178,10 @@ Emojis can be localized as well, but that is a massive undertaking. Have a look 
 
 
 
+[](){:name="pro"}
 ## 👑 Pro features
 
-[KeyboardKit Pro][Pro] unlocks additional localization capabilities.
+[KeyboardKit Pro][Pro] unlocks additional localization capabilities when you register a valid license key.
 
 KeyboardKit Pro unlocks localized ``InputSet``s, ``KeyboardLayoutProvider``s and ``CalloutActionProvider``s for each ``KeyboardLocale`` that the license contains.
 
@@ -172,4 +189,4 @@ This means that KeyboardKit Pro can create fully localized ``SystemKeyboard`` fo
 
 
 
-[Pro]: /pro
+[Pro]: https://github.com/KeyboardKit/KeyboardKitPro

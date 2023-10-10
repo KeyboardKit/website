@@ -2,11 +2,11 @@
 title: Proxy Utilities
 ---
 
-iOS keyboard extensions use the native `UITextDocumentProxy` to integrate with the currently active application. It lets you insert and delete text, get the selected text, move the input cursor, etc.
+iOS keyboard extensions use the native **UITextDocumentProxy** to integrate with the currently active application. It lets you insert and delete text, get the selected text, move the input cursor, etc.
 
 The native proxy APIs are however quite limited, which makes it hard to get detailed information and perform many standard keyboard operations. For instance, you have to manually write code to get the current word, understand where the cursor is, etc.
 
-KeyboardKit adds a bunch of proxy extension to make things easier. ``KeyboardInputViewController`` also has a custom ``.textDocumentProxy`` property that lets you do more than with the native proxy. 
+KeyboardKit adds a bunch of **UITextDocumentProxy** extension to make things easier. ``KeyboardInputViewController`` also has a custom ``KeyboardInputViewController/textDocumentProxy`` property that lets you do more than with the native proxy. 
 
 [KeyboardKit Pro][Pro] adds even more proxy capabilities, such as the ability to read the full document context. Information about Pro features can be found at the end of this article. 
 
@@ -24,7 +24,7 @@ The namespace doesn't contain protocols, open classes or types that are meant to
 
 ## Extensions
 
-Since `UITextDocumentProxy` extensions are not included in the generated documentation, here is a list of extensions that you get access to by simply importing KeyboardKit into your project:
+Since **UITextDocumentProxy** extensions are not included in the generated documentation, here is a list of extensions that you get access to by simply importing KeyboardKit into your project:
 
 
 ### Autocomplete
@@ -73,20 +73,21 @@ Since `UITextDocumentProxy` extensions are not included in the generated documen
 
 
 
+[](){:name="pro"}
 ## 👑 Pro features
 
-[KeyboardKit Pro][Pro] unlocks additional text document proxy capabilities.
+[KeyboardKit Pro][Pro] unlocks additional text document proxy capabilities when you register a valid license.
 
 The Silver and Gold licenses provide ways to read the full document context from the text document proxy, instead of the limited text amount you can read by default.
 
 
 ### How to read the full document context
 
-As you may have noticed, the proxy's `.documentContextBeforeInput` and `.documentContextAfterInput` properties don't return all text before and after the input cursor. Any new paragraph may at any time stop the proxy from reading more content.
+As you may have noticed, the proxy's **documentContextBeforeInput** and **documentContextAfterInput** properties don't return all text before and after the input cursor. Any new paragraph may at any time stop the proxy from reading more content.
 
 This makes it hard to perform more complex operations, such as proof-reading a document, provide AI-based functionality, etc.
 
-KeyboardKit Pro therefore unlocks additional `UITextDocumentProxy` extensions to let you read all text from the text document proxy:
+KeyboardKit Pro therefore unlocks additional **UITextDocumentProxy** extensions to let you read all text from the text document proxy:
 
 - fullDocumentContext(_:)
 - fullDocumentContextBeforeInput(_:)
@@ -131,4 +132,4 @@ struct KeyboardView: View {
 ```
 
 
-[Pro]: /pro
+[Pro]: https://github.com/KeyboardKit/KeyboardKitPro

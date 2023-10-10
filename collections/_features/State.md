@@ -2,9 +2,7 @@
 title: State
 ---
 
-KeyboardKit has ways to check if a keyboard is enabled in System Settings, if Full Access is granted and if the keyboard is currently being used. 
-
-This can be used to make your main app help users setup their keyboard properly. 
+KeyboardKit has ways to check if a keyboard is enabled in System Settings, if Full Access is granted and if the keyboard is currently being used. This can be used to make the main app help users setup their keyboard properly. 
 
 
 ## Keyboard state
@@ -27,7 +25,7 @@ struct MyView: View {
 } 
 ```
 
-The context supports wildcards, which means that it can be used to inspect multiple keyboards:
+The context supports bundle id wildcards, which means that it can be used to inspect multiple keyboards:
 
 ```
 @StateObject

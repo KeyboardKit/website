@@ -17,4 +17,4 @@ KeyboardKit Pro requires a [pro license](/pricing) to be used. Visit the [projec
 
 ## Features
 
-{% include kankoda/grids/grid-features.html features=site.data.pro-features %}
+{% include kankoda/grids/grid-features.html features=site.data.pro-features anchor="#pro" %}

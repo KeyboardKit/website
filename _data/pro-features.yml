@@ -35,7 +35,7 @@
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-emojis
 
 - title: External Keyboards
-  url: /features/external  
+  url: /features/external-keyboards
   emoji: ⌨️
   text:  KeyboardKit Pro can detect if an external keyboard is connected. 
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-external-keyboards
@@ -54,7 +54,7 @@
 
 - title: Previews
   url: /features/previews
-  emoji: ➡️
+  emoji: 👁
   text:  KeyboardKit Pro unlocks powerful system keyboard and theme previews.
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-previews
   

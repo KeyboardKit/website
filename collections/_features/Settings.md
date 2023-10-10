@@ -2,13 +2,15 @@
 title: Settings
 ---
 
-Keyboard apps need to navigate users to System Settings to enable the keyboard, allow full access etc. KeyboardKit adds utilities to make this easier, such as URL extensions and navigation links.
+All keyboard apps need to navigate the user to System Settings to enable the keyboard extension, enable full access etc.
+
+KeyboardKit adds utilities to make this easier, such as URL extensions and navigation links.
 
 
 
 ## System Settings
 
-KeyboardKit provides a custom URL to make it easy to open your app's System Settings screen:
+To make it easy to open your app's System Settings screen in iOS, KeyboardKit provides a custom URL:
 
 ```swift
 let url = URL.keyboardSettings
@@ -16,7 +18,7 @@ let url = URL.keyboardSettings
 
 You can use a standard SwiftUI `Link` to open this URL from your app or your keyboard, or the convenient ``KeyboardSettingsLink``.
 
-The URL's behavior is a bit inconsistent. It should always link to an app's custom settings in System Settings, but can sometimes just link to the System Settings root instead. The reason for this behavior is unknown. To improve the behavior, just add an empty Settings Bundle to your application bundle. This will make your app more likely to open the correct screen.
+> Important: The URL's behavior is a bit inconsistent. It should always link to an app's custom settings in System Settings, but can sometimes just link to the System Settings root instead. The reason for this behavior is unknown. To improve the behavior, just add an empty Settings Bundle to your application bundle. This will make your app more likely to open the correct screen.
 
 
 

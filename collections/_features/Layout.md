@@ -5,11 +5,11 @@ title: Layout
 
 A flexible keyboard layout is an important part of a software keyboard, where many factors like device, screen orientation, locale, etc. can all affect the layout.
 
-In KeyboardKit, ``InputSet``s and ``KeyboardLayout``s are important concepts of flexible keyboard layouts, where an input set specifies the input keys and the keyboard layout specifies the full set of keys.
+In KeyboardKit, ``InputSet``s and ``KeyboardLayout``s are important concepts to create a flexible keyboard layout, where the input set specifies the input keys of the keyboard and the keyboard layout specifies the full set of keys.
 
-KeyboardKit will bind a ``StandardKeyboardLayoutProvider`` to ``.services`` when the keyboard is loaded. It has a QWERTY layout by default, but you can inject localized providers into it or modify or replace it.
+KeyboardKit will bind a ``StandardKeyboardLayoutProvider`` to ``KeyboardInputViewController/services`` when the keyboard is loaded. It has a QWERTY layout by default, but you can inject localized providers into it or modify it, or replace it, at any time.
 
-[KeyboardKit Pro][Pro] unlocks and registers localized providers for all keyboard locales. It also lets you inherit `ProKeyboardLayoutProvider` for more features. Information about Pro features can be found at the end of this article.
+[KeyboardKit Pro][Pro] unlocks and registers localized providers for all keyboard locales when you register a valid license key. It also lets you inherit **ProKeyboardLayoutProvider** for more features. Information about Pro features can be found at the end of this article.
 
 
 
@@ -17,7 +17,7 @@ KeyboardKit will bind a ``StandardKeyboardLayoutProvider`` to ``.services`` when
 
 An ``InputSet`` set specifies the input keys of a keyboard.
 
-KeyboardKit has some input sets, like ``.qwerty``, ``.standardNumeric(...)`` and ``.standardSymbolic(...)``. You can also create your own custom input sets.
+KeyboardKit has some input sets, like ``InputSet/qwerty``, ``InputSet/standardNumeric(currency:)`` and ``InputSet/standardSymbolic(currencies:)``. You can also create your own custom input sets.
 
 
 
@@ -35,7 +35,7 @@ This is however not true for all locales. For instance, Armenian has 4 input row
 
 In KeyboardKit, a ``KeyboardLayoutProvider`` can be used to create a dynamic layout based on many different factors, such as the current device type, orientation, locale, etc. 
 
-You can customize keyboard layouts by adding localized providers to ``StandardKeyboardLayoutProvider``, or by replacing ``.keyboardLayoutProvider`` with a custom ``KeyboardLayoutProvider``.
+You can customize the keyboard layout by adding localized providers to the default ``StandardKeyboardLayoutProvider``, or by replacing ``KeyboardInputViewController/keyboardLayoutProvider`` with a custom ``KeyboardLayoutProvider``.
 
 
 
@@ -65,7 +65,7 @@ class CustomKeyboardLayoutProvider: StandardKeyboardLayoutProvider {
 }
 ```
 
-To use this provider instead of the standard one, just set the ``.services`` provider to this custom one:
+To use this provider instead of the standard one, just set the ``KeyboardInputViewController/services`` provider to this custom provider:
 
 ```swift
 class KeyboardViewController: KeyboardInputViewController {
@@ -81,14 +81,8 @@ This will make KeyboardKit use your custom implementation instead of the standar
 
 
 
+[](){:name="pro"}
 ## 👑 Pro features
-
-igehwiughewhg guawiw
-gewa
-g
-ewg
-awe
-e
 
 [KeyboardKit Pro][Pro] unlocks additional ``InputSet``s, as well as localized ``InputSet``s and ``KeyboardLayoutProvider``s for all localess in your license when you register a valid license key, then injects all providers into the ``StandardCalloutActionProvider``.
 
@@ -153,4 +147,4 @@ func setupCustomServices(with license: License) {
 You can add a custom initializer to your custom provider if you need additional setup, then just call `super.init` to setup the rest.
 
 
-[Pro]: /pro   
+[Pro]: https://github.com/KeyboardKit/KeyboardKitPro   

@@ -12,6 +12,13 @@
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-actions
   has_pro: 1
 
+- title: Autocomplete
+  url: /features/autocomplete
+  emoji: 💡
+  text: KeyboardKit can perform autocomplete and autocorrect.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-autocomplete
+  has_pro: 1
+
 - title: Buttons
   url: /features/buttons
   emoji: 🔤
@@ -36,6 +43,13 @@
   emoji: 📱
   text: KeyboardKit has a bunch of device-specific utilities.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-device-utilities
+
+- title: Dictation (BETA)
+  url: /features/dictation
+  emoji: 🎤
+  text: KeyboardKit can perform dictation from the keyboard.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-dictation
+  has_pro: 1
 
 - title: Emojis
   url: /features/emojis

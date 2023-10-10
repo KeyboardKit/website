@@ -2,13 +2,16 @@
 layout: plain
 ---
 
-{% if page.pro == 1 %}
-{%- assign features = site.data.pro-features -%}
-{% else %}
 {%- assign features = site.data.core-features -%}
-{% endif %}
+{%- assign pro-features = site.data.pro-features -%}
 
 {%- assign feature = features | where:"title", page.title | first -%}
+{% if feature %}
+{% else %}
+{%- assign feature = pro-features | where:"title", page.title | first -%}
+{% endif %}
+
+
 
 <main class="page-content feature" aria-label="Content">
   {%- assign emoji = feature.emoji -%}
