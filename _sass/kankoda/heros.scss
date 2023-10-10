@@ -3,9 +3,7 @@ h1 {
 }
 
 .hero {
-  background: 
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.03)),
-    $site-background;
+  background: $site-background;
   background-size: $texture-size;
   margin-top: -100px;
   padding-top: 30px;
@@ -18,6 +16,12 @@ h1 {
   p { 
     font-size: 1.1em;
     font-weight: 600 !important;
+  }
+
+  .emoji {
+    font-size: 10em;
+    border-radius: 15px;
+    line-height: 1.4em;
   }
 }
 

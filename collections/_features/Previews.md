@@ -1,7 +1,5 @@
 ---
 title: Previews
-hero: /assets/heros/github.png
-description: KeyboardKit lets you preview views and components in SwiftUI.
 ---
 
 Interactive SwiftUI previews are a great way to work on your project in Xcode without having to launch an app all the time. Just update your views and models, and the live preview will update.

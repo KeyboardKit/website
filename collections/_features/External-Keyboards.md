@@ -1,7 +1,5 @@
 ---
 title: External Keyboards
-hero: /assets/heros/github.png
-description: KeyboardKit defines an emoji type with a lot of nice information.
 ---
 
 [KeyboardKit Pro][Pro] unlocks ways to detect if an external keyboard is connected to the device, including support for the Smart Keyboard Folio, Magic Keyboard, Bluetooth keyboards, etc.

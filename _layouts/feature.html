@@ -1,0 +1,16 @@
+---
+layout: plain
+---
+
+{%- assign features = site.data.core-features -%}
+{%- assign feature = features | where:"title", page.title | first -%}
+
+<main class="page-content feature" aria-label="Content">
+  {%- assign emoji = feature.emoji -%}
+  {%- assign title = feature.title -%}
+  {%- assign subtitle = feature.text -%}
+  {% include kankoda/heros/hero.html hero-emoji=emoji hero-title=title hero-description=subtitle %}
+  <div class="wrapper">
+    {{ content }}
+  </div>
+</main>

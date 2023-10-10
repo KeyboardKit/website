@@ -1,7 +1,5 @@
 ---
 title: Navigation
-hero: /assets/heros/github.png
-description: KeyboardKit lets you open urls and other apps.
 ---
 
 Keyboards sometimes have to open urls, trigger deeplinks or navigate from the keyboard to the main app. This is however hard, since keyboard extensions can't use `UIApplication.main`.

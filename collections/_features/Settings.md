@@ -1,7 +1,5 @@
 ---
 title: Settings
-hero: /assets/heros/github.png
-description: KeyboardKit has a bunch of keyboard settings tools.
 ---
 
 Keyboard apps need to navigate users to System Settings to enable the keyboard, allow full access etc. KeyboardKit adds utilities to make this easier, such as URL extensions and navigation links.

@@ -1,7 +1,5 @@
 ---
 title: Layout
-hero: /assets/heros/github.png
-description: KeyboardKit lets you define dynamic keyboard layouts.
 ---
 
 

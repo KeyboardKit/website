@@ -1,7 +1,5 @@
 ---
 title: Images
-hero: /assets/heros/github.png
-description: KeyboardKit defines a bunch of keyboard-related images.
 ---
 
 While you can use any native `Image` you like in your custom keyboards, having access to keyboard-specific images simplifies creating custom keyboards that look more native.

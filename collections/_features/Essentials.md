@@ -1,7 +1,5 @@
 ---
 title: Essentials
-hero: /assets/heros/github.png
-description: KeyboardKit comes with a bunch of essential features and types.
 ---
 
 As you may have noticed, Apple provides a very limited API to custom keyboard extensions. You have to implement much functionality from scratch, including the keyboard view itself.

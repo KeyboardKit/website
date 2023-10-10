@@ -1,7 +1,5 @@
 ---
 title: Styling
-hero: /assets/heros/github.png
-description: KeyboardKit lets you style your keyboards to great extent.
 ---
 
 While native iOS keyboards provide very little ways of customizing the look and feel of the keyboard, KeyboardKit-based keyboards can be styled and customized to great extent.

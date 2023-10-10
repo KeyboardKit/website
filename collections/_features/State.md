@@ -1,7 +1,5 @@
 ---
 title: State
-hero: /assets/heros/github.png
-description: KeyboardKit detects if a keyboard is enabled, has full access, etc.
 ---
 
 KeyboardKit has ways to check if a keyboard is enabled in System Settings, if Full Access is granted and if the keyboard is currently being used. 

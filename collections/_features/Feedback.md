@@ -1,7 +1,5 @@
 ---
 title: Feedback
-hero: /assets/heros/github.png
-description: KeyboardKit can trigger audio and haptic feedback.
 ---
 
 Feedback is an important part of the typing experience, where the keyboard can play audio and trigger haptic feedback to indicate that the user has tapped a key or performed an action.

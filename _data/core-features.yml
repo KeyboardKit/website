@@ -23,7 +23,7 @@
   emoji: 🌈
   text: KeyboardKit defines a bunch of keyboard-related colors.
 
-- title: Device
+- title: Device Utilities
   url: /features/device-utilities
   emoji: 📱
   text: KeyboardKit has a bunch of device-specific utilities.

@@ -1,7 +1,5 @@
 ---
 title: Localization
-hero: /assets/heros/github.png
-description: KeyboardKit supports LTR and RTL locales.
 ---
 
 A flexible localization engine is an important part of a software keyboard, which should cater to the needs of the locales it supports.

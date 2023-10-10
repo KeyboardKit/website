@@ -1,9 +1,6 @@
 ---
 title: Actions
-hero: /assets/heros/github.png
-description: KeyboardKit has keyboard actions like characters, actions, etc.
 ---
-
 
 In KeyboardKit, ``KeyboardAction`` defines keyboard-specific actions that can be bound to buttons and handled with a ``KeyboardActionHandler``, which can be used to handle actions, trigger feedback, etc.
 

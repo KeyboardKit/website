@@ -1,7 +1,5 @@
 ---
 title: Autocomplete
-hero: /assets/heros/github.png
-description: KeyboardKit can perform autocomplete and autocorrect.
 ---
 
 Autocomplete is an important part of the typing experience, where autocomplete suggestions are shown as the current text changes.

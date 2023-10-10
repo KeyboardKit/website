@@ -1,7 +1,5 @@
 ---
 title: Proxy Utilities
-hero: /assets/heros/github.png
-description: KeyboardKit lets you preview views and components in SwiftUI.
 ---
 
 iOS keyboard extensions use the native `UITextDocumentProxy` to integrate with the currently active application. It lets you insert and delete text, get the selected text, move the input cursor, etc.

@@ -1,7 +1,5 @@
 ---
 title: Device Utilities
-hero: /assets/heros/github.png
-description: KeyboardKit has a bunch of device-specific utilities.
 ---
 
 KeyboardKit has platform-agnostic device functionality that aims to help you use device information to customize your keyboards.

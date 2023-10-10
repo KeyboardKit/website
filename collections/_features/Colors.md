@@ -1,7 +1,5 @@
 ---
 title: Colors
-hero: /assets/heros/github.png
-description: KeyboardKit defines a bunch of keyboard-related colors.
 ---
 
 While you can use any native `Color` you like in your custom keyboards, having access to keyboard-specific colors simplifies creating custom keyboards that look more native.

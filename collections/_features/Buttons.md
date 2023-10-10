@@ -1,9 +1,6 @@
 ---
 title: Buttons
-hero: /assets/heros/github.png
-description: KeyboardKit can style any view as a keyboard button.
 ---
-
 
 KeyboardKit has a few general buttons that can be used to mimic native keyboard buttons. It doesn't require you to use the views and buttons in the library, but it can help speed up development.
 

@@ -90,7 +90,7 @@ defaults:
     scope:
       type: "features"
     values:
-      layout: "page"
+      layout: "feature"
   -
     scope:
       type: "posts"

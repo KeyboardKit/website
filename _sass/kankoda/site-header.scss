@@ -28,14 +28,3 @@
     text-align: right;
   }
 }
-
-.layout-no-hero {
-  
-  .site-header {
-      background-color: $site-background;
-  }
-
-  .site-header + .page-content {
-      padding-top: 30px;
-  }
-}

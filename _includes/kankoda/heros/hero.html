@@ -1,11 +1,18 @@
 {% assign hero_size = include.hero | size %}
-{% if hero_size > 0 %}
+{% assign emoji_size = include.hero-emoji | size %}
+{% if hero_size > 0 or emoji_size > 0 %}
 <section>
-    <div class="hero {{ page.id }}">
+    <div class="hero">
         <div class="wrapper">
             <h1>{{include.hero-title | default: page.title}}</h1>
             <p>{{include.hero-description | default: page.description}}</p>
-            <img src="{{include.hero}}" alt="Page hero image for {{page.id}} page" class="{{page.hero-img-class}}" />
+            {% if hero_size > 0 %}
+                <img src="{{include.hero}}" alt="Page hero image for {{page.id}} page" class="{{page.hero-img-class}}" />
+            {% elsif emoji_size > 0 %}
+                <span class="emoji">
+                    {{include.hero-emoji}}
+                </span>
+            {% endif %}
         </div>
         <div class="hero-line"></div>
     </div>

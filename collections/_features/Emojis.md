@@ -1,7 +1,5 @@
 ---
 title: Emojis
-hero: /assets/heros/github.png
-description: KeyboardKit defines an emoji type with a lot of nice information.
 ---
 
 KeyboardKit provides you with an ``Emoji`` type that has unicode and emoji information, an emoji localization engine, etc.

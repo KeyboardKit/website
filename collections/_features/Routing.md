@@ -1,7 +1,5 @@
 ---
 title: Routing
-hero: /assets/heros/github.png
-description: KeyboardKit Pro lets you route text to text inputs within the keyboard.
 ---
 
 iOS keyboards use a `UITextDocumentProxy` to integrate with the currently active application. However, if you have a text field *in* your keyboard, you need to find a way to route the text to that text field 

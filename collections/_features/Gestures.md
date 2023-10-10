@@ -1,7 +1,5 @@
 ---
 title: Gestures
-hero: /assets/heros/github.png
-description: KeyboardKit has rich, keyboard-specific gestures.
 ---
 
 Native iOS keyboards apply a bunch of gestures to their keys. For instance, input keys can be pressed and released, space can be long pressed to move the cursor, backspace can be long pressed, etc.

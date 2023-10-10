@@ -1,9 +1,5 @@
 ---
 title: Locales
-hero: /assets/heros/locales.png
-description: KeyboardKit supports 60 locales and lets you create fully localized keyboards.
-
-docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/localization
 ---
 
 KeyboardKit comes with support for <b>{{site.locale_count}}</b> keyboard locales, with more being added over time:
