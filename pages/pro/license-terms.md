@@ -19,9 +19,9 @@ These terms & conditions apply to the {{page.product}} SDK (hereby referred to a
 
 ## License Details
 
-Licenses are valid for **one year**, **one app** and **one keyboard extension**. After your license expires, you must extend it to keep using the Product. Expirations do not affect already shipped products.
+Licenses are valid for **one year**, **one app** and **one keyboard extension**. After your license expires, you must extend it to keep using the Product. Expirations don't affect already shipped apps.
 
-Additional bundle IDs and development licenses can be added at a **50% discount** per addition. The development licenses must never be used in production.
+Additional bundle IDs and test/development licenses can be added to a license at a **50% discount** per addition. Test and development licenses must never be used in production.
 
 
 ## License Activation
@@ -56,9 +56,9 @@ The Product is built with the latest version of Xcode, but offers on-demand buil
 
 Some Product features use technologies that may stop working in any future platform (iOS, iPadOS, macOS, tvOS, watchOS, etc.) update.
 
-Features that stop working due to such platform changes may be removed without replacement or compensation, since the required platform capabilities may no longer be available.
+Features that stop working due to such platform changes may be removed without replacement or compensation, since required capabilities may no longer be available.
 
-Local autocomplete uses on-device technologies that may not be available to all locales. Make sure to evaulate the locales you need in the demo or [KeyboardKit app](/app) app before purchasing a license.
+Local autocomplete uses on-device technologies that may not be available to all locales. Make sure to evaluate the locales you need in the demo or [KeyboardKit app](/app) before purchasing a license.
 
 Dictation is in BETA and may need more work before it can be used in production. Since it requires some setup, the demo app doesn't demo this feature. You can test dictation in the [KeyboardKit app](/app).
 
