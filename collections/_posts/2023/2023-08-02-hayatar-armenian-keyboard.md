@@ -1,16 +1,16 @@
 ---
-title:  Hayatar - an Armenian keyboard
+title:  Case Study – Hayatar Armenian keyboard
 date:   2023-08-02 08:00:00 +0100
-tags:   apps
+tags:   case-study
 
 image:  /assets/headers/clients/hayatar.png
 assets: /assets/blog/2023/2023-08-02/
 
-app-url:    https://hayatar.fperson.dev
+appstore:    https://hayatar.fperson.dev
 twitter:    https://twitter.com/_fperson
 ---
 
-Say hello to Hayatar - an Armenian custom keyboard for iOS that was developed using KeyboardKit.
+Say hello to Hayatar - an Armenian custom keyboard built with KeyboardKit.
 
 ![Announcement header icon]({{page.image}})
 
@@ -22,7 +22,7 @@ Although several Armenian keyboards exists, neither did provide a layout or a na
 
 > I decided to try and build a keyboard I’d be happy to use myself. I discovered KeyboardKit and fell into a rabbit hole of third-party keyboard development :) 
 
-After some time in development, [Hayatar]({{page.app-url}}) is now available on the App Store. It’s open-source, looks and feels native thanks to KeyboardKit, is customizable and syncs changes using iCloud. Plus, it was designed by an Armenian typer for Armenian typers, so it really fits the language.
+After some time in development, [Hayatar]({{page.appstore}}) is now available on the App Store. It’s open-source, looks and feels native thanks to KeyboardKit, is customizable and syncs changes using iCloud. Plus, it was designed by an Armenian typer for Armenian typers, so it really fits the language.
 
 ![Hayatar screenshots]({{page.assets}}screenshots.png){:class="plain"}
 
@@ -30,4 +30,4 @@ As you can see in these screenshots, Hayatar provides you with great Armenian al
 
 > KeyboardKit is definitely one of my favorite packages now!
 
-We are very happy to hear that Arshak enjoyed developing Hayatar using KeyboardKit and wish him all the best in the future. [Download Hayatar today]({{page.app-url}}) to improve your Armenian typing experience.
+We are very happy to hear that Arshak enjoyed developing Hayatar using KeyboardKit and wish him all the best in the future. [Download Hayatar today]({{page.appstore}}) to improve your Armenian typing experience.
