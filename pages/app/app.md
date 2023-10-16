@@ -11,7 +11,7 @@ description: The KeyboardKit app lets you create custom keyboards for iOS and iP
 
 The [KeyboardKit app]({{site.appstore_url}}) lets you create custom keyboards directly on an iPhone or iPad, without having to write a single line of code.
 
-The app uses [KeyboardKit Pro](/pro) to support all [{{site.locale_count}} locales](/features/locales) and [pro](/pro) features, and comes with many pre-defined [theme engine](/themes). You can also create custom themes that you can share with others.
+The app uses [KeyboardKit Pro](/pro) to support all [{{site.locale_count}} locales](/features/locales) and [pro](/pro) features, and comes with many pre-defined [theme engine](/ro/themes). You can also create custom themes that you can share with others.
 
 {% include kankoda/grids/grid-screenshots.html images="keyboardkit-1,keyboardkit-2,keyboardkit-3,keyboardkit-4,keyboardkit-5,keyboardkit-6" %}
 

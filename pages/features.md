@@ -26,7 +26,7 @@ KeyboardKit comes with a bunch of keyboard-specific action types, like inputs, s
 
 KeyboardKit comes with an appearance engine that lets you customize images, texts, colors, fonts, shadows, callouts, and more, for any part of the keyboard.
 
-[KeyboardKit Pro](/pro) unlocks a [theme engine](/themes) that lets you style your keyboards with themes. You can create your own themes or use the standard set that come with the engine.
+[KeyboardKit Pro](/pro) unlocks a [theme engine](/pro/themes) that lets you style your keyboards with themes. You can create your own themes or use the standard set that come with the engine.
 
 
 ### [💡 Autocomplete]({{site.documentation_url}}/autocomplete)

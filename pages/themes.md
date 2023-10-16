@@ -2,7 +2,8 @@
 id: themes
 title: Themes
 layout: page
-permalink: /themes
+permalink: /pro/themes
+redirect_from: /themes
 
 hero: /assets/heros/themes.png
 

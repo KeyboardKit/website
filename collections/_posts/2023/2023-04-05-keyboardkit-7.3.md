@@ -40,7 +40,7 @@ See the [release notes]({{page.release}}) for more info about these breaking cha
 
 KeyboardKit 7.3 adds a bunch of new themes and lays the foundation for a theme library that can be extended in the future.
 
-You can view a full list of themese [here](/themes). Note that you need a `Gold` license to use themes.
+You can view a full list of themes [here](/pro/themes). Note that you need a `Gold` license to use themes.
 
 ### Standard
 

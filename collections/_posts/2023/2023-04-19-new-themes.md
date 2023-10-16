@@ -53,6 +53,6 @@ Future versions may add more style configuration options, but the theme can curr
 
 ## Conclusion
 
-KeyboardKit 7.4 adds many new emojis and emoji-related features, as well as new themes and style variations to existing themes. See [this page](/themes) for a list of all available themes.
+KeyboardKit 7.4 adds many new emojis and emoji-related features, as well as new themes and style variations to existing themes. See [this page](/pro/themes) for a list of all available themes.
 
 KeyboardKit 7.4 will be released during the second half of April.

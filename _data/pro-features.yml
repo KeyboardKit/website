@@ -10,6 +10,12 @@
   text: KeyboardKit Pro auto-registers the most recently used emojis.
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-actions
 
+- title: AI Support
+  url: /pro/ai  
+  emoji: 🤖
+  text: KeyboardKit Pro unlocks capabilities needed for AI.
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/
+
 - title: Autocomplete
   url: /features/autocomplete  
   emoji: 💡

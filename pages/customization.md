@@ -19,7 +19,7 @@ KeyboardKit keyboards can be customized to great extent. You can adjust input ke
 
 KeyboardKit comes with an appearance engine that lets you change the button images and texts as well as the colors, fonts, shadows, callouts etc. for any part of the keyboard.
 
-[KeyboardKit Pro](/pro) also unlocks a [theme engine](/themes) that makes it even easier to change the visual style of your keyboard. You can use the themes that come with the engine and create your own.
+[KeyboardKit Pro](/pro) also unlocks a [theme engine](/pro/themes) that makes it even easier to change the visual style of your keyboard. You can use the themes that come with the engine and create your own.
 
 
 ## Input Keys
