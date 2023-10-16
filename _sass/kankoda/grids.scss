@@ -1,3 +1,9 @@
+article {
+  p + .grid {
+    margin: 50px 0;
+  }
+}
+
 .grid-title {
   margin: 15px;
 }
@@ -22,10 +28,6 @@
 .grid.blog {
   grid-column-gap: 40px;
   grid-template-columns: repeat(2, 1fr);
-}
-
-.grid.clients {
-  grid-template-columns: repeat(7, 1fr) !important;
 }
 
 .grid.icons {  

@@ -1,14 +1,14 @@
-- name: Oribi
-  url:  https://www.oribi.se/en
+- name: Gurray
+  url:  https://apps.apple.com/au/app/gurray/id1513495735
   
-- name: phonetoroam
-  url:  https://www.phonetoroam.com
+- name: Type Devanagari
+  url:  https://apps.apple.com/us/app/type-devanagari/id6450332512
   
 - name: Hayatar
   url:  https://hayatar.fperson.dev
   
-- name: Type Devanagari
-  url:  https://apps.apple.com/us/app/type-devanagari/id6450332512
+- name: Oribi
+  url:  https://www.oribi.se/en
   
 - name: LetterKey
   url:  https://letterkey.eu
@@ -18,3 +18,6 @@
   
 - name: Milo Creative
   url:  https://www.milocreative.com
+
+- name: phonetoroam
+  url:  https://www.phonetoroam.com

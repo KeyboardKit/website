@@ -1,11 +1,12 @@
 .grid.clients {
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(8, 1fr);
 
   img { 
     object-fit: cover;
     opacity: 0.5;
     filter: grayscale(50%);
     transition: all 200ms ease-in-out, color 1s ease-out 100ms !important;
+    border-radius: 28%;
   }
 
   img:hover {
@@ -18,9 +19,9 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   
   .grid.clients {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
