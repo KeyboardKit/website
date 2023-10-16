@@ -1,5 +1,12 @@
-a.back-button:before {
-  content: "«";
+.back-button {
+  a {
+    font-weight: normal !important;
+    font-size: medium;
+  }
+
+  a:before {
+    content: "«";
+  }
 }
 
 a.forward-button:after {
