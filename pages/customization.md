@@ -15,28 +15,34 @@ description: KeyboardKit keyboards can be customized to great extent.
 KeyboardKit keyboards can be customized to great extent. You can adjust input keys, layout, change how every individual key looks and behaves and much more.
 
 
-## Appearance
+## Styling
 
-KeyboardKit comes with an appearance engine that lets you change the button images and texts as well as the colors, fonts, shadows, callouts etc. for any part of the keyboard.
+KeyboardKit comes with an styling engine that lets you change the button images and texts, as well as colors, fonts, shadows, callouts, etc. for any part of the keyboard.
 
-[KeyboardKit Pro](/pro) also unlocks a [theme engine](/pro/themes) that makes it even easier to change the visual style of your keyboard. You can use the themes that come with the engine and create your own.
-
-
-## Input Keys
-
-KeyboardKit lets you customize the input keys of a keyboard. You can replace single keys or create a completely custom input set.
+[KeyboardKit Pro](/pro) unlocks a [theme engine](/pro/themes) that makes it even easier to change the visual style of your keyboard. You can use the themes that come with the engine and create your own.
 
 
-## Keyboard Layout
+## Layout
 
-KeyboardKit lets you customize the entire layout of a keyboard. You can add and remove keys, move keys around and change the size of any individual key.
+KeyboardKit has input sets and keyboard layouts that let you customize the keys of a keyboard. You can replace, remove and insert single or multiple keys, or create a completely custom layout.
+
+[KeyboardKit Pro](/pro) unlocks [localized input sets and keyboard layouts](/features/localization) for all the languages that your license includes. You can use them as they are, or customize them further.
+
+
+## Callouts
+
+KeyboardKit lets you customize the secondary callout actions that are presented when a user long presses a key that has secondary actions. You can show any actions you like in these callouts.
+
+[KeyboardKit Pro](/pro) unlocks [localized callout actions](/features/localization) for all the languages that your license includes.  You can use them as they are, or customize them further.
 
 
 ## Services
 
-KeyboardKit uses services for everything, such as an action handler to handle key presses. All these services can be replaced by your own custom implementations.
+KeyboardKit uses services for most behavior, such as an action handler that handles key presses. All these services can be replaced by your own custom implementations.
+
+[KeyboardKit Pro](/pro) unlocks [pro services](/pro), such as local and remote autocomplete, an action handler that registers the most recent emojis, etc. You can use them as they are, or customize them further.
 
 
 ## Views
 
-KeyboardKit lets you use any custom views instead of the standard `SystemKeyboard`. You can add any custom views above and below it and even switch out the entire keyboard view.
+KeyboardKit lets you use custom views with the standard `SystemKeyboard`. You can add any custom views around it, replace any keys with custom views, and even switch out the entire keyboard view.
