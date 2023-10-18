@@ -6,21 +6,22 @@ tags:   case-study
 image:  /assets/headers/clients/gurray.png
 
 appstore: https://apps.apple.com/au/app/gurray/id1513495735
-website:  https://www.anomaly.ltd
+anomaly:  https://anomaly.ltd
+portfolio: https://www.anomaly.ltd/portfolio/wcc/gurray
 ---
 
-Say hi to Gurray - a keyboard for indigenous communication, built with KeyboardKit.
+Say hello to [Gurray]({{page.appstore}}) - a keyboard for indigenous communication, developed by [Anomaly Software]({{page.anomaly}}).
 
 ![Gurray icon]({{page.image}})
 
-[Gurray]({{page.appstore}}) a keyboard for indigenous communication, developed by [Anomaly Software]({{page.twitter}}) for the WCC Language Program.
+[Gurray]({{page.appstore}}) is a keyboard for indigenous communication, built by [Anomaly Software]({{page.anomaly}}) with KeyboardKit for the WCC Language Program.
 
-WCC Language Program develops a large variety of both digital and physical resources including dictionary apps, flash cards, learning games, online learning platforms and toolkits.
+The WCC LP develops a large variety of both digital and physical resources including dictionary apps, flash cards, learning games, online learning platforms and toolkits.
 
-WCC LP approached Anomaly with a bold vision of using cutting-edge mobile technology like computer vision to build delightful educational and communication experiences.
+WCC LP approached Anomaly with a vision of using cutting-edge technologies like computer vision to build delightful educational and communication experiences.
 
-Anomalybuilt an keyboard experience to match iOS and Android standards, using KeyboardKit for iOS. The keyboard integrates support for the WCC LP countries and communities.
+Anomaly built Gurray to match iOS and Android standards, using KeyboardKit for the iOS keyboard. It integrates support for the WCC LP countries and communities.
 
-Being able to help enabling communication between various communities is an important key focus for KeyboardKit, so it's amazing to see Gurray focus on indigenous communication!
+Enabling communication between people is a key focus for KeyboardKit, so it's amazing to see Gurray launch with focus on indigenous communication.
 
-You can download Gurray from the [App Store]({{page.appstore}}) and the Google Play Store!
+You can download Gurray from the [App Store]({{page.appstore}}) and read more about the WWDC LP [here]({{page.portfolio}})!
