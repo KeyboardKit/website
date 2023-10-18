@@ -84,26 +84,26 @@ The keyboard uses a bunch of views that are also unlocked by KeyboardKit Pro, su
 
 ### Emoji Categories
 
-KeyboardKit Pro unlocks an `Emojis.Category` enum that defines all available emoji categories and their emojis, for instance:
+KeyboardKit Pro unlocks an `Emojis.Category` enum that defines all emoji categories and their emojis:
 
 ```swift
 Emojis.Category.smileys.emojis    // 😀😃😄😁😆🥹😅😂🤣🥲 ...
 Emojis.Category.animals.emojis    // 🐶🐱🐭🐹🐰🦊🐻🐼🐻‍❄️🐨 ...
 ```
 
-You can get a list of all available categories like this:
+You can get a list of all available categories:
 
 ```swift
 Emojis.Category.all     // [.frequent, .smileys, .animals, ...]
 ```
 
-and use these categories to get a list of all available emojis:
+and use them to get a list of all available emojis:
 
 ```swift
 Emoji.all     // 😀😃😄😁😆🥹😅😂🤣🥲 ...
 ```
 
-Emoji categories are also used to power the `EmojiKeyboard`.
+Emoji categories are used to power the `EmojiKeyboard`.
 
 
 ### Emoji Skin tones
@@ -111,16 +111,18 @@ Emoji categories are also used to power the `EmojiKeyboard`.
 KeyboardKit Pro unlocks additional ``Emoji`` extensions to get skin tone information:
 
 ```swift
-Emoji("👍").hasSkinToneVariants     // true
-Emoji("🚀").hasSkinToneVariants     // false
-Emoji("👍🏿").neutralSkinToneVariant  // 👍
-Emoji("👍").skinToneVariants        // 👍👍🏻👍🏼👍🏽👍🏾👍🏿
-Emoji("👍").skinToneVariantActions  // The above variants as keyboard actions
+Emoji("👍").hasSkinToneVariants      // true
+Emoji("🚀").hasSkinToneVariants      // false
+Emoji("👍").isNeutralSkinToneVariant // true
+Emoji("👍🏿").isNeutralSkinToneVariant // false
+Emoji("👍🏿").neutralSkinToneVariant   // 👍
+Emoji("👍").skinToneVariants         // 👍👍🏻👍🏼👍🏽👍🏾👍🏿
+Emoji("👍").skinToneVariantActions   // The above variants as keyboard actions
 ```
 
 Skin tones will also be used as secondary callout actions, which means that long pressing an emoji with skintones in an emoji keyboard will show an action callout. 
 
-Note that skin tone support for emojis with multiple skin tone components is currently not supported, such as two persons kissing.
+Note that skin tones for emojis with multiple skin tone components is currently not supported, such as two persons kissing.
 
 
 ### Emoji Versions
@@ -158,7 +160,7 @@ This can be used to filter out unavailable emojis from the various categories, w
 
 ### Most recent emojis
 
-[KeyboardKit Pro][Pro] unlocks an `Emojis.MostRecentProvider` and replaces ``StandardKeyboardActionHandler`` with a `ProKeyboardActionHandler` that automatically registers emojis as you use them.
+KeyboardKit Pro unlocks an `Emojis.MostRecentProvider` and replaces ``StandardKeyboardActionHandler`` with a `ProKeyboardActionHandler` that automatically registers emojis as you use them.
 
 
 

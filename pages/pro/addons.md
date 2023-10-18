@@ -23,7 +23,7 @@ Gold customers have the option to connect over a monthly call, where we can keep
 
 ## Monthly plan
 
-Gold customers can choose a [monthly subscription plan]({{site.gumroad_url_gold_sub}}). This lets you spread out your costs over the year, at a slightly higher price. [Read more in the terms and conditions](/pro/terms-and-conditions).
+Gold customers can choose a [monthly subscription plan]({{site.gumroad_url_monthly}}). This lets you spread out your costs over the year, at a slightly higher price. [Read more in the terms and conditions](/pro/terms-and-conditions).
 
 
 ## Multi-platform

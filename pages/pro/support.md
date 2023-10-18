@@ -13,14 +13,14 @@ description: KeyboardKit Pro has many optional support levels
 
 ## GitHub Issues
 
-Just like the open-source users, you can use [GitHub Issues]({{site.github_url}}/issues) to get help with any problems you may have. This connects you with the developer community and let you help eachother out.
+All license customers can use [GitHub Issues]({{site.github_url}}/issues) to get help with problems, request features, discuss etc.
 
-GitHub Issues are also where the KeyboardKit product roadmap is partly managed. Future versions are created and added to issues as soon as they're planned.
+This is also where the KeyboardKit roadmap is managed and where future versions are planned and assigned issues.
 
 
 ## E-mail support
 
-Basic and Silver license customers can reach out over e-mail at any time to get help with problems, ask questions, and discuss KeyboardKit in general and their apps in particular.
+Silver and Gols license customers can reach out over e-mail at any time to get help with problems, ask questions, schedule paid support, etc.
 
 
 ## Prioritized support
@@ -30,4 +30,4 @@ Gold license customers have prioritized support, which means that their needs wi
 
 ## Dedicated support
 
-Custom license customers can customize the support level to any needs they may have. It's possible to add test and additional support packages to the license, schedule support activites, etc.
+Custom license customers can customize the support level to their needs, schedule recurring or one-time support activites, pay for recurring support or dedicated development, etc.

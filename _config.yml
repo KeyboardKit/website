@@ -22,15 +22,8 @@ email_url: mailto:info@keyboardkit.com
 github_url: https://github.com/KeyboardKit/KeyboardKit
 github_url_pro: https://github.com/KeyboardKit/KeyboardKitPro
 github_username: KeyboardKit
-gumroad_url: https://kankoda.gumroad.com
-gumroad_url_basic: https://kankoda.gumroad.com/l/keyboardkit-pro-basic
-gumroad_url_silver: https://kankoda.gumroad.com/l/keyboardkit-pro-silver
-gumroad_url_gold: https://kankoda.gumroad.com/l/keyboardkit-pro-gold
-gumroad_url_gold_sub: https://kankoda.gumroad.com/l/keyboardkit-pro-gold-subscription
-lemon_url: https://kankoda.lemonsqueezy.com
-lemon_url_basic: https://kankoda.lemonsqueezy.com/checkout?cart=3e9905d8-7187-4fc4-b957-d40d85c959d7
-lemon_url_silver: https://kankoda.lemonsqueezy.com/checkout?cart=08cb7525-cfc6-4666-bb5e-0c02907ad890
-lemon_url_gold: https://kankoda.lemonsqueezy.com/checkout?cart=ea8fe809-a1cd-4c18-ac67-f5d3626f84c3
+gumroad_url: https://kankoda.gumroad.com/l/keyboardkitpro
+gumroad_url_monthly: https://kankoda.gumroad.com/l/keyboardkitpro-monthly
 mastodon_url: https://techhub.social/@keyboardkit
 mastodon_username: keyboardkit@techhub.social
 twitter_url: https://twitter.com/getkeyboardkit

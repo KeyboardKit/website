@@ -2,13 +2,13 @@
 title: Autocomplete
 ---
 
-Autocomplete is an important part of the typing experience, where autocomplete suggestions are shown as the current text changes.
+Autocomplete is an important part of the typing experience, where autocomplete suggestions can be shown as the user types, and autocorrect can automatically correct incorrectly typed words.
 
-In KeyboardKit, an ``AutocompleteProvider`` can provide suggestions to an ``AutocompleteContext``, which in turn can update views like an ``AutocompleteToolbar`` automatically through state observation.
+In KeyboardKit, an ``AutocompleteProvider`` can provide autocomplete and autocorrect suggestions that automatically update views like the ``AutocompleteToolbar``.
 
-KeyboardKit doesn't have a standard provider as it has for other services. Instead, it binds a disabled provider to the controller ``services`` until you register a custom provider or activate KeyboardKit Pro.
+KeyboardKit doesn't have a standard provider as it has for other services. Instead, it uses a disabled one until you register a custom provider or activate KeyboardKit Pro.
 
-[KeyboardKit Pro][Pro] unlocks and registers local autocomplete. More information about Pro features can be found at the end of this article.
+[KeyboardKit Pro][Pro] unlocks and registers a local autocomplete provider that works for most supported languages. More information about Pro features can be found at the end of this article.
 
 
 
