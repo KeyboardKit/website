@@ -12,6 +12,10 @@ h1 {
   h1 {
     margin-top: 100px;
   }
+  
+  img {
+    padding: 20px 0;
+  }
 
   p { 
     font-size: 1.1em;
@@ -29,6 +33,6 @@ h1 {
   height: 100px;
   background: linear-gradient(to top left, $content-background 0%, $content-background 50%, transparent 50%, transparent 100%) !important;
   background-size: $texture-size;
-  margin-top: -70px;
-  margin-bottom: 30px;
+  margin-top: -180px;
+  margin-bottom: 90px;
 }

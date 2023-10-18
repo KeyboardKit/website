@@ -1,16 +1,21 @@
-.back-button {
+.back-button, .forward-button {
   a {
     font-weight: normal !important;
     font-size: medium;
   }
+}
 
+.back-button {
   a:before {
     content: "«";
   }
 }
 
-a.forward-button:after {
-  content: "»";
+.forward-button {
+
+  a.forward-button:after {
+    content: "»";
+  }  
 }
 
 .social-button {

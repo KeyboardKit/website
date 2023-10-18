@@ -1,6 +1,7 @@
 {%- assign type = include.type -%}
 {%- assign name = include.name -%}
 {%- assign image = include.image -%}
+{%- assign icon = include.icon -%}
 {%- assign image-class = include.image-class -%}
 
 {%- if type == "bands" or type == "photos" or type == "themes" -%}
@@ -14,7 +15,12 @@
 {%- assign image = include.name -%}
 {%- endif -%}
 
-<img alt="{{ name }} icon" src="/assets/{{ type }}/{{ image | slugify }}.{{ extension }}" class="{{ image-class }}" />
+{% if icon %}
+    <img src="/assets/icons/{{ icon }}.{{extension}}" alt="{{ title }} icon" title="{{ title }}" />
+{% else %}
+    <img src="{{ image }}" alt="{{ title }} image" title="{{ title }}" />
+{% endif %}
+
 {%- if item.name -%}
 <p>{{ item.name }}</p>
 {%- elsif item.title -%}

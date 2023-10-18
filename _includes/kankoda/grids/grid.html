@@ -5,15 +5,17 @@
 {%- assign extension = "png" -%}
 {%- endif -%}
 
+{%- assign title = item.title | default: item.name -%}
+
 <div class="grid {{type}} {{include.class}}">
   {% for item in include.items %}
     {%- if item.url -%}
     <a href="{{ item.url }}" name="{{ item.name | slugify }}" title="{{ item.name }}">
-      {% include kankoda/grids/grid-item.html type=type name=item.name image=item.image image-class=include.image-class %}
+      {% include kankoda/grids/grid-item.html type=type name=title icon=item.icon image=item.image image-class=include.image-class %}
     </a>  
     {%- else -%}
     <div>
-      {% include kankoda/grids/grid-item.html type=type name=item.name image=item.image image-class=include.image-class %}
+      {% include kankoda/grids/grid-item.html type=type name=title icon=item.icon image=item.image image-class=include.image-class %}
     </div>
     {%- endif -%}
   {% endfor %}

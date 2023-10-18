@@ -1,23 +1,31 @@
 - name: Gurray
+  icon: clients/gurray
   url:  https://apps.apple.com/au/app/gurray/id1513495735
   
 - name: Type Devanagari
+  icon: clients/type-devanagari
   url:  https://apps.apple.com/us/app/type-devanagari/id6450332512
   
 - name: Hayatar
+  icon: clients/hayatar
   url:  https://hayatar.fperson.dev
   
 - name: Oribi
+  icon: clients/oribi
   url:  https://www.oribi.se/en
   
 - name: LetterKey
+  icon: clients/letterkey
   url:  https://letterkey.eu
   
 - name: Anomaly
+  icon: clients/anomaly
   url:  https://www.anomaly.net.au
   
 - name: Milo Creative
+  icon: clients/milo-creative
   url:  https://www.milocreative.com
 
 - name: phonetoroam
+  icon: clients/phonetoroam
   url:  https://www.phonetoroam.com
