@@ -6,7 +6,7 @@ iOS keyboard extensions use the native `UITextDocumentProxy` to integrate with t
 
 KeyboardKit adds ways to make text routing easier. ``KeyboardInputViewController`` has a custom ``textInputProxy`` that can be set to route text from the original proxy to any other text field.
 
-[KeyboardKit Pro][Pro] unlocks even more capabilities, such as a text fields that automatically register and resign as the main text document proxy. You can read more about it further down.
+[KeyboardKit Pro][Pro] unlocks even more capabilities, such as a text fields that automatically register and resign as the main proxy. Information about Pro features can be found at the end of this article.
 
 
 

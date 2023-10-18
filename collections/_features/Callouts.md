@@ -8,7 +8,7 @@ In KeyboardKit, a ``CalloutActionProvider`` can provide secondary actions to a `
 
 KeyboardKit will bind a ``StandardCalloutActionProvider`` instance to the controller ``services`` when the keyboard is loaded. You can modify or replace this provider at any time.
 
-[KeyboardKit Pro][Pro] unlocks and registers localized providers for all keyboard locales. It also lets you inherit `ProCalloutActionProvider` for more features. You can read more about it further down.
+[KeyboardKit Pro][Pro] unlocks and registers localized action providers. Information about Pro features can be found at the end of this article.
 
 
 
@@ -55,7 +55,7 @@ You can create a custom ``CalloutActionProvider`` by inheriting ``StandardCallou
 
 ## 👑 Pro features
 
-[KeyboardKit Pro][Pro] unlocks localized ``CalloutActionProvider``s for all locales in your license and adds them to the ``StandardCalloutActionProvider`` when you register a valid license key.
+[KeyboardKit Pro][Pro] unlocks a localized ``CalloutActionProvider`` for each locale in your license and injects them into the ``StandardCalloutActionProvider``.
 
 You can access all providers that your license unlocks like this:
 

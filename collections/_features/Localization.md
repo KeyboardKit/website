@@ -2,12 +2,11 @@
 title: Localization
 ---
 
-A flexible localization engine is an important part of a software keyboard, which should cater to the needs of the locales it supports.
+Flexible localization support is an important part of a software keyboard, and should make it possible to localize the entire keyboard.
 
-In KeyboardKit, the ``KeyboardLocale`` enum defines keyboard-specific locales, where each locale refers to a raw `Locale`. 
-KeyboardKit also extends `Locale` with more features.
+KeyboardKit defines keyboard-specific languages, where each has localized strings, assets, and locale-specific information. KeyboardKit also extends the native `Locale` with additional capabilities.
 
-[KeyboardKit Pro][Pro] unlocks localized services for all the locales in your license when you register a valid license key. You can read more about it further down.
+[KeyboardKit Pro][Pro] unlocks localized keyboards and services for all locales in your license. Information about Pro features can be found at the end of this article.
 
 
 
@@ -17,26 +16,32 @@ KeyboardKit supports [{{site.locale_count}} locales](/locales):
 
 {% include locales/flags.html divider=" " %}
 
-Each keyboard locale refers to a native Locale and has additional keyboard-specific information, as well as localized assets and strings that can be translated with the ``KKL10n`` enum.
+Each keyboard locale refers to a native `Locale` and has additional keyboard-specific information, as well as localized assets and strings that can be translated with the ``KKL10n`` enum.
 
 
 
 ## Locale extensions
 
-KeyboardKit extends the native Locale with more functionality.
+KeyboardKit extends the native `Locale` with more functionality.
 
 ### Direction info
 
 KeyboardKit lets you get the line and character direction of a locale:
 
 ```swift
-KeyboardLocale.english.locale.isLeftToRight     // true
-KeyboardLocale.english.locale.isRightToLeft     // false
-KeyboardLocale.arabic.locale.isRightToLeft      // true
-KeyboardLocale.arabic.locale.lineDirection      // .rightToLeft
+let english = KeyboardLocale.english.locale
+let persian = KeyboardLocale.persian.locale
+let swedish = KeyboardLocale.swedish.locale
 
-KeyboardLocale.spanish.locale.isTopToBottom     // false
-KeyboardLocale.german.locale.isBottomToTop      // false
+english.isLeftToRight  // true
+english.isRightToLeft  // false
+persian.isLeftToRight  // false
+persian.isRightToLeft  // true
+swedish.isTopToBottom  // false
+
+english.lineDirection  // .leftToRight
+persian.lineDirection  // .rightToLeft
+swedish.lineDirection  // .leftToRight
 ```
 
 ### Flag info
@@ -44,9 +49,9 @@ KeyboardLocale.german.locale.isBottomToTop      // false
 KeyboardKit lets you get the flag of a locale:
 
 ```swift
-KeyboardLocale.english.locale.flag      // 🇺🇸
-KeyboardLocale.english_uk.locale.flag   // 🇬🇧
-KeyboardLocale.swedish.flag             // 🇸🇪
+english.locale.flag    // 🇺🇸
+persian.locale.flag    // 🇮🇷
+swedish.flag           // 🇸🇪
 ```
 
 ### Localized name
@@ -54,20 +59,9 @@ KeyboardLocale.swedish.flag             // 🇸🇪
 KeyboardKit lets you get and use the localized names of a locale:
 
 ```swift
-let english = KeyboardLocale.english
-let swedish = KeyboardLocale.swedish
-
-english.locale.localizedName     // English (United States)
-swedish.locale.localizedName(
-    in: english.locale)          // Swedish (Sweden)
-swedish.locale.localizedName(
-    in: swedish.locale)          // Svenska (Sverige)
-
-english.locale.localizedLanguageName    // English
-swedish.locale.localizedLanguageName(
-    in: english.locale)                 // Swedish (Sweden)
-swedish.locale.localizedLanguageName(
-    in: swedish.locale)                 // Svenska (Sverige)
+english.localizedName              // English (United States)
+swedish.localizedName(in: english) // Swedish (Sweden)
+swedish.localizedName(in: swedish) // Svenska (Sverige)
 ```
 
 ### Sorting
@@ -78,17 +72,17 @@ KeyboardKit also provide convenient Locale collection sorted extensions.
 
 ## How to get the current keyboard locale 
 
-You can get the current locale and all available locales from a ``KeyboardContext`` with the two ``.locale`` and ``.locales`` properties.
+You can get the current locale and all available locales with ``KeyboardContext``'s ``.locale`` and ``.locales``.
 
-These properties return raw `Locale`s, since a keyboard extension is not limited to the ``KeyboardLocale`` model. The context also has ``KeyboardLocale``-specific functions, but they return optional locales.
+These properties return raw `Locale`s, since a keyboard extension is not limited to the ``KeyboardLocale`` model. The context also has optional, ``KeyboardLocale``-specific functions.
 
 
 
 ## How to change keyboard locale 
 
-You can change the keyboard locale for a ``KeyboardContext`` by setting ``locale`` to a new locale, or use the convenience functions that support both Locale and ``KeyboardLocale``.
+You can change the keyboard locale for a ``KeyboardContext`` by setting ``locale`` to a new locale, or use the convenience functions that support ``KeyboardLocale``.
 
-If the context ``locales`` has multiple values, you can switch locale using ``selectNextLocale()`` or using a ``LocaleContextMenu`` view that lets the user select locale.
+If the context ``locales`` has multiple values, you can switch locale using ``selectNextLocale()`` or using a ``LocaleContextMenu`` view that lets the user select a locale.
 
 Setting the locale will update the controller's `primaryLanguage`, which controls things like spellchecking and text direction. It will also set the display name in the system keyboard switcher.
 
@@ -118,9 +112,7 @@ Besides localized strings, you can get flags for a keyboard locales, using the `
 
 ## 👑 Pro features
 
-[KeyboardKit Pro][Pro] unlocks additional localization capabilities when you register a valid license key.
-
-KeyboardKit Pro unlocks localized ``InputSet``s, ``KeyboardLayoutProvider``s and ``CalloutActionProvider``s for each ``KeyboardLocale`` that the license contains.
+[KeyboardKit Pro][Pro] unlocks a localized ``InputSet``, ``KeyboardLayoutProvider`` and ``CalloutActionProvider`` for every ``KeyboardLocale`` that the license unlocks.
 
 This means that KeyboardKit Pro can create fully localized ``SystemKeyboard`` for all supported locales.
 

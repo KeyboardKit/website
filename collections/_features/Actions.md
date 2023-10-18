@@ -6,7 +6,7 @@ In KeyboardKit, ``KeyboardAction`` defines keyboard-specific actions that can be
 
 KeyboardKit will bind a ``StandardKeyboardActionHandler`` to the controller ``services`` when the keyboard is loaded. You can modify or replace this action handler at any time.
 
-[KeyboardKit Pro][Pro] unlocks a pro action handler that automatically register the most recently used emojis, when you register a valid license key. You can read more about it further down.
+[KeyboardKit Pro][Pro] unlocks and registers local autocomplete. More information about Pro features can be found at the end of this article.
 
 
 

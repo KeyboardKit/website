@@ -8,7 +8,7 @@ In KeyboardKit, an ``AutocompleteProvider`` can provide suggestions to an ``Auto
 
 KeyboardKit doesn't have a standard provider as it has for other services. Instead, it binds a disabled provider to the controller ``services`` until you register a custom provider or activate KeyboardKit Pro.
 
-[KeyboardKit Pro][Pro] unlocks a local autocomplete provider when you register a valid license key. You can read more about it further down.
+[KeyboardKit Pro][Pro] unlocks and registers local autocomplete. More information about Pro features can be found at the end of this article.
 
 
 
@@ -52,7 +52,7 @@ You can replace the the controller ``services`` autocomplete provider with a cus
 
 ## 👑 Pro features
 
-[KeyboardKit Pro][Pro] unlocks additional autocomplete providers and binds a `LocalAutocompleteProvider` instance to the controller ``services`` when you register a valid license key.
+[KeyboardKit Pro][Pro] unlocks additional autocomplete providers and binds a `LocalAutocompleteProvider` instance to the controller ``services``.
 
 ### LocalAutocompleteProvider
 

@@ -8,7 +8,7 @@ A ``DictationService`` can perform dictation where microphone access is availabl
 
 KeyboardKit doesn't have a standard service as it has for other services. Instead, it binds a disabled service to the controller ``services`` until you register a custom service or activate KeyboardKit Pro.
 
-[KeyboardKit Pro][Pro] unlocks and registers a standard dictation service when you register a valid license key. You can read more about it further down.
+[KeyboardKit Pro][Pro] unlocks and registers a standard dictation service. Information about Pro features can be found at the end of this article.
 
 
 
@@ -34,11 +34,11 @@ You can use a ``DictationService`` to perform dictation where microphone access 
 
 ## 👑 Pro features
 
-[KeyboardKit Pro][Pro] unlocks additional dictation services when you register a valid license key, plus tools that let you setup dictation with just a few simple steps.
+[KeyboardKit Pro][Pro] unlocks dictation services and tools that let you setup and perform dictation with a few simple steps.
 
 * **ProDictationService** - Can perform dictation within an app.
 * **ProKeyboardDictationService** - Can perform dictation from a keyboard.
 
-KeyboardKit Pro will also add a bunch of dictation-related views to the ``Dictation`` namespace, such as `BarVisualizer`, `Screen`, etc. You can use these to build a nice dictation experience in the app.
+KeyboardKit Pro will also add a bunch of dictation-related views to the ``Dictation`` namespace, such as `BarVisualizer`, `Screen`, etc. You can use them to build a nice dictation experience for your users.
 
 [Pro]: /pro

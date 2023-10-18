@@ -9,7 +9,7 @@ In KeyboardKit, ``InputSet``s and ``KeyboardLayout``s are important layout conce
 
 KeyboardKit will register a ``StandardKeyboardLayoutProvider`` when the keyboard is loaded. It has a QWERTY layout by default, but you can inject localized providers, modify it, or replace it.
 
-[KeyboardKit Pro][Pro] unlocks and registers localized providers for all keyboard locales when you register a valid license key. You can read more about it further down.
+[KeyboardKit Pro][Pro] unlocks and registers localized input sets and layout providers. Information about Pro features can be found at the end of this article.
 
 
 
@@ -48,7 +48,7 @@ There are also other base classes, such as ``BaseKeyboardLayoutProvider``, ``Inp
 
 ## 👑 Pro features
 
-[KeyboardKit Pro][Pro] unlocks additional ``InputSet``s and localized ``InputSet``s and ``KeyboardLayoutProvider``s for all localess in your license, then injects all providers into the ``StandardCalloutActionProvider``.
+[KeyboardKit Pro][Pro] unlocks a localized ``InputSet`` and ``KeyboardLayoutProvider`` for each locale in your license and injects them into the ``StandardKeyboardLayoutProvider``.
 
 You can access all locale-specific input sets that your license unlocks like this:
 

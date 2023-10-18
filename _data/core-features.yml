@@ -49,7 +49,7 @@
 - title: Emojis
   url: /features/emojis
   emoji: 😀
-  text: KeyboardKit defines an emoji type with a lot of nice information.
+  text: KeyboardKit defines an emoji type with a lot of information.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-emojis
 
 - title: Feedback
@@ -73,7 +73,7 @@
 - title: Layout
   url: /features/layout
   emoji: 🔣
-  text: KeyboardKit lets you define dynamic keyboard layouts.
+  text: KeyboardKit defines dynamic input sets and keyboard layouts.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/understanding-layout
 
 - title: Localization
