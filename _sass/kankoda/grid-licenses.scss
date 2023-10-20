@@ -114,6 +114,10 @@
     border: none;
   }
 
+  .trial-button {
+    margin: 20px 10px 0px 10px; 
+  }
+
   div.free, div.basic, div.indie {
     background-color: #fff;
     border: solid 2px $license-border-color;
@@ -121,12 +125,17 @@
 
   div.silver, div.startup {
     background-color: #f7f7f7;
-    border: solid 2px #d5d5d5;
+    border: solid 2px $license-border-color;
   }
 
   div.gold, div.business {
     border: solid 2px gold;
     background-color: rgba(255, 215, 0, 0.2);
+
+    .trial-button {
+      color: black !important;
+      background-color: gold !important;
+    }
   }
 
   div.enterprise, div.custom {

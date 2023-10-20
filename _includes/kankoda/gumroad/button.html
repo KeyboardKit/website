@@ -1,3 +1,5 @@
+{% assign text = include.text | default: "Purchase" %}
+
 <div>
-    <a class="gumroad-button" href="{{include.url}}">Purchase</a>
+    <a class="gumroad-button" href="{{include.url}}">{{text}}</a>
 </div>

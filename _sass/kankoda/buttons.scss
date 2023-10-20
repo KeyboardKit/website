@@ -18,6 +18,7 @@
   }  
 }
 
+
 .social-button {
   width: 30px;
   height: 30px;
@@ -49,4 +50,12 @@
 .social-button.twitter {
   mask: url(/assets/kankoda/social-icons/twitter.svg) no-repeat center;
   -webkit-mask: url(/assets/kankoda/social-icons/twitter.svg) no-repeat center;
+}
+
+
+.trial-button {
+  background-color: black; 
+  border-radius: 20px; 
+  padding: 5px; 
+  color: white;
 }

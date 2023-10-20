@@ -1,20 +1,20 @@
 <div class="grid features">
   {% for feature in include.features %}
-  {%- if feature.hidden -%}
-  {%- else -%}
-  <a href="{{ feature.url }}{{ include.anchor }}">
-    <div class="image-container">
-    {%- if feature.emoji -%}
-    <span class="emoji">{{feature.emoji}}</span>
+    {%- if feature.hidden -%}
     {%- else -%}
-    <img src="{{ feature.image }}" alt="{{ feature.title }} icon" title="{{ feature.title }}" />
+    <a href="{{ feature.url }}{{ include.anchor }}">
+      <div class="image-container">
+      {%- if feature.emoji -%}
+      <span class="emoji">{{feature.emoji}}</span>
+      {%- else -%}
+      <img src="{{ feature.image }}" alt="{{ feature.title }} icon" title="{{ feature.title }}" />
+      {%- endif -%}
+      </div>
+      <div>
+      <h3>{{ feature.title }}</h3>
+      <p>{{ feature.text }}</p>
+      </div>
+    </a>
     {%- endif -%}
-    </div>
-    <div>
-    <h3>{{ feature.title }}</h3>
-    <p>{{ feature.text }}</p>
-    </div>
-  </a>
-  {%- endif -%}
   {% endfor %}
 </div>
