@@ -13,31 +13,19 @@ description: KeyboardKit Pro has many optional add-on services
 
 ## Onboarding call
 
-Gold customers have the option to connect over an onboarding call, where we'll discuss your needs and help you get started.
+Gold customers have the option to connect over an initial onboarding call, where we'll discuss your needs and help you get started.
 
 
 ## Monthly call
 
-Gold customers have the option to connect over a monthly call, where we can keep in touch and keep track of your project, discuss any problems or questions that you may have, etc.
-
-
-## Monthly plan
-
-Gold customers can choose a [monthly subscription plan]({{site.gumroad_url_monthly}}). This lets you spread out your costs over the year, at a slightly higher price. [Read more in the terms and conditions](/pro/terms-and-conditions).
-
-
-## Multi-platform
-
-KeyboardKit Pro is by default distributed with support for iOS only. Gold customers can however get a build that supports all available platforms.
+Gold customers have the option to opt-in to a monthly call, where we can keep track of your project, discuss any problems or questions that you may have, etc.
 
 
 ## Additional bundles
 
-KeyboardKit Pro licenses are valid for **one year, one app** and **one keyboard extension**. You can add additional bundle IDs to your license, at a **50% discount per bundle**.
+Additional bundle IDs licenses can be added to a license at a **50% discount** per addition (includes both an app and keyboard keyboard). This applies to both production apps and internal test apps.
 
 
-## Development licenses
+## Multi-platform
 
-You can add additional development licenses to a production license, for an alternate build of your app and keyboard, at a **50% discount per test license**.
-
-A development licence can not be converted to a production license and must never be used in production. Development licenses that are used in production, may be deactivated at any time.
+The standard KeyboardKit Pro build is iOS only. Until the build is multi-platform by default, you can reach out for a custom plan that includes these capabilities.

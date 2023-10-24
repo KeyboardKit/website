@@ -14,49 +14,39 @@ product: KeyboardKit Pro
 
 # Terms & Conditions
 
-These terms & conditions apply to the {{page.product}} SDK (hereby referred to as "the Product").
+These terms & conditions apply to the {{page.product}} SDK. Last updated 2023-10-24.
 
 
 ## License Details
 
-Licenses are valid for **one year**, **one app** and **one keyboard extension**. After your license expires, you must extend it to keep using the Product. Expirations don't affect already shipped apps.
+{{page.product}} licenses are valid for **one app** and **one keyboard extension**. You can add additional bundles to your license at a **50%** discount.
 
-Additional bundle IDs and test/development licenses can be added to a license at a **50% discount** per addition. Test and development licenses must never be used in production.
 
 
 ## License Activation
 
-After purchasing a license, you will receive a welcome e-mail with your license key once the license has been activated, typically within 48 hours.
-
-If we are unable to activate your license within this time, we will get in touch with you regarding the delay. You are free to refund your purchase at any time before your license has been activated.
-
-The license period starts when the license is activated, not at the time of purchase. This means that the time it takes to activate your license doesn’t affect the license validity period.
+{{page.product}} licenses are valid immediately after purchase. Use the license key in your purchase confirmation to set up KeyboardKit Pro.
 
 
-## License Upgrades
 
-Please reach out if you're considering upgrading your license or want to enable some of the above mentioned add-ons. We'll find a tailored upgrade plan that suits you.
+## License Expiration
 
+{{page.product}} licenses automatically expire when you stop renewing your license subscription and the subscription ends. This will disable all Pro features and make the keyboard show an error dialog.
 
-## Monthly Plan
-
-The monthly subscription plan is a **yearly subscription**. By signing up for this plan, you commit to paying the monthly license fee for at least a full year.
-
-Failing to pay any monthly payment will suspend your license until all overdue payments have been paid, with an additional 10% re-activation fee.
 
 
 ## Technical information
 
-The Product targets the current OS version and two major versions back (one for macOS). Support for older OS versions will only be removed in a major version bump.
+{{page.product}} targets the current OS version and the two previous major versions (one for macOS). Support for older OS versions will only be removed in a major version bump.
 
-The Product is built with the latest version of Xcode, but offers on-demand builds for the previous major version up to three months after the latest major version was released. 
+{{page.product}} targets the latest version of Xcode, but offers on-demand builds for the last major version, up to three months after the latest major version was released. 
 
 
 ## Feature Disclaimer
 
-Some Product features use technologies that may stop working in any future platform (iOS, iPadOS, macOS, tvOS, watchOS, etc.) update.
+Some Product features use technologies that may stop working in any future hardware or OS (iOS, iPadOS, macOS, tvOS, watchOS, etc.) update.
 
-Features that stop working due to such platform changes may be removed without replacement or compensation, since required capabilities may no longer be available.
+Features that stop working due to such breaking changes may be removed without replacement or compensation, since any required hardware or OS capabilities may no longer be available.
 
 Local autocomplete uses on-device technologies that may not be available to all locales. Make sure to evaluate the locales you need in the demo or [KeyboardKit app](/app) before purchasing a license.
 
@@ -65,7 +55,11 @@ Dictation is in BETA and may need more work before it can be used in production.
 
 ## Refunds
 
-You can refund your purchase at any time before your license has been activated. You can't refund your purchase after your license has been activated.
+All new subscriptions include a free trial, during which you have unlimited access to all the features in your selected tier.
+
+You can cancel the free trial at any time. It will automatically convert to the paid plan once it ends if you don't cancel it.
+
+No refunds will approved after the free trial ends. You can cancel your subscription at any time, to stop it from renewing.
 
 
 ## Closed Source License Agreement
