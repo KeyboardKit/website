@@ -5,7 +5,7 @@ layout: page
 permalink: /features
 redirect_from: /core-features
 
-hero: /assets/heros/github.png
+hero: /assets/heros/features.png
 
 description: The KeyboardKit core features are open-source and completely free to use.
 

@@ -1,99 +1,99 @@
 - name: Standard
   styles:
     - name: Standard
-      image: standard
+      image: standard.jpg
     - name: Blue
-      image: standard-blue
+      image: standard-blue.jpg
     - name: Green
-      image: standard-green
+      image: standard-green.jpg
     - name: Pink
-      image: standard-pink
+      image: standard-pink.jpg
     - name: Purple
-      image: standard-purple
+      image: standard-purple.jpg
     - name: Yellow
-      image: standard-yellow
+      image: standard-yellow.jpg
 
 - name: Swifty
   styles:
     - name: Standard
-      image: swifty
+      image: swifty.jpg
     - name: Blue
-      image: swifty-blue
+      image: swifty-blue.jpg
     - name: Green
-      image: swifty-green
+      image: swifty-green.jpg
     - name: Pink
-      image: swifty-pink
+      image: swifty-pink.jpg
     - name: Purple
-      image: swifty-purple
+      image: swifty-purple.jpg
     - name: Yellow
-      image: swifty-yellow
+      image: swifty-yellow.jpg
 
 - name: Minimal
   styles:
     - name: Standard
-      image: minimal
+      image: minimal.jpg
     - name: Blue
-      image: minimal-blue
+      image: minimal-blue.jpg
     - name: Green
-      image: minimal-green
+      image: minimal-green.jpg
     - name: Pink
-      image: minimal-pink
+      image: minimal-pink.jpg
     - name: Purple
-      image: minimal-purple
+      image: minimal-purple.jpg
     - name: Yellow
-      image: minimal-yellow
+      image: minimal-yellow.jpg
     - name: Midnight
-      image: minimal-midnight
+      image: minimal-midnight.jpg
     - name: Sunset
-      image: minimal-sunset
+      image: minimal-sunset.jpg
 
 - name: Aesthetic
   styles:
     - name: Boho
-      image: aesthetic-boho
+      image: aesthetic-boho.jpg
 
 - name: Candy Shop
   styles:
     - name: Cotton Candy
-      image: candyshop-cottoncandy
+      image: candyshop-cottoncandy.jpg
     - name: Cuppy Cake
-      image: candyshop-cuppycake
+      image: candyshop-cuppycake.jpg
 
 - name: Colorful
   styles:
     - name: Black
-      image: colorful-black
+      image: colorful-black.jpg
     - name: Blue
-      image: colorful-blue
+      image: colorful-blue.jpg
     - name: Green
-      image: colorful-green
+      image: colorful-green.jpg
     - name: Orange
-      image: colorful-orange
+      image: colorful-orange.jpg
     - name: Pink
-      image: colorful-pink
+      image: colorful-pink.jpg
     - name: Purple
-      image: colorful-Purple
+      image: colorful-Purple.jpg
     - name: Red
-      image: colorful-red
+      image: colorful-red.jpg
     - name: White
-      image: colorful-white
+      image: colorful-white.jpg
 
 - name: Neon
   styles:
     - name: Night
-      image: neon-night
+      image: neon-night.jpg
 
 - name: Tron
   styles:
     - name: Standard
-      image: tron
+      image: tron.jpg
     - name: fCon
-      image: tron-fcon
+      image: tron-fcon.jpg
     - name: Military
-      image: tron-military
+      image: tron-military.jpg
     - name: Neutral
-      image: tron-neutral
+      image: tron-neutral.jpg
     - name: Sark
-      image: tron-sark
+      image: tron-sark.jpg
     - name: Virus
-      image: tron-virus
+      image: tron-virus.jpg

@@ -4,7 +4,7 @@
 {%- else -%}
 {%- assign extension = "png" -%}
 {%- endif -%}
-
+{%- assign image-folder = include.image-folder -%}
 {%- assign title = item.title | default: item.name -%}
 
 <div class="grid {{type}} {{include.class}}">
@@ -15,7 +15,7 @@
     </a>  
     {%- else -%}
     <div>
-      {% include kankoda/grids/grid-item.html type=type name=title icon=item.icon image=item.image image-class=include.image-class %}
+      {% include kankoda/grids/grid-item.html type=type name=title icon=item.icon image=item.image image-class=include.image-class image-folder=include.image-folder %}
     </div>
     {%- endif -%}
   {% endfor %}

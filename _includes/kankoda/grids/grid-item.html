@@ -1,6 +1,7 @@
 {%- assign type = include.type -%}
 {%- assign name = include.name -%}
 {%- assign image = include.image -%}
+{%- assign image-folder = include.image-folder -%}
 {%- assign icon = include.icon -%}
 {%- assign image-class = include.image-class -%}
 
@@ -18,7 +19,7 @@
 {% if icon %}
     <img src="/assets/icons/{{ icon }}.{{extension}}" alt="{{ title }} icon" title="{{ title }}" />
 {% else %}
-    <img src="{{ image }}" alt="{{ title }} image" title="{{ title }}" />
+    <img src="{{image-folder}}{{image}}" alt="{{ title }} image" title="{{ title }}" />
 {% endif %}
 
 {%- if item.name -%}
