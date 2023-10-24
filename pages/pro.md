@@ -10,13 +10,7 @@ hero-title: KeyboardKit Pro
 description: KeyboardKit Pro unlocks features that take your keyboard to the next level.
 ---
 
-<div class="hero-button-container">
-    <span class="group">
-        <a href="/open-source">Open-source</a>
-        <a href="/pro" class="active">KeyboardKit Pro</a>
-        <a href="/pricing">Pricing</a>
-    </span>
-</div>
+{% include funnel-links.html active="pro" %}
 
 KeyboardKit is [open-source](/open-source) and completely free, but you can [sign up for a KeyboardKit Pro license](/pricing) to unlock pro features like more locales, autocomplete, an emoji keyboard, and much more.
 

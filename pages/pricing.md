@@ -12,13 +12,7 @@ description: KeyboardKit Pro unlocks features that take your keyboard to the nex
 docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/
 ---
 
-<div class="hero-button-container">
-    <span class="group">
-        <a href="javascript:showLicenseTable('yearly')" class="yearly active">Yearly</a>
-        <a href="javascript:showLicenseTable('monthly')" class="monthly">Monthly</a>
-    </span>
-</div>
-
+{% include pricing-links.html %}
 {% include grids/licenses.html subscription="yearly" %}
 {% include grids/licenses.html subscription="monthly" %}
 

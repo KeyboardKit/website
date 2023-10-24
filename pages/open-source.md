@@ -9,13 +9,7 @@ hero: /assets/heros/icon.png
 description: KeyboardKit is open-source and completely free.
 ---
 
-<div class="hero-button-container">
-    <span class="group">
-        <a href="/open-source" class="active">Open-source</a>
-        <a href="/pro">KeyboardKit Pro</a>
-        <a href="/pricing">Pricing</a>
-    </span>
-</div>
+{% include funnel-links.html active="open-source" %}
 
 KeyboardKit is open-source and completely free. It's hosted at [GitHub]({{site.github_url}}), where you find source code, getting started guides, documentation, demo apps, etc.
 

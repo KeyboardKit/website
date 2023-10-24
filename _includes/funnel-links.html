@@ -1,0 +1,15 @@
+{% if include.active == "open-source" %}
+  {% assign open-source-class = "active" %}
+{% elsif include.active == "pro" %}
+  {% assign pro-class = "active" %}
+{% elsif include.active == "pricing" %}
+  {% assign pricing = "active" %}
+{% endif %}
+
+<div class="hero-button-container">
+    <span class="group">
+        <a href="/open-source" class="{{open-source-class}}">Open-source</a>
+        <a href="/pro" class="{{pro-class}}">KeyboardKit Pro</a>
+        <a href="/pricing" class="{{pricing-class}}">Pricing</a>
+    </span>
+</div>
