@@ -6,15 +6,11 @@ permalink: /pro/terms-and-conditions
 
 hero: /assets/heros/pro.png
 
-description: These are the terms and conditions that apply when purchasing a KeyboardKit Pro license.
+description: These are the terms and conditions that apply to KeyboardKit Pro.
 
 product: KeyboardKit Pro
+last-updated: 2023-10-24
 ---
-
-
-# Terms & Conditions
-
-These terms & conditions apply to the {{page.product}} SDK. Last updated 2023-10-24.
 
 
 ## License Details
@@ -82,6 +78,11 @@ These terms and conditions are governed by and construed in accordance with the 
 The courts of Sweden shall have exclusive jurisdiction to settle any dispute or claim arising out of or in connection with these terms.
 
 
+## Last Updated
+
+These terms & conditions were last updated {{page.last-updated}}.
+
+
 ## Copyright
 
-Copyright © 2021-2023 Kankoda Sweden AB
+Copyright © {{site.copyright_year}} {{site.copyright_owner}}. All rights reserved.
