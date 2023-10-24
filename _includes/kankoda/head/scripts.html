@@ -19,6 +19,24 @@
   }
 
 
+  // Licenses
+
+  function hideAllLicenseTables() {
+    $(".license-table").hide();
+    $(".hero-button-container a").removeClass("active");
+  }
+
+  function hideLicenseTable(sub) {
+    $(".license-table." + sub).hide();
+  }
+
+  function showLicenseTable(sub) {
+    hideAllLicenseTables();
+    $(".license-table." + sub).show(); 
+    $(".hero-button-container ." + sub).addClass("active");
+  }
+
+
   // Tags
 
   function toggleTagList() {

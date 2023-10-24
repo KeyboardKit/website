@@ -52,10 +52,38 @@
   -webkit-mask: url(/assets/kankoda/social-icons/twitter.svg) no-repeat center;
 }
 
+.hero-button-container {
+  font-size: small;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 50px;
 
-.trial-button {
+  .group {
+    padding: 15px 5px;
+    border-radius: 20px;
+    border: solid 1px $license-border-color;
+
+    a {
+      padding: 10px;
+      border-radius: 15px;
+      display: inline-block;
+    }
+  
+    a.active {
+      background-color: black;
+      color: white;
+    }
+  }
+}
+
+.cta-button {
+  color: white;
   background-color: black; 
-  border-radius: 20px; 
-  padding: 5px; 
+  border-radius: 15px; 
+  padding: 10px; 
+  font-size: large;
+}
+
+a.cta-button:visited {
   color: white;
 }

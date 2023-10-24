@@ -1,6 +1,16 @@
 {% include kankoda/gumroad/script.html %}
 
-<section class="license-table">
+{% if include.subscription == "monthly" %}
+  {% assign basic  =  49 %}
+  {% assign silver = 149 %}
+  {% assign gold   = 499 %}
+{% else %}
+  {% assign basic  =  39 %}
+  {% assign silver = 119 %}
+  {% assign gold   = 399 %}
+{% endif %}
+
+<section class="license-table {{include.subscription}}">
 
   <div class="table-header-container">
     <div class="grid table-header">
@@ -17,9 +27,9 @@
         <a href="{{site.gumroad_url}}">
           <h3>Basic</h3>
           <div>
-            <p>$39/month</p>
-            <p class="subtitle">(billed annually)</p>
-            {% include kankoda/buttons/trial.html %}
+            <p>${{basic}}/month</p>
+            <p class="subtitle">(billed {{ include.subscription }})</p>
+            {% include kankoda/buttons/cta.html title="Free Trial" %}
           </div>
         </a>
       </div>
@@ -27,9 +37,9 @@
         <a href="{{site.gumroad_url}}">
           <h3>Silver</h3>
           <div>
-            <p>$119/month</p>
-            <p class="subtitle">(billed annually)</p>
-            {% include kankoda/buttons/trial.html %}
+            <p>${{silver}}/month</p>
+            <p class="subtitle">(billed {{ include.subscription }})</p>
+            {% include kankoda/buttons/cta.html title="Free Trial" %}
           </div>
         </a>
       </div>
@@ -37,9 +47,9 @@
         <a href="{{site.gumroad_url}}">
           <h3>Gold</h3>
           <div>
-            <p>$399/month</p>
-            <p class="subtitle">(billed annually)</p>
-            {% include kankoda/buttons/trial.html %}
+            <p>${{gold}}/month</p>
+            <p class="subtitle">(billed {{ include.subscription }})</p>
+            {% include kankoda/buttons/cta.html title="Free Trial" %}
           </div>
         </a>
       </div>

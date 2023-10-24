@@ -1,0 +1,9 @@
+{% if include.url %}
+<a href="{{include.url}}" class="cta-button">
+    {{ include.title }}
+</a>
+{% else %}
+<div class="cta-button">
+    {{ include.title }}
+</div>
+{% endif %}

@@ -1,6 +1,14 @@
+.license-table.yearly {
+  display: block;
+}
+
+.license-table.monthly {
+  display: none;
+}
+
 .license-table {
 
-  padding: 30px 0;
+  padding-bottom: 30px;
 
   .grid {
     background-color: $license-table-color;
@@ -114,7 +122,7 @@
     border: none;
   }
 
-  .trial-button {
+  .cta-button {
     margin: 20px 10px 0px 10px; 
   }
 
@@ -132,7 +140,7 @@
     border: solid 2px gold;
     background-color: rgba(255, 215, 0, 0.2);
 
-    .trial-button {
+    .cta-button {
       color: black !important;
       background-color: gold !important;
     }

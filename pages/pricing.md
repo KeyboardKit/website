@@ -5,16 +5,22 @@ layout: page
 permalink: /pricing
 
 hero: /assets/heros/pro.png
-hero-title: Pricing
+hero-title: KeyboardKit Pro - Pricing
 
-description: Upgrade to KeyboardKit Pro to unlock features that take your keyboard to the next level. 
+description: KeyboardKit Pro unlocks features that take your keyboard to the next level. 
 
 docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/
 ---
 
-[KeyboardKit Pro](/pro) unlocks fully localized keyboards and features like autocomplete and autocorrect, emoji skintones and version info, dictation, a theme engine, and much more! 
+<div class="hero-button-container">
+    <span class="group">
+        <a href="javascript:showLicenseTable('yearly')" class="yearly active">Yearly</a>
+        <a href="javascript:showLicenseTable('monthly')" class="monthly">Monthly</a>
+    </span>
+</div>
 
-{% include grids/licenses.html %}
+{% include grids/licenses.html subscription="yearly" %}
+{% include grids/licenses.html subscription="monthly" %}
 
 Licenses can be purchased from the [Gumroad]({{site.gumroad_url}}) e-shop <!--[Lemon Squeezy]({{site.lemon_url}})-->. [Reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) if you want to include any add-ons, or if you have another preferred method of payment or invoicing.
 
@@ -22,7 +28,7 @@ Licenses can be purchased from the [Gumroad]({{site.gumroad_url}}) e-shop <!--[L
 
 ## Business model
 
-The tiers above are aimed at indie developers, startups and small businesses. For companies and organizations with more than $1M USD in annual proceeds, please [reach out for a custom plan](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License).
+The standard tiers are aimed at indie developers, startups and small businesses. For companies and organizations with more than $1M USD in annual proceeds, please [reach out for a custom plan](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License).
 
 
 ## License terms
