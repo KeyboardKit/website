@@ -1,0 +1,13 @@
+- name: Open Source
+  
+- name: Basic
+  monthly_price_year: 39
+  monthly_price_month: 49
+
+- name: Silver
+  monthly_price_year: 119
+  monthly_price_month: 149
+
+- name: Gold
+  monthly_price_year: 399
+  monthly_price_month: 449
