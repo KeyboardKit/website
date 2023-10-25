@@ -1,0 +1,66 @@
+{% include kankoda/gumroad/script.html %}
+
+{% if include.subscription == "monthly" %}
+  {% assign basic  =  49 %}
+  {% assign silver = 149 %}
+  {% assign gold   = 499 %}
+{% else %}
+  {% assign basic  =  39 %}
+  {% assign silver = 119 %}
+  {% assign gold   = 399 %}
+{% endif %}
+
+<section class="license-table {{include.price}}">
+
+  {% include kankoda/licenses/table-tiers.html tiers=include.tiers price=include.price %}    
+
+  {% include kankoda/licenses/table-row.html row=01 feature="Languages" columns="-,1,5,<a href='/features/localization'>&nbsp;60+&nbsp;</a>" title="KeyboardKit Pro unlocks fully localized keyboards and services for all locales." url="/features/localization" %}
+
+  <hr />
+
+  {% include kankoda/licenses/table-row.html row=01 feature="Core Features" columns="✔,✔,✔,✔" title="The KeyboardKit core features are open-source and completely free to use." url="/features" %}
+  {% include kankoda/licenses/table-row.html row=02 feature="Works Offline" columns="✔,✔,✔,✔" title="KeyboardKit works offline, except features that require a network connection." url="/offline" %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Customizable" columns="✔,✔,✔,✔" title="KeyboardKit can be customized and styled to great extent." url="/customization" %}
+  {% include kankoda/licenses/table-row.html row=04 feature="Custom views" columns="✔,✔,✔,✔" title="KeyboardKit lets you use custom views around and within the keyboard." url="/customization" %}
+
+  <hr />
+
+  {% include kankoda/licenses/table-row.html row=01 feature="Autocomplete" columns="-,✔,✔,✔" title="KeyboardKit Pro unlocks autocomplete for the languages in your license." url="/features/autocomplete" %}
+  {% include kankoda/licenses/table-row.html row=02 feature="Autocorrect" columns="-,✔,✔,✔" title="KeyboardKit Pro unlocks autocorrect for the languages in your license." url="/features/autocomplete" %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Localized Keyboard" columns="-,✔,✔,✔" title="KeyboardKit Pro unlocks fully localized system keyboards for the languages in your license." url="/features/localization" %}
+  {% include kankoda/licenses/table-row.html row=04 feature="Localized Services" columns="-,✔,✔,✔" title="KeyboardKit Pro unlocks additional input sets and layouts for the languages in your license, plus others like QWERZ and AZERTY." url="/features/localization" %}
+  
+  <hr />
+  
+  {% include kankoda/licenses/table-row.html row=01 feature="AI Support" columns="-,-,✔,✔" title="KeyboardKit Pro unlocks tools that support implementing AI-based features." url="/pro/ai" %}
+  {% include kankoda/licenses/table-row.html row=02 feature="Full Document Reader" columns="-,-,✔,✔" title="KeyboardKit Pro lets you read the entire text document, instead of just the text next to the input cursor." url="/features/proxy-utilities" %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Text Routing" columns="-,-,✔,✔" title="KeyboardKit Pro lets you route text from the main app to any text field within the keyboard." url="/features/text-routing" %}
+  
+  <hr />
+  
+  {% include kankoda/licenses/table-row.html row=01 feature="Dictation" columns="-,-,-,✔" title="KeyboardKit Pro unlocks a dictation engine that lets you perform dictation from a keyboard." url="/features/dictation" %}
+  {% include kankoda/licenses/table-row.html row=02 feature="Emoji Keyboard & Utils" columns="-,-,-,✔" title="KeyboardKit Pro unlocks a full-blown emoji keyboard and features like categories, skintones, version info, etc." url="/features/emojis" %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Remote Autocomplete" columns="-,-,-,✔" title="KeyboardKit Pro unlocks a remote autocomplete engine that can integrate with remote services." url="/features/autocomplete" %}
+  {% include kankoda/licenses/table-row.html row=04 feature="Themes & Styles" columns="-,-,-,✔" title="KeyboardKit Pro unlocks a remote autocomplete engine that can integrate with remote services." url="/pro/themes" %}
+  
+  <hr />
+
+  {% include kankoda/licenses/table-row.html row=01 feature="Onboarding call" columns="-,-,-,Optional" title="The optional onboarding call lets us understand your needs to help you get started." url="/pro/addons" %}
+  {% include kankoda/licenses/table-row.html row=02 feature="Monthly call" columns="-,-,-,Optional" title="The optional monthly call lets us keep in sync and move your products forward." url="/pro/addons" %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Additional apps" columns="-,-,-,Add-on" title="Additional test licenses can be added to an existing license at a discounted price." url="/pro/addons" %}
+  {% include kankoda/licenses/table-row.html row=04 feature="Multi-platform" columns="-,-,-,Add-on" title="The multi-platform plan includes on-demand multi-platform builds for new versions." url="/pro/addons" %}
+
+  <hr />
+
+  {% include kankoda/licenses/table-row.html row=01 feature="Support" columns="GitHub,GitHub,Email,Priority" title="The higher tiers include priority support and can pay extra for dedicated support." url="/pro/support" %}
+  
+  <hr />
+
+  <div class="grid footer">
+    <div class="feature"></div>
+    <div></div>
+    <div>{% include kankoda/gumroad/button.html url=site.gumroad_url text="Sign up" %}</div>
+    <div>{% include kankoda/gumroad/button.html url=site.gumroad_url text="Sign up" %}</div>
+    <div>{% include kankoda/gumroad/button.html url=site.gumroad_url text="Sign up" %}</div>
+  </div>
+</section>

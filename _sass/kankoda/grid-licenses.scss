@@ -52,10 +52,27 @@
     background-color: $content-background;
     padding: 6px 0;
 
-    > div {
+    .tier {
       border-radius: 5px;
       display: block;
       text-align: center;
+      background-color: #fff;
+      border: solid 2px $license-border-color;
+    }
+
+    .tier.silver {
+      background-color: #f7f7f7;
+      border: solid 2px $license-border-color;
+    }
+
+    .tier.gold {
+      border: solid 2px gold;
+      background-color: rgba(255, 215, 0, 0.2);
+
+      .cta-button {
+        color: black !important;
+        background-color: gold !important;
+      }
     }
 
     h3 {
@@ -71,24 +88,6 @@
         font-weight: normal;
         opacity: 0.5;
       }
-    }
-
-    .trial {
-      background-color: white;
-      margin-top: 12px;
-      padding: 5px 20px;
-      border-radius: 16px;
-      font-size: small;
-      box-shadow: #00000011 0px 1px 2px 0px;
-    }
-
-    div.basic .trial {
-      background-color: #f5f5f5;
-      box-shadow: none;
-    }
-
-    .trial:hover {
-      box-shadow: #00000011 0px 2px 4px 0px;
     }
 
     h3, p {
@@ -124,35 +123,6 @@
 
   .cta-button {
     margin: 20px 10px 0px 10px; 
-  }
-
-  div.free, div.basic, div.indie {
-    background-color: #fff;
-    border: solid 2px $license-border-color;
-  }
-
-  div.silver, div.startup {
-    background-color: #f7f7f7;
-    border: solid 2px $license-border-color;
-  }
-
-  div.gold, div.business {
-    border: solid 2px gold;
-    background-color: rgba(255, 215, 0, 0.2);
-
-    .cta-button {
-      color: black !important;
-      background-color: gold !important;
-    }
-  }
-
-  div.enterprise, div.custom {
-    border: solid 2px black;
-    background-color: #222;
-    color: white;
-    a, a:hover, a:visited { 
-      color: white; 
-    }
   }
 
   .odd, .odd + .grid {   // !!!

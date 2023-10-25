@@ -1,0 +1,27 @@
+<div class="table-header-container">
+    <div class="grid table-header">
+        <div class="feature"></div>
+
+        {% for tier in include.tiers %}
+        <div class="tier {{tier.name | downcase}}">
+            <a href="{{site.gumroad_url}}">
+                <h3>{{tier.name}}</h3>
+                <div>
+                {% if include.price == "monthly" %}
+                {% assign price = tier.monthly_price_month %}
+                {% elsif include.price == "yearly" %}
+                {% assign price = tier.monthly_price_year %}
+                {% endif %}
+
+                {%if price %}
+                <p>${{price}}/month</p>
+                <p class="subtitle">(billed {{ include.price }})</p>
+                {% include kankoda/buttons/cta.html title="Free Trial" %}
+                {% endif %}
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+    <hr style="box-shadow: none !important" />
+  </div>
