@@ -1,4 +1,5 @@
 $site-background: #e3e4e8;
+$site-border: #ddd;
 $content-background: white;
 $footer-background: clear;
 
@@ -7,11 +8,20 @@ $texture-size: 350px;
 $texture-overlay: transparent;
 
 $foreground: black;
+$foreground-contrast: white;
 $foreground-secondary: #222;
 $shadow: #00000065;
 
 $link: black;
 $link-hover: #888;
+
+$cta-background: $foreground;
+$cta-foreground: $foreground-contrast;
+
+$button-group-border: $site-border;
+$button-group-background: #f6f6fa;
+$button-group-selected-background: $cta-background;
+$button-group-selected-foreground: $cta-foreground;
 
 $code-background: #e9e9e9;
 $code-foreground: black;
@@ -20,7 +30,7 @@ $code-border: #ccc;
 $code-block-background: #112;
 $code-block-foreground: white;
 
-$license-border-color: #ddd;
+$license-border-color: $site-border;
 $license-table-color: white;
 $license-even-row-color: #f7f7f7;
 $license-shadow-color: transparent;

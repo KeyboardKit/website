@@ -61,7 +61,8 @@
   .group {
     padding: 15px 5px;
     border-radius: 20px;
-    border: solid 1px $license-border-color;
+    background-color: $button-group-background;
+    border: solid 1px $button-group-border;
 
     a {
       padding: 10px;
@@ -70,15 +71,15 @@
     }
   
     a.active {
-      background-color: black;
-      color: white;
+      color: $button-group-selected-foreground;
+      background-color: $button-group-selected-background;
     }
   }
 }
 
 .cta-button {
-  color: white;
-  background-color: black; 
+  color: $cta-foreground;
+  background-color: $cta-background;
   border-radius: 15px; 
   padding: 10px; 
   font-size: large;
