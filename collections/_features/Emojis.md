@@ -81,8 +81,16 @@ KeyboardKit Pro unlocks an `EmojiKeyboard` that mimics the native emoji keyboard
 
 The keyboard uses a bunch of views that are also unlocked by KeyboardKit Pro, such as the `Emojis.Grid`, as well as titles, menus, etc. You can use these views as standalone components as well. 
 
+KeyboardKit Pro unlocks an `Emojis.MostRecentProvider` and replaces ``StandardKeyboardActionHandler`` with a `ProKeyboardActionHandler` that automatically registers emojis as you use them in the keyboard.
 
-### Emoji Categories
+
+
+### Emoji Power-Ups
+
+KeyboardKit Pro unlocks additional emoji information and capabilities.
+
+
+#### Emoji Categories
 
 KeyboardKit Pro unlocks an `Emojis.Category` enum that defines all emoji categories and their emojis:
 
@@ -106,7 +114,7 @@ Emoji.all     // 😀😃😄😁😆🥹😅😂🤣🥲 ...
 Emoji categories are used to power the `EmojiKeyboard`.
 
 
-### Emoji Skin tones
+#### Emoji Skin tones
 
 KeyboardKit Pro unlocks additional ``Emoji`` extensions to get skin tone information:
 
@@ -125,7 +133,7 @@ Skin tones will also be used as secondary callout actions, which means that long
 Note that skin tones for emojis with multiple skin tone components is currently not supported, such as two persons kissing.
 
 
-### Emoji Versions
+#### Emoji Versions
 
 KeyboardKit Pro unlocks an `EmojiVersion` type that defines emoji versions, platform availability and included emojis, for instance:
 
@@ -156,11 +164,6 @@ version.unavailableEmojis // 🫨🫸🫷🪿🫎🪼🫏🪽...
 ```
 
 This can be used to filter out unavailable emojis from the various categories, which lets the emoji keyboard only list available emojis.
-
-
-### Most recent emojis
-
-KeyboardKit Pro unlocks an `Emojis.MostRecentProvider` and replaces ``StandardKeyboardActionHandler`` with a `ProKeyboardActionHandler` that automatically registers emojis as you use them.
 
 
 
