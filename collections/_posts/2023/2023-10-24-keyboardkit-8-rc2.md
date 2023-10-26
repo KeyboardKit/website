@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 8 Release Candidate 2
+title:  KeyboardKit 8 - Release Candidate 2
 date:   2023-10-24 08:00:00 +0100
 tags:   releases
 
