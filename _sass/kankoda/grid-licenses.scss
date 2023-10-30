@@ -69,9 +69,14 @@
       border: solid 2px gold;
       background-color: rgba(255, 215, 0, 0.2);
 
-      .cta-button {
+      .cta {
         color: black !important;
         background-color: gold !important;
+      }
+
+      .cta:hover {
+        text-decoration: none;
+        box-shadow: 1px 2px 1px $shadow;
       }
     }
 
@@ -92,6 +97,10 @@
 
     h3, p {
       margin: 0; padding: 0;
+    }
+
+    .cta {
+      margin: 20px 10px 0px 10px; 
     }
   }
 
@@ -119,10 +128,6 @@
 
   .grid + .grid {
     border: none;
-  }
-
-  .cta-button {
-    margin: 20px 10px 0px 10px; 
   }
 
   .odd, .odd + .grid {   // !!!

@@ -1,5 +1,21 @@
+a.cta {
+  color: $cta-foreground !important;
+  background-color: $cta-background;
+  border-radius: 20px; 
+  min-width: 100px;
+  text-align: center;
+  margin: 10px; 
+  padding: 10px 5px;
+  font-size: large;
+}
+
+a.cta:visited {
+  color: $cta-foreground !important;
+}
+
 a.scale {
   display: block;
+  text-decoration: none;
 }
 
 a.scale:hover, a.scale:visited:hover {
@@ -83,16 +99,4 @@ a.scale:hover, a.scale:visited:hover {
       background-color: $button-group-selected-background;
     }
   }
-}
-
-.cta-button {
-  color: $cta-foreground;
-  background-color: $cta-background;
-  border-radius: 15px; 
-  padding: 10px; 
-  font-size: large;
-}
-
-a.cta-button:visited {
-  color: white;
 }

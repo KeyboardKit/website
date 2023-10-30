@@ -2,19 +2,9 @@
   {% include kankoda/gumroad/script.html %}
 {% endif %}
 
-{% if include.subscription == "monthly" %}
-  {% assign basic  =  49 %}
-  {% assign silver = 149 %}
-  {% assign gold   = 499 %}
-{% else %}
-  {% assign basic  =  39 %}
-  {% assign silver = 119 %}
-  {% assign gold   = 399 %}
-{% endif %}
-
 <section class="license-table {{include.price}}">
 
-  {% include kankoda/licenses/table-tiers.html tiers=include.tiers price=include.price %}    
+  {% include kankoda/licenses/table-tiers.html tiers=include.tiers price=include.price %}
 
   {% include kankoda/licenses/table-row.html row=01 feature="Languages" columns="-,1,5,<a href='/features/localization'>&nbsp;60+&nbsp;</a>" title="KeyboardKit Pro unlocks fully localized keyboards and services for all locales." url="/features/localization" %}
 
@@ -62,9 +52,14 @@
 
   <div class="grid footer">
     <div class="feature"></div>
-    <div></div>
-    <div>{% include kankoda/gumroad/button.html url=site.gumroad_url text="Sign up" %}</div>
-    <div>{% include kankoda/gumroad/button.html url=site.gumroad_url text="Sign up" %}</div>
-    <div>{% include kankoda/gumroad/button.html url=site.gumroad_url text="Sign up" %}</div>
+    {% for tier in include.tiers %}
+    <div>
+        {% if tier.monthly_price_year %}
+        <a href="{{site.gumroad_url}}" class="cta scale">
+          Sign Up
+        </a>
+        {% endif %}
+    </div>
+    {% endfor %}
   </div>
 </section>
