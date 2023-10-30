@@ -76,6 +76,8 @@ The `LocalAutocompleteProvider` now make some minor local adjustments, such as p
 
 As part of this release, some features have been moved to KeyboardKit 8.0, including `EmojiKeyboard`, emoji categories, and text routing.
 
+KeyboardKit Pro 8 also moves over to a [brand new subscription]({{site.gumroad_url}}) that supports a 7 day FREE TRIAL, a monthly plan for all tiers, and one single product for all tiers.
+
 
 ## ...and much more
 
