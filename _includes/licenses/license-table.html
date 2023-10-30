@@ -1,4 +1,6 @@
-{% include kankoda/gumroad/script.html %}
+{% if include.script %}
+  {% include kankoda/gumroad/script.html %}
+{% endif %}
 
 {% if include.subscription == "monthly" %}
   {% assign basic  =  49 %}

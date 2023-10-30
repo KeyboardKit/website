@@ -13,8 +13,7 @@ docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/
 ---
 
 {% include pricing-links.html %}
-
-{% include licenses/license-table.html tiers=site.data.tiers price="yearly" %}
+{% include licenses/license-table.html tiers=site.data.tiers price="yearly" script=true %}
 {% include licenses/license-table.html tiers=site.data.tiers price="monthly" %}
 
 Licenses can be purchased from the [Gumroad]({{site.gumroad_url}}) e-shop <!--[Lemon Squeezy]({{site.lemon_url}})-->. [Reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) if you want to include any add-ons, or if you have another preferred method of payment or invoicing.
