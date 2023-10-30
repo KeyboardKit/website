@@ -1,13 +1,21 @@
 - name: Open Source
-  
+  url: https://kankoda.gumroad.com/l/keyboardkitpro
+  cta: GitHub
+
 - name: Basic
   monthly_price_year: 39
   monthly_price_month: 49
+  url: https://github.com/KeyboardKit/KeyboardKit
+  cta: Free Trial
 
 - name: Silver
   monthly_price_year: 119
   monthly_price_month: 149
+  url: https://kankoda.gumroad.com/l/keyboardkitpro
+  cta: Free Trial
 
 - name: Gold
   monthly_price_year: 399
   monthly_price_month: 449
+  url: https://kankoda.gumroad.com/l/keyboardkitpro
+  cta: Free Trial

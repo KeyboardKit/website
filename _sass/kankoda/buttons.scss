@@ -1,3 +1,11 @@
+a.scale {
+  display: block;
+}
+
+a.scale:hover, a.scale:visited:hover {
+  transform: scale(1.04);
+}
+
 .back-button, .forward-button {
   a {
     font-weight: normal !important;

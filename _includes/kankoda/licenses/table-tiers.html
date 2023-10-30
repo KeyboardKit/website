@@ -4,22 +4,30 @@
 
         {% for tier in include.tiers %}
         <div class="tier {{tier.name | downcase}}">
-            <a href="{{site.gumroad_url}}">
-                <h3>{{tier.name}}</h3>
-                <div>
-                {% if include.price == "monthly" %}
-                {% assign price = tier.monthly_price_month %}
-                {% elsif include.price == "yearly" %}
-                {% assign price = tier.monthly_price_year %}
-                {% endif %}
+            
+            <h3>{{tier.name}}</h3>
+            <div>
+            {% if include.price == "monthly" %}
+            {% assign price = tier.monthly_price_month %}
+            {% elsif include.price == "yearly" %}
+            {% assign price = tier.monthly_price_year %}
+            {% endif %}
 
-                {%if price %}
-                <p>${{price}}/month</p>
-                <p class="subtitle">(billed {{ include.price }})</p>
-                {% include kankoda/buttons/cta.html title="Free Trial" %}
-                {% endif %}
-                </div>
+            {% if price %}
+            <p>${{price}}/month</p>
+            <p class="subtitle">(billed {{ include.price }})</p>
+            {% else %}
+            <p>&nbsp;</p>
+            <p class="subtitle">&nbsp;</p>
+            {% endif %}
+
+            {% if tier.cta %}
+            <a href="{{site.gumroad_url}}" class="cta scale">
+                {% include kankoda/buttons/cta.html title=tier.cta %}
             </a>
+            {% endif %}
+            </div>
+            
         </div>
         {% endfor %}
     </div>
