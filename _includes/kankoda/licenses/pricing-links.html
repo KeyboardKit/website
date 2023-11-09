@@ -1,0 +1,10 @@
+<div class="hero-button-container">
+  <span class="group">
+      {% if include.extra-title %}
+      <a href="{{include.extra-title}}">{{include.extra-title}}</a>
+      {% endif %}
+
+      <a href="javascript:showLicenseTable('yearly')" class="yearly active">Yearly</a>
+      <a href="javascript:showLicenseTable('monthly')" class="monthly">Monthly</a>
+  </span>
+</div>

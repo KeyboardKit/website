@@ -22,17 +22,17 @@
   // Licenses
 
   function hideAllLicenseTables() {
-    $(".license-table").hide();
+    $(".feature-table").hide();
     $(".hero-button-container a").removeClass("active");
   }
 
   function hideLicenseTable(sub) {
-    $(".license-table." + sub).hide();
+    $(".feature-table." + sub).hide();
   }
 
   function showLicenseTable(sub) {
     hideAllLicenseTables();
-    $(".license-table." + sub).show(); 
+    $(".feature-table." + sub).show(); 
     $(".hero-button-container ." + sub).addClass("active");
   }
 

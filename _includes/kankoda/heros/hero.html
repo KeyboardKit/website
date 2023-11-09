@@ -7,14 +7,21 @@
             <h1>{{include.hero-title | default: page.title}}</h1>
             <p>{{include.hero-description | default: page.description}}</p>
             {% if hero_size > 0 %}
-                <img src="{{include.hero}}" alt="Page hero image for {{page.id}} page" class="{{page.hero-img-class}}" />
+                <div class="image-wrapper">
+                    <img src="{{include.hero}}" alt="Page hero image for {{page.id}} page" class="{{page.hero-img-class}}" />
+                </div>
             {% elsif emoji_size > 0 %}
                 <span class="emoji">
                     {{include.hero-emoji}}
                 </span>
             {% endif %}
         </div>
-        <div class="hero-line"></div>
+        <div class="hero-line">
+            <div class="line-content">
+                <div class="line"></div>
+                <div class="line-footer"></div>
+            </div>
+        </div>
     </div>
 </section>
 {% endif %}

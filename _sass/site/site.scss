@@ -14,11 +14,19 @@
             margin-top: 0 !important;
         }
     }
+}
 
-    .hero {
+.hero-button-container {
+  margin-top: 0px;
+}
 
-        img {
-            width: 750px;
-        }
+@media (max-width: 500px) {
+
+    // Hide open-source on smaller screens
+  .feature-table {
+    .grid {
+      grid-template-columns: repeat(3, 1fr) !important;
     }
+    .feature + div { display: none !important; }
+  }
 }

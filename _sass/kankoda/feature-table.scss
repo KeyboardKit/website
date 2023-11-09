@@ -1,17 +1,24 @@
-.license-table.yearly {
+.feature-table.yearly {
   display: block;
 }
 
-.license-table.monthly {
+.feature-table.monthly {
   display: none;
 }
 
-.license-table {
+.feature-table.three-tier {
+
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.feature-table {
 
   padding-bottom: 30px;
 
   .grid {
-    background-color: $license-table-color;
+    background-color: $feature-table-background;
 
     grid-row-gap: 10px;
     grid-column-gap: 5px;
@@ -57,12 +64,12 @@
       display: block;
       text-align: center;
       background-color: #fff;
-      border: solid 2px $license-border-color;
+      border: solid 2px $feature-table-border-color;
     }
 
     .tier.silver {
       background-color: #f7f7f7;
-      border: solid 2px $license-border-color;
+      border: solid 2px $feature-table-border-color;
     }
 
     .tier.gold {
@@ -105,7 +112,7 @@
   }
 
   .table-section-header {
-    background-color: $license-table-color;
+    background-color: $feature-table-background;
     display: none;
     padding: 5px 5px 0px 5px;
     font-size: smaller;
@@ -113,16 +120,16 @@
   }
 
   .table-section-header + .grid {
-    border-top: solid 1px $license-border-color !important;
+    border-top: solid 1px $feature-table-border-color !important;
   }
 
   hr {
     border: none !important;
-    border-bottom: solid 1px $license-border-color !important;
+    border-bottom: solid 1px $feature-table-border-color !important;
     height: 50px !important;
     margin-top: 0 !important;
     margin-bottom: 0 !important;
-    box-shadow: 0 20px 20px -20px $license-shadow-color !important;
+    box-shadow: 0 20px 20px -20px $feature-table-shadow-color !important;
     margin: -50px auto 10px !important; 
   }
 
@@ -131,13 +138,20 @@
   }
 
   .odd, .odd + .grid {   // !!!
-    background-color: $license-even-row-color;
+    background-color: $feature-table-even-row-color;
   }
 }
 
 @media (max-width: 950px) {
 
-  .license-table {
+  .feature-table.three-tier {
+
+    .grid {
+      grid-template-columns: repeat(3, 1fr) !important;
+    }
+  }
+
+  .feature-table {
 
     .grid {
       grid-template-columns: repeat(4, 1fr) !important;
@@ -150,7 +164,7 @@
 
     .table-section-header { 
       display: inherit;
-      border-top: solid 1px $license-border-color !important;
+      border-top: solid 1px $feature-table-border-color !important;
     }
 
     .table-section-header + .grid {
@@ -161,13 +175,20 @@
   
 @media (max-width: 500px) {
 
-  .license-table {
+  .feature-table {
 
-    h3.regular { display: none !important; }
-    h3.compact { display: block !important; }
+    font-size: smaller;
 
-    .table-header {
-      font-size: 12px;
+    h3.regular { 
+      display: none !important; 
+    }
+    
+    h3.compact { 
+      display: block !important; 
+    }
+
+    .cta {
+      font-size: small;
     }
   }
 }
