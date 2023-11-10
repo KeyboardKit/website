@@ -1,8 +1,6 @@
 {% assign product = include.product %}
 
 
-These terms and conditions apply to the [{{ product }} SDK]({{include.url}}). Read carefully before purchasing a license.
-
 ## License Details
 
 A license is valid for **one product**, as specified by the bundle ID you provide at the time of purchase.
