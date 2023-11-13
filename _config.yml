@@ -30,7 +30,7 @@ twitter_url: https://twitter.com/getkeyboardkit
 twitter_username: getkeyboardkit
 
 assets: /assets/
-header_image: /assets/icon/icon-120.png
+header_image: /assets/icon/icon-header.png
 header_image_type: icon
 
 locale_count: 61
