@@ -12,9 +12,17 @@ description: KeyboardKit Pro unlocks features that take your keyboard to the nex
 
 {% include funnel-links.html active="pro" %}
 
-KeyboardKit is [open-source](/open-source) and completely free, but you can [sign up for KeyboardKit Pro](/pricing) to unlock pro features like 60+ locales, autocomplete, an emoji keyboard, dictation, and much more.
+KeyboardKit is [open-source](/opensource) and completely free. KeyboardKit Pro unlocks pro features like [{{site.locale_count}} languages](/locales), autocomplete & autocorrect, an emoji keyboard, dictation, themes, and much more.
 
-Visit the [GitHub project site]({{site.github_url_pro}}) for documentation, code examples, releases, demo apps, etc.
+
+## Pricing
+
+KeyboardKit Pro requires a [commercial license](/pricing) to be used. You can choose between three tiers.
+
+
+## GitHub
+
+KeyboardKit Pro has a separate [GitHub project]({{site.github_url_pro}}) with documentation, code examples, releases, etc.
 
 
 ## Languages

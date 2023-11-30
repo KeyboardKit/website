@@ -13,20 +13,23 @@ docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/
 ---
 
 {% include pricing-links.html %}
+
+These standard tiers are aimed at indie developers, startups and small businesses. For companies and organizations with more than $1M USD in annual proceeds, [reach out for an enterprise plan](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License).
+
+&nbsp;
+
 {% include licenses/feature-table.html tiers=site.data.tiers price="yearly" script=true %}
 {% include licenses/feature-table.html tiers=site.data.tiers price="monthly" %}
 
-Licenses can be purchased from the [Gumroad]({{site.gumroad_url}}) e-shop <!--[Lemon Squeezy]({{site.lemon_url}})-->. [Reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) if you want to include any add-ons, or if you have another preferred method of payment or invoicing.
+
+## Online Store
+
+Licenses can be purchased from the [Gumroad]({{site.gumroad_url}}) online store <!--[Lemon Squeezy]({{site.lemon_url}})-->. [Reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) if you want to include any [add-ons](/pro/addons), or if you have another preferred method of payment or invoicing.
 
 
 ## Add-Ons
 
-KeyboardKit Pro has many optional [add-ons](/pro/addons) that are available to Gold licenses. Just [reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License%20Add-Ons) to discuss customizations and add-ons to your license.
-
-
-## Enterprise Licenses
-
-The standard tiers are aimed at indie developers, startups and small businesses. For companies and organizations with more than $1M USD in annual proceeds, please [reach out for a custom plan](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License).
+KeyboardKit Pro has optional [add-ons](/pro/addons) that are available to Gold licenses. Just [reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License%20Add-Ons) if you want to add any add-ons to your license.
 
 
 ## License Terms

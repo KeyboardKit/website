@@ -11,6 +11,11 @@ description: KeyboardKit Pro has many optional add-on services
 [KeyboardKit Pro](/pro) has many optional add-ons that are available to Gold licenses. Just [reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License%20Add-Ons) to discuss customizations and add-ons to your license.
 
 
+## On-Device License Validation
+
+Yearly Gold licenses are compiled into the library and validated on-device, without the need for Full Access and with more room for customizations.
+
+
 ## Binary Licenses
 
 Yearly Gold licenses are compiled into the library and validated on-device, without the need for Full Access and with more room for customizations.
