@@ -15,7 +15,7 @@ sponsors: https://github.com/sponsors/danielsaidi
 
 <div class="hero-button-container">
     <span class="group">
-        <a href="/open-source" class="active">Core Features</a>
+        <a href="/opensource" class="active">Core Features</a>
         <a href="/pro">Pro Features</a>
     </span>
 </div>
