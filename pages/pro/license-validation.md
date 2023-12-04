@@ -8,16 +8,21 @@ hero: /assets/heros/pro.png
 description: KeyboardKit Pro can validate licenses over the Internet or on-device 
 ---
 
-[KeyboardKit Pro](/pro) licenses are validated over the Internet, which requires keyboard extensions to use Full Access. The only exception is Gold licenses, which are validated on-device.
+## License Validation
 
-
-## Online License Validation
-
-Basic and monthly Silver & Gold licenses are validated over the Internet. This means that keyboard extensions must have Full Access enabled to be able to make network calls.
-
-KeyboardKit Pro licenses are cached on device and will therefore work even if the device is offline.
+All [KeyboardKit Pro](/pro) licenses except Yearly Gold are validated over the Internet. This requires that keyboard extensions enable Full Access.
 
 
 ## On-Device License Validation
 
-Yearly Silver & Gold licenses are compiled into the library after the free 7 day trial, after which they are validated on-device, without the need for Full Access or network calls.
+Yearly Gold licenses are compiled into the library after the free 7 day trial. They are then validated on-device, without the need for Full Access or network calls.
+
+
+## License Caching
+
+Successful license validations are cached to handle temporary connectivity loss, and will then work for a while, even if the device is offline.
+
+
+## App Group Syncing
+
+Future versions of KeyboardKit will allow App Group syncing, to let the main app validate a license that can then be used by the keyboard extension. [Reach out]({{site.email_url}}) if you need this feature.
