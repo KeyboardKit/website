@@ -7,6 +7,9 @@ image:  /assets/headers/icon.png
 
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/8.1.0
 release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/8.1.0
+
+tweet:  https://x.com/GetKeyboardKit/status/1733940281404182620?s=20
+toot:   https://techhub.social/@keyboardkit/111557907679669752
 ---
 
 KeyboardKit 8.1 is out, with some autocomplete and localization improvements. Pro users will also be able to choose language at setup, instead of being bound to the license. Let's take a look.
