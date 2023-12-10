@@ -38,11 +38,11 @@ KeyboardKit 8.1 makes it easier to add and replace any localized services in the
 
 ## 👑 Pro adjustments
 
-KeyboardKit Pro 8.1 makes it possible to specity locales when registering a KeyboardKit Pro license, or setting up Pro with any `setupPro` function.
+KeyboardKit Pro 8.1 lets Pro users specify locales when calling `setupPro` or registering a license key, instead of having to decide this when purchasing the license. This is a huge improvement, that lets customers change locales without having to adjust their license.
 
-This is a huge improvement, that allows Pro customers to change the locales at any time, instead of having to decide when signing up for a license.
+Since locales are now specified with code instead of when purchasing a license, the text field will be removed from the Gumroad purchase screen. Existing customers will default to their purchase info, but can override it with this new way of specifying locales.
 
-Since locales can now be specified when setting up KeyboardKit Pro, the text field will be removed from the purchase screen. All existing customers will default to their purchase info.
+Locales can be changed at any time in debug mode, and once for each new version that's submitted to the App Store. The number of locales will be capped to the license tier, which doesn't change.
 
 
 ## Conclusion
