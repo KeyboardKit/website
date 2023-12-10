@@ -42,6 +42,8 @@ KeyboardKit Pro 8.1 makes it possible to specity locales when registering a Keyb
 
 This is a huge improvement, that allows Pro customers to change the locales at any time, instead of having to decide when signing up for a license.
 
+Since locales can now be specified when setting up KeyboardKit Pro, the text field will be removed from the purchase screen. All existing customers will default to their purchase info.
+
 
 ## Conclusion
 
