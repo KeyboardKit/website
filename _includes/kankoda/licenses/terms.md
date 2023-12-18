@@ -3,7 +3,7 @@
 
 ## License Details
 
-A license is valid for one product, defined by the bundle ID that is provided at the time of purchase.
+The license is valid for one product, as defined by the bundle IDs that is provided during purchase.
 
 
 ### License Activation
