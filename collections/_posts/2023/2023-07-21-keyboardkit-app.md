@@ -13,6 +13,6 @@ The brand new KeyboardKit app is out! [Download it today]({{site.appstore_url}})
 
 ![KeyboardKit logo]({{page.image}})
 
-The KeyboardKit app uses [KeyboardKit Pro](/pro) to provide users with all available [standard themes](/pro/themes), support for 60+ languages, emoji skintone support, dictation and much more. The app also lets users create their own themes and share them with others.
+The KeyboardKit app uses [KeyboardKit Pro](/pro) to provide users with all available [standard themes](/pro/themes), support for all locales, emoji skintone support, dictation and much more. The app also lets users create their own themes and share them with others.
 
 [Download the new app today]({{site.appstore_url}}).

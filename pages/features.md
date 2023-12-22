@@ -27,7 +27,7 @@ The KeyboardKit core features are [open-source](/open-source) and completely fre
 
 KeyboardKit supports [{{site.locale_count}} locales](/locales):
 
-{% include locales/flags.html divider=" " %}
+{% include locales/flags.html %}
 
 
 ## Features

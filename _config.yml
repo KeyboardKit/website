@@ -33,7 +33,7 @@ assets: /assets/
 header_image: /assets/icon/icon-header.png
 header_image_type: icon
 
-locale_count: 61
+locale_count: 63
 
 header_pages:
   - pages/open-source.md

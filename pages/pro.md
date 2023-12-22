@@ -29,7 +29,7 @@ KeyboardKit Pro has a separate [GitHub project]({{site.github_url_pro}}) with do
 
 KeyboardKit unlocks [localized keyboards and services](/features/localization) for up to [{{site.locale_count}} languages](/locales):
 
-{% include locales/flags.html divider=" " %}
+{% include locales/flags.html %}
 
 
 ## Features

@@ -15,9 +15,7 @@ This blog post contains important information about a keyboard extension crash t
 
 Some developers have reported that their keyboard extensions crash on launch in production. The same has been observed for the [KeyboardKit app](/app).
 
-When this crash happens in production, nothing is reported to Xcode. This means that you will get not indication that the your keyboard extension is crashing for your users.
-
-When this crash happens in Xcode, attaching the debugger to your keyboard extension will not work. The keyboard extension will crash before being attached to the debugger.
+When the crash happens in production, nothing is reported to Xcode. This means that you won't get any indications that your keyboard is crashing for your users. When it happens in Xcode, attaching the debugger to your keyboard extension will not work. The keyboard will crash before being attached.
 
 
 ## Not caused by KeyboardKit

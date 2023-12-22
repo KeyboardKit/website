@@ -25,7 +25,7 @@ KeyboardKit is hosted at [GitHub]({{site.github_url_pro}}), where you'll find do
 
 KeyboardKit supports [{{site.locale_count}} languages](/locales):
 
-{% include locales/flags.html divider=" " %}
+{% include locales/flags.html %}
 
 
 ## Features

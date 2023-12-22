@@ -6,7 +6,7 @@ redirect_from: /languages
 
 hero: /assets/heros/locales.png
 
-description: KeyboardKit supports 61 locales.
+description: KeyboardKit supports 60+ locales.
 ---
 
 KeyboardKit comes with support for <b>{{site.locale_count}}</b> keyboard locales (languages), which determines things like keyboard layout, callout actions, autocomplete suggestions, etc.:
