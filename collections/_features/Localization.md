@@ -14,7 +14,7 @@ KeyboardKit defines keyboard-specific languages, where each has localized string
 
 KeyboardKit supports [{{site.locale_count}} locales](/locales):
 
-{% include locales/flags.html divider=" " %}
+{% include locales/flags.html %}
 
 Each keyboard locale refers to a native `Locale` and has additional keyboard-specific information, as well as localized assets and strings that can be translated with the ``KKL10n`` enum.
 
