@@ -4,6 +4,9 @@ date:   2024-01-31 08:00:00 +0100
 tags:   navigation url
 
 image:  /assets/headers/icon.png
+
+tweet:  https://x.com/GetKeyboardKit/status/1752969884886044881?s=20
+toot:   https://techhub.social/@keyboardkit/111855245325388950
 ---
 
 Keyboard extensions may sometimes want to open the main app to perform some operations, or provide a larger UI for settings. Getting back to the keyboard is however unfortunately not as easy.
