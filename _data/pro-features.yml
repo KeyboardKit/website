@@ -8,7 +8,7 @@
   url: /features/actions  
   emoji: 💥
   text: KeyboardKit Pro auto-registers the most recently used emojis.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-actions
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/actions-article
 
 - title: AI Support
   url: /pro/ai  
@@ -20,64 +20,76 @@
   url: /features/autocomplete  
   emoji: 💡
   text: KeyboardKit Pro unlocks local and remote autocomplete.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-autocomplete
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/autocomplete-article
 
 - title: Callouts
   url: /features/callouts  
   emoji: 🗯
   text: KeyboardKit Pro unlocks localized callout actions for all locales.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-callouts
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/callouts-article
 
 - title: Dictation
   url: /features/dictation  
   emoji: 🎤
-  text: (BETA) KeyboardKit Pro unlocks dictation for apps and keyboards.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-dictation
+  text: KeyboardKit Pro unlocks dictation for apps and keyboards.
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/dictation-article
 
 - title: Emojis
   url: /features/emojis  
   emoji: 😀
   text: KeyboardKit Pro unlocks an emoji keyboard and more information.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-emojis
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/emojis-article
 
 - title: External Keyboards
   url: /features/external-keyboards
   emoji: ⌨️
   text:  KeyboardKit Pro can detect if an external keyboard is connected. 
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-external-keyboards
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/external-article-keyboards
 
 - title: Layout
   url: /features/layout  
   emoji: 🔣
   text: KeyboardKit Pro unlocks localized input sets and layouts.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-layout
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/layout-article
 
 - title: Localization
   url: /features/localization
   emoji: 🌐
   text: KeyboardKit Pro unlocks support for 60+ locales.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-localization
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/localization-article
 
 - title: Previews
   url: /features/previews
   emoji: 👁
   text:  KeyboardKit Pro unlocks system keyboard and theme previews.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-previews
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/previews-article
   
 - title: Proxy Utilities
   url: /features/proxy-utilities
   emoji: ➡️
   text:  KeyboardKit Pro makes the proxy able to read all document content.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-proxy-utilities
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/proxy-article-utilities
 
 - title: Styling
   url: /features/styling  
   emoji: 🎨
   text: KeyboardKit Pro unlocks a theme engine with many themes.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-styling
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/styling-article
 
 - title: Text Routing
   url: /features/text-routing  
   emoji: 🚏
   text: KeyboardKit Pro lets you type within the keyboard.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/understanding-routing
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/routing-article
+
+- title: Themes
+  url: /themes
+  emoji: 🍭
+  text: KeyboardKit Pro lets you style your keyboards with themes.
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/themes-article
+
+- title: Views
+  url: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/views
+  emoji: 🌁
+  text: KeyboardKit Pro unlock many additional views.
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/views
