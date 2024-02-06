@@ -41,7 +41,7 @@ A ``KeyboardStyleProvider`` can return dynamic styles for different parts of the
 
 ## 👑 Pro features
 
-[KeyboardKit Pro][Pro] unlocks a theme engine that makes it a lot easier to define styles. Once you have a theme, you can apply it with a `ThemeBasedKeyboardStyleProvider`. See [themes](/themes) for more details.
+[KeyboardKit Pro][Pro] unlocks a theme engine that makes it a lot easier to define styles. Once you have a theme, you can apply it with a `ThemeBasedKeyboardStyleProvider`. See [themes](/features/themes) for more details.
 
 
 [Pro]: /pro

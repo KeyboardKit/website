@@ -1,13 +1,9 @@
 ---
-id: themes
 title: Themes
-layout: page
-permalink: /pro/themes
-redirect_from: /themes
 
-hero: /assets/heros/themes.png
-
-description: KeyboardKit Pro unlocks a theme engine with many pre-defined themes.
+redirect_from: 
+  - /themes
+  - /pro/themes
 ---
 
 Although KeyboardKit is fully [customizable](/customization) and lets you style and adjust your keyboard in any way you like, [KeyboardKit Pro](/pro) unlocks a theme engine that makes this even easier.
