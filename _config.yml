@@ -44,6 +44,7 @@ header_pages:
 footer_sitemap:
   - index.html
   - pages/about.md
+  - pages/features.md
   - pages/open-source.md
   - pages/pro.md
   - pages/pricing.md

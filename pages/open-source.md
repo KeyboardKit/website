@@ -5,7 +5,6 @@ layout: page
 permalink: /opensource
 
 redirect_from: 
-  - /features
   - /open-source
 
 hero: /assets/heros/icon.png
