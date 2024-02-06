@@ -4,7 +4,9 @@ title: Open-Source
 layout: page
 permalink: /opensource
 
-redirect_from: /open-source
+redirect_from: 
+  - /features
+  - /open-source
 
 hero: /assets/heros/icon.png
 

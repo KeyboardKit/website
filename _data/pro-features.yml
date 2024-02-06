@@ -11,7 +11,7 @@
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/actions-article
 
 - title: AI Support
-  url: /pro/ai  
+  url: /features/ai  
   emoji: 🤖
   text: KeyboardKit Pro unlocks capabilities needed for AI.
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/
@@ -67,7 +67,7 @@
 - title: Proxy Utilities
   url: /features/proxy-utilities
   emoji: ➡️
-  text:  KeyboardKit Pro makes the proxy able to read all document content.
+  text:  KeyboardKit Pro makes the proxy able to read the full document.
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/proxy-article-utilities
 
 - title: Styling
@@ -83,7 +83,7 @@
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/routing-article
 
 - title: Themes
-  url: /themes
+  url: /features/themes
   emoji: 🍭
   text: KeyboardKit Pro lets you style your keyboards with themes.
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/themes-article

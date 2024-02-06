@@ -137,7 +137,7 @@
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/routing-article
 
 - title: Themes
-  url: /themes
+  url: /features/themes
   emoji: 🍭
   text: KeyboardKit lets you style your keyboards with themes.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/themes-article
