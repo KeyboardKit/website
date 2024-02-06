@@ -11,8 +11,6 @@ layout: plain
 {%- assign feature = pro-features | where:"title", page.title | first -%}
 {% endif %}
 
-
-
 <main class="page-content feature" aria-label="Content">
   {%- assign emoji = feature.emoji -%}
   {% if page.pro == 1 %}
@@ -23,11 +21,19 @@ layout: plain
   {%- assign subtitle = feature.text -%}
   {% include kankoda/heros/hero.html hero-emoji=emoji hero-title=title hero-description=subtitle %}
   <div class="wrapper">
-    <article>
+    <article class="paper">
+      <p>This page provides a short summary. Please see the <a href="{{feature.docs}}">online documentation</a> for more information.</p>
+
+      <h2>Overview</h2>
       {{ content }}
 
       <h2>Documentation</h2>
-      <p>The information on this page is shortened to be easier to overview. For more information about this feature, code samples, etc., please see the <a href="{{feature.docs}}">online documentation</a>.</p>
+      <p>The information on this page has been shortened to be easier to overview. For more information about this feature, code samples, etc. please see the <a href="{{feature.docs}}">online documentation</a>.</p>
+
+      <hr />
+
+      <h2>Read more</h2>
+      {% include kankoda/grids/grid-features.html features=site.data.core-features %}
     </article>
   </div>
 </main>

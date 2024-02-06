@@ -12,7 +12,7 @@ description: KeyboardKit Pro unlocks features that take your keyboard to the nex
 docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/
 ---
 
-{% include pricing-links.html %}
+{% include funnel-links.html active="pricing" %}
 
 These standard tiers are aimed at indie developers, startups and small businesses. For companies and organizations with more than $1M USD in annual proceeds, [reach out for an enterprise plan](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License).
 

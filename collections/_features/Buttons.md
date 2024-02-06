@@ -8,7 +8,7 @@ KeyboardKit has some buttons that can be used to mimic native keyboard buttons. 
 
 ## Keyboard Button
 
-The ``KeyboardButton`` namespace defines button views that help you mimic native keyboard buttons:
+The ``KeyboardButton`` namespace has style-based views that help you mimic native keyboard buttons:
 
 - ``Button`` renders actions and custom view as a keyboard button.
 - ``Content`` renders the keyboard button content for an action.
@@ -24,3 +24,5 @@ You can also use the `.keyboardButton` view modifier to convert any view to a ke
 ## Next Keyboard Button
 
 The ``NextKeyboardButton`` can be used to trigger the system's keyboard switcher function, which selects the next keyboard when tapped and shows a keyboard menu when long pressed.
+
+![NextKeyboardButton]({{page.assets}}nextkeyboardbutton-250.jpg)

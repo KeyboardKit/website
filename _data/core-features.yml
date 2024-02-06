@@ -10,6 +10,12 @@
   text: KeyboardKit has many keyboard actions and ways to handle them.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/actions-article
 
+- title: AI Support
+  url: /features/ai
+  emoji: 🤖
+  text: KeyboardKit unlocks capabilities that are needed for AI.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/ai-article
+
 - title: Autocomplete
   url: /features/autocomplete
   emoji: 💡

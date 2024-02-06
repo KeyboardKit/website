@@ -3,13 +3,13 @@
 {% elsif include.active == "pro" %}
   {% assign pro-class = "active" %}
 {% elsif include.active == "pricing" %}
-  {% assign pricing = "active" %}
+  {% assign pricing-class = "active" %}
 {% endif %}
 
 <div class="hero-button-container">
     <span class="group">
         <a href="/opensource" class="{{open-source-class}}">Open-source</a>
-        <a href="/pro" class="{{pro-class}}">&nbsp;&nbsp;Pro&nbsp;&nbsp;</a>
+        <a href="/pro" class="{{pro-class}}">&nbsp;&nbsp;KeyboardKit Pro&nbsp;&nbsp;</a>
         <a href="/pricing" class="{{pricing-class}}">Pricing</a>
     </span>
 </div>

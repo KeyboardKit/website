@@ -2,80 +2,37 @@
 title: Essentials
 ---
 
-As you may have noticed, Apple provides a very limited API to custom keyboard extensions. You have to implement much functionality from scratch, including the keyboard view itself.
+As you may have noticed, Apple's native custom keyboard APIs are limited, and forces you to build a lot of things from scratch, including the very keyboard view itself.
 
-KeyboardKit provides essential types and functionality to simplify building custom keyboards. It extends text document proxy to make it much more capable and lets you use SwiftUI instead of UIKit.
+KeyboardKit extends the native APIs with many features, and lets you use SwiftUI instead of UIKit.
 
-KeyboardKit also has a ``SystemKeyboard`` component that can be used to create keyboards that mimic the native iOS keyboard. It can be customized and styled to great extent.
-
-[KeyboardKit Pro][Pro] unlocks pro features for the system keyboard. Information about Pro features can be found at the end of this article.
+[KeyboardKit Pro][Pro] unlocks Pro features like more locales, autocomplete, emoji keyboards, dictation.
 
 
+## Essential Functionality
 
-## Keyboard input view controller
+The ``KeyboardInputViewController`` is the most essential type in the library. Just make your controller inherit this class to get access to a bunch of additional capabilities.
 
-The ``KeyboardInputViewController`` is the most essential type in the library. Make your controller inherit this base class instead of `UIInputViewController` to get access to a bunch of additional capabilities.
+KeyboardKit has a ``Keyboard`` namespace with keyboard-related types, like ``Case``, ``ReturnKeyType``, etc.
 
+The ``KeyboardContext`` class provides observable keyboard information, like the the current locale.
 
+The ``KeyboardBehavior`` protocol and standard implementation defines the behavior of a keyboard.
 
-## Keyboard namespace
+The ``SystemKeyboard`` can be used to mimic a native iOS keyboard, and can be greatly customized. 
 
-KeyboardKit has a ``Keyboard`` namespace with essential types, like ``AutocapitalizationType``, ``Case``, ``ReturnKeyType``, and much more.
-
-
-
-## Keyboard context
-
-KeyboardKit has an observable ``KeyboardContext`` class that provides information about the keyboard, a reference to the current ``textDocumentProxy``, the current ``keyboardType``, etc.
-
-
-
-## Keyboard behavior
-
-KeyboardKit has a ``KeyboardBehavior`` protocol and standard implementation that can determine certain behaviors. It's used by e.g. the ``StandardKeyboardActionHandler`` to make some decisions.
-
-
-
-## System keyboard
-
-KeyboardKit has a ``SystemKeyboard`` that can be used to create keyboards that mimic the native iOS keyboard. It can be customized and styled to great extent. 
-
-KeyboardKit will by default use a standard ``SystemKeyboard``. If you just want to use this standard view, you don't have to do anything. You can however customize it or replace it altogether.
-
+![SystemKeyboard]({{page.assets}}systemkeyboard-swedish-350.jpg)
 
 
 ## 👑 Pro features
 
-KeyboardKit Pro unlocks powerful preview and emoji capabilities for the system keyboard.
+KeyboardKit Pro unlocks localized layouts, callouts, and services for all ``KeyboardLocale``s. This means that you can support up to 63 locales without having to write any additional code.
 
+KeyboardKit Pro SIlver and up unlocks an `EmojiKeyboard` and uses it as the default emoji keyboard.
 
-### Emojis
+![EmojiKeyboard]({{page.assets}}emojikeyboard-350.jpg)
 
-KeyboardKit Pro makes ``SystemKeyboard`` use an `EmojisKeyboard` view as the standard emoji keyboard.
-
-This means that by just registering a valid license key, your keyboard will automatically show an emoji keyboard when the ``keyboardType`` changes to ``.emojis``. You can still use a custom one.
-
-
-### Preview
-
-KeyboardKit Pro unlocks powerful tools to preview system keyboards and themes:
-
-```swift
-SystemKeyboardPreview(...)              // A live system keyboard preview.
-SystemKeyboardPreviewHeader(...)        // A live system keyboard preview header.
-SystemKeyboardThemePreview(...)         // A live theme preview.
-SystemKeyboardThemePreviewHeader(...)   // A live theme preview header.
-```
-
-To preview many styles or themes at once, you can use these more lightweight previews:
-
-```swift
-SystemKeyboardButtonPreview(...)        // A system button preview.
-SystemKeyboardButtonThemePreview(...)   // A system button preview for a theme.
-```
-
-These previews only render lightweight buttons.
-
+KeyboardKit Pro also unlocks powerful tools to preview system keyboards and themes.
 
 
 [Pro]: /pro
