@@ -7,27 +7,12 @@ While you can use any native `Image` you like in your custom keyboards, having a
 KeyboardKit provides keyboard-specific `Image` extensions, both SF Symbol and asset-based ones. 
 
 
+## Image Extensions
 
-## Symbol-based images
+KeyboardKit has `Image` extensions that resolve to SF Symbols, like `.keyboard`, `.keyboardBackspace`, `.keyboardDismiss`, etc.
 
-KeyboardKit has `Image` extensions that resolve to SF Symbols, for instance:
+KeyboardKit also has a few `Image` extensions that resolve to custom assets, like `.keyboardEmoji`. 
 
-```swift
-Image.keyboard
-Image.keyboardBackspace
-Image.keyboardDismiss
-```
+KeyboardKit Pro unlocks even more emoji-related image assets, like `.emojiCategory(.frequent)`, `.emojiCategory(.smileys)`, etc.
 
-The images are prefixed with `keyboard`, so typing `Image.keyboard` gives you a list of available images.
-
-
-
-## Asset-based images
-
-KeyboardKit also has a few `Image` extensions that resolve to embedded assets, for instance:
-
-```swift
-Image.keyboardEmoji
-```
-
-These images can be used just like the symbols-based ones, but don't scale as well. 
+Since these asset-based images are vectorized PDF assets, they scale well when they are resized.

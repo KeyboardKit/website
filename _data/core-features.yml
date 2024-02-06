@@ -58,6 +58,12 @@
   text: KeyboardKit defines an emoji type with a lot of information.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/emojis-article
 
+- title: External Keyboards
+  url: /features/external-keyboards
+  emoji: ⌨️
+  text: KeyboardKit can detect external keyboards.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/external-keyboards-article
+
 - title: Feedback
   url: /features/feedback
   emoji: 🔉
@@ -130,8 +136,14 @@
   text: KeyboardKit kan route text to other places.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/routing-article
 
+- title: Themes
+  url: /themes
+  emoji: 🍭
+  text: KeyboardKit lets you style your keyboards with themes.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/themes-article
+
 - title: Views
-  url: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/views
+  url:  /features/views
   emoji: 🌁
   text: KeyboardKit adds many keyboard-related views.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/views

@@ -2,51 +2,29 @@
 title: Navigation
 ---
 
-Keyboards sometimes have to open urls, trigger deeplinks or navigate from the keyboard to the main app. This is however hard, since keyboard extensions can't use `UIApplication.main`.
+Keyboard extensions may sometimes have to open a URL or trigger a deep link, for instance to the main app or System Settings.
 
-KeyboardKit therefore has a ``KeyboardUrlOpener`` that can open any URLs from a keyboard extension, without having to use `UIApplication.main`.
+Keyboard extensions can however not access **UIApplication.shared**, which means that you have to jump through hoops to open URLs.
 
-[KeyboardKit Pro][Pro] unlocks a `PreviousAppNavigator` that can navigate back to the previously opened app, e.g. after dictation. Information about Pro features can be found at the end of this article.
-
-
-
-## How to open URLs from the keyboard extension
-
-The ``KeyboardUrlOpener`` class can be used to open any URL from a keyboard without `UIApplication`.
-
-The class has a ``KeyboardUrlOpener/shared`` instance that can be used from anywhere:
-
-```swift
-let url = URL(string: "https://keyboardkit.com")
-try? KeyboardUrlOpener.shared.open(url)
-```
-
-This is for instance used by KeyboardKit Pro dictation to navigate from the keyboard to the main app.
+KeyboardKit therefore provides alternate ways to open URLs without using **UIApplication.shared**.
 
 
 
-## 👑 Pro features
+## How to open URLs from a keyboard extension
 
-[KeyboardKit Pro][Pro] unlocks a `PreviousAppNavigator` that can be used to navigate back to the previous app, e.g. after performing dictation in the main app and having to navigate back to the keyboard.
+To open a URL from a keyboard extension, use the ``KeyboardInputViewController`` ``openUrl(_:)``, which opens the provided URL without using the shared application.
 
-This is a protocol, so any type can implement it:
+If you don't want to depend on the controller (which can easily cause memory leaks), a better way is to trigger a ``KeyboardAction.url(_:id:)`` and let the main ``KeyboardActionHandler`` handle it.
 
-```swift
-struct ContentView: View, PreviousAppNavigator {
+The ``KeyboardAction`` approach removes any need to refer to the controller and lets you customize the URL handling with a custom action handler, if needed.
 
-    var body: some View {
-        Button("Go back") {
-            do {
-                try navigateBackToPreviousApp()
-            } catch {
-                print(error)
-            }
-        }
-    }
-}
-```
 
-As of iOS 17, the `PreviousAppNavigator` doesn't work anymore. Make sure to adjust your UI accordingly, until it's replaced by a working solution.
+
+## How to open System Settings
+
+KeyboardKit has a **.keyboardSettings** URL extension that can be used to open your app's keyboard settings in System Settings.
+
+If your keyboard randomly navigates to the System Settings root instead of your app, try adding an empty settings bundle to your app. 
 
 
 [Pro]: /pro   

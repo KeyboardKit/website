@@ -2,11 +2,11 @@
 title: Localization
 ---
 
-Flexible localization support is an important part of a software keyboard, and should make it possible to localize the entire keyboard.
+Flexible localization support is an important part of a software keyboard, and should be able to localize the entire keyboard and change its behavior based on the locale.
 
-KeyboardKit defines keyboard-specific languages, where each has localized strings, assets, and locale-specific information. KeyboardKit also extends the native `Locale` with additional capabilities.
+In KeyboardKit, a ``KeyboardLocale`` defines keyboard-specific languages, where each has localized strings, assets, etc. KeyboardKit also extends the native **Locale** with more capabilities.
 
-[KeyboardKit Pro][Pro] unlocks localized keyboards and services for all locales in your license. Information about Pro features can be found at the end of this article.
+[KeyboardKit Pro][Pro] can unlock localized keyboards and services for all locales in your license.
 
 
 
@@ -20,61 +20,13 @@ Each keyboard locale refers to a native `Locale` and has additional keyboard-spe
 
 
 
-## Locale extensions
+## Locale Functionality
 
-KeyboardKit extends the native `Locale` with more functionality.
+The ``KeyboardLocale`` enum defines all supported locales, like `.english`, `.swedish`, and `.persian`.
 
-### Direction info
+KeyboardKit extends the native `Locale` type with more capabilities, like providing a `.lineDirection`, `.isLeftToRight`, `.isTopToBottom`, etc. You can also get the `.flag`, sort locales in more ways, etc.
 
-KeyboardKit lets you get the line and character direction of a locale:
-
-```swift
-let english = KeyboardLocale.english.locale
-let persian = KeyboardLocale.persian.locale
-let swedish = KeyboardLocale.swedish.locale
-
-english.isLeftToRight  // true
-english.isRightToLeft  // false
-persian.isLeftToRight  // false
-persian.isRightToLeft  // true
-swedish.isTopToBottom  // false
-
-english.lineDirection  // .leftToRight
-persian.lineDirection  // .rightToLeft
-swedish.lineDirection  // .leftToRight
-```
-
-### Flag info
-
-KeyboardKit lets you get the flag of a locale:
-
-```swift
-english.locale.flag    // 🇺🇸
-persian.locale.flag    // 🇮🇷
-swedish.flag           // 🇸🇪
-```
-
-### Localized name
-
-KeyboardKit lets you get and use the localized names of a locale:
-
-```swift
-english.localizedName              // English (United States)
-swedish.localizedName(in: english) // Swedish (Sweden)
-swedish.localizedName(in: swedish) // Svenska (Sverige)
-```
-
-### Sorting
-
-KeyboardKit also provide convenient Locale collection sorted extensions.
-
-
-
-## How to get the current keyboard locale 
-
-You can get the current locale and all available locales with ``KeyboardContext``'s ``.locale`` and ``.locales``.
-
-These properties return raw `Locale`s, since a keyboard extension is not limited to the ``KeyboardLocale`` model. The context also has optional, ``KeyboardLocale``-specific functions.
+You can get the current keyboard locale and all available locales with ``KeyboardContext`` ``.locale`` and ``.locales``. These are raw `Locale`s, since a keyboard extension is not limited to the ``KeyboardLocale``.
 
 
 
@@ -82,32 +34,15 @@ These properties return raw `Locale`s, since a keyboard extension is not limited
 
 You can change the keyboard locale for a ``KeyboardContext`` by setting ``locale`` to a new locale, or use the convenience functions that support ``KeyboardLocale``.
 
-If the context ``locales`` has multiple values, you can switch locale using ``selectNextLocale()`` or using a ``LocaleContextMenu`` view that lets the user select a locale.
+If the context ``locales`` has multiple values, you can switch locale using ``selectNextLocale()`` or using a ``LocaleContextMenu`` that lets the user select a locale.
 
-Setting the locale will update the controller's `primaryLanguage`, which controls things like spellchecking and text direction. It will also set the display name in the system keyboard switcher.
+Setting the locale updates the controller's `primaryLanguage`, which controls things like spellchecking and text direction. It will also set the display name in the system keyboard switcher.
 
 
 
 ## LTR and RTL locales
 
-KeyboardKit supports LTR (Left-To-Right) and RTL (Right-To-Left) locales.
-
-You don't need to configure your keyboard to support RTL. Just change the keyboard locale as explained above, and KeyboardKit will automatically adjust the text direction.
-
-
-
-## How to translate localized content
-
-Each ``KeyboardLocale`` has a localized strings file in `Resources/<id>.lproj`. 
-
-Localized strings can be translated using the ``KKL10n`` enum. For instance, this translates the text for the numeric button key for the current locale:
-
-```
-let translation = KKL10n.keyboardTypeNumeric.text
-```
-
-Besides localized strings, you can get flags for a keyboard locales, using the ``flag`` property. You can also use the context's ``localePresentationLocale`` property to set how locales are displayed.
-
+KeyboardKit supports LTR (Left-To-Right) and RTL locales. You don't need to setup your keyboard to support RTL. Just change the keyboard locale and KeyboardKit automatically adjusts the keyboard.
 
 
 ## 👑 Pro features

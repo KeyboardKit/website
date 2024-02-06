@@ -2,7 +2,9 @@
 title: Settings
 ---
 
-All keyboard apps need to navigate the user to System Settings to enable the keyboard extension, enable full access etc.
+Great keyboard apps use the main app to show the user the state of the keyboard, if it's enabled in System Settings, if Full Access is enabled, etc.
+
+The app should also let the user easily navigate to System Settings to enable the keyboard, enable Full Access, etc.
 
 KeyboardKit adds utilities to make this easier, such as URL extensions and navigation links.
 
@@ -10,20 +12,18 @@ KeyboardKit adds utilities to make this easier, such as URL extensions and navig
 
 ## System Settings
 
-To make it easy to open your app's System Settings screen, KeyboardKit provides a custom URL:
+KeyboardKit has a **.keyboardSettings** URL extension that can be used to open your app's keyboard settings in System Settings.
 
-```swift
-let url = URL.keyboardSettings
-```
+If your keyboard randomly navigates to the System Settings root instead of your app, try adding an empty settings bundle to your app.
 
-You can use a standard `Link` to open this URL from your app or keyboard, or use the convenient ``KeyboardSettingsLink`` component.
-
-Note that the URL behavior inconsistent. It should always link to an app's custom settings in System Settings, but can sometimes link to the System Settings root instead. To improve the behavior, add an empty Settings Bundle to your app bundle. This makes your app more likely to open the correct url.
+A common request is to access various settings from System Settings, for instance the user's autocapitalization and autocorrect preferences.This is not possible, at least not with the public APIs.
 
 
+## Share settings between the app and the keyboard
 
-## Accessing System Settings
+Many keyboard extensions open the main app to let users access settings. The larger UI makes for a great alternative for app and keyboard settings.
 
-A common request is to be able to get the current user settings from System Settings, for instance the user's autocapitalization and autocorrect preferences.
+To share data between the app and the keyboard, you must use an **App Group** to persist data in a way that allows it to be accessed by both the app and the keyboard.
 
-This is not possible, at least not with the public APIs. You will have to implement your own settings for this. KeyboardKit Pro will soon add a bunch of convenient settings to make this easier.
+The main app will always write data to an App Group in a way that makes it instantly available to the keyboard. A keyboard must however have **Full Access** enabled for data to be immediately synced.
+
