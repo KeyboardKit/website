@@ -65,6 +65,10 @@
       text-align: center;
       background-color: #fff;
       border: solid 2px $feature-table-border-color;
+
+      .cta:hover {
+        text-decoration: none;
+      }
     }
 
     .tier.silver {
@@ -82,8 +86,18 @@
       }
 
       .cta:hover {
-        text-decoration: none;
         box-shadow: 1px 2px 1px $shadow;
+      }
+    }
+
+    .tier.custom {
+      border: solid 2px #334;
+      background-color: #445;
+      color: white !important;
+
+      .cta {
+        color: black !important;
+        background-color: white !important;
       }
     }
 
