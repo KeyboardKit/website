@@ -5,6 +5,9 @@ tags:   general bug-ios
 
 image:  /assets/headers/icon.png
 
+tweet:  https://x.com/GetKeyboardKit/status/1757058760579661914?s=20
+toot:   https://techhub.social/@keyboardkit/111919132611882137
+
 feedback: FB13611131
 ---
 
