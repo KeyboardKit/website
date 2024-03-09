@@ -11,7 +11,7 @@ url: http://keyboardkit.com
 rss_url: https://keyboardkit.com/feed.xml
 is_lib: 1
 
-copyright_year: 2021-2023
+copyright_year: 2016-2024
 copyright_owner: Kankoda Sweden AB
 copyright_url: https://kankoda.com
 
@@ -52,6 +52,7 @@ footer_sitemap:
   - pages/blog.md
 
 collections_dir: collections
+
 collections:
   features:
     output: true

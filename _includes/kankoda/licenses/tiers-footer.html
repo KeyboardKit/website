@@ -1,0 +1,14 @@
+<hr />
+
+<div class="grid footer">
+    <div class="feature"></div>
+    {% for tier in include.tiers %}
+    <div>
+        {% if tier.cta %}
+        <a href="{{tier.url}}" class="cta scale">
+            {{ tier.cta }}
+        </a>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
