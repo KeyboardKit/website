@@ -36,7 +36,7 @@ header_image_type: icon
 locale_count: 63
 
 header_pages:
-  - pages/open-source.md
+  - pages/features.md
   - pages/pro.md
   - pages/pricing.md
   - pages/blog.md
@@ -45,7 +45,6 @@ footer_sitemap:
   - index.html
   - pages/about.md
   - pages/features.md
-  - pages/open-source.md
   - pages/pro.md
   - pages/pricing.md
   - pages/app/app.md

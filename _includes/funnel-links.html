@@ -1,5 +1,5 @@
-{% if include.active == "open-source" %}
-  {% assign open-source-class = "active" %}
+{% if include.active == "features" %}
+  {% assign features-class = "active" %}
 {% elsif include.active == "pro" %}
   {% assign pro-class = "active" %}
 {% elsif include.active == "pricing" %}
@@ -8,8 +8,8 @@
 
 <div class="button-container navigator">
     <span class="group">
-        <a href="/opensource" class="{{open-source-class}}">Open-source</a>
-        <a href="/pro" class="{{pro-class}}">&nbsp;&nbsp;KeyboardKit Pro&nbsp;&nbsp;</a>
+        <a href="/features" class="{{features-class}}">Features</a>
+        <a href="/pro" class="{{pro-class}}">KeyboardKit Pro</a>
         <a href="/pricing" class="{{pricing-class}}">Pricing</a>
     </span>
 </div>

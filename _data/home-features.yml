@@ -3,25 +3,25 @@
   image: /assets/heros/icon.png
   text: Why should you build a keyboard and how can KeyboardKit help?
   
-- title: Open-Source
-  url:  /open-source
-  image: /assets/heros/github.png
-  text: KeyboardKit is open-source and free to use. Join the community!
+- title: Features
+  url:  /features
+  image: /assets/heros/features.png
+  text: KeyboardKit supports 60+ locales and has a rich set of features.
 
 - title: KeyboardKit Pro
   url:  /pro
   image: /assets/heros/pro.png
   text: Unlock pro features like an emoji keyboard, autocomplete, etc.
 
-- title: Features
-  url:  /features
-  image: /assets/heros/features.png
-  text: KeyboardKit supports 60+ locales and has a rich set of features.
-
 - title: Themes
   url:  /features/themes
   image: /assets/heros/themes.png
   text: KeyboardKit Pro unlocks a theme engine for rich, custom designs.
+
+- title: Open-Source
+  url:  https://github.com/keyboardkit/keyboardkit
+  image: /assets/heros/github.png
+  text: KeyboardKit is open-source and free to use. Join the community!
 
 - title: App
   url:  /app
