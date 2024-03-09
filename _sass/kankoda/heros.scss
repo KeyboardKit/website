@@ -1,13 +1,14 @@
 .hero {
   padding-top: 50px;
-  margin-bottom: 50px;
-
-  background: $site-background;
-  background-size: $texture-size;
   text-align: center;
   
   h1 {
+    font-size: 2.5em !important;
     margin-top: 0px !important;
+  }
+
+  img {
+    width: 450px;
   }
   
   .image-wrapper {
@@ -22,13 +23,12 @@
     font-size: 1.1em;
     font-weight: 600 !important;
   }
-
+  
   .emoji {
-    font-size: 10em;
+    font-size: 7em;
     border-radius: 15px;
     line-height: 1.4em;
   }
-
 
   .wrapper {
     position: relative;
@@ -39,7 +39,6 @@
     position: relative;
     height: 0px;
     z-index: 0;
-    background: red;
 
     .line-content {
       position: absolute;
@@ -49,27 +48,64 @@
       .line {
         height: 100px;
         background: linear-gradient(to top left, $content-background 0%, $content-background 50%, transparent 50%, transparent 100%) !important;
-        background-size: $texture-size;
       }
       
       .line-footer {
-        height: 70px;
+        height: 100px;
         background: $content-background;
       }
     }
   }
 }
 
+.hero.solid {
+  padding-bottom: 25px;
+  background-color: $site-background;
+
+  border-bottom: solid 1px $site-border;
+  img {
+    width: 150px;
+  }
+}
+
+.hero.solid + .paper.separator {
+  background-color: $content-background;
+  hr {
+    margin: 0px;
+  }
+}
+
+.hero + main {
+  padding-top: 50px;
+
+  .button-container.navigator {
+    margin-top: 0px !important;
+  }
+}
 
 @media (max-width: 500px) {
 
     // Hide open-source on smaller screens
   .hero {
     padding-top: 25px;
-    margin-bottom: 25px;
+
+    .emoji {
+      font-size: 5em !important;
+    }
 
     .line {
       height: 50px !important;
     }
+  }
+
+  .paper.separator {
+    background-color: $content-background;
+    hr {
+      margin-bottom: 0px;
+    }
+  }
+
+  .hero + main {
+    padding-top: 25px;
   }
 }

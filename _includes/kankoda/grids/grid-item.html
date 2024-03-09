@@ -22,8 +22,6 @@
     <img src="{{image-folder}}{{image}}" alt="{{ title }} image" title="{{ title }}" />
 {% endif %}
 
-{%- if item.name -%}
-<p>{{ item.name }}</p>
-{%- elsif item.title -%}
-<p>{{ item.title }}</p>
+{%- if name -%}
+<p>{{ name }}</p>
 {%- endif -%}

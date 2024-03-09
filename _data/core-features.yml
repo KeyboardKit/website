@@ -37,19 +37,19 @@
 - title: Colors
   url: /features/colors
   emoji: 🌈
-  text: KeyboardKit defines a bunch of keyboard-related colors.
+  text: KeyboardKit provides a bunch of keyboard-related colors.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/colors-article
 
 - title: Device Utilities
   url: /features/device-utilities
   emoji: 📱
-  text: KeyboardKit has a bunch of device-specific utilities.
+  text: KeyboardKit has device-specific utilities.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/device-article
 
 - title: Dictation
   url: /features/dictation
   emoji: 🎤
-  text: KeyboardKit can perform dictation from the keyboard.
+  text: KeyboardKit can start dictation from the keyboard.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/dictation-article
 
 - title: Emojis
@@ -79,19 +79,19 @@
 - title: Images
   url: /features/images
   emoji: 🖼️
-  text: KeyboardKit defines a bunch of keyboard-related images.
+  text: KeyboardKit provides a bunch of keyboard-related images.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/images-article
 
 - title: Layout
   url: /features/layout
   emoji: 🔣
-  text: KeyboardKit defines dynamic input sets and keyboard layouts.
+  text: KeyboardKit has dynamic input sets and keyboard layouts.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/layout-article
 
 - title: Localization
   url: /features/localization
   emoji: 🌐
-  text: KeyboardKit supports 60+ locales.
+  text: KeyboardKit supports 60+ languages.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/localization-article
 
 - title: Navigation

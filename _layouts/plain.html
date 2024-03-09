@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include kankoda/head/head.html %}
-  
-  <body class="{{page.id}} {{body_class}}">
+
+  {%- assign hero = page.hero -%}
+
+  {%- assign title = page.hero-title | default: page.title -%}
+  {%- assign hero-solid = page.hero-solid -%}
+  {%- assign hero-emoji = page.hero-emoji -%}
+  {%- assign hero-description = page.hero-description | default: page.description -%}
+
+  <body class="{{page.id}} {{body_class}}">  
     {% include kankoda/global/site-header.html %}
+    {% include kankoda/heros/hero.html hero=hero title=title solid=hero-solid emoji=hero-emoji description=hero-description %}
     {{ content }}
     {% include kankoda/global/site-footer.html %}
   </body>

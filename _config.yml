@@ -85,6 +85,7 @@ defaults:
       type: "features"
     values:
       assets: "/assets/documentation/"
+      hero-solid: 1
       layout: "feature"
   -
     scope:

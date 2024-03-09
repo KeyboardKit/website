@@ -36,6 +36,11 @@
   border: solid 1px $swiftui-color;
 }
 
+.tag.guest-article {
+  color: black !important;
+  background-color: white;
+}
+
 section.tag-list {
   margin-left: -4px;
   

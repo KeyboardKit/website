@@ -23,7 +23,7 @@
 
   function hideAllLicenseTables() {
     $(".feature-table").hide();
-    $(".hero-button-container a").removeClass("active");
+    $(".button-container.pricing a").removeClass("active");
   }
 
   function hideLicenseTable(sub) {
@@ -33,7 +33,7 @@
   function showLicenseTable(sub) {
     hideAllLicenseTables();
     $(".feature-table." + sub).show(); 
-    $(".hero-button-container ." + sub).addClass("active");
+    $(".button-container.pricing ." + sub).addClass("active");
   }
 
 

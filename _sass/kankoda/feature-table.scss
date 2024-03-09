@@ -66,8 +66,8 @@
       background-color: #fff;
       border: solid 2px $feature-table-border-color;
 
-      .cta:hover {
-        text-decoration: none;
+      .cta {
+        padding: 10px 0px;
       }
     }
 
@@ -76,7 +76,7 @@
       border: solid 2px $feature-table-border-color;
     }
 
-    .tier.gold {
+    .tier.gold, .tier.pro {
       border: solid 2px gold;
       background-color: rgba(255, 215, 0, 0.2);
 
@@ -86,6 +86,7 @@
       }
 
       .cta:hover {
+        text-decoration: none;
         box-shadow: 1px 2px 1px $shadow;
       }
     }

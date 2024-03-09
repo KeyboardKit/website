@@ -11,19 +11,11 @@ layout: plain
 {%- assign feature = pro-features | where:"title", page.title | first -%}
 {% endif %}
 
+{% include kankoda/heros/hero.html emoji=feature.emoji title=feature.title description=feature.text solid=1 %}
+
 <main class="page-content feature" aria-label="Content">
-  {%- assign emoji = feature.emoji -%}
-  {% if page.pro == 1 %}
-  {%- assign title = feature.title | append: " (Pro)" -%}
-  {% else %}
-  {%- assign title = feature.title -%}
-  {% endif %}
-  {%- assign subtitle = feature.text -%}
-  {% include kankoda/heros/hero.html hero-emoji=emoji hero-title=title hero-description=subtitle %}
   <div class="wrapper">
     <article class="paper">
-      <p>This page provides a short summary. Please see the <a href="{{feature.docs}}">online documentation</a> for more information.</p>
-
       <h2>Overview</h2>
       {{ content }}
 

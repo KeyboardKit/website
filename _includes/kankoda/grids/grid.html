@@ -5,18 +5,26 @@
 {%- assign extension = "png" -%}
 {%- endif -%}
 {%- assign image-folder = include.image-folder -%}
-{%- assign title = item.title | default: item.name -%}
 
 <div class="grid {{type}} {{include.class}}">
   {% for item in include.items %}
-    {%- if item.url -%}
-    <a href="{{ item.url }}" name="{{ item.name | slugify }}" title="{{ item.name }}">
-      {% include kankoda/grids/grid-item.html type=type name=title icon=item.icon image=item.image image-class=include.image-class %}
-    </a>  
-    {%- else -%}
-    <div>
-      {% include kankoda/grids/grid-item.html type=type name=title icon=item.icon image=item.image image-class=include.image-class image-folder=include.image-folder %}
-    </div>
-    {%- endif -%}
+    {%- assign icon = item.icon | default: item.info.icon -%}
+    {%- assign image = item.image | default: item.info.image -%}
+    {%- assign title = item.title | default: item.name | default: item.info.name -%}
+    {%- assign url = item.url | default: item.info.url -%}
+
+    {% if include.ignore and title == include.ignore %}
+      {% continue %}
+    {% else %}
+      {%- if url -%}
+      <a href="{{ url }}" name="{{ item.name | slugify }}" title="{{ item.name }}">
+        {% include kankoda/grids/grid-item.html type=type name=title icon=icon image=image image-class=include.image-class %}
+      </a>  
+      {%- else -%}
+      <div>
+        {% include kankoda/grids/grid-item.html type=type name=title icon=icon image=image image-class=include.image-class image-folder=include.image-folder %}
+      </div>
+      {%- endif -%}
+    {% endif %}
   {% endfor %}
 </div>

@@ -4,12 +4,17 @@ a.cta {
   border-radius: 20px; 
   min-width: 75px;
   text-align: center;
-  padding: 10px 5px;
+  padding: 10px 15px;
   font-size: large;
 }
 
 a.cta:visited {
   color: $cta-foreground !important;
+}
+
+.cta-container {
+  text-align: center;
+  margin: 50px 0;
 }
 
 a.scale {
@@ -75,7 +80,7 @@ a.scale:hover, a.scale:visited:hover {
   -webkit-mask: url(/assets/kankoda/social-icons/twitter.svg) no-repeat center;
 }
 
-.hero-button-container {
+.button-container {
   font-size: small;
   text-align: center;
   margin: 50px 0;
@@ -95,6 +100,8 @@ a.scale:hover, a.scale:visited:hover {
     a.active {
       color: $button-group-selected-foreground;
       background-color: $button-group-selected-background;
+      box-shadow: 0px 1px 2px $shadow;
+      text-decoration: none;
     }
   }
 }

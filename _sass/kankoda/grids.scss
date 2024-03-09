@@ -1,11 +1,9 @@
-article {
-  p + .grid {
-    margin: 50px 0;
-  }
-}
-
 .grid-title {
   margin: 15px;
+}
+
+p + .grid {
+  margin: 50px 0px;
 }
 
 .grid { 
@@ -24,10 +22,21 @@ article {
   }
 }
 
+.grid.col2 { 
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid.col3 { 
+  grid-template-columns: repeat(3, 1fr);
+}
 
 .grid.blog {
   grid-column-gap: 40px;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.grid.clients {
+  grid-template-columns: repeat(7, 1fr) !important;
 }
 
 .grid.icons {  
@@ -35,7 +44,6 @@ article {
     border-radius: 23%;
   }
 }
-
 
 .grid.icons, .grid.bands, .grid.themes {
   text-align: center;

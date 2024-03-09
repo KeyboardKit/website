@@ -1,12 +1,13 @@
-# Privacy Policy
+# {{include.app-name}} Privacy Policy
 
-This is the privacy policy for the {{include.app-name}} app for iOS (hereby referred to as "the app").
+This is the privacy policy for the [{{include.app-name}}]({{include.product.info.url}}) app (hereby referred to as "the app").
 
-Whenever this policy mentions "personal data", it refers to data that directly or indirectly may be used to identify you as an individual. 
 
-Whenever this policy mentions "anonymous data", it refers to data that can't be used to identify you as an individual.
+## Definitions
 
-This policy may be updated when new features are added to the app. Whenever that happens, it will be mentioned it in the release notes.
+Whenever the policy mentions "personal data", it refers to data that can be used to identify you as an individual, either directly or indirectly.
+
+Whenever the policy mentions "anonymous data", it refers to data that can't be used to identify you as an individual.
 
 
 ## Overview
@@ -14,7 +15,7 @@ This policy may be updated when new features are added to the app. Whenever that
 In short, this policy states the following:
 
  * The app may collect anonymous data.
- * The app does not collect any personal data.
+ * The app does not collect personal data.
  * The app does not sell any collected data to third parties.
  * The app will only access personal data that you enter into the app.
  * The app will only share personal data that you actively share from the app.
@@ -34,7 +35,7 @@ The app only stores data on your local device and personal cloud. You can export
 
 ## How data is shared
 
-The may app share anonymous usage data with analytics tools, as described above. You can share your data to others as a manual operation, provided that the app lets you create data.
+The may app share anonymous usage data with analytics tools, as described above. You can share your data to others as a manual operation, provided that the app lets you create and export data.
 
 
 ## How data is used
@@ -48,4 +49,4 @@ E-mails are deleted when they are no longer needed, e.g. when a question has bee
 
 ## Means of communication
 
-Any changes to this privacy policy will be communicated in the release notes, when releasing a new version of the app.
+Any significant changes to this policy will be communicated in the release notes, when releasing a new version of the app.

@@ -1,13 +1,28 @@
 .hero {
     img {
-        width: 250px;
+        width: 300px !important;
+        border-radius: 0 !important;
     }
 }
 
 .home {
     .hero {
         img {
-            width: 750px;
+            width: 750px !important;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+
+    .hero {
+
+        h1 {
+            font-size: 2em !important;
+        }
+
+        img {
+            width: 250px !important;
         }
     }
 }

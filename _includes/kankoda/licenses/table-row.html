@@ -4,13 +4,7 @@
 {% assign row_class = "odd" %}
 {% endif %}
 
-<div class="table-section-header {{row_class}} {{include.table-class}}" title="{{include.title}}">
-    {% if include.url %}
-    <a href="{{include.url}}">{{include.feature}}</a>
-    {% else %}
-    {{include.feature}}
-    {% endif %}
-</div>
+<div class="table-section-header {{row_class}} {{include.table-class}}" title="{{include.title}}">{{include.feature}}</div>
 <div class="grid {{include.grid-class}}" title="{{include.title}}"  style="line-height: 1em;">
     <div class="feature">
         {% if include.url %}
