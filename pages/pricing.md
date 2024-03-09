@@ -5,9 +5,9 @@ layout: page
 permalink: /pricing
 
 hero: /assets/heros/pro.png
-hero-title: KeyboardKit Pro - Pricing
+hero-title: KeyboardKit Pricing
 
-description: KeyboardKit Pro unlocks features that take your keyboard to the next level. 
+description: Sign up for a KeyboardKit Pro license to unlock pro features
 
 docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/
 ---

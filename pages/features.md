@@ -6,7 +6,7 @@ permalink: /features
 
 hero: /assets/heros/icon.png
 
-description: KeyboardKit provides you with powerful keyboard features.
+description: KeyboardKit provides you with powerful keyboard features
 
 redirect_from: 
     - /opensource

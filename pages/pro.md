@@ -7,7 +7,8 @@ permalink: /pro
 hero: /assets/heros/pro.png
 hero-title: KeyboardKit Pro
 
-description: Take your keyboard to the next level
+description: KeyboardKit Pro unlocks features that take your keyboard to the next level
+
 ---
 
 {% include funnel-links.html active="pro" %}

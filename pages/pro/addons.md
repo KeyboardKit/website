@@ -25,9 +25,9 @@ Custom license customers can customize the KeyboardKit Pro license terms to acco
 
 ## Additional Apps (Bundle IDs)
 
-Additional apps can be added to a custom license at a **50% discount** per addition (includes both an app and a keyboard extension), or a custom discount specified by custom terms.
+Additional apps can be added to a custom license at a **50% discount** per addition (includes both an app and a keyboard extension), or as specified by custom terms.
 
 
-## Multi-platform
+## Multi-platform Support
 
-The standard KeyboardKit Pro build is iOS only, due to binary size considerations. Custom license customers can request tailored, multi-platform builds at an additional cost.
+The standard KeyboardKit Pro build is iOS only, due to binary size considerations. Custom license customers can request tailored, multi-platform builds.
