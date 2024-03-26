@@ -17,7 +17,7 @@ KeyboardKit 8.2 cleans up the code that is used to localize content for all supp
 
 There is also a new internal development tool that makes it a lot easier to localize these strings. This will let future versions of KeyboardKit improve the localized strings of all locales.
 
-Finally, KeyboardKit 8.1 adds support for Northern Sámi and Inari Sámi, which brings the number of supported locales to 63.
+Finally, KeyboardKit 8.2 adds support for Northern Sámi and Inari Sámi, which brings the number of supported locales to 63.
 
 
 ## Conclusion
