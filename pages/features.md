@@ -15,7 +15,7 @@ redirect_from:
 
 {% include funnel-links.html active="features" %}
 
-KeyboardKit is open-source, completely free and provides you with powerful keyboard [features](#features). It's hosted at [GitHub]({{site.github_url}}), where you'll find documentation, code examples, demo apps, etc.
+KeyboardKit is [open-source]({{site.github_url}}), completely free and provides you with powerful keyboard [features](#features). It's hosted at [GitHub]({{site.github_url}}), where you'll find documentation, code examples, demo apps, etc.
 
 
 ## Languages
