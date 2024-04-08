@@ -1,7 +1,7 @@
 ---
 title:  Autocomplete is coming to macOS
 date:   2023-03-18 08:00:00 +0100
-tags:   autocomplete multi-platform macos watchos tvos
+tags:   autocomplete multi-platform
 
 image:  /assets/headers/icon.png
 assets: /assets/blog/2023/2023-03-18/
