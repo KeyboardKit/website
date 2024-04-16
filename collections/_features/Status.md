@@ -1,5 +1,5 @@
 ---
-title: State
+title: Status
 ---
 
 KeyboardKit has ways to check various keyboard state, such as if a keyboard is enabled in System Settings, if Full Access is enabled, if the keyboard is currently being used, etc.

@@ -13,31 +13,37 @@
 - title: AI Support
   url: /features/ai  
   emoji: 🤖
-  text: KeyboardKit Pro unlocks capabilities needed for AI.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/
+  text: KeyboardKit Pro unlocks features that are needed for AI.
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/ai-article
+
+- title: App
+  url: /features/app
+  emoji: 📱
+  text: KeyboardKit Pro unlocks app-specific screens & views.
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/app-article
 
 - title: Autocomplete
   url: /features/autocomplete  
   emoji: 💡
-  text: KeyboardKit Pro unlocks local and remote autocomplete.
+  text: KeyboardKit Pro unlocks on-device & remote autocomplete.
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/autocomplete-article
 
 - title: Callouts
   url: /features/callouts  
   emoji: 🗯
-  text: KeyboardKit Pro unlocks localized callout actions for all locales.
+  text: KeyboardKit Pro unlocks localized callouts for all locales.
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/callouts-article
 
 - title: Dictation
   url: /features/dictation  
   emoji: 🎤
-  text: KeyboardKit Pro unlocks dictation for apps and keyboards.
+  text: KeyboardKit Pro can perform dictation from the keyboard.
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/dictation-article
 
 - title: Emojis
   url: /features/emojis  
   emoji: 😀
-  text: KeyboardKit Pro unlocks an emoji keyboard.
+  text: KeyboardKit Pro unlocks an emoji keyboard with skintone support.
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/emojis-article
 
 - title: External Keyboards
@@ -46,11 +52,17 @@
   text:  KeyboardKit Pro can detect if an external keyboard is connected. 
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/external-article-keyboards
 
+- title: Feedback
+  url: /features/feedback
+  emoji: 🔉
+  text: KeyboardKit Pro unlocks tools for toogling feedback on & off.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkitpro/feedback-article
+
 - title: Layout
-  url: /features/layout  
+  url: /features/layout
   emoji: 🔣
-  text: KeyboardKit Pro unlocks localized input sets and layouts.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/layout-article
+  text: KeyboardKit Pro unlocks localized layouts for all locales.
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/callouts-article
 
 - title: Localization
   url: /features/localization
@@ -68,28 +80,16 @@
   url: /features/proxy-utilities
   emoji: ➡️
   text:  KeyboardKit Pro makes the proxy able to read the full document.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/proxy-article-utilities
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/proxy-article
 
-- title: Styling
-  url: /features/styling  
-  emoji: 🎨
-  text: KeyboardKit Pro unlocks a theme engine with many themes.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/styling-article
-
-- title: Text Routing
-  url: /features/text-routing  
-  emoji: 🚏
-  text: KeyboardKit Pro lets you type within the keyboard.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/routing-article
+- title: Text Input
+  url: /features/text-input
+  emoji: 📝
+  text: KeyboardKit Pro unlocks tools to let you type within the keyboard
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/text-input-article
 
 - title: Themes
   url: /features/themes
   emoji: 🍭
-  text: KeyboardKit Pro lets you style your keyboards with themes.
+  text: KeyboardKit Pro unlocks a theme engine & many standard themes.
   docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/themes-article
-
-- title: Views
-  url: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/views
-  emoji: 🌁
-  text: KeyboardKit Pro unlock many additional views.
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/views

@@ -25,11 +25,8 @@ KeyboardKit supports [{{site.locale_count}} languages](/locales):
 {% include locales/flags.html %}
 
 
-## KeyboardKit Pro
+## Core Features
 
-[KeyboardKit Pro](/pro) is a license-based add-on to the [open-source]({{site.github_url}}) SDK, that unlocks [pro features](/pro#features) like [{{site.locale_count}} languages](/locales), autocomplete & autocorrect, an emoji keyboard, dictation, themes, and much more.
-
-
-## Features
+KeyboardKit extends your keyboard with a huge collection of additional features. You can upgrade to [KeyboardKit Pro](/pro) to unlock even more [pro features](/pro#features).
 
 {% include kankoda/grids/grid-features.html features=site.data.core-features %}
