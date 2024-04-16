@@ -50,7 +50,7 @@
   url: /features/external-keyboards
   emoji: ⌨️
   text:  KeyboardKit Pro can detect if an external keyboard is connected. 
-  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/external-article-keyboards
+  docs: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/external-keyboards-article
 
 - title: Feedback
   url: /features/feedback
