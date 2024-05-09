@@ -4,29 +4,24 @@ title: Autocomplete
 
 Autocomplete is an important part of the typing experience, where autocomplete suggestions can be shown as the user types, and autocorrect can automatically correct the typed text.
 
-In KeyboardKit, an ``AutocompleteProvider`` can provide autocomplete and autocorrect suggestions that automatically update views like the ``AutocompleteToolbar``.
-
-[KeyboardKit Pro][Pro] unlocks and registers a local autocomplete provider that works for most locales.
+[KeyboardKit Pro][Pro] unlocks [local & remote autocomplete](#pro) and automatically enables autocomplete.
 
 
-## Autocomplete Functionality
+## Core Features
 
-KeyboardKit has an ``Autocomplete`` namespace with autocomplete-related types, like suggestions.
-
-The ``AutocompleteContext`` class provides observable state, such as which suggestions to present.
-
-The ``AutocompleteToolbar`` can be used to show suggestions, and can be greatly customized. 
+In KeyboardKit, an ``AutocompleteProvider`` can provide suggestions that automatically update views like the customizable ``Autocomplete.Toolbar``.
 
 ![AutocompleteToolbar]({{page.assets}}autocompletetoolbar-350.jpg)
 
+There's also an ``Autocomplete`` namespace with autocomplete-related types, observable state, etc.
 
-## 👑 Pro features
 
-[KeyboardKit Pro][Pro] unlocks additional autocomplete providers and uses a `LocalAutocompleteProvider` to automatically perform autocomplete.
+<a name="pro">
+## 👑 Pro Features
 
-`LocalAutocompleteProvider` uses on-device capabilities to perform autocomplete. It works offline, doesn't require full access and integrates with other system components, like the on-device lexicon.
+[KeyboardKit Pro][Pro] unlocks local and remote autocomplete, and makes KeyboardKit automatically perform autocomplete as the user types, without any additional code needed.
 
-`RemoteAutocompleteProvider` can be used to integrate with external REST-based APIs. All you have to do is to specify endpoints, some parameters, and a model that matches the service response.
+The `Autocomplete.LocalProvider` uses device capabilities to perform autocomplete on-device, while an `Autocomplete.RemoteProvider` can be used to integrate with external APIs.
 
 
 

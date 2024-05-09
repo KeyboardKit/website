@@ -27,6 +27,6 @@ KeyboardKit supports [{{site.locale_count}} languages](/locales):
 
 ## Core Features
 
-KeyboardKit extends your keyboard with a huge collection of additional features. You can upgrade to [KeyboardKit Pro](/pro) to unlock even more [pro features](/pro#features).
+KeyboardKit extends your keyboard with a huge set of features. Many are open-source and free to use. You can upgrade to [KeyboardKit Pro](/pro) to unlock even more features.
 
-{% include kankoda/grids/grid-features.html features=site.data.core-features %}
+{% include kankoda/grids/grid-features.html features=site.data.sdk-features %}

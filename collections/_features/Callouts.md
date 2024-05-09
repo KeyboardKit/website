@@ -4,29 +4,25 @@ title: Callouts
 
 Callouts are an important part of the typing experience, where input callouts highlight the currently pressed character and action callouts show secondary actions.
 
-In KeyboardKit, a ``CalloutActionProvider`` can provide secondary actions to a ``CalloutContext``, which in turn will update views like the ``Callouts.ActionCallout``.
-
-[KeyboardKit Pro][Pro] unlocks and registers localized action providers for [all supported locales](/locales).
+[KeyboardKit Pro][Pro] unlocks [localized callout actions](#pro) for all locales, with no additional code needed.
 
 
-## Callout Functionality
-
-KeyboardKit has a ``Callouts`` namespace with callout-related types, like state, services and views. 
-
-The ``CalloutContext`` class provides observable state, such as which character and actions to show.
-
-The ``InputCallout`` can be used show the currently pressed key:
+## Core Features
+KeyboardKit has tools to automatically show a ``Callouts.InputCallout`` as a user taps any input key:
 
 ![InputCallout]({{page.assets}}inputcallout-350.jpg)
 
-while the ``ActionCallout`` can be used to show secondary actions when the user long presses a key:
+KeyboardKit can also show secondary actions in a ``Callouts.ActionCallout`` when long pressing a key:
 
 ![ActionCallout]({{page.assets}}actioncallout-350.jpg)
 
+The `SystemKeyboard` automatically registers everything needed to automatically show these callouts.
 
-## 👑 Pro features
 
-[KeyboardKit Pro][Pro] unlocks a localized ``CalloutActionProvider`` for every locale in your license and injects them into the ``StandardCalloutActionProvider``.
+<a name="pro">
+## 👑 Pro Features
+
+[KeyboardKit Pro][Pro] unlocks localized callout actions for all locales in a license, to let `SystemKeyboard` show localized callouts without any additional code needed.
 
 
 

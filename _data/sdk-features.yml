@@ -10,6 +10,18 @@
   text: KeyboardKit makes it easy to trigger keyboard-related actions
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/actions-article
 
+- title: AI Support
+  url: /features/ai
+  emoji: 🤖
+  text: KeyboardKit has features that are needed for AI.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/ai-article
+
+- title: App
+  url: /features/app
+  emoji: 📱
+  text: KeyboardKit has app-specific screens & views.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/ai-article
+
 - title: Autocomplete
   url: /features/autocomplete
   emoji: 💡
@@ -34,11 +46,23 @@
   text: KeyboardKit has device-specific utilities.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/device-article
 
+- title: Dictation
+  url: /features/dictation
+  emoji: 🎤
+  text: KeyboardKit can perform dictation from the keyboard.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/dictation-article
+
 - title: Emojis
   url: /features/emojis
   emoji: 😀
   text: KeyboardKit defines emojis, categories, skin tones, etc.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/emojis-article
+
+- title: External Keyboards
+  url: /features/external-keyboards
+  emoji: ⌨️
+  text:  KeyboardKit Pro can detect if an external keyboard is being used. 
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkitpro/external-keyboards-article
 
 - title: Feedback
   url: /features/feedback
@@ -51,6 +75,12 @@
   emoji: 👆
   text: KeyboardKit has a customizable keyboard gesture engine.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/gestures-article
+
+- title: Host
+  url: /features/host
+  emoji: 🏠
+  text: KeyboardKit can identify the host application.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/host-article
 
 - title: Images
   url: /features/images
@@ -79,7 +109,7 @@
 - title: Previews
   url: /features/previews
   emoji: 👁
-  text: KeyboardKit has rich SwiftUI preview support.
+  text: KeyboardKit has extension keyboard preview support.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/previews-article
 
 - title: Proxy Utilities
@@ -106,8 +136,14 @@
   text: KeyboardKit lets you style your keyboards to great extent.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/styling-article
 
-- title: Text Routing
-  url: /features/text-routing
-  emoji: 🚏
-  text: KeyboardKit kan route text to other places.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/text-routing-article
+- title: Text Input
+  url: /features/text-input
+  emoji: 📝
+  text: KeyboardKit can input text inside the keyboard extension itself.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/text-input-article
+
+- title: Themes
+  url: /features/themes
+  emoji: 🍭
+  text: KeyboardKit can use themes to style keyboards in flexible ways.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/themes-article

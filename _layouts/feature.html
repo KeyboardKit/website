@@ -2,14 +2,9 @@
 layout: plain
 ---
 
-{%- assign features = site.data.core-features -%}
-{%- assign pro-features = site.data.pro-features -%}
+{%- assign features = site.data.sdk-features -%}
 
 {%- assign feature = features | where:"title", page.title | first -%}
-{% if feature %}
-{% else %}
-{%- assign feature = pro-features | where:"title", page.title | first -%}
-{% endif %}
 
 {% include kankoda/heros/hero.html emoji=feature.emoji title=feature.title description=feature.text solid=1 %}
 
@@ -20,15 +15,12 @@ layout: plain
       {{ content }}
 
       <h2>Documentation</h2>
-      <p>The information on this page has been shortened to be easier to overview. For more information about this feature, code samples, etc. please see the <a href="{{feature.docs}}">online documentation</a>.</p>
+      <p>The information on this page is shortened to be easier to overview. For more information about this feature, code samples, etc. please see the <a href="{{feature.docs}}">online documentation</a>.</p>
 
       <hr />
 
       <h2>Read more</h2>
-      {% include kankoda/grids/grid-features.html features=site.data.core-features %}
-
-      <h2>Pro Features</h2>
-      {% include kankoda/grids/grid-features.html features=site.data.pro-features %}
+      {% include kankoda/grids/grid-features.html features=site.data.sdk-features %}
     </article>
   </div>
 </main>

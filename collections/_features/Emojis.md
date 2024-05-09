@@ -4,30 +4,35 @@ title: Emojis
 
 KeyboardKit has an ``Emoji`` struct that represents an emoji value. It also serves as a namespace for emoji-related functionality.
 
-[KeyboardKit Pro][Pro] unlocks an emoji keyboard that supports all categories, skin tone variations, etc.
+[KeyboardKit Pro][Pro] unlocks an [emoji keyboard](#pro) that supports all categories, skin tone variations, etc.
 
 
-## Emojis Functionality
+## Core Features
 
-KeyboardKit has an ``Emoji`` struct that lets you work with emojis in a more structured way:
+KeyboardKit defines emoji-specific models that lets you work with emojis in a more structured way:
 
 ```swift
-let emoji = Emoji("😀")
+let emojis = Emoji.all        // 😀😃😄😁😆🥹😅😂🤣🥲...
+Emoji("😀").localizedName     // Grinning Face
+Emoji("👍").unicodeIdentifier // \\N{THUMBS UP SIGN}
+Emoji("👍").skinToneVariants  // 👍👍🏻👍🏼👍🏽👍🏾👍🏿'
+
+EmojiCategory.smileysAndPeople.emojis  // 😀😃😄...
+
+EmojiVersion.v15.emojis       // 🫨🫸🫷🪿🫎🪼🫏🪽🪻🫛🫚🪇🪈🪮🪭🩷🩵🩶🪯🛜...
 ```
 
-The `Emoji` type provides you with a lot of information, such as a unique unicode identifier, a unique name, ways to localize emojis, support for emoji search, `String` and `Character` extensions, etc.
-
-KeyboardKit also provides you with all emoji categories, support for skin tone variations, emoji and Unicode version information, etc.
+KeyboardKit defines emoji categories, support for skin tone variations, emoji and unicode version information, etc. in a way that only exposes supported features to your users.
 
 
-
-## 👑 Pro features
+<a name="pro">
+## 👑 Pro Features
 
 KeyboardKit Pro unlocks an **EmojiKeyboard** that mimics the native emoji keyboard and supports all categories and features like skin tone variations.
 
 ![Emoji Keyboard](/assets/screenshots/emoji-keyboard-500.jpg)
 
-KeyboardKit Pro also unlocks an `Emoji.MostRecentProvider` that automatically registers emojis as you use them in the keyboard, to populate the `recent` category.
+KeyboardKit Pro also unlocks a "most recent" emoji provider that automatically registers emojis as you use them, to populate the "frequent" category.
 
 
 [Pro]: /pro

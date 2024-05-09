@@ -2,38 +2,21 @@
 title: External Keyboards
 ---
 
-It's important for a keyboard extension to be able to detect if an external keyboard is connected, since this will causes it to stop working as expected 
+A keyboard extension should be able to detect if an external keyboard is connected, since it causes it to stop working as expected. 
+For instance, the text document proxy will not update properly.
 
-For instance, the text document proxy will not update while you type on an external keyboard, which makes it impossible to provide features like autocomplete.
-
-[KeyboardKit Pro][Pro] therefore unlocks tools to help you detect if an external keyboard is connected.
+[KeyboardKit Pro][Pro] therefore unlocks [tools](#pro) to help you detect if an external keyboard is connected.
 
 
-## 👑 Pro features
+## Core Features
 
-KeyboardKit has an `ExternalKeyboardContext` that detects whether or not an external keyboard is connected to the device. To use it, just set it up as an observed object.
+KeyboardKit has no open-source support to detect external keyboards. This is a Pro-only feature.
 
-```swift
-struct CustomKeyboardView: View {
 
-   @StateObject
-   var context = ExternalKeyboardContext()
+<a name="pro">
+## 👑 Pro Features
 
-   var body: some View {
-       VStack {
-           Text("Is an external keyboard connected?")
-           Text(stateDescription)
-       }.environmentObject(context)
-   }
-
-   var stateDescription: String {
-       context.isExternalKeyboardConnected.description
-   }
-}
-```
-
-> Warning: When using a Apple Smart Keyboard Folio, this context will consider the keyboard to be connected even when it's just snapped on to the device, even when it's not actively being used. This should be fixed.
-
+KeyboardKit has an `ExternalKeyboardContext` that detects whether or not an external keyboard is connected, either tethered of with Bluetooth. To use it, just set it up as an observed object.
 
 
 [Pro]: /pro

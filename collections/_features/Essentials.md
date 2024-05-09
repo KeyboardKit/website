@@ -4,35 +4,41 @@ title: Essentials
 
 As you may have noticed, Apple's native custom keyboard APIs are limited, and forces you to build a lot of things from scratch, including the very keyboard view itself.
 
-KeyboardKit extends the native APIs with many features, and lets you use SwiftUI instead of UIKit.
+KeyboardKit extends Apple's native APIs and provides you with a lot more functionality. It lets you mimic native iOS keyboards and tweak their style & behavior, or create completely custom ones.
 
-[KeyboardKit Pro][Pro] unlocks Pro features like more locales, autocomplete, emoji keyboards, dictation.
+[KeyboardKit Pro][Pro] unlocks [more essential features](#pro) like `SystemKeyboard` add-ons, components, etc.
 
 
-## Essential Functionality
+## Core Features
 
 The ``KeyboardInputViewController`` is the most essential type in the library. Just make your controller inherit this class to get access to a bunch of additional capabilities.
 
-KeyboardKit has a ``Keyboard`` namespace with keyboard-related types, like ``Case``, ``ReturnKeyType``, etc.
+KeyboardKit also has a ``Keyboard`` namespace with keyboard-related types, like ``Case``, ``ReturnKeyType`` etc., as well as other essential types like ``KeyboardContext`` and  ``KeyboardBehavior``.
 
-The ``KeyboardContext`` class provides observable keyboard information, like the the current locale.
 
-The ``KeyboardBehavior`` protocol and standard implementation defines the behavior of a keyboard.
-
-The ``SystemKeyboard`` can be used to mimic a native iOS keyboard, and can be greatly customized. 
+KeyboardKit has a ``SystemKeyboard`` that mimics a native iOS keyboard. It can be used for alphabetic, numeric & symbolic keyboards,  supports all supported locales, layouts, callouts, etc.:
 
 ![SystemKeyboard]({{page.assets}}systemkeyboard-swedish-350.jpg)
 
+`SystemKeyboard` automatically adapts for portrait & landscape, iPhone & iPad, can be extended with emoji keyboards and toolbars, and can be styled to great extent:
 
-## 👑 Pro features
+![SystemKeyboard]({{page.assets}}systemkeyboard-styled-350.jpg)
 
-KeyboardKit Pro unlocks localized layouts, callouts, and services for all ``KeyboardLocale``s. This means that you can support up to 63 locales without having to write any additional code.
+KeyboardKit Pro adds a lot of functionality to this keyboard, to make it more powerful and flexible.
 
-KeyboardKit Pro SIlver and up unlocks an `EmojiKeyboard` and uses it as the default emoji keyboard.
+
+<a name="pro">
+## 👑 Pro Features
+
+[KeyboardKit Pro][Pro] unlocks layouts, callouts and services for all [locales](/locales), to make the `SystemKeyboard` support all locales without any additional code.
+
+KeyboardKit Pro also unlocks more features that makes `SystemKeyboard` support an `EmojiKeyboard`, iPad pro layouts, additional toolbars, etc:
 
 ![EmojiKeyboard]({{page.assets}}emojikeyboard-350.jpg)
+![SystemKeyboard]({{page.assets}}systemkeyboard-ipadpro.jpg)
+![SystemKeyboard]({{page.assets}}inputtoolbar-ipadpro.png)
 
-KeyboardKit Pro also unlocks powerful tools to preview system keyboards and themes.
+KeyboardKit Pro also unlocks many additional view components, like a toggle toolbar, a collapsed keyboard banner, etc.
 
 
 [Pro]: /pro

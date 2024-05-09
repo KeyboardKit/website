@@ -6,7 +6,7 @@ While native iOS keyboards have few ways to customize the look and feel, Keyboar
 
 KeyboardKit uses ``KeyboardStyle`` types to style its views. For instance, a ``KeyboardStyle.InputCallout`` style can be used to style a ``Callouts.InputCallout`` view.
 
-[KeyboardKit Pro][Pro] unlocks a powerful theme engine, themes and more ways to style a keyboard.
+[KeyboardKit Pro][Pro] unlocks a powerful [theme engine](#pro), and many more ways to style a keyboard.
 
 
 ## Terminology
@@ -29,19 +29,19 @@ KeyboardKit comes with colors and assets that can be used to create native-looki
 * ``KeyboardAction`` and other types have standard images, texts and colors.
 
 
-## Styling Functionality
+## Core Features
 
-KeyboardKit has a ``Styling`` namespace with styling-related types and a ``KeyboardStyle`` namespace  with keyboard styles like ``Button``, ``Callout`` and ``EmojiKeyboard``.
+KeyboardKit uses view modifier-based styling. For instance, the `.autocompleteToolbarStyle(...)` view modifier can be used to style an `Autocomplete.Toolbar` with an `Autocomplete.ToolbarStyle`.
 
-All styles can be modified, and most have a `.standard` style that you can use as template. Standard styles can also be overwritten to change the global style of that component.
+However, some components like the `SystemKeyboard` are more complex and need dynamic styling. KeyboardKit then uses a `KeyboardStyleProvider` that can vary styles based on many factors.
 
-A ``KeyboardStyleProvider`` can return dynamic styles for different parts of the keyboard. Unlike static styles, style providers can vary styles depending on the ``KeyboardContext``, ``KeyboardAction`` etc.
+A ``KeyboardStyleProvider`` can return dynamic styles for different parts of the keyboard. Unlike static styles, style providers can vary styles depending on device, locale, action, etc.
 
 
+<a name="pro">
+## 👑 Pro Features
 
-## 👑 Pro features
-
-[KeyboardKit Pro][Pro] unlocks a theme engine that makes it a lot easier to define styles. Once you have a theme, you can apply it with a `ThemeBasedKeyboardStyleProvider`. See [themes](/features/themes) for more details.
+[KeyboardKit Pro][Pro] unlocks a theme engine that makes it a lot easier to define and share styles. You can apply any theme with a `KeyboardStyle.ThemeBasedProvider`. See [themes](/features/themes) for more information.
 
 
 [Pro]: /pro

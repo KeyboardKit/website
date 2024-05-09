@@ -4,21 +4,29 @@ title: AI Support
 
 Apple's native keyboard APIs have limitations that makes it hard to support AI-based features. For instance, keyboards can't by default read the entire document or let users type within the keyboard.
 
-[KeyboardKit Pro][Pro] unlocks features that make it easier to add AI-based functionality to a keyboard.
+[KeyboardKit Pro][Pro] unlocks [features](#pro) that make it easier to add AI-based functionality to a keyboard.
 
 
-## Full Document Reader
+## Core Features
+
+While the open-source SDK doesn't have any pre-defined functionality for AI support, it defines protocols and models that can help you get started.
+
+<a name="pro">
+## 👑 Pro Features
+
+
+### Full Document Reader
 
 Keyboard extensions are by default only able to get a little text before and after the input cursor. This makes it hard to implement AI-based text analysis, spellchecking, and proof reading.
 
-[KeyboardKit Pro][Pro] unlocks ways to read **all** text from a text field, using the `fullDocumentContext` text document proxy extensions that are unlocked by the Silver and Gold tiers.
+[KeyboardKit Pro][Pro] unlocks ways to read **all** text from any text field, by moving the text cursor in a way that unlocks more content.
 
 
-## Text Routing
+### Text Routing
 
-Keyboard extensions will by default type into the active app. Adding text fields to the keyboard extension doesn't work, since the keyboard will still send text to the main app.
+Keyboard extensions will by default type into the active app. Adding text fields to a keyboard will not work, since the keyboard will still send text to the main app.
 
-[KeyboardKit Pro][Pro] unlocks ways to route text from the main app to text fields within the keyboard extension. It also has a `KeyboardTextField` that handles this automatically.
+[KeyboardKit Pro][Pro] unlocks text input components that lets you type within the keyboard, with no additional code needed.
 
 
 [Pro]: /pro

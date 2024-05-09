@@ -16,6 +16,7 @@ KeyboardKit has a platform-agnostic ``DeviceType`` enum that defines available d
 
 KeyboardKit has a platform-agnostic ``InterfaceOrientation`` enum that defines interface orientations. You can use ``.current`` to get the current interface orientation.
 
+
 ## Screen sizes
 
 KeyboardKit has `CGSize` extensions to help detecting device types, like `.iPadScreenPortrait`. There's also an `.isScreenSize(_:)` rotation-agnostic function that compares.

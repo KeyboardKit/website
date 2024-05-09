@@ -6,31 +6,28 @@ Dictation can be used to let users enter text by speaking instead of typing. Thi
 
 KeyboardKit therefore provides dictation-specific tools that you can use to add dictation support to both your keyboard extension and main app.
 
-[KeyboardKit Pro][Pro] unlocks services that can be used to perform app- and keyboard-based dictation.
+[KeyboardKit Pro][Pro] unlocks [features](#pro) that can be used to perform app- & keyboard-based dictation.
 
 
-## Dictation Functionality
+## Core Features
 
-KeyboardKit has a ``Dictation`` namespace with dictation types, like configurations, statuses, etc.
+KeyboardKit has a ``Dictation`` namespace with dictation types, like configurations, statuses, etc. and an observable``DictationContext`` class that provides observable state, such as the current text.
 
-The ``DictationContext`` class provides observable state, such as the currently dictated text, in which application dictation was started, etc.
+Dictation works differently in apps and keyboards, where the mic is unavailable. A ``DictationService`` can perform dictation in apps, while a ``KeyboardDictationService`` can be used in keyboards.
 
-
-## How to perform dictation
-
-Dictation works differently in applications, where microphone access is available, and in keyboard extensions, where it's not available.
-
-You can use a ``DictationService`` to perform dictation where microphone access is available, and a ``KeyboardDictationService`` to perform dictation in keyboard extensions.
+KeyboardKit defines all protocols and models that are needded to implement dictation, but has no service implementations.
 
 
+<a name="pro">
+## 👑 Pro Features
 
-## 👑 Pro features
+[KeyboardKit Pro][Pro] unlocks dictation services and tools that let you add dictation to the keyboard and main app in a few simple steps, with very little code involved.
 
-[KeyboardKit Pro][Pro] unlocks dictation service implementations and tools that let you add dictation to your keyboard and main app in a few simple steps, with very little code involved.
-
-KeyboardKit Pro also unlocks dictation-related views, that let you inspect the dictation progress, like the `Dictation.Screen` and `Dictation.BarVisualizer`, which can both be customized to great extent.
+KeyboardKit Pro also unlocks dictation-related views, that let you inspect the dictation progress, like the `Dictation.Screen` and `Dictation.BarVisualizer`.
 
 ![DictationScreen]({{page.assets}}dictationscreen-350.jpg)
+
+All dictation components can be customized to great extent. You can use any custom screens and visualizers, or style the existing ones.
 
 
 
