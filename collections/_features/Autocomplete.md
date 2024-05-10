@@ -23,7 +23,7 @@ There's also an ``Autocomplete`` namespace with autocomplete-related types, obse
 
 `Autocomplete.LocalProvider` uses on-device capabilities to perform autocomplete directly on device, while `Autocomplete.RemoteProvider` can be used to integrate with external APIs.
 
-`Autocomplete.LocalProvider` currently supports: Arabic, Bulgarian, Czech, Danish, Dutch, Dutch (Belgium), English, English (United Kingdom), English (United States), Filipino, Finnish, French, French (Belgium), French (Switzerland), German, German (Austria), German (Switzerland), Greek, Hebrew (Israel), Hungarian, Irish (Ireland), Italian, Norwegian Bokmål, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Spanish, Swedish, Turkish, Ukrainian
+`Autocomplete.LocalProvider` currently supports: Arabic, Bulgarian, Czech, Danish, Dutch, Dutch (Belgium), English, English (United Kingdom), English (United States), Filipino, Finnish, French, French (Belgium), French (Switzerland), German, German (Austria), German (Switzerland), Greek, Hebrew (Israel), Hungarian, Irish (Ireland), Italian, Norwegian Bokmål, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Spanish, Swedish, Turkish, and Ukrainian.
 
 
 

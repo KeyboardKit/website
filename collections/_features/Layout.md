@@ -7,7 +7,7 @@ A flexible keyboard layout is at the heart of a software keyboard, with many con
 
 KeyboardKit lets you use input sets to define input keys, and keyboard layouts to define the full set of keys. This gives you maximum flexibility to define layouts for different locales and configurations.
 
-[KeyboardKit Pro][Pro] unlocks [more features](#pro), like iPad Pro layouts, and localized input sets and layout providers for all supported locales.
+[KeyboardKit Pro][Pro] unlocks [more features](#pro), like more input sets, iPad Pro layouts, and localized input sets and layout providers for all supported locales.
 
 
 ## Core Features
@@ -28,13 +28,15 @@ The layout engine must thus be flexible, to cater to the needs of these consider
 <a name="pro">
 ## 👑 Pro Features
 
-[KeyboardKit Pro][Pro] unlocks localized ``InputSet``s and ``KeyboardLayoutProvider``s for all keyboard locales, and will automatically make the `SystemKeyboard` use them, without any additional code.
+[KeyboardKit Pro][Pro] unlocks additional input sets like AZERTY and QWERTZ, and localized input sets and layout providers for all keyboard locales in your license.
 
-KeyboardKit Pro also unlocks an `KeyboardLayout.iPadProProvider` that can be used to generate iPad Pro-specific layouts. This provider is used by all supported locales by default.
+KeyboardKit Pro automatically makes the `SystemKeyboard` support all input sets and layouts in your license, without any additional code needed. Just change locale, and the keyboard will adjust itself.
+
+KeyboardKit Pro also unlocks a `KeyboardLayout.iPadProProvider` that can generate iPad Pro layouts. This provider is used by all supported keyboard locales by default:
 
 ![System Keyboard - iPad Pro]({{page.assets}}systemkeyboard-ipadpro.jpg)
 
-KeyboardKit Pro also unlocks ways to easily add an input row at the top of the `SystemKeyboard`. This is great for certain apps, where an additional utility row makes sense.
+KeyboardKit Pro also unlocks ways to easily add a character input toolbar above a `SystemKeyboard`:
 
 ![SystemKeyboard - input toolbar]({{page.assets}}inputtoolbar-ipadpro.png)
 
