@@ -7,7 +7,7 @@ image:  /assets/headers/icon.png
 assets: /assets/blog/2024/2024-04-16/
 
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/8.5.0
-release-pro: https://github.com/KeyboardKitPro/KeyboardKitPro/releases/tag/8.5.0
+release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/8.5.0
 ---
 
 KeyboardKit 8.5 is out. This is a big update, that renames and moves many types into namespaces, adds many new features and makes many small adjustments and improvements.

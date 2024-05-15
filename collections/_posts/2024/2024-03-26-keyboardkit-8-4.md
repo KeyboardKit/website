@@ -9,7 +9,7 @@ tweet:  https://x.com/GetKeyboardKit/status/1772634059992076537?s=20
 toot:   https://techhub.social/@keyboardkit/112162497672526993
 
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/8.4.0
-release-pro: https://github.com/KeyboardKitPro/KeyboardKitPro/releases/tag/8.4.0
+release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/8.4.0
 ---
 
 KeyboardKit 8.4 is out. This version uses Swift 5.9, adds support for visionOS, drastically improves the docs, makes many emoji features open-source, introduces modifier-applied styles, and more. 
