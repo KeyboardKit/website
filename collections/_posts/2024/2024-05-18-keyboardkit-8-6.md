@@ -1,7 +1,7 @@
 ---
-title:  KeyboardKit 8.6 RC 1
-date:   2024-05-15 08:00:00 +0100
-tags:   releases essentials actions callouts host layout localization
+title:  KeyboardKit 8.6
+date:   2024-05-18 08:00:00 +0100
+tags:   releases essentials actions callouts host layout localization pro
 
 image:  /assets/headers/icon.png
 
@@ -9,7 +9,7 @@ release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/8.6-rc1
 release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/8.6-rc1
 ---
 
-KeyboardKit 8.6 RC 1 is out. This is a huge update, that adds support for 5 new locales & diacritics, makes it easier to identify the host application, improves many keyboard layouts, and much more.
+KeyboardKit 8.6 is out. This is a HUGE update that adds 5 new locales, support for diacritics, makes it easier to identify the host application, improves autocomplete and many layouts, and much more.
 
 ![KeyboardKit logo]({{page.image}})
 
