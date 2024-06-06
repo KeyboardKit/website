@@ -5,8 +5,8 @@ tags:   releases essentials actions callouts host layout localization pro
 
 image:  /assets/headers/icon.png
 
-release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/8.6-rc1
-release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/8.6-rc1
+release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/8.6
+release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/8.6
 ---
 
 KeyboardKit 8.6 is out. This is a HUGE update that adds 5 new locales, support for diacritics, makes it easier to identify the host application, improves autocomplete and many layouts, and much more.
@@ -58,4 +58,4 @@ Other than this, the `KeyboardLayout` and `KeyboardLayout.Item` are extended wit
 
 KeyboardKit 8.6 is another huge release, that adds many new features and improves many things.
 
-Please give the new 8.6 Release Candidate a try and report if anything seems to be off. Also see the [release notes]({{page.release}}) for a KeyboardKit & [KeyboardKit Pro]({{page.release-pro}}) for more info.
+Please give the new 8.6 version a try and report if anything seems to be off. Also see the [release notes]({{page.release}}) for a KeyboardKit & [KeyboardKit Pro]({{page.release-pro}}) for more info.
