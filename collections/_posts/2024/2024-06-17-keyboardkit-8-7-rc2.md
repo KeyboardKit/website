@@ -1,12 +1,12 @@
 ---
-title:  KeyboardKit 8.7 RC1
-date:   2024-06-05 08:00:00 +0100
+title:  KeyboardKit 8.7 RC2
+date:   2024-06-17 08:00:00 +0100
 tags:   releases essentials autocomplete dictation feedback layout settings pro
 
 image:  /assets/headers/icon.png
 
-release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/8.7-rc1
-release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/8.7-rc1
+release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/8.7-rc2
+release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/8.7-rc2
 ---
 
 The KeyboardKit 8.7 Release Candidate is out. This is a huge update that improves autocomplete, adds support for settings, improves layout handling, fixes some bugs, and much more.
