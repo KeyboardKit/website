@@ -33,7 +33,7 @@ assets: /assets/
 header_image: /assets/icon/icon-header.png
 header_image_type: icon
 
-locale_count: 63
+locale_count: 68
 
 header_pages:
   - pages/features.md
