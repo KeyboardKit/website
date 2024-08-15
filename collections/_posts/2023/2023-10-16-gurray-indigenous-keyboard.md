@@ -6,10 +6,10 @@ tags:   case-studies localization
 image:  /assets/headers/clients/gurray.jpg
 assets: /assets/blog/2023/2023-10-16/
 
-wcclp:     https://wcclp.com.au
-appstore: https://apps.apple.com/au/app/gurray/id1513495735
-anomaly:  https://anomaly.ltd
-portfolio: https://www.anomaly.ltd/portfolio/wcc/gurray
+wcclp:      https://wcclp.com.au
+appstore:   https://apps.apple.com/au/app/gurray/id1513495735
+anomaly:    https://anomaly.ltd
+portfolio:  https://www.anomaly.ltd/portfolio/wcc/gurray
 ---
 
 Say hello to [Gurray]({{page.appstore}}) - a keyboard for indigenous communication, developed by Australian [Anomaly Software]({{page.anomaly}}) for the WCC Language Program.
