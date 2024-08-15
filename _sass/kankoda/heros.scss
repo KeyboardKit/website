@@ -79,27 +79,18 @@
   }
 }
 
-.hero.solid {
-  padding-bottom: 25px;
-  background-color: $site-background;
-
-  img {
-    width: 150px;
-  }
-}
-
-.hero.solid + .paper.separator {
-  background-color: $content-background;
-  hr {
-    margin: 0px;
-  }
-}
-
 .hero + main {
   padding-top: 50px;
 
   .button-container.navigator {
     margin-top: 0px !important;
+  }
+}
+
+.hero.paper {
+  
+  hr {
+    margin-bottom: 0 !important;
   }
 }
 
@@ -115,13 +106,6 @@
 
     .line {
       height: 50px !important;
-    }
-  }
-
-  .paper.separator {
-    background-color: $content-background;
-    hr {
-      margin-bottom: 0px;
     }
   }
 

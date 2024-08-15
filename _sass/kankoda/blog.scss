@@ -15,15 +15,11 @@ article.post .grid {
 }
 
 .post-header {
-  font-size: small; 
+  font-size: medium; 
   font-weight: normal;
   margin-top: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   color: $foreground-secondary !important;
-
-  .spacer {
-    margin: 5px;
-  }
 
   .tag {
     font-size: smaller; 
