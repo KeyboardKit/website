@@ -31,12 +31,6 @@ description: Build amazing, fully custom keyboards for iOS & iPadOS
 
   <section>
     <h2>Latest news</h2>
-    <div>
-      <a href="/blog">Blog</a> ·
-      <a href="{{ site.twitter_url }}">Twitter</a> ·
-      <a href="{{ site.mastodon_url }}">Mastodon</a>
-    </div>
-    <p></p>
     <div class="grid blog list">
       {% for post in site.posts limit:2 %}
           <div>
@@ -46,8 +40,18 @@ description: Build amazing, fully custom keyboards for iOS & iPadOS
     </div>
   </section>
 
-  <section class="clients">
-    <h2>Let us know</h2>
-    <p>Are you using KeyboardKit in your app or company? <a href="{{site.email_url}}">Reach out</a> and let us know.</p>
+  <section>
+    <h2>Blog</h2>
+    Check out the <a href="/blog">KeyboardKit blog</a> for the latest news regarding KeyboardKit, exciting keyboard apps and innovations, Apple tech in general, etc.</a>
+  </section>
+  
+  <section>
+    <h2>Case Studies</h2>
+    <p>Do use KeyboardKit to do something exciting with custom keyboards? Don't hesistate to <a href="{{site.email_url}}">reach out</a> to share your story in the <a href="/blog#case-studies">Case Studies</a> section of the KeyboardKit blog.</p>
+  </section>
+
+  <section>
+    <h2>Social Media</h2>
+    Make sure to follow KeyboardKit on <a href="{{ site.twitter_url }}">Twitter</a> and <a href="{{ site.mastodon_url }}">Mastodon</a>.
   </section>
 </div>
