@@ -2,6 +2,10 @@
 
 <div class="post-header">
   {% include kankoda/blog/post-date.html date=post.date %}
+  {% if include.follow == 1 %}
+    · Follow on <a href="{{site.twitter_url}}">Twitter</a> and <a href="{{site.mastodon_url}}">Mastodon</a>
+  {% endif %}
   <span class="spacer"></span>
   {% include kankoda/blog/post-tags.html tags=post.tags %}
+
 </div>
