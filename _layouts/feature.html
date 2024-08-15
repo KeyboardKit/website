@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: plain
 ---
 
 {%- assign features = site.data.sdk-features -%}
-
 {%- assign feature = features | where:"title", page.title | first -%}
 
 {% include kankoda/heros/hero.html title=feature.title emoji=feature.emoji description=feature.text paper=1 %}
