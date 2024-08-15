@@ -13,7 +13,9 @@ A license is activated and can be used immediately after purchase, using the uni
 
 ### Validation
 
-All licenses, except yearly Gold licenses, require server validation. The result is cached to handle temporary connectivity loss, but the product must perform regular server validation.
+All licenses, except yearly Gold licenses (where applicable) and custom licenses, are validated with a network call. The SDK can handle temporary connectivity loss, but requires regular validations.
+
+Yearly Gold licenses (where applicable) and all custom licenses are encoded into the binary product and validated on-device, without the need for network validation.
 
 
 ### Additions

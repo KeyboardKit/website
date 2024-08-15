@@ -1,3 +1,5 @@
+{%- assign limit = include.limit | default:1000 -%}
+
 {%- assign type = include.type -%}
 {%- if type == "bands" or type == "photos" or type == "themes" -%}
 {%- assign extension = "jpg" -%}
@@ -7,7 +9,7 @@
 {%- assign image-folder = include.image-folder -%}
 
 <div class="grid {{type}} {{include.class}}">
-  {% for item in include.items %}
+  {% for item in include.items limit:limit %}
     {%- assign icon = item.icon | default: item.info.icon -%}
     {%- assign image = item.image | default: item.info.image -%}
     {%- assign title = item.title | default: item.name | default: item.info.name -%}

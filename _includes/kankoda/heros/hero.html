@@ -1,27 +1,33 @@
-{% assign solid_size = include.solid | size %}
 {% assign hero_size = include.hero | size %}
 {% assign emoji_size = include.emoji | size %}
-{% if solid_size > 0 %}
-{% assign class = "solid" %}
-{% endif %}
+{% assign icon_size = include.icon | size %}
+{% assign paper_size = include.paper | size %}
 
-{% if hero_size > 0 or emoji_size > 0 %}
+{% if paper_size > 0 %}
+{% assign class = include.class | append: "paper" %}
+{% else %}
+{% assign class = include.class %}
+{% endif %}
 
 <section class="hero {{class}}">
     <div class="wrapper">
+        {{include.hero-icon}}
+        {% if icon_size > 0 %}
+        <img class="icon" src="{{hero-icon}}" />
+        {% endif %}
         <h1>{{include.title | default: page.title}}</h1>
         <p>{{include.description | default: page.description}}</p>
         {% if hero_size > 0 %}
-            <div class="image-wrapper">
-                <img src="{{include.hero}}" alt="Page hero image for {{page.id}} page" class="{{page.hero-img-class}}" />
-            </div>
+        <div class="image-wrapper">
+            <img src="{{include.hero}}" alt="Page hero image for {{page.id}} page" class="{{page.hero-img-class}}" />
+        </div>
         {% elsif emoji_size > 0 %}
-            <span class="emoji">
-                {{include.emoji}}
-            </span>
+        <span class="emoji">
+            {{include.emoji}}
+        </span>
         {% endif %}
     </div>
-    {% if solid_size > 0 %}
+    {% if class contains "paper" %}
     {% else %}
     <div class="hero-line">
         <div class="line-content">
@@ -30,12 +36,7 @@
         </div>
     </div>
     {% endif %}
-</section>
-
-{% if solid_size > 0 %}
-<div class="paper separator">
+    {% if class contains "paper" %}
     <hr />
-</div>
-{% endif %}
-
-{% endif %}
+    {% endif %}
+</section>

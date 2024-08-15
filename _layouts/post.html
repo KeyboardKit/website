@@ -10,26 +10,29 @@ layout: default
     {{ page.title | escape }}
   </h1>
 
-  {% include kankoda/blog/post-header.html post=page %}
+  {% include kankoda/blog/post-header.html post=page follow=1 %}
+
   <div class="e-content" itemprop="articleBody">
     {{ content }}
   </div>
 
   {%- if page.tweet -%}
-  <h2>Discussion</h2>
+    <h2>Discussions & More</h2>
 
     {%- if site.disqus.shortname -%}
     <p>
-      If you found this post interesting and would like to share 
-      your thoughts, ideas, feedback etc. please comment in the
+      If you found this interesting and would like to share your thoughts, please comment in the
       Disqus section below or reply to {% include kankoda/blog/post-discussion-links.html %}.
     </p>
     {%- else -%}
     <p>
-      If you found this post interesting and would like to share 
-      your thoughts, ideas, feedback etc. please reply to {% include kankoda/blog/post-discussion-links.html %}.
+      If you found this interesting, please share your thoughts by repling to 
+      {% include kankoda/blog/post-discussion-links.html %}.
     </p>
     {%- endif -%}
+    <p>
+      Follow on <a href="{{site.twitter_url}}">Twitter</a> and <a href="{{site.mastodon_url}}">Mastodon</a> to be notified when new content & articles are published.
+    </p>
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
