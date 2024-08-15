@@ -1,7 +1,7 @@
 ---
 title:  Gurray Indigenous Keyboard
 date:   2023-10-16 08:00:00 +0100
-tags:   case-study
+tags:   case-studies
 
 image:  /assets/headers/clients/gurray.png
 
