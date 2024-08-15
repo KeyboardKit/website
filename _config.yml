@@ -84,9 +84,9 @@ defaults:
     scope:
       type: "features"
     values:
-      assets: "/assets/documentation/"
-      hero-solid: 1
+      hero-paper: 1
       layout: "feature"
+      assets: "/assets/documentation/"
   -
     scope:
       type: "posts"
