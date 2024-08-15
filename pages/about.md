@@ -16,31 +16,63 @@ sponsor: https://github.com/sponsors/danielsaidi
 stockholm: https://www.google.com/maps/place/Stockholm,+Sweden/@59.3262131,17.8172499,11z/data=!3m1!4b1!4m6!3m5!1s0x465f763119640bcb:0xa80d27d3679d7766!8m2!3d59.3293235!4d18.0685808!16zL20vMDZteHM
 ---
 
-KeyboardKit is an [open-source](/open-source) software library (SDK) that lets you build custom keyboards for iOS, macOS, tvOS, watchOS & visionOS, using native technologies like Swift & SwiftUI.
+KeyboardKit is an [open-source](/open-source) software library (SDK) that lets you build custom keyboards for iOS, macOS, tvOS, watchOS & visionOS, using native technologies like [Swift]({{site.urls.swift}}) & [SwiftUI]({{site.urls.swiftui}}).
 
 
 ## What is a custom keyboard?
 
-A custom keyboard is a small app extension that you ship together with your main app. It can then replace the system keyboard in any other app, by using the 🌐 key whenever you type.
+A custom iOS keyboard extension is an app that you ship together with your main app. It can then replace the system keyboard in any other app, by using the 🌐 key while typing.
 
-A keyboard extension is the only app type that can be used directly within other apps in iOS. It lets people access your app features in other apps, such as AI-based typing support, language tools, etc.
+Keyboard extensions are the *only* apps that can be used directly within other apps in iOS, so it is a unique way to let people use your app and its features within other apps.
+
+
+## What can a custom keyboard do?
+
+Keyboard extensions can render any user interface that you want, and can resize to fit the content it needs to display. This means that it can be taller than the native keyboard.
+
+Keyboard extensions receive a *document proxy*, which is used to communicate with the main app. The proxy can be used to read and modify text, move the text input cursor, etc.
+
+Keyboard extensions can be used to provide features like custom autocomplete and spell-checking,  custom layouts and design, text and typing analysis, AI-based typing support and prompting, etc.
+
+
+## What can a custom keyboard *not* do?
+
+Keyboard extensions are pretty limited, and while KeyboardKit extends them with many additional capabilities (read more further down) some things are just not possible.
+
+For instance, unlike native keyboards, keyboard extensions can't draw outside their bounds. This means that views like input and action callouts must render within the keyboard frame.
+
+Also, keyboard extensions are memory capped at ~70 MB (depending on hardware and OS version), which means that you can't load memory expensive AI models into them.
+
+Keyboard extensions must also open their main app to perform certain actions, such as accessing the microphone to perform dictation. KeyboardKit has tools that make this easier.
+
+Finally, keyboard extensions can only send text to the currently active app! The text document proxy does not support images, which means that a user must manually copy and paste.
+
+Regardless of these limitations, there are ways for the main app and its keyboard to communicate, which means that you can probably find innovative ways to use your apps features in a keyboard. 
 
 
 ## Why use KeyboardKit?
 
-Apple's native keyboard APIs are very limited, and basically only lets you define a custom view and interact with the currently selected text field in very (very!) limited ways.
+Apple's native keyboard APIs are *very* limited, and basically only lets you define a custom view and interact with the currently selected text field in very limited ways.
 
 KeyboardKit extends these APIs with a lot more [features](/features) and lets you create a fully customizable keyboard with just a few lines of code, using Swift & SwiftUI for a modern development experience.
 
+KeyboardKit provides you with a full-fledged `KeyboardView` that mimics a native keyboard. It can be customized and styled to great extent, and customize how each key is handled.
 
-## Why upgrade to KeyboardKit Pro?
+With KeyboardKit, you can have a native-looking keyboard up and running in minutes, and easily customize it to fit your needs.
 
-KeyboardKit is [open-source](/open-source) and completely free. You have full access to the code, and anyone can contribute to make the keyboard engine better.
-
-[KeyboardKit Pro](/pro) is a commercial add-on that unlocks [pro features](/pro#features) like autocomplete, AI-enabling features, an emoji keyboard, dictation, themes, as well as [{{site.locale_count}} languages](/locales).
+KeyboardKit is [open-source]({{site.github_url}}) and completely free to use. You can also upgrade to [KeyboardKit Pro](/pro) to unlock powerful [pro features](/pro#features) like [{{site.locale_count}} languages](/locales), autocomplete, AI-enabling features, etc.
 
 
-## Who are we?
+## Who uses KeyboardKit?
+
+KeyboardKit is open-source, with over 1,5k stars on [GitHub](/open-source). This makes it one of the most popular open-source SDKs for creating custom iOS keyboards.
+
+KeyboardKit is used by enterprises, smaller companies, startups, universities and indie developers, who use it to improve the typing experience in some languages, AI-powered keyboards that bring powerful prompting into any app, langtech enabled keyboards, etc.
+
+Please see some of the [case studies](/blog/#case-studies) on the KeyboardKit blog for inspiration. Feel free to [reach out](mailto:{{site.email}}) if you want us to share your keyboard story and feature your company and product on the blog.
+
+
+## Who have created KeyboardKit?
 
 KeyboardKit is developed by [Kankoda](https://kankoda.com) in lovely [Stockholm, Sweden]({{page.stockholm}}). We are experts in Swift & SwiftUI and software development for iOS, macOS, watchOS, tvOS & visionOS. 
 

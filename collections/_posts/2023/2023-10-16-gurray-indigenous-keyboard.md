@@ -16,7 +16,7 @@ Say hello to [Gurray]({{page.appstore}}) - a keyboard for indigenous communicati
 
 ![Gurray icon]({{page.image}})
 
-The [WCC Language Program]({{page.wcclp}}) work with and support First Nation's Language Groups to document, promote and develop physical/digital language learning resources.
+The [WCC Language Program]({{page.wcclp}}) works with and supports First Nation's Language Groups to develop, document, and promote physical/digital language learning resources.
 
 WCC LP approached Anomaly with a vision of using cutting-edge technologies like computer vision to build delightful educational and communication experiences.
 

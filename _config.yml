@@ -33,6 +33,10 @@ assets: /assets/
 header_image: /assets/icon/icon-header.png
 header_image_type: icon
 
+urls:
+  swift: https://www.swift.org
+  swiftui: https://developer.apple.com/xcode/swiftui/
+
 locale_count: 68
 
 header_pages:
