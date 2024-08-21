@@ -99,6 +99,7 @@ defaults:
     values:
       author: "danielsaidi"
       layout: "post"
+      image:  /assets/headers/icon.png
 
 exclude:
   - Gemfile
