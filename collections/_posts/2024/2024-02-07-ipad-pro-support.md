@@ -1,7 +1,7 @@
 ---
 title:  iPad Pro Layout Support
 date:   2024-02-06 06:00:00 +0100
-tags:   general
+tags:   ipad layout
 
 image:  /assets/headers/icon.png
 ---

@@ -1,7 +1,7 @@
 ---
 title:  New Themes and Styles
 date:   2023-04-19 06:00:00 +0100
-tags:   pro appearance themes
+tags:   pro styling themes
 
 image:  /assets/headers/icon-pro.png
 assets: /assets/themes/

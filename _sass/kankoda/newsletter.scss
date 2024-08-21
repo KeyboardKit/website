@@ -1,0 +1,19 @@
+#gumroad-follow-form-embed {
+
+    input, button {
+        font-size: large;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: solid 1px $site-background;
+    }
+
+    button {
+        color: white;
+        background-color: black;
+    }
+    
+    button:active {
+        color: white;
+        background-color: #555;
+    }
+}

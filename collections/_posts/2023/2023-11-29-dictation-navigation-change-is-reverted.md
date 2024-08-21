@@ -1,7 +1,7 @@
 ---
 title:  Dictation navigation change is reverted
 date:   2023-11-29 06:00:00 +0100
-tags:   general
+tags:   dictation navigation
 
 image:  /assets/headers/icon-pro.png
 ---

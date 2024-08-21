@@ -1,7 +1,7 @@
 ---
 title:  Critical extension crashes in iOS 17.1
 date:   2023-12-10 08:00:00 +0100
-tags:   general
+tags:   ios-bugs
 
 image:  /assets/headers/icon.png
 

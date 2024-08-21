@@ -1,7 +1,7 @@
 ---
 title:  How to (not) navigate back to the keyboard from the app
 date:   2024-01-31 08:00:00 +0100
-tags:   navigation url
+tags:   navigation
 
 image:  /assets/headers/icon.png
 

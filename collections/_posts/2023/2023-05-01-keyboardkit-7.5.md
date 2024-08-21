@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit 7.5
 date:   2023-05-01 08:00:00 +0100
-tags:   releases dictation appearance themes
+tags:   releases dictation styling themes
 
 image:  /assets/headers/icon.png
 

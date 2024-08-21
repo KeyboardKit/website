@@ -1,7 +1,7 @@
 ---
 title:  Black Week Deal
 date:   2023-11-20 12:00:00 +0100
-tags:   general
+tags:   deals
 
 image:  /assets/headers/icon-pro.png
 

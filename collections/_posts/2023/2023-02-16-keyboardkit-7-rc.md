@@ -2,7 +2,7 @@
 title:  KeyboardKit 7 RC
 date:   2023-02-16 10:00:00 +0100
 
-tags:   releases appearance multi-platform
+tags:   releases multi-platform styling
 
 image:  /assets/headers/icon.png
 

@@ -1,7 +1,7 @@
 ---
 title:  New Colorful theme
 date:   2023-08-07 06:00:00 +0100
-tags:   pro appearance themes
+tags:   pro styling themes
 
 image:  /assets/headers/icon-pro.png
 assets: /assets/themes/
