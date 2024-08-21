@@ -29,8 +29,29 @@ description: Build amazing, fully customizable iOS keyboard extensions in Swift 
     {% include kankoda/grids/grid-features.html features=site.data.home-features %}
   </section>
 
+  <hr />
+
   <section>
-    <h2>Latest news</h2>
+    <h2>Social Media</h2>
+    Follow KeyboardKit on <a href="{{ site.twitter_url }}">Twitter</a> and <a href="{{ site.mastodon_url }}">Mastodon</a> for the latest news.
+  </section>
+
+  <section>
+    <h2>Newsletter</h2>
+    <p>
+      Subscribe to <a href="{{site.urls.newsletter}}">the KeyboardKit Newsletter</a> for periodic updates.
+    </p>
+    <p>
+      {% include kankoda/widgets/newsletter.html %} 
+    </p>
+  </section>
+
+  <section>
+    <h2>Blog</h2>
+    <div> 
+      Follow <a href="/blog">the KeyboardKit Blog</a> for exciting news and articles.
+    </div>
+    <p></p>
     <div class="grid blog list">
       {% for post in site.posts limit:2 %}
           <div>
@@ -40,18 +61,10 @@ description: Build amazing, fully customizable iOS keyboard extensions in Swift 
     </div>
   </section>
 
-  <section>
-    <h2>Blog</h2>
-    Check out the <a href="/blog">KeyboardKit blog</a> for the latest news regarding KeyboardKit, exciting keyboard apps and innovations, Apple tech in general, etc.</a>
-  </section>
+  <hr />
   
   <section>
     <h2>Case Studies</h2>
     <p>Do use KeyboardKit to do something exciting with custom keyboards? Don't hesistate to <a href="{{site.email_url}}">reach out</a> to share your story in the <a href="/blog#case-studies">Case Studies</a> section of the KeyboardKit blog.</p>
-  </section>
-
-  <section>
-    <h2>Social Media</h2>
-    Make sure to follow KeyboardKit on <a href="{{ site.twitter_url }}">Twitter</a> and <a href="{{ site.mastodon_url }}">Mastodon</a>.
   </section>
 </div>

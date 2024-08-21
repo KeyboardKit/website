@@ -11,6 +11,19 @@
         <p>Site</p>
         {% include kankoda/global/site-footer-links.html paths=site.footer_sitemap %}
       </div>
+
+      <div class="column">
+        <p>News</p>
+        {% if site.urls.blog %}
+        <a href="{{site.urls.blog}}">Blog</a>
+        {% endif %}
+        {% if site.urls.newsletter %}
+        <a href="{{site.urls.newsletter}}">Newsletter</a>
+        {% endif %}
+        {% if site.rss_url %}
+        <a href="{{site.rss_url}}">RSS</a>
+        {% endif %}
+      </div>
       
       {% if site.footer_extra_title %}
       <div class="column">
@@ -21,6 +34,7 @@
       
       <div class="column">
         <p>Social</p>
+        <a href="mailto:{{site.email}}">E-mail</a>
         {% if site.twitter_url %}
         <a href="{{site.twitter_url}}">Twitter</a>
         {% endif %}
@@ -33,10 +47,6 @@
         {% if site.linkedin_url %}
         <a href="{{site.linkedin_url}}">LinkedIn</a>
         {% endif %}
-        {% if site.rss_url %}
-        <a href="{{site.rss_url}}">RSS</a>
-        {% endif %}
-        <a href="mailto:{{site.email}}">E-mail</a>
       </div>
       
       {% if site.is_app == 1 %}
@@ -58,9 +68,8 @@
 
       <div class="column">
         <p>Kankoda</p>
-        <a href="https://kankoda.com">Website</a>
+        <a href="https://kankoda.com">Kankoda</a>
         <a href="https://keyboardkit.com">KeyboardKit</a>
-        <a href="https://kankoda.com/emojikit">EmojiKit</a>
         <a href="https://kankoda.com/licensekit">LicenseKit</a>
         <a href="https://wally.app">Wally</a>
       </div>

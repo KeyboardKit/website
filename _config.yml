@@ -34,6 +34,9 @@ header_image: /assets/icon/icon-header.png
 header_image_type: icon
 
 urls:
+  blog:       /blog
+  newsletter: https://kankoda.gumroad.com/subscribe
+
   swift: https://www.swift.org
   swiftui: https://developer.apple.com/xcode/swiftui/
 
@@ -52,7 +55,6 @@ footer_sitemap:
   - pages/pro.md
   - pages/pricing.md
   - pages/app/app.md
-  - pages/blog.md
 
 collections_dir: collections
 
