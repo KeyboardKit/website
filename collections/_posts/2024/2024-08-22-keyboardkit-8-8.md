@@ -1,41 +1,29 @@
 ---
-title:  KeyboardKit 8.8 RC2 is out
-date:   2024-08-21 10:00:00 +0100
+title:  KeyboardKit 8.8 is out
+date:   2024-08-22 10:00:00 +0100
 tags:   releases pro essentials app autocomplete dictation emoji feedback layout settings
 
 image:  /assets/headers/icon.png
 
-release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/8.8-rc2
-release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/8.8-rc2
+release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/8.8
+release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/8.8
 
 tweet:  https://x.com/GetKeyboardKit/status/1826336995431645409
 toot:   https://techhub.social/@keyboardkit/113001607218567299
 ---
 
-The KeyboardKit 8.8 Release Candidate 2 is out! KeyboardKit 8.8 is a massive update that adds a lot of features, improves autocomplete & emojis, renames services, and much, much more. 
+KeyboardKit 8.8 is a massive update that adds a lot of features, improves autocomplete & emojis, renames services, replaces settings with context persistency, adds all new settings screens, etc.
 
-You can try the RC2 by upgrading to the `8.8-rc2` tag. Since this release sets the tone for the future 9.0 update, which will continue in 8.9, your feedback is most welcome.
+Since this version sets the tone for the upcoming 9.0 update, and the foundation it lays will evolve in 8.9, your feedback is most welcome.
 
 ![KeyboardKit logo]({{page.image}})
 
 
-## 🆕 New from RC1
-
-The RC2 release fixes some bugs that were found in the RC1 and makes it a lot easier to set up App Group-synced settings, although it involves a small, breaking change (see below). 
-
-The RC2 adds a new `KeyboardApp` struct that can specify all KeyboardKit-related information about your app, as well as a `KeyboardAppView` that makes it a lot easier to set up the main app.
-
-These two new additions make it trivial to set up App Group syncing, KeyboardKit Pro, dictation, etc.
-
-The `KeyboardSettings` also has a new `isAppGroupSynced` property that makes it easy to see if you've successfully set up an app group-synced store.
-
-
 ## 💥 Breaking changes
 
-This RC2 has one small, but breaking change. Due to how settings are now handled by KeyboardKit, the `KeyboardSettings.store` no longer accept optional values. 
+This version has a small but breaking change. Due to how settings are now handled by KeyboardKit, the `KeyboardSettings.store` no longer accept optional values. 
 
 This means that you can only replace this store with another valid store, which removes the risk of accidentally ending up with a `nil` store.
-
 
 
 ## 🚨 Important information
@@ -73,7 +61,12 @@ The `KeyboardContext` (and all other contexts) now provide auto-persisted state 
 The `KeyboardContext` also has new capabilities, like being able to override the `returnKeyType`, specify explicitly added `addedLocales`, many new locale functions etc.
 
 
-### 📱 App Screens
+### 📱 App
+
+This version adds a new `KeyboardApp` struct that can specify all KeyboardKit-related information for your app, as well as a `KeyboardAppView` that makes it a lot easier to set up the main app.
+
+These two new additions make it trivial to set up App Group syncing, KeyboardKit Pro, dictation, etc.
+
 
 KeyboardKit Pro adds a `KeyboardApp.SettingsScreen` and a `KeyboardApp.LocaleScreen`, which make it a lot easier than before to add keyboard settings to the main app target, as well as to the keyboard.
 
