@@ -24,7 +24,7 @@ The tiers below are aimed at indies and small businesses. [Reach out for a custo
 
 ## Online Store
 
-Licenses can be purchased from the [Gumroad]({{site.gumroad_url}}) online store <!--[Lemon Squeezy]({{site.lemon_url}})-->. [Reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) if you want to include any [add-ons](/pro/addons), or if you have another preferred method of payment or invoicing.
+Licenses can be purchased from the [Gumroad]({{site.urls.gumroad}}) online store <!--[Lemon Squeezy]({{site.lemon_url}})-->. [Reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) if you want to include any [add-ons](/pro/addons), or if you have another preferred method of payment or invoicing.
 
 
 ## Add-Ons

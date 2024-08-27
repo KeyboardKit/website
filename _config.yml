@@ -15,18 +15,10 @@ copyright_year: 2016-2024
 copyright_owner: Kankoda Sweden AB
 copyright_url: https://kankoda.com
 
-appstore_url: http://itunes.apple.com/app/keyboardkit/id1568444977
-documentation_url: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/
 email: info@keyboardkit.com
 email_url: mailto:info@keyboardkit.com
-github_url: https://github.com/KeyboardKit/KeyboardKit
-github_url_pro: https://github.com/KeyboardKit/KeyboardKitPro
 github_username: KeyboardKit
-gumroad_url: https://kankoda.gumroad.com/l/keyboardkitpro
-gumroad_url_monthly: https://kankoda.gumroad.com/l/keyboardkitpro-monthly
-mastodon_url: https://techhub.social/@keyboardkit
 mastodon_username: keyboardkit@techhub.social
-twitter_url: https://twitter.com/getkeyboardkit
 twitter_username: getkeyboardkit
 
 assets: /assets/
@@ -34,8 +26,15 @@ header_image: /assets/icon/icon-header.png
 header_image_type: icon
 
 urls:
+  appstore:   http://itunes.apple.com/app/keyboardkit/id1568444977
   blog:       /blog
+  docs:       https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/
+  github:     https://github.com/KeyboardKit/KeyboardKit
+  github_pro: https://github.com/KeyboardKit/KeyboardKitPro
+  gumroad:    https://kankoda.gumroad.com/l/keyboardkitpro
+  mastodon:   https://techhub.social/@keyboardkit
   newsletter: https://kankoda.gumroad.com/subscribe
+  twitter:    https://twitter.com/getkeyboardkit
 
   swift: https://www.swift.org
   swiftui: https://developer.apple.com/xcode/swiftui/

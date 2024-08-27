@@ -23,7 +23,7 @@ KeyboardKit 7.6 is out! This release fixes a dictation-related problem when subm
 
 KeyboardKit Pro 7.6 fixes dictation-related App Store submission problems and add more features to the dictation engine. You can read more about the biggest dictation changes [in this post]({{page.dictation-post}}).
 
-Since the speech recognizer can't be added to the library, since that is what's causing the problem, you must now pass in a recognizer when you set up dictation. You can grab a implementation [here]({{page.dictation-post}}) as well as in the [KeyboardKit documentation]({{site.documentation_url}}).
+Since the speech recognizer can't be added to the library, since that is what's causing the problem, you must now pass in a recognizer when you set up dictation. You can grab a implementation [here]({{page.dictation-post}}) as well as in the [KeyboardKit documentation]({{site.urls.docs}}).
 
 
 ## Emoji improvements

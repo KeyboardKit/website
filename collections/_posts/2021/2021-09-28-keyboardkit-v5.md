@@ -51,4 +51,4 @@ All in all, expect a tighter, more well-defined library that is easier to use.
 
 Work on KeyboardKit v5 has begun. You can follow it in the "v5" branch. The work should not take more than a month, which means that KeyboardKit 5.0 should be released in October 2021.
 
-If this work takes longer than expected, I will make sure to post about it here as well as on [Twitter]({{site.twitter_url}}). Make sure to follow to stay up to date.
+If this work takes longer than expected, I will make sure to post about it here as well as on [Twitter]({{site.urls.twitter}}). Make sure to follow to stay up to date.

@@ -20,7 +20,7 @@ You can [sign up for KeyboardKit Pro](/pricing) and be up and running in minutes
 
 ## GitHub
 
-KeyboardKit Pro has a separate [GitHub project]({{site.github_url_pro}}) with documentation, code examples, releases, etc.
+KeyboardKit Pro has a separate [GitHub project]({{site.urls.github_pro}}) with documentation, code examples, releases, etc.
 
 
 ## Languages

@@ -60,7 +60,7 @@ KeyboardKit provides you with a full-fledged `KeyboardView` that mimics a native
 
 With KeyboardKit, you can have a native-looking keyboard up and running in minutes, and easily customize it to fit your needs.
 
-KeyboardKit is [open-source]({{site.github_url}}) and completely free to use. You can also upgrade to [KeyboardKit Pro](/pro) to unlock powerful [pro features](/pro#features) like [{{site.locale_count}} languages](/locales), autocomplete, AI-enabling features, etc.
+KeyboardKit is [open-source]({{site.urls.github}}) and completely free to use. You can also upgrade to [KeyboardKit Pro](/pro) to unlock powerful [pro features](/pro#features) like [{{site.locale_count}} languages](/locales), autocomplete, AI-enabling features, etc.
 
 
 ## Who uses KeyboardKit?

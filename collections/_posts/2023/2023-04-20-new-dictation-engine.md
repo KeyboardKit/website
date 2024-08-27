@@ -47,4 +47,4 @@ KeyboardKit 7.3 adds a brand new dictation namespace, with many new dictation-re
 
 Since keyboard dictation requires app groups, deep links etc. the demo app currently doesn't demo this feature. The KeyboardKit app will however be rebuilt and let you try out the feature from there.
 
-For more information about how to perform dictation, please see the [online documentation]({{site.documentation_url}}dictation).
+For more information about how to perform dictation, please see the [online documentation]({{site.urls.docs}}dictation).

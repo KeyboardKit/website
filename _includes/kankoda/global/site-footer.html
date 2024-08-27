@@ -35,11 +35,11 @@
       <div class="column">
         <p>Social</p>
         <a href="mailto:{{site.email}}">E-mail</a>
-        {% if site.twitter_url %}
-        <a href="{{site.twitter_url}}">Twitter</a>
+        {% if site.urls.twitter %}
+        <a href="{{site.urls.twitter}}">Twitter</a>
         {% endif %}
-        {% if site.mastodon_url %}
-        <a href="{{site.mastodon_url}}">Mastodon</a>
+        {% if site.urls.mastodon %}
+        <a href="{{site.urls.mastodon}}">Mastodon</a>
         {% endif %}
         {% if site.instagram_url %}
         <a href="{{site.instagram_url}}">Instagram</a>
@@ -52,7 +52,7 @@
       {% if site.is_app == 1 %}
       <div class="column">
         <p>App</p>
-        <a href="{{ site.appstore_url }}">App Store</a>
+        <a href="{{site.urls.appstore}}">App Store</a>
         {% include kankoda/global/site-footer-links.html paths=site.footer_app %}
       </div>
       {% endif %}
@@ -60,9 +60,9 @@
       {% if site.is_lib == 1 %}
       <div class="column">
         <p>Code</p>
-        <a href="{{ site.github_url }}">GitHub</a>
-        <a href="{{ site.github_url }}/issues">Issues</a>
-        <a href="{{ site.documentation_url }}">Documentation</a>
+        <a href="{{site.urls.github}}">GitHub</a>
+        <a href="{{site.urls.github}}/issues">Issues</a>
+        <a href="{{site.urls.docs}}">Documentation</a>
       </div>
       {% endif %}
 

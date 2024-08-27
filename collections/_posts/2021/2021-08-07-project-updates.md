@@ -9,7 +9,7 @@ The KeyboardKit blog is now public, and with that we want post some updates rega
 
 ## Open source project
 
-The [the open-source project]({{site.github_url}}) has had a lot of traction lately, with a bunch of features being added, bugs fixed etc. If you haven't updated your apps to the latest versions, you really should.
+The [the open-source project]({{site.urls.github}}) has had a lot of traction lately, with a bunch of features being added, bugs fixed etc. If you haven't updated your apps to the latest versions, you really should.
 
 
 ## KeyboardKit Pro

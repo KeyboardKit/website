@@ -10,7 +10,7 @@ hero: /assets/heros/pro.png
 description: KeyboardKit Pro has a free trial
 ---
 
-KeyboardKit Pro has a [7 day free trial]({{site.gumroad_url}}) with unlimited access to all the features in your selected tier. This lets you try out the features and see if they match your needs.
+KeyboardKit Pro has a [7 day free trial]({{site.urls.gumroad}}) with unlimited access to all the features in your selected tier. This lets you try out the features and see if they match your needs.
 
 
 ## License Expiration

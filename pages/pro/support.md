@@ -15,7 +15,7 @@ description: KeyboardKit Pro has many optional support levels
 
 ### GitHub Issues
 
-All license customers can use [GitHub Issues]({{site.github_url}}/issues) to get help with problems, request features, discuss etc. This is also where the product roadmap is managed and future versions are planned.
+All license customers can use [GitHub Issues]({{site.urls.github}}/issues) to get help with problems, request features, discuss etc. This is also where the product roadmap is managed and future versions are planned.
 
 
 ### E-mail Support
@@ -47,6 +47,8 @@ Gold customers have the option to connect over an initial onboarding call, where
 Gold customers have the option to opt-in to a monthly call, where we can keep track of your project, discuss any problems or questions that you may have, etc.
 
 
-### KeyboardKit Discord Server
+### Discord Server
 
-The KeyboardKit Discord server is available to all Gold and Custom customers, and offers private, company-specific channels as well as public ones. [Reach out]({{site.email_url}}?subject=Discord) if you want an invite.
+The KeyboardKit Discord server is available to all Pro users, and offers private, company-specific channels to Gold and Custom license customers.
+
+If you purchased your license from [Gumroad]({{site.urls.gumroad}}), you'll find the Discord link on your purchase screen. Otherwise, [reach out]({{site.email_url}}?subject=Discord) for an invite.
