@@ -15,19 +15,12 @@ description: KeyboardKit Pro unlocks features that take your keyboard to the nex
 
 KeyboardKit Pro unlocks [pro features](#features), like fully localized keyboards & services for all [languages](/locales), autocomplete, an emoji keyboard, AI features, themes, dictation, and [much more](#features).
 
-You can [sign up for KeyboardKit Pro](/pricing) and be up and running in minutes, using the FREE 7 day trial.
+[Sign up for KeyboardKit Pro today](/pricing) and be up and running in minutes, using the FREE 7 day trial.
 
 
 ## GitHub
 
 KeyboardKit Pro has a separate [GitHub project]({{site.urls.github_pro}}) with documentation, code examples, releases, etc.
-
-
-## Languages
-
-KeyboardKit Pro unlocks [localized keyboards and services](/features/localization) for up to [{{site.locale_count}} languages](/locales):
-
-{% include locales/flags.html %}
 
 
 <a name="features" />

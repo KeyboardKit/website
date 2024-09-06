@@ -4,29 +4,23 @@
   text: KeyboardKit provides essential features, utilities & views.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/essentials
 
+- title: Pro Features
+  url: /pro
+  emoji: 👑
+  text: KeyboardKit Pro unlocks features like autocomplete, emojis, AI, etc.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/actions-article
+
 - title: Actions
   url: /features/actions
   emoji: 💥
-  text: KeyboardKit makes it easy to trigger keyboard-related actions
+  text: KeyboardKit makes it easy to handle keyboard actions.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/actions-article
-
-- title: AI Support
-  url: /features/ai
-  emoji: 🤖
-  text: KeyboardKit has features that are needed for AI.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/ai-article
 
 - title: App
   url: /features/app
   emoji: 📱
-  text: KeyboardKit has app-specific screens & views.
+  text: KeyboardKit makes it easy to set up your app and keyboard.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/ai-article
-
-- title: Autocomplete
-  url: /features/autocomplete
-  emoji: 💡
-  text: KeyboardKit can perform autocomplete.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/autocomplete-article
 
 - title: Callouts
   url: /features/callouts
@@ -34,23 +28,11 @@
   text: KeyboardKit can show input & secondary action callouts.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/callouts-article
 
-- title: Colors
-  url: /features/colors
-  emoji: 🌈
-  text: KeyboardKit defines keyboard-specific colors.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/colors-article
-
 - title: Device Utilities
   url: /features/device-utilities
   emoji: 🖥️
   text: KeyboardKit has device-specific utilities.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/device-article
-
-- title: Dictation
-  url: /features/dictation
-  emoji: 🎤
-  text: KeyboardKit can perform dictation from the keyboard.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/dictation-article
 
 - title: Emojis
   url: /features/emojis
@@ -82,11 +64,11 @@
   text: KeyboardKit can identify the host application.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/host-article
 
-- title: Images
-  url: /features/images
-  emoji: 🖼️
-  text: KeyboardKit defines keyboard-specific images.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/images-article
+- title: Input
+  url: /features/text-input
+  emoji: 📝
+  text: KeyboardKit can input text inside the keyboard extension itself.
+  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/text-input-article
 
 - title: Layout
   url: /features/layout
@@ -135,12 +117,6 @@
   emoji: 🎨
   text: KeyboardKit lets you style your keyboards to great extent.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/styling-article
-
-- title: Text Input
-  url: /features/text-input
-  emoji: 📝
-  text: KeyboardKit can input text inside the keyboard extension itself.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/text-input-article
 
 - title: Themes
   url: /features/themes
