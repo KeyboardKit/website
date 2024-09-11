@@ -1,5 +1,5 @@
 ---
-title:  Xcode 16 breaks emoji keyboard gestures in iOS 18
+title:  Xcode 16 breaks rich button gestures in scroll views in iOS 18
 date:   2024-09-06 10:00:00 +0100
 tags:   gestures
 
@@ -9,7 +9,7 @@ tweet:  https://x.com/GetKeyboardKit/status/1832038317761741002
 toot:   https://techhub.social/@keyboardkit/113090688970833001
 ---
 
-Xcode 16 causes a breaking gesture bug in iOS 18, where the multi-gesture button that is used by all keyboard keys stops working within a scroll view. This post describes how KeyboardKit 8.9 will fix it.
+Xcode 16 causes a breaking gesture bug, where multi-gesture buttons stop working in scroll views in iOS 18. This affects the emoji keyboard. This post describes how KeyboardKit will fix it.
 
 ![KeyboardKit logo]({{page.image}})
 
@@ -42,9 +42,9 @@ Note that it still works great in Xcode 15, or when building with Xcode 16 and r
 As such, the emoji keyboard stops working in this case, since the emoji keys block the scroll gesture.
 
 
-## KeyboardKit 8.9 to the rescue
+## KeyboardKit 8.8.6 to the rescue
 
-KeyboardKit 8.9 rewrites the gesture engine from scratch to work with both Xcode 15, Xcode 16, iOS 17 (and earlier) and iOS 18, and without the need for complex scroll handling in iOS 18.
+KeyboardKit 8.8.6 rewrites the gesture engine from scratch to work with both Xcode 15, Xcode 16, iOS 17 (and earlier) and iOS 18, and without the need for complex scroll handling in iOS 18.
 
 It will do so by using the same `GestureButton` for both `KeyboardView` and `EmojiKeyboard` in iOS 18, by changing the gesture to be simultaneous instead of exclusive.
 

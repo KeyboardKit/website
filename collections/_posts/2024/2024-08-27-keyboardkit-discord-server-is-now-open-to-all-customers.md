@@ -1,5 +1,5 @@
 ---
-title:  The KeyboardKit Discord Server is now open to all KeyboardKit Pro users
+title:  The KeyboardKit Discord Server is now open to all Pro users
 date:   2024-08-27 10:00:00 +0100
 tags:   discord support
 
