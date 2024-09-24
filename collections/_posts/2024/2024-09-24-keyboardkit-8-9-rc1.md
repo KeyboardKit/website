@@ -1,6 +1,6 @@
 ---
-title:  KeyboardKit 8.9 RC 1
-date:   2024-09-21 08:00:00 +0100
+title:  KeyboardKit 8.9 RC 2
+date:   2024-09-24 08:00:00 +0100
 tags:   releases essentials app callouts layout services themes views
 
 github: https://github.com/KeyboardKit/KeyboardKit/issues/795
@@ -12,7 +12,7 @@ tweet:  https://x.com/GetKeyboardKit/status/1838362913628684781
 toot:   https://techhub.social/@keyboardkit/113189510201135156
 ---
 
-KeyboardKit 8.9 is another massive update that adds a lot of features, improves how the keyboard extension is set up, renames services, simplifies registering localized service overrides, etc.
+KeyboardKit 8.9 Release Canditate 2 is out. This another massive update that improves how the keyboard extension is set up, renames services, and adds a bunch of new features.
 
 ![KeyboardKit logo]({{page.image}})
 
