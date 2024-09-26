@@ -20,12 +20,12 @@ Yearly Gold licenses (where applicable) and all custom licenses are encoded into
 
 ### Additions
 
-Additional products can be added to a license at a 50% discount per product. This discount applies as long as the original license is active. [Reach out]({{site.email_url}}) to add more products.
+Additional products can be added to a license at a 50% discount per product. This discount applies as long as the original license is active. [Reach out]({{ site.urls.email }}) to add more products.
 
 
 ### Adjustments
 
-The purchase information can't be changed after a purchase is made, but can be overridden with a new version, if needed. [Reach out]({{site.email_url}}) to adjust or correct any information.
+The purchase information can't be changed after a purchase is made, but can be overridden with a new version, if needed. [Reach out]({{ site.urls.email }}) to adjust or correct any information.
 
 
 ### Expiration

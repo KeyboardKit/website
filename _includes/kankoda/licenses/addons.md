@@ -21,11 +21,11 @@ Gold and custom licenses include the option to encode the license into the binar
 
 ## Additional Bundles
 
-Gold and custom licenses can add additional bundle IDs at a 50% discount per bundle ID. [Reach out]({{page.email_url}}) to get a discount code, that you can apply when signing up for a new license.
+Gold and custom licenses can add additional bundle IDs at a 50% discount per bundle ID. [Reach out]({{site.urls.email}}) to get a discount code, that you can apply when signing up for a new license.
 
 
 ## Support Levels
 
 {{product}}'s support levels are based on the license tiers and your specific needs. See the [pricing table]({{include.url}}) for more details about what's included in each tier.
 
-[Reach out]({{page.email_url}}) if you need a plan that includes dedicated support, recurring support activites, etc.
+[Reach out]({{site.urls.email}}) if you need a plan that includes dedicated support, recurring support activites, etc.

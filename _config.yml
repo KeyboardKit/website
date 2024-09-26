@@ -8,15 +8,14 @@ description: >-
   KeyboardKit helps you create custom keyboards for iOS and iPadOS, using Swift and SwiftUI. 
 
 url: http://keyboardkit.com
-rss_url: https://keyboardkit.com/feed.xml
+email: info@keyboardkit.com
+
 is_lib: 1
 
 copyright_year: 2016-2024
 copyright_owner: Kankoda Sweden AB
 copyright_url: https://kankoda.com
 
-email: info@keyboardkit.com
-email_url: mailto:info@keyboardkit.com
 github_username: KeyboardKit
 mastodon_username: keyboardkit@techhub.social
 twitter_username: getkeyboardkit
@@ -26,9 +25,13 @@ header_image: /assets/icon/icon-header.png
 header_image_type: icon
 
 urls:
+  email:      mailto:info@keyboardkit.com
+  rss:        https://keyboardkit.com/feed.xml
+
   appstore:   http://itunes.apple.com/app/keyboardkit/id1568444977
   blog:       /blog
   docs:       https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/
+  docs_pro:   https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/
   github:     https://github.com/KeyboardKit/KeyboardKit
   github_pro: https://github.com/KeyboardKit/KeyboardKitPro
   gumroad:    https://kankoda.gumroad.com/l/keyboardkitpro
@@ -54,6 +57,7 @@ footer_sitemap:
   - pages/pro.md
   - pages/pricing.md
   - pages/app/app.md
+  - pages/case-studies.md
 
 collections_dir: collections
 

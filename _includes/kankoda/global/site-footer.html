@@ -20,25 +20,25 @@
         {% if site.urls.newsletter %}
         <a href="{{site.urls.newsletter}}">Newsletter</a>
         {% endif %}
-        {% if site.rss_url %}
-        <a href="{{site.rss_url}}">RSS</a>
+        {% if site.urls.rss %}
+        <a href="{{site.urls.rss}}">RSS</a>
         {% endif %}
       </div>
       
       <div class="column">
         <p>Social</p>
-        <a href="mailto:{{site.email}}">E-mail</a>
+        <a href="{{site.urls.email}}">E-mail</a>
         {% if site.urls.twitter %}
         <a href="{{site.urls.twitter}}">Twitter</a>
         {% endif %}
         {% if site.urls.mastodon %}
         <a href="{{site.urls.mastodon}}">Mastodon</a>
         {% endif %}
-        {% if site.instagram_url %}
-        <a href="{{site.instagram_url}}">Instagram</a>
+        {% if site.urls.instagram %}
+        <a href="{{site.urls.instagram}}">Instagram</a>
         {% endif %}
-        {% if site.linkedin_url %}
-        <a href="{{site.linkedin_url}}">LinkedIn</a>
+        {% if site.urls.linkedin %}
+        <a href="{{site.urls.linkedin}}">LinkedIn</a>
         {% endif %}
       </div>
       
@@ -60,9 +60,21 @@
       {% if site.is_lib == 1 %}
       <div class="column">
         <p>Code</p>
-        <a href="{{site.urls.github}}">GitHub</a>
-        <a href="{{site.urls.github}}/issues">Issues</a>
-        <a href="{{site.urls.docs}}">Documentation</a>
+        <div>
+          <a href="{{site.urls.github}}">GitHub</a>
+          {% if site.urls.github_pro %}
+            <a href="{{site.urls.github_pro}}">(Pro)</a>
+          {% endif %}
+        </div>
+        <div>
+          <a href="{{site.urls.github}}/issues">Issues</a>
+        </div>
+        <div>
+          <a href="{{site.urls.docs}}">Documentation</a>
+          {% if site.urls.docs_pro %}
+            <a href="{{site.urls.docs_pro}}">(Pro)</a>
+          {% endif %}
+        </div>
       </div>
       {% endif %}
 
