@@ -22,7 +22,7 @@ a.scale {
   text-decoration: none;
 }
 
-a.scale:hover, a.scale:visited:hover {
+a.scale:hover, a:hover .scale {
   transform: scale(1.04);
 }
 
