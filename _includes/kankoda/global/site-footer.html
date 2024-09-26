@@ -25,13 +25,6 @@
         {% endif %}
       </div>
       
-      {% if site.footer_extra_title %}
-      <div class="column">
-        <p>{{ site.footer_extra_title }}</p>
-        {% include kankoda/global/site-footer-links.html paths=site.footer_extra %}
-      </div>
-      {% endif %}
-      
       <div class="column">
         <p>Social</p>
         <a href="mailto:{{site.email}}">E-mail</a>
@@ -48,6 +41,13 @@
         <a href="{{site.linkedin_url}}">LinkedIn</a>
         {% endif %}
       </div>
+      
+      {% if site.footer_extra_title %}
+      <div class="column">
+        <p>{{site.footer_extra_title }}</p>
+        {% include kankoda/global/site-footer-links.html paths=site.footer_extra %}
+      </div>
+      {% endif %}
       
       {% if site.is_app == 1 %}
       <div class="column">

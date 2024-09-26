@@ -27,3 +27,13 @@
     text-align: right;
   }
 }
+
+@media (max-width: 500px) {
+
+  #gumroad-follow-form-embed {
+
+      input, button {
+          font-size: medium;
+      }
+  }       
+}

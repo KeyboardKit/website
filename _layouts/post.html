@@ -31,11 +31,11 @@ layout: default
     </p>
     {%- endif -%}
     <p>
-      Follow on <a href="{{site.urls.twitter}}">Twitter</a> and <a href="{{site.mastodon_url}}">Mastodon</a> to be notified when new content & articles are published.
+      Follow on <a href="{{site.urls.twitter}}">Twitter</a> and <a href="{{site.urls.mastodon}}">Mastodon</a> to be notified when new content & articles are published.
     </p>
   {%- endif -%}
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <a class="u-url" href="{{page.url | relative_url}}" hidden></a>
 </article>
 
 {% include kankoda/disqus/disqus-card.html %}
