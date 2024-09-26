@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit 8.8 is out
 date:   2024-08-22 10:00:00 +0100
-tags:   releases pro essentials app autocomplete dictation emoji feedback layout settings
+tags:   releases pro essentials app autocomplete dictation emojis feedback layout settings
 
 image:  /assets/headers/icon.png
 
