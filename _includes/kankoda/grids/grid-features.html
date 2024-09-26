@@ -3,12 +3,12 @@
     {%- if feature.hidden -%}
     {%- else -%}
     <a href="{{ feature.url }}{{ include.anchor }}">
-      <div class="image-container">
-      {%- if feature.emoji -%}
-      <span class="emoji">{{feature.emoji}}</span>
-      {%- else -%}
-      <img src="{{ feature.image }}" alt="{{ feature.title }} icon" title="{{ feature.title }}" />
-      {%- endif -%}
+      <div class="image-container scale sticker">
+        {%- if feature.emoji -%}
+        <span class="emoji">{{feature.emoji}}</span>
+        {%- else -%}
+        <img src="{{ feature.image }}" alt="{{ feature.title }} icon" title="{{ feature.title }}" />
+        {%- endif -%}
       </div>
       <div>
       <h3>{{ feature.title }}</h3>
