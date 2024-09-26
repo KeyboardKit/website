@@ -9,7 +9,7 @@ html{
   scroll-behavior: smooth;
 }
 
-a {
+a, .scale {
   transition: all 150ms ease-in-out, color 1s ease-out 50ms !important;
 }
 
