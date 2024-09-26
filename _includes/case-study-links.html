@@ -1,0 +1,8 @@
+<div class="grid col3">
+    {%- assign limit = include.limit | default: 1000 -%}
+    {% for page in site.case-studies limit:limit %}
+    <a href="{{ page.url }}" class="scale">
+        <img src="{{ page.image }}" alt="{{ page.name }} image" title="{{ page.title }}" />
+    </a>
+    {% endfor %}
+</div>

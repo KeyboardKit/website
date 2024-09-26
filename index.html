@@ -48,10 +48,9 @@ description: Build amazing, fully customizable iOS keyboard extensions in Swift 
 
   <section>
     <h2>Blog</h2>
-    <div> 
+    <p> 
       Follow <a href="/blog">the KeyboardKit Blog</a> for exciting news and articles.
-    </div>
-    <p></p>
+    </p>
     <div class="grid blog list">
       {% for post in site.posts limit:2 %}
           <div>
@@ -65,6 +64,9 @@ description: Build amazing, fully customizable iOS keyboard extensions in Swift 
   
   <section>
     <h2>Case Studies</h2>
-    <p>Do use KeyboardKit to do something exciting with custom keyboards? Don't hesistate to <a href="{{site.email_url}}">reach out</a> to share your story in the <a href="/blog#case-studies">Case Studies</a> section of the KeyboardKit blog.</p>
+    <p> 
+      Check out some <a href="/case-studies">case-studies</a> of some amazing apps that are using KeyboardKit.
+    </p>
+    {% include case-study-links.html limit=3 %}
   </section>
 </div>

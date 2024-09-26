@@ -58,6 +58,9 @@ footer_sitemap:
 collections_dir: collections
 
 collections:
+  case-studies:
+    output: true
+    permalink: /case-studies/:name/
   features:
     output: true
     permalink: /features/:name/
@@ -85,6 +88,12 @@ defaults:
     values:
       hero: ""
       layout: "page"
+  -
+    scope:
+      type: "case-studies"
+    values:
+      hero-paper: 1
+      layout: "case-study"
   -
     scope:
       type: "features"
