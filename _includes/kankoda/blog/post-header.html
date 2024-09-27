@@ -1,5 +1,6 @@
 {%- assign post = include.post -%}
 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+{%- assign tag-limit = include.tag-limit -%}
 
 <div class="post-header">
   <span class="date">
@@ -9,6 +10,6 @@
     · Follow on <a href="{{site.urls.twitter}}">Twitter</a> and <a href="{{site.urls.mastodon}}">Mastodon</a>
   {% endif %}
   <div class="tags">
-    {% include kankoda/blog/tags.html tags=post.tags %}
+    {% include kankoda/blog/tags.html tags=post.tags limit=tag-limit %}
   </div>
 </div>

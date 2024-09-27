@@ -1,6 +1,8 @@
 {%- assign tags = include.tags -%}
+{%- assign limit = include.limit | default: 100 -%}
+
 {%- if tags -%}
-  {%- for tag in tags -%}
+  {%- for tag in tags limit:limit -%}
     {%- assign tag = tag | slugify -%}
     <a href="javascript:showTag('{{ tag }}')" class="tag {{ tag }}">{{ tag }}</a>
   {%- endfor -%}

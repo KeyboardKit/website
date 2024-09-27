@@ -49,12 +49,12 @@ description: Build amazing, fully customizable iOS keyboard extensions in Swift 
   <section>
     <h2>Blog</h2>
     <p> 
-      Follow <a href="/blog">the KeyboardKit Blog</a> for exciting news and articles.
+      Follow the <a href="/blog">KeyboardKit blog</a> for news & updates.
     </p>
     <div class="grid blog list">
       {% for post in site.posts limit:2 %}
           <div>
-            {% include kankoda/blog/list-item.html post=posts.first %}
+            {% include kankoda/blog/list-item.html post=posts.first tag-limit=1 %}
           </div>
       {% endfor %}
     </div>
