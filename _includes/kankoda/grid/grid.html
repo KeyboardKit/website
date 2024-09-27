@@ -20,11 +20,11 @@
     {% else %}
       {%- if url -%}
       <a href="{{ url }}" name="{{ item.name | slugify }}" title="{{ item.name }}">
-        {% include kankoda/grids/grid-item.html type=type name=title icon=icon image=image image-class=include.image-class %}
+        {% include kankoda/grid/item.html type=type name=title icon=icon image=image image-class=include.image-class %}
       </a>  
       {%- else -%}
       <div>
-        {% include kankoda/grids/grid-item.html type=type name=title icon=icon image=image image-class=include.image-class image-folder=include.image-folder %}
+        {% include kankoda/grid/item.html type=type name=title icon=icon image=image image-class=include.image-class image-folder=include.image-folder %}
       </div>
       {%- endif -%}
     {% endif %}

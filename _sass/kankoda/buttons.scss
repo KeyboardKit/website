@@ -26,6 +26,28 @@ a.scale:hover, a:hover .scale {
   transform: scale(1.04);
 }
 
+
+section.app-store-button {
+  margin: 50px 0px;
+}
+
+.app-store-button {
+  img {
+    width: 200px; 
+  }
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+
 .back-button, .forward-button {
   a {
     font-weight: normal !important;
@@ -38,6 +60,7 @@ a.scale:hover, a:hover .scale {
     content: "«";
   }
 }
+
 
 .forward-button {
 

@@ -15,8 +15,8 @@ The app lets you configure the custom keyboard to great extend. You can change t
 
 The app uses [KeyboardKit Pro](/pro) to support all [{{site.locale_count}} locales](/features/locales) and many [pro](/pro) features. It comes with pre-defined [themes](/pro/themes) and lets you create custom themes that you can share with others.
 
-{% include kankoda/grids/grid-screenshots.html images="keyboardkit-1,keyboardkit-2,keyboardkit-3,keyboardkit-4,keyboardkit-5,keyboardkit-6" %}
+{% include kankoda/grid/screenshots.html images="keyboardkit-1,keyboardkit-2,keyboardkit-3,keyboardkit-4,keyboardkit-5,keyboardkit-6" %}
 
 For information on how the app collects and uses data (it doesn't), you find the privacy policy [here](/app/privacy-policy).
 
-{% include kankoda/apps/app-store-button.html image-class="plain" %}
+{% include kankoda/buttons/app-store.html image-class="plain" %}

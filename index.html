@@ -26,7 +26,7 @@ description: Build amazing, fully customizable iOS keyboard extensions in Swift 
 
   <section>
     <h2>Explore</h2>
-    {% include kankoda/grids/grid-features.html features=site.data.home-features %}
+    {% include kankoda/grid/features.html features=site.data.home-features %}
   </section>
 
   <hr />
@@ -54,7 +54,7 @@ description: Build amazing, fully customizable iOS keyboard extensions in Swift 
     <div class="grid blog list">
       {% for post in site.posts limit:2 %}
           <div>
-            {% include kankoda/blog/post-list-item.html post=posts.first %}
+            {% include kankoda/blog/list-item.html post=posts.first %}
           </div>
       {% endfor %}
     </div>

@@ -19,7 +19,7 @@
         <p>{{include.description | default: page.description}}</p>
         {% if hero_size > 0 %}
         <div class="image-wrapper">
-            <img src="{{include.hero}}" alt="Page hero image for {{page.id}} page" class="{{page.hero-img-class}}" />
+            <img src="{{include.hero}}" alt="Page hero image for {{page.id}} page" class="{{page.hero-img-class}} rounded" />
         </div>
         {% elsif emoji_size > 0 %}
         <span class="emoji">

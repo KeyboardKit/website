@@ -34,6 +34,6 @@ As you can see in these screenshots, Hayatar provides you with great Armenian al
 
 It's amazing to hear that Arshak loved using KeyboardKit, and that it helped him bring this amazing Armenian keyboard to life. [Download Hayatar]({{page.appstore}}) today, to improve your Armenian typing experience.
 
-{% include kankoda/apps/app-store-button.html image-class="plain" url=page.appstore %}
+{% include kankoda/buttons/app-store.html image-class="plain" url=page.appstore %}
 
 Also, make sure to follow Arshak on [Twitter]({{page.twitter}}) & [Mastodon]({{page.mastodon}}) for more information on what he's up to.

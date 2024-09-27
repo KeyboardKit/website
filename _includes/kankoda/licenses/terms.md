@@ -5,11 +5,9 @@
 
 A license is valid for one product, defined by the bundle ID that is provided at the time of purchase.
 
-
 ### Activation
 
 A license is activated and can be used immediately after purchase, using the unique license key that can be found in the license purchase confirmation.
-
 
 ### Validation
 
@@ -17,21 +15,17 @@ All licenses, except yearly Gold licenses (where applicable) and custom licenses
 
 Yearly Gold licenses (where applicable) and all custom licenses are encoded into the binary product and validated on-device, without the need for network validation.
 
-
 ### Additions
 
 Additional products can be added to a license at a 50% discount per product. This discount applies as long as the original license is active. [Reach out]({{ site.urls.email }}) to add more products.
-
 
 ### Adjustments
 
 The purchase information can't be changed after a purchase is made, but can be overridden with a new version, if needed. [Reach out]({{ site.urls.email }}) to adjust or correct any information.
 
-
 ### Expiration
 
 A license expires when its subscription ends. This will stop the related product from being able to use {{ product }} in development and production.
-
 
 
 ## Free Trial
@@ -39,11 +33,9 @@ A license expires when its subscription ends. This will stop the related product
 All licenses include a free trial with unlimited access to all the features in the selected tier. The trial will automatically convert to a paid plan if it's not cancelled.
 
 
-
 ## Refunds
 
 The free trial can be cancelled at any time. No refunds will be approved after the free trial ends. An active license subscription can be cancelled at any time, to stop it from being renewed.
-
 
 
 ## Technical Information
@@ -60,7 +52,6 @@ SDK features may stop working in any future platform update, due to changes in t
 Features that stop working due to these kind of changes may be removed without replacement or compensation, since required capabilities may no longer be available.
 
 
-
 ## Closed Source License Agreement
 
 This license agreement applies to the {{ product }} SDK (hereby referred to as "the Software").
@@ -74,13 +65,11 @@ Any attempts to bypass, disable or work around these limitations or any other re
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANT-ABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-
 ## Laws and Regulations
 
 These terms and conditions are governed by and construed in accordance with Swedish law.
 
 The courts of Sweden shall have exclusive jurisdiction to settle any dispute or claim arising out of or in connection with these terms. The seat of arbitration shall be Stockholm. The language to be used in the arbitral proceedings shall be Swedish. This contract shall be governed by the substantive law of Sweden. The Parties undertake and agree that all arbitral proceedings conducted with reference to this arbitration section will be kept strictly confidential.
-
 
 
 ## Copyright

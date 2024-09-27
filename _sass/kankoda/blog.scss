@@ -1,12 +1,7 @@
 .blog {
 
   .list {
-
     margin-top: 50px;
-
-    article + article {
-      margin-top: 50px;
-    }
   }
 }
 
@@ -15,15 +10,17 @@ article.post .grid {
 }
 
 .post-header {
-  font-size: medium; 
+  font-size: smaller; 
   font-weight: normal;
-  margin-top: 5px;
-  margin-bottom: 25px;
   color: $foreground-secondary !important;
+  
+  .tags {
+    margin: 10px 0;
 
-  .tag {
-    font-size: smaller; 
-    font-weight: normal;
+    .tag {
+      font-size: smaller; 
+      font-weight: normal;
+    }
   }
 }
 

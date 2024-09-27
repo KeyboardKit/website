@@ -9,7 +9,7 @@ permalink: /blog/
 <div class="blog list">
     {%- include kankoda/tags/list.html tags=site.tags firstmost="releases,pro" -%}
     {% for post in site.posts %}
-    {% include kankoda/blog/post-list-item.html post=post %}
+    {% include kankoda/blog/list-item.html post=post %}
     {% endfor %}
     {%- include kankoda/tags/scripts.html -%}
 </div>

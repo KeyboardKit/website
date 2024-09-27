@@ -26,4 +26,4 @@ KeyboardKit Pro has a separate [GitHub project]({{site.urls.github_pro}}) with d
 <a name="features" />
 ## Pro Features
 
-{% include kankoda/grids/grid-features.html features=site.data.pro-features %}
+{% include kankoda/grid/features.html features=site.data.pro-features %}

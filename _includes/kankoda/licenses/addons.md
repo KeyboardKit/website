@@ -1,6 +1,5 @@
 {% assign product = include.product %}
 
-
 [{{product}}]({{include.url}}) has add-ons that are available to the higher tiers. See the [pricing table]({{include.url}}) for more info.
 
 

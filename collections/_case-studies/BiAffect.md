@@ -107,7 +107,7 @@ The BiAffect keyboard plays a crucial role in this task, integrating seamlessly 
 
 [Download BiAffect]({{page.biaffect}}) today, to see how its pioneering use of keystroke dynamics can enhance your understanding of mental health.
 
-{% include kankoda/apps/app-store-button.html image-class="plain" url=page.appstore %}
+{% include kankoda/buttons/app-store.html image-class="plain" url=page.appstore %}
 
 
 ## Further Reading

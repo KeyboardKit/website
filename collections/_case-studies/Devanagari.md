@@ -29,6 +29,6 @@ This is when Natasha got the idea to build a Sanskrit keyboard, using a standard
 
 Stories like these are so inspiring! Creating a custom keyboard shouldn't have to be hard or take a long time. It's wonderful to hear that Natasha enjoyed using KeyboardKit to build her app.
 
-{% include kankoda/apps/app-store-button.html image-class="plain" url=page.appstore %}
+{% include kankoda/buttons/app-store.html image-class="plain" url=page.appstore %}
 
 You can download the Type Devanagari app from the [App Store]({{page.appstore}}). Also make sure to follow Natasha on [Twitter]({{page.twitter}}) for more information on her other cool projects and conferences.

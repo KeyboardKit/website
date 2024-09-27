@@ -1,5 +1,5 @@
 .grid-title {
-  margin: 15px;
+  margin: 10px;
 }
 
 p + .grid {
@@ -34,22 +34,8 @@ p + .grid {
   grid-template-columns: repeat(7, 1fr) !important;
 }
 
-.grid.icons {  
-  img {
-    border-radius: 23%;
-  }
-}
-
 .grid.icons, .grid.bands, .grid.themes {
   text-align: center;
-}
-
-
-.grid.features {
-
-  img {
-    border-radius: 22%;
-  }
 }
 
 .grid.icons, .grid.bands, .grid.features {

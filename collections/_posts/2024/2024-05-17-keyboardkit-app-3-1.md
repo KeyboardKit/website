@@ -17,7 +17,7 @@ The new locales that are added in this version are French (Canada), Norwegian (N
 
 The settings screen has been cleaned up and restructured a bit, to be easier to use. It improves the preview keyboard, and now lets you enable a numeric toolbar with a simple toggle button.
 
-{% include kankoda/grids/grid-screenshots.html folder="screenshots/app" images="3_1-1,3_1-2,3_1-3" %}
+{% include kankoda/grid/screenshots.html folder="screenshots/app" images="3_1-1,3_1-2,3_1-3" %}
 
 The rest of the app has been redesigned and cleaned up a bit as well. For instance, the theme form is a lot easier to use than before.
 
@@ -25,4 +25,4 @@ The new iPad Pro layout has been added to all locales. This means that you can e
 
 We hope you like this new version of the KeyboardKit app!
 
-{% include kankoda/apps/app-store-button.html image-class="plain" %}
+{% include kankoda/buttons/app-store.html image-class="plain" %}
