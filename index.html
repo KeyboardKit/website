@@ -32,31 +32,32 @@ description: Build amazing, fully customizable iOS keyboard extensions in Swift 
   <hr />
 
   <section>
-    <h2>Social Media</h2>
-    Follow KeyboardKit on <a href="{{site.urls.twitter}}">Twitter</a> and <a href="{{site.urls.mastodon}}">Mastodon</a> for the latest news.
-  </section>
-
-  <section>
-    <h2>Newsletter</h2>
-    <p>
-      Subscribe to <a href="{{site.urls.newsletter}}">the KeyboardKit Newsletter</a> for periodic updates.
-    </p>
-    <p>
-      {% include kankoda/widgets/newsletter.html %} 
-    </p>
-  </section>
-
-  <section>
     <h2>Blog</h2>
     <p> 
       Follow the <a href="/blog">KeyboardKit blog</a> for news & updates.
     </p>
-    <div class="grid blog list">
+    <div class="grid home blog list">
       {% for post in site.posts limit:2 %}
-          <div>
-            {% include kankoda/blog/list-item.html post=posts.first tag-limit=1 %}
-          </div>
+      <div>
+        {% include kankoda/blog/list-item.html post=posts.first tag-limit=1 %}
+      </div>
       {% endfor %}
+    </div>
+  </section>
+
+  <hr />
+
+  <section>
+    <div class="grid home centered">
+      <div class="column">
+        {% include kankoda/titles/section.html title="Social Media" %}
+        <p>Follow KeyboardKit on <a href="{{site.urls.twitter}}">Twitter</a> and <a href="{{site.urls.mastodon}}">Mastodon</a> for the latest news.</p>
+      </div>
+      <div class="column">
+        {% include kankoda/titles/section.html title="Newsletter" %}
+        <p>Subscribe to <a href="{{site.urls.newsletter}}">the KeyboardKit newsletter</a> for periodic updates.</p>
+        {% include kankoda/widgets/newsletter.html %}
+      </div>
     </div>
   </section>
 

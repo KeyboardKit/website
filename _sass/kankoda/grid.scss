@@ -25,13 +25,15 @@ p + .grid {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.grid.blog {
+.grid.home {
   grid-column-gap: 40px;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.grid.clients {
-  grid-template-columns: repeat(7, 1fr) !important;
+.grid.home.centered {
+  .column {
+    text-align: center;
+  }
 }
 
 .grid.icons, .grid.bands, .grid.themes {
@@ -49,15 +51,11 @@ p + .grid {
 
 @media (max-width: 600px) {
   
-  .grid.blog { 
+  .grid.home { 
     grid-row-gap: 20px;
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .grid.clients {
-    grid-template-columns: repeat(7, 1fr) !important;
-  }
-  
   .grid.icons { 
     grid-template-columns: repeat(2, 1fr);
   }
