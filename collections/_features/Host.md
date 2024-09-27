@@ -7,7 +7,7 @@ KeyboardKit provides ways to easily identify the host application, which may be 
 👑 [KeyboardKit Pro][Pro] unlocks an [additional list of popular applications](#pro), to make it even easier to get the exact identify of the active app.
 
 
-## Core Features
+## Host Application Bundle Identifier
 
 ``KeyboardInputViewController`` has a ``.hostApplicationBundleId`` property that tries to resolve the ID of the application that is currently using the keyboard.
 
@@ -19,7 +19,11 @@ KeyboardKit provides ways to easily identify the host application, which may be 
 
 [KeyboardKit Pro][Pro] unlocks a ``KeyboardHostApplication`` enum that defines a bunch of commonly used applications. This will be expanded over time, so reach out if you miss a certain app.
 
-The ``KeyboardInputViewController`` and ``KeyboardContext`` are both extended with a `hostApplication` property, that tries to return a specific application.
+Since it's impossible to define all apps that exist in the App Store, this enum just aims to cover the most popular ones. Reach out if you miss any app, or if an existing one stops working.
+
+KeyboardKit Pro also extends ``KeyboardInputViewController``, ``KeyboardContext``, and ``DictationContext`` with a ``hostApplication`` property, that tries to map the bundle ID to a ``KeyboardHostApplication``.
+
+All in all, This means that KeyboardKit Pro makes it easier to identify and navigate to many of the most popular apps in the App Store.
 
 
 [Pro]: /pro

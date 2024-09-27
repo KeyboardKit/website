@@ -7,22 +7,37 @@ Callouts are an important part of the typing experience, where input callouts hi
 [KeyboardKit Pro][Pro] unlocks [localized callout actions](#pro) for all locales, with no additional code needed.
 
 
-## Core Features
-KeyboardKit has tools to automatically show a ``Callouts.InputCallout`` as a user taps any input key:
+## Callouts Namespace
 
-![InputCallout]({{page.assets}}inputcallout-350.jpg)
+KeyboardKit has a ``Callouts`` namespace that contains callout-related types and views. For instance, an ``InputCallout`` shows the pressed character while an ``ActionCallout`` shows secondary actions.
 
-KeyboardKit can also show secondary actions in a ``Callouts.ActionCallout`` when long pressing a key:
 
-![ActionCallout]({{page.assets}}actioncallout-350.jpg)
+## Callout Context
 
-The `SystemKeyboard` automatically registers everything needed to automatically show these callouts.
+KeyboardKit has an observable ``CalloutContext`` class that provides observable input & action callout state, such as the currently pressed key or the callout actions to present.
+
+
+## Callout Services
+
+In KeyboardKit, a ``CalloutService`` can be used to provide secondary actions for any key, which are then presented when a key with secondary actions is long pressed.
+
+
+## Views
+
+The ``Callouts`` namespace has callout-specific views, that can be used to mimic the native iOS & iPadOS input and action callouts:
+
+<div class="grid col2">
+    <div><img alt="An input callout" src="{{page.assets}}inputcallout.jpg" /></div>
+    <div><img alt="An action callour" src="{{page.assets}}actioncallout.jpg" /></div>
+</div>
+
+The ``KeyboardView`` automatically registers everything needed to automatically show these callouts.
 
 
 <a name="pro">
-## 👑 Pro Features
+## 👑 KeyboardKit Pro
 
-[KeyboardKit Pro][Pro] unlocks localized callout actions for all locales in a license, to let `SystemKeyboard` show localized callouts without any additional code needed.
+[KeyboardKit Pro][Pro] unlocks localized callout actions for all locales, to let `KeyboardView` show localized callout actions without having to write any additional code.
 
 
 

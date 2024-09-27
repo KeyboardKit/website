@@ -7,22 +7,37 @@ Great keyboard apps use the main app to show the user the state of the keyboard,
 KeyboardKit adds many utilities to make this easier, such as URL extensions and navigation links.
 
 
-## Core Features
+## Keyboard Settings
 
-KeyboardKit has a `.keyboardSettings` URL that can be used to open your app's keyboard settings in System Settings. There's also a `KeyboardSettings.Link` that renders a customizable navigation link.
-
-
-## Data Syncing
-
-Many keyboards open the main app to let users manage app settings, such as the locale, feedback settings, etc. The larger UI makes for a great alternative for app and keyboard settings.
-
-To share data between the app and the keyboard, you must use an **App Group** to persist data in a way that allows it to be accessed by both the app and the keyboard.
-
-Once you have defined an App Group, you can use `UserDefaults(suiteName: "group-id")` to create a defaults instance that automatically syncs data between all targets.
-
-The main app will always write data to an App Group in a way that makes it instantly available to the keyboard. A keyboard must however have **Full Access** enabled for data to be immediately synced.
+KeyboardKit has a ``KeyboardSettings`` class that has a ``store`` that is used to persist data for various contexts. You can set it up with an App Group to sync data between the app and its keyboard.
 
 
-## Limitations
+## How to sync settings between the app and the keyboard
 
-A common request is to be able to access values from System Settings, for instance a user's audio or feedback preferences. This is not possible, at least not with the public APIs.
+To sync data between the main app target and its keyboard extension, you have to create an App Group and link it to both the app and the keyboard.
+
+You can then add the App Group ID to your ``KeyboardApp`` and use that app to set up your main app and keyboard extension.
+
+The main app will always write data to an App Group so that it's instantly available to the keyboard. A keyboard must however have Full Access enabled for changes to be immediately synced.
+
+
+## How to open System Settings
+
+KeyboardKit defines a ``systemSettings`` URL that can be used to open your app's settings screen in System Settings, where users can enable your keyboard, enable Full Access, etc. 
+
+You can use a standard SwiftUI `Link` to open a URL from both your app and its keyboard extension:
+
+```swift
+if let url = URL.systemSettings {
+    Link("Open System Settings", destination: url)
+}
+```
+
+You can also open System Settings with a ``KeyboardActionHandler``, by triggering a ``url`` action. If your app only navigates to the Settings root app, try adding an empty settings bundle to it.
+
+
+## How to access System Settings values
+
+A common question is to be able to access various settings from System Settings, for instance to access autocapitalization & autocorrect preferences.
+
+This is not possible, at least not with the public APIs. This is most probably due to privacy concerns, and unfortunately means that your app must provide its own keyboard settings.

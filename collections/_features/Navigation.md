@@ -4,17 +4,24 @@ title: Navigation
 
 Keyboard extensions may sometimes have to open a URL or trigger a deep link, for instance to the main app or System Settings.
 
-Since Keyboard extensions can't use `UIApplication.shared`, KeyboardKit provides alternate ways to open URLs, without using `UIApplication.shared`.
+Since Keyboard extensions can't use `UIApplication.shared`, KeyboardKit has other alternate ways to open URLs and trigger deep links.
 
 
+## How to open URLs from a keyboard extension
 
-## Core Features
+One way to open a URL from a keyboard, is to use the ``KeyboardInputViewController``'s ``openUrl(_:)``.
 
-To open a URL from a keyboard extension, use the ``KeyboardInputViewController`` ``openUrl(_:)``, which opens the provided URL without using the shared application.
-
-To avoid depending on the controller (which can easily cause memory leaks), you can also trigger a ``KeyboardAction.url(_:id:)`` action and let the main ``KeyboardActionHandler`` handle it.
-
-KeyboardKit defines a `.keyboardSettings` URL that can be used to open your app in System Settings. If your keyboard navigates to the root instead of your app, try adding a Settings Bundle to your app. 
+Another way is to trigger a ``url(_:id:)`` action and let the ``KeyboardActionHandler`` in ``services`` handle it. This lets us avoid having to depend on the controller, which can lead to memory leaks.
 
 
-[Pro]: /pro   
+## How to open System Settings
+
+KeyboardKit defines a ``.systemSettings`` URL that can be used to open your app in System Settings.
+
+If your keyboard randomly navigates to the System Settings root instead of your app, try to add an empty settings bundle to your app.
+
+
+<a name="pro">
+## 👑 KeyboardKit Pro
+
+KeyboardKit Pro can navigate back to a keyboard from the main app, by using its extended [host application capabilities](/features/host).

@@ -2,31 +2,27 @@
 title: AI Support
 ---
 
-Apple's native keyboard APIs have limitations that makes it hard to support AI-based features. For instance, keyboards can't by default read the entire document or let users type within the keyboard.
+Apple's native keyboard APIs lack many features that are often needed by AI-based keyboards.
+
+For instance, AI-based keyboards may need to read the entire document to perform spellchecking and proofreading, and also let users type within the keyboard to type prompts or intents.
+
+Keyboard extensions have little native support for this. The text document proxy will only return the text closest to the input cursor. You also can't type in text fields in the keyboard, since text is always sent to the main app. This makes in-keyboard prompting hard to implement.
 
 [KeyboardKit Pro][Pro] unlocks [features](#pro) that make it easier to add AI-based functionality to a keyboard.
 
 
-## Core Features
-
-While the open-source SDK doesn't have any pre-defined functionality for AI support, it defines protocols and models that can help you get started.
-
 <a name="pro">
-## 👑 Pro Features
+## 👑 KeyboardKit Pro
 
 
 ### Full Document Reader
 
-Keyboard extensions are by default only able to get a little text before and after the input cursor. This makes it hard to implement AI-based text analysis, spellchecking, and proof reading.
-
-[KeyboardKit Pro][Pro] unlocks ways to read **all** text from any text field, by moving the text cursor in a way that unlocks more content.
+[KeyboardKit Pro][Pro] unlocks ways to read *all* text from any text field, by moving the text cursor in a way that unlocks more content. See the [proxy utilities](/features/proxy-utilities/) feature for more information.
 
 
-### Text Routing
+### Text Input
 
-Keyboard extensions will by default type into the active app. Adding text fields to a keyboard will not work, since the keyboard will still send text to the main app.
-
-[KeyboardKit Pro][Pro] unlocks text input components that lets you type within the keyboard, with no additional code needed.
+[KeyboardKit Pro][Pro] unlocks text input components that lets you type within the keyboard, with no additional code needed. See the [text input](/features/text-input) feature for more information.
 
 
 [Pro]: /pro

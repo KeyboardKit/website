@@ -2,7 +2,7 @@
 layout: plain
 ---
 
-{%- assign features = site.data.sdk-features -%}
+{%- assign features = site.data.core-features -%}
 {%- assign feature = features | where:"title", page.title | first -%}
 
 {% include kankoda/heros/hero.html title=feature.title emoji=feature.emoji description=feature.text paper=1 %}
@@ -14,12 +14,16 @@ layout: plain
       {{ content }}
 
       <h2>Documentation</h2>
-      <p>The information on this page is shortened to be easier to overview. For more information about this feature, code samples, etc. please see the <a href="{{feature.docs}}">online documentation</a>.</p>
+      <p>
+        The information on this page is shortened to be easier to overview. For more information see the <a href="{{feature.docs}}">online documentation</a>.
+        {% if feature.docs-pro %}
+        For KeyboardKit pro, see the <a href="{{feature.docs-pro}}">pro documentation</a>.
+        {% endif %}
+      </p>
 
       <hr />
 
-      <h2>Read more</h2>
-      {% include kankoda/grid/features.html features=site.data.sdk-features %}
+      {% include features-footer.html %}
     </article>
   </div>
 </main>

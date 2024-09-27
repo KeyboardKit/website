@@ -27,10 +27,3 @@
   url:  /app
   image: /assets/heros/app.png
   text: Create custom keyboards directly on your iPhone or iPad.
-
-
-- title: Locales
-  url: /locales
-  image: /assets/heros/locales.png
-  text: KeyboardKit supports many locales, with localized functionality.
-  hidden: true

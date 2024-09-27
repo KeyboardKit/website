@@ -11,17 +11,16 @@ KeyboardKit therefore adds ways to make this easier, and adds ways to route text
 [KeyboardKit Pro][Pro] unlocks even more [input utilities](#pro), like a ``KeyboardTextField`` that automatically lets you type within a keyboard extension.
 
 
-## Core Features
+## How to support text input with KeyboardKit 
 
-`UIInputController` has a `textDocumentProxy`, which is how a keyboard is meant to integrate with the currently active app. 
+KeyboardKit makes text input easier. ``KeyboardInputViewController`` has a ``textInputProxy`` that can be set to automatically route text to any other text field or custom proxy.
 
-KeyboardKit's ``KeyboardInputViewController`` adds an additional ``textInputProxy`` property, that can be set to replace ``textDocumentProxy`` as the main text document proxy.
+Just set ``textInputProxy`` to start routing text to that proxy, and set it to nil to resume routing text to the active application. You can always access the original proxy with ``originalTextDocumentProxy``.
 
-Setting ``textInputProxy`` will cause any text you type in the keyboard to be sent to that proxy instead. Just set the ``textInputProxy`` to `nil` to start routing text back to the main app.
 
 
 <a name="pro">
-## 👑 Pro Features
+## 👑 KeyboardKit Pro
 
 KeyboardKit Pro unlocks text input views that automatically register and unregister themselves as the `textInputProxy` when they receive and lose focus.
 

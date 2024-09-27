@@ -7,7 +7,7 @@ KeyboardKit has an ``Emoji`` struct that represents an emoji value. It also serv
 [KeyboardKit Pro][Pro] unlocks an [emoji keyboard](#pro) that supports all categories, skin tone variations, etc.
 
 
-## Core Features
+## Emojis
 
 KeyboardKit defines emoji-specific models that lets you work with emojis in a more structured way:
 
@@ -26,13 +26,13 @@ KeyboardKit defines emoji categories, support for skin tone variations, emoji an
 
 
 <a name="pro">
-## 👑 Pro Features
+## 👑 KeyboardKit Pro
 
 KeyboardKit Pro unlocks an **EmojiKeyboard** that mimics the native emoji keyboard and supports all categories and features like skin tone variations.
 
-![Emoji Keyboard](/assets/screenshots/emoji-keyboard-500.jpg)
+<img width="450" alt="An EmojiKeyboard" src="{{page.assets}}emojikeyboard.jpg" />
 
-KeyboardKit Pro also unlocks a "most recent" emoji provider that automatically registers emojis as you use them, to populate the "frequent" category.
+KeyboardKit will automatically register emojis as you use them, to populate the "frequent" category.
 
 
 [Pro]: /pro

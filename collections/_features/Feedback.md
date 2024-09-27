@@ -6,25 +6,25 @@ Feedback is an important part of the typing experience, where the keyboard can t
 
 KeyboardKit makes it easy to trigger feedback when the user interacts with the keyboard, as part of other events, etc.
 
-[KeyboardKit Pro][Pro] unlocks additional [tools](#pro) that let users easily toggle audio and haptic feedback.
+
+## Feedback Namespace
+
+KeyboardKit has a ``Feedback`` namespace that contains feedback types, like ``Audio`` & ``Haptic`` enums that define available feedback types, ``AudioEngine`` & ``HapticEngine``, that can trigger feedback, etc. 
 
 
-## Core Features
+## Feedback Types
 
-KeyboardKit has `Feedback.Audio` & `Feedback.Haptic` enums that define various feedback types. You can trigger any feedback with their `.trigger()` functions:
-
-```swift
-Feedback.Audio.input.trigger()
-Feedback.Haptic.success.trigger()
-```
-
-You can also trigger feedback with a ``KeyboardActionHandler``, and use the `Feedback.Configuration` to define and customize which feedback to use for a keyboard.
+The ``Audio`` enum defines audio feedback types, like ``input``, ``system``, ``delete``, etc. while the ``Haptic`` enum defines haptic feedback types, like ``success``, ``warning``, etc. 
 
 
-<a name="pro">
-## 👑 Pro Features
+## Feedback Context
 
-KeyboardKit Pro unlocks a convenient feedback toggle that can be added to a keyboard toolbar, to toggle audio and haptic feedback on & off.
+KeyboardKit has an observable ``FeedbackContext`` class that can be used to configure feedback for various actions, such as which configuration to use for audio and haptic feedback.
+
+
+## Feedback Services
+
+In KeyboardKit, a ``FeedbackService`` can be used to trigger audio and haptic feedback as the user interacts with the keyboard. The ``KeyboardActionHandler`` protocol also implements this protocol.
 
 
 [Pro]: /pro

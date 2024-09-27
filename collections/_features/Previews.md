@@ -6,33 +6,43 @@ SwiftUI previews are a great way to work on your design in Xcode, without having
 
 KeyboardKit has preview-specific services and state, that can be used in your previews. This makes it easy to set up and preview your keyboard-specific views directly in Xcode.
 
-[KeyboardKit Pro][Pro] unlocks powerful [system keyboard and theme previews](#pro), that can be used both in SwiftUI previews, as well as in the app.
+[KeyboardKit Pro][Pro] unlocks powerful [keyboard and theme previews](#pro) that can be used both within SwiftUI previews, as well as in the main app target.
 
 
 
-## Core Features
+## Preview-specific state and services 
 
-KeyboardKit has a ``KeyboardPreviews`` namespace that contains preview-related services and types.
+KeyboardKit has preview values for all services & state. For instance, ``KeyboardContext`` has a ``preview`` context, the ``KeyboardInputViewController`` has a ``preview`` controller, etc. 
 
-KeyboardKit also defines a `.preview` implementation for all services, like `KeyboardContext.preview`. This simplifies creating SwiftUI previews for views that require KeyboardKit.
+These types make it easy to use KeyboardKit types in SwiftUI previews. For instance, this is how you can pass in state and services into a custom view:
+
+```swift
+#Preview {
+
+    CustomView(actionHandler: .preview)
+        .environmentObject(KeyboardContext.preview)
+}
+```
+
+You can take a look at the source code of the various views in the library for inspiration.
 
 
 
 <a name="pro">
-## 👑 Pro Features
+## 👑 KeyboardKit Pro
 
 KeyboardKit Pro unlocks powerful system keyboard previews.
 
-For instance, a `SystemKeyboardPreview` can be used to preview a ``SystemKeyboard`` in different ways.
+For instance, a `KeyboardViewPreview` can be used to preview a ``KeyboardView`` in different ways.
 
 <div class="grid col2">
-    <div><img src="{{page.assets}}systemkeyboardpreview-350.jpg" /></div>
-    <div><img src="{{page.assets}}systemkeyboardpreview-theme-350.jpg" /></div>
+    <div><img src="{{page.assets}}keyboardviewpreview.jpg" /></div>
+    <div><img src="{{page.assets}}keyboardviewpreview-theme.jpg" /></div>
 </div>
 
 There is also a lightweight `SystemKeyboardButtonPreview` that can preview many themes at once.
 
-![System Keyboard Button Preview]({{page.assets}}systemkeyboardbuttonpreview-350.jpg)
+![System Keyboard Button Preview]({{page.assets}}keyboardbuttonpreview.jpg)
 
 
 [Pro]: /pro

@@ -7,23 +7,44 @@ Autocomplete is a very important part of the typing experience, where suggestion
 [KeyboardKit Pro][Pro] unlocks [local & remote autocomplete](#pro) and automatically enables autocomplete for many of the supported languages when you register a valid license key.
 
 
-## Core Features
+## Autocomplete Namespace
 
-In KeyboardKit, an ``AutocompleteService`` can be used to get suggestions that automatically update views like the (very customizable) ``Autocomplete.Toolbar``.
+KeyboardKit has an ``Autocomplete`` namespace that contains autocomplete-related types and views, like the ``Suggestion`` that is returned by an ``AutocompleteService`` when performing autocomplete.
 
-![AutocompleteToolbar]({{page.assets}}autocompletetoolbar-350.jpg)
 
-There's also an ``Autocomplete`` namespace with autocomplete-related types, observable state, etc.
+## Autocomplete Context
+
+KeyboardKit has an observable ``AutocompleteContext`` that provides observable autocomplete state, such as the ``suggestions`` to present, as well as persistent settings like ``isAutocompleteEnabled``.
+
+
+## Autocomplete Services
+
+In KeyboardKit, an ``AutocompleteService`` can provide suggestions when the user types or the text input cursor moves in the text. [KeyboardKit Pro][pro] unlocks local and remote service.
+
+
+## Views
+
+The ``Autocomplete`` namespace has autocomplete-specific views, that can be used to mimic native autocomplete toolbars and items, such as the customizable `Autocomplete.Toolbar`:
+
+<img width="650" alt="An autocomplete toolbar" src="{{page.assets}}autocompletetoolbar.jpg" />
+
+This view can be styled with the ``autocompleteToolbarStyle(_:)`` view modifier. It can also use custom views for its various parts.
 
 
 <a name="pro">
-## 👑 Pro Features
+## 👑 KeyboardKit Pro
 
-[KeyboardKit Pro][Pro] unlocks local and remote autocomplete, and makes KeyboardKit automatically perform autocomplete on-device as the user types, without any additional code needed.
+[KeyboardKit Pro][Pro] unlocks local and remote autocomplete, and makes KeyboardKit automatically perform autocomplete on-device as the user types, without having to write any additional code.
 
-`Autocomplete.LocalService` uses on-device capabilities to perform autocomplete directly on device, while `Autocomplete.RemoteService` can be used to integrate with external APIs.
 
-`LocalService` currently supports: Arabic, Bulgarian, Czech, Danish, Dutch, English, Filipino, Finnish, French, German, Greek, Hebrew (Israel), Hungarian, Irish (Ireland), Italian, Norwegian Bokmål, Nynorsk, Polish, Portuguese, Romanian, Russian, Spanish, Swedish, Turkish, and Ukrainian.
+### Local Autocomplete
+
+An ``Autocomplete.LocalService`` performs autocomplete locally, on-device. It supports ,many locales, works offline, doesn't require Full Access and can integrate with system services, like a local lexicon.
+
+
+### Remote Autocomplete
+
+An ``Autocomplete.RemoteService`` can be used to perform autocomplete by calling an external API. It requires that the device is online, and requires Full Access to perform network requests.
 
 
 

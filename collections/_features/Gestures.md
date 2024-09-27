@@ -2,13 +2,37 @@
 title: Gestures
 ---
 
-iOS keyboards use many gestures. For instance, keys can be pressed, released and dragged, space can be long pressed to move the cursor, shift can be double tapped to toggle caps-lock, etc.
+iOS keyboards use more gestures than you may think. For instance, keys can be pressed, released, long pressed, etc. Space can be dragged to move the cursor, shift can be double tapped, etc.
 
-KeyboardKit provides you with handy gesture views and extensions that makes it easy to handle most gestures with a ``KeyboardActionHandler``.
+These gestures can be complicated to set up, but KeyboardKit provides you with a ``Keyboard.Gesture`` enum that defines all supported gestures, as well as views & extensions that trigger gesture actions.
 
 
-## Core Features
+## Gestures Namespace
 
-KeyboardKit has a ``Gestures`` namespace with gesture-related types. For instance, a ``GestureButton``, a ``KeyboardGesture`` enum that defines various gestures like `.press`, `.release`, `.doubleTap`, etc.
+KeyboardKit has a ``Gestures`` namespace with gesture-related types, view modifiers and views.
 
-The gestures are used to trigger ``KeyboardAction`` events within the library, and automatically applied by views like the `SystemKeyboard`.
+
+## Gesture view modifiers
+
+You can use the ``.keyboardButtonGestures(for:...)`` modifier to apply keyboard gesture to any view:
+
+```swift
+Text("😀")
+    .keyboardButtonGestures(
+        for: .emoji("😀"), 
+        doubleTapAction: { ... },
+        ...
+    )
+```
+
+This will automatically apply all standard gestures for the provided action. You can also set up completely custom actions with this modifier as well.
+
+
+## Drag gesture handlers
+
+KeyboardKit has a ``DragGestureHandler`` protocol that is used to handle drag gestures. For instance, a ``SpaceDragGestureHandler`` handles drag gestures on the space key.
+
+
+## Views
+
+KeyboardKit has a ``GestureButton`` & ``ScrollViewGestureButton`` that can be used to apply many gestures to the same button.

@@ -11,19 +11,55 @@ KeyboardKit adds a bunch of proxy extension to make things easier. ``KeyboardInp
 [KeyboardKit Pro][Pro] adds even more [proxy capabilities](#pro), such as being able to read the full document, instead of the limited text you get access to by default.
 
 
-## Core Features
+## Proxy namespace
 
-KeyboardKit has a ``Proxy`` namespace that contains proxy-related types. For now, it will only contain types when it's part of the KeyboardKit Pro build.
+KeyboardKit has a ``Proxy`` namespace with proxy-related types. It currently only contains utils when it's part of a KeyboardKit Pro build.
 
-KeyboardKit extends `UITextDocumentProxy` with additional functionality, like autocomplete support, more ways to handle and analyze the text, etc. You get access to it by simply importing KeyboardKit.
+
+## Proxy extensions
+
+KeyboardKit extends the native ``UITextDocumentProxy`` with additional capabilities, such as the ability to get more content from the document, analyze words & sentences, end the current sentence, etc.
+
+Here are some examples of extensions that KeyboardKit adds to it:
+
+* ``currentWord``
+* ``currentWordPreCursorPart``
+* ``currentWordPostCursorPart``
+* ``deleteBackward(range:)``
+* ``deleteBackward(times:)``
+* ``documentContext``
+* ``endSentence(withText:)``
+* ``fullDocumentContext(config:)``
+* ``hasAutocompleteInsertedSpace``
+* ``hasAutocompleteRemovedSpace``
+* ``hasCurrentWord``
+* ``hasUnclosedAlternateQuotationBeforeInput(for:)``
+* ``hasUnclosedQuotationBeforeInput(for:)``
+* ``insertAutocompleteSuggestion(_:tryInsertSpace:)``
+* ``insertDiacritic(_:)``
+* ``isCursorAtNewSentence``
+* ``isCursorAtNewSentenceWithTrailingWhitespace``
+* ``isCursorAtNewWord``
+* ``isCursorAtTheEndOfTheCurrentWord``
+* ``isReadingFullDocumentContext``
+* ``preferredQuotationReplacement(whenInserting:for:)``
+* ``replaceCurrentWord(with:)``
+* ``sentenceBeforeInput``
+* ``sentenceDelimiters``
+* ``tryInsertSpaceAfterAutocomplete()``
+* ``tryRemoveAutocompleteInsertedSpace()``
+* ``tryReinsertAutocompleteRemovedSpace()``
+* ``wordBeforeInput``
+
+See the documentation for more information and a complete list of extension.
 
 
 <a name="pro">
-## 👑 Pro Features
+## 👑 KeyboardKit Pro
 
 [KeyboardKit Pro][Pro] unlocks additional text document proxy capabilities, like the ability to read the full document context, instead of the limited text you get access to by default.
 
-To read the full document context, you just have to call the `fullDocumentContext` property, which will move the text cursor to unlock more text.
+To read the full document context, you can call the proxy's async `fullDocumentContext`, which will move the text cursor to unlock more text.
 
 Omce the read operation is done, KeyboardKit will try to return the text input cursor to its original position. This is a best effort attempt, since the native APIs are very limited.
 

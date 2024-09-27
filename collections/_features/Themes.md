@@ -9,9 +9,14 @@ redirect_from:
 Although KeyboardKit is fully [customizable](/customization) and lets you style and adjust your keyboard in any way, [KeyboardKit Pro][pro] unlocks a [theme engine](#pro) that makes it even easier to style your keyboards.
 
 
-## Core Features
+## Keyboard Theme Namespace
 
-The open-source library contains no support for themes. This is a Pro exclusive feature.
+KeyboardKit has a ``KeyboardTheme`` type that is also a namespace for theme-related types and views, like ``Shelf`` and ``ShelfItem``, which are unlocked by KeyboardKit Pro.
+
+
+## Keyboard Theme Context
+
+KeyboardKit has an observable ``KeyboardThemeContext`` that persistent, observable settings, such as the current ``theme``.
 
 
 ## 👑 Pro Features

@@ -2,24 +2,25 @@
 title: Actions
 ---
 
-In KeyboardKit, the ``KeyboardAction`` enum defines keyboard-specific actions, that can be triggered by the keyboard or by code, and handled with a ``KeyboardActionHandler``.
-
-[KeyboardKit Pro][Pro] makes the action handler [automatically register](#pro) the most recently used emojis.
+In KeyboardKit, a ``KeyboardAction`` enum defines keyboard-specific actions, that can be triggered by the keyboard or programmatically, and handled with a ``KeyboardActionHandler``.
 
 
-## Core Features
+## Keyboard Action Namespace
+
+KeyboardKit has a ``KeyboardAction`` enum that defines all supported keyboard actions. It's also a namespace for action-related types and views, like a standard action handler.
+
+
+## Keyboard Actions
 
 The ``KeyboardAction`` enum defines many keyboard-related actions, like ``.character(_:)``, ``.backspace``, ``.nextLocale``, ``.dismissKeyboard``, etc.
 
-Actions can be triggered by button taps, system events, or triggered programmatically, and handled with a ``KeyboardActionHandler``. KeyboardKit will automatically handle triggered actions.
 
-``SystemKeyboard`` automatically applies this functionality to all its buttons, which makes them support keyboard gestures, show input and action callouts, etc.
+## Keyboard Action Handler
 
+Actions can be triggered by button taps, system events, or triggered programmatically, and handled with a ``KeyboardActionHandler``.
 
-<a name="pro">
-## 👑 Pro Features
+The ``KeyboardView`` component automatically applies action handling to all its buttons, to make them support keyboard gestures, show input and action callouts, etc.
 
-[KeyboardKit Pro][Pro] automatically registers emojis as a users uses them, to automatically update the "most recent" emojis category in the emoji keyboard.
 
 
 [Pro]: /pro
