@@ -4,7 +4,7 @@ title: Features
 layout: page
 permalink: /features
 
-hero: /assets/icon/Icon-1024.png
+hero: /assets/icon/icon-1024.png
 
 description: KeyboardKit provides you with powerful keyboard features
 
