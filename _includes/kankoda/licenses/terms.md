@@ -1,55 +1,61 @@
 {% assign product = include.product %}
+{% assign product-escaped = include.product | split: " " | join: "%20" %}
+{% assign custom-email = site.urls.email | append: "?subject=" | append: product-escaped | append: "%20-%20Custom%20License%20Request" %}
+
+## License Terms & Conditions
+
+Below are the standard Terms & Conditions that apply to {{ product }}. A license is valid for one product, defined by the bundle ID that is provided at the time of purchase.
+
+The standard license is aimed at indies & small businesses. Reach out for a [custom license]({{ custom-email }}) if you’re an enterprise or a company with $10M+ in annual revenue, or the app has $1M+ in annual revenue.
 
 
-## License Details
+### License Activation
 
-A license is valid for one product, defined by the bundle ID that is provided at the time of purchase.
+Standard licenses that are purchased via [Gumroad]({{ site.urls.gumroad }}) are activated and can be used immediately after purchase, using the unique license key in the license purchase confirmation.
 
-### Activation
+[Custom licenses]({{ custom-email }}) that are purchased via regular invoicing or other means of payment, are activated in a new version of the product, typically within two business days after payment has been received.
 
-A license is activated and can be used immediately after purchase, using the unique license key that can be found in the license purchase confirmation.
+### License Validation
 
-### Validation
+Standard licenses are validated using network requests. The SDK can handle temporary connectivity loss, but requires regular connectivity for the license to be properly validated.
 
-All licenses, except yearly Gold licenses (where applicable) and custom licenses, are validated with a network call. The SDK can handle temporary connectivity loss, but requires regular validations.
+Yearly Gold & custom licenses are encoded into the binary product and validated on-device, without the need for network-based validation.
 
-Yearly Gold licenses (where applicable) and all custom licenses are encoded into the binary product and validated on-device, without the need for network validation.
+### License Expiration
 
-### Additions
+A license expires when its subscription ends. This will stop the related product from being able to use {{ product }} in both development and production.
 
-Additional products can be added to a license at a 50% discount per product. This discount applies as long as the original license is active. [Reach out]({{ site.urls.email }}) to add more products.
+Custom licenses can be configured to allow license expiration, which will allow them to be used in already shipped version of an apps, but not in new ones. [Reach out]({{ custom-email }}) if you need a custom license.
 
-### Adjustments
+### License Adjustments
 
-The purchase information can't be changed after a purchase is made, but can be overridden with a new version, if needed. [Reach out]({{ site.urls.email }}) to adjust or correct any information.
-
-### Expiration
-
-A license expires when its subscription ends. This will stop the related product from being able to use {{ product }} in development and production.
+Your license information can be adjusted in a new version of the software binary, if needed. [Reach out]({{ custom-email }}) if you need to adjust any information in your license.
 
 
 ## Free Trial
 
-All licenses include a free trial with unlimited access to all the features in the selected tier. The trial will automatically convert to a paid plan if it's not cancelled.
+Standard licenses include a free trial with unlimited access to all non-consumption-based features in the selected tier. The trial will automatically convert to a paid plan if it's not cancelled.
+
+[Reach out]({{ custom-email }}) if you need a custom license to try out any particular features that are not available in the standard license, before your purchase.
 
 
 ## Refunds
 
-The free trial can be cancelled at any time. No refunds will be approved after the free trial ends. An active license subscription can be cancelled at any time, to stop it from being renewed.
+The free trial can be cancelled at any time. No refunds will be approved after the free trial ends. All active license subscriptions can be cancelled at any time, and will last through the remaining term.
 
 
 ## Technical Information
 
-{{ product }} targets the current major OS version for its supported platforms, and two major versions back (one for macOS). Support is only removed in a major version bump.
+{{ product }} targets the current major OS version, and supports two major versions back (one for macOS). Support for older OS versions is only removed in major version bumps.
 
 {{ product }} is built with the latest version of Xcode, but offers on-demand builds for the last major version, up to three months after the latest major version was released. 
 
 
 ## Feature Disclaimer
 
-SDK features may stop working in any future platform update, due to changes in the operating system, hardware or platform capabilities, etc.
+The SDK depends on hardware- and operating system capabilities that are provided by Apple and that can be changed or removed at any time, at Apple’s discretion, in ways that may affect the SDK.
 
-Features that stop working due to these kind of changes may be removed without replacement or compensation, since required capabilities may no longer be available.
+Features that stop working due to, but not limited to, such changes, may be removed at any time, without replacement or compensation, since the required capabilities may no longer be available.
 
 
 ## Closed Source License Agreement

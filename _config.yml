@@ -45,10 +45,10 @@ urls:
 locale_count: 68
 
 header_pages:
+  - pages/about.md
+  - pages/blog.md
   - pages/features.md
   - pages/pro.md
-  - pages/pricing.md
-  - pages/blog.md
 
 footer_sitemap:
   - index.html
