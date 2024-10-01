@@ -16,7 +16,13 @@
         {%- for path in page_paths -%}
           {%- assign item = site.pages | where: "path", path | first -%}
           {%- if item.title -%}
-            <li><a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>&nbsp;</li> 
+          <li>
+            {%- if item.id == "pricing" -%}
+            <a href="{{ item.url | relative_url }}" class="{{ item.id }} sticker scale">{{ item.title | escape }}</a>
+            {%- else -%}
+            <a href="{{ item.url | relative_url }}" class="{{ item.id }}">{{ item.title | escape }}</a>
+            {%- endif -%}
+          </li> 
           {%- endif -%}
         {%- endfor -%}
       </ul>

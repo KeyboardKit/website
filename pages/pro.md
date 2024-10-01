@@ -7,7 +7,7 @@ permalink: /pro
 hero: /assets/heros/pro.png
 hero-title: KeyboardKit Pro
 
-description: KeyboardKit Pro unlocks features that take your keyboard to the next level
+description: Unlock features that take your keyboard to the next level
 ---
 
 KeyboardKit Pro unlocks [pro features](#features) like autocomplete, fully localized keyboards & services for all [languages](/locales), autocomplete, an emoji keyboard, AI features, themes, dictation, and [much more](#features).
