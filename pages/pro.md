@@ -10,14 +10,14 @@ hero-title: KeyboardKit Pro
 description: Unlock features that take your keyboard to the next level
 ---
 
-KeyboardKit Pro unlocks [pro features](#features) like autocomplete, fully localized keyboards & services for all [languages](/locales), autocomplete, an emoji keyboard, AI features, themes, dictation, and [much more](#features).
+KeyboardKit Pro unlocks [pro features](#features) like autocomplete, fully localized keyboards & services for all [languages](/locales), autocomplete, an emoji keyboard, AI features, themes, dictation, [and more](#features).
 
 
 <a name="pricing" />
 
 ## Pricing
 
-The tiers below are aimed at indies and small businesses. [Reach out for a custom plan](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) if you're an enterprise, have $10M+ in annual company revenue, or if your app has $1M+ in annual revenue.
+The tiers below are aimed at indies and small businesses. [Reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) for a custom plan if you're an enterprise, have $10M+ in annual company revenue, or if your app has $1M+ in annual revenue.
 
 &nbsp;
 
@@ -27,7 +27,7 @@ The tiers below are aimed at indies and small businesses. [Reach out for a custo
 
 ## Online Store
 
-Standard licenses can be purchased from the [online store]({{site.urls.gumroad}})<!--[Lemon Squeezy]({{site.lemon_url}})-->. [Reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20-%20Custom%20License) if you need a custom license or have another preferred method of payment or invoicing.
+Standard licenses can be purchased from the [online store]({{site.urls.gumroad}})<!--[Lemon Squeezy]({{site.lemon_url}})-->. [Reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20-%20Custom%20License) if you need a custom license or another method of payment or invoicing.
 
 
 ## Add-Ons
