@@ -49,24 +49,15 @@ section.app-store-button {
 
 
 .back-button, .forward-button {
-  a {
-    font-weight: normal !important;
-    font-size: medium;
-  }
+  font-size: medium;
 }
 
-.back-button {
-  a:before {
-    content: "«";
-  }
+.back-button a:before, a.back-button:before {
+  content: "«";
 }
 
-
-.forward-button {
-
-  a.forward-button:after {
-    content: "»";
-  }  
+a.forward-button:after {
+  content: "»";
 }
 
 
