@@ -68,7 +68,8 @@ description: Build amazing iOS keyboard extensions with Swift & SwiftUI
         Check out some <a href="/case-studies">case-studies</a> of amazing apps & products that use KeyboardKit in their keyboards.
       </article>
     </p>
-    {% include case-study-links.html limit=2 %}
+    {% assign studies = site.case-studies | where:"featured",1 %}
+    {% include case-study-links.html items=studies limit=2 featured=true %}
   </section>
 </div>
 

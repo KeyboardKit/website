@@ -1,6 +1,6 @@
 ---
 name:  Hayatar
-title: Hayatar - an Armenian Keyboard
+title: Hayatar - Armenian Keyboard
 
 image:  /assets/case-studies/hayatar/header.jpg
 assets: /assets/case-studies/hayatar/article/

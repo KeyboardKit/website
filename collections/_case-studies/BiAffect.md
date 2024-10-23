@@ -1,9 +1,11 @@
 ---
 name:  BiAffect
-title: BiAffect - Track mental health through keystroke dynamics.
+title: BiAffect - Track mental health through keystroke dynamics
 
 image:  /assets/case-studies/biaffect/header.jpg
 assets: /assets/case-studies/biaffect/article/
+
+featured: 1
 
 alex:       https://www.linkedin.com/in/alex-leow-614849a/ 
 andrew:     https://www.linkedin.com/in/drepaparella/

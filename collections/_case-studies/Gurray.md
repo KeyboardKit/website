@@ -1,6 +1,6 @@
 ---
 name:  Gurray
-title: Gurray - an Australian Indigenous Keyboard
+title: Gurray - Australian Indigenous Keyboard
 
 image:  /assets/case-studies/gurray/header.jpg
 assets: /assets/case-studies/gurray/article/

@@ -1,9 +1,9 @@
 ---
 name:  Type Devanagari
-title: Type Devanagari - a Sanskrit Keyboard
+title: Type Devanagari - Sanskrit Keyboard
 
-image:  /assets/case-studies/devanagari/header.jpg
-assets: /assets/case-studies/devanagari/article/
+image:  /assets/case-studies/type-devanagari/header.jpg
+assets: /assets/case-studies/type-devanagari/article/
 
 appstore: https://apps.apple.com/us/app/type-devanagari/id6450332512
 twitter:  https://twitter.com/NatashaTheRobot
