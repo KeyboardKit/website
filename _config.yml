@@ -47,6 +47,7 @@ locale_count: 68
 header_pages:
   - pages/home.md
   - pages/features.md
+  - pages/blog.md
   - pages/pricing.md
 
 footer_sitemap:

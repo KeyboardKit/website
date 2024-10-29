@@ -18,6 +18,9 @@ rollingstone: https://www.rollingstone.com/culture/culture-news/teen-depression-
 shannon:    https://www.linkedin.com/in/shannonyoung/
 theja:      https://theja.org
 wsj:        https://www.wsj.com/articles/can-typos-give-insight-into-your-mental-health-1539270001
+
+podcast_apple: https://podcasts.apple.com/se/podcast/223-new-technology-transforming-bipolar-care/id1497723824?i=1000674751237&l=en-GB
+podcast_spotify: https://open.spotify.com/episode/0Dw4Ug7PBzeXLD7pAE174x?si=aa6af63493c74146&nd=1&dlsi=383cb82c81b4431a
 ---
 
 Say hello to [BiAffect]({{page.biaffect}}) - a medical keyboard that tracks mental health through keystroke dynamics and proud winner of the [Mood Challenge For ResearchKit]({{page.mood}}).
@@ -112,6 +115,8 @@ The BiAffect keyboard plays a crucial role in this task, integrating seamlessly 
 {% include kankoda/buttons/app-store.html image-class="plain" url=page.appstore %}
 
 
-## Further Reading
+## Go Further
 
 This article is an adjusted version of a text written by the creators of BiAffect. For more information, links, etc. [read the full, original article here]({{page.article}}).
+
+You can also listen to the very interesting [Live Well Bipolar podcast episode]({{page.podcast_apple}}) ([Spotify]({{page.podcast_spotify}})), where the BiAffect team talks about how they approached this topic, and how they implement many features on top of the keylogger to provide extended insights while protecting your personal information.
