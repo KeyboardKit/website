@@ -12,6 +12,8 @@ email: info@keyboardkit.com
 
 is_lib: 1
 
+locale_count: 68
+
 copyright_year: 2016-2024
 copyright_owner: Kankoda Sweden AB
 copyright_url: https://kankoda.com
@@ -41,8 +43,6 @@ urls:
 
   swift: https://www.swift.org
   swiftui: https://developer.apple.com/xcode/swiftui/
-
-locale_count: 68
 
 header_pages:
   - pages/home.md
