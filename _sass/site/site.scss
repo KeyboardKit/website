@@ -35,3 +35,13 @@
     .feature + div { display: none !important; }
   }
 }
+
+.info-box {
+  margin: 30px 0px;
+  border: solid 1px gold;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 0.9em;
+  h4 { margin-top: 0; }
+  p { margin-bottom: 0; }
+}

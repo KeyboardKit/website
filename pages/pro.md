@@ -19,6 +19,13 @@ KeyboardKit Pro unlocks [pro features](#features) like autocomplete, fully local
 
 The tiers below are aimed at indies and small businesses. [Reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License) for a custom plan if you're an enterprise, have $10M+ in annual company revenue, or if your app has $1M+ in annual revenue.
 
+<div class="info-box">
+    <h4>Upcoming Price Adjustments</h4>
+    <p>
+    KeyboardKit 9 launches in the end of November, with powerful new features—and a higher subscription price. Sign up for KeyboardKit Pro today, to secure the current subscription pricing.
+    </p>
+</div>
+
 &nbsp;
 
 {% include licenses/feature-table.html tiers=site.data.tiers price="yearly" script=true %}
