@@ -1,74 +1,74 @@
-- title: Essentials
-  url: /features/essentials  
-  emoji: ⌨️
-  text: KeyboardKit Pro unlocks system keyboard and theme previews.
+- title:  Essentials
+  emoji:  ⌨️
+  url:    /features/essentials  
+  text:   KeyboardKit Pro unlocks more essential views & utilities.
 
-- title: AI Support
-  url: /features/ai  
-  emoji: 🤖
-  text: KeyboardKit Pro unlocks features that are needed for AI.
+- title:  AI Support
+  emoji:  🤖
+  url:    /features/ai  
+  text:   KeyboardKit Pro unlocks features that are needed for AI.
 
-- title: App
-  url: /features/app
-  emoji: 📱
-  text: KeyboardKit Pro unlocks app-specific screens & views.
+- title:  App
+  emoji:  📱
+  url:    /features/app
+  text:   KeyboardKit Pro unlocks app-specific screens & views.
 
-- title: Autocomplete
-  url: /features/autocomplete  
-  emoji: 💡
-  text: KeyboardKit Pro unlocks on-device & remote autocomplete.
+- title:  Autocomplete
+  emoji:  💡
+  url:    /features/autocomplete  
+  text:   KeyboardKit Pro unlocks local & remote autocomplete.
 
-- title: Callouts
-  url: /features/callouts  
-  emoji: 🗯
-  text: KeyboardKit Pro unlocks localized callouts for all locales.
+- title:  Callouts
+  emoji:  🗯
+  url:    /features/callouts  
+  text:   KeyboardKit Pro unlocks callout actions for all locales.
 
-- title: Dictation
-  url: /features/dictation  
-  emoji: 🎤
-  text: KeyboardKit Pro can trigger dictation from the keyboard.
+- title:  Dictation
+  emoji:  🎤
+  url:    /features/dictation  
+  text:   KeyboardKit Pro can trigger dictation from the keyboard.
 
-- title: Emoji Keyboard
-  url: /features/emojis  
-  emoji: 😀
-  text: KeyboardKit Pro unlocks an emoji keyboard.
+- title:  Emoji Keyboard
+  emoji:  😀
+  url:    /features/emojis
+  text:   KeyboardKit Pro unlocks an emoji keyboard & search capabilities.
 
-- title: External Keyboards
-  url: /features/external-keyboards
-  emoji: ⌨️
-  text:  KeyboardKit Pro can detect if an external keyboard is being used. 
+- title:  External Keyboards
+  emoji:  ⌨️
+  url:    /features/external-keyboards
+  text:   KeyboardKit Pro can detect if an external keyboard is being used. 
 
-- title: Host
-  url: /features/host
-  emoji: 🏠
-  text: KeyboardKit Pro can identify and open specific host applications.
+- title:  Host
+  emoji:  🏠
+  url:    /features/host
+  text:   KeyboardKit Pro can identify and open specific host applications.
 
-- title: Layout
-  url: /features/layout
-  emoji: 🔣
-  text: KeyboardKit Pro unlocks localized layouts for all locales.
+- title:  Layout
+  emoji:  🔣
+  url:    /features/layout
+  text:   KeyboardKit Pro unlocks input sets & layouts for all locales.
 
-- title: Localization
-  url: /features/localization
-  emoji: 🌐
-  text: KeyboardKit Pro unlocks support for 60+ locales.
+- title:  Localization
+  emoji:  🌐
+  url:    /features/localization
+  text:   KeyboardKit Pro unlocks support for 70 locales.
 
-- title: Previews
-  url: /features/previews
-  emoji: 👁
-  text:  KeyboardKit Pro unlocks system keyboard and theme previews.
+- title:  Previews
+  emoji:  👁
+  url:    /features/previews
+  text:    KeyboardKit Pro unlocks in-app keyboard & theme previews.
   
-- title: Proxy Utilities
-  url: /features/proxy-utilities
-  emoji: 📄
-  text:  KeyboardKit Pro makes the proxy able to read the full document.
+- title:  Proxy Utilities
+  emoji:  📄
+  url:    /features/proxy-utilities
+  text:    KeyboardKit Pro makes the proxy able to read the full document.
 
-- title: Text Input
-  url: /features/text-input
-  emoji: 📝
-  text: KeyboardKit Pro unlocks tools to let you type within the keyboard
+- title:  Text Input
+  emoji:  📝
+  url:    /features/text-input
+  text:   KeyboardKit Pro unlocks tools to let you type within the keyboard
 
-- title: Themes
-  url: /features/themes
-  emoji: 🍭
-  text: KeyboardKit Pro unlocks a theme engine & many standard themes.
+- title:  Themes
+  emoji:  🍭
+  url:    /features/themes
+  text:   KeyboardKit Pro unlocks a theme engine & many standard themes.
