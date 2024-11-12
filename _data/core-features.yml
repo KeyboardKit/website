@@ -1,154 +1,154 @@
-- title: Essentials
-  url: /features/essentials
-  emoji: ⌨️
-  text: KeyboardKit provides essential features, utilities & views.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/essentials-article
+- title:  Essentials
+  url:    /features/essentials
+  emoji:  ⌨️
+  text:   KeyboardKit provides essential features, utilities & views.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/essentials-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/essentials-article
 
-- title: Pro Features
-  url: /features#pro-features
-  emoji: 👑
-  text: KeyboardKit Pro unlocks features like autocomplete, emojis, AI, etc.
+- title:  Pro Features
+  url:    /features#pro-features
+  emoji:  👑
+  text:   KeyboardKit Pro unlocks features like autocomplete, emojis, AI, etc.
 
-- title: Actions
-  url: /features/actions
-  emoji: 💥
-  text: KeyboardKit makes it easy to handle keyboard actions.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/actions-article
+- title:  Actions
+  url:    /features/actions
+  emoji:  💥
+  text:   KeyboardKit makes it easy to handle keyboard actions.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/actions-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/actions-article
 
-- title: AI Support
+- title:  AI Support
   hidden: 1
-  emoji: 🤖
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/ai-article
+  emoji:  🤖
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/ai-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/ai-article
 
-- title: App
-  url: /features/app
-  emoji: 📱
-  text: KeyboardKit makes it easy to set up your app and keyboard.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/app-article
+- title:  App
+  url:    /features/app
+  emoji:  📱
+  text:   KeyboardKit makes it easy to set up your app and keyboard.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/app-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/app-article
 
-- title: Autocomplete
+- title:  Autocomplete
   hidden: 1
-  emoji: 💡
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/autocomplete-article
+  emoji:  💡
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/autocomplete-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/autocomplete-article
 
-- title: Callouts
-  url: /features/callouts
-  emoji: 🗯
-  text: KeyboardKit can show input & secondary action callouts.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/callouts-article
+- title:  Callouts
+  url:    /features/callouts
+  emoji:  🗯
+  text:   KeyboardKit can show input & secondary action callouts.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/callouts-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/callouts-article
 
-- title: Device Utilities
-  url: /features/device-utilities
-  emoji: 🖥️
-  text: KeyboardKit has device-specific utilities.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/device-article
+- title:  Device Utilities
+  url:    /features/device-utilities
+  emoji:  🖥️
+  text:   KeyboardKit has device-specific utilities.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/device-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/device-article
 
-- title: Dictation
+- title:  Dictation
   hidden: 1
-  emoji: 🎤
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/dictation-article
+  emoji:  🎤
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/dictation-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/dictation-article
 
-- title: Emojis
-  url: /features/emojis
-  emoji: 😀
-  text: KeyboardKit defines emojis, emoji categories, skin tones, etc.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/emojis-article
+- title:  Emojis
+  url:    /features/emojis
+  emoji:  😀
+  text:   KeyboardKit defines emojis, emoji categories, skin tones, etc.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/emojis-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/emojis-article
 
-- title: External Keyboards
+- title:  External Keyboards
   hidden: 1
-  emoji: ⌨️
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/external-keyboards-article
+  emoji:  ⌨️
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/external-keyboards-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/external-keyboards-article
 
-- title: Feedback
-  url: /features/feedback
-  emoji: 🔉
-  text: KeyboardKit can trigger audio & haptic feedback.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/feedback-article
+- title:  Feedback
+  url:    /features/feedback
+  emoji:  🔉
+  text:   KeyboardKit can trigger audio & haptic feedback.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/feedback-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/feedback-article
 
-- title: Gestures
-  url: /features/gestures
-  emoji: 👆
-  text: KeyboardKit has a customizable keyboard gesture engine.
+- title:  Gestures
+  url:    /features/gestures
+  emoji:  👆
+  text:   KeyboardKit has a customizable keyboard gesture engine.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/gestures-article
 
-- title: Host
-  url: /features/host
-  emoji: 🏠
-  text: KeyboardKit can identify the host application.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/host-article
+- title:  Host
+  url:    /features/host
+  emoji:  🏠
+  text:   KeyboardKit can identify the host application.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/host-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkit/host-article
 
-- title: Layout
-  url: /features/layout
-  emoji: 🔣
-  text: KeyboardKit has customizable input sets & keyboard layouts.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/layout-article
+- title:  Layout
+  url:    /features/layout
+  emoji:  🔣
+  text:   KeyboardKit has customizable input sets & keyboard layouts.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/layout-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/callouts-article
 
-- title: Localization
-  url: /features/localization
-  emoji: 🌐
+- title:  Localization
+  url:    /features/localization
+  emoji:  🌐
   text: KeyboardKit supports 60+ locales and languages.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/localization-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/localization-article
 
-- title: Navigation
-  url: /features/navigation
-  emoji: 🗺️
-  text: KeyboardKit lets you open urls and apps from the keyboard.
+- title:  Navigation
+  url:    /features/navigation
+  emoji:  🗺️
+  text:   KeyboardKit lets you open urls and apps from the keyboard.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/navigation-article
 
-- title: Previews
-  url: /features/previews
-  emoji: 👁
-  text: KeyboardKit has extension keyboard preview support.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/previews-article
+- title:  Previews
+  url:    /features/previews
+  emoji:  👁
+  text:   KeyboardKit has extension keyboard preview support.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/previews-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/previews-article
 
-- title: Proxy Utilities
-  url: /features/proxy-utilities
-  emoji: ➡️
-  text: KeyboardKit makes your text document proxy do a LOT more.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/proxy-utilities-article
+- title:  Proxy Utilities
+  url:    /features/proxy-utilities
+  emoji:  ➡️
+  text:   KeyboardKit makes your text document proxy do a LOT more.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/proxy-utilities-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/proxy-article
 
-- title: Settings
-  url: /features/settings
-  emoji: ⚙️
-  text: KeyboardKit has tools for in-app settings & System Settings.
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/settings-article
+- title:  Settings
+  url:    /features/settings
+  emoji:  ⚙️
+  text:   KeyboardKit has tools for in-app settings & System Settings.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/settings-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/settings-article
 
-- title: Status
-  url: /features/status
-  emoji: 🩺
-  text: KeyboardKit detects if a keyboard is enabled, has full access, etc.
+- title:  Status
+  url:    /features/status
+  emoji:  🩺
+  text:   KeyboardKit detects if a keyboard is enabled, has full access, etc.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/status-article
 
-- title: Text Input
+- title:  Text Input
   hidden: 1
-  emoji: 📝
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/text-input-article
+  emoji:  📝
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/text-input-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/text-input-article
 
-- title: Styling
-  url: /features/styling
-  emoji: 🎨
+- title:  Styling
+  url:    /features/styling
+  emoji:  🎨
   text: KeyboardKit lets you style your keyboards to great extent.
   docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/styling-article
 
-- title: Themes
+- title:  Themes
   hidden: 1
-  docs: https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/themes-article
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/themes-article
   docs-pro: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/themes-article

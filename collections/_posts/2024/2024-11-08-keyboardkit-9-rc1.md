@@ -1,10 +1,13 @@
 ---
-title:  KeyboardKit 9.0 RC.1
-date:   2024-10-30 08:00:00 +0100
+title:  KeyboardKit 9.0 RC 1
+date:   2024-11-08 08:00:00 +0100
 tags:   releases keyboard actions autocomplete callouts dictation emojis external-keyboard feedback localization layout settings text-input pro
 
 tweet: https://x.com/GetKeyboardKit/status/1854865800735142275
 toot:  https://techhub.social/@keyboardkit/113447367849991624
+
+release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/9.0.0-rc.1
+release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/9.0.0-rc.1
 ---
 
 KeyboardKit 9.0 Release Candidate 1 is out! 🚀 This article will take a look at all the new things that will make KeyboardKit better than ever before, and how to best upgrade from KeyboardKit 8.
@@ -151,4 +154,4 @@ A problem that you may run into, is that the `KeyboardInputViewController` `setu
 
 KeyboardKit 9 is a huge step forward, and makes using KeyboardKit easier than ever before. Many since long requested features are finally in place, and more will come in subsequent minor updates.
 
-To give the KeyboardKit 9 Release Candidate a try, use the `9.0.0-rc.1` tag. For more information, see the [release](https://github.com/KeyboardKit/KeyboardKit/releases/tag/9.0.0-rc.1). Don't hesistate to reach out if you find any bugs or have any feedback. Thank you!
+To give the KeyboardKit 9 Release Candidate a try, use the `9.0.0-rc.1` tag. For more information, see the [release]({{page.release}}) or the [KeyboardKit Pro release]({{page.release-pro}}). Don't hesistate to reach out if you find bugs or have any feedback.

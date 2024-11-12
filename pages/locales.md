@@ -9,7 +9,7 @@ hero: /assets/heros/locales.png
 description: KeyboardKit supports 60+ locales.
 ---
 
-KeyboardKit comes with support for <b>{{site.locale_count}}</b> keyboard locales (languages), which determines things like keyboard layout, callout actions, autocomplete suggestions, etc.:
+KeyboardKit comes with support for <b>{{site.locales.count}}</b> keyboard locales (languages), which determines things like keyboard layout, callout actions, autocomplete suggestions, etc.:
 
 {% include locales/list.html %}
 

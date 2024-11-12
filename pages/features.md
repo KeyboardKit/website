@@ -18,8 +18,8 @@ KeyboardKit is [open-source]({{site.urls.github}}), completely free and provides
 
 ## Languages
 
-KeyboardKit supports [{{site.locale_count}} languages](/locales):
+KeyboardKit supports [{{site.locales.count}} languages](/locales):
 
-{% include locales/flags.html %}
+{{site.locales.flags}}
 
 {% include features-footer.html %}

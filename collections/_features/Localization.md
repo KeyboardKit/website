@@ -12,9 +12,9 @@ KeyboardKit has a ``KeyboardLocale`` enum that defines all supported locales (la
 
 ## Supported locales
 
-KeyboardKit supports [{{site.locale_count}} locales](/locales):
+KeyboardKit supports [{{site.locales.count}} locales](/locales):
 
-{% include locales/flags.html %}
+{{ site.locales.flags }}
 
 
 ## Locale capabilities

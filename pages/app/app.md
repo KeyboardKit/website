@@ -13,7 +13,7 @@ The [KeyboardKit app]({{site.urls.appstore}}) lets you create custom keyboards d
 
 The app lets you configure the custom keyboard to great extend. You can change the locales, add custom keys to the toolbar and keyboard, resize the keys, customize the design, etc.
 
-The app uses [KeyboardKit Pro](/pro) to support all [{{site.locale_count}} locales](/features/locales) and many [pro](/pro) features. It comes with pre-defined [themes](/pro/themes) and lets you create custom themes that you can share with others.
+The app uses [KeyboardKit Pro](/pro) to support all [{{site.locales.count}} locales](/features/locales) and many [pro](/pro) features. It comes with pre-defined [themes](/pro/themes) and lets you create custom themes that you can share with others.
 
 {% include kankoda/grid/screenshots.html images="keyboardkit-1,keyboardkit-2,keyboardkit-3,keyboardkit-4,keyboardkit-5,keyboardkit-6" %}
 
