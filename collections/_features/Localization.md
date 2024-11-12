@@ -4,7 +4,7 @@ title: Localization
 
 Flexible localization support is an important part of a software keyboard. A keyboard should be able to easily change the locale without major code changes.
 
-KeyboardKit has a ``KeyboardLocale`` enum that defines all supported locales (languages), where each has localized strings and assets. KeyboardKit also extends the native **Locale** with more capabilities.
+In KeyboardKit, all ``keyboardKitSupported`` locales define localized strings, assets, and locale-specific information. KeyboardKit also extends the native ``Locale`` with additional capabilities.
 
 [KeyboardKit Pro][Pro] unlocks [localized input sets, layouts, callout actions & services](#pro) for all locales.
 
@@ -19,7 +19,7 @@ KeyboardKit supports [{{site.locales.count}} locales](/locales):
 
 ## Locale capabilities
 
-Each keyboard locale refers to a native `Locale` and has additional keyboard-specific information, as well as localized assets and strings that can be translated with the ``KKL10n`` enum.
+Each keyboard supported `Locale` has additional keyboard-specific information and capabilities, as well as localized assets and strings that can be translated with the ``KKL10n`` enum.
 
 You can use the ``KeyboardContext`` to get and set the current locale and all available locales. If it has multiple locales, you can use ``selectNextLocale()`` or the ``.nextLocale`` action to quickly change locale.
 
@@ -30,11 +30,9 @@ KeyboardKit supports LTR (Left-To-Right) and RTL locales. You don't need to do a
 
 ## Views
 
-The ``KeyboardLocale`` namespace has a ``ContextMenu`` that lets you select locales from a context menu: 
+The locale ``ContextMenu`` lets you select locales from a context menu. The ``KeyboardView`` applies it to every key that triggers the ``nextLocale`` action, as well as to space when it's set up to open the menu.
 
 <img width="450" alt="An EmojiKeyboard" src="{{page.assets}}localecontextmenu.jpg" />
-
-The ``KeyboardView`` applies this menu to every key that triggers the ``nextLocale`` action, as well as to the space bar, if it uses the ``openLocaleContextMenu`` behavior.
 
 You can also add this menu to any view with the ``.keyboardLocaleContextMenu(for:...)`` view modifier.
 
@@ -42,9 +40,9 @@ You can also add this menu to any view with the ``.keyboardLocaleContextMenu(for
 <a name="pro">
 ## 👑 KeyboardKit Pro
 
-[KeyboardKit Pro][Pro] unlocks a localized ``InputSet``, ``KeyboardLayoutProvider`` & ``CalloutActionProvider`` for every ``KeyboardLocale`` that your license unlocks.
+[KeyboardKit Pro][Pro] unlocks a localized ``InputSet``, ``KeyboardLayoutService`` & ``KeyboardCalloutService`` for every ``KeyboardLocale`` that your license unlocks.
 
-This means that KeyboardKit Pro can create fully localized ``KeyboardView`` for all supported locales, without having to write any additional code. Just change the locale and the keyboard adapts.
+KeyboardKit Pro can this create fully localized ``KeyboardView`` for all locales, with no additional code.
 
 
 

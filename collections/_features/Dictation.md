@@ -9,19 +9,19 @@ KeyboardKit therefore provides dictation-specific tools that you can use to add 
 [KeyboardKit Pro][Pro] unlocks [features](#pro) that can be used to perform app- & keyboard-based dictation.
 
 
-## Dictation Namespace
+## Namespace
 
-KeyboardKit has a ``Dictation`` namespace that contains dictation-related types and views like the ``KeyboardConfiguration``, plus a ``Screen`` and a ``BarVisualizer`` that are unlocked by KeyboardKit Pro. 
-
-
-## Dictation Context
-
-KeyboardKit has an observable ``DictationContext`` that has observable state and persistent settings, such as ``dictatedText``, ``silenceLimit`` etc.
+KeyboardKit has a ``Dictation`` namespace that contains dictation-related types and views, as well as a ``Screen`` and a ``BarVisualizer`` that are unlocked by KeyboardKit Pro. 
 
 
-## Dictation Services
+## Context
 
-In KeyboardKit, a ``DictationService`` can perform dictation where mic access is available, while a ``KeyboardDictationService`` can start dictation from a keyboard extension, by opening the main app.
+KeyboardKit has an observable ``DictationContext`` that has observable state and persistent settings, such as a ``silenceLimit`` after which dictation will automatically end.
+
+
+## Services
+
+In KeyboardKit, a ``DictationService`` can be used to start start dictation from a keyboard extension, by opening its app, perform dictation in the app, then return to the keyboard to use the result.
 
 
 <a name="pro">

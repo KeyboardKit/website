@@ -14,8 +14,6 @@ KeyboardKit has preview-specific services and state, that can be used in your pr
 
 KeyboardKit has preview values for all services & state. For instance, ``KeyboardContext`` has a ``preview`` context, the ``KeyboardInputViewController`` has a ``preview`` controller, etc. 
 
-These types make it easy to use KeyboardKit types in SwiftUI previews. For instance, this is how you can pass in state and services into a custom view:
-
 ```swift
 #Preview {
 
@@ -24,7 +22,7 @@ These types make it easy to use KeyboardKit types in SwiftUI previews. For insta
 }
 ```
 
-You can take a look at the source code of the various views in the library for inspiration.
+These types make it easy to use KeyboardKit types in SwiftUI previews. For instance, this is how you can pass in state and services into a custom view:
 
 
 
@@ -40,7 +38,7 @@ For instance, a `KeyboardViewPreview` can be used to preview a ``KeyboardView`` 
     <div><img src="{{page.assets}}keyboardviewpreview-theme.jpg" /></div>
 </div>
 
-There is also a lightweight `SystemKeyboardButtonPreview` that can preview many themes at once.
+There is also a lightweight `Keyboard.ButtonPreview` that lets you preview many themes at once.
 
 ![System Keyboard Button Preview]({{page.assets}}keyboardbuttonpreview.jpg)
 

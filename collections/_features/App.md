@@ -6,17 +6,11 @@ KeyboardKit provides utilities that are meant to be used in the main app target,
 
 
 
-## Keyboard App Namespace
+## Keyboard App
 
 KeyboardKit has a ``KeyboardApp`` struct that is also a namespace for app-related types and views, like the ``HomeScreen``, ``SettingsScreen`` and ``LocaleScreen`` screens that are unlocked with KeyboardKit Pro.
 
-
-
-## Keyboard App
-
-The easiest way to set up KeyboardKit is to use a ``KeyboardApp``, which can be used to define things like ``name``, ``bundleId``, ``appGroupId``, a ``licenseKey`` and ``locales`` for KeyboardKit Pro, ``deepLinks``, etc.
-
-You can create a static app value and add it to both the main app target and its keyboard extension:
+You can create an app-specific ``KeyboardApp`` value to define your app's  ``name``, ``bundleId``, ``appGroupId``, ``licenseKey``, ``deepLinks``, etc.
 
 ```swift
 extension KeyboardApp {
@@ -32,12 +26,13 @@ extension KeyboardApp {
 }
 ```
 
-Your app can also resolve other properties that you may need, such as a ``dictationConfiguration``.
+Your app-specific ``KeyboardApp`` can also resolve other properties that you may need, e.g. to perform keyboard-based dictation, enable AI-based next word prediction, etc.
+
 
 
 ## Keyboard App View
 
-The ``KeyboardAppView`` view can be used as the root view of the main app target, to set up everything it needs to use KeyboardKit:
+The ``KeyboardAppView`` view can be used as the root view of the main app target, to set up everything it needs to use KeyboardKit for a certain `KeyboardApp`:
 
 ```swift
 @main
@@ -52,7 +47,7 @@ struct MyApp: App {
 }
 ```
 
-This view will set up ``KeyboardSettings`` to use an App Group, register your KeyboardKit Pro license key, if any, inject ``state`` into the view hierarchy, set up dictation, etc.
+This will set up things that are defined by the app, like making keyboard setting use an App Group to sync between the app and keyboard, register a KeyboardKit Pro license key, set up dictation, etc.
 
 
 ## 👑 Pro Features

@@ -21,8 +21,6 @@ KeyboardKit has a platform-agnostic ``InterfaceOrientation`` enum that defines i
 
 KeyboardKit has `CGSize` extensions to help detecting device types, like `.iPadScreenPortrait`. There's also an `.isScreenSize(_:)` rotation-agnostic function that compares.
 
-It's extra important to avoid designing for a specific screen size, since apps can run in split screen, a keyboard can be floating, etc.
-
 
 
 [Pro]: /pro

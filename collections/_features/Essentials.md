@@ -11,27 +11,25 @@ KeyboardKit extends Apple's native keyboard APIs and provides you with a lot mor
 
 KeyboardKit uses namespaces to group types into logical collections, to make the SDK easier to use.
 
-The ``Keyboard`` namespace contains a lot of essential, keyboard-related models and views. By typing ``Keyboard`` and `.`, Xcode will list all essential types in the namespace.
-
-The namespace has a lot of essential types, like ``Accent``, ``AutocapitalizationType``, ``BackspaceRange``, ``Case``, ``Diacritic``, ``Gesture``, ``InputToolbarDisplayMode``, ``KeyboardType``, ``ReturnKeyType``, etc.
+The ``Keyboard`` namespace contains essential, keyboard-related models & views, including types like ``AutocapitalizationType``, ``KeyboardCase``, ``KeyboardType``, ``ReturnKeyType``, etc.
 
 
 ## Controller
 
-The ``KeyboardInputViewController`` is the most essential type in the library. Just make your controller inherit this class to get access to a bunch of additional capabilities.
+The ``KeyboardInputViewController`` is the most essential type in the library. Just make your controller inherit this class to get access to a lot of additional capabilities.
 
 
 ## Context
 
-KeyboardKit has a ``KeyboardContext`` that provides observable state that keeps your UI up to date, as well as persistent settings that can automatically sync between the main app and its keyboard.
+KeyboardKit has a ``KeyboardContext`` that provides observable state that keeps your UI up to date, as well as persistent settings that automatically sync between the main app and its keyboard.
 
 
 ## Keyboard View
 
-KeyboardKit has a ``KeyboardView`` that mimics a native iOS keyboard. It supports all locales, layouts, callouts, etc., and can be styled to great extent, using styles & themes:
+KeyboardKit has a ``KeyboardView`` that mimics a native iOS keyboard. It supports all locales, layouts & callouts, can be styled with styles & themes, can customize all toolbars & views, etc.:
 
 <div class="grid col2">
-    <div><img alt="A Swedish KeyboardView" src="{{page.assets}}keyboardview-swedish.jpg" /></div>
+    <div><img alt="An English KeyboardView" src="{{page.assets}}keyboardview-english.jpg" /></div>
     <div><img alt="A styled KeyboardView" src="{{page.assets}}keyboardview-styled.jpg" /></div>
 </div>
 
@@ -50,12 +48,10 @@ Besides `KeyboardView`, the `Keyboard` namespace has many additional views and s
 
 KeyboardKit Pro also makes it support an `EmojiKeyboard`, iPad pro layouts, more input toolbars, etc:
 
-<img width="450" alt="An EmojiKeyboard" src="{{page.assets}}emojikeyboard.jpg" />
-
-<img width="650" alt="An iPad Pro keyboard" src="{{page.assets}}keyboardview-ipadpro.jpg" />
-
-<img width="650" alt="An input toolbar" src="{{page.assets}}inputtoolbar-ipadpro.png" />
-
+<div class="grid col2">
+    <div><img alt="An EmojiKeyboard" src="{{page.assets}}emojikeyboard.jpg" /></div>
+    <div><img alt="An iPad Pro keyboard with an input toolbar" src="{{page.assets}}inputtoolbar-ipadpro.png" /></div>
+</div>
 KeyboardKit Pro also unlocks many more view components, like a toggle toolbar, previews, etc.
 
 

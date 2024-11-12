@@ -2,34 +2,32 @@
 title: Styling
 ---
 
-While native iOS keyboards have few ways to customize the look and feel, KeyboardKit keyboards can be styled and customized to great extent.
-
-KeyboardKit uses ``KeyboardStyle`` types to style its views. For instance, a ``KeyboardStyle.InputCallout`` style can be used to style a ``Callouts.InputCallout`` view.
+While native iOS keyboards have few ways to customize the look and feel, KeyboardKit keyboards can be styled and customized to great extent, using style services and view modifiers.
 
 [KeyboardKit Pro][Pro] unlocks a powerful [theme engine](#pro), and many more ways to style a keyboard.
 
 
-## Keyboard Style Namespace
+## Namespace
 
-KeyboardKit has a ``KeyboardStyle`` namespace that contains style-related types. It will probably be removed in KeyboardKit 9, together with the ``KeyboardStyleService``, and replaced by view modifiers.
+KeyboardKit has a ``KeyboardStyle`` namespace that contains style-related types.
 
 
-## Keyboard Style Services
+## Services
 
 A ``KeyboardStyleService`` can provide dynamic styles for different parts of a keyboard. Unlike static styles, a style service can vary styles depending on ``KeyboardContext``, ``KeyboardAction``, etc.
 
+This style service concept will be phased out through KeyboardKit 9 and replaced by view modifiers.
 
-## Color & Image Extensions 
 
-KeyboardKit defines additional, keyboard-specific ``Color`` and ``Image`` extensions, etc. to make it easy to create keyboards that look like a native iOS keyboard.
+## Colors & Images 
+
+KeyboardKit defines keyboard-specific ``Color`` and ``Image`` extensions, etc. that make it easy to create keyboards that look like a native iOS keyboard.
 
 <div class="grid col2">
     <div><img alt="Image Extensions" src="{{page.assets}}styling-images.jpg" /></div>
     <div><img alt="Color Extensions" src="{{page.assets}}styling-colors.jpg" /></div>
 </div>
 
-
-KeyboardKit defines contextual colors that take a ``KeyboardContext``, like ``keyboardBackground(for:)``, that vary the color result based on the context. Prefer context-based colors whenever possible.
 
 See the documentation for more information about colors and images, including some important information about how some colors are semi-transparent to work around a [system bug][Bug] in iOS.
 
@@ -47,11 +45,11 @@ let text = KeyboardAction.space.standardButtonText(for: context)     // KKL10n.s
 ```
 
 
-## View styles
+## Style Modifiers
 
-KeyboardKit defines custom styles for its various view. For instance, the ``Keyboard`` ``Keyboard/Button`` view has a ``Keyboard/ButtonStyle`` that can be applied with the ``SwiftUICore/View/keyboardButtonStyle(_:)`` view modifier.
+KeyboardKit defines custom styles for its various view. For instance, the ``Keyboard.Button`` view has a ``Keyboard.ButtonStyle`` that can be applied with the ``.keyboardButtonStyle(_:)`` view modifier.
 
-Most views have static, standard styles that can be replaced by custom styles to change the global default style for that particular view. 
+Most views have standard styles that can be replaced by a custom style to change the default style. 
 
 
 <a name="pro">
@@ -62,11 +60,9 @@ Most views have static, standard styles that can be replaced by custom styles to
 
 ### Emoji Icons
 
-KeyboardKit Pro unlocks vectorized emoji assets for all ``EmojiCategory``s, for instance ``keyboardEmoji`` & ``emojiCategory(_:)``:
+KeyboardKit Pro emoji-specific, vectorized assets, like the ``.keyboardEmoji`` and ``.emojiCategory(_:)``:
 
 <img alt="Emoji Images" src="{{page.assets}}images-emojis.jpg" />
-
-Since these images are vectorized, they scale well when they are resized. They however do not support different font weights, so do not render them alongside other SF Symbols.
 
 ### Themes
 

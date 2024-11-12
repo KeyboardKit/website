@@ -10,33 +10,28 @@ KeyboardKit lets you use input sets to define input keys, and keyboard layouts t
 [KeyboardKit Pro][Pro] unlocks [more features](#pro), like more input sets, iPad Pro layouts, and localized input sets and layout providers for all supported locales.
 
 
-## KeyboardLayout namespace
+## Namespace
 
 KeyboardKit has a ``KeyboardLayout`` type that is also a namespace for other layout-related types like ``Configuration``, ``Item``, etc.
 
 
 ## Input Sets
 
-An ``InputSet`` specifies the input keys of a keyboard. It makes it easy to define different input keys for the same keyboard layout.
-
-KeyboardKit comes with pre-defined sets, like ``qwerty``, ``numeric(currency:)`` & ``symbolic(currencies:)``. KeyboardKit Pro unlocks more input sets like `.qwertz`, `.azerty`, and specific ones for each locale.
+An ``InputSet`` is used to define the input keys of a keyboard. It makes it easy to define different keys for the same keyboard layout. KeyboardKit has pre-defined sets like ``qwerty``, ``numeric`` & ``symbolic``.
 
 
-## Keyboard Layouts
+## Layouts
 
 A ``KeyboardLayout`` specifies the full set of keys on a keyboard. Layouts can vary greatly for different device types, screen orientations, locales, keyboard configurations, etc.
 
-For instance, iOS keyboards often have 3 input rows, where the input keys are surrounded by side buttons, and a bottom row that is often the same across locales.
-
 <img width="450" alt="An English Keyboard" src="{{page.assets}}keyboardview-english.jpg" />
 
-This is however not always true. Layouts differ between iPhone, iPad & iPad Pro, some locales (like Armenian) have 5 rows, some (like Greek) remove side-buttons, etc.
+For instance, while most keyboards have 3 input rows, as above, and a bottom row that is often the same across locales, many languages use very different layouts. A layout must therefore be flexible.
 
 
+## Services
 
-## Keyboard Layout Services
-
-Given all this, the layout engine has to be flexible. KeyboardKit has a ``KeyboardLayoutService`` that generates layouts at runtime, based on many different factors.
+In KeyboardKit, a ``KeyboardLayoutService`` can generate dynamic layouts at runtime, It provides us with the flexibility we need, to accomodate to the varying needs for different locales, devices, etc.
 
 
 <a name="pro">
@@ -44,13 +39,13 @@ Given all this, the layout engine has to be flexible. KeyboardKit has a ``Keyboa
 
 [KeyboardKit Pro][Pro] unlocks additional input sets like `qwertz`, `azerty` and custom ones for all locales.
 
-KeyboardKit Pro automatically makes the `KeyboardView` support all input sets and layouts, without having to write any additional code. Just change locale, and the keyboard will adjust itself.
+KeyboardKit Pro automatically makes the `KeyboardView` support all input sets and layouts, without any additional code. Just change the locale, and the keyboard will adjust itself automatically.
 
 KeyboardKit Pro also unlocks a layout service that can generate iPad Pro layouts for all locales:
 
 <img width="650" alt="An iPad Pro keyboard" src="{{page.assets}}keyboardview-ipadpro.jpg" />
 
-KeyboardKit Pro also unlocks ways to easily add a character input toolbar above a `KeyboardView`:
+KeyboardKit Pro also unlocks ways to easily add a character input toolbar above any `KeyboardView`:
 
 <img width="650" alt="An input toolbar" src="{{page.assets}}inputtoolbar-ipadpro.png" />
 

@@ -7,24 +7,24 @@ Callouts are an important part of the typing experience, where input callouts hi
 [KeyboardKit Pro][Pro] unlocks [localized callout actions](#pro) for all locales, with no additional code needed.
 
 
-## Callouts Namespace
+## Namespace
 
-KeyboardKit has a ``Callouts`` namespace that contains callout-related types and views. For instance, an ``InputCallout`` shows the pressed character while an ``ActionCallout`` shows secondary actions.
-
-
-## Callout Context
-
-KeyboardKit has an observable ``CalloutContext`` class that provides observable input & action callout state, such as the currently pressed key or the callout actions to present.
+KeyboardKit has a ``Callouts`` namespace that contains callout-related types and views. For instance, an ``InputCallout`` shows the pressed character while an ``ActionCallout`` shows callout actions.
 
 
-## Callout Services
+## Context
+
+KeyboardKit has an observable ``CalloutContext`` class that provides observable callout state, such as the currently pressed key or the callout actions to present, as well as auto-persisted settings. 
+
+
+##  Services
 
 In KeyboardKit, a ``CalloutService`` can be used to provide secondary actions for any key, which are then presented when a key with secondary actions is long pressed.
 
 
 ## Views
 
-The ``Callouts`` namespace has callout-specific views, that can be used to mimic the native iOS & iPadOS input and action callouts:
+The ``Callouts`` namespace has callout views, that can be used to mimic the native iOS callouts:
 
 <div class="grid col2">
     <div><img alt="An input callout" src="{{page.assets}}inputcallout.jpg" /></div>

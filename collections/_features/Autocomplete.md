@@ -7,19 +7,19 @@ Autocomplete is a very important part of the typing experience, where suggestion
 [KeyboardKit Pro][Pro] unlocks [local & remote autocomplete](#pro) and automatically enables autocomplete for many of the supported languages when you register a valid license key.
 
 
-## Autocomplete Namespace
+## Namespace
 
 KeyboardKit has an ``Autocomplete`` namespace that contains autocomplete-related types and views, like the ``Suggestion`` that is returned by an ``AutocompleteService`` when performing autocomplete.
 
 
-## Autocomplete Context
+## Context
 
 KeyboardKit has an observable ``AutocompleteContext`` that provides observable autocomplete state, such as the ``suggestions`` to present, as well as persistent settings like ``isAutocompleteEnabled``.
 
 
-## Autocomplete Services
+## Services
 
-In KeyboardKit, an ``AutocompleteService`` can provide suggestions when the user types or the text input cursor moves in the text. [KeyboardKit Pro][pro] unlocks local and remote service.
+In KeyboardKit, an ``AutocompleteService`` can provide suggestions when the user types or the text cursor moves in the text. [KeyboardKit Pro][pro] unlocks a local on-device service and a remote one.
 
 
 ## Views
@@ -28,7 +28,7 @@ The ``Autocomplete`` namespace has autocomplete-specific views, that can be used
 
 <img width="650" alt="An autocomplete toolbar" src="{{page.assets}}autocompletetoolbar.jpg" />
 
-This view can be styled with the ``autocompleteToolbarStyle(_:)`` view modifier. It can also use custom views for its various parts.
+This view can be styled with the ``autocompleteToolbarStyle(_:)`` view modifier and use custom views.
 
 
 <a name="pro">
@@ -45,6 +45,21 @@ An ``Autocomplete.LocalService`` performs autocomplete locally, on-device. It su
 ### Remote Autocomplete
 
 An ``Autocomplete.RemoteService`` can be used to perform autocomplete by calling an external API. It requires that the device is online, and requires Full Access to perform network requests.
+
+
+### Next Character Prediction
+
+The ``LocalService`` and ``RemoteService`` will automatically perform next-character predictions based on the result. The result is used by ``KeyboardView`` to increase the tap area of more probable keys.
+
+
+### Next Word Prediction (BETA)
+
+Apple's native text prediction utilities stopped supporting next word prediction in iOS 16, which means that we can only use it to complete and correct words that we have started typing.
+
+KeyboardKit Pro unlocks ways to inject 3rd party support for performing next word prediction, by specifying a ``NextWordPredictionRequest`` in your ``KeyboardApp``.
+
+KeyboardKit Pro 9.0 supports `Claude` integration, with more integrations coming in future versions.
+
 
 
 

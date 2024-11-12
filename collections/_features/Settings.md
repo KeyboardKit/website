@@ -9,23 +9,19 @@ KeyboardKit adds many utilities to make this easier, such as URL extensions and 
 
 ## Keyboard Settings
 
-KeyboardKit has a ``KeyboardSettings`` class that has a ``store`` that is used to persist data for various contexts. You can set it up with an App Group to sync data between the app and its keyboard.
+KeyboardKit has a ``Keyboard.Settings`` class that has a ``store`` that is used to persist data for various contexts. You can make it use an App Group to sync data between an app and its keyboard.
 
 
 ## How to sync settings between the app and the keyboard
 
 To sync data between the main app target and its keyboard extension, you have to create an App Group and link it to both the app and the keyboard.
 
-You can then add the App Group ID to your ``KeyboardApp`` and use that app to set up your main app and keyboard extension.
-
-The main app will always write data to an App Group so that it's instantly available to the keyboard. A keyboard must however have Full Access enabled for changes to be immediately synced.
+You can then add the App Group ID to your ``KeyboardApp`` and use that app to set up your main app and its keyboard extension, to make KeyboardKit set up automatic App Group syncing.
 
 
 ## How to open System Settings
 
-KeyboardKit defines a ``systemSettings`` URL that can be used to open your app's settings screen in System Settings, where users can enable your keyboard, enable Full Access, etc. 
-
-You can use a standard SwiftUI `Link` to open a URL from both your app and its keyboard extension:
+KeyboardKit defines a ``systemSettings`` URL that can be used to open your app's settings in System Settings, where users can enable your keyboard, enable Full Access, etc.
 
 ```swift
 if let url = URL.systemSettings {
