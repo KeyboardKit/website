@@ -5,6 +5,8 @@ title: Hayatar - Armenian Keyboard
 image:  /assets/case-studies/hayatar/header.jpg
 assets: /assets/case-studies/hayatar/article/
 
+featured: 1
+
 appstore: https://hayatar.fperson.dev
 twitter:  https://twitter.com/_fperson
 github:   https://github.com/_fperson

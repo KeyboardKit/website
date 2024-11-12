@@ -30,22 +30,6 @@ description: Build amazing iOS keyboard extensions with Swift & SwiftUI
   <hr />
 
   <section>
-    <h2>Blog</h2>
-    <p> 
-      Follow the <a href="/blog">KeyboardKit blog</a> for news & updates.
-    </p>
-    <div class="grid home blog list">
-      {% for post in site.posts limit:2 %}
-      <div>
-        {% include kankoda/blog/list-item.html post=posts.first tag-limit=1 %}
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-
-  <hr />
-
-  <section>
     <div class="grid home centered">
       <div class="column">
         {% include kankoda/titles/section.html title="Social Media" %}
@@ -62,14 +46,28 @@ description: Build amazing iOS keyboard extensions with Swift & SwiftUI
   <hr />
   
   <section>
-    {% include kankoda/titles/section.html title="Case Studies" link="/case-studies" %}
+    <h2>Case Studies</h2>
     <p> 
-      <article>
-        Check out some <a href="/case-studies">case-studies</a> of amazing apps & products that use KeyboardKit in their keyboards.
-      </article>
+      Check out some <a href="/case-studies">case-studies</a> of amazing apps & products that use KeyboardKit in their keyboards.
     </p>
     {% assign studies = site.case-studies | where:"featured",1 %}
-    {% include case-study-links.html items=studies limit=2 featured=true %}
+    {% include case-study-links.html items=studies limit=4 featured=true %}
+  </section>
+
+  <hr />
+
+  <section>
+    <h2>Blog</h2>
+    <p> 
+      Follow the <a href="/blog">KeyboardKit blog</a> for news & updates.
+    </p>
+    <div class="grid home blog list">
+      {% for post in site.posts limit:2 %}
+      <div>
+        {% include kankoda/blog/list-item.html post=posts.first tag-limit=1 %}
+      </div>
+      {% endfor %}
+    </div>
   </section>
 </div>
 

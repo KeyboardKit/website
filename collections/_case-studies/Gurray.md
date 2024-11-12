@@ -5,6 +5,8 @@ title: Gurray - Australian Indigenous Keyboard
 image:  /assets/case-studies/gurray/header.jpg
 assets: /assets/case-studies/gurray/article/
 
+featured: 1
+
 wcclp:      https://wcclp.com.au
 appstore:   https://apps.apple.com/au/app/gurray/id1513495735
 anomaly:    https://anomaly.ltd
