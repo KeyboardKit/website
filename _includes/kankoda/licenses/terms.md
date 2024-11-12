@@ -17,9 +17,9 @@ Standard licenses that are purchased via [Gumroad]({{ site.urls.gumroad }}) are 
 
 ### License Validation
 
-Standard licenses are validated using network requests. The SDK can handle temporary connectivity loss, but requires regular connectivity for the license to be properly validated.
+Standard licenses are validated with network requests, which requires Full Access. The SDK handles temporary connectivity loss, but requires regular connectivity licenses to be properly validated.
 
-Yearly Gold & custom licenses are encoded into the binary product and validated on-device, without the need for network-based validation.
+Yearly Gold & custom licenses are encoded into the binary product and validated on-device, without the need for network-based validation or Full Access.
 
 ### License Expiration
 
@@ -48,7 +48,7 @@ The free trial can be cancelled at any time. No refunds will be approved after t
 
 {{ product }} targets the current major OS version, and supports two major versions back (one for macOS). Support for older OS versions is only removed in major version bumps.
 
-{{ product }} is built with the latest version of Xcode, but offers on-demand builds for the last major version, up to three months after the latest major version was released. 
+{{ product }} is built with the latest version of Xcode, but offers on-demand builds for the last major version, up to three months after the latest major version was released.
 
 
 ## Feature Disclaimer
@@ -56,6 +56,11 @@ The free trial can be cancelled at any time. No refunds will be approved after t
 The SDK depends on hardware- and operating system capabilities that are provided by Apple and that can be changed or removed at any time, at Apple’s discretion, in ways that may affect the SDK.
 
 Features that stop working due to, but not limited to, such changes, may be removed at any time, without replacement or compensation, since the required capabilities may no longer be available.
+
+
+## Right to market
+
+Standard Licenses allow KeyboardKit to use your app's icon and name for marketing purposes. [Reach out]({{ custom-email }}) if you need a custom license to opt-out of KeyboardKit's right to market.
 
 
 ## Closed Source License Agreement

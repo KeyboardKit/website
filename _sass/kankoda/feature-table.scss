@@ -1,11 +1,3 @@
-.feature-table.yearly {
-  display: block;
-}
-
-.feature-table.monthly {
-  display: none;
-}
-
 .feature-table.three-tier {
 
   .grid {
@@ -15,7 +7,7 @@
 
 .feature-table {
 
-  padding-bottom: 30px;
+  margin-bottom: 10px;
 
   .grid {
     background-color: $feature-table-background;

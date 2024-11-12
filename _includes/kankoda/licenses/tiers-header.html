@@ -7,15 +7,9 @@
             
             <h3>{{tier.name}}</h3>
             <div>
-            {% if include.price == "monthly" %}
-            {% assign price = tier.monthly_price_month %}
-            {% elsif include.price == "yearly" %}
-            {% assign price = tier.monthly_price_year %}
-            {% endif %}
-
-            {% if price %}
-            <p>${{price}}/month</p>
-            <p class="subtitle">(billed {{ include.price }})</p>
+            {% if tier.price_month %}
+            <p>${{tier.price_month}}/month</p>
+            <p class="subtitle">or ${{tier.price_year}}/year</p>
             {% else %}
             <p>&nbsp;</p>
             <p class="subtitle">&nbsp;</p>
@@ -30,5 +24,6 @@
         </div>
         {% endfor %}
     </div>
+
     <hr style="box-shadow: none !important" />
   </div>

@@ -7,10 +7,12 @@ permalink: /pro
 hero: /assets/heros/pro.png
 hero-title: KeyboardKit Pro
 
-description: Unlock features that take your keyboard to the next level
+description: KeyboardKit Pro unlocks pro features that take your keyboard to the next level
 ---
 
-KeyboardKit Pro unlocks [pro features](#features) like autocomplete, fully localized keyboards & services for all [languages](/locales), autocomplete, an emoji keyboard, AI features, themes, dictation, [and more](#features).
+KeyboardKit Pro unlocks [pro features](#features) like autocomplete, AI support, an emoji keyboard, localized keyboards & services for all supported [languages](/locales), themes, dictation, [and much more](#features).
+
+KeyboardKit Pro has a separate [GitHub project]({{site.urls.github_pro}}) with documentation, code examples, releases, etc.
 
 
 <a name="pricing" />
@@ -26,20 +28,7 @@ The tiers below are aimed at indies and small businesses. [Reach out](mailto:{{s
     </p>
 </div>
 
-&nbsp;
-
-{% include licenses/feature-table.html tiers=site.data.tiers price="yearly" script=true %}
-{% include licenses/feature-table.html tiers=site.data.tiers price="monthly" %}
-
-
-## Online Store
-
-Standard licenses can be purchased from the [online store]({{site.urls.gumroad}})<!--[Lemon Squeezy]({{site.lemon_url}})-->. [Reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20-%20Custom%20License) if you need a custom license or another method of payment or invoicing.
-
-
-## Add-Ons
-
-KeyboardKit Pro has optional [add-ons](/pro/addons). [Reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20License%20Add-Ons) if you want to apply any add-ons to your license.
+{% include licenses/feature-table.html tiers=site.data.tiers %}
 
 
 ## License Terms
@@ -47,12 +36,8 @@ KeyboardKit Pro has optional [add-ons](/pro/addons). [Reach out](mailto:{{site.e
 By purchasing a KeyboardKit Pro license, you acknowledge and approve the [ terms & conditions](/pro/terms-and-conditions).
 
 
-## GitHub
-
-KeyboardKit Pro has a separate [GitHub project]({{site.urls.github_pro}}) with documentation, code examples, releases, etc.
-
-
 <a name="features" />
+
 ## Pro Features
 
 KeyboardKit Pro unlocks Pro Features, that supercharge your keyboard and take it to the next level.
