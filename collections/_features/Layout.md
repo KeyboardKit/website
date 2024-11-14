@@ -7,7 +7,7 @@ A flexible keyboard layout is at the heart of a software keyboard, with many con
 
 KeyboardKit lets you use input sets to define input keys, and keyboard layouts to define the full set of keys. This gives you maximum flexibility to define layouts for different locales and configurations.
 
-[KeyboardKit Pro][Pro] unlocks [more features](#pro), like more input sets, iPad Pro layouts, and localized input sets and layout providers for all supported locales.
+[KeyboardKit Pro][Pro] unlocks [more features](#pro), like more input sets, localized input sets & layouts for all supported locales, iPad Pro layouts, and more layout capabilities.
 
 
 ## Namespace
@@ -45,9 +45,15 @@ KeyboardKit Pro also unlocks a layout service that can generate iPad Pro layouts
 
 <img width="650" alt="An iPad Pro keyboard" src="{{page.assets}}keyboardview-ipadpro.jpg" />
 
-KeyboardKit Pro also unlocks ways to easily add a character input toolbar above any `KeyboardView`:
+KeyboardKit Pro also unlocks ways to easily add a various input toolbars above the `KeyboardView`:
 
 <img width="650" alt="An input toolbar" src="{{page.assets}}inputtoolbar-ipadpro.png" />
+
+KeyboardKit Pro also unlocks ``KeyboardLayout`` capabilities like ``.adjusted(for:layoutConfiguration:)``, ``.copy()``, and ``.createIdealItem(for:width:alignment:)``, which make it easier to customize layouts.
+
+KeyboardKit Pro can also extract bottom row information, like ``.bottomRowLayout`` and has additional functions for modifying layout items and keys in various parts of the keyboard.
+
+See the ``KeyboardLayout`` and ``KeyboardLayoutIdentifiable`` type documentation in the Pro docs for a full list of capabilities that KeyboardKit Pro unlocks.
 
 
 [Pro]: /pro   
