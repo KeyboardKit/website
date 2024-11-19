@@ -1,17 +1,17 @@
 - title: About
   url: /about
   image: /assets/heros/icon.png
-  text: Why should you build a keyboard and how can KeyboardKit help?
+  text: Why build a custom keyboard and how can KeyboardKit help?
   
 - title: Features
   url:  /features
   image: /assets/heros/features.png
-  text: KeyboardKit supports 60+ locales and has a rich set of features.
+  text: KeyboardKit supports 70 locales and a rich set of features.
 
 - title: KeyboardKit Pro
   url:  /pro
   image: /assets/heros/pro.png
-  text: Unlock pro features like an emoji keyboard, autocomplete, etc.
+  text: Unlock pro features to take your keyboard to the next level.
 
 - title: Themes
   url:  /features/themes
