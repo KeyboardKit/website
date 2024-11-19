@@ -1,18 +1,4 @@
 .hero {
-
-  img {
-    max-height: 350px !important;
-  }
-}
-
-.hero.devices, .home .hero {
-
-  img {
-    max-height: 550px !important;
-  }
-}
-
-.hero {
   padding-top: 50px;
   text-align: center;
   
@@ -75,6 +61,18 @@
 
   .button-container.navigator {
     margin-top: 0px !important;
+  }
+}
+
+.hero {
+  img {
+    max-height: 400px !important;
+  }
+}
+
+.home .hero {
+  img {
+    max-height: 800px !important;
   }
 }
 

@@ -1,23 +1,5 @@
 .hero {
     img {
-        width: 300px !important;
         border-radius: 0 !important;
-    }
-}
-
-.home {
-    .hero {
-        img {
-            width: 100% !important;
-        }
-    }
-}
-
-@media (max-width: 500px) {
-
-    .hero {
-        img {
-            width: 250px !important;
-        }
     }
 }

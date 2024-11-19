@@ -11,9 +11,9 @@
 
 <section class="hero {{class}}">
     <div class="wrapper">
-        {{include.hero-icon}}
+        {{include.icon}}
         {% if icon_size > 0 %}
-        <img class="icon sticker" src="{{hero-icon}}" />
+        <img class="icon sticker" src="{{include.icon}}" />
         {% endif %}
         <h1>{{include.title | default: page.title}}</h1>
         <p>{{include.description | default: page.description}}</p>
