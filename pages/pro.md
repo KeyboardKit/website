@@ -19,7 +19,7 @@ custom-license-email: mailto:info@keyboardkit.com?subject=KeyboardKit%20Pro%20-%
     </p>
 </div>
 
-KeyboardKit Pro is a separate [GitHub project]({{site.urls.github_pro}}) that includes KeyboardKit and unlocks [pro features](#features) like 70+ locales, autocomplete, AI support, emojis, themes, dictation, [and much more](#features).
+KeyboardKit Pro is a [commercial add-on]({{site.urls.github_pro}}) that unlocks [pro features](#features) like 70+ locales, autocomplete, AI support, emojis, themes, dictation, [and much more](#features).
 
 <a name="pricing" />
 
