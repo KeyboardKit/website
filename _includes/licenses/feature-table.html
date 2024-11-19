@@ -2,6 +2,8 @@
   {% include kankoda/gumroad/script.html %}
 {% endif %}
 
+{% assign terms="/pro/terms-and-conditions" %}
+
 <section class="feature-table {{include.price}}">
 
   {% include kankoda/licenses/tiers-header.html tiers=include.tiers price=include.price %}
@@ -10,19 +12,15 @@
   
   <hr />
   
-  {% include kankoda/licenses/table-row.html row=01 feature="Localized Layouts"   columns="✔,✔,✔,✔" title="Unlock additional input sets, like QWERZ & AZERTY, and localized input sets & layouts for all locales in your license." url="/features/layout" %}
-  {% include kankoda/licenses/table-row.html row=02 feature="Localized Callouts"  columns="✔,✔,✔,✔" title="Unlock localized secondary callout actions for all locales in your license." url="/features/callouts" %}
-  
-  <hr />
-  
-  {% include kankoda/licenses/table-row.html row=01 feature="Autocomplete"  columns="✔,✔,✔,✔" title="Unlock autocomplete & auocorrect for the languages in your license." url="/features/autocomplete" %}
-  {% include kankoda/licenses/table-row.html row=02 feature="Layout Utils"  columns="✔,✔,✔,✔" title="Unlock additional layout capabilities that make it easier to customize your layouts." url="/features/layout" %}
+  {% include kankoda/licenses/table-row.html row=01 feature="Autocomplete"      columns="✔,✔,✔,✔" title="Unlock autocomplete & auocorrect for the languages in your license." url="/features/autocomplete" %}
+  {% include kankoda/licenses/table-row.html row=02 feature="Autocorrect"       columns="✔,✔,✔,✔" title="Unlock autocomplete & auocorrect for the languages in your license." url="/features/autocomplete" %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Layout Utilities"  columns="✔,✔,✔,✔" title="Unlock additional layout capabilities that make it easier to customize your layouts." url="/features/layout" %}
   
   <hr />
 
   {% include kankoda/licenses/table-row.html row=01 feature="AI Support"            columns="-,✔,✔,✔" title="Unlock tools that support implementing AI-based features." url="/features/ai" %}
   {% include kankoda/licenses/table-row.html row=02 feature="Full Document Reader"  columns="-,✔,✔,✔" title="Unlock ways to read the entire text document, instead of just the text next to the cursor." url="/features/proxy-utilities" %}
-  {% include kankoda/licenses/table-row.html row=03 feature="Text Input"            columns="-,✔,✔,✔" title="Unlock text fields that can let you type within the keyboard." url="/features/text-input" %}
+  {% include kankoda/licenses/table-row.html row=03 feature="In-keyboard Typing"    columns="-,✔,✔,✔" title="Unlock text fields that can let you type within the keyboard." url="/features/text-input" %}
   
   <hr />
   
@@ -32,34 +30,24 @@
   {% include kankoda/licenses/table-row.html row=04 feature="Emoji Search"        columns="-,-,✔,✔" title="The emoji keyboard lets users search for emojis." url="/features/emojis" %}
   {% include kankoda/licenses/table-row.html row=05 feature="Host App Directory"  columns="-,-,✔,✔" title="Unlock ways to easily identify the host application." url="/features/host" %}
   {% include kankoda/licenses/table-row.html row=06 feature="Input Toolbar"       columns="-,-,✔,✔" title="Unlock an input toolbar that can be added to a system keyboard." url="/features/layout" %}
-  {% include kankoda/licenses/table-row.html row=07 feature="Latin Layouts"       columns="-,-,✔,✔" title="Unlock ways to easily reuse latin layouts across different layout providers." url="/features/layout" %}
+  {% include kankoda/licenses/table-row.html row=07 feature="Layout Add-ons"      columns="-,-,✔,✔" title="Unlock ways to easily reuse latin layouts across different layout providers." url="/features/layout" %}
   {% include kankoda/licenses/table-row.html row=08 feature="Next Char Prediction" columns="-,-,✔,✔" title="Unlock autocomplete services that perform next character prediction to improve typing." url="/features/autocomplete" %}
   {% include kankoda/licenses/table-row.html row=09 feature="Next Word Prediction" columns="-,-,✔,✔" title="Unlock ways to perform next word prediction with 3rd party AI services." url="/features/autocomplete" %}
-  {% include kankoda/licenses/table-row.html row=10 feature="3rd Party Autocomplete" columns="-,-,✔,✔" title="Unlock a remote autocomplete engine that can integrate with remote services." url="/features/autocomplete" %}
+  {% include kankoda/licenses/table-row.html row=10 feature="Remote Autocomplete" columns="-,-,✔,✔" title="Unlock a remote autocomplete engine that can integrate with remote services." url="/features/autocomplete" %}
   {% include kankoda/licenses/table-row.html row=11 feature="Themes & Styles"     columns="-,-,✔,✔" title="Unlock a theme engine with many predefined themes." url="/features/themes" %}
   
   <hr />
 
   {% include kankoda/licenses/table-row.html row=01 feature="Offline Validation"  columns="-,-,Yearly,✔" title="Yearly Gold and Enterprise licenses are compiled into the library and can be validated offline, without the need for Full Access." url="/pro/license-validation" %}
-
-  <hr />
-
-  {% include kankoda/licenses/table-row.html row=01 feature="Onboarding Call" columns="-,-,Yearly,✔" title="The optional onboarding call lets us understand your needs to help you get started." url="/pro/support#communication" %}
-  {% include kankoda/licenses/table-row.html row=02 feature="Monthly Call" columns="-,-,Yearly,✔" title="The optional monthly call lets us keep in sync and move your products forward." url="/pro/support#communication" %}
-  {% include kankoda/licenses/table-row.html row=03 feature="Discord Server" columns="Public,Public,Private,✔" title="Yearly Gold and License customers  The optional onboarding call lets us understand your needs to help you get started." url="/pro/support#communication" %}
+  {% include kankoda/licenses/table-row.html row=02 feature="Enterprise Support" columns="-,-,-,✔" title="Custom licenses can include support for additional test environments and enterprise requirements.." url="/pro/addons" %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Multi-platform Builds" columns="-,-,-,✔" title="Additional platforms can be added to a custom license as an add-on." url="/pro/addons" %}
   
-  <hr />
-
-  {% include kankoda/licenses/table-row.html row=01 feature="Custom Billing" columns="-,-,-,✔" title="Custom licenses can use any means of billing and invoicing, choose a custom billing cadence, etc." url="/pro/addons" %}
-  {% include kankoda/licenses/table-row.html row=02 feature="Custom Terms" columns="-,-,-,✔" title="Custom licenses can customize the terms to accomodate to any business or legal requirements." url="/pro/addons"%}
-  {% include kankoda/licenses/table-row.html row=03 feature="Additional Apps" columns="-,-,-,✔" title="Custom licenses can include additional bundle IDs and product." url="/pro/addons" %}
-  {% include kankoda/licenses/table-row.html row=04 feature="Additional Tests" columns="-,-,-,✔" title="Custom licenses can include support for additional test environments and enterprise requirements.." url="/pro/addons" %}
-  {% include kankoda/licenses/table-row.html row=05 feature="Multi-platform" columns="-,-,-,✔" title="Additional platforms can be added to a custom license as an add-on." url="/pro/addons" %}
-  {% include kankoda/licenses/table-row.html row=06 feature="SLAs" columns="-,-,-,✔" title="Custom licenses can request tailored, multi-platform binary builds for the platforms you need." url="/pro/addons" %}
 
   <hr />
-
+  
   {% include kankoda/licenses/table-row.html row=01 feature="Support" columns="GitHub,Email,Priority,Dedicated" title="The higher tiers include priority support and can pay extra for dedicated support." url="/pro/support" %}
+  {% include kankoda/licenses/table-row.html row=02 feature="Terms" columns="Standard,Standard,Standard,Custom" title="Custom licenses can customize the terms to accomodate to any business or legal requirements." url="/pro/terms-and-conditions" %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Discord Server" columns="Public,Public,Private,Private" title="Yearly Gold and License customers  The optional onboarding call lets us understand your needs to help you get started." url="/pro/support#communication" %}
   
   <hr />
 </section>
