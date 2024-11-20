@@ -3,6 +3,8 @@ title:  KeyboardKit 9.0 RC 4
 date:   2024-11-12 08:00:00 +0100
 tags:   releases
 
+image: /assets/headers/9.0-rc4.jpg
+
 post-rc2: /blog/2024/11/12/keyboardkit-9-rc2
 
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/9.0.0-rc.4
