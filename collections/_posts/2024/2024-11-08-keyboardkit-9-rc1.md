@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit 9.0 RC 1
 date:   2024-11-08 08:00:00 +0100
-tags:   releases keyboard actions autocomplete callouts dictation emojis external-keyboard feedback localization layout settings text-input pro
+tags:   releases
 
 tweet: https://x.com/GetKeyboardKit/status/1854865800735142275
 toot:  https://techhub.social/@keyboardkit/113447367849991624
