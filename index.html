@@ -22,14 +22,16 @@ description: Build amazing custom keyboards for iOS & iPadOS using Swift & Swift
       It's <a href="{{site.urls.github}}">open-source</a>, has many <a href="/features">great features</a> and can be extended with <a href="/pro">pro features</a>.
     </p>
   </section>
+
+  <hr />
   
   <section>
       <h2>KeyboardKit 9.0 is soon here!</h2>
       <p> 
-        Give it a try with the brand new <a href="/blog/2024/11/12/keyboardkit-9-rc4">Release Candidate 4</a>.
+        Give it a try with the latest <a href="/blog/2024/11/21/keyboardkit-9-rc5">Release Candidate</a>.
       </p>
       <article>
-        <a href="/blog/2024/11/12/keyboardkit-9-rc4" class="scale">
+        <a href="/blog/2024/11/21/keyboardkit-9-rc5" class="scale">
           <img src="/assets/headers/9.0-preview.jpg" />
         </a>
       </article>
@@ -40,6 +42,22 @@ description: Build amazing custom keyboards for iOS & iPadOS using Swift & Swift
   <section>
     <h2>Explore</h2>
     {% include kankoda/grid/features.html features=site.data.home-features %}
+  </section>
+
+  <hr />
+
+  <section>
+    <h2>Blog</h2>
+    <p> 
+      Follow the <a href="/blog">KeyboardKit blog</a> for news & updates.
+    </p>
+    <div class="grid home blog list">
+      {% for post in site.posts limit:2 %}
+      <div>
+        {% include kankoda/blog/list-item.html post=posts.first tag-limit=1 %}
+      </div>
+      {% endfor %}
+    </div>
   </section>
 
   <hr />
@@ -67,21 +85,5 @@ description: Build amazing custom keyboards for iOS & iPadOS using Swift & Swift
     </p>
     {% assign studies = site.case-studies | where:"featured",1 %}
     {% include case-study-links.html items=studies limit=4 featured=true %}
-  </section>
-
-  <hr />
-
-  <section>
-    <h2>Blog</h2>
-    <p> 
-      Follow the <a href="/blog">KeyboardKit blog</a> for news & updates.
-    </p>
-    <div class="grid home blog list">
-      {% for post in site.posts limit:2 %}
-      <div>
-        {% include kankoda/blog/list-item.html post=posts.first tag-limit=1 %}
-      </div>
-      {% endfor %}
-    </div>
   </section>
 </div>
