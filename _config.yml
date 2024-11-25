@@ -49,7 +49,7 @@ urls:
 header:
   banner:
     text: 👑 Black Friday Discount - Save 50% on KeyboardKit Pro! 👑
-    url:  http://localhost:4000/blog/2024/11/25/black-friday
+    url:  /blog/2024/11/25/black-friday
 
 header_pages:
   - pages/home.md
