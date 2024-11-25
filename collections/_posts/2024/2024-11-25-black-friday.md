@@ -6,14 +6,22 @@ tags:   promos
 image: /assets/headers/blackfriday/24.jpg
 ---
 
-The KeyboardKit Black Friday Deal for 2024 is live! **Save 50%** on your first payment when signing up for [KeyboardKit Pro](/pro), using this exclusive discount code.
+[KeyboardKit Pro 9](/pro) is soon here, and with it price increases. [Sign up for KeyboardKit Pro today](/pro) to lock in the current price and **save an additional 50%** on your first payment with this discount code:
 
-![KeyboardKit logo]({{page.image}})
+<div class="box pro">
+  BLACK-FRIDAY-2024
+</div>
 
-KeyboardKit Pro 9 is soon here, and with it price increases for all tiers. Sign up for KeyboardKit Pro today to lock in the current license price, before it increases next week.
+![Black Friday 2024 Banner]({{page.image}})
 
-If you [sign up today](/pro), you can also use the Black Friday discount code `KK-BF24-LXX8YV8` at checkout, to [save an additional 50% on your first payment](/pro).
+The KeyboardKit Black Friday Deal is valid through November, and gets you KeyboardKit Pro for a full year with a **50% discount**.
 
-This works with the Basic, Silver, *and* Gold tier, which means that you can save up to [$2.500](/pro) if you sign up for the [Yearly Gold Plan](/pro)!
+This works with the Basic, Silver, *and* Gold tier, which means that you can save up to [$2.500](/pro) if you sign up for the [Yearly Gold Plan](/pro)! There has never been a better time to go Pro!
 
-You can see more details and compare tiers at the [KeyboardKit Pro product page](/pro).
+Enter the following code in the Gumroad checkout flow, to apply the discount to your Pro purchase:
+
+<div class="box pro">
+  BLACK-FRIDAY-2024
+</div>
+
+You can see more details and compare the various tiers at the [KeyboardKit Pro product page](/pro).

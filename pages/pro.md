@@ -12,18 +12,15 @@ description: KeyboardKit Pro unlocks pro features that take your keyboard to the
 custom-license-email: mailto:info@keyboardkit.com?subject=KeyboardKit%20Pro%20-%20Custom%20License
 ---
 
-<div class="info-box">
-    <h4>Upcoming Price Adjustments</h4>
-    <p>
-    KeyboardKit 9 launches in the end of November, with powerful new features and a higher price. Sign up for KeyboardKit Pro today, to lock in the current subscription price.
-    </p>
-</div>
-
-KeyboardKit Pro is a [commercial add-on]({{site.urls.github_pro}}) that unlocks [pro features](#features) like 70+ locales, autocomplete, AI support, emojis, themes, dictation, [and much more](#features).
+KeyboardKit Pro is a [commercial add-on]({{site.urls.github_pro}}) that unlocks [pro features](#features) like 70+ locales, autocomplete, word prediction, AI support, emojis, themes, dictation, [and much more](#features).
 
 <a name="pricing" />
 
 ## Pricing
+
+<div class="box pro rounded">
+  Sign up today to get KeyboardKit Pro 9 at the current price!
+</div>
 
 The standard tiers are aimed at indies, startups & small businesses. [Reach out for a custom plan]({{page.custom-license-email}}) if you're an enterprise, have $10M+ in annual revenue, or if the app has $1M+ in annual revenue.
 
