@@ -4,11 +4,6 @@
   text:   KeyboardKit provides essential features, utilities & views.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/essentials-article
 
-- title:  Pro Features
-  emoji:  👑
-  url:    /features#pro-features
-  text:   KeyboardKit Pro unlocks features like autocomplete, emojis, AI, etc.
-
 - title:  Actions
   emoji:  💥
   url:    /features/actions
@@ -81,9 +76,9 @@
 
 - title:  Host
   emoji:  🏠
+  hidden: 1
   url:    /features/host
-  text:   KeyboardKit can identify the host application.
-  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/host-article
+  text:   KeyboardKit Pro can identify and open specific host applications.
 
 - title:  Layout
   emoji:  🔣
