@@ -3,7 +3,7 @@ title:  KeyboardKit 9.0 RC 5
 date:   2024-11-21 08:00:00 +0100
 tags:   releases
 
-image: /assets/headers/9.0-rc5.jpg
+image: /assets/headers/9/rc.jpg
 
 post-rc4: /blog/2024/11/20/keyboardkit-9-rc4
 
