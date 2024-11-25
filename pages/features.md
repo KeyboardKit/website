@@ -14,7 +14,7 @@ redirect_from:
     - /open-source
 ---
 
-KeyboardKit is [open-source]({{site.urls.github}}), completely free and provides you with powerful keyboard [features](#features). It's hosted at [GitHub]({{site.urls.github}}), where you'll find documentation, code examples, demo apps, etc.
+KeyboardKit is packed with powerful [core features](#core-features) that help you build amazing custom keyboards. You can upgrade to [KeyboardKit Pro](/pro) to unlock a huge set of [pro features](#pro-features).
 
 
 ## Languages

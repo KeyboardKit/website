@@ -19,7 +19,7 @@ KeyboardKit Pro is a [commercial add-on]({{site.urls.github_pro}}) that unlocks 
 ## Pricing
 
 <div class="box pro rounded">
-  Sign up today to get KeyboardKit Pro 9 at the current price!
+  Sign up now to get KeyboardKit Pro at the current price, before it increases in December!
 </div>
 
 The standard tiers are aimed at indies, startups & small businesses. [Reach out for a custom plan]({{page.custom-license-email}}) if you're an enterprise, have $10M+ in annual revenue, or if the app has $1M+ in annual revenue.

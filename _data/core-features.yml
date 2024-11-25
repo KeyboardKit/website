@@ -38,6 +38,7 @@
 
 - title:  Device Utilities
   emoji:  🖥️
+  hidden: 1
   url:    /features/device-utilities
   text:   KeyboardKit has device-specific utilities.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/device-article
