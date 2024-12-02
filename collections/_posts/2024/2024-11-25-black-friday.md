@@ -3,7 +3,7 @@ title:  Black Friday - Save 50% on Pro
 date:   2024-11-25 08:00:00 +0100
 tags:   promos
 
-image: /assets/headers/blackfriday/24.jpg
+image: /assets/headers/promos/bf24.jpg
 ---
 
 [KeyboardKit Pro 9](/pro) is soon here, and with it price increases. [Sign up for KeyboardKit Pro today](/pro) to lock in the current price and **save an additional 50%** on your first payment with this discount code:

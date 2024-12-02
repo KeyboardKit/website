@@ -48,8 +48,8 @@ urls:
 
 header:
   banner:
-    text: 👑 Black Friday Discount - Save 50% on KeyboardKit Pro! 👑
-    url:  /blog/2024/11/25/black-friday
+    text: 👑 Cyber Monday Discount - Save 50% on KeyboardKit Pro! 👑
+    url:  /blog/2024/12/02/cyber-monday
 
 header_pages:
   - pages/home.md
