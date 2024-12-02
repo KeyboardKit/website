@@ -1,18 +1,18 @@
 - name: Basic
-  price_month: 49
-  price_year: 499
+  price_month: 50
+  price_year: 500
   cta: Sign Up
   url: https://kankoda.gumroad.com/l/keyboardkitpro
 
 - name: Silver
-  price_month: 149
-  price_year: 1499
+  price_month: 250
+  price_year: 2500
   cta: Sign Up
   url: https://kankoda.gumroad.com/l/keyboardkitpro
 
 - name: Gold
-  price_month: 499
-  price_year: 4999
+  price_month: 500
+  price_year: 5000
   cta: Sign Up
   url: https://kankoda.gumroad.com/l/keyboardkitpro
 
