@@ -6,7 +6,7 @@ tags:   releases services gestures
 
 image:  /assets/headers/icon.png
 
-tweet:  https://twitter.com/getkeyboardkit/status/1596074336687099905
+tweet:  https://twitter.com/keyboardkitsdk/status/1596074336687099905
 toot:   https://techhub.social/@keyboardkit/109403855369067876
 ---
 

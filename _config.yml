@@ -18,7 +18,7 @@ copyright_url: https://kankoda.com
 
 github_username: KeyboardKit
 mastodon_username: keyboardkit@techhub.social
-twitter_username: getkeyboardkit
+twitter_username: keyboardkitsdk
 
 assets: /assets/
 header_image: /assets/icon/icon-header.png
@@ -41,7 +41,7 @@ urls:
   gumroad:    https://kankoda.gumroad.com/l/keyboardkitpro
   mastodon:   https://techhub.social/@keyboardkit
   newsletter: https://kankoda.gumroad.com/subscribe
-  twitter:    https://twitter.com/getkeyboardkit
+  twitter:    https://twitter.com/keyboardkitsdk
 
   swift: https://www.swift.org
   swiftui: https://developer.apple.com/xcode/swiftui/
