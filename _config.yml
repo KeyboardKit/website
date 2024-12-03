@@ -46,10 +46,10 @@ urls:
   swift: https://www.swift.org
   swiftui: https://developer.apple.com/xcode/swiftui/
 
-header:
-  banner:
-    text: 👑 Cyber Monday Discount - Save 50% on KeyboardKit Pro! 👑
-    url:  /blog/2024/12/02/cyber-monday
+# header:
+#  banner:
+#    text: 👑 Cyber Monday Discount - Save 50% on KeyboardKit Pro! 👑
+#    url:  /blog/2024/12/02/cyber-monday
 
 header_pages:
   - pages/home.md

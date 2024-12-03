@@ -4,7 +4,7 @@ date:   2023-03-18 08:00:00 +0100
 tags:   autocomplete multi-platform
 
 image:  /assets/headers/icon.png
-assets: /assets/blog/2023/2023-03-18/
+assets: /assets/blog/23/0318/
 
 toot:   https://techhub.social/@keyboardkit/110043912765961882
 tweet:  https://twitter.com/GetKeyboardKit/status/1637045041406279680?s=20

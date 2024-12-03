@@ -4,7 +4,7 @@ date:   2023-03-11 08:00:00 +0100
 tags:   autocomplete
 
 image:  /assets/headers/icon.png
-assets: /assets/blog/2023/2023-03-11/
+assets: /assets/blog/23/0311/
 
 toot:   https://techhub.social/@keyboardkit/110004348468210559
 tweet:  https://twitter.com/GetKeyboardKit/status/1634512162260434944?s=20

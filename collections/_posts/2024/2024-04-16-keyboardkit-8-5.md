@@ -4,7 +4,7 @@ date:   2024-04-16 08:00:00 +0100
 tags:   releases actions callouts emojis feedback layout views
 
 image:  /assets/headers/icon.png
-assets: /assets/blog/2024/2024-04-16/
+assets: /assets/blog/24/0416/
 
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/8.5.0
 release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/8.5.0

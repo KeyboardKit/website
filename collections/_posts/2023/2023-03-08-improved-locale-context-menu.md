@@ -4,7 +4,7 @@ date:   2023-03-08 08:00:00 +0100
 tags:   localization
 
 image:  /assets/headers/icon.png
-assets: /assets/blog/2023/2023-03-08/
+assets: /assets/blog/23/0308/
 
 toot:   https://mastodon.social/@danielsaidi/109989967967718150
 tweet:  https://twitter.com/GetKeyboardKit/status/1633592146702876674?s=20
