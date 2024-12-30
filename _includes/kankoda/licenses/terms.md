@@ -8,20 +8,22 @@ This page defines the standard Terms & Conditions that apply to {{ product }}'s 
 
 The standard tiers are aimed at indies, startups & small businesses. Reach out for a [custom license]({{ custom-email }}) if you’re an enterprise, have $10M+ in annual revenue, or if your app has $1M+ in annual revenue.
 
+You can also [reach out for a custom license]({{ custom-email }}) if you need to modify any parts of the terms below.
+
 
 ### License Activation
 
 Licenses that are purchased via [Gumroad]({{ site.urls.gumroad }}) can be used directly after purchase, using the license key in the purchase confirmation. This license key is also available from the subscription screen.
 
-[Custom licenses]({{ custom-email }}) that are purchased via invoice or custom billing, are typically activated within two business days after payment has been received.
+Custom licenses that are purchased via invoice, are activated after the payment has been received.
 
 ### License Validation
 
 Standard licenses are validated with network requests, which requires Full Access. The SDK handles temporary connectivity loss, but requires regular validations to stay validated.
 
-Yearly Gold & Custom licenses are encoded into the binary release and validated on-device, without the need for network-based validation or Full Access.
+Yearly Gold & Custom licenses are encoded into a new version of the SDK and validated on-device, without the need for network-based validation or Full Access.
 
-Yearly Gold & Custom licenses can also request a license file instead of having the license encoded into the binary, to avoid aving to upgrade to the latest version of KeyboardKit Pro.
+Yearly Gold & Custom licenses can also be delivered on file instead of being encoded into the SDK.
 
 ### License Expiration
 
@@ -37,12 +39,12 @@ Custom licenses can specify any custom license cancellation terms in a custom li
 
 ### License Adjustments
 
-Your license information can be adjusted in a new version of the software binary, if needed. [Reach out]({{ custom-email }}) if you need to adjust your license information.
+Your license information can be adjusted in a new version of the SDK, if needed. [Reach out]({{ custom-email }}) if you need to adjust your license information.
 
 
-## Free Trial
+## Trial Version
 
-Standard licenses include a free trial, with unlimited access to all non-consumption-based features in the selected tier. The free trial will automatically convert to a paid plan if it's not cancelled.
+Standard licenses include a free trial, with unlimited access to all non-consumption-based features in the selected tier. The free trial will automatically convert to a paid plan if not cancelled.
 
 
 ## Refunds
@@ -52,7 +54,7 @@ The Free Trial can be cancelled at any time. No refunds will be approved after t
 
 ## Technical Information
 
-{{ product }} targets the current major OS version, and supports two major versions back (one for macOS). Support for older OS versions is only removed in a major version bump.
+{{ product }} targets the current major OS version, and supports at least two major versions back (one for macOS). Support for older OS versions is only removed in major version bumps.
 
 {{ product }} is built with the latest version of Xcode, but offers on-demand builds for the last major version, up to three months after the latest major version was released.
 
@@ -64,9 +66,11 @@ The SDK depends on hardware- and operating system capabilities that are provided
 Features that stop working due to, but not limited to, such changes, may be removed at any time, without replacement or compensation, since the required capabilities may no longer be available.
 
 
-## Right to market
+## Right to Market
 
-The standard licenses allow KeyboardKit to use your app or product for marketing purposes. [Reach out]({{ custom-email }}) if you need a custom license to opt-out of KeyboardKit Pro's right to market.
+By signing up for a Standard license, you allow {{ product }} to use your app, product, or brand for marketing purposes.
+
+You can [reach out for a custom license]({{ custom-email }}) if you want to opt out of {{ product }}'s right to market.
 
 
 ## Closed Source License Agreement

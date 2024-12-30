@@ -1,14 +1,16 @@
 ---
 id: license-terms
-title: KeyboardKit Pro - License Terms
+title: KeyboardKit Pro
 layout: page
 permalink: /pro/terms-and-conditions
 
-redirect_from: /pro/terms
+redirect_from: 
+    - /pro/terms
+    - /terms
 
 hero: /assets/heros/pro.png
 
-description: These terms and conditions apply to the KeyboardKit Pro SDK.
+description: License Terms & Conditions
 ---
 
 {% include kankoda/licenses/terms.md product="KeyboardKit Pro" url="/pro" %}
