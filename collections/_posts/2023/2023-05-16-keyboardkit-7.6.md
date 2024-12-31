@@ -3,8 +3,6 @@ title:  KeyboardKit 7.6
 date:   2023-05-16 08:00:00 +0100
 tags:   releases dictation emojis
 
-image:  /assets/headers/icon.png
-
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.6.0
 
 dictation-post: /blog/2023/05/15/dictation-changes

@@ -3,7 +3,6 @@ title:  Improved locale context menu
 date:   2023-03-08 08:00:00 +0100
 tags:   localization
 
-image:  /assets/headers/icon.png
 assets: /assets/blog/23/0308/
 
 toot:   https://mastodon.social/@danielsaidi/109989967967718150

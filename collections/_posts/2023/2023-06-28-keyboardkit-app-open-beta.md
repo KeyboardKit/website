@@ -3,8 +3,6 @@ title:  The new KeyboardKit app is now in open beta
 date:   2023-06-28 08:00:00 +0100
 tags:   releases app
 
-image:  /assets/headers/icon.png
-
 tweet:  https://twitter.com/GetKeyboardKit/status/1674781328431271936?s=20
 toot:   https://techhub.social/@keyboardkit/110633547628471460
 

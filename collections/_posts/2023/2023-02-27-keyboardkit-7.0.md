@@ -3,8 +3,6 @@ title:  KeyboardKit 7.0
 date:   2023-02-27 08:00:00 +0100
 tags:   releases
 
-image:  /assets/headers/icon.png
-
 rc:     https://keyboardkit.com/blog/2023/02/16/keyboardkit-7-rc
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.0.0
 

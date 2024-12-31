@@ -3,8 +3,6 @@ title:  Text input crashes in iOS 17
 date:   2023-11-13 12:00:00 +0100
 tags:   ios-bugs
 
-image:  /assets/headers/icon.png
-
 article: /blog/2023/11/13/how-to-type-within-a-keyboard-extension
 ---
 

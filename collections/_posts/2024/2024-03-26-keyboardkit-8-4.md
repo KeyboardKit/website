@@ -3,8 +3,6 @@ title:  KeyboardKit 8.4
 date:   2024-03-26 08:00:00 +0100
 tags:   releases documentation emojis
 
-image:  /assets/headers/icon.png
-
 tweet:  https://x.com/GetKeyboardKit/status/1772634059992076537?s=20
 toot:   https://techhub.social/@keyboardkit/112162497672526993
 

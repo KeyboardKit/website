@@ -3,8 +3,6 @@ title:  The new KeyboardKit app is out
 date:   2023-07-21 08:00:00 +0100
 tags:   releases app
 
-image:  /assets/headers/icon.png
-
 tweet:  https://twitter.com/GetKeyboardKit/status/1682304606544490496?s=20
 toot:   https://techhub.social/@keyboardkit/110751101248947708
 ---

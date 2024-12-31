@@ -2,8 +2,6 @@
 title:  What to expect in KeyboardKit 6.0
 date:   2022-01-24 12:00:00 +0100
 tags:   localization multi-platform
-
-image:  /assets/headers/icon.png
 ---
 
 KeyboardKit 6.0 is just around the corner! This post explains what to expect in this major bump.

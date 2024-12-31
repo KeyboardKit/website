@@ -3,7 +3,6 @@ title:  KeyboardKit 7.2
 date:   2023-03-20 08:00:00 +0100
 tags:   releases autocomplete styling themes multi-platform
 
-image:  /assets/headers/icon.png
 assets: /assets/blog/23/0320/
 
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.2.0

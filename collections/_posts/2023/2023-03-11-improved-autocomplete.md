@@ -3,7 +3,6 @@ title:  Improved autocomplete
 date:   2023-03-11 08:00:00 +0100
 tags:   autocomplete
 
-image:  /assets/headers/icon.png
 assets: /assets/blog/23/0311/
 
 toot:   https://techhub.social/@keyboardkit/110004348468210559

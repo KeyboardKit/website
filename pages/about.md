@@ -4,9 +4,7 @@ title: About
 layout: page
 permalink: /about
 
-image:  /assets/headers/icon.png
-
-hero: /assets/icon/icon-1024.png
+hero: /assets/heros/icon.png
 hero-title: About KeyboardKit
 
 description: KeyboardKit lets you build amazing keyboard extensions with Swift & SwiftUI

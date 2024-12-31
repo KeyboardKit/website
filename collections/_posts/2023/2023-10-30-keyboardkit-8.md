@@ -3,8 +3,6 @@ title:  KeyboardKit 8
 date:   2023-10-30 08:00:00 +0100
 tags:   releases
 
-image:  /assets/headers/icon.png
-
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/8.0.0
 release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/8.0.0
 ---

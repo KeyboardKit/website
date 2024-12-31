@@ -3,14 +3,14 @@ title:  KeyboardKit Pro can now get all text from the proxy
 date:   2022-10-05 06:00:00 +0100
 tags:   releases pro proxy
 
-image:  /assets/headers/icon-pro.png
+image:  /assets/headers/icon-pro.jpg
 
 article: https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/pro-document-proxy-extensions
 ---
 
 KeyboardKit Pro 6.4.2 has been extended with new text document proxy extensions that let you read all text from the proxy.
 
-![Icon badge]({{page.image}})
+![KeyboardKit Pro icon header]({{page.image}})
 
 As you may have noticed, `UITextDocumentProxy` `documentContextBefore/AfterInput` don't give you *all* content before and after the text input cursor, just the content that is closest to the text cursor. Any new paragraph may stop the proxy from fetching more content, which makes it hard to do more complex operations, like proof-reading a document.
 

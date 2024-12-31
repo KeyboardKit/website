@@ -3,8 +3,6 @@ title:  KeyboardKit 6.5 is out
 date:   2022-11-02 08:00:00 +0100
 tags:   releases pro licenses
 
-image:  /assets/headers/icon.png
-
 licensekit: https://getlicensekit.com
 ---
 

@@ -28,8 +28,11 @@
       <div class="column">
         <p>Social</p>
         <a href="{{site.urls.email}}">E-mail</a>
+        {% if site.urls.bluesky %}
+        <a href="{{site.urls.bluesky}}">Bluesky</a>
+        {% endif %}
         {% if site.urls.twitter %}
-        <a href="{{site.urls.twitter}}">Twitter</a>
+        <a href="{{site.urls.twitter}}">Twitter / X</a>
         {% endif %}
         {% if site.urls.mastodon %}
         <a href="{{site.urls.mastodon}}">Mastodon</a>

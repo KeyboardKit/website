@@ -3,8 +3,6 @@ title:  Dictation changes
 date:   2023-05-15 08:00:00 +0100
 tags:   dictation
 
-image:  /assets/headers/icon.png
-
 tweet:  https://twitter.com/GetKeyboardKit/status/1658457509068251142?s=20
 toot:   https://techhub.social/@keyboardkit/110378488624461760
 ---

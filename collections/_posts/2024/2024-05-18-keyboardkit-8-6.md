@@ -3,8 +3,6 @@ title:  KeyboardKit 8.6
 date:   2024-05-18 08:00:00 +0100
 tags:   releases essentials actions callouts host layout localization pro
 
-image:  /assets/headers/icon.png
-
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/8.6
 release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/8.6
 ---

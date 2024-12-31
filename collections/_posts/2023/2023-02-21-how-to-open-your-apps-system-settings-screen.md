@@ -3,8 +3,6 @@ title:  How to open your System Settings app screen
 date:   2023-02-20 11:00:00 +0100
 
 tags:   settings
-
-image:  /assets/headers/icon.png
 ---
 
 KeyboardKit has utilities to easily let you open your app's System Settings screen. However, you may have noticed that it behaves a little random, and sometimes open the System Settings root instead of your app. Let's take a look at how to improve this.

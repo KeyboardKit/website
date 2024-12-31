@@ -4,8 +4,6 @@ date:   2023-02-16 10:00:00 +0100
 
 tags:   releases multi-platform styling
 
-image:  /assets/headers/icon.png
-
 release: https://github.com/KeyboardKit/KeyboardKit/releases
 documentation: https://github.com/KeyboardKit/KeyboardKit/releases/download/7.0-rc/KeyboardKit-7rc.doccarchive.zip
 

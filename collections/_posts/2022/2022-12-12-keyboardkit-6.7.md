@@ -3,7 +3,6 @@ title:  KeyboardKit 6.7 is out
 date:   2022-12-12 08:00:00 +0100
 tags:   releases emojis views
 
-image:  /assets/headers/icon.png
 pro:    /pro
 
 release-notes: https://github.com/KeyboardKit/KeyboardKit/releases/tag/6.7.0

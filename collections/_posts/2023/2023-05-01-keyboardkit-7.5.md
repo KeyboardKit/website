@@ -3,8 +3,6 @@ title:  KeyboardKit 7.5
 date:   2023-05-01 08:00:00 +0100
 tags:   releases dictation styling themes
 
-image:  /assets/headers/icon.png
-
 tweet:  https://twitter.com/GetKeyboardKit/status/1653131006298169376?s=20
 toot:   https://techhub.social/@keyboardkit/110295262500485857
 

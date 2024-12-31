@@ -3,8 +3,6 @@ title:  KeyboardKit 8.7
 date:   2024-06-19 08:00:00 +0100
 tags:   releases essentials autocomplete dictation feedback layout settings pro
 
-image:  /assets/headers/icon.png
-
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/8.7.0
 ---
 

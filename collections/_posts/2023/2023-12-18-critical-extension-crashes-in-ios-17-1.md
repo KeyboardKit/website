@@ -3,8 +3,6 @@ title:  Critical extension crashes in iOS 17.1
 date:   2023-12-10 08:00:00 +0100
 tags:   ios-bugs
 
-image:  /assets/headers/icon.png
-
 tweet:  https://x.com/GetKeyboardKit/status/1736793940324413473?s=20
 toot:   https://techhub.social/@keyboardkit/111602494916219080
 ---

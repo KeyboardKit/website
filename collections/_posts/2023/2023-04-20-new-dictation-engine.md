@@ -3,7 +3,6 @@ title:  New Dictation Engine
 date:   2023-04-20 06:00:00 +0100
 tags:   pro dictation
 
-image:  /assets/headers/dictation.png
 assets: /assets/themes/
 image-width: 350px
 

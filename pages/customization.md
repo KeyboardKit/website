@@ -4,9 +4,10 @@ title: Customization
 layout: page
 permalink: /customization
 
-image:  /assets/headers/customization.png
+image:  /assets/headers/features.jpg
+image-show: 0
 
-hero: /assets/heros/themes.png
+hero: /assets/heros/features.png
 hero-title: KeyboardKit is customizable
 
 description: KeyboardKit keyboards can be customized to great extent.

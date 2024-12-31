@@ -2,8 +2,6 @@
 title:  How to type into a text input within a keyboard extension
 date:   2023-11-13 09:00:00 +0100
 tags:   how-to routing
-
-image:  /assets/headers/icon.png
 ---
 
 This article discusses how to type into a text input within a keyboard extension.

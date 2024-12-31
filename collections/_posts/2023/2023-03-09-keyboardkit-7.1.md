@@ -3,8 +3,6 @@ title:  KeyboardKit 7.1
 date:   2023-03-09 08:00:00 +0100
 tags:   releases autocomplete localization layout
 
-image:  /assets/headers/icon.png
-
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.1.0
 
 toot:   https://mastodon.social/@danielsaidi/109995065984705063

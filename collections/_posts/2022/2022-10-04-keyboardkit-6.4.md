@@ -3,8 +3,6 @@ title:  KeyboardKit 6.4 is out
 date:   2022-10-04 08:00:00 +0100
 tags:   releases localization multi-platform
 
-image:  /assets/headers/icon.png
-
 release-notes: https://github.com/KeyboardKit/KeyboardKit/releases/tag/6.4.0
 ---
 

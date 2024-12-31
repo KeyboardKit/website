@@ -3,9 +3,7 @@ title:  KeyboardKit 6.9 is out
 date:   2023-01-10 08:00:00 +0100
 tags:   releases multi-platform
 
-image:  /assets/headers/icon.png
 pro:    /pro
-
 release-notes: https://github.com/KeyboardKit/KeyboardKit/releases/tag/6.9.0
 ---
 

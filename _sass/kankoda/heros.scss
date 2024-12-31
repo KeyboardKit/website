@@ -7,7 +7,6 @@
   }
 
   img.icon {
-    margin-bottom: 20px;
     width: 150px;
     height: 150px !important;
   }
@@ -55,14 +54,6 @@
   }
 }
 
-.hero + main {
-  padding-top: 50px;
-
-  .button-container.navigator {
-    margin-top: 0px !important;
-  }
-}
-
 .hero {
   img {
     max-height: 400px !important;
@@ -76,7 +67,6 @@
 }
 
 .hero.paper {
-  
   hr {
     margin-bottom: 0 !important;
   }
@@ -98,7 +88,6 @@
 @media (max-width: 600px) {
 
   .hero {
-    padding-top: 25px;
 
     h1 {
       font-size: 2em !important;
@@ -111,9 +100,5 @@
     .line {
       height: 50px !important;
     }
-  }
-
-  .hero + main {
-    padding-top: 25px;
   }
 }

@@ -2,8 +2,6 @@
 title:  KeyboardKit 7.9.7 Hotfix
 date:   2023-11-13 08:00:00 +0100
 tags:   releases
-
-image:  /assets/headers/icon.png
 ---
 
 A KeyboardKit 7.9.7 hotfix is out, that adds a fix for an occasional crash that can happen the keyboard hosting controller is deinitialized.

@@ -3,8 +3,6 @@ title:  KeyboardKit App 3.1 is out!
 date:   2024-05-15 08:00:00 +0100
 tags:   releases app
 
-image:  /assets/headers/icon.png
-
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/8.6-rc1
 release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/8.6-rc1
 ---

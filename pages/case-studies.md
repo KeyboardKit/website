@@ -3,8 +3,7 @@ layout: blog
 title: Case Studies
 permalink: /case-studies/
 
-image: /assets/headers/case-studies.png
-image-show: 0
+image: /assets/headers/case-studies.jpg
 ---
 
 <h1>Case Studies</h1>

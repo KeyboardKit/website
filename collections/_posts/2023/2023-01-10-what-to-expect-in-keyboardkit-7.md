@@ -4,8 +4,6 @@ date:   2023-01-10 10:00:00 +0100
 
 tags:   releases services gestures
 
-image:  /assets/headers/icon.png
-
 tweet:  https://twitter.com/keyboardkitsdk/status/1596074336687099905
 toot:   https://techhub.social/@keyboardkit/109403855369067876
 ---

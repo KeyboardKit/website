@@ -3,8 +3,6 @@ title:  KeyboardKit 7.7
 date:   2023-06-05 08:00:00 +0100
 tags:   releases actions emojis gestures themes
 
-image:  /assets/headers/icon.png
-
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.7.0
 
 tweet:  https://twitter.com/GetKeyboardKit/status/1665681764021329921?s=20

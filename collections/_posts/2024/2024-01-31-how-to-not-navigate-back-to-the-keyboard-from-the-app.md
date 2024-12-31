@@ -3,8 +3,6 @@ title:  How to (not) navigate back to the keyboard from the app
 date:   2024-01-31 08:00:00 +0100
 tags:   navigation
 
-image:  /assets/headers/icon.png
-
 tweet:  https://x.com/GetKeyboardKit/status/1752969884886044881?s=20
 toot:   https://techhub.social/@keyboardkit/111855245325388950
 ---
