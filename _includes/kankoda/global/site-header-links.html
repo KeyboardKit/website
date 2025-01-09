@@ -1,0 +1,15 @@
+<ul class="horizontal">
+  {%- for path in site.header_pages -%}
+    {%- assign page = site.pages | where: "path", path | first -%}
+    {%- assign title = page.title | default:page.name | escape -%}
+    {%- if title -%}
+    <li>
+      {%- if page.id == "pricing" -%}
+      <a href="{{ page.url | relative_url }}" class="{{ page.id }} sticker scale">{{ title }}</a>
+      {%- else -%}
+      <a href="{{ page.url | relative_url }}" class="{{ page.id }}">{{ title }}</a>
+      {%- endif -%}
+    </li>
+    {%- endif -%}
+  {%- endfor -%}
+</ul>

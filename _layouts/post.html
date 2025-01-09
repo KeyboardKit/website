@@ -6,37 +6,30 @@ layout: default
   
   {% include kankoda/buttons/back.html url="/blog" title="Blog" %}
 
+  {% assign url_bluesky = page.bsky | default: site.urls.bluesky %}  
+  {% assign url_mastodon = page.toot | default: site.urls.mastodon %}  
+  {% assign url_twitter = page.tweet | default: site.urls.twitter %}  
+  
   <h1>
     {{ page.title | escape }}
   </h1>
 
-  {% include kankoda/blog/post-header.html post=page follow=1 %}
+  {% include kankoda/blog/post-info.html post=page follow=1 %}
 
   <div class="e-content" itemprop="articleBody">
     {{ content }}
   </div>
 
-  {%- if page.tweet -%}
-    <h2>Discussions & More</h2>
-
-    {%- if site.disqus.shortname -%}
-    <p>
-      If you found this interesting and would like to share your thoughts, please comment in the
-      Disqus section below or reply to {% include kankoda/blog/discussion-links.html %}.
-    </p>
-    {%- else -%}
-    <p>
-      If you found this interesting, please share your thoughts by repling to 
-      {% include kankoda/blog/discussion-links.html %}.
-    </p>
-    {%- endif -%}
-    <p>
-      Follow on <a href="{{site.urls.twitter}}">Twitter</a> and <a href="{{site.urls.mastodon}}">Mastodon</a> to be notified when new content & articles are published.
-    </p>
-  {%- endif -%}
+  <h2>Discussions & More</h2>
+  <p>
+    If you found this interesting, please share your thoughts on 
+    <a href="{{url_bluesky}}">Bluesky</a>, 
+    <a href="{{url_mastodon}}">Mastodon</a>, and
+    <a href="{{url_twitter}}">X</a>. 
+    Also make sure to follow to be notified when new content is published.
+  </p>
 
   <a class="u-url" href="{{page.url | relative_url}}" hidden></a>
 </article>
 
-{% include kankoda/disqus/disqus-card.html %}
 {% include kankoda/tags/scripts.html %}

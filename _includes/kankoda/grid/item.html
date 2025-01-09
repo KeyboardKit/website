@@ -1,27 +1,15 @@
-{%- assign type = include.type -%}
 {%- assign name = include.name -%}
 {%- assign image = include.image -%}
 {%- assign image-folder = include.image-folder -%}
 {%- assign icon = include.icon -%}
-{%- assign image-class = include.image-class -%}
+{%- assign title = include.title -%}
 
-{%- if type == "bands" or type == "photos" or type == "themes" -%}
-{%- assign extension = "jpg" -%}
-{%- else -%}
-{%- assign extension = "png" -%}
-{%- endif -%}
-
-{%- if image -%}
-{%- else -%}
-{%- assign image = include.name -%}
-{%- endif -%}
-
-{% if icon %}
-    <img src="/assets/icons/{{ icon }}.{{extension}}" alt="{{ title }} icon" title="{{ title }}" />
+{% if image %}
+    <img src="{{image-folder}}{{image}}.{{include.image-extension}}" alt="{{name}} image" title="{{title}}" />
 {% else %}
-    <img src="{{image-folder}}{{image}}" alt="{{ title }} image" title="{{ title }}" />
+    <img src="/assets/icons/{{icon}}.{{include.image-extension}}" alt="{{name}} icon" title="{{title}}" />
 {% endif %}
 
-{%- if name -%}
-<p>{{ name }}</p>
+{%- if title -%}
+<p>{{ title }}</p>
 {%- endif -%}

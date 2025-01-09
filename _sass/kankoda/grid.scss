@@ -25,10 +25,6 @@ p + .grid {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.grid.col4 { 
-  grid-template-columns: repeat(4, 1fr);
-}
-
 .grid.home {
   grid-column-gap: 40px;
   grid-template-columns: repeat(2, 1fr);
@@ -40,12 +36,11 @@ p + .grid {
   }
 }
 
-.grid.icons, .grid.bands, .grid.themes {
+.grid.icons, .grid.centered {
   text-align: center;
 }
 
-.grid.icons, .grid.bands, .grid.features {
-
+.grid.icons, .grid.features {
   grid-column-gap: 40px;
 
   a:hover, a:visited:hover {
@@ -64,14 +59,14 @@ p + .grid {
     grid-template-columns: repeat(2, 1fr);
   }
   
-  .grid.col2, .grid.col3, .grid.col4 { 
+  .grid.col2, .grid.col3 { 
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media (max-width: 800px) {
   
-  .grid.col3, .grid.col4 { 
+  .grid.col3 { 
     grid-template-columns: repeat(2, 1fr);
   }
 }

@@ -7,8 +7,8 @@
       {{ post.title | escape }}
     </a>
   </h2>
-  {% include kankoda/blog/post-header.html post=post tag-limit=tag-limit %}
   <p>
     {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
   </p>
+  {% include kankoda/blog/post-info.html post=post tag-limit=tag-limit %}
 </article>

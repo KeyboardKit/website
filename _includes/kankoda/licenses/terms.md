@@ -1,76 +1,61 @@
 {% assign product = include.product %}
 {% assign product-escaped = include.product | split: " " | join: "%20" %}
-{% assign custom-email = site.urls.email | append: "?subject=" | append: product-escaped | append: "%20-%20Custom%20License" %}
+{% assign custom-email = site.urls.email | append: "?subject=" | append: product-escaped | append: "%20-%20Custom%20License%20Request" %}
 
 ## License Terms & Conditions
 
-This page defines the standard Terms & Conditions that apply to {{ product }}'s [standard tiers](/pro).
+Below are the standard Terms & Conditions that apply to {{ product }}. A license is valid for one product, defined by the bundle ID that is provided at the time of purchase.
 
-The standard tiers are aimed at indies, startups & small businesses. Reach out for a [custom license]({{ custom-email }}) if you’re an enterprise, have $10M+ in annual revenue, or if your app has $1M+ in annual revenue.
-
-You can also [reach out for a custom license]({{ custom-email }}) if you need to modify any parts of the terms below.
+The standard license is aimed at indies & small businesses. Reach out for a [custom license]({{ custom-email }}) if you’re an enterprise or a company with $10M+ in annual revenue, or the app has $1M+ in annual revenue.
 
 
 ### License Activation
 
-Licenses that are purchased via [Gumroad]({{ site.urls.gumroad }}) can be used directly after purchase, using the license key in the purchase confirmation. This license key is also available from the subscription screen.
+Standard licenses that are purchased via [Gumroad]({{ site.urls.gumroad }}) are activated and can be used immediately after purchase, using the unique license key in the license purchase confirmation.
 
-Custom licenses that are purchased via invoice, are activated after the payment has been received.
+[Custom licenses]({{ custom-email }}) that are purchased via regular invoicing or other means of payment, are activated in a new version of the product, typically within two business days after payment has been received.
 
 ### License Validation
 
-Standard licenses are validated with network requests, which requires Full Access. The SDK handles temporary connectivity loss, but requires regular validations to stay validated.
+Standard licenses are validated using network requests. The SDK can handle temporary connectivity loss, but requires regular connectivity for the license to be properly validated.
 
-Yearly Gold & Custom licenses are encoded into a new version of the SDK and validated on-device, without the need for network-based validation or Full Access.
-
-Yearly Gold & Custom licenses can also be delivered on file instead of being encoded into the SDK.
+Yearly Gold & custom licenses are encoded into the binary product and validated on-device, without the need for network-based validation.
 
 ### License Expiration
 
-A license expires when its subscription ends, or the binary license expires. This will stop the product from being able to use {{ product }} in both development and production.
+A license expires when its subscription ends. This will stop the related product from being able to use {{ product }} in both development and production.
 
-Custom licenses can be configured to allow license expiration in already shipped version of an app.
-
-### License Cancellation
-
-Standard license subscriptions can be cancelled at any time, and will last through the current term.
-
-Custom licenses can specify any custom license cancellation terms in a custom license agreement.
+Custom licenses can be configured to allow license expiration, which will allow them to be used in already shipped version of an apps, but not in new ones. [Reach out]({{ custom-email }}) if you need a custom license.
 
 ### License Adjustments
 
-Your license information can be adjusted in a new version of the SDK, if needed. [Reach out]({{ custom-email }}) if you need to adjust your license information.
+Your license information can be adjusted in a new version of the software binary, if needed. [Reach out]({{ custom-email }}) if you need to adjust any information in your license.
 
 
-## Trial Version
+## Free Trial
 
-Standard licenses include a free trial, with unlimited access to all non-consumption-based features in the selected tier. The free trial will automatically convert to a paid plan if not cancelled.
+Standard licenses include a free trial with unlimited access to all non-consumption-based features in the selected tier. The trial will automatically convert to a paid plan if it's not cancelled.
+
+[Reach out]({{ custom-email }}) if you need a custom license to try out any particular features that are not available in the standard license, before your purchase.
 
 
 ## Refunds
 
-The Free Trial can be cancelled at any time. No refunds will be approved after the Free Trial ends.
+The free trial can be cancelled at any time. No refunds will be approved after the free trial ends. All active license subscriptions can be cancelled at any time, and will last through the remaining term.
 
 
 ## Technical Information
 
-{{ product }} targets the current major OS version, and supports at least two major versions back (one for macOS). Support for older OS versions is only removed in major version bumps.
+{{ product }} targets the current major OS version, and supports two major versions back (one for macOS). Support for older OS versions is only removed in major version bumps.
 
-{{ product }} is built with the latest version of Xcode, but offers on-demand builds for the last major version, up to three months after the latest major version was released.
+{{ product }} is built with the latest version of Xcode, but offers on-demand builds for the last major version, up to three months after the latest major version was released. 
 
 
 ## Feature Disclaimer
 
-The SDK depends on hardware- and operating system capabilities that are provided by Apple, that can be changed or removed at any time, at Apple’s discretion.
+The SDK depends on hardware- and operating system capabilities that are provided by Apple and that can be changed or removed at any time, at Apple’s discretion, in ways that may affect the SDK.
 
 Features that stop working due to, but not limited to, such changes, may be removed at any time, without replacement or compensation, since the required capabilities may no longer be available.
-
-
-## Right to Market
-
-By signing up for a Standard license, you allow {{ product }} to use your app, product, or brand for marketing purposes.
-
-You can [reach out for a custom license]({{ custom-email }}) if you want to opt out of {{ product }}'s right to market.
 
 
 ## Closed Source License Agreement

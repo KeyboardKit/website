@@ -17,6 +17,9 @@
         {% if site.urls.blog %}
         <a href="{{site.urls.blog}}">Blog</a>
         {% endif %}
+        {% if site.urls.blog-archive %}
+        <a href="{{site.urls.blog-archive}}">Blog Archive</a>
+        {% endif %}
         {% if site.urls.newsletter %}
         <a href="{{site.urls.newsletter}}">Newsletter</a>
         {% endif %}
@@ -31,11 +34,11 @@
         {% if site.urls.bluesky %}
         <a href="{{site.urls.bluesky}}">Bluesky</a>
         {% endif %}
-        {% if site.urls.twitter %}
-        <a href="{{site.urls.twitter}}">Twitter / X</a>
-        {% endif %}
         {% if site.urls.mastodon %}
         <a href="{{site.urls.mastodon}}">Mastodon</a>
+        {% endif %}
+        {% if site.urls.twitter %}
+        <a href="{{site.urls.twitter}}">X</a>
         {% endif %}
         {% if site.urls.instagram %}
         <a href="{{site.urls.instagram}}">Instagram</a>
@@ -66,15 +69,13 @@
         <div>
           <a href="{{site.urls.github}}">GitHub</a>
           {% if site.urls.github_pro %}
-            ·
-            <a href="{{site.urls.github_pro}}">Pro</a>
+            <a href="{{site.urls.github_pro}}">(Pro)</a>
           {% endif %}
         </div>
         <div>
           <a href="{{site.urls.docs}}">Docs</a>
           {% if site.urls.docs_pro %}
-            ·
-            <a href="{{site.urls.docs_pro}}">Pro</a>
+            <a href="{{site.urls.docs_pro}}">(Pro)</a>
           {% endif %}
         </div>
         <div>

@@ -31,6 +31,10 @@
   text-align: left;
 }
 
+section + section {
+  margin-top: 50px;
+}
+
 article + .grid {
   margin-top: 60px;
 }

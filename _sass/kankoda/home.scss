@@ -1,6 +1,6 @@
 .home {
 
-  .home-content section {
+  section {
 
     article {
       text-align: left;
@@ -8,6 +8,18 @@
 
     .grid {
       margin-top: 30px !important;
+    }
+
+    .grid.blog {
+      h2 {
+        margin-top: 0px;
+      }
+    }
+
+    .blog {
+      h2 {
+        font-size: 1.2em;
+      }
     }
   }
 
@@ -21,19 +33,6 @@
   .social-buttons {
     img { 
       box-shadow: none;
-    }
-  }
-
-  .blog {
-    text-align: left;
-
-    .grid {
-      margin-top: 10px;
-    }
-
-    h2 {
-      font-size: 1.2em;
-      margin-top: 20px !important;
     }
   }
 }

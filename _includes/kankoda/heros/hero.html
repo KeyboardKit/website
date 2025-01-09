@@ -10,46 +10,32 @@
 {% endif %}
 
 <section class="hero {{class}}">
-  <div class="wrapper">
-    {% if icon_size > 0 %}
-    <img class="icon sticker" src="{{include.icon}}" />
-    {% endif %}
-
-    {% if site.header.banner %}
-    <a href="{{site.header.banner.url}}">
-      <div class="box scale">    
-          {{ site.header.banner.text }}
-      </div>
-    </a>
-    {% endif %}
-
-    {{include.icon}}
-
-    {% if icon_size > 0 %}
-    <img class="icon sticker" src="{{include.icon}}" />
-    {% endif %}
-    <h1>{{include.title | default: page.title}}</h1>
-    <p>{{include.description | default: page.description}}</p>
-    {% if hero_size > 0 %}
-    <div class="image-wrapper rounded">
-        <img src="{{include.hero}}" alt="Page hero image for {{page.id}} page" class="{{page.hero-img-class}}" />
+    <div class="wrapper">
+        {% if icon_size > 0 %}
+        <img class="app-icon sticker" src="{{include.icon}}" />
+        {% endif %}
+        <h1>{{include.title | default: page.title}}</h1>
+        <p>{{include.description | default: page.description}}</p>
+        {% if hero_size > 0 %}
+        <div class="image-wrapper">
+            <img src="{{include.hero}}" alt="Page hero image for {{page.id}} page" class="{{include.image-class}}" />
+        </div>
+        {% elsif emoji_size > 0 %}
+        <span class="emoji">
+            {{include.emoji}}
+        </span>
+        {% endif %}
     </div>
-    {% elsif emoji_size > 0 %}
-    <span class="emoji">
-        {{include.emoji}}
-    </span>
+    {% if class contains "paper" %}
+    {% else %}
+    <div class="hero-line">
+        <div class="line-content">
+            <div class="line"></div>
+            <div class="line-footer"></div>
+        </div>
+    </div>
     {% endif %}
-  </div>
-  {% if class contains "paper" %}
-  {% else %}
-  <div class="hero-line">
-      <div class="line-content">
-          <div class="line"></div>
-          <div class="line-footer"></div>
-      </div>
-  </div>
-  {% endif %}
-  {% if class contains "paper" %}
-  <hr />
-  {% endif %}
+    {% if class contains "paper" %}
+    <hr />
+    {% endif %}
 </section>

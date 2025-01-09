@@ -1,12 +1,14 @@
 .hero {
+  padding-top: 50px;
   text-align: center;
   
   h1 {
     font-size: 3.2em !important;
-    margin-top: 25px !important;
+    margin-top: 0px !important;
   }
 
-  img.icon {
+  img.app-icon {
+    margin-bottom: 20px;
     width: 150px;
     height: 150px !important;
   }
@@ -54,19 +56,28 @@
   }
 }
 
+.hero + main {
+  padding-top: 50px;
+
+  .button-container.navigator {
+    margin-top: 0px !important;
+  }
+}
+
 .hero {
   img {
     max-height: 400px !important;
   }
 }
 
-.home .hero {
+.home .hero, .hero.devices {
   img {
     max-height: 800px !important;
   }
 }
 
 .hero.paper {
+  
   hr {
     margin-bottom: 0 !important;
   }
@@ -88,6 +99,7 @@
 @media (max-width: 600px) {
 
   .hero {
+    padding-top: 25px;
 
     h1 {
       font-size: 2em !important;
@@ -100,5 +112,9 @@
     .line {
       height: 50px !important;
     }
+  }
+
+  .hero + main {
+    padding-top: 25px;
   }
 }

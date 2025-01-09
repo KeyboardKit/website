@@ -3,6 +3,8 @@
     <!-- Twitter -->
 
     {% if page.image %}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="{{page.image | absolute_url}}" />
     {% elsif page.icon %}
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:image" content="{{site.assets | absolute_url}}icons/{{page.icon}}.png" />
@@ -20,6 +22,11 @@
 
     <!-- Facebook -->
 
+    <meta property="og:image" content="{{site.assets | absolute_url}}icon/icon-facebook.png" />
+    <meta property="og:url" t="{{page.url}}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="{{page.title}}" />
+    
     {% if page.description %}
     <meta property="og:description" content="{{page.description}}" />
     {% elsif page.excerpt %}
