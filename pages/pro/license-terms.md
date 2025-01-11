@@ -13,4 +13,4 @@ hero: /assets/heros/pro.png
 description: License Terms & Conditions
 ---
 
-{% include kankoda/licenses/terms.md product="KeyboardKit Pro" url="/pro" %}
+{% include kankoda/licenses/terms.md product="KeyboardKit Pro" %}

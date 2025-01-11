@@ -2,11 +2,14 @@
 {% assign product-escaped = include.product | split: " " | join: "%20" %}
 {% assign custom-email = site.urls.email | append: "?subject=" | append: product-escaped | append: "%20-%20Custom%20License%20Request" %}
 
-## License Terms & Conditions
+# {{ product }} Terms & Conditions
 
-Below are the standard Terms & Conditions that apply to {{ product }}. A license is valid for one product, defined by the bundle ID that is provided at the time of purchase.
+Below are the standard {{ product }} Terms & Conditions. A license is valid for one product, defined by the bundle ID that is provided at the time of purchase.
 
 The standard license is aimed at indies & small businesses. Reach out for a [custom license]({{ custom-email }}) if you’re an enterprise or a company with $10M+ in annual revenue, or the app has $1M+ in annual revenue.
+
+
+## License Information
 
 
 ### License Activation

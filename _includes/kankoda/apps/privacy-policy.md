@@ -1,6 +1,9 @@
-# {{include.app-name}} Privacy Policy
+{% assign name = include.app.name | default: include.name %}
+{% assign url = include.app.url | default: include.url %}
 
-This is the privacy policy for the [{{include.product.info.name}}]({{include.product.info.url}}) app (hereby referred to as "the app").
+# {{name}} Privacy Policy
+
+This is the privacy policy for the [{{name}}]({{url}}) app (hereby referred to as "the app").
 
 
 ## Definitions

@@ -1,14 +1,8 @@
-{% assign email = site.urls.email | append: "?subject=" | append: product.info.name %}
+{% assign email = site.urls.email | append: "?subject=" | append: include.product.name | append: " License Inquiry" %}
 
 <a name="pricing"></a>
 <h2>Pricing</h2>
 
 <p>
-  The license tiers are aimed at indies and small businesses. <a href="{{email}}">Reach out for a custom plan</a> if you’re an enterprise, have $10M+ in annual revenue, or if your product exceeds $1M in annual proceeds.
+  The license tiers are aimed at indies and small businesses. <a href="{{ email }}">Reach out for a custom plan</a> if you're an enterprise, have $10M+ in annual revenue, or if your product exceeds $1M in annual proceeds.
 </p>
-
-{% if include.button == 1 %}
-<div class="cta-container">
-  <a href="{{include.product.info.url}}#pricing" class="cta">Sign up now!</a>
-</div>
-{% endif %}

@@ -5,4 +5,4 @@ permalink: /app/privacy-policy
 
 ---
 
-{% include kankoda/privacy/policy.md app-name="KeyboardKit" %}
+{% include kankoda/apps/privacy-policy.md app-name="KeyboardKit" %}
