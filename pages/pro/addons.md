@@ -6,7 +6,7 @@ permalink: /pro/custom
 
 redirect_from: /pro/addons
 
-hero: /assets/heros/pro.png
+hero-image: /assets/heros/pro.png
 description: KeyboardKit Pro provides custom licenses for organizations with special needs
 ---
 

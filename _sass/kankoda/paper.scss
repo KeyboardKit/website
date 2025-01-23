@@ -7,17 +7,9 @@
   margin-bottom: 40px;
 }
 
-.hero.paper hr {
-  background-color: $content-background;
-}
-
-.paper.site-header hr {
+.paper.header hr {
   margin-top: 15px;
   margin-bottom: -25px;
-}
-
-.paper + .page-content {
-  padding-top: 25px;
 }
 
 @media (max-width: 500px) {

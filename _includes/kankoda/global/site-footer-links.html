@@ -1,7 +1,7 @@
 {%- for path in include.paths -%}
-  {%- assign page = site.pages | where: "path", path | first -%}
-  {%- assign title = page.title | default:page.name -%}
+  {%- assign current-page = site.pages | where: "path", path | first -%}
+  {%- assign title = current-page.title | default:current-page.name -%}
   {%- if title -%}
-  <a href="{{ page.url | relative_url }}">{{ title | escape }}</a>
+  <a href="{{ current-page.url | relative_url }}">{{ title | escape }}</a>
   {%- endif -%}
 {%- endfor -%}

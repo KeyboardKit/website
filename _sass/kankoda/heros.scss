@@ -3,14 +3,13 @@
   text-align: center;
   
   h1 {
-    font-size: 3.2em !important;
-    margin-top: 0px !important;
+    font-size: 3.0em !important;
   }
 
   img.app-icon {
+    width: 100px;
+    height: 100px !important;
     margin-bottom: 20px;
-    width: 150px;
-    height: 150px !important;
   }
   
   .image-wrapper {
@@ -24,82 +23,25 @@
   
   .emoji {
     font-size: 10em;
-    border-radius: 15px;
-    line-height: 1.4em;
-  }
-
-  .wrapper {
-    position: relative;
-    z-index: 1000;
-  }
-  
-  .hero-line {
-    position: relative;
-    height: 0px;
-    z-index: 0;
-
-    .line-content {
-      position: absolute;
-      width: 100%;
-      bottom: 0px;
-
-      .line {
-        height: 100px;
-        background: linear-gradient(to top left, $content-background 0%, $content-background 50%, transparent 50%, transparent 100%) !important;
-      }
-      
-      .line-footer {
-        height: 100px;
-        background: $content-background;
-      }
-    }
-  }
-}
-
-.hero + main {
-  padding-top: 50px;
-
-  .button-container.navigator {
-    margin-top: 0px !important;
   }
 }
 
 .hero {
   img {
-    max-height: 400px !important;
+    max-height: 350px !important;
   }
 }
 
 .home .hero, .hero.devices {
   img {
-    max-height: 800px !important;
-  }
-}
-
-.hero.paper {
-  
-  hr {
-    margin-bottom: 0 !important;
-  }
-}
-
-@media (max-width: 850px) {
-  .hero { 
-    h1 {
-      font-size: 2.5em !important;
-    }
-
-    p { 
-      font-size: 1.1em;
-      font-weight: 600 !important;
-    }
+    max-height: 700px !important;
   }
 }
 
 @media (max-width: 600px) {
 
   .hero {
-    padding-top: 25px;
+    padding-top: 35px;
 
     h1 {
       font-size: 2em !important;
@@ -107,10 +49,6 @@
 
     .emoji {
       font-size: 7em !important;
-    }
-
-    .line {
-      height: 50px !important;
     }
   }
 

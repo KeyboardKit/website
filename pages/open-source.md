@@ -7,6 +7,6 @@ permalink: /opensource
 redirect_from: 
   - /open-source
 
-hero: /assets/heros/icon.png
+hero-image: /assets/heros/icon.png
 ---
 

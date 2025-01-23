@@ -7,7 +7,7 @@ permalink: /customization
 image:  /assets/headers/features.jpg
 image-show: 0
 
-hero: /assets/heros/features.png
+hero-image: /assets/heros/features.png
 hero-title: KeyboardKit is customizable
 
 description: KeyboardKit keyboards can be customized to great extent.

@@ -1,33 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include kankoda/head/head.html %}
-  
-  {%- assign hero = page.hero -%}
-  {%- assign hero-title = page.hero-title | default: page.title -%}
-  {%- assign hero-class = page.hero-class -%}
-  {%- assign hero-paper = page.hero-paper -%}
-  {%- assign hero-emoji = page.hero-emoji -%}
-  {%- assign hero-icon = page.hero-icon -%}
-  {%- assign hero-image-class = page.hero-image-class -%}
-  {%- assign hero-description = page.hero-description | default: page.description -%}
 
-  {% assign hero_size = hero | size %}
-  {% assign hero-title_size = page.hero-title | size %}
-  {% assign hero-emoji_size = page.hero-emoji | size %}
+  <body class="{{page.id}} {{body_class}}"> 
+    
+    <!-- Header -->
+    <header class="site-header paper" role="banner">
+      {% include kankoda/global/site-header.html %}
+      {% include kankoda/heros/hero.html %}
+      <hr />
+    </header>
 
-  {% if hero_size > 0 or hero-title_size > 0 or hero-emoji_size > 0 %}
-    {%- assign has_hero = 1 -%}
-  {% elsif hero-paper > 0 %}
-  {% else %}
-    {%- assign header-class = "paper" -%}
-  {% endif %}
-
-  <body class="{{page.id}} {{body_class}}">  
-    {% include kankoda/global/site-header.html class=header-class %}
-    {% if has_hero %}
-      {% include kankoda/heros/hero.html hero=hero title=hero-title paper=hero-paper class=hero-class emoji=hero-emoji icon=hero-icon image-class=hero-image-class description=hero-description %}
-    {% endif %}
     {{ content }}
+
+    <!-- Footer -->
     {% include kankoda/global/site-footer.html %}
   </body>
 </html>

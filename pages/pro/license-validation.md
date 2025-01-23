@@ -4,7 +4,7 @@ title: KeyboardKit Pro License Validation
 layout: page
 permalink: /pro/license-validation
 
-hero: /assets/heros/pro.png
+hero-image: /assets/heros/pro.png
 description: KeyboardKit Pro can validate licenses over the Internet or on-device 
 ---
 

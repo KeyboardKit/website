@@ -4,7 +4,7 @@ layout: page
 permalink: /locales
 redirect_from: /languages
 
-hero: /assets/heros/locales.png
+hero-image: /assets/heros/locales.png
 
 description: KeyboardKit supports 60+ locales.
 ---

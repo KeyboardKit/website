@@ -1,4 +1,4 @@
-<header class="site-header {{ include.class }}" role="banner">
+<header class="site-header" role="banner">
   <div class="wrapper">
     {% if site.header_axis == "vertical" %}
     <div class="center-content">
@@ -12,14 +12,10 @@
       <div class="column">
         {% include kankoda/global/site-header-logo.html %}
       </div>
-      <div class="column">
+      <div class="column links">
         {% include kankoda/global/site-header-links.html %}
       </div>
     </div>
     {% endif %}
   </div>
-  
-  {% if include.class | contains:"paper" %}
-  <hr class="wrapper" />
-  {% endif %}
 </header>

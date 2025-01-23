@@ -1,13 +1,13 @@
-<ul class="horizontal">
+<ul class="horizontal menu">
   {%- for path in site.header_pages -%}
-    {%- assign page = site.pages | where: "path", path | first -%}
-    {%- assign title = page.title | default:page.name | escape -%}
+    {%- assign current-page = site.pages | where: "path", path | first -%}
+    {%- assign title = current-page.title | default:current-page.name | escape -%}
     {%- if title -%}
     <li>
-      {%- if page.id == "pricing" -%}
-      <a href="{{ page.url | relative_url }}" class="{{ page.id }} sticker scale">{{ title }}</a>
+      {%- if current-page.id == "pricing" -%}
+      <a href="{{ current-page.url | relative_url }}" class="{{ current-page.id }} sticker scale">{{ title }}</a>
       {%- else -%}
-      <a href="{{ page.url | relative_url }}" class="{{ page.id }}">{{ title }}</a>
+      <a href="{{ current-page.url | relative_url }}" class="{{ current-page.id }}">{{ title }}</a>
       {%- endif -%}
     </li>
     {%- endif -%}

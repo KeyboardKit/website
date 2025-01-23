@@ -1,41 +1,29 @@
-{% assign hero_size = include.hero | size %}
-{% assign emoji_size = include.emoji | size %}
-{% assign icon_size = include.icon | size %}
-{% assign paper_size = include.paper | size %}
+{% assign has-emoji = page.hero-emoji | size %}
+{% assign has-icon = page.hero-icon | size %}
+{% assign has-image = page.hero-image | size %}
+{% assign has-title = page.hero-title | size %}
 
-{% if paper_size > 0 %}
-{% assign class = include.class | append: "paper" %}
-{% else %}
-{% assign class = include.class %}
+{% if has-icon > 0 or has-image > 0 or has-emoji > 0 or has-title > 0 %}
+    {%- assign has-hero = 1 -%}
 {% endif %}
-
-<section class="hero {{class}}">
+  
+{% if has-hero %}
+<section class="hero {{page.hero-class}}">
     <div class="wrapper">
-        {% if icon_size > 0 %}
-        <img class="app-icon sticker" src="{{include.icon}}" />
+        {% if has-icon > 0 %}
+        <img class="app-icon sticker" src="{{page.hero-icon}}" />
         {% endif %}
-        <h1>{{include.title | default: page.title}}</h1>
-        <p>{{include.description | default: page.description}}</p>
-        {% if hero_size > 0 %}
+        <h1>{{page.hero-title | default: page.title}}</h1>
+        <p>{{page.hero-description | default: page.description}}</p>
+        {% if has-image > 0 %}
         <div class="image-wrapper">
-            <img src="{{include.hero}}" alt="Page hero image for {{page.id}} page" class="{{include.image-class}}" />
+            <img src="{{page.hero-image}}" alt="Hero image for {{page.id}} page" class="{{page.hero-image-class}}" />
         </div>
-        {% elsif emoji_size > 0 %}
+        {% elsif has-emoji > 0 %}
         <span class="emoji">
-            {{include.emoji}}
+            {{page.hero-emoji}}
         </span>
         {% endif %}
     </div>
-    {% if class contains "paper" %}
-    {% else %}
-    <div class="hero-line">
-        <div class="line-content">
-            <div class="line"></div>
-            <div class="line-footer"></div>
-        </div>
-    </div>
-    {% endif %}
-    {% if class contains "paper" %}
-    <hr />
-    {% endif %}
 </section>
+{% endif %}

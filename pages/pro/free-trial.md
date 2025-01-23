@@ -5,7 +5,7 @@ layout: page
 permalink: /pro/free-trial
 redirect_from: trial
 
-hero: /assets/heros/pro.png
+hero-image: /assets/heros/pro.png
 
 description: KeyboardKit Pro has a free trial
 ---

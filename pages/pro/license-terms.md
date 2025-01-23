@@ -8,7 +8,7 @@ redirect_from:
     - /pro/terms
     - /terms
 
-hero: /assets/heros/pro.png
+hero-image: /assets/heros/pro.png
 
 description: License Terms & Conditions
 ---

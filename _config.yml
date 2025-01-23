@@ -100,8 +100,8 @@ defaults:
     scope:
       type: "pages"
     values:
-      hero: ""
       layout: "page"
+      image: /assets/headers/icon.jpg
   -
     scope:
       type: "case-studies"

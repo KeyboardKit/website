@@ -4,7 +4,7 @@ title: KeyboardKit Pro Support
 layout: page
 permalink: /pro/support
 
-hero: /assets/heros/pro.png
+hero-image: /assets/heros/pro.png
 description: KeyboardKit Pro has many optional support levels
 ---
 

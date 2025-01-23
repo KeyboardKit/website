@@ -35,7 +35,7 @@ Here is a list of all the themes that come with the theme engine, including all 
 <section class="themes">
 {% for theme in site.data.themes %}
     <h3>{{theme.name}}</h3>
-    {% include kankoda/grid/grid.html items=theme.styles type="themes" image-class="keyboard-theme" image-folder="/assets/themes/" %}
+    {% include kankoda/grid/grid.html items=theme.styles type="themes" image-class="keyboard-theme" image-folder="/assets/themes/" image-extension="jpg" %}
 {% endfor %}
 </section>
 

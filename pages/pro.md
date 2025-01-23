@@ -4,7 +4,7 @@ title: Pro
 layout: page
 permalink: /pro
 
-hero: /assets/heros/pro.png
+hero-image: /assets/heros/pro.png
 hero-title: KeyboardKit Pro
 
 description: KeyboardKit Pro unlocks pro features that take your keyboard to the next level
