@@ -106,13 +106,11 @@ defaults:
     scope:
       type: "case-studies"
     values:
-      hero-paper: 1
       layout: "case-study"
   -
     scope:
       type: "features"
     values:
-      hero-paper: 1
       layout: "feature"
       assets: "/assets/documentation/"
   -
