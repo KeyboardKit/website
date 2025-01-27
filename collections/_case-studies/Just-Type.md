@@ -15,7 +15,7 @@ youtube-3: https://www.youtube.com/watch?v=GrAGNAAJGXA
 
 Say hi to [JustType]({{page.appstore}}) - an AI-powered iOS keyboard, developed by indie developer Thomas Burkhardt.
 
-![JustType header]({{page.image}})
+![JustType Header Image]({{page.image}})
 
 [JustType]({{page.appstore}}) is an AI-powered keyboard built by Thomas Burkhardt using KeyboardKit Pro, that aims to let you type efficiently and accurately on the iPhone.
 
@@ -40,7 +40,8 @@ Encouraged by friends and family, Thomas decided to create a commercial version 
 [JustType]({{page.appstore}}) was released in Q4 2024, and will be free until at least December 31. It will always be free for the dyslexia community, ensuring accessibility while remaining affordable for everyone else. For more information, see [this]({{page.youtube-1}}), [this]({{page.youtube-2}}), and [this]({{page.youtube-3}}) promo video.
 
 > Without KeyboardKit, I couldn’t have turned this idea into reality.
- 
-Congratulations to Thomas for launching [JustType]({{page.appstore}})! You can download it from the [App Store]({{page.appstore}}) today.
 
-{% include kankoda/buttons/app-store.html image-class="plain" url=page.appstore %}
+
+## Give it a try
+
+Congratulations to Thomas for launching [JustType]({{page.appstore}})! You can download it from the [App Store]({{page.appstore}}) today.

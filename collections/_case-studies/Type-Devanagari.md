@@ -11,7 +11,7 @@ twitter:  https://twitter.com/NatashaTheRobot
 
 Say hello to [Type Devanagari]({{page.appstore}}) - a Sanskrit keyboard, developed by indie dev [@NatashaTheRobot]({{page.twitter}}).
 
-![Type Devanagari icon]({{page.image}})
+![Type Devanagari Header Image]({{page.image}})
 
 [Type Devanagari]({{page.appstore}}) is a Sanskrit keyboard, build by [@NatashaTheRobot]({{page.twitter}}) with KeyboardKit.
 
@@ -29,6 +29,7 @@ This is when Natasha got the idea to build a Sanskrit keyboard, using a standard
 
 Stories like these are so inspiring! Creating a custom keyboard shouldn't have to be hard or take a long time. It's wonderful to hear that Natasha enjoyed using KeyboardKit to build her app.
 
-{% include kankoda/buttons/app-store.html image-class="plain" url=page.appstore %}
 
-You can download the Type Devanagari app from the [App Store]({{page.appstore}}). Also make sure to follow Natasha on [Twitter]({{page.twitter}}) for more information on her other cool projects and conferences.
+## Give it a try
+
+You can download the Type Devanagari app from the [App Store]({{page.appstore}}). [Follow Natasha]({{page.twitter}}) for updates.

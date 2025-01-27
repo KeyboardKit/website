@@ -5,8 +5,6 @@ title: Hayatar - Armenian Keyboard
 image:  /assets/case-studies/hayatar/header.jpg
 assets: /assets/case-studies/hayatar/article/
 
-featured: 1
-
 appstore: https://hayatar.fperson.dev
 twitter:  https://twitter.com/_fperson
 github:   https://github.com/_fperson
@@ -14,7 +12,7 @@ github:   https://github.com/_fperson
 
 Say hello to [Hayatar]({{page.appstore}}) - an Armenian keyboard built by Rotterdam-based [Arshak Aghakaryan]({{page.twitter}}), that aims to improve the Armenian typing experience.
 
-![Announcement header icon]({{page.image}})
+![Hayatar Header Image]({{page.image}})
 
 To Arshak Aghakaryan, the current state of typing in Armenian on iOS is not as great as it could be:
 
@@ -34,8 +32,8 @@ As you can see in these screenshots, Hayatar provides you with great Armenian al
 
 > KeyboardKit is definitely one of my favorite packages now!
 
-It's amazing to hear that Arshak loved using KeyboardKit, and that it helped him bring this amazing Armenian keyboard to life. [Download Hayatar]({{page.appstore}}) today, to improve your Armenian typing experience.
+It's amazing to hear that Arshak loved using KeyboardKit, and that it helped him bring this amazing Armenian keyboard to life. 
 
-{% include kankoda/buttons/app-store.html image-class="plain" url=page.appstore %}
+## Give it a try
 
-Also, make sure to follow Arshak on [Twitter]({{page.twitter}}) & [Mastodon]({{page.mastodon}}) for more information on what he's up to.
+[Download Hayatar]({{page.appstore}}) from the App Store today, to improve your Armenian typing experience.

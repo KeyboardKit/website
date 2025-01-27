@@ -25,7 +25,7 @@ podcast_spotify: https://open.spotify.com/episode/0Dw4Ug7PBzeXLD7pAE174x?si=aa6a
 
 Say hello to [BiAffect]({{page.biaffect}}) - a medical keyboard that tracks mental health through keystroke dynamics and proud winner of the [Mood Challenge For ResearchKit]({{page.mood}}).
 
-![BiAffect header]({{page.image}})
+![BiAffect Header Image]({{page.image}})
 
 The BiAffect team has been extensively covered for their cutting-edge work, for instance in the [Wall Street Journal]({{page.wsj}}), [Rolling Stone]({{page.rollingstone}}), and [IEEE Spectrum]({{page.ieee}}). This post will focus on how the app leverages keystroke dynamics, along with accelerometer data, to gain meaningful insights into mental health.
 

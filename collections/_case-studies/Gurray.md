@@ -15,7 +15,7 @@ portfolio:  https://www.anomaly.ltd/portfolio/wcc/gurray
 
 Say hello to [Gurray]({{page.appstore}}) - a keyboard for indigenous communication, developed by Australian [Anomaly Software]({{page.anomaly}}) for the WCC Language Program.
 
-![Gurray icon]({{page.image}})
+![Gurray Header Image]({{page.image}})
 
 The [WCC Language Program]({{page.wcclp}}) works with and supports First Nation's Language Groups to develop, document, and promote physical/digital language learning resources.
 
@@ -35,4 +35,6 @@ Gurray was built to match native iOS and Android keyboard standards, and uses Ke
 
 Enabling communication between people is a key focus for KeyboardKit, so it's amazing to see Gurray launch with focus on indigenous communication among the Australian communities.
 
-You can download Gurray from the [App Store]({{page.appstore}}) and read more about the WWDC LP [here]({{page.portfolio}})!
+## Give it a try
+
+You can download Gurray from the [App Store]({{page.appstore}}) and read more about the WWDC program [here]({{page.portfolio}})!
