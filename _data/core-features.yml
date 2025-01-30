@@ -1,13 +1,19 @@
 - title:  Essentials
-  emoji:  ⌨️
+  emoji:  🌱
   url:    /features/essentials
-  text:   KeyboardKit provides essential features, utilities & views.
-  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/essentials-article
+  text:   KeyboardKit provides essential models, features & views.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/essentials
+
+- title:  Keyboard View
+  emoji:  ⌨️
+  url:    /features/essentials-keyboardview
+  text:   KeyboardKit can render a native-looking, customizable keyboard.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/essentials-keyboardview
 
 - title:  Actions
   emoji:  💥
   url:    /features/actions
-  text:   KeyboardKit makes it easy to handle keyboard actions.
+  text:   KeyboardKit lets you trigger and handle keyboard actions.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/actions-article
 
 - title:  AI Support
@@ -38,9 +44,8 @@
 
 - title:  Device Utilities
   emoji:  🖥️
-  hidden: 1
   url:    /features/device-utilities
-  text:   KeyboardKit has device-specific utilities.
+  text:   KeyboardKit can identify device types, capabilities, etc.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/device-article
 
 - title:  Dictation

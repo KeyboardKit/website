@@ -1,7 +1,12 @@
 - title:  Essentials
-  emoji:  ⌨️
+  emoji:  🌱
   url:    /features/essentials  
   text:   KeyboardKit Pro unlocks more essential views & utilities.
+
+- title:  Essentials - Keyboard View
+  emoji:  ⌨️
+  url:    /features/essentials-keyboardview
+  text:   KeyboardKit Pro makes the keyboard view do a lot more.
 
 - title:  AI Support
   emoji:  🤖
@@ -36,7 +41,7 @@
 - title:  External Keyboards
   emoji:  ⌨️
   url:    /features/external-keyboards
-  text:   KeyboardKit Pro can detect if an external keyboard is being used. 
+  text:   KeyboardKit Pro can detect if an external keyboard is connected. 
 
 - title:  Host
   emoji:  🏠

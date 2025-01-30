@@ -1,15 +1,9 @@
 ---
 title: Emojis
+hero-emoji: 😀
 ---
 
 KeyboardKit has an ``Emoji`` struct that represents an emoji value. It also serves as a namespace for emoji-related functionality.
-
-[KeyboardKit Pro][Pro] unlocks an [emoji keyboard](#pro) that supports all categories, skin tone variations, etc.
-
-
-## Emojis
-
-KeyboardKit defines emoji-specific models that lets you work with emojis in a more structured way:
 
 ```swift
 let emojis = Emoji.all        // 😀😃😄😁😆🥹😅😂🤣🥲...
@@ -22,13 +16,13 @@ EmojiCategory.smileysAndPeople.emojis  // 😀😃😄...
 EmojiVersion.v15.emojis       // 🫨🫸🫷🪿🫎🪼🫏🪽🪻🫛🫚🪇🪈🪮🪭🩷🩵🩶🪯🛜...
 ```
 
-KeyboardKit defines emoji categories, support for skin tone variations, emoji and unicode version information, etc. in a way that only exposes supported features to your users.
+KeyboardKit defines standard and custom emoji categories, support for skin tone variations, emoji version information, etc. in a way that only exposes supported features to your users.
 
 
 <a name="pro">
 ## 👑 KeyboardKit Pro
 
-KeyboardKit Pro unlocks an **EmojiKeyboard** that mimics the native emoji keyboard and supports native features like categories, skin tone variations, search, etc.
+KeyboardKit Pro unlocks an `EmojiKeyboard` that mimics a native emoji keyboard, with supports for emoji categories, skin tone variations, search, etc.
 
 <img width="450" alt="An EmojiKeyboard" src="{{page.assets}}emojikeyboard.jpg" />
 

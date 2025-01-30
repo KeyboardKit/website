@@ -1,24 +1,25 @@
 ---
 title: External Keyboards
+hero-emoji: ⌨️
 ---
 
-A keyboard extension should be able to detect if an external keyboard is connected, since it makes it stop working as expected. For instance, the text document proxy will not update properly.
+KeyboardKit lets you detect if an external keyboard is connected. This is important, since this can make your extension stop working as expected. 
 
-[KeyboardKit Pro][Pro] unlocks [tools](#pro) to help you detect if an external keyboard is connected, and ways to automatically collapse the keyboard into a compressed view.
+For instance, the text document proxy will not update properly, which means that your keyboard will not update properly, nor show things like autocomplete.
 
+For these reasons, many custom keyboards chooses to collapse the keyboard and instead show a collapsed utility bar, with a limited set of features.
 
-## Context
-
-KeyboardKit has an ``ExternalKeyboardContext`` that has state for if an external keyboard is connected, such as a Smart Keyboard Folio, a Magic Keyboard, any Bluetooth keyboards, etc.
-
-KeyboardKit Pro automatically keeps this context in sync when an external keyboard is connected and disconnected. Without it, you must listen for changes and update the context yourself.
+KeyboardKit has features for this, like the ``ExternalKeyboardContext``, and KeyboardKit Pro provides ways to handle it automatically.
 
 
-## How to collapse the keyboard
+<a name="pro">
+## 👑 KeyboardKit Pro
 
-The ``KeyboardContext.isKeyboardCollapsed`` property can be used to collapse and expand a keyboard as an external keyboard is connected. KeyboardKit Pro will automatically update this value.
+[KeyboardKit Pro][Pro] unlocks ways to detect if an external keyboard is connected or disconnected, and ways to automatically collapse the keyboard into a compressed view.
 
-The ``KeyboardView`` lets you define which view to show when the keyboard is collapsed. This lets you explain why the user can't use your keyboard while an external one is connected.
+KeyboardKit Pro will automatically update the ``ExternalKeyboardContext`` when an external keyboard is connected or disconnected. Without it, you must listen for changes and update the context.
+
+If `Keyboard.Settings.isKeyboardAutoCollapseEnabled` is active, KeyboardKit Pro will automatically collapse the keyboard whenever an external keyboard is connected.
 
 
 [Pro]: /pro

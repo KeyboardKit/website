@@ -1,5 +1,6 @@
 ---
 title: Themes
+hero-emoji: 🍭
 
 redirect_from: 
   - /themes
@@ -8,20 +9,7 @@ redirect_from:
 
 KeyboardKit is fully [customizable](/customization) and lets you style & customize your keyboard in any way you like.
 
-[KeyboardKit Pro][pro] unlocks a [theme engine](#pro) that makes it even easier to style your keyboards with pre-defined or custom themes.
-
-
-## Namespace
-
-KeyboardKit has a ``KeyboardTheme`` type that is also a namespace for theme-related types and views, like ``Shelf`` and ``ShelfItem``, which are unlocked by KeyboardKit Pro.
-
-
-## Context
-
-KeyboardKit has an observable ``KeyboardThemeContext`` that has persistent, observable settings, such as the current ``theme``.
-
-
-## Theme
+KeyboardKit has a ``KeyboardTheme`` type that is also a namespace for theme-related types and views, an observable ``KeyboardThemeContext``, and a `KeyboardTheme.Settings`  with persisted settings.
 
 A `KeyboardTheme` can define some or all styles that are used within a keyboard, such as background colors and gradients, button colors, borders, shadows, etc.
 

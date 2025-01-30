@@ -1,22 +1,13 @@
 ---
 title: Styling
+hero-emoji: 🎨
 ---
 
-While native iOS keyboards have few ways to customize the look and feel, KeyboardKit keyboards can be styled and customized to great extent, using style services and view modifiers.
+While native iOS keyboards have few ways to customize the look and feel, KeyboardKit can be styled and customized to great extent, using style services and view modifiers.
 
-[KeyboardKit Pro][Pro] unlocks a powerful [theme engine](#pro), and many more ways to style a keyboard.
+KeyboardKit has a ``KeyboardStyle`` namespace that contains style-related types and views, as well as a ``KeyboardStyleService`` that can provide dynamic styles for different parts of a keyboard. 
 
-
-## Namespace
-
-KeyboardKit has a ``KeyboardStyle`` namespace that contains style-related types.
-
-
-## Services
-
-A ``KeyboardStyleService`` can provide dynamic styles for different parts of a keyboard. Unlike static styles, a style service can vary styles depending on ``KeyboardContext``, ``KeyboardAction``, etc.
-
-This style service concept will be phased out through KeyboardKit 9 and replaced by view modifiers.
+Unlike static styles, a style service can vary styles depending on ``KeyboardContext``, ``KeyboardAction``, etc. This style service concept will be phased out through KeyboardKit 9 and replaced by modifiers.
 
 
 ## Colors & Images 
@@ -74,7 +65,7 @@ KeyboardKit Pro unlocks a ``KeyboardTheme`` engine that makes easier to style ke
     <div><img alt="Cotton Candy Theme" src="{{site.assets}}/themes/candyshop-cottoncandy.jpg" /></div>
 </div>
 
-See [themes](/features/themes) for more information.
+See [themes](/features/themes) for more information about the KeyboardKit Pro theme engine and its various themes.
 
 
 [Pro]: /pro
