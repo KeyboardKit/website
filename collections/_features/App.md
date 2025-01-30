@@ -1,5 +1,5 @@
 ---
-title: App
+title: App Utilities
 hero-emoji: 📱
 ---
 

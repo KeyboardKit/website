@@ -1,5 +1,5 @@
 ---
-title: Host
+title: Host Application Utilities
 hero-emoji: 🏠
 ---
 
