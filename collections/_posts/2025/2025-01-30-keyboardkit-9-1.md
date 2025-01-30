@@ -1,16 +1,18 @@
 ---
-title:  KeyboardKit 9.1 RC
-date:   2025-01-27 08:00:00 +0100
+title:  KeyboardKit 9.1
+date:   2025-01-30 08:00:00 +0100
 tags:   releases essentials app emojis layout ui
 
 image-show: 0
-assets: /assets/blog/25/0128/
+assets: /assets/blog/25/0130/
 
-release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/9.1-rc.1
-release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/9.1-rc.1
+redirect_from: /blog/2025/01/27/keyboardkit-9-1-rc
+
+release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/9.1.0
+release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/9.1.0
 ---
 
-KeyboardKit 9.1 RC is out, with a lot of updates! 🚀 Let's take a look the many features, adjustments and bug fixes that this minor version brings to KeyboardKit and KeyboardKit Pro.
+KeyboardKit 9.1 is out, with many updates! 🚀 Let's take a look the new features, adjustments and bug fixes that this version brings to KeyboardKit and KeyboardKit Pro.
 
 ![KeyboardKit header image]({{page.image}})
 
@@ -32,8 +34,6 @@ This version makes it possible to dock your keyboard to the leading or trailing 
 ![A screenshot of a docked KeyboardView]({{page.assets}}screenshot-dock.png){:width="450"}
 
 To make this work, the `Keyboard.Settings` class has a new, auto-persisted `keyboardDockEdge` setting, that can be set to any horizontal edge to enable docking.
-
-The `KeyboardView` in the 9.1 RC requires that you manually apply the new `.keyboardDockEdge(...)` modifier, but the 9.1 will change this to apply it with the settings instead.
 
 KeyboardKit Pro 9.2 will add a new dock section to the `KeyboardApp.SettingsScreen`, which means that you will not have to write any code to support this feature.
 
@@ -68,11 +68,6 @@ The iPhone and iPad-specific layout services will now render the `.email` and `.
 ## Model improvements
 
 Even though KeyboardKit still uses Swift 5.9, it starts preparing for the future Swift 6 transition by making its data models conform to more protocols, like `Codable` and `Sendable`.
-
-
-## Give it a try
-
-To give the 9.1 Release Candidate a try, update to use the `9.1-rc.1` tag. It will be tested until Friday, after which 9.1 will be released, so reach out asap, if you find any bugs or have any feedback.
 
 
 ## Conclusion
