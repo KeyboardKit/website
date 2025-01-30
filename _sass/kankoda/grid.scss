@@ -15,6 +15,10 @@ p + .grid {
   p {
     margin: 10px 0 30px 0;
   }
+
+  .column > h2 {
+    margin-top: 0px;
+  }
 }
 
 .grid.col2 { 

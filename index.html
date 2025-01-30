@@ -30,14 +30,14 @@ description: KeyboardKit is a powerful SDK for creating custom keyboard extensio
   <hr />
 
   <section>
-    <h2>Blog</h2>
+    <h2>Latest News</h2>
     <p> 
       Follow the <a href="/blog">KeyboardKit blog</a> for news & updates.
     </p>
     <div class="grid home blog list">
       {% for post in site.posts limit:2 %}
       <div>
-        {% include kankoda/blog/list-item.html post=posts.first tag-limit=1 %}
+        {% include kankoda/blog/image-item.html post=posts.first tag-limit=1 %}
       </div>
       {% endfor %}
     </div>
@@ -48,7 +48,7 @@ description: KeyboardKit is a powerful SDK for creating custom keyboard extensio
   <section>
     <div class="grid home centered">
       <div class="column">
-        {% include kankoda/titles/section.html title="Social Media" %}
+        <h2>Social Media</h2>
         <p>Follow KeyboardKit on <a href="{{site.urls.bluesky}}">Bluesky</a> and <a href="{{site.urls.mastodon}}">Mastodon</a> for the latest news.</p>
         <div>
           {% include kankoda/buttons/social.html name="bluesky" href=site.urls.bluesky class="scale" %}
@@ -56,7 +56,7 @@ description: KeyboardKit is a powerful SDK for creating custom keyboard extensio
         </div>
       </div>
       <div class="column">
-        {% include kankoda/titles/section.html title="Newsletter" %}
+        <h2>Newsletter</h2>
         <p>Subscribe to <a href="{{site.urls.newsletter}}">the KeyboardKit newsletter</a> for periodic updates.</p>
         {% include kankoda/widgets/newsletter.html %}
       </div>
