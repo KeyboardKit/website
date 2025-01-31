@@ -14,7 +14,7 @@ redirect_from:
     - /open-source
 ---
 
-KeyboardKit is packed with powerful [core features](#core-features) that help you build amazing custom keyboards. You can upgrade to [KeyboardKit Pro](/pro) to unlock a huge set of [pro features](#pro-features).
+KeyboardKit is packed with powerful open-source features that help you build amazing keyboards. You can upgrade to [KeyboardKit Pro](/pro) to unlock pro features that take your apps to the next level.
 
 
 ## Languages

@@ -3,21 +3,22 @@ title: Keyboard View
 hero-emoji: ⌨️
 ---
 
-KeyboardKit has a ``KeyboardView`` component that lets you mimic a native iOS keyboard with just a few lines of code.
+KeyboardKit has a ``KeyboardView`` that lets you mimic a native iOS keyboard with a few lines of code.
 
 <div class="grid col2">
     <div><img alt="An English KeyboardView" src="{{page.assets}}keyboardview-english.jpg" /></div>
     <div><img alt="A styled KeyboardView" src="{{page.assets}}keyboardview-styled.jpg" /></div>
 </div>
 
-The `KeyboardView` supports custom layouts, input and action callouts, can be styled with styles and themes, lets you replace ann toolbars & views, etc.:
+The `KeyboardView` automatically applies all configurations and settings from the various context and settings classes, as well as applying complex gestures and callouts to all its keys.
 
-<a name="pro">
+The keyboard view is highly customizable. It supports custom layouts and callouts, and lets you use custom views, styles, and themes for any part of the keyboard.
+
 ## 👑 KeyboardKit Pro
 
-[KeyboardKit Pro][Pro] unlocks layouts, callouts and services for all [{{site.locales.count}} locales](/locales), to make the `KeyboardView` support all locales without any additional code.
+[KeyboardKit Pro][Pro] unlocks locale-specific input sets, layouts and callouts, and makes the keyboard view support all [{{site.locales.count}} locales](/locales) without any additional code.
 
-KeyboardKit Pro also provides it with an `EmojiKeyboard`, iPad pro layouts, more input toolbars, etc:
+KeyboardKit Pro can also unlock an `EmojiKeyboard`, iPad Pro specific layouts, input toolbars, etc:
 
 <div class="grid col2">
     <div><img alt="An EmojiKeyboard" src="{{page.assets}}emojikeyboard.jpg" /></div>

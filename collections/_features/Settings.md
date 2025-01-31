@@ -5,12 +5,12 @@ hero-emoji: ⚙️
 
 Great keyboard apps use the main app to onboard the user and show the state of the keyboard, if it's enabled in System Settings, if Full Access is enabled, etc.
 
-KeyboardKit adds many utilities to make this easier, such as URL extensions and navigation links. It also provides ways to easily sync data and settings between the main app and its keyboard.
+KeyboardKit adds ways to make this easier and provides ways to use App Groups to automatically sync data and settings between the main app and its keyboard.
 
-The various namespaces provide their own settings classes, such as `Autocomplete.Settings`. These classes provide auto-persisted properties, that can be used to let users customize the keyboard.
+The various namespaces provide their own settings classes, such as `Autocomplete.Settings`. These classes provide auto-persisted properties, that can be used to let users customize their keyboard.
 
 
-## 👑 Pro Features
+## 👑 KeyboardKit Pro
 
 KeyboardKit Pro unlocks a ``KeyboardApp.HomeScreen`` that can be used by a main keyboard app target, as well as a `SettingsScreen`, `LocaleScreen`, and `ThemeScreen`:
 

@@ -11,10 +11,10 @@ KeyboardKit is fully [customizable](/customization) and lets you style & customi
 
 KeyboardKit has a ``KeyboardTheme`` type that is also a namespace for theme-related types and views, an observable ``KeyboardThemeContext``, and a `KeyboardTheme.Settings`  with persisted settings.
 
-A `KeyboardTheme` can define some or all styles that are used within a keyboard, such as background colors and gradients, button colors, borders, shadows, etc.
+A theme can define many styles of a keyboard, such as colors, borders, shadows, corner radii, etc.
 
 
-## 👑 Pro Features
+## 👑 KeyboardKit Pro
 
 KeyboardKit Pro comes with many predefined themes, as well as theme-specific styles that can be used to vary parts of a theme. You can use a `KeyboardTheme.Shelf` to list and pick available themes.
 

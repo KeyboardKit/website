@@ -14,11 +14,16 @@ You can create an app-specific ``KeyboardApp`` to define your app ``name``, ``ap
 ```swift
 extension KeyboardApp {
 
-    static var keyboardKitDemo: Self {
+    static var keyboardKitDemo: KeyboardApp {
         .init(
             name: "KeyboardKit",
-            licenseKey: "abc123",
-            appGroupId: "group.com.keyboardkit.demo"
+            licenseKey: "your-key-here",                // Sets up KeyboardKit Pro!
+            appGroupId: "group.com.keyboardkit.demo",   // Sets up App Group data sync
+            locales: .keyboardKitSupported,             // Sets up the enabled locales
+            autocomplete: .init(                        // Sets up custom autocomplete  
+                nextWordPredictionRequest: .claude(...) // Sets up AI-based prediction
+            ),
+            deepLinks: .init(app: "kkdemo://", ...)     // Defines how to open the app
         )
     }
 }
@@ -27,9 +32,9 @@ extension KeyboardApp {
 You can set up your keyboard extension by passing in the ``KeyboardApp`` into the `setup` function, and set up the main app with the same configuration by passing it into a root `KeyboardAppView`.
 
 
-## 👑 Pro Features
+## 👑 KeyboardKit Pro
 
-KeyboardKit Pro unlocks a ``KeyboardApp.HomeScreen`` that can be used by a main keyboard app target, as well as a `SettingsScreen`, `LocaleScreen`, and `ThemeScreen`:
+KeyboardKit Pro unlocks a ``KeyboardApp.HomeScreen`` that can be used as the main app's root view, as well as a `SettingsScreen`, `LocaleScreen`, and `ThemeScreen` that are linked to from the home screen:
 
 <div class="grid col2">
     <div><img alt="A Home Screen" src="{{page.assets}}keyboardapp-homescreen.jpg" /></div>
@@ -38,7 +43,7 @@ KeyboardKit Pro unlocks a ``KeyboardApp.HomeScreen`` that can be used by a main 
     <div><img alt="A Theme Screen" src="{{page.assets}}keyboardapp-themescreen.jpg" /></div>
 </div>
 
-These screens lets you add complex, yet customizable, app screens to your main app with a single line of code. Each screen can be customized, using convenient view modifiers.
+These settings screens can be used independently as well, in case you have a custom home screen, and let you add complex and customizable settings to your app with a few lines of code.
 
 
 [Pro]: /pro

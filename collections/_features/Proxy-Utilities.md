@@ -3,33 +3,15 @@ title: Proxy Utilities
 hero-emoji: 📄
 ---
 
-A iOS keyboard uses a **UITextDocumentProxy** to integrate with the currently active text field. It lets you insert and delete text, get the selected text, move the input cursor, etc.
+Custom keyboards use a **UITextDocumentProxy** to integrate with the currently active text field. It lets you insert and delete text, get the selected text, move the input cursor, etc.
 
-The native texts document proxy APIs are however very limited, which makes it hard to get detailed and even correct information about the text and perform many standard operations. 
+The native proxy APIs are however *very* limited, which makes it hard to get information about the text and to perform many common keyboard operations. 
 
-KeyboardKit therefore extends the proxy with more capabilities, for instance extensions like this:
+KeyboardKit therefore extends the proxy with more features to let you do more, like ``currentWord``, ``isCursorAtNewSentence``, ``deleteBackward(range:)``, ``endSentence(withText:)``, etc.
 
-* ``currentWord``
-* ``deleteBackward(range:)``
-* ``deleteBackward(times:)``
-* ``documentContext``
-* ``endSentence(withText:)``
-* ``fullDocumentContext(config:)``
-* ``hasUnclosedQuotationBeforeInput(for:)``
-* ``isCursorAtNewSentence``
-* ``isCursorAtNewWord``
-* ``isCursorAtTheEndOfTheCurrentWord``
-* ``isReadingFullDocumentContext``
-* ``replaceCurrentWord(with:)``
-* ``sentenceBeforeInput``
-* ``sentenceDelimiters``
-* ``wordBeforeInput``
-* ``wordDelimiters``
-
-See the documentation for more information and a complete list of extension.
+See the online documentation for more information and a for full list of available proxy extension.
 
 
-<a name="pro">
 ## 👑 KeyboardKit Pro
 
 [KeyboardKit Pro][Pro] unlocks additional text document proxy capabilities, like the ability to read the full document context, instead of the limited text that the native APIs return.
@@ -37,10 +19,10 @@ See the documentation for more information and a complete list of extension.
 
 ```swift
 let proxy = keyboardContext.textDocumentProxy
-let result = try await proxy.fullDocumentContext(config: ...)
+let result = try await proxy.fullDocumentContext(...)
 ```
 
-KeyboardKit Pro also makes it possible to replace the main document proxy with a custom one, which is used by the text input components that let you type directly into the keyboard extension.
+KeyboardKit Pro also makes it possible to replace the main text document proxy with a custom one. This is used by the [text input](/features/text-input) components, to let you type within the keyboard extension.
 
 
 [Pro]: /pro

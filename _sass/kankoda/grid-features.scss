@@ -26,6 +26,18 @@
   
   p {
     font-weight: normal;
+    margin-bottom: 15px;
+  }
+
+  p + .tag-list {
+    font-size: small;
+    margin-bottom: 25px;
+
+    .open-source {
+      background: #f0f0f0;
+      border-color: #c0c0c0;
+      color: black !important;
+    }
   }
 }
 

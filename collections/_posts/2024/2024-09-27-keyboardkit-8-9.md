@@ -54,7 +54,7 @@ This version adds more properties to `KeyboardApp`, to make it possible to set u
 The `KeyboardView` now applies dynamic tap area sizes that are based on next character prediction, which means that more probable keys get a little larger tap area.
 
 
-## 👑 Pro Features
+## 👑 KeyboardKit Pro
 
 This version adds a new `KeyboardThemeContext`, which can be used to persist themes. It also adds a `KeyboardApp.ThemeScreen` that can be used as a theme picker.
 

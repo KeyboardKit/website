@@ -10,6 +10,10 @@
   font-weight: normal;
 }
 
+.tag.small {
+  font-size: small; 
+}
+
 .tag:hover {
   background-color: $tag-hover;
   color: $tag-foreground;

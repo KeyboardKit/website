@@ -9,20 +9,16 @@ KeyboardKit therefore provides dictation-specific tools that you can use to add 
 
 KeyboardKit has an ``Dictation`` namespace with dictation-related types and views, an observable ``DictationContext``, and a `Dictation.Settings`  with persisted settings.
 
-In KeyboardKit, a ``DictationService`` can be used to start start dictation from a keyboard extension, by opening its app, perform dictation in the app, then return to the keyboard to use the result.
+In KeyboardKit, a ``DictationService`` can be used to start start dictation from a keyboard extension, by opening the app, perform dictation, then return to the keyboard.
 
 
-<a name="pro">
 ## 👑 KeyboardKit Pro
 
-[KeyboardKit Pro][Pro] unlocks dictation services and tools that let you add dictation to the keyboard and main app in a few simple steps, with very little code involved.
+[KeyboardKit Pro][Pro] unlocks dictation services & tools that let you add dictation support to a keyboard and its main app in a few simple steps, with very little code.
 
 <img width="450" alt="An dictation screen" src="{{page.assets}}dictationscreen.jpg" />
 
-KeyboardKit Pro also unlocks dictation-related components to let you show the dictation progress. These components can be customized to great extent, and use any custom views and styles.
-
-
-
+KeyboardKit Pro also unlocks dictation-related views to let you show the dictation progress. These views can be customized and styled to great extent.
 
 
 [Pro]: /pro

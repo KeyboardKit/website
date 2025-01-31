@@ -14,12 +14,9 @@ Each supported `Locale` has additional keyboard-specific information and capabil
 KeyboardKit supports LTR (Left-To-Right) and RTL locales. You don't need to do anything to support RTL. Just change the locale and KeyboardKit automatically adjusts the keyboard.
 
 
-<a name="pro">
 ## 👑 KeyboardKit Pro
 
-[KeyboardKit Pro][Pro] unlocks localized ``KeyboardCalloutService``, ``InputSet`` and ``KeyboardLayoutService`` implementations for every locale that your license unlocks.
-
-This lets KeyboardKit Pro create fully localized ``KeyboardView`` for all locales, with no additional code.
+[KeyboardKit Pro][Pro] unlocks locale-specific callouts, input sets and layout services for every locale in a license. This lets you create a fully localized ``KeyboardView`` for every locale, with no additional code.
 
 
 
