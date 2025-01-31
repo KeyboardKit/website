@@ -1,5 +1,5 @@
 ---
-title: Essentials - Keyboard View
+title: Keyboard View
 hero-emoji: ⌨️
 ---
 

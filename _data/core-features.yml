@@ -23,7 +23,7 @@
   text:   KeyboardKit Pro unlocks features that are needed for AI.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/ai-article
 
-- title:  App
+- title:  App Utilities
   emoji:  📱
   url:    /features/app
   text:   KeyboardKit makes it easy to set up your app and its keyboard.
@@ -65,7 +65,7 @@
   emoji:  ⌨️
   hidden: 1
   url:    /features/external-keyboards
-  text:   KeyboardKit Pro can detect if an external keyboard is being used. 
+  text:   KeyboardKit Pro can detect if an external keyboard is being used.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/external-keyboards-article
 
 - title:  Feedback
@@ -85,6 +85,7 @@
   hidden: 1
   url:    /features/host
   text:   KeyboardKit Pro can identify and open specific host applications.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/host-article
 
 - title:  Layout
   emoji:  🔣
@@ -114,7 +115,7 @@
   emoji:  📄
   url:    /features/proxy-utilities
   text:   KeyboardKit lets the document proxy do a LOT more.
-  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/proxy-utilities-artic
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/proxy-utilities-article
 
 - title:  Settings
   emoji:  ⚙️
