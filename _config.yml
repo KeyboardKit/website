@@ -36,8 +36,8 @@ urls:
   appstore:   http://itunes.apple.com/app/keyboardkit/id1568444977
   blog:       /blog
   bluesky:    https://bsky.app/profile/keyboardkit.bsky.social
-  docs:       https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/
-  docs_pro:   https://keyboardkit.github.io/KeyboardKitPro/documentation/keyboardkitpro/
+  docs:       https://keyboardkit.github.io/KeyboardKit
+  docs_pro:   https://keyboardkit.github.io/KeyboardKitPro
   github:     https://github.com/KeyboardKit/KeyboardKit
   github_pro: https://github.com/KeyboardKit/KeyboardKitPro
   gumroad:    https://kankoda.gumroad.com/l/keyboardkitpro
@@ -61,13 +61,11 @@ header_pages:
 
 footer_sitemap:
   - index.html
-  - pages/about.md
-  - pages/locales.md
   - pages/features.md
-  - pages/pro.md
   - pages/pricing.md
   - pages/app/app.md
   - pages/case-studies.md
+  - pages/documentation.md
 
 collections_dir: collections
 
@@ -100,25 +98,25 @@ defaults:
     scope:
       type: "pages"
     values:
-      layout: "page"
+      layout: page
       image: /assets/headers/icon.jpg
   -
     scope:
       type: "case-studies"
     values:
-      layout: "case-study"
+      layout: case-study
   -
     scope:
       type: "features"
     values:
-      layout: "feature"
-      assets: "/assets/documentation/"
+      layout: feature
+      assets: /assets/documentation/
   -
     scope:
       type: "posts"
     values:
-      author: "danielsaidi"
-      layout: "post"
+      layout: post
+      author: danielsaidi
       image:  /assets/headers/icon.jpg
 
 exclude:

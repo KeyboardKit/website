@@ -7,6 +7,9 @@ permalink: /features
 hero-image: /assets/heros/features.png
 hero-class: icon
 
+image: /assets/headers/features.jpg
+image-show: 0
+
 description: KeyboardKit provides you with powerful keyboard features
 
 redirect_from: 
