@@ -8,22 +8,22 @@
   image: /assets/heros/features.png
   text: KeyboardKit supports 70 locales and a rich set of features.
 
-- title: KeyboardKit Pro
-  url:  /pro
-  image: /assets/heros/pro.png
-  text: Unlock pro features to take your keyboard to the next level.
-
-- title: Themes
-  url:  /features/themes
-  image: /assets/heros/themes.png
-  text: KeyboardKit Pro unlocks a theme engine for rich, custom designs.
-
 - title: Open-Source
   url:  https://github.com/keyboardkit/keyboardkit
   image: /assets/heros/github.png
   text: KeyboardKit is open-source and free to use. Join the community!
 
+- title: KeyboardKit Pro
+  url:  /pro
+  image: /assets/heros/pro.png
+  text: Unlock pro features to take your keyboard to the next level.
+
 - title: App
   url:  /app
   image: /assets/heros/app.png
   text: Create custom keyboards directly on your iPhone or iPad.
+
+- title: Documentation
+  url:  /documentation
+  image: /assets/heros/documentation.png
+  text: KeyboardKit has an extensive online documentation.

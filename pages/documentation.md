@@ -6,15 +6,15 @@ permalink: /documentation
 
 redirect_from: /docs
 
+hero-image: /assets/heros/documentation.png
+
 image:  /assets/headers/documentation.jpg
 image-show: 0
 
 description: KeyboardKit provides an extensive online documentation.
 ---
 
-![KeyboardKit documentation header image]({{page.image}})
-
-KeyboardKit provides an [online documentation]({{site.urls.docs}}) that has a getting-started guide, as well as articles and type documentation for all features in the SDK.
+KeyboardKit provides an [online documentation]({{site.urls.docs}}) with a getting-started guide, as well as articles and type documentation for all features in the SDK.
 
 The [KeyboardKit Pro documentation]({{site.urls.docs_pro}}) contains Pro-specific documentation for types and features that only exist in the Pro SDK.
 
@@ -30,6 +30,6 @@ Make sure to [reach out]({{site.urls.email}}) if you find that the documentation
 Check out the online documentation for more information.
 
 <div class="grid col2">
-<a href="{{site.urls.docs}}"><img src="/assets/headers/documentation.jpg"></a>
-<a href="{{site.urls.docs_pro}}"><img src="/assets/headers/documentation-pro.jpg"></a>
+<a href="{{site.urls.docs}}" alt="KeyboardKit Documentation"><img src="/assets/headers/documentation.jpg"></a>
+<a href="{{site.urls.docs_pro}}" alt="KeyboardKit Pro Documentation"><img src="/assets/headers/documentation-pro.jpg"></a>
 </div>
