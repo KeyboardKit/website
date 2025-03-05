@@ -5,7 +5,7 @@ source "https://rubygems.org"
 
 # If you want to use GitHub, remove "gem "jekyll"" and uncomment the second line.
 # To upgrade, run `bundle update github-pages`.
-gem "jekyll", "~> 4.3.4"
+gem "jekyll", "~> 4.4.1"
 # gem "github-pages", group: :jekyll_plugins
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
