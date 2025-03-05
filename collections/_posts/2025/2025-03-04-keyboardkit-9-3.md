@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 9.3 Beta 1
+title:  KeyboardKit 9.3 Beta
 date:   2025-03-04 08:00:00 +0100
 tags:   releases emojis layout localization settings
 
@@ -7,11 +7,11 @@ image-show: 0
 image: /assets/headers/versions/9_3-beta.jpg
 assets: /assets/blog/25/0304/
 
-release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/9.3-b.1
-release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/9.3-b.1
+release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/9.3-b.5
+release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/9.3-b.5
 ---
 
-KeyboardKit 9.3 Beta 1 is out! This minor update adds support for Vietnamese TELEX, VIQR and VNI, makes many locales support Dvorak layouts, and adds support for emoji colon search.
+KeyboardKit 9.3 Beta is out! This minor update adds support for Vietnamese TELEX, VIQR and VNI, makes many locales support Dvorak layouts, and adds support for emoji colon search.
 
 ![KeyboardKit header image]({{page.image}})
 
