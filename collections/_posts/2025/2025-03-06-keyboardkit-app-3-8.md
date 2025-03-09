@@ -1,14 +1,11 @@
 ---
 title:  KeyboardKit App 3.8
 date:   2025-03-04 08:00:00 +0100
-tags:   releases emojis layout localization settings
+tags:   app
 
 image-show: 0
 image: /assets/headers/versions/app-3_8.jpg
-assets: /assets/blog/25/0304/
-
-release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/9.3-b.5
-release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/9.3-b.5
+assets: /assets/blog/25/0309/
 ---
 
 Version 3.8 of the [KeyboardKit app](/app) is out! This update adds powerful features from KeyboardKit Pro, including support for more layouts, Vietnamese TELEX, VIQR and VNI, emoji autocomplete, etc.
