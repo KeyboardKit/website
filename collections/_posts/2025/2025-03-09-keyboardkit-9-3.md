@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 9.3 Beta
+title:  KeyboardKit 9.3
 date:   2025-03-09 08:00:00 +0100
 tags:   releases emojis layout localization settings
 
