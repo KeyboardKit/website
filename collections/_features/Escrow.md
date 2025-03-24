@@ -3,26 +3,23 @@ title:  Software Escrow Services
 hero-emoji: 📦
 ---
 
-KeyboardKit Pro offers software escrow services to enterprise customers. This means that you will be able to access the KeyboardKit Pro source code in case KeyboardKit goes out of business.
+The KeyboardKit Pro Enterprise Plan includes software escrow services, which provide an additional layer of security and continuity for software that relies on KeyboardKit Pro.
+
+
 
 ## What is Software Escrow?
 
-Software escrow services act as a critical insurance policy for businesses that rely on closed-source software. With a proper escrow service agreement in place, businesses will be able to access source code, documentation, and build instructions, in case the licensor faces business-critical events.
+Software escrow is a critical insurance policy for businesses that depend on closed-source software. 
 
-For large-scale applications, this level of protection isn't just a nice-to-have—it's a critical component of responsible business continuity planning. Software escrow provides risk management that helps satisfy both internal security requirements and external compliance standards. 
+With a proper software escrow agreement in place, businesses can access the closed source code, documentation, and build instructions if the licensor faces critical events such as bankruptcy. This access allows them to use the source code to ensure their products remain operational.
 
-Many enterprises require escrow agreements for significant software partnerships, and recognizes them as a safeguard in today's digital business environment. KeyboardKit Pro is happy to now offer these services as part of the [Enterprise Tier](/pro), to keep our enterprise customers safe.
+Many enterprises require escrow agreements for critical software partnerships, and recognize them as a safeguard in today's digital business environment. We are therefore happy to include this in the [Enterprise Tier](/pro), to keep our enterprise customers safe.
 
 
 ## KeyboardKit Pro Software Escrow Services
 
-KeyboardKit Pro's software escrow agreement guarantees that customers will be able to access the library source code, in case the owner company experiences business disruptions, like bankrupcy.
+KeyboardKit recognizes that businesses that choose KeyboardKit Pro make a strategic decision that deserves proper protection. Our software escrow agreement guarantees that you will be able to get access to the closed source code if the KeyboardKit owner company goes out of business.
 
-If this would happen, enterprise customers will be able to get in contact with an 3rd party, to access the KeyboardKit Pro source code, and use that source code to keep their products operational. The source code can be added as a local Swift Package, for a seemless integration.
+If this would happen, you will be able to request access to the KeyboardKit Pro source from a third party, and use it to keep your product operational. The source code can be added to your product as a local or self-hosted Swift Package, and requires no integration changes.
 
-
-## Conclusion
-
-KeyboardKit is committed to provide our enterprise customers with enterprise-grade reliability and transparency. We recognize that when you choose to use KeyboardKit Pro for your keyboard-based features, you're making a strategic decision that deserves proper protection.
-
-Ready to protect your product with enterprise-grade protection? Visit [Keyboardkit Pro](/pro) to sign up!
+Ready to protect your product with enterprise-grade support? Sign up for [KeyboardKit Pro](/pro) today!
