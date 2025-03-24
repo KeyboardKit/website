@@ -38,6 +38,11 @@
   url:    /features/emojis
   text:   KeyboardKit Pro unlocks an emoji keyboard & search capabilities.
 
+- title:  Escrow
+  emoji:  📦
+  url:    /features/escrow
+  text:   KeyboardKit Pro offers escrow services to enterprise customers.
+
 - title:  External Keyboards
   emoji:  ⌨️
   url:    /features/external-keyboards

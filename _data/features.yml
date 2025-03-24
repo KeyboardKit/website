@@ -68,6 +68,13 @@
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/emojis-article
   tags:   open-source pro
 
+- title:  Escrow
+  emoji:  📦
+  url:    /features/escrow
+  text:   KeyboardKit Pro offers escrow services to enterprise customers.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/escrow
+  tags:   pro
+
 - title:  External Keyboards
   emoji:  ⌨️
   url:    /features/external-keyboards
@@ -106,7 +113,7 @@
 - title:  Localization
   emoji:  🌐
   url:    /features/localization
-  text:   KeyboardKit supports 70 locales, with localized resources.
+  text:   KeyboardKit supports 72 locales, with localized resources.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/localization-article
   tags:   open-source pro
 
