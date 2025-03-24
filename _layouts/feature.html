@@ -10,11 +10,13 @@ layout: plain
     <article class="paper">
       {{ content }}
 
+      {% if feature.docs %}
       <h2>Documentation</h2>
       <p>
         {%- assign pro = feature.docs | replace: "/KeyboardKit/", "/KeyboardKitPro/" | replace: "/keyboardkit/", "/keyboardkitpro/" -%}
         The information on this page is shortened to be easier to overview. For more information, see the <a href="{{feature.docs}}">online documentation</a>, or the <a href="{{pro}}">KeyboardKit Pro documentation</a>.
       </p>
+      {% endif %}
 
       <hr />
 
