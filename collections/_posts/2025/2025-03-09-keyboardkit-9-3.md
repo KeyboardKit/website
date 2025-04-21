@@ -4,7 +4,7 @@ date:   2025-03-09 08:00:00 +0100
 tags:   releases emojis layout localization settings
 
 image-show: 0
-image: /assets/headers/versions/9_3.jpg
+image: /assets/versions/9_3.jpg
 assets: /assets/blog/25/0309/
 
 redirect_from: /blog/2025/03/04/keyboardkit-9-3

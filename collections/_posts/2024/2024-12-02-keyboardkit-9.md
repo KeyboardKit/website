@@ -3,7 +3,7 @@ title:  KeyboardKit 9.0
 date:   2024-12-02 08:00:00 +0100
 tags:   releases
 
-image: /assets/headers/versions/9.jpg
+image: /assets/versions/9.jpg
 
 tweet: https://x.com/keyboardkitsdk/status/1863516766111994035
 toot:  https://techhub.social/@keyboardkit/113582539521352423

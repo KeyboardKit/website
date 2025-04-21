@@ -4,7 +4,7 @@ date:   2025-03-04 08:00:00 +0100
 tags:   app
 
 image-show: 0
-image: /assets/headers/versions/app-3_8.jpg
+image: /assets/versions/app-3_8.jpg
 assets: /assets/blog/25/0309/
 ---
 

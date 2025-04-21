@@ -4,7 +4,7 @@ date:   2025-02-14 08:00:00 +0100
 tags:   releases layout localization settings host
 
 image-show: 0
-image: /assets/headers/versions/9_2.jpg
+image: /assets/versions/9_2.jpg
 assets: /assets/blog/25/0214/
 
 redirect_from: /blog/2025/02/11/keyboardkit-9-2
