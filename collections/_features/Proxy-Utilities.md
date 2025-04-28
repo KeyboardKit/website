@@ -1,5 +1,8 @@
 ---
 title: Proxy Utilities
+
+hero-title: Features
+hero-description: Text Document Proxy Utilities
 hero-emoji: 📄
 ---
 

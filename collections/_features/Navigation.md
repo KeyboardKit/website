@@ -1,5 +1,8 @@
 ---
 title: Navigation
+
+hero-title: Features
+hero-description: Navigation
 hero-emoji: 🗺️
 ---
 

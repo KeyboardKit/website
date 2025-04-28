@@ -1,5 +1,8 @@
 ---
 title: Settings
+
+hero-title: Features
+hero-description: Settings
 hero-emoji: ⚙️
 ---
 

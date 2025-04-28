@@ -1,5 +1,8 @@
 ---
 title: Dictation
+
+hero-title: Features
+hero-description: Dictation
 hero-emoji: 🎤
 ---
 

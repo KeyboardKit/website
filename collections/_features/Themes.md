@@ -1,5 +1,8 @@
 ---
 title: Themes
+
+hero-title: Features
+hero-description: Themes
 hero-emoji: 🍭
 
 redirect_from: 
@@ -26,6 +29,9 @@ Here is a list of all the themes that come with the theme engine, including all 
     {% include kankoda/grid/grid.html items=theme.styles type="themes" image-class="keyboard-theme" image-folder="/assets/themes/" image-extension="jpg" %}
 {% endfor %}
 </section>
+
+
+## Custom Themes
 
 You can use any of the themes that come with the engine, and even create your own. A theme can also provide a theme-specific style to make it easier to customize just that specific theme.
 

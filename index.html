@@ -5,8 +5,11 @@ layout: default
 
 image:  /assets/headers/icon.jpg
 
+page-class: glass-panel bg-1
+
 hero-image: /assets/devices.png
-hero-title: Create amazing custom keyboards for iOS & iPadOS
+hero-title: KeyboardKit
+hero-description: Create amazing custom iOS keyboards
 
 description: KeyboardKit is a powerful SDK for creating custom keyboard extensions
 ---
@@ -20,14 +23,10 @@ description: KeyboardKit is a powerful SDK for creating custom keyboard extensio
     </p>
   </section>
 
-  <hr />
-
   <section>
     <h2>Explore</h2>
     {% include kankoda/grid/features.html features=site.data.home-features %}
   </section>
-
-  <hr />
 
   <section>
     <h2>Latest News</h2>
@@ -43,27 +42,20 @@ description: KeyboardKit is a powerful SDK for creating custom keyboard extensio
     </div>
   </section>
 
-  <hr />
-
   <section>
-    <div class="grid home centered">
-      <div class="column">
-        <h2>Social Media</h2>
-        <p>Follow KeyboardKit on <a href="{{site.urls.bluesky}}">Bluesky</a> and <a href="{{site.urls.mastodon}}">Mastodon</a> for the latest news.</p>
-        <div>
-          {% include kankoda/buttons/social.html name="bluesky" href=site.urls.bluesky class="scale" %}
-          {% include kankoda/buttons/social.html name="mastodon" href=site.urls.mastodon class="scale" %}  
-        </div>
-      </div>
-      <div class="column">
-        <h2>Newsletter</h2>
-        <p>Subscribe to <a href="{{site.urls.newsletter}}">the KeyboardKit newsletter</a> for periodic updates.</p>
-        {% include kankoda/widgets/newsletter.html %}
-      </div>
+    <h2>Social Media</h2>
+    <p>Follow KeyboardKit on <a href="{{site.urls.bluesky}}">Bluesky</a> and <a href="{{site.urls.mastodon}}">Mastodon</a> for the latest news.</p>
+    <div>
+      {% include kankoda/buttons/social.html name="bluesky" href=site.urls.bluesky class="scale" %}
+      {% include kankoda/buttons/social.html name="mastodon" href=site.urls.mastodon class="scale" %}  
     </div>
   </section>
 
-  <hr />
+  <section>
+    <h2>Newsletter</h2>
+    <p>Subscribe to <a href="{{site.urls.newsletter}}">the KeyboardKit newsletter</a> for periodic updates.</p>
+    {% include kankoda/widgets/newsletter.html %}
+  </section>
   
   <section>
     <h2>Case Studies</h2>

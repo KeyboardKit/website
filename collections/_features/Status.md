@@ -1,5 +1,8 @@
 ---
 title: Status
+
+hero-title: Features
+hero-description: Status
 hero-emoji: 🩺
 ---
 

@@ -1,5 +1,8 @@
 ---
 title: Actions
+
+hero-title: Features
+hero-description: Actions
 hero-emoji: 💥
 ---
 

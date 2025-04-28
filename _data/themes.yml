@@ -1,99 +1,61 @@
 - name: Standard
   styles:
-    - name: Standard
-      image: standard
-    - name: Blue
-      image: standard-blue
-    - name: Green
-      image: standard-green
-    - name: Pink
-      image: standard-pink
-    - name: Purple
-      image: standard-purple
-    - name: Yellow
-      image: standard-yellow
+    - image: /assets/themes/standard.jpg
+    - image: /assets/themes/standard-blue.jpg
+    - image: /assets/themes/standard-green.jpg
+    - image: /assets/themes/standard-pink.jpg
+    - image: /assets/themes/standard-purple.jpg
+    - image: /assets/themes/standard-yellow.jpg
 
 - name: Swifty
   styles:
-    - name: Standard
-      image: swifty
-    - name: Blue
-      image: swifty-blue
-    - name: Green
-      image: swifty-green
-    - name: Pink
-      image: swifty-pink
-    - name: Purple
-      image: swifty-purple
-    - name: Yellow
-      image: swifty-yellow
+    - image: /assets/themes/swifty.jpg
+    - image: /assets/themes/swifty-blue.jpg
+    - image: /assets/themes/swifty-green.jpg
+    - image: /assets/themes/swifty-pink.jpg
+    - image: /assets/themes/swifty-purple.jpg
+    - image: /assets/themes/swifty-yellow.jpg
 
 - name: Minimal
   styles:
-    - name: Standard
-      image: minimal
-    - name: Blue
-      image: minimal-blue
-    - name: Green
-      image: minimal-green
-    - name: Pink
-      image: minimal-pink
-    - name: Purple
-      image: minimal-purple
-    - name: Yellow
-      image: minimal-yellow
-    - name: Midnight
-      image: minimal-midnight
-    - name: Sunset
-      image: minimal-sunset
+    - image: /assets/themes/minimal.jpg
+    - image: /assets/themes/minimal-blue.jpg
+    - image: /assets/themes/minimal-green.jpg
+    - image: /assets/themes/minimal-pink.jpg
+    - image: /assets/themes/minimal-purple.jpg
+    - image: /assets/themes/minimal-yellow.jpg
+    - image: /assets/themes/minimal-midnight.jpg
+    - image: /assets/themes/minimal-sunset.jpg
 
 - name: Aesthetic
   styles:
-    - name: Boho
-      image: aesthetic-boho
+    - image: /assets/themes/aesthetic-boho.jpg
 
 - name: Candy Shop
   styles:
-    - name: Cotton Candy
-      image: candyshop-cottoncandy
-    - name: Cuppy Cake
-      image: candyshop-cuppycake
+    - image: /assets/themes/candyshop-cottoncandy.jpg
+    - image: /assets/themes/candyshop-cuppycake.jpg
 
 - name: Colorful
   styles:
-    - name: Black
-      image: colorful-black
-    - name: Blue
-      image: colorful-blue
-    - name: Green
-      image: colorful-green
-    - name: Orange
-      image: colorful-orange
-    - name: Pink
-      image: colorful-pink
-    - name: Purple
-      image: colorful-Purple
-    - name: Red
-      image: colorful-red
-    - name: White
-      image: colorful-white
+    - image: /assets/themes/colorful-black.jpg
+    - image: /assets/themes/colorful-blue.jpg
+    - image: /assets/themes/colorful-green.jpg
+    - image: /assets/themes/colorful-orange.jpg
+    - image: /assets/themes/colorful-pink.jpg
+    - image: /assets/themes/colorful-Purple.jpg
+    - image: /assets/themes/colorful-red.jpg
+    - image: /assets/themes/colorful-white.jpg
 
 - name: Neon
   styles:
-    - name: Night
-      image: neon-night
+    - image: /assets/themes/neon-night.jpg
 
 - name: Tron
   styles:
-    - name: Standard
-      image: tron
-    - name: fCon
-      image: tron-fcon
-    - name: Military
-      image: tron-military
-    - name: Neutral
-      image: tron-neutral
-    - name: Sark
-      image: tron-sark
-    - name: Virus
-      image: tron-virus
+    - image: /assets/themes/tron.jpg
+    - image: /assets/themes/tron-fcon.jpg
+    - image: /assets/themes/tron-military.jpg
+    - image: /assets/themes/tron-neutral.jpg
+    - image: /assets/themes/tron-sark.jpg
+    - image: /assets/themes/tron-virus.jpg

@@ -10,14 +10,33 @@ p + .grid {
   display: grid; 
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
-
-  p {
-    margin: 10px 0 30px 0;
-  }
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 
   .column > h2 {
     margin-top: 0px;
+  }
+}
+
+.grid.icons {
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100%; /* Ensures it doesn't grow beyond its cell */
+    box-sizing: border-box;
+  }
+  p {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  img + p {
+    margin-top: 15px;
   }
 }
 
@@ -59,7 +78,7 @@ p + .grid {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .grid.icons { 
+  .grid.col4, .grid.icons { 
     grid-template-columns: repeat(2, 1fr);
   }
   

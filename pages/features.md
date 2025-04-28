@@ -4,13 +4,16 @@ title: Features
 layout: page
 permalink: /features
 
-hero-image: /assets/heros/features.png
-hero-class: icon
+page-class: glass-panel bg-3
+
+hero-title: Features
+hero-icon: /assets/heros/features.png
+hero-icon-class: plain large
 
 image: /assets/headers/features.jpg
 image-show: 0
 
-description: KeyboardKit provides you with powerful keyboard features
+description: KeyboardKit has powerful keyboard and input-related features
 
 redirect_from: 
     - /opensource

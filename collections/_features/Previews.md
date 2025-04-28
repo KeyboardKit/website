@@ -1,5 +1,8 @@
 ---
 title: Previews
+
+hero-title: Features
+hero-description: Previews
 hero-emoji: 👁
 ---
 

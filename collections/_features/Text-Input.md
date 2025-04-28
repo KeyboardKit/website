@@ -1,5 +1,8 @@
 ---
 title: Text Input
+
+hero-title: Features
+hero-description: Text Input
 hero-emoji: 📝
 ---
 

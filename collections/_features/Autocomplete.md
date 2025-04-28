@@ -1,5 +1,8 @@
 ---
 title: Autocomplete
+
+hero-title: Features
+hero-description: Autocomplete
 hero-emoji: 💡
 ---
 

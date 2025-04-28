@@ -1,6 +1,6 @@
 html, body {
   color: $foreground;
-  background: linear-gradient($texture-overlay, $texture-overlay), $site-background;
+  background: linear-gradient($texture-overlay, $texture-overlay), $background;
   background-size: $texture-size;
   width: 100%;
 }
@@ -24,7 +24,7 @@ a:hover, a:visited:hover {
 blockquote {
   color: $foreground !important;
   background: $quote-background;
-  border-left: 10px solid $site-background;
+  border-left: 10px solid $background;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
 }
@@ -33,14 +33,18 @@ blockquote p {
   display: inline;
 }
 
+hr {
+  color: red;
+}
+
 .home, .center-content {
   text-align: center;
 }
 
-.page-content {
-  background-color: $content-background;
-}
-
 .wrapper {
   max-width: 900px;
+}
+
+.wrapper.wide {
+  max-width: 1100px;
 }

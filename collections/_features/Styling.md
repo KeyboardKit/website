@@ -1,5 +1,8 @@
 ---
 title: Styling
+
+hero-title: Features
+hero-description: Styling
 hero-emoji: 🎨
 ---
 

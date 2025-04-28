@@ -1,5 +1,8 @@
 ---
 title: External Keyboards
+
+hero-title: Features
+hero-description: External Keyboard Support
 hero-emoji: ⌨️
 ---
 

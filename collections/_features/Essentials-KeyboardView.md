@@ -1,5 +1,8 @@
 ---
 title: Keyboard View
+
+hero-title: Features
+hero-description: Keyboard View
 hero-emoji: ⌨️
 ---
 

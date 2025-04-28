@@ -1,5 +1,8 @@
 ---
 title:  Software Escrow Services
+
+hero-title: Features
+hero-description: Software Escrow Services
 hero-emoji: 📦
 ---
 

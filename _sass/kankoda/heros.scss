@@ -1,58 +1,44 @@
 .hero {
-  padding-top: 50px;
   text-align: center;
-  
-  h1 {
-    font-size: 3.0em !important;
-  }
+
+  h1 { font-size: 1.8em !important; }
+  h2 { font-size: 2.3em !important; }
+  h2 { margin-top: 0em !important; font-weight: bold;}
+  h2 { margin-bottom: 60px; }
+  h2 + img { margin-bottom: 60px; }
 
   img.app-icon {
     width: 100px;
     height: 100px !important;
-    margin-bottom: 20px;
-  }
-  
-  .image-wrapper {
-    padding: 40px 0;
+    margin-bottom: 40px;
   }
 
-  p { 
-    font-size: 1.2em;
-    font-weight: 600 !important;
+  img.app-icon.large {
+    width: 200px;
+    height: 200px !important;
   }
-  
+
   .emoji {
-    font-size: 10em;
+    font-size: 8em;
+    margin-top: -40px !important;
+    margin-bottom: 60px;
   }
 }
 
-.hero {
-  img {
-    max-height: 350px !important;
-  }
-}
-
-.home .hero, .hero.devices {
-  img {
-    max-height: 700px !important;
-  }
-}
-
-@media (max-width: 600px) {
+@media (max-width: 500px) {
 
   .hero {
-    padding-top: 35px;
-
-    h1 {
-      font-size: 2em !important;
+    h1 { font-size: 1.2em !important; }
+    h2 { font-size: 1.6em !important; }
+  
+    img.app-icon {
+      width: 100px;
+      height: 100px !important;
+      margin-bottom: 20px;
     }
 
     .emoji {
-      font-size: 7em !important;
+      font-size: 4em;
     }
-  }
-
-  .hero + main {
-    padding-top: 25px;
   }
 }

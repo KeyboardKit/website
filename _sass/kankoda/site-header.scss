@@ -42,18 +42,3 @@
     border-radius: 1em;
   }
 }
-
-.site-header.paper hr {
-
-  background-color: $content-background;
-  padding-bottom: 75px;
-  margin-bottom: 0px;
-  margin-top: 15px;
-}
-
-@media (max-width: 500px) {
-
-  .site-header.paper hr {
-    padding-bottom: 50px;
-  }  
-}

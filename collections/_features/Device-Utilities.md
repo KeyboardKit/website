@@ -1,5 +1,8 @@
 ---
 title: Device Utilities
+
+hero-title: Features
+hero-description: Device Utilities
 hero-emoji: 🖥️
 ---
 

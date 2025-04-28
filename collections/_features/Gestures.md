@@ -1,5 +1,8 @@
 ---
 title: Gestures
+
+hero-title: Features
+hero-description: Gestures
 hero-emoji: 👆
 ---
 

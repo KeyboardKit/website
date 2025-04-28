@@ -23,10 +23,14 @@
     }
   }
 
+  .avatar {
+    width: 150px;
+    height: 150px;
+  }
+
   .avatar + .social-buttons {
     p {
-      margin-top: -10px;
-      margin-bottom: 40px;
+      margin: 40px 0;
     }
   }
 

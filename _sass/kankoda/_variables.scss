@@ -1,29 +1,21 @@
-$site-background: #e3e4e8;
-$site-border: #ddd;
-$content-background: #fafafa;
-$quote-background: #f9f9f9;
-$footer-background: clear;
-
-$texture: transparent;
-$texture-size: 350px;
-$texture-overlay: transparent;
+$background: #F5F5F7;
+$background-secondary: #e0e0e8;
+$background-tertiary: #d8d8e0;
 
 $foreground: black;
 $foreground-contrast: white;
 $foreground-secondary: #666;
 $foreground-tertiary: #888;
-$shadow: #00000065;
 
-$link: black;
-$link-hover: #888;
+$border: #ddd;
+$border-secondary: #ddd;
+$border-tertiary: #ccc;
 
-$cta-background: $foreground;
-$cta-foreground: $foreground-contrast;
-
-$button-group-border: $site-border;
-$button-group-background: #f3f3f9;
-$button-group-selected-background: white;
-$button-group-selected-foreground: black;
+$button-container-background: $background-tertiary;
+$button-container-border: $border-tertiary;
+$button-container-foreground: $foreground;
+$button-container-selected-background: white;
+$button-container-selected-foreground: black;
 
 $code-background: #e9e9e9;
 $code-foreground: black;
@@ -32,15 +24,31 @@ $code-border: #ccc;
 $code-block-background: #112;
 $code-block-foreground: white;
 
-$feature-table-border-color: $site-border;
+$cta-background: $foreground;
+$cta-foreground: $foreground-contrast;
+
+$feature-table-border-color: $border;
 $feature-table-background: white;
 $feature-table-even-row-color: #f7f7f7;
 $feature-table-shadow-color: transparent;
+
+$footer-background: $background-secondary;
+
+$link: black;
+$link-hover: #888;
+
+$quote-background: #f9f9f9;
+
+$shadow: #00000065;
 
 $tag-background: black;
 $tag-foreground: white;
 $tag-hover: #223;
 $tag-border: solid 1px black;
 
-$swift-color: #E44D35;
-$swiftui-color: #004080;
+$tag-swift: #E44D35;
+$tag-swiftui: #004080;
+
+$texture: transparent;
+$texture-size: 350px;
+$texture-overlay: transparent;

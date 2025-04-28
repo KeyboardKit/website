@@ -1,5 +1,8 @@
 ---
 title: Localization
+
+hero-title: Features
+hero-description: Localization
 hero-emoji: 🌐
 ---
 

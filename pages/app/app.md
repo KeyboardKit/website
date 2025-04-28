@@ -4,7 +4,12 @@ title: App
 layout: page
 permalink: /app
 
-hero-image: /assets/heros/app.png
+page-class: glass-panel bg-1
+
+hero-icon: /assets/heros/app.png
+hero-icon-class: plain large
+hero-title: KeyboardKit App
+hero-description: Create custom keyboards directly on your iPhone and iPad
 
 description: The KeyboardKit app lets you create custom keyboards for iOS and iPadOS. It supports a bunch of features and lets you create completely custom themes.
 ---

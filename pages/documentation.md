@@ -4,32 +4,27 @@ title: Documentation
 layout: page
 permalink: /documentation
 
+page-class: glass-panel bg-5
+
 redirect_from: /docs
 
-hero-image: /assets/heros/documentation.png
+hero-icon: /assets/heros/documentation.png
+hero-icon-class: plain large
+hero-title: Documentation
 
 image:  /assets/headers/documentation.jpg
 image-show: 0
 
-description: KeyboardKit provides an extensive online documentation.
+description: KeyboardKit Online Documentation
 ---
 
-KeyboardKit provides an [online documentation]({{site.urls.docs}}) with a getting-started guide, as well as articles and type documentation for all features in the SDK.
+The online KeyboardKit [documentation]({{site.urls.docs}}) has a getting-started guide, articles, code samples & type documentation for all available features. KeyboardKit Pro has a [separate documentation website]({{site.urls.docs_pro}}).
 
-The [KeyboardKit Pro documentation]({{site.urls.docs_pro}}) contains Pro-specific documentation for types and features that only exist in the Pro SDK.
-
-Since the documentation may lack code examples on certain things that you need, the [open-source code repository]({{site.urls.github}}) has a demo app with code samples.
-
-You can also download the [KeyboardKit app]({{site.urls.appstore}}) from the App Store, to see how it implements certain features. Most features in this app is available in [KeyboardKit Pro](/pro).
+To demonstrate things that the documentation can't visualize, the [open-source project]({{site.urls.github}}) has a demo app with code samples. You can also get the [KeyboardKit app]({{site.urls.appstore}}) from the App Store to test features.
 
 Make sure to [reach out]({{site.urls.email}}) if you find that the documentation lacks critical information that you need.
 
 
 ## Read More
 
-Check out the online documentation for more information.
-
-<div class="grid col2">
-<a href="{{site.urls.docs}}" alt="KeyboardKit Documentation"><img src="/assets/headers/documentation.jpg"></a>
-<a href="{{site.urls.docs_pro}}" alt="KeyboardKit Pro Documentation"><img src="/assets/headers/documentation-pro.jpg"></a>
-</div>
+Check out the online [documentation]({{site.urls.docs}}) and [Pro documentation]({{site.urls.docs_pro}}) for more information.

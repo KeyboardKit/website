@@ -1,5 +1,8 @@
 ---
 title: Host Application Utilities
+
+hero-title: Features
+hero-description: Host Application Support
 hero-emoji: 🏠
 ---
 

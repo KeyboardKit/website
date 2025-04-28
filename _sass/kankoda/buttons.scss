@@ -128,19 +128,20 @@ article > .button-container ~ .button-container {
 
   .group {
     padding: 15px 5px;
+    border: solid 1px $button-container-border;
     border-radius: 20px;
-    background-color: $button-group-background;
-    border: solid 1px $button-group-border;
+    background-color: $button-container-background;
 
     a {
       padding: 10px;
       border-radius: 15px;
       display: inline-block;
+      color: $button-container-foreground;
     }
   
     a.active {
-      color: $button-group-selected-foreground;
-      background-color: $button-group-selected-background;
+      color: $button-container-selected-foreground;
+      background-color: $button-container-selected-background;
       box-shadow: 0px 1px 2px $shadow;
     }
   }

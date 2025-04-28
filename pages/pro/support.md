@@ -4,8 +4,11 @@ title: KeyboardKit Pro Support
 layout: page
 permalink: /pro/support
 
-hero-image: /assets/heros/pro.png
-description: KeyboardKit Pro has many optional support levels
+hero-icon: /assets/heros/pro.png
+hero-icon-class: plain large
+hero-title: Pro Support
+
+description: KeyboardKit Pro has custom support levels for larger organizations
 ---
 
 [KeyboardKit Pro](/pro) has different support levels, that are based on the license tiers and your needs.

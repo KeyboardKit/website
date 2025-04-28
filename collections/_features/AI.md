@@ -1,5 +1,8 @@
 ---
 title: AI Support
+
+hero-title: Features
+hero-description: AI Support
 hero-emoji: 🤖
 ---
 

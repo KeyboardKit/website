@@ -1,5 +1,8 @@
 ---
 title: Emojis
+
+hero-title: Features
+hero-description: Emojis
 hero-emoji: 😀
 ---
 

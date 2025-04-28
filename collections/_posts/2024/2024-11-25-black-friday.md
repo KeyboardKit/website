@@ -8,10 +8,6 @@ image: /assets/headers/promos/bf24.jpg
 
 [KeyboardKit Pro 9](/pro) is soon here, and with it price increases. [Sign up for KeyboardKit Pro today](/pro) to lock in the current price and **save an additional 50%** on your first payment with this discount code:
 
-<div class="box pro">
-  BLACK-FRIDAY-2024
-</div>
-
 ![Black Friday 2024 Banner]({{page.image}})
 
 The KeyboardKit Black Friday Deal is valid through November, and gets you KeyboardKit Pro for a full year with a **50% discount**.

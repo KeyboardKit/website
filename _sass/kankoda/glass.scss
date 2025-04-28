@@ -1,0 +1,25 @@
+.glass-panel {
+  position: relative;
+  z-index: 1;
+}
+
+.glass-panel::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;  
+  opacity: .6; 
+  z-index: -1;
+  background: url('/assets/bg/glass-1.jpg');
+  background-position: center;
+  background-size: 100% 100%; /* Stretch image to exactly fill panel */
+  background-repeat: no-repeat;
+}
+
+.glass-panel.bg-1::before { background-image: url('/assets/bg/glass-1.jpg'); }
+.glass-panel.bg-2::before { background-image: url('/assets/bg/glass-2.jpg'); }
+.glass-panel.bg-3::before { background-image: url('/assets/bg/glass-3.jpg'); }
+.glass-panel.bg-4::before { background-image: url('/assets/bg/glass-4.jpg'); }
+.glass-panel.bg-5::before { background-image: url('/assets/bg/glass-5.jpg'); }

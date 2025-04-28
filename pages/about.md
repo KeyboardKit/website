@@ -4,9 +4,10 @@ title: About
 layout: page
 permalink: /about
 
-hero-image: /assets/heros/icon.png
-hero-title: About KeyboardKit
+page-class: glass-panel bg-2
 
+hero-title: About KeyboardKit
+hero-description: KeyboardKit lets you build amazing iOS keyboard extensions
 description: KeyboardKit lets you build amazing keyboard extensions with Swift & SwiftUI
 
 sponsor: https://github.com/sponsors/danielsaidi
@@ -14,7 +15,10 @@ sponsor: https://github.com/sponsors/danielsaidi
 stockholm: https://www.google.com/maps/place/Stockholm,+Sweden/@59.3262131,17.8172499,11z/data=!3m1!4b1!4m6!3m5!1s0x465f763119640bcb:0xa80d27d3679d7766!8m2!3d59.3293235!4d18.0685808!16zL20vMDZteHM
 ---
 
-KeyboardKit is an [open-source](/open-source) software library (SDK) that lets you build custom keyboards for iOS, macOS, tvOS, watchOS & visionOS, using native technologies like [Swift]({{site.urls.swift}}) & [SwiftUI]({{site.urls.swiftui}}).
+
+## What is KeyboardKit?
+
+KeyboardKit is an [open-source](/open-source) software library (SDK) that lets you build custom keyboards for iOS, and typing tolls for macOS, tvOS, watchOS & visionOS, using native technology like [Swift]({{site.urls.swift}}) & [SwiftUI]({{site.urls.swiftui}}).
 
 
 ## What is a custom keyboard?

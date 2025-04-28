@@ -1,16 +1,25 @@
+.site-header + .page-content {
+
+  margin-top: 50px;
+}
+
 .page-content {
 
   padding-top: 0;
   padding-bottom: 80px;
 
   h2, h3, h4 { margin-top: 2em; }
-
+  h1 + p { margin-top: 2.3em; } 
   p + p { margin-top: 1.1em; }
 }
 
 .row {
   display: flex;
   flex-direction: row;
+}
+
+.centered {
+  text-align: center;
 }
 
 .column {
@@ -21,7 +30,7 @@
 }
 
 section + section {
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 article + .grid {

@@ -1,5 +1,8 @@
 ---
 title: Callouts
+
+hero-title: Features
+hero-description: Callouts
 hero-emoji: 🗯
 ---
 

@@ -1,26 +1,21 @@
 {%- assign limit = include.limit | default:1000 -%}
-{%- assign image-class = include.image-class -%}
-{%- assign image-extension = include.image-extension | default:"png" -%}
-{%- assign image-folder = include.image-folder -%}
+{%- assign grid-image-class = include.image-class -%}
+{%- assign grid-image-extension = include.image-extension | default:"png" -%}
 
 <div class="grid {{include.type}} {{include.class}}">
   {% for item in include.items limit:limit %}
-    {%- assign slug = item.name | slugify -%}
-    {%- assign icon = item.icon | default: item.info.icon | default: slug -%}
-    {%- assign image = item.image | default: item.info.image -%}
-    {%- assign title = item.title | default: item.name | default: item.info.name -%}
-    {%- assign url = item.url | default: item.info.url -%}
-    
+    {%- assign item-slug = item.name | slugify -%}
+    {%- assign icon = item.icon | default: item.info.icon | default: item-slug -%}
+    {%- assign item-image = item.image | default: item.info.image -%}
+    {%- assign item-image-class = item.image-class | default: grid-image-class -%}
+    {%- assign item-title = item.title | default: item.name | default: item.info.name -%}
+    {%- assign item-url = item.url | default: item.info.url -%}
     {% if include.ignore and title == include.ignore %}
       {% continue %}
-    {% elsif url %}
-    <a href="{{url}}" name="{{slug}}" title="{{item.name}}" class="scale">
-      {% include kankoda/grid/item.html type=type title=title name=title icon=icon image=image image-class=image-class image-extension=image-extension image-folder=include.image-folder %}
+    {% else %}
+    <a href="{{item-url}}" name="{{item-slug}}" title="{{item-title}}" class="scale">
+      {% include kankoda/grid/item.html type=type title=item-title name=item-title icon=icon image=item-image image-class=item-image-class %}
     </a>  
-    {%- else -%}
-    <div>
-      {% include kankoda/grid/item.html type=type title=title name=title icon=icon image=image image-class=image-class image-extension=image-extension image-folder=include.image-folder %}
-    </div>
     {% endif %}
   {% endfor %}
 </div>

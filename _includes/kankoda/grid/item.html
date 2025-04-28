@@ -1,15 +1,8 @@
-{%- assign name = include.name -%}
-{%- assign image = include.image -%}
-{%- assign image-folder = include.image-folder -%}
-{%- assign icon = include.icon -%}
-{%- assign title = include.title -%}
-
-{% if image %}
-    <img src="{{image-folder}}{{image}}.{{include.image-extension}}" alt="{{name}} image" title="{{title}}" />
+{% if include.image %}
+<img src="{{include.image}}" class="{{include.image-class}}" alt="{{include.name}} image" title="{{include.title}}" />
 {% else %}
-    <img src="/assets/icons/{{icon}}.{{include.image-extension}}" alt="{{name}} icon" title="{{title}}" />
+<img src="/assets/icons/{{include.icon}}.png" class="{{include.image-class}}" alt="{{include.name}} icon" title="{{include.title}}" />
 {% endif %}
-
-{%- if title -%}
-<p>{{ title }}</p>
+{%- if include.title -%}
+<p>{{ include.title }}</p>
 {%- endif -%}

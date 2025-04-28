@@ -2,6 +2,8 @@
 layout: blog
 title: Blog
 permalink: /blog/
+
+page-class: glass-panel bg-5
 ---
 
 <h1>Blog</h1>

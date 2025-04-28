@@ -8,22 +8,18 @@
 {% endif %}
   
 {% if has-hero %}
-<section class="hero {{page.hero-class}}">
-    <div class="wrapper">
-        {% if has-icon > 0 %}
-        <img class="app-icon sticker" src="{{page.hero-icon}}" />
-        {% endif %}
-        <h1>{{page.hero-title | default: page.title}}</h1>
-        <p>{{page.hero-description | default: page.description}}</p>
-        {% if has-image > 0 %}
-        <div class="image-wrapper">
-            <img src="{{page.hero-image}}" alt="Hero image for {{page.id}} page" class="{{page.hero-image-class}}" />
-        </div>
-        {% elsif has-emoji > 0 %}
-        <span class="emoji">
-            {{page.hero-emoji}}
-        </span>
-        {% endif %}
-    </div>
+<section class="hero wrapper">
+  {% if has-icon > 0 %}
+  <img class="app-icon sticker {{page.hero-icon-class}}" src="{{page.hero-icon}}" />
+  {% endif %}
+  <h1>{{page.hero-title | default: page.title}}</h1>
+  <h2>{{page.hero-description | default: page.description}}</h2>
+  {% if has-image > 0 %}
+  <img src="{{page.hero-image}}" alt="Hero image for {{page.id}} page" class="{{page.hero-image-class}}" />
+  {% elsif has-emoji > 0 %}
+  <div class="emoji">
+      {{page.hero-emoji}}
+  </div>
+  {% endif %}
 </section>
 {% endif %}

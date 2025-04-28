@@ -1,5 +1,8 @@
 ---
 title: Layout
+
+hero-title: Features
+hero-description: Layout
 hero-emoji: 🔣
 ---
 

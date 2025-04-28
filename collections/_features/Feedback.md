@@ -1,5 +1,8 @@
 ---
 title: Feedback
+
+hero-title: Features
+hero-description: Feedback
 hero-emoji: 🔉
 ---
 

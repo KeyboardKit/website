@@ -6,7 +6,10 @@ permalink: /pro/custom
 
 redirect_from: /pro/addons
 
-hero-image: /assets/heros/pro.png
+hero-icon: /assets/heros/pro.png
+hero-icon-class: plain large
+hero-description: KeyboardKit Pro has custom licenses for organizations with special needs
+
 description: KeyboardKit Pro provides custom & enterprise licenses for larger organizations
 ---
 

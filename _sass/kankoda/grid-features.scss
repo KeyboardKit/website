@@ -5,7 +5,7 @@
   .image-container {
     padding: 15px 0;
     text-align: center;
-    background-color: $site-background;
+    background-color: $background-secondary;
 
     .emoji {
       font-size: 5em;
@@ -34,8 +34,8 @@
     margin-bottom: 25px;
 
     .open-source {
-      background: #f0f0f0;
-      border-color: #c0c0c0;
+      background: #ddd;
+      border-color: #aaa;
       color: black !important;
     }
   }
