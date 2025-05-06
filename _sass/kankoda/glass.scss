@@ -23,3 +23,18 @@
 .glass-panel.bg-3::before { background-image: url('/assets/bg/glass-3.jpg'); }
 .glass-panel.bg-4::before { background-image: url('/assets/bg/glass-4.jpg'); }
 .glass-panel.bg-5::before { background-image: url('/assets/bg/glass-5.jpg'); }
+
+
+.glass-item {
+  background: rgba(255, 255, 255, 0.3) !important;  /* Semi-transparent white background */
+  backdrop-filter: blur(10px);            /* The blur effect */
+  -webkit-backdrop-filter: blur(10px);    /* For Safari support */
+  border-radius: 12px;                    /* Rounded corners */
+  border: 2px solid rgba(255, 255, 255, 0.3) !important; /* Light border for edge definition */
+}
+
+/* Dark variant */
+.glass-item-dark {
+  background: rgba(40, 40, 40, 0.25) !important;     /* Semi-transparent dark background */
+  color: white;                           /* Light text for dark background */
+}
