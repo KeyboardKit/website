@@ -8,12 +8,6 @@ image: /assets/versions/9.jpg
 tweet: https://x.com/keyboardkitsdk/status/1863516766111994035
 toot:  https://techhub.social/@keyboardkit/113582539521352423
 
-redirect_from:
-    - /blog/2024/11/08/keyboardkit-9-rc1
-    - /blog/2024/11/12/keyboardkit-9-rc2
-    - /blog/2024/11/20/keyboardkit-9-rc4
-    - /blog/2024/11/21/keyboardkit-9-rc5
-
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/9.0.0
 release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/9.0.0
 ---

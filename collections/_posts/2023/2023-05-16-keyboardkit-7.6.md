@@ -6,7 +6,6 @@ tags:   releases dictation emojis
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/7.6.0
 
 dictation-post: /blog/2023/05/15/dictation-changes
-redirect_from: /blog/2023/05/11/keyboardkit-7.6-rc
 
 tweet:  https://twitter.com/GetKeyboardKit/status/1658458211492429824?s=20
 toot:   https://techhub.social/@keyboardkit/110378499100929879

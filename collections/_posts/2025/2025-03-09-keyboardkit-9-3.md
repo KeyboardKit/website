@@ -7,8 +7,6 @@ image-show: 0
 image: /assets/versions/9_3.jpg
 assets: /assets/blog/25/0309/
 
-redirect_from: /blog/2025/03/04/keyboardkit-9-3
-
 release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/9.3.0
 release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/9.3.0
 ---
