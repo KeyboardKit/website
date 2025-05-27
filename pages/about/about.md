@@ -25,35 +25,31 @@ KeyboardKit is an [open-source](/open-source) software library (SDK) that lets y
 
 ## What is a custom keyboard?
 
-A custom iOS keyboard extension is an app extension that you ship together with your main app. It can then replace the system keyboard in any other app, by using the 🌐 key while typing.
+A custom iOS [keyboard extension](terminology) is an app extension that you ship together with your main app, which can then replace the system keyboard in any app, by using the 🌐 key while typing.
 
-Keyboard extensions are the *only* apps that can be used directly with other apps in iOS, and are as such unique ways to let people use your app and its features within other apps.
+A keyboard extension is the only kind of app that can be used directly with other apps in iOS, and the only way to let people use your app's unique features within other apps.
 
 
 ## What can a custom keyboard do?
 
-Keyboard extension can render any user interface you want, and can resize to fit their content. This means that they can be taller or shorter than the native keyboard.
+Keyboard extension can render any user interface you want, and can resize the keyboard area to fit their content. This means that they can be taller or shorter than the native keyboard.
 
-Keyboard extensions receive a *document proxy*, which is used to communicate with the active app. The proxy can be used to read and modify text, move the text input cursor, etc.
+Keyboard extensions have a [text document proxy](terminology) that is used to integrate with the active app. The text document proxy can be used to read and modify text, move the text input cursor, etc.
 
-Keyboard extensions can provide custom autocomplete & spell-checking, custom layouts & design, sophisticated text analysis, AI-based prompting, etc.
-
-Keyboard extension can also request Full Access to access the pasteboard, perform network calls, etc. This open up even more capabilities to your keyboard.
+Keyboard extensions are very restricted by default, but can request [Full Access](terminology) to be able to make network calls, access the pasteboard, etc.
 
 
 ## What can a custom keyboard *not* do?
 
-Keyboard extensions are pretty limited, and while KeyboardKit extends them with many additional capabilities (read more down) some things are just not possible.
+Keyboard extensions are quite limited by iOS in what they are allowed to do, and while KeyboardKit adds many features (see more further down) some things are just not possible.
 
-For instance, keyboard extensions can't draw outside their bounds. This means that views like input and action callouts must render within the keyboard frame.
+Keyboard extensions can't draw outside their bounds. This means that things like callouts must be drawn render within the keyboard frame.
 
-Keyboard extensions are memory capped at ~70 MB (depending on hardware & OS), which means that you can't load memory large AI models into them.
+Keyboard extensions must also open the [main app](terminology) to perform certain actions, like using the device microphone to perform dictation. KeyboardKit has tools that make this easier.
 
-Keyboard extensions must also open their main app to perform certain actions, such as accessing the microphone to perform dictation. KeyboardKit has tools that make this easier.
+Keyboard extensions can only send text to the [active app](terminology). Since the text document proxy doesn't support images, users must manually copy and paste images with the pasteboard.
 
-Finally, keyboard extensions can only send text to the currently ctive app! The text document proxy doesn't support images, which means that a user must manually copy and paste images.
-
-Regardless of these limitations, there are ways for the main app and its keyboard to communicate, which means that you can probably find innovative ways to use your apps features in a keyboard. 
+Finally, keyboard extensions are [memory capped](terminology) at ~70 MB (depending on hardware & OS), which means that you can't load memory large AI models into them.
 
 
 ## Why use KeyboardKit?
