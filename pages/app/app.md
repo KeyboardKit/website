@@ -7,7 +7,6 @@ permalink: /app
 page-class: glass-panel bg-1
 
 hero-icon: /assets/heros/app.png
-hero-icon-class: plain large
 hero-title: KeyboardKit App
 hero-description: Create custom keyboards directly on your iPhone and iPad
 

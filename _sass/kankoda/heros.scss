@@ -1,21 +1,34 @@
 .hero {
   text-align: center;
 
-  h1 { font-size: 1.8em !important; }
-  h2 { font-size: 2.3em !important; }
-  h2 { margin-top: 0em !important; font-weight: bold;}
-  h2 { margin-bottom: 60px; }
+  h1 { 
+    font-size: 1.8em !important; 
+    font-weight: 510;
+  }
+  h2 { 
+    font-size: 2.3em !important; 
+    margin-top: 0em !important; font-weight: 510;
+    margin-bottom: 60px; 
+  }
+  
   h2 + img { margin-bottom: 60px; }
 
   img.app-icon {
-    width: 100px;
-    height: 100px !important;
+    width: 150px;
+    height: 150px !important;
     margin-bottom: 40px;
+    border-radius: 0px;
+    box-shadow: none !important;
   }
 
   img.app-icon.large {
     width: 200px;
     height: 200px !important;
+  }
+
+  img.app-icon.small {
+    width: 100px;
+    height: 100px !important;
   }
 
   .emoji {

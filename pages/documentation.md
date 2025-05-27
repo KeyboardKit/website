@@ -9,7 +9,6 @@ page-class: glass-panel bg-5
 redirect_from: /docs
 
 hero-icon: /assets/heros/documentation.png
-hero-icon-class: plain large
 hero-title: Documentation
 
 image:  /assets/headers/documentation.jpg

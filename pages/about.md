@@ -6,8 +6,10 @@ permalink: /about
 
 page-class: glass-panel bg-2
 
+hero-icon: /assets/heros/icon.png
 hero-title: About KeyboardKit
 hero-description: KeyboardKit lets you build amazing iOS keyboard extensions
+
 description: KeyboardKit lets you build amazing keyboard extensions with Swift & SwiftUI
 
 sponsor: https://github.com/sponsors/danielsaidi

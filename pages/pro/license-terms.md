@@ -9,7 +9,6 @@ redirect_from:
     - /terms
 
 hero-icon: /assets/heros/pro.png
-hero-icon-class: plain large
 
 description: Standard License Terms
 ---
