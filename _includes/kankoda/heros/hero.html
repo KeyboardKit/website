@@ -12,14 +12,39 @@
   {% if has-icon > 0 %}
   <img class="app-icon sticker {{page.hero-icon-class}}" src="{{page.hero-icon}}" />
   {% endif %}
-  <h1>{{page.hero-title | default: page.title}}</h1>
-  <h2>{{page.hero-description | default: page.description}}</h2>
-  {% if has-image > 0 %}
-  <img src="{{page.hero-image}}" alt="Hero image for {{page.id}} page" class="{{page.hero-image-class}}" />
-  {% elsif has-emoji > 0 %}
+  {% if has-emoji > 0 %}
   <div class="emoji">
       {{page.hero-emoji}}
   </div>
   {% endif %}
+  <h1>{{page.hero-title | default: page.title}}</h1>
+  {% if page.hero-tagline %}
+  <h2>{{page.hero-tagline}}</h2>
+  <h3>{{page.hero-description | default: page.description}}</h3>
+  {% else %}
+  <h2>{{page.hero-description | default: page.description}}</h2>
+  {% endif %}
+
+  {%- if page.cta or page.cta-secondary -%}
+  <div class="cta-container">
+    {%- if page.cta-secondary -%}
+    <a href="{{ page.cta-secondary.url }}" class="cta secondary scale">
+      {{ page.cta-secondary.title }}
+    </a>
+    {%- endif -%}
+    {%- if page.cta -%}
+    <a href="{{ page.cta.url }}" class="cta scale">
+      {{ page.cta.title }}
+    </a>
+    {%- endif -%}
+  </div>
+  {%- endif -%}
 </section>
+
+{% if has-image > 0 %}
+<section class="hero image wrapper">
+  <img src="{{page.hero-image}}" alt="Hero image for {{page.id}} page" class="hero-image {{page.hero-image-class}}" />
+</section>
+{% endif %}
+
 {% endif %}

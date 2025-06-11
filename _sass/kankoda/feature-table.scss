@@ -1,9 +1,5 @@
-.feature-table.three-tier {
-
-  .grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
+.feature-table.two-tier .grid { grid-template-columns: repeat(3, 1fr); }
+.feature-table.three-tier .grid { grid-template-columns: repeat(4, 1fr); }
 
 .feature-table {
 
@@ -60,21 +56,24 @@
 
       .cta {
         display: block;
+        color: white;
+        background-color: black;
+        padding: 10px 15px;
       }
     }
 
-    .tier.silver {
+    .tier.silver, .tier.starter, .tier.standard {
       background-color: #f7f7f7;
       border: solid 1px $feature-table-border-color;
     }
 
-    .tier.gold, .tier.pro {
+    .tier.gold, .tier.pro, .tier.business {
       border: solid 1px gold;
       background-color: rgba(255, 215, 0, 0.2);
 
       .cta {
         color: black !important;
-        background-color: gold !important;
+        background-color: gold;
       }
 
       .cta:hover {
@@ -86,11 +85,11 @@
     .tier.custom {
       border: solid 1px #334;
       background-color: #445;
-      color: white !important;
+      color: white;
 
       .cta {
-        color: black !important;
-        background-color: white !important;
+        color: black;
+        background-color: white;
       }
     }
 
@@ -151,12 +150,8 @@
 
 @media (max-width: 950px) {
 
-  .feature-table.three-tier {
-
-    .grid {
-      grid-template-columns: repeat(3, 1fr) !important;
-    }
-  }
+  .feature-table.two-tier .grid { grid-template-columns: repeat(2, 1fr) !important; }
+  .feature-table.three-tier .grid { grid-template-columns: repeat(3, 1fr) !important; }
 
   .feature-table {
 
@@ -180,7 +175,7 @@
   }
 }
   
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
   .feature-table {
 
@@ -196,6 +191,7 @@
 
     .cta {
       font-size: small;
+      min-width: 10px;
     }
   }
 }

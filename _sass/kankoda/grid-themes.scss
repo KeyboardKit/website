@@ -1,14 +1,16 @@
 .grid.themes {
   
-  p { 
-    font-size: 0.6em;
-    font-weight: normal !important;
-  }
+  grid-row-gap: 30px;
 }
 
 @media (max-width: 900px) {
   .grid.themes { 
 
-    grid-template-columns: repeat(2, 1fr);
+    overflow: scroll;
+    grid-template-columns: repeat(100, 1fr);
+
+    p {
+      width: 200px;
+    }
   }
 }
