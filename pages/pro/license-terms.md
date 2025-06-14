@@ -8,9 +8,7 @@ redirect_from:
     - /pro/terms
     - /terms
 
-hero-icon: /assets/heros/pro.png
-
-description: Standard License Terms
+description: Standard License Terms & Conditions
 ---
 
 {% include kankoda/licenses/terms.md product="KeyboardKit Pro" %}
