@@ -6,6 +6,9 @@ tags:   general
 assets: /assets/blog/25/0716/
 image: /assets/blog/25/0716/image.jpg
 header: /assets/blog/25/0716/header.jpg
+
+bsky: https://bsky.app/profile/keyboardkit.bsky.social/post/3lu2wmcikik2e
+toot: https://techhub.social/@keyboardkit/114861813907774034
 ---
 
 We're excited to announce a significant evolution to KeyboardKit, that will drastically improve your development experience, and accelerate our ability to deliver powerful keyboard solutions.
