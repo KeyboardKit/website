@@ -33,7 +33,7 @@ This step represents months of careful planning and considerations, with the ove
 
 ### 🎯 **Simplified Integration**
 
-KeyboardKit will no longer be shipped as two separate packages - KeyboardKit and KeyboardKit Pro. Instead, there will only be a single KeyboardKit SDK, with Pro features added to it.
+KeyboardKit will no longer be shipped as two separate packages - KeyboardKit and KeyboardKit Pro. Instead, there will only be a single KeyboardKit SDK.
 
 With the unified SDK, you'll have:
 
@@ -68,19 +68,13 @@ The technical benefits of this consolidation extend beyond convenience. We will 
 
 We understand that changes like this can be disruptive, which is why we've designed the migration process to be as smooth as possible.
 
-### **One Package**
-
 If you currently use the KeyboardKit package, very little will change. You will be able to keep using the same package, although you will probably have to change how you link it.
 
 If you use KeyboardKit Pro, you will just have to switch back to the KeyboardKit package. The Pro package will be discontinued, but kept around for Pro users who still haven't migrated.
 
-### **Familiar API**
-
 The APIs you know and love will remain largely unchanged. The main difference is that everything will now be available through a single import and package.
 
-### **Comprehensive Migration Guide**
-
-We'll provide detailed migration documentation that includes step-by-step instructions for updating your packages and apps, with code examples, blog posts and other resources.
+We'll provide more information closer to release, with examples, blog posts and other resources.
 
 
 ## Pricing and Access Remain Unchanged
@@ -94,12 +88,7 @@ It's important to note that this technical evolution doesn't affect our commitme
 
 ## Timeline
 
-The SDK unification will be part of KeyboardKit 10, which will aim to release in the end of Q3. This major version will follow the same well-organized release structure as previous versions.
-
-
-## Community and Support
-
-This transition represents our commitment to the KeyboardKit community. We're not just changing how we organize code; we're drastically improving the library based on your feedback.
+This unification will be part of KeyboardKit 10, which will aim to release in the end of Q3. This major version will follow the same well-organized release structure as previous versions.
 
 
 ## Conclusion
@@ -108,4 +97,4 @@ This evolution represents more than a technical change - it's a big improvement 
 
 By unifying the KeyboardKit SDKs, we're creating a foundation that will support innovation, stability, and a great user experiences for years to come.
 
-The future of KeyboardKit is unified, powerful, and designed around your success. We can't wait to see what you'll think of it.
+The future of KeyboardKit is unified, powerful, and designed around your success. We'll share more information closer to release, and can't wait to see what you'll think of it.
