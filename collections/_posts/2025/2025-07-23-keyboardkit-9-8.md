@@ -7,23 +7,20 @@ image-show: 0
 image: /assets/versions/9_8-beta.jpg
 assets: /assets/blog/25/0723/
 
-release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/9.8.0-beta.1
-release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/9.8.0-beta.1
-
-bsky: https://bsky.app/profile/keyboardkit.bsky.social/post/3ltzts76i7c2r
-toot: https://techhub.social/@keyboardkit/114859371001025256
+release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/9.8.0-beta.2
+release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/9.8.0-beta.2
 ---
 
-The KeyboardKit 9.8 beta 1 is out! This version brings a huge set of improvements and changes to the layout engine, to make typing with KeyboardKit better than ever.
+The KeyboardKit 9.8 beta 2 is out! This version adds a brand new layout engine that improves layout rendering performance and makes typing with KeyboardKit better than ever.
 
 ![Blog header image]({{page.image}})
 
 
 ## 🗑️ Deprecated Callout & Style Services
 
-With the new, recently added view modifier-based callout & style customizations working well, the corresponding callout and style services have now been deprecated.
+With the new view modifier-based callout & style customizations working well, the callout and style services have now been soft deprecated.
 
-This means that they WILL be removed in the next major version, and that you should start using the view modifier-based approach instead:
+Soft deprecations mean that the services are only marked as deprecated in the docs. They WILL be removed in the next major version, so switch to use the view modifiers instead of custom services:
 
 ```swift
 KeyboardView(
@@ -48,12 +45,12 @@ KeyboardView(
 }
 ```
 
-The reason for soft deprecations is to avoid compile-time warning, since the services are still in use.
+The reason for soft deprecations is to avoid compile-time warning, since the services are still in use. KeyboardKit 9.9 will restructure the code to use proper deprecations without warnings.
 
 
-## ✨ BETA - View modifier layout customizations
+## ✨ BETA - New layout engine
 
-This version adds a `.keyboardLayout` view modifier to KeyboardKit Pro, which can be used to apply layout customizations without using a layout service.
+This version adds a `.keyboardLayout` view modifier that can be used to customize keyboard layouts:
 
 ```swift
 KeyboardView(
@@ -73,54 +70,57 @@ KeyboardView(
 
 This works just like the `.keyboardCalloutActions` and `.keyboardButtonStyle` view modifiers, by letting you inject a custom value builder that provides you with layour-specific parameters.
 
-You can use the `KeyboardLayout.standard(for:)` builder to create a standard layout for any keyboard context and its active locale, then modify this standard layout as needed.
+You can use `params.standardLayout(for:)` to create a standard layout, then modify it as needed. The standard layout is fully localized for all locales that are included in your license.
 
-This view modifier and many new layout builders can be tested in KeyboardKit Pro. KeyboardKit Pro also unlocks localized layout builders like `.swedish(for:)` for all supported locales in your license.
+KeyboardKit Pro also unlocks localized layout builders like `.swedish(for:)` for all supported locales.
 
-This modifier based-approach will make it a lot easier to customize the keyboard layout. As such, the services are soft deprecated.
+This new layout engine is only available in KeyboardKit Pro. Due to this, the soft deprecated layout services will not be properly deprecated in KeyboardKit 9.9.
 
 
-
-## ✨ BETA - Document Change Tracking
+## ✨ BETA - Keyboard Type Change Handling
 
 KeyboardKit 9.8 can redraw the keyboard when the text field changes, to properly handle keyboard type changes. This will help avoiding the stuck state when switching between text fields.
 
-This works by observing the proxy's `.documentIdentifier` property, which changes when the current "document" changes. 
+This works by having the controller check the text document proxy's `.keyboardType` when the text changes, and redraw the keyboard view if the keyboard type changes.
 
-Since this property is brittle and can crash the keyboard, this feature is disabled by default. You can enable the feature by calling the controller's `enableDocumentChangeTracking` function.
+This new feature is disabled by default in the betas, since it can cause strange behaviors and maybe even crashes. You can enable it with `.enableExperimentalKeyboardTypeChangeTracking()`.
 
 
 ## ✨ Keyboard Layout Improvements
 
 Both `KeyboardLayout` and `KeyboardLayout.InputSet` have been extended with many new functions, to make it easier to customize the layout. `KeyboardLayout` also has a new `.standard(for:)` builder.
 
-The new localized layout builders like `.swedish` are improved to render more consistent keyboards. They underlying input sets also have fewer license validations to improve performance.
+The new layout builders will render more native looking keyboard layouts. The underlying input sets also have fewer license validations to improve the layour rendering performance.
 
 
 ## ✨ Keyboard Action Improvements
 
-`KeyboardAction` has a new `.urlDomain` action for domain input, which will render as a `.` and also use custom callout actions with common domains.
+`KeyboardAction` has a new `.urlDomain` action for URL domain input. This will render as a `.` and also use custom callout actions with common domains, like `.com`, `.edu`, etc.
 
-To make it even easier to distinguish between URL and web search input, `KeyboardType` has a new `.webSearch` keyboard type.
+To make it easier to distinguish between URL and web search, `KeyboardType` has a new `.webSearch`.
 
 
 ## ✨ Callout Action Improvements
 
-`Callouts.Actions` can now be initialized with both actions and characters, to simplify creating a mix. The standard callout actions now include domain actions for new `.urlDomain` action.
+`Callouts.Actions` can now be initialized with both actions and characters, to simplify creating a mix.
 
 
 ## 👑 KeyboardKit Pro
 
-KeyboardKit Pro is required to use the new layout feature changes, including the new view modifier. 
+KeyboardKit Pro is required to use the new layout features, including the new layout view modifier. 
 
-KeyboardKit extends `KeyboardLayout` with new item mutation functions, and new `.baseLayout(...)`, `.iPadLayout(...)`, `.iPhoneLayout(...)`, and `.standard(for:)` layout builders.
+KeyboardKit Pro extends `KeyboardLayout` with new item mutations, and adds new `.baseLayout(...)`, `.iPadLayout(...)`, `.iPhoneLayout(...)`, and `.standard(for:)` layout builders.
 
 KeyboardKit Pro also has new, localized value builders for all supported locales, like `.swedish(for:)`.
 
 
-## 🔧 Performance Adjustments
+## 🔧 Performance Improvements
 
-KeyboardKit Pro improves the performance of creating localized input sets. You should also notice further performance improvements by switching to the new view modifier-based layout.
+KeyboardKit Pro's new layout engine has improved layout performance, which should lead to better typing experience due to less lag and faster calculations.
+
+Although the improved performance of the underlying input sets affects the old layout services, the full improvement will only be activated when using the `.keyboardLayout` view modifier.
+
+This is because the old layout services are used by default, until the `.keyboardLayout` view modifier is applied. You can apply it and return `$0.standardLayout(for:)` to activate these improvements for the standard localized sets, and apply further customizations if needed.
 
 
 ## 📦 Renamings
