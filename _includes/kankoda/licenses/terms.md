@@ -1,7 +1,7 @@
 {% assign product = include.product %}
 {% assign product-escaped = include.product | split: " " | join: "%20" %}
 {% assign show-title = include.show-title | default: 1 %}
-{% assign custom-email = site.urls.email | append: "?subject=" | append: product-escaped | append: "%20-%20Custom%20License%20Request" %}
+{% assign custom-email = site.urls.email | append: "?subject=" | append: product-escaped | append: "%20-%20Custom%20Plan" %}
 
 {% if show-title == 1 %}
 # {{product}} Terms & Conditions

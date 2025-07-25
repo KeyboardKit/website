@@ -12,7 +12,7 @@ hero-description: KeyboardKit Pro has custom licenses for organizations with spe
 description: KeyboardKit Pro provides custom & enterprise licenses for larger organizations
 ---
 
-[KeyboardKit Pro](/pro) licenses can be customized to fit your needs, with many optional add-ons. [Reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20Custom%20License) to discuss any customizations and add-ons that you may need.
+[KeyboardKit Pro](/pro) licenses can be customized to fit your needs, with many optional add-ons. [Reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20Custom%20Plan) to discuss any customizations and add-ons that you may need.
 
 A custom license is **required** if you’re an enterprise, have $10M+ in annual revenue, or if your app has $1M+ in annual revenue. 
 

@@ -6,7 +6,7 @@
 - title: Features
   url:  /features
   image: /assets/heros/features.png
-  text: KeyboardKit supports 72 locales and a rich set of features.
+  text: KeyboardKit supports <b>75 locales</b> and a rich set of features.
 
 - title: Open-Source
   url:  https://github.com/keyboardkit/keyboardkit

@@ -113,7 +113,7 @@
 - title:  Localization
   emoji:  🌐
   url:    /features/localization
-  text:   KeyboardKit supports 72 locales, with localized resources.
+  text:   KeyboardKit supports <b>75 locales</b>, with localized resources.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/localization-article
   tags:   open-source pro
 

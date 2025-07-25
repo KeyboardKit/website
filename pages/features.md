@@ -8,6 +8,7 @@ page-class: glass-panel bg-3
 
 hero-title: Features
 hero-icon: /assets/heros/features.png
+hero-icon-class: plain
 
 image: /assets/headers/features.jpg
 image-show: 0

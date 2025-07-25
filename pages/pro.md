@@ -9,10 +9,11 @@ page-class: glass-panel bg-1
 hero-title: KeyboardKit Pro
 hero-description: Unlock pro features that take your keyboard to the next level
 hero-icon: /assets/heros/pro.png
+hero-icon-class: plain
 
 description: KeyboardKit Pro unlocks pro features that take your keyboard to the next level
 
-custom-license-email: mailto:info@keyboardkit.com?subject=KeyboardKit%20Pro%20-%20Custom%20License
+custom-license-email: mailto:info@keyboardkit.com?subject=KeyboardKit%20Pro%20-%20Custom%20Plan
 terms: /pro/terms
 ---
 
