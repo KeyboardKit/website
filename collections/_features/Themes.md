@@ -1,8 +1,6 @@
 ---
 title: Themes
-
-hero-title: Features
-hero-description: Themes
+description: Flexible keyboard themes
 hero-emoji: 🍭
 
 redirect_from: 

@@ -1,23 +1,17 @@
 ---
 title: Text Input
-
-hero-title: Features
-hero-description: Text Input
+description: Let users type within the keyboard
 hero-emoji: 📝
 ---
 
-Keyboard extensions will by default *only* send text to the text field in the currently active app, and will not detect if you select a text field within the keyboard.
+Custom keyboards will by default only send typed text to the [host application](/about/terminology)'s text field, and will not detect if you try to type text into a text field in the keyboard.
 
-This makes it hard to build features that require a user to type within the keyboard, like search, AI prompting, etc. Manually implementing these capabilities involve many potential pitfalls.
-
-KeyboardKit therefore adds ways to make this easier, and adds ways to route text to any other text field within the keyboard, by setting the `textInputProxy` to a custom value.
+This makes it hard to build text input features, like search, AI prompting, etc. KeyboardKit therefore adds ways to make it easy to automatically route text to text fields in the keyboard.
 
 
 ## 👑 KeyboardKit Pro
 
-KeyboardKit Pro unlocks text input views that automatically register and unregister themselves as the maib `textInputProxy` when they receive and lose focus.
-
-This makes it possible to let users type into text fields within the keyboard, without having to write any additional code. This can be used for emoji search, AI prompting, etc.
+KeyboardKit Pro unlocks text input views that automatically register and unregister themselves as the main [text document proxy](/about/terminology) when they receive and lose focus.
 
 These views support SwiftUI `FocusState` and have a `focused` view modifier that lets you provide a custom done button that slides in when the view is focused.
 

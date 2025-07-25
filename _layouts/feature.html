@@ -8,6 +8,10 @@ layout: plain
 <main class="page-content feature" aria-label="Content">
   <div class="wrapper">
     <article class="paper">
+      <p>
+        {% include kankoda/buttons/back.html url="/features" title="Back to Features" %}
+      </p>
+
       {{ content }}
 
       {% if feature.docs %}

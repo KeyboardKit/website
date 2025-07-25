@@ -1,18 +1,16 @@
 ---
 title: Proxy Utilities
 
-hero-title: Features
-hero-description: Text Document Proxy Utilities
+hero-title: Text Document Proxy Utilities
+hero-description: Make the text document proxy do more
 hero-emoji: 📄
 ---
 
-Custom keyboards use a **UITextDocumentProxy** to integrate with the currently active text field. It lets you insert and delete text, get the selected text, move the input cursor, etc.
+Custom keyboards use a [text document proxy](/about/terminology) to integrate with the currently active text field. It lets you insert and delete text, get the selected text, move the input cursor, etc.
 
 The native proxy APIs are however *very* limited, which makes it hard to get information about the text and to perform many common keyboard operations. 
 
-KeyboardKit therefore extends the proxy with more features to let you do more, like ``currentWord``, ``isCursorAtNewSentence``, ``deleteBackward(range:)``, ``endSentence(withText:)``, etc.
-
-See the online documentation for more information and a for full list of available proxy extension.
+KeyboardKit extends the proxy with more features to let you do more, like getting the ``currentWord`` and info like ``isCursorAtNewSentence``, and to  ``deleteBackward(range:)``, ``endSentence(withText:)``, etc.
 
 
 ## 👑 KeyboardKit Pro

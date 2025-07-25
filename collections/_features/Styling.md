@@ -1,14 +1,12 @@
 ---
 title: Styling
-
-hero-title: Features
-hero-description: Styling
+description: Easily style your custom keyboard
 hero-emoji: 🎨
 ---
 
-While iOS has very limited ways to customize the look and feel of the native keyboard, KeyboardKit can be styled and customized to great extent, using styles and themes.
+While iOS has very limited ways to customize the look and feel of the native keyboard, KeyboardKit can be styled and customized with styles and themes.
 
-KeyboardKit has a ``KeyboardStyle`` namespace that contains style-related types and views, as well as a ``KeyboardStyleService`` that can provide dynamic styles for different parts of a keyboard.
+KeyboardKit has a ``KeyboardStyle`` namespace that contains style-related types, styles and views, to let you style different parts of the keyboard.
 
 
 ## Colors & Images 
@@ -39,12 +37,12 @@ let text = KeyboardAction.space.standardButtonText(for: context)     // KKL10n.s
 
 ## Style Modifiers
 
-Most KeyboardKit views have custom styles and style modifiers. For instance, the ``Keyboard.Button`` view has a ``Keyboard.ButtonStyle`` that can be applied with the ``.keyboardButtonStyle(_:)`` modifier.
+Most KeyboardKit views have custom styles and style modifiers. For instance, the ``Keyboard.Button`` view has a  ``.keyboardButtonStyle(_:)`` view modifier that lets you customize the style of any button.
 
 
 ## 👑 KeyboardKit Pro
 
-[KeyboardKit Pro][Pro] unlocks additional image assets, and a ``KeyboardTheme`` engine that makes easier to style keyboards with themes.
+[KeyboardKit Pro][Pro] unlocks additional assets, and a theme engine that makes styling even easier.
 
 
 ### Emoji Icons
@@ -55,7 +53,7 @@ KeyboardKit Pro emoji-specific, vectorized assets, like the ``.keyboardEmoji`` a
 
 ### Themes
 
-KeyboardKit Pro unlocks a ``KeyboardTheme`` engine that makes easier to style keyboards with themes:
+KeyboardKit Pro unlocks a theje engine that makes easy to define and style keyboards with themes:
 
 <div class="grid col3">
     <div><img alt="Standard Green Theme" src="{{site.assets}}/themes/standard-green.jpg" /></div>

@@ -72,14 +72,14 @@
   emoji:  📦
   url:    /features/escrow
   text:   KeyboardKit Pro offers escrow services to enterprise customers.
-  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/escrow
+  # docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/escrow
   tags:   pro
 
 - title:  External Keyboards
   emoji:  ⌨️
   url:    /features/external-keyboards
   text:   KeyboardKit Pro can detect if an external keyboard is connected.
-  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/external-keyboards-article
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/feedback-article
   tags:   pro
 
 - title:  Feedback
@@ -96,7 +96,7 @@
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/gestures-article
   tags:   open-source pro
 
-- title:  Host
+- title:  Host Application
   emoji:  🏠
   url:    /features/host
   text:   KeyboardKit Pro can identify and open specific host applications.

@@ -1,18 +1,16 @@
 ---
 title: Essentials
-
-hero-title: Features
-hero-description: Essentials
+description: Essential keyboard features
 hero-emoji: 🌱
 ---
 
 
-KeyboardKit extends Apple's limited native keyboard APIs and provides you with a lot more features than what is otherwise available.
+KeyboardKit extends Apple's very imited native keyboard APIs with a lot more features than what is otherwise available.
 
-KeyboardKit lets you set up a custom keyboard with just a few lines of code, and will automatically set up things like App Group-based data sync between the app and keyboard, locales, dictation, etc.
+KeyboardKit lets you create a fully customizable [custom keyboard](/about/terminology) with a few lines of code, and will automatically set up things like App Group settings sync, locales, dictation, etc.
 
-KeyboardKit has essential models, services, features & views, and a [KeyboardView](/features/essential-keyboardview) component that lets you mimic a native, fully customizable iOS keyboard view.
-'
+KeyboardKit has essential features & views, and a fully customizable [KeyboardView](/features/essential-keyboardview) that lets you mimic a native iOS keyboard.
+
 ## 👑 KeyboardKit Pro
 
 [KeyboardKit Pro][Pro] unlocks even more essential features, makes the [KeyboardView](/features/essential-keyboardview) support all [{{site.locales.count}} supported locales](/locales), etc.

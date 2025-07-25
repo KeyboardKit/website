@@ -31,6 +31,8 @@ locales:
 
 urls:
   email:      mailto:info@keyboardkit.com
+  email-custom-plan: mailto:info@keyboardkit.com?subject=Custom%20Plan
+  email-custom-terms: mailto:info@keyboardkit.com?subject=Custom%20Terms
   rss:        https://keyboardkit.com/feed.xml
 
   appstore:   http://itunes.apple.com/app/keyboardkit/id1568444977
@@ -100,6 +102,7 @@ defaults:
       type: "pages"
     values:
       layout: page
+      hero-icon-class: plain
       image: /assets/headers/icon.jpg
   -
     scope:

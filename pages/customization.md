@@ -1,16 +1,13 @@
 ---
 id: customization
-title: Customization
-layout: page
+title: Customizations
 permalink: /customization
 
 image:  /assets/headers/features.jpg
-image-show: 0
+hero-icon: /assets/heros/features.png
+hero-icon-class: plain large
 
-hero-image: /assets/heros/features.png
-hero-title: KeyboardKit is customizable
-
-description: KeyboardKit keyboards can be customized to great extent.
+description: KeyboardKit is very customizable
 ---
 
 KeyboardKit can be customized to great extent. You can adjust input keys, keyboard layout, change how every individual key looks and behaves, and much more.
@@ -25,25 +22,25 @@ KeyboardKit comes with a [styling engine](/features/styling) that lets you chang
 
 ## Layout
 
-KeyboardKit has a [layout engine](/features/layout) that let you customize the keys of a keyboard. You can replace, remove and insert single or multiple keys, or create a completely custom layout.
+KeyboardKit has a [layout engine](/features/layout) that lets you customize the keyboard layout. You can remove and insert single or multiple keys, or create a completely custom layout.
 
-[KeyboardKit Pro](/pro) unlocks [localized input sets and keyboard layouts](/features/localization) for all languages in your license. You can use them as they are, or customize them further.
+[KeyboardKit Pro](/pro) unlocks [localized keyboard layouts](/features/localization) for all languages in your license. You can use them as they are, or customize them further.
 
 
 ## Callouts
 
 KeyboardKit lets you customize the [callouts](/features/callouts) that are shown when users type and long press a key that has secondary actions.
 
-[KeyboardKit Pro](/pro) unlocks [localized callout actions](/features/localization) for all the languages that your license includes.  You can use them as they are, or customize them further.
+[KeyboardKit Pro](/pro) unlocks [localized callout actions](/features/localization) for all the languages in your license. You can use them as they are, or customize them further.
 
 
 ## Services
 
-KeyboardKit uses services for most behavior, such as an [action handler](/features/action) that handles key presses. feedback, etc. All these services can be replaced by your own custom implementations.
+KeyboardKit has services for most behavior, like an [action handler](/features/action), an [autocomplete service](/features/autocomplete), etc. All services can be replaced by your own custom implementations.
 
 [KeyboardKit Pro](/pro) unlocks [pro services](/pro), such as local and remote autocomplete, an action handler that registers the most recent emojis, etc. You can use them as they are, or customize them further.
 
 
 ## Views
 
-KeyboardKit lets you use custom views with the standard [system keyboard](/features/essentials). You can add any views in and around it, replace any keys with custom views, and even switch out the entire keyboard view.
+KeyboardKit lets you use custom views with the standard [system keyboard](/features/essentials-keyboardview). You can add any views in and around it, replace any keys with custom views, and even switch out the entire keyboard view.

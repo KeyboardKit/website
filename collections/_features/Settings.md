@@ -1,21 +1,19 @@
 ---
 title: Settings
-
-hero-title: Features
-hero-description: Settings
+description: KeyboardKit has auto-persisted settings
 hero-emoji: ⚙️
 ---
 
-Great keyboard apps use the main app to onboard the user and show the state of the keyboard, if it's enabled in System Settings, if Full Access is enabled, etc.
+Great keyboard apps use the main app to onboard the user and to show the state of the keyboard, for instance if the keyboard is enabled, if Full Access is enabled, etc.
 
-KeyboardKit adds ways to make this easier and provides ways to use App Groups to automatically sync data and settings between the main app and its keyboard.
+KeyboardKit adds ways to make this easier and lets you use App Groups to automatically sync data and settings between the main app and its keyboard.
 
-The various namespaces provide their own settings classes, such as `Autocomplete.Settings`. These classes provide auto-persisted properties, that can be used to let users customize their keyboard.
+The various namespaces provide their own settings classes, such as `Autocomplete.Settings`. These classes provide auto-persisted properties, that automatically sync between the app and keyboard.
 
 
 ## 👑 KeyboardKit Pro
 
-KeyboardKit Pro unlocks a ``KeyboardApp.HomeScreen`` that can be used by a main keyboard app target, as well as a `SettingsScreen`, `LocaleScreen`, and `ThemeScreen`:
+KeyboardKit Pro unlocks screen templates that can be used by the main app or within a keyboard:
 
 <div class="grid col2">
     <div><img alt="A Home Screen" src="{{page.assets}}keyboardapp-homescreen.jpg" /></div>
@@ -24,7 +22,7 @@ KeyboardKit Pro unlocks a ``KeyboardApp.HomeScreen`` that can be used by a main 
     <div><img alt="A Theme Screen" src="{{page.assets}}keyboardapp-themescreen.jpg" /></div>
 </div>
 
-These screens lets you add complex, yet customizable, app screens to your main app with a single line of code. Each screen can be customized, using convenient view modifiers.
+These screens can be added with a single line of code. Each screen can be customized and localized.
 
 
 [Pro]: /pro

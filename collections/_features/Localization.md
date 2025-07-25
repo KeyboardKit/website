@@ -1,25 +1,23 @@
 ---
 title: Localization
-
-hero-title: Features
-hero-description: Localization
+description: KeyboardKit supports 75 locales
 hero-emoji: 🌐
 ---
-
-Flexible localization support is an important part of a software keyboard. A keyboard should be able to easily change the locale without major code changes.
 
 KeyboardKit supports [{{site.locales.count}} locales](/locales):
 
 {{ site.locales.flags }}
 
-Each supported `Locale` has additional keyboard-specific information and capabilities, and localized assets and strings that can be translated with the ``KKL10n`` enum.
+Each supported language has keyboard-specific information and capabilities, and localized strings that can be translated with the ``KKL10n`` enum.
 
-KeyboardKit supports LTR (Left-To-Right) and RTL locales. You don't need to do anything to support RTL. Just change the locale and KeyboardKit automatically adjusts the keyboard.
+KeyboardKit supports LTR (Left-To-Right) and RTL locales. You don't need to do anything to support RTL. Just change the locale and KeyboardKit will automatically adjusts the keyboard.
 
 
 ## 👑 KeyboardKit Pro
 
-[KeyboardKit Pro][Pro] unlocks locale-specific callouts, input sets and layout services for every locale in a license. This lets you create a fully localized ``KeyboardView`` for every locale, with no additional code.
+[KeyboardKit Pro][Pro] unlocks localized callouts and layout services for every locale in your license. This lets you generate a fully localized keyboard with no additional code.
+
+KeyboardKit Pro also unlocks additional diacritics and input engines for languages like Vietnamese.
 
 
 

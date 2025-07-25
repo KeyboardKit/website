@@ -1,8 +1,6 @@
 ---
 title: Layout
-
-hero-title: Features
-hero-description: Layout
+description: A powerful and flexible layout engine
 hero-emoji: 🔣
 ---
 
@@ -11,14 +9,12 @@ A flexible keyboard layout is at the heart of a software keyboard, with many con
 
 <img width="450" alt="An English Keyboard" src="{{page.assets}}keyboardview-english.jpg" />
 
-KeyboardKit lets you use ``InputSet``s to define input keys, and ``KeyboardLayout``s to define the full set of keys. This gives you maximum flexibility to define layouts for different locales and configurations.
-
-In KeyboardKit, a ``KeyboardLayoutService`` can generate dynamic layouts at runtime. This provides the flexibility we need to adjust the layout as needed.
+The KeyboardKit layout engine is flexible and adapts to many factors, like device and keyboard type, locale, etc. You can easily customize the layout further, by resizing, adding and removing keys.
 
 
 ## 👑 KeyboardKit Pro
 
-[KeyboardKit Pro][Pro] unlocks additional input sets like `qwertz`, `azerty` as well as locale-specific input sets and layouts for all [{{site.locales.count}} supported languages](/locales).
+[KeyboardKit Pro][Pro] unlocks additional layouts like `.qwertz`, `.azerty`, `.colemak`, and `.dvorak`, as well as locale-specific layouts for all [{{site.locales.count}} supported languages](/locales).
 
 <img width="450" alt="A Swedish Keyboard" src="{{page.assets}}keyboardview-swedish.jpg" />
 

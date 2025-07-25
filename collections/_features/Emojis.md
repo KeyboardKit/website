@@ -1,8 +1,6 @@
 ---
 title: Emojis
-
-hero-title: Features
-hero-description: Emojis
+description: Emoji models and keyboards
 hero-emoji: 😀
 ---
 
@@ -24,7 +22,7 @@ KeyboardKit defines standard and custom emoji categories, support for skin tone 
 
 ## 👑 KeyboardKit Pro
 
-KeyboardKit Pro unlocks an `EmojiKeyboard` component that mimics a native emoji keyboard, with support for emoji categories, skin tone variations, emoji search, etc.
+KeyboardKit Pro unlocks an `EmojiKeyboard` that mimics a native emoji keyboard, with support for categories, skin tones, search, etc.
 
 <img width="450" alt="An EmojiKeyboard" src="{{page.assets}}emojikeyboard.jpg" />
 

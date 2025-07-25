@@ -1,14 +1,12 @@
 ---
 title: AI Support
-
-hero-title: Features
-hero-description: AI Support
+description: Essential features for AI keyboards
 hero-emoji: 🤖
 ---
 
-Apple's native keyboard APIs lack many features that are often needed by AI-powered keyboards.
+Apple's native keyboard APIs lack many features that are often needed for AI-powered keyboards.
 
-For instance, keyboards may need to read the *entire* document to be able to spell-check and proof-read the text, let users type within the keyboard to prompt or type intents, etc.
+For instance, keyboards may need to read the *entire* document to be able to spell-check and proof-read, allow users to type within the keyboard, etc. KeyboardKit Pro makes this easy to implement.
 
 
 ## 👑 KeyboardKit Pro

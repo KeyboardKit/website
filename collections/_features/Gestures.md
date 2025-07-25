@@ -1,13 +1,9 @@
 ---
 title: Gestures
-
-hero-title: Features
-hero-description: Gestures
+description: Easily handle a rich set of gestures
 hero-emoji: 👆
 ---
 
-The native iOS keyboard use more gestures than you may think. Keys can be pressed, released, long pressed, etc., space can be dragged to move the cursor, shift can be double tapped, etc.
+The native iOS keyboard has more gestures than you may think. Keys can be pressed, released, and long pressed, space can be dragged to move the cursor, shift can be double tapped, etc.
 
-These kind of gestures can be complicated to set up, but KeyboardKit provides ways to support and handle complex gestures with very little code.
-
-KeyboardKit also has a ``DragGestureHandler`` protocol to handle various drag gestures. For instance, a ``SpaceDragGestureHandler`` can handle spacebar drag gestures by moving the input cursor.
+KeyboardKit lets you handle complex gestures with very little code and has a drag gesture handler protocol that can handle various drag gestures, like using space to move the input cursor.

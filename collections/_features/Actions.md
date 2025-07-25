@@ -1,16 +1,12 @@
 ---
 title: Actions
-
-hero-title: Features
-hero-description: Actions
+description: Trigger keyboard actions with ease
 hero-emoji: 💥
 ---
 
-In KeyboardKit, the ``KeyboardAction`` enum defines keyboard-specific actions that can be triggered by the keyboard, or with code, and handled with a ``KeyboardActionHandler``.
+KeyboardKit has a ``KeyboardAction`` enum that defines keyboard-specific actions , like ``.character``, ``.backspace``, ``.nextLocale``, ``.nextKeyboard``, etc. It's also a namespace for action-related types & views.
 
-The ``KeyboardAction`` enum defines many keyboard-related actions, like ``.character(_:)``, ``.backspace``, ``.nextLocale``, ``.nextKeyboard``, etc. It's also a namespace for action-related types & views.
-
-Actions can be triggered by buttons, gestures, system events, or with code, and can be handled with a ``KeyboardActionHandler``. You can create a custom handler to adjust the keyboard behavior.
+Actions can be triggered by buttons, gestures, system events, or code, and can be handled with a ``KeyboardActionHandler``. You can create a custom handler to adjust the standard keyboard behavior.
 
 
 [Pro]: /pro

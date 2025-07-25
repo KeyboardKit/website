@@ -23,11 +23,11 @@ KeyboardKit Pro is a [commercial add-on]({{site.urls.github_pro}}) that unlocks 
 
 ## Pricing
 
-The standard tiers are aimed at indies, startups & small businesses. [Reach out for a custom plan]({{page.custom-license-email}}) if you're an enterprise, have $10M+ in annual revenue, or if the app has $1M+ in annual revenue.
+The standard tiers are for indies, startups and small businesses. For companies with $10M+ annual revenue or apps with $1M+ annual revenue, please [contact us]({{site.urls.email-custom-plan}}) for a custom plan.
 
 {% include licenses/feature-table.html tiers=site.data.tiers %}
 
-The standard [Terms & Conditions]({{page.terms}}) apply to all KeyboardKit Pro Gumroad License Subscriptions.
+The standard [Terms & Conditions]({{page.terms}}) apply to all subscriptions. [contact us]({{site.urls.email-custom-terms}}) if you need custom terms.
 
 
 <a name="features" />
