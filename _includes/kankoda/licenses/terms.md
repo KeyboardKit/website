@@ -1,6 +1,8 @@
 {% assign product = include.product %}
 {% assign product-escaped = include.product | split: " " | join: "%20" %}
 {% assign show-title = include.show-title | default: 1 %}
+{% assign kankoda-url = include.company-url | default: "https://kankoda.com" %}
+{% assign privacy-url = include.cprivacy-url | default: "/privacy" %}
 {% assign custom-email = site.urls.email | append: "?subject=" | append: product-escaped | append: "%20-%20Custom%20Plan" %}
 
 {% if show-title == 1 %}
@@ -9,9 +11,9 @@
 
 ## Standard Terms & Conditions
 
-These are the Standard Terms & Conditions for the [{{product}} SDK]({{include.url}}) ("the Software") which is owned and licensed by [Kankoda Sweden AB]({{site.url}}) (“the Licensee").
+These are the Standard Terms & Conditions for the [{{product}} SDK]({{include.url}}) ("the Software"), which is owned and licensed by [Kankoda Sweden AB]({{kankoda-url}}) (“the Licensee").
 
-The standard license is aimed at indies & small businesses. Reach out for a [custom license]({{custom-email}}) if you’re an enterprise or a company with $10M+ in annual revenue, or the app has $1M+ in annual revenue.
+The standard license is for indies, startups and small businesses. For companies with $10M+ annual revenue or apps with $1M+ annual revenue, please [contact us]({{custom-email}}) for a custom license.
 
 
 ## License Activation
@@ -67,7 +69,7 @@ Features that stop working due to, but not limited to, such changes, may be remo
 
 By using the Software under the Standard License (by signing up for a license after June 11th 2025), you grant {{site.copyright_owner}} a right to collect usage data and crash reports from the Software.
 
-For a full specification on how the Software may collect data, see the [Software privacy policy](privacy).
+For a full specification on how the Software may collect data, see the [Software privacy policy]({{privacy-url}}).
 
 Custom/Enterprise licenses will automatically opt-out of any data collection. The Software reserves the right to adjust its data collection practices in any future update.
 

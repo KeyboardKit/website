@@ -8,18 +8,18 @@ This is the privacy policy for the [{{name}}]({{url}}) app (hereby referred to a
 
 ## Definitions
 
-Whenever this privacy policy mentions "personal data", it refers to data that can be used to identify you as an individual, either directly or indirectly.
+**Personal Data**: Information that can be used to identify you as an individual, either directly (such as your name or email) or indirectly (through combinations of data points).
 
-Whenever this privacy policy mentions "anonymous data", it refers to any data that can't be used to identify you as an individual.
+**Anonymous Data**: Information that can't be used to identify you as an individual and that has been aggregated or anonymized to remove any identifying characteristics.
 
 
 ## Overview
 
-In short, this policy states the following:
+In short, this privacy policy states the following:
 
  * The app may collect anonymous data.
- * The app does not collect any personal data.
- * The app does not sell any collected data to third parties.
+ * The app does not collect personal data.
+ * The app does not sell any collected data.
  * The app will only access personal data that you enter into it.
  * The app will only share personal data that you actively share from it.
  
