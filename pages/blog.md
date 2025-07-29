@@ -3,7 +3,7 @@ layout: blog
 title: Blog
 permalink: /blog/
 
-page-class: glass-panel bg-5
+page-class: glass-panel bg-4
 ---
 
 <h1>Blog</h1>
