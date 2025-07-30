@@ -4,7 +4,7 @@ title: Features
 layout: page
 permalink: /features
 
-page-class: glass-panel bg-3
+page-class: glass-background bg-3
 
 hero-title: Features
 hero-icon: /assets/heros/features.png

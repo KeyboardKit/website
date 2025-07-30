@@ -109,13 +109,13 @@ defaults:
       type: "case-studies"
     values:
       layout: case-study
-      page-class: glass-panel bg-4
+      page-class: glass-background bg-4
   -
     scope:
       type: "features"
     values:
       layout: feature
-      page-class: glass-panel bg-1
+      page-class: glass-background bg-1
       assets: /assets/documentation/
   -
     scope:

@@ -1,16 +1,16 @@
-.glass-panel {
+.glass-background {
   position: relative;
   z-index: 1;
 }
 
-.glass-panel::before {
+.glass-background::before {
   content: "";
   position: absolute;
-  top: 0; 
+  top: 0;
   left: 0;
-  width: 100%; 
-  height: 100%;  
-  opacity: .6; 
+  width: 100%;
+  height: 100%;
+  opacity: .6;
   z-index: -1;
   background: url('/assets/bg/glass-1.jpg');
   background-position: center;
@@ -18,7 +18,15 @@
   background-repeat: no-repeat;
 }
 
-.glass-panel.bg-1::before { background-image: url('/assets/bg/glass-1.jpg'); }
-.glass-panel.bg-2::before { background-image: url('/assets/bg/glass-2.jpg'); }
-.glass-panel.bg-3::before { background-image: url('/assets/bg/glass-3.jpg'); }
-.glass-panel.bg-4::before { background-image: url('/assets/bg/glass-4.jpg'); }
+.glass-background.bg-1::before { background-image: url('/assets/bg/glass-1.jpg'); }
+.glass-background.bg-2::before { background-image: url('/assets/bg/glass-2.jpg'); }
+.glass-background.bg-3::before { background-image: url('/assets/bg/glass-3.jpg'); }
+.glass-background.bg-4::before { background-image: url('/assets/bg/glass-4.jpg'); }
+
+.glass-panel {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); // For Safari support
+  border: 1px solid rgba(255,255,255,0.8);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+}

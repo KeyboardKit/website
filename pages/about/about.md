@@ -4,7 +4,7 @@ title: About
 layout: page
 permalink: /about
 
-page-class: glass-panel bg-2
+page-class: glass-background bg-2
 
 hero-icon: /assets/heros/icon.png
 hero-title: About KeyboardKit

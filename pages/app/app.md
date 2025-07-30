@@ -4,7 +4,7 @@ title: App
 layout: page
 permalink: /app
 
-page-class: glass-panel bg-1
+page-class: glass-background bg-1
 
 hero-icon: /assets/heros/app.png
 hero-icon-class: plain large
