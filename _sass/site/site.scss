@@ -29,14 +29,30 @@
 
 .grid.features {
   .image-container { 
-    background-size: cover; 
-    background-color: rgba(255,255,255,0.3);
-    background-blend-mode: lighten;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px); // For Safari support
+    border: 1px solid rgba(255,255,255,0.5);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    
+    // &::before {
+    //   content: "";
+    //   position: absolute;
+    //   inset: 0;
+    //   background: url('/assets/bg/glass-grid-1.jpg') center/cover no-repeat;
+    //   opacity: 0.5; // 10% opacity
+    //   z-index: 0;
+    //   pointer-events: none;
+    //   border-radius: 12px;
+    // }
+
+    // Ensure content is above the pseudo-element
+    > * {
+      position: relative;
+      z-index: 1;
+    }
+
   }
-  a:nth-child(4n + 1) .image-container { background-image: url(/assets/bg/glass-grid-1.jpg) !important; }
-  a:nth-child(4n + 2) .image-container { background-image: url(/assets/bg/glass-grid-2.jpg) !important; }
-  a:nth-child(4n + 3) .image-container { background-image: url(/assets/bg/glass-grid-3.jpg) !important; }
-  a:nth-child(4n + 4) .image-container { background-image: url(/assets/bg/glass-grid-4.jpg) !important; }
 }
 
 @media (max-width: 500px) {
