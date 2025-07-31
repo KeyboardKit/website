@@ -4,8 +4,6 @@
     - image: /assets/themes/standard-blue.jpg
     - image: /assets/themes/standard-green.jpg
     - image: /assets/themes/standard-pink.jpg
-    - image: /assets/themes/standard-purple.jpg
-    - image: /assets/themes/standard-yellow.jpg
 
 - name: Swifty
   styles:
@@ -13,17 +11,11 @@
     - image: /assets/themes/swifty-blue.jpg
     - image: /assets/themes/swifty-green.jpg
     - image: /assets/themes/swifty-pink.jpg
-    - image: /assets/themes/swifty-purple.jpg
-    - image: /assets/themes/swifty-yellow.jpg
 
 - name: Minimal
   styles:
     - image: /assets/themes/minimal.jpg
     - image: /assets/themes/minimal-blue.jpg
-    - image: /assets/themes/minimal-green.jpg
-    - image: /assets/themes/minimal-pink.jpg
-    - image: /assets/themes/minimal-purple.jpg
-    - image: /assets/themes/minimal-yellow.jpg
     - image: /assets/themes/minimal-midnight.jpg
     - image: /assets/themes/minimal-sunset.jpg
 

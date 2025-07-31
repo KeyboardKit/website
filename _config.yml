@@ -102,7 +102,7 @@ defaults:
       type: "pages"
     values:
       layout: page
-      hero-icon-class: plain
+      hero-icon-class: plain large
       image: /assets/headers/icon.jpg
   -
     scope:

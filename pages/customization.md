@@ -5,7 +5,6 @@ permalink: /customization
 
 image:  /assets/headers/features.jpg
 hero-icon: /assets/heros/features.png
-hero-icon-class: plain large
 
 description: KeyboardKit is very customizable
 ---
