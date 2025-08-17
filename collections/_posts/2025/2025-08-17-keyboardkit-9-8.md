@@ -74,6 +74,8 @@ You can use `params.standardLayout(for:)` to create a standard layout, then modi
 
 The new layout engine is only available in KeyboardKit Pro. KeyboardKit Pro also unlocks a localized layout builder for each supported locale.
 
+**IMPORTANT!** This new keyboard layout modifier currently causes too many calculations, so do not use it in production yet. Only use it to evaluate if you think this is better than the service approach.
+
 
 ## ✨ Keyboard Type Change Handling (BETA)
 
@@ -101,15 +103,6 @@ To make it easier to distinguish between URL and web search, `KeyboardType` has 
 ## ✨ Callout Action Improvements
 
 `Callouts.Actions` can now be initialized with both actions and characters, to simplify creating a mix.
-
-
-## 🔧 Performance Improvements
-
-KeyboardKit Pro's new layout engine has improved layout performance, which should lead to better typing experience due to less lag and faster calculations.
-
-Although the improved performance of the underlying input sets affects the old layout services, the full improvement will only be activated when using the `.keyboardLayout` view modifier.
-
-To activate the new layout engine, just use the `.keyboardLayout` view modifier. You can apply it and return `$0.standardLayout(for:)` to use a standard layout, or apply further customizations if needed.
 
 
 ## 📦 Renamings
