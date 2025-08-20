@@ -7,8 +7,8 @@ image-show: 0
 image: /assets/versions/9_9-beta.jpg
 assets: /assets/blog/25/0817/
 
-release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/9.9.0-beta.2
-release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/9.9.0-beta.2
+release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/9.9.0-beta.3
+release-pro: https://github.com/KeyboardKit/KeyboardKitPro/releases/tag/9.9.0-beta.3
 ---
 
 KeyboardKit 9.9 beta is out! This version adds support for Liquid Glass to all devices that run iOS 26, and reverts the layout view modifier beta feature that was introduced in KeyboardKit 9.8.
