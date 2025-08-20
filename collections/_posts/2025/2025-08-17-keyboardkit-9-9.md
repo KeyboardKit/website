@@ -25,7 +25,19 @@ This means that `KeyboardView` and all other keyboard components will automatica
 `KeyboardController` has a new `setIsLiquidGlassEnabled(...)` function that lets you enable or disable the new Liquid Glass design regardless of the device and operating system, if you need to.
 
 
-## 🗑️ Keyboard Layout View Modifier
+## 😀 Emoji Keyboard Adjustments
+
+The `EmojiKeyboard` has been adjusted to apply a style-based spacing between its sections. This adds a better separation between categories.
+
+
+## 📄 Text Input Cursor Movement
+
+The `UITextDocumentProxy` has been extended with more cursor movement functionality, like moving the cursor to the beginning and end of the entire document.
+
+Since this builds upon the full document reader engine, it's only available in KeyboardKit Pro, but it doesn't require a license.
+
+
+## 💥 Keyboard Layout View Modifier
 
 This was a promising change, but it turns out that the `.keyboardLayout(...)` view modifier that was added as a beta feature in KeyboardKit 9.8 is not needed.
 
