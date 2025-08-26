@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 9.1
+title:  KeyboardKit 9.1 is out
 date:   2025-01-30 08:00:00 +0100
 tags:   releases essentials app emojis layout ui
 

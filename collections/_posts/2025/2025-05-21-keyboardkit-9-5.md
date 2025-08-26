@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 9.5
+title:  KeyboardKit 9.5 is out
 date:   2025-05-21 08:00:00 +0100
 tags:   releases styling callouts
 

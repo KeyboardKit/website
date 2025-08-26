@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 9.6
+title:  KeyboardKit 9.6 is out
 date:   2025-06-14 06:00:00 +0100
 tags:   releases styling localization
 

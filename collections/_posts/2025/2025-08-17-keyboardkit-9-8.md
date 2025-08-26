@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 9.8
+title:  KeyboardKit 9.8 is out
 date:   2025-08-17 06:00:00 +0100
 tags:   releases callouts layout localization styling
 

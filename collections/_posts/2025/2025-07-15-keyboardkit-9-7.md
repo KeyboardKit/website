@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 9.7
+title:  KeyboardKit 9.7 is out
 date:   2025-07-14 06:00:00 +0100
 tags:   releases styling localization
 

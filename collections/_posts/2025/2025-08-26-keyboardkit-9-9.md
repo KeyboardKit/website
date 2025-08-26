@@ -1,5 +1,5 @@
 ---
-title:  KeyboardKit 9.9
+title:  KeyboardKit 9.9 is out
 date:   2025-08-26 07:00:00 +0100
 tags:   releases design liquid-glass
 
