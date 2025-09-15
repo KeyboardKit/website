@@ -1,13 +1,13 @@
 ---
 title:  KeyboardKit 10 Beta
-date:   2025-09-08 06:00:00 +0100
+date:   2025-09-15 06:00:00 +0100
 tags:   releases fonts clipboard layout
 
 image-show: 0
 image: /assets/versions/10_0-beta.jpg
-assets: /assets/blog/25/0908/
+assets: /assets/blog/25/0915/
 
-release: https://github.com/KeyboardKit/KeyboardKit-Binaries/releases/tag/10.0-b.1
+release: https://github.com/KeyboardKit/KeyboardKit-Binaries/releases/tag/10.0-b.2
 ---
 
 The KeyboardKit 10 Beta is now available to developers! This test version lets you take KeyboardKit 10 for a test drive and provide early feedback and bug reports.
@@ -39,9 +39,7 @@ Gumroad licenses will no longer parse locales from the purchase. Gumroad users m
 
 ## 💿 Installing KeyboardKit 10
 
-KeyboardKit 10 is exclusively installed from the main repository, even if you use KeyboardKit Pro.
-
-This means that Pro users must change package URL to `https://github.com/keyboardkit/keyboardkit` and change all `import KeyboardKitPro` to `import KeyboardKit`.
+KeyboardKit 10 is exclusively installed from the [main repository]({{site.urls.github}}), even if you use KeyboardKit Pro. You must also and change all `import KeyboardKitPro` to `import KeyboardKit`.
 
 If you upgrade to KeyboardKit 10 from an earlier version, make sure to follow the guide below.
 
@@ -147,13 +145,13 @@ The `Keyboard.KeyboardType` has converted some keyboard types to input types. Th
 
 The `KeyboardLayout` now uses iPad Pro layouts on all iPad devices, and on macOS, tvOS & visionOS.
 
-The `KeyboardView` has a lot less init arguments, which makes it a lot easier to use and customize.
+The `KeyboardView` has a fewer init arguments, which makes it a lot easier to use and customize. The final release may remove even a few more arguments.
 
 
 ## Conclusion
 
 KeyboardKit 10 is a huge step forward for the library and for KeyboardKit as a product. Please give this new developer preview a try and let us know if you run into any bugs or problems.
 
-For more info and to download the documentaton, please see the [KeyboardKit 10 release notes]({{page.release}}). This page also contains a list of breaking changes that you should be aware of when updating.
+For more info and to download the documentation, please see the [KeyboardKit 10 release notes]({{page.release}}). This page also contains a list of breaking changes that you should be aware of when updating.
 
 We hope you will love using KeyboardKit 10.
