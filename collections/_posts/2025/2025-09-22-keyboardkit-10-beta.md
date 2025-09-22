@@ -1,11 +1,11 @@
 ---
 title:  KeyboardKit 10 Beta
-date:   2025-09-15 06:00:00 +0100
+date:   2025-09-22 06:00:00 +0100
 tags:   releases fonts clipboard layout
 
 image-show: 0
 image: /assets/versions/10_0-beta.jpg
-assets: /assets/blog/25/0915/
+assets: /assets/blog/25/0922/
 
 release: https://github.com/KeyboardKit/KeyboardKit-Binaries/releases/tag/10.0-b.2
 ---
@@ -75,19 +75,14 @@ This online documentation is still built for KeyboardKit 9, but you can download
 
 ## ⚡️ Autocomplete
 
-KeyboardKit 10 greatly improves the autocomplete service capabilities, and makes it a lot easier to integrate with remote services.
+KeyboardKit 10 improves the autocomplete engine and makes it easier to integrate with any remote services. The `.claude` & `.openAI` requests are now generic with specific next word prediction types.
 
-The `LocalAutocompleteService` is renamed to `StandardAutocompleteService`, and has new ways to use `RemotePredictionRequest`s to trigger remote predictions.
+The `LocalAutocompleteService` is renamed to `StandardAutocompleteService`, and has new ways to use the new `RemotePredictionRequest` type to trigger remote operations and predictions.
 
-The `RemotePredictionRequest` is a renamed version of the now removed `NextWordPredictionRequest`. It can be used for all prediction operations, not just next word predictions.
+Due to the many improvements in the standard service, `RemoteAutocompleteService` will be removed. 
 
-The `.claude` and `.openAI` request builders are now generic, and can be used for any request, but have easy ways to use them for next word prediction.
+Finally, the `.claude` remote prediction request builder uses `claude-sonnet-4-20250514` as its default.
 
-The `NextWordPredictionRequestType`'s new `standardRequest(for:)` builder use the new `.claude` and `openAI` next word prediction prompts to create next word prediction requests.
-
-Finally, the `.claude` remote prediction request builder uses `claude-sonnet-4-20250514` by default to let you keep using Claude after Sonnet 3.5 is discontinued.
-
-Due to these many changes and improvements, the `RemoteAutocompleteService` is no longer needed and will be removed.
 
 
 ## 📋 Clipboard
@@ -95,12 +90,8 @@ Due to these many changes and improvements, the `RemoteAutocompleteService` is n
 KeyboardKit 10 has a new `Clipboard` namespace with clipboard-related features to let users paste from the system clipboard and a collection of custom clips. 
 
 <div class="grid col2">
-    <span class="col2">
-        <img src="{{page.assets}}clipboard-settings.jpg" />
-    </span>
-    <span class="col2">
-        <img src="{{page.assets}}clipboard-keyboard.jpg" />
-    </span>
+    <span><img src="{{page.assets}}clipboard-settings.jpg" /></span>
+    <span><img src="{{page.assets}}clipboard-keyboard.jpg" /></span>
 </div>
 
 There is a new `SettingsScreen` that can be used to manage clips in the main app, a `ClipsScreen` that can be used to select clips, and a `Keyboard` that can paste into the current app.
@@ -108,23 +99,41 @@ There is a new `SettingsScreen` that can be used to manage clips in the main app
 
 ## 🔤 Fonts
 
-KeyboardKit 10 has a new `Fonts` namespace with font-related features that will let users type with different fonts than the standard system font. 
+KeyboardKit 10 has a new `Fonts` namespace with font features that let us type with Unicode fonts. 
 
 <div class="grid col2">
-    <span class="col2">
-        <img src="{{page.assets}}fonts-settings.jpg" />
-    </span>
-    <span class="col2">
-        <img src="{{page.assets}}fonts-keyboard.jpg" />
-    </span>
+    <span><img src="{{page.assets}}fonts-settings.jpg" /></span>
+    <span><img src="{{page.assets}}fonts-keyboard.jpg" /></span>
 </div>
 
-There is a new `SettingsScreen` that can be used to manage fonts in the main app. Selected fonts will by default be used by the `KeyboardView`.
+The new `Fonts.SettingsScreen` can be used to manage fonts. `KeyboardView` will automatically apply the selected font to its keys.
 
-Due to the market situation of custom font keyboards, this feature is exclusive to custom licenses. It is not part of the Gold license, and requires a special license.
+Due to the market situation, this feature is not part of the Gold tier. It requires a business license.
 
 
-## ✨ Features
+## 😀 Emojis
+
+The `EmojiKeyboard` has been rewritten from scratch and has better responsiveness and a memory management that properly deallocates memory when emojis are scrolled out of frame.
+
+<div class="grid col2">
+    <span><img src="{{page.assets}}emoji-keyboard-1.jpg" /></span>
+    <span><img src="{{page.assets}}emoji-keyboard-2.jpg" /></span>
+</div>
+
+This new memory management allows the new emoji keyboard to render emojis without the need for downsampling. This allows for a more native-like experience, with more customizations.
+
+
+## 🎨 Themes
+
+The `KeyboardTheme` namespace has a new `.blueprint` theme that mimics the classic blueprint style.
+
+<div class="grid col2">
+    <span><img src="{{page.assets}}theme-blueprint.jpg" /></span>
+    <span><img src="{{page.assets}}theme-blueprint-dark.jpg" /></span>
+</div>
+
+
+## ✨ Misc. Features
 
 Although KeyboardKit 10 mainly focuses on project structure, architecture and simplifications, there are a few new features.
 
@@ -135,7 +144,7 @@ Several views and features that were previously in KeyboardKit Pro are now open 
 Finally `Keyboard.InputType` is a new type that separates the keyboard type from the input type. This makes KeyboardKit better at switching between different text fields.
 
 
-## 💡 Changes
+## 💡 Misc. Changes
 
 Views now use environment injection instead of init injection for all observable contexts. This makes it a lot easier to use them, and will make it easier to change them as needed.
 
