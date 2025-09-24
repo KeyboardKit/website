@@ -1,53 +1,57 @@
 - name: Standard
   styles:
-    - image: /assets/themes/standard.jpg
-    - image: /assets/themes/standard-blue.jpg
-    - image: /assets/themes/standard-green.jpg
-    - image: /assets/themes/standard-pink.jpg
+    - image: /assets/themes/theme-standard.jpg
+    - image: /assets/themes/theme-standard-blue.jpg
+    - image: /assets/themes/theme-standard-green.jpg
+    - image: /assets/themes/theme-standard-purple.jpg
 
 - name: Swifty
   styles:
-    - image: /assets/themes/swifty.jpg
-    - image: /assets/themes/swifty-blue.jpg
-    - image: /assets/themes/swifty-green.jpg
-    - image: /assets/themes/swifty-pink.jpg
+    - image: /assets/themes/theme-swifty.jpg
+    - image: /assets/themes/theme-swifty-blue.jpg
+    - image: /assets/themes/theme-swifty-green.jpg
+    - image: /assets/themes/theme-swifty-purple.jpg
 
 - name: Minimal
   styles:
-    - image: /assets/themes/minimal.jpg
-    - image: /assets/themes/minimal-blue.jpg
-    - image: /assets/themes/minimal-midnight.jpg
-    - image: /assets/themes/minimal-sunset.jpg
-
-- name: Aesthetic
-  styles:
-    - image: /assets/themes/aesthetic-boho.jpg
-
-- name: Candy Shop
-  styles:
-    - image: /assets/themes/candyshop-cottoncandy.jpg
-    - image: /assets/themes/candyshop-cuppycake.jpg
+    - image: /assets/themes/theme-minimal.jpg
+    - image: /assets/themes/theme-minimal-blue.jpg
+    - image: /assets/themes/theme-minimal-green.jpg
+    - image: /assets/themes/theme-minimal-sunset.jpg
 
 - name: Colorful
   styles:
-    - image: /assets/themes/colorful-black.jpg
-    - image: /assets/themes/colorful-blue.jpg
-    - image: /assets/themes/colorful-green.jpg
-    - image: /assets/themes/colorful-orange.jpg
-    - image: /assets/themes/colorful-pink.jpg
-    - image: /assets/themes/colorful-Purple.jpg
-    - image: /assets/themes/colorful-red.jpg
-    - image: /assets/themes/colorful-white.jpg
+    - image: /assets/themes/theme-colorful-blue.jpg
+    - image: /assets/themes/theme-colorful-green.jpg
+    - image: /assets/themes/theme-colorful-orange.jpg
+    - image: /assets/themes/theme-colorful-pink.jpg
+    - image: /assets/themes/theme-colorful-purple.jpg
+    - image: /assets/themes/theme-colorful-red.jpg
+    - image: /assets/themes/theme-colorful-mint.jpg
+    - image: /assets/themes/theme-colorful-yellow.jpg
+
+
+- name: Blueprint
+  styles:
+    - image: /assets/themes/theme-blueprint.jpg
+    - image: /assets/themes/theme-blueprint-dark.jpg
+
+
+- name: Candy Shop
+  styles:
+    - image: /assets/themes/theme-candyshop.jpg
+    - image: /assets/themes/theme-candyshop-cuppycake.jpg
+
 
 - name: Neon
   styles:
-    - image: /assets/themes/neon-night.jpg
+    - image: /assets/themes/theme-neon.jpg
 
 - name: Tron
   styles:
-    - image: /assets/themes/tron.jpg
-    - image: /assets/themes/tron-fcon.jpg
-    - image: /assets/themes/tron-military.jpg
-    - image: /assets/themes/tron-neutral.jpg
-    - image: /assets/themes/tron-sark.jpg
-    - image: /assets/themes/tron-virus.jpg
+    - image: /assets/themes/theme-tron.jpg
+    - image: /assets/themes/theme-tron-fcon.jpg
+    - image: /assets/themes/theme-tron-military.jpg
+    - image: /assets/themes/theme-tron-neutral.jpg
+    - image: /assets/themes/theme-tron-sark.jpg
+    - image: /assets/themes/theme-tron-virus.jpg
