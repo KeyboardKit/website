@@ -13,7 +13,7 @@ KeyboardKit has a ``KeyboardStatus`` namespace that contains status-related type
 
 KeyboardKit Pro unlocks additional status views & utilities, like a complete ``KeyboardStatus.Section``:
 
-<img width="450" alt="A keyboard status section" src="{{page.assets}}keyboardstatussection.jpg" />
+<img width="450" alt="A keyboard status section" src="{{page.assets}}keyboardstatus-section.jpg" />
 
 The view is used by the [KeyboardApp.HomeScreen](/features/app) screen, and can be used as a standalone view.
 

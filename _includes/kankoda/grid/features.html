@@ -9,18 +9,16 @@
         {%- else -%}
         <img src="{{ feature.image }}" alt="{{ feature.title }} icon" title="{{ feature.title }}" />
         {%- endif -%}
+        
+        {%- if feature.tags -%}
+          {% assign tags = feature.tags | split: " " %}
+          {% assign first_tag = tags[0] %}
+          <span class="tag {{first_tag}}">{{first_tag}}</span>
+        {%- endif -%}
       </div>
       <div>
         <h3>{{ feature.title }}</h3>
         <p>{{ feature.text }}</p>
-        <div class="tag-list">
-          {% assign tags = feature.tags | split: " " %}
-          {% for tag in tags %}
-          <span class="tag {{tag}}">{{tag}}</span>
-          {% endfor %}
-          
-        </div>
-        
       </div>
     </a>
     {%- endif -%}

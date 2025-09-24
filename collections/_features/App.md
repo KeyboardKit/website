@@ -36,16 +36,21 @@ You can then use the value to set up your main app and keyboard extension to use
 
 ## 👑 KeyboardKit Pro
 
-KeyboardKit Pro unlocks a ``HomeScreen`` template that can be used as the main app root view, as well as a `SettingsScreen`, `LocaleScreen`, and `ThemeScreen`, etc.:
+KeyboardKit Pro unlocks a ``HomeScreen`` template that can be used as the main app root view, as well as a `Keyboard.SettingsScreen`, `Keyboard.LocaleSettingsScreen`, etc.:
 
 <div class="grid col2">
-    <div><img alt="A Home Screen" src="{{page.assets}}keyboardapp-homescreen.jpg" /></div>
-    <div><img alt="A Settings Screen" src="{{page.assets}}keyboardapp-settingsscreen.jpg" /></div>
-    <div><img alt="A Locale Screen" src="{{page.assets}}keyboardapp-localescreen.jpg" /></div>
-    <div><img alt="A Theme Screen" src="{{page.assets}}keyboardapp-themescreen.jpg" /></div>
+    <span><img src="{{page.assets}}app-homescreen.jpg" /></span>
+    <span><img src="{{page.assets}}app-settings.jpg" /></span>
 </div>
 
-These screens can be used independently as well, in case you have a custom home screen, and can be customized and localized to great extent.
+Most features have their own settings screens that can be used in the main app and the keyboard:
+
+<div class="grid col2">
+    <span><img src="{{page.assets}}autocomplete-settingsscreen.jpg" /></span>
+    <span><img src="{{page.assets}}fonts-settingsscreen.jpg" /></span>
+</div>
+
+These screens can be customized and localized to great extent, using convenient view modifiers.
 
 
 [Pro]: /pro

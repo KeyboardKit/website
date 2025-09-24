@@ -116,7 +116,7 @@ defaults:
     values:
       layout: feature
       page-class: glass-background bg-1
-      assets: /assets/documentation/
+      assets: /assets/features/
   -
     scope:
       type: "posts"

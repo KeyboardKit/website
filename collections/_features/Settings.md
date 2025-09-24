@@ -16,10 +16,10 @@ The various namespaces provide their own settings classes, such as `Autocomplete
 KeyboardKit Pro unlocks screen templates that can be used by the main app or within a keyboard:
 
 <div class="grid col2">
-    <div><img alt="A Home Screen" src="{{page.assets}}keyboardapp-homescreen.jpg" /></div>
-    <div><img alt="A Settings Screen" src="{{page.assets}}keyboardapp-settingsscreen.jpg" /></div>
-    <div><img alt="A Locale Screen" src="{{page.assets}}keyboardapp-localescreen.jpg" /></div>
-    <div><img alt="A Theme Screen" src="{{page.assets}}keyboardapp-themescreen.jpg" /></div>
+    <div><img alt="A Home Screen" src="{{page.assets}}app-homescreen.jpg" /></div>
+    <div><img alt="A Settings Screen" src="{{page.assets}}keyboard-settingsscreen.jpg" /></div>
+    <div><img alt="A Locale Screen" src="{{page.assets}}autocomplete-settingsscreen.jpg" /></div>
+    <div><img alt="A Locale Screen" src="{{page.assets}}keyboardtheme-settingsscreen.jpg" /></div>
 </div>
 
 These screens can be added with a single line of code. Each screen can be customized and localized.

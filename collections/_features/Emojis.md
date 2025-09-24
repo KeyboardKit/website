@@ -24,9 +24,12 @@ KeyboardKit defines standard and custom emoji categories, support for skin tone 
 
 KeyboardKit Pro unlocks an `EmojiKeyboard` that mimics a native emoji keyboard, with support for categories, skin tones, search, etc.
 
-<img width="450" alt="An EmojiKeyboard" src="{{page.assets}}emojikeyboard.jpg" />
+<div class="grid col2">
+    <span><img src="{{page.assets}}emojikeyboard.jpg" /></span>
+    <span><img src="{{page.assets}}emojikeyboard-callout.jpg" /></span>
+</div>
 
-KeyboardKit will automatically register emojis as you use them, to populate the "frequent" category.
+KeyboardKit will automatically register emojis as you use them, to populate the `.frequent` category.
 
 
 [Pro]: /pro

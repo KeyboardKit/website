@@ -29,6 +29,15 @@
   -webkit-backdrop-filter: blur(8px); // For Safari support
   border: 1px solid rgba(255,255,255,0.8);
   box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+
+  .tag {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    z-index: 10;
+    font-size: small;
+    /* Add your existing tag styling here */
+  }
 }
 
 a:hover .glass-panel {

@@ -6,18 +6,22 @@ hero-emoji: 💡
 
 Autocomplete is an important part of the typing experience, where word suggestions can be shown as the user types, and autocorrections can automatically correct mistyped words.
 
-<img width="650" alt="An autocomplete toolbar" src="{{page.assets}}autocompletetoolbar.jpg" />
-
 KeyboardKit has an ``Autocomplete`` namespace that contains autocomplete-related types and views, an observable context, auto-persisted settings, an autocomplete service model, etc.
+
+<img width="550" alt="An autocomplete toolbar" src="{{page.assets}}autocomplete-toolbar.jpg" />
+
+You must use KeyboardKit Pro to unlock an `AutocompleteService` that can autocomplete the typed text and perform predictions, or implement a custom service from scratch.
 
 
 ## 👑 KeyboardKit Pro
 
 [KeyboardKit Pro][Pro] unlocks local autocomplete for many of the [{{site.locales.count}} supported languages](/locales), as well as a remote autocomplete service (Gold) that can integrate with any remote API.
 
-KeyboardKit Pro will automatically perform next-character predictions on the autocomplete result, which is used for "Predictive Typing", where the tap area is increased for more probable keys.
+The `StandardAutocompleteService` that is unlocked by KeyboardKit Pro will autocomplete typed text, and perform various predictions, like next character prediction.
 
-KeyboardKit Pro also unlocks ways to use 3rd party services to perform [next word prediction](/features/ai). You can enable OpenAI and Claude integrations with a single line of code.
+Next-character prediction is used for "Predictive Typing", where the tap area is increased for more probable keys. You can also integrate with 3rd party services for more powerful features.
+
+KeyboardKit Pro unlocks ways to use 3rd party services to perform [next word prediction](/features/ai). You can enable OpenAI and Claude integrations with a single line of code.
 
 
 [Pro]: /pro

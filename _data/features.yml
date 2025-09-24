@@ -3,21 +3,18 @@
   url:    /features/essentials
   text:   KeyboardKit provides essential models, features & views.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/essentials-article
-  tags:   open-source pro
 
 - title:  Keyboard View
   emoji:  ⌨️
   url:    /features/essentials-keyboardview
   text:   KeyboardKit has a native-looking, customizable keyboard view.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/essentials-keyboardview
-  tags:   open-source pro
 
 - title:  Actions
   emoji:  💥
   url:    /features/actions
   text:   KeyboardKit lets you trigger and customize keyboard actions.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/actions-article
-  tags:   open-source pro
 
 - title:  AI Support
   emoji:  🤖
@@ -31,7 +28,6 @@
   url:    /features/app
   text:   KeyboardKit has tools for setting up great keyboard apps.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/app-article
-  tags:   open-source pro
 
 - title:  Autocomplete
   emoji:  💡
@@ -45,14 +41,19 @@
   url:    /features/callouts
   text:   KeyboardKit can show input and secondary action callouts.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/callouts-article
-  tags:   open-source pro
+
+- title:  Clipboard
+  emoji:  📋
+  url:    /features/clipboard
+  text:   KeyboardKit Pro can manage the system clipboard and user clips.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/clipboard-article
+  tags:   pro
 
 - title:  Device Utilities
   emoji:  🖥️
   url:    /features/device-utilities
   text:   KeyboardKit can identify device types, capabilities, etc.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/device-article
-  tags:   open-source pro
 
 - title:  Dictation
   emoji:  🎤
@@ -66,7 +67,6 @@
   url:    /features/emojis
   text:   KeyboardKit has emojis models, an emoji keyboard, etc.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/emojis-article
-  tags:   open-source pro
 
 - title:  Escrow
   emoji:  📦
@@ -87,14 +87,20 @@
   url:    /features/feedback
   text:   KeyboardKit can trigger audio & haptic feedback.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/feedback-article
-  tags:   open-source pro
+
+- title:  Fonts
+  emoji:  𝒜
+  url:    /features/fonts
+  text:   KeyboardKit Pro lets you type with custom unicode fonts.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/fonts-article
+  tags:   pro
+
 
 - title:  Gestures
   emoji:  👆
   url:    /features/gestures
   text:   KeyboardKit can trigger & handle rich keyboard gestures.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/gestures-article
-  tags:   open-source pro
 
 - title:  Host Application
   emoji:  🏠
@@ -108,49 +114,42 @@
   url:    /features/layout
   text:   KeyboardKit has dynamic and fully customizable layout engine.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/layout-article
-  tags:   open-source pro
 
 - title:  Localization
   emoji:  🌐
   url:    /features/localization
   text:   KeyboardKit supports <b>75 locales</b>, with localized assets & layouts.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/localization-article
-  tags:   open-source pro
 
 - title:  Navigation
   emoji:  🗺️
   url:    /features/navigation
   text:   KeyboardKit lets you open urls and apps from the keyboard.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/navigation-article
-  tags:   open-source pro
 
 - title:  Previews
   emoji:  👁
   url:    /features/previews
   text:   KeyboardKit has built-in support for SwiftUI and in-app previews.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/previews-article
-  tags:   open-source pro
 
 - title:  Proxy Utilities
   emoji:  📄
   url:    /features/proxy-utilities
   text:   KeyboardKit can access the full document content in more ways.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/proxy-utilities-article
-  tags:   open-source pro
 
 - title:  Settings
   emoji:  ⚙️
   url:    /features/settings
   text:   KeyboardKit has tools for in-app settings & System Settings.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/settings-article
-  tags:   open-source pro
 
 - title:  Status
   emoji:  🩺
   url:    /features/status
   text:   KeyboardKit can detect & handle keyboard and Full Access states.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/status-article
-  tags:   open-source pro
 
 - title:  Text Input
   emoji:  📝
@@ -164,7 +163,6 @@
   url:    /features/styling
   text:   KeyboardKit lets you design your own beautiful keyboard styles.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/styling-article
-  tags:   open-source pro
 
 - emoji: 🍭
   title:  Themes

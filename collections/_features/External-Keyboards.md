@@ -11,9 +11,11 @@ For these reasons, many custom keyboards chooses to collapse the keyboard and in
 
 ## 👑 KeyboardKit Pro
 
-[KeyboardKit Pro][Pro] unlocks ways to detect if an external keyboard is connected or disconnected, and provides you with ways to automatically collapse the keyboard into a compact view.
+[KeyboardKit Pro][Pro] unlocks ways to detect if an external keyboard is connected or disconnected, and lets you automatically collapse the keyboard when an external keyboard is connected.
 
-KeyboardKit will automatically update its observable state when an external keyboard is connected or disconnected, and can be configured to auto-collapse when a keyboard is connected.
+<img src="{{page.assets}}keyboard-collapsedview.jpg" />
+
+``KeyboardView`` lets you define which view to use as its collapsed variant. You can add more controls to the standard collapsed view.
 
 
 [Pro]: /pro

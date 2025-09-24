@@ -15,12 +15,10 @@ KeyboardKit Pro unlocks a `KeyboardViewPreview` that can preview a ``KeyboardVie
 
 <div class="grid col2">
     <div><img src="{{page.assets}}keyboardview-english.jpg" /></div>
-    <div><img src="{{page.assets}}keyboardviewpreview-theme.jpg" /></div>
+    <div><img src="{{page.assets}}keyboardview-swedish-theme.jpg" /></div>
 </div>
 
-There's also a more lightweight `Keyboard.ButtonPreview` that lets you preview several buttons styles:
-
-![System Keyboard Button Preview]({{page.assets}}keyboardbuttonpreview.jpg)
+There's also a more lightweight `Keyboard.ButtonPreview` that lets you preview several buttons styles.
 
 
 [Pro]: /pro
