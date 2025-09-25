@@ -21,7 +21,14 @@ The KeyboardKit layout engine is flexible and adapts to many factors, like devic
     <span><img src="{{page.assets}}keyboardview-greek.jpg" /></span>
 </div>
 
-KeyboardKit Pro also unlocks ``KeyboardLayout`` capabilities that make it easier to customize a layout.
+KeyboardKit Pro also unlocks views and utilities to let you use the same layout concept to add extra input rows, replace the keyboard with a bottom bar, etc.
+
+<div class="grid col2">
+    <span><img src="{{page.assets}}keyboard-inputtoolbar.jpg" /></span>
+    <span><img src="{{page.assets}}keyboard-bottomrow.jpg" /></span>
+</div>
+
+KeyboardKit Pro also unlocks extra ``KeyboardLayout`` capabilities to make it easy to customize layouts.
 
 
 [Pro]: /pro   

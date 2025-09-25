@@ -1,13 +1,12 @@
 ---
 id: pro-support
-title: KeyboardKit Pro Support
+title: Support
 layout: page
 permalink: /pro/support
 
 hero-icon: /assets/heros/pro.png
-hero-title: Pro Support
 
-description: KeyboardKit Pro has custom support levels for larger organizations
+description: KeyboardKit Pro has many support channels
 ---
 
 [KeyboardKit Pro](/pro) has different support levels, that are based on the license tiers and your needs.
@@ -46,7 +45,7 @@ Gold customers have the option to connect over an initial onboarding call, where
 
 ### Monthly Call
 
-Gold customers have the option to opt-in to a monthly call, where we can keep track of your project, discuss any problems or questions that you may have, etc.
+Gold customers have the option to opt-in to a monthly call, where we keep track of your project, discuss any problems or questions that you may have, etc.
 
 
 ### Discord Server

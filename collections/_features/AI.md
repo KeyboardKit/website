@@ -16,7 +16,7 @@ Such features can be hard to implement, but KeyboardKit Pro lets you do this wit
 [KeyboardKit Pro][Pro] unlocks [features](#pro) that make it easier to add AI-based functionality to a keyboard.
 
 
-### Full Document Reader
+### Document Reader
 
 KeyboardKit Pro unlocks ways for the document proxy to read *all* text from any text field, by moving the text input cursor to unlock more content. See [proxy utilities](/features/proxy-utilities/) for more information.
 

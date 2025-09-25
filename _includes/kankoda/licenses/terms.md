@@ -11,14 +11,14 @@
 
 ## Standard Terms & Conditions
 
-These are the Standard Terms & Conditions for the [{{product}} SDK]({{include.url}}) ("the Software"), which is owned and licensed by [Kankoda Sweden AB]({{kankoda-url}}) (“the Licensee").
+These are the Standard Terms & Conditions for the [{{product}} SDK]({{include.url}}) ("the Software"), which is owned and licensed by [Kankoda Sweden AB]({{kankoda-url}}) (“the Licensor").
 
 The standard license is for indies, startups and small businesses. For companies with $10M+ annual revenue or apps with $1M+ annual revenue, please [contact us]({{custom-email}}) for a custom license.
 
 
 ## License Activation
 
-Standard licenses that are purchased via the online store can be used immediately after purchase, using the unique license key that is provided with the purchase confirmation.
+Standard licenses that are purchased via a subscription can be used immediately after signup, using the unique license key that is provided with the subscription purchase confirmation.
 
 Licenses that are purchased via invoicing or any other means of payment, will typically be activated within two business days after payment has been received.
 
@@ -27,28 +27,28 @@ Licenses that are purchased via invoicing or any other means of payment, will ty
 
 Standard licenses are validated using network requests. The license validation is designed to handle temporary connectivity loss, but requires regular connectivity for a license to be properly validated.
 
-Yearly Gold/Business/Custom/Enterprise licenses are encoded into the Software and also delivered as encrypted files. Both options are validated on-device without requiring network-based validation.
+Yearly Gold/Business/Custom/Enterprise licenses are delivered as encrypted files and are validated on-device, without the need for network-based validation.
 
 
 ## License Expiration
 
-Standard licenses expire when the subscription ends, or when the on-device license or license file expires. This will stop {{product}} from being used until the license is renewed.
+Standard licenses expire when the subscription ends, or when the on-device license or license file expires. This will stop the Software from being used until the license is renewed.
 
-Yearly Gold/Business/Custom/Enterprise licenses can customize the license expiration behavior, to allow a grace period in already shipped versions of the related product.
+Yearly Gold/Business/Custom/Enterprise licenses can customize the license expiration behavior to allow a grace period in already shipped versions of the related product.
 
 
 ## Free Trial
 
-Standard licenses that are purchased via the online store include a free trial with unlimited access to non-consumption features in the selected tier. 
+Standard licenses that are purchased via the online store include a free trial with unlimited access to non-consumption based features in the selected tier. 
 
 The trial will automatically convert to a paid plan if it's not cancelled before the trial period ends.
 
 
 ## Refunds
 
-Standard licenses that are purchased via the online store honor the store refund policy (7 days for Gumroad and 14 days for Paddle).
+Standard licenses that are purchased via the online store honor the store-specific refund policy (7 days for Gumroad, and 14 days for Paddle).
 
-No refunds will be approved after a license has been encoded into the Software or delivered as an encrypted license file.
+No refunds will be approved after a license has been activated and encoded into the Software, or delivered as a license file to the licensee.
 
 
 ## Technical Information
@@ -67,18 +67,20 @@ Features that stop working due to, but not limited to, such changes, may be remo
 
 ## Data Collection
 
-By using the Software under the Standard License (by signing up for a license after June 11th 2025), you grant {{site.copyright_owner}} a right to collect usage data and crash reports from the Software.
+By using the Software under the Standard License, you grant {{site.copyright_owner}} a right to collect usage data and crash reports from the Software.
 
-For a full specification on how the Software may collect data, see the [Software privacy policy]({{privacy-url}}).
+The Software reserves the right to adjust its data collection practices in any future update. For a full specification on how the Software may collect data, see the Software's [privacy policy]({{privacy-url}}).
 
-Custom/Enterprise licenses will automatically opt-out of any data collection. The Software reserves the right to adjust its data collection practices in any future update.
+Custom/Enterprise licenses can opt-out of any data collection practices in the license agreement.
 
 
 ## Right to Market
 
-By using this Software under the Standard License (by signing up for a license after May 30th 2025), you grant {{site.copyright_owner}} a non-exclusive, worldwide, royalty-free right to use your company name, logo, and app name in our marketing materials, case studies, and promotional content. This includes the right to identifying you as a customer and describing your general use of the Software.
+By using the Software under the Standard License, you grant {{site.copyright_owner}} a non-exclusive, worldwide, royalty-free right to use your app/company name and logo in our marketing materials, case studies, and promotional content. 
 
-Custom/Enterprise licenses will automatically opt-out of the right to market, but can opt-in to be included in our marketing material.
+The Right to Market includes the right to identifying you as a customer and describing your general use of the Software.
+
+Custom/Enterprise license customers can opt-out of the right to market in the license agreement.
 
 
 ## Closed-Source License Agreement

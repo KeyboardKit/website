@@ -22,7 +22,7 @@ KeyboardKit defines standard and custom emoji categories, support for skin tone 
 
 ## 👑 KeyboardKit Pro
 
-KeyboardKit Pro unlocks an `EmojiKeyboard` that mimics a native emoji keyboard, with support for categories, skin tones, search, etc.
+KeyboardKit Pro unlocks an `EmojiKeyboard` that mimics the native emoji keyboard, with support for categories, skin tones, search, etc.
 
 <div class="grid col2">
     <span><img src="{{page.assets}}emojikeyboard.jpg" /></span>

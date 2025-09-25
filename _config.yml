@@ -104,12 +104,12 @@ defaults:
       layout: page
       hero-icon-class: plain large
       image: /assets/headers/icon.jpg
+      page-class: glass-background bg-1
   -
     scope:
       type: "case-studies"
     values:
       layout: case-study
-      page-class: glass-background bg-4
   -
     scope:
       type: "features"

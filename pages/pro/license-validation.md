@@ -12,16 +12,18 @@ description: KeyboardKit Pro can validate licenses over the Internet or on-devic
 
 ## License Validation
 
-All [KeyboardKit Pro](/pro) subscription licenses, except Yearly Gold, are validated over the Internet. This means that the keyboard extension requires Full Access to perform network calls.
+All [KeyboardKit Pro](/pro) subscription licenses except Yearly Gold are validated over the network, which means that your keyboard extension needs Full Access to validate your license key.
 
-Yearly Gold Licenses, as well as Custom & Enterprise licenses, are compiled into the library, and are validated on-device, without the need for Full Access or network calls.
+### Offline validation
+
+Yearly Gold, Business, and Enterprise licenses are validated on-device, without need for Full Access.
 
 
 ## License Files
 
-Yearly Gold Licenses, as well as Custom & Enterprise licenses, include a license file that you can use to update your license without having to update KeyboardKit Pro version.
+Yearly Gold, Business, and Enterprise licenses are shipped as license files that automatically unlock KeyboardKit Pro for your app and keyboard.
 
 
 ## License Caching
 
-For all licenses that require network-based validation, KeyboardKit will cache successful validation to be able to handle temporary connectivity loss.
+KeyboardKit automatically cache successful validation to allow for any temporary connectivity loss.

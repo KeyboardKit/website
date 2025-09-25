@@ -2,12 +2,10 @@
 id: pro-custom
 title: Custom & Enterprise Licenses
 layout: page
-permalink: /pro/custom
-
-redirect_from: /pro/addons
+permalink: /pro/custom-licenses
 
 hero-icon: /assets/heros/pro.png
-hero-description: KeyboardKit Pro has custom licenses for organizations with special needs
+hero-description: Licenses for businesses and special needs
 
 description: KeyboardKit Pro provides custom & enterprise licenses for larger organizations
 ---
@@ -51,4 +49,4 @@ Custom licenses can request tailored, multi-platform binary builds for additiona
 
 ## SLA & Dedicated Support
 
-Custom licenses can tailor the SLA and support level to fit your organization's specific needs.
+Business and Enterprise licenses can tailor the SLA and support level to fit your specific needs.
