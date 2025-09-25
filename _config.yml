@@ -124,6 +124,7 @@ defaults:
       layout: post
       author: danielsaidi
       image:  /assets/headers/icon.jpg
+      page-class: glass-background bg-1
 
 exclude:
   - Gemfile

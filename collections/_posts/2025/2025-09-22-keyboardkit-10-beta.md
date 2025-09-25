@@ -7,7 +7,7 @@ image-show: 0
 image: /assets/versions/10_0-beta.jpg
 assets: /assets/blog/25/0922/
 
-release: https://github.com/KeyboardKit/KeyboardKit-Binaries/releases/tag/10.0-b.2
+release: https://github.com/KeyboardKit/KeyboardKit-Binaries/releases/tag/10.0-b.3
 ---
 
 The KeyboardKit 10 Beta is now available to developers! This test version lets you take KeyboardKit 10 for a test drive and provide early feedback and bug reports.
