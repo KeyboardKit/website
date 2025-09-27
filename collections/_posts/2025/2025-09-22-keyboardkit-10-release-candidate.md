@@ -1,16 +1,16 @@
 ---
-title:  KeyboardKit 10 Beta
-date:   2025-09-22 06:00:00 +0100
-tags:   releases fonts clipboard layout
+title:  KeyboardKit 10 Release Candidate
+date:   2025-09-27 06:00:00 +0100
+tags:   releases fonts clipboard emojis layout themes
 
 image-show: 0
 image: /assets/versions/10_0-beta.jpg
-assets: /assets/blog/25/0922/
+assets: /assets/blog/25/0927/
 
-release: https://github.com/KeyboardKit/KeyboardKit-Binaries/releases/tag/10.0-b.3
+release: https://github.com/KeyboardKit/KeyboardKit-Binaries/releases/tag/10.0.0-rc.1
 ---
 
-The KeyboardKit 10 Beta is now available to developers! This test version lets you take KeyboardKit 10 for a test drive and provide early feedback and bug reports.
+The KeyboardKit 10 Release Candidate is out! This final test version lets you take KeyboardKit 10 for a test drive and provide feedback before the release next week.
 
 ![Blog header image]({{page.image}})
 
