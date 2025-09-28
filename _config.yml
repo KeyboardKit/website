@@ -38,10 +38,8 @@ urls:
   appstore:   http://itunes.apple.com/app/keyboardkit/id1568444977
   blog:       /blog
   bluesky:    https://bsky.app/profile/keyboardkit.bsky.social
-  docs:       https://keyboardkit.github.io/KeyboardKit
-  docs_pro:   https://keyboardkit.github.io/KeyboardKitPro
+  docs:       https://docs.keyboardkit.com
   github:     https://github.com/KeyboardKit/KeyboardKit
-  github_pro: https://github.com/KeyboardKit/KeyboardKitPro
   gumroad:    https://kankoda.gumroad.com/l/keyboardkitpro
   mastodon:   https://techhub.social/@keyboardkit
   newsletter: https://kankoda.gumroad.com/subscribe

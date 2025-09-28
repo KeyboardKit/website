@@ -16,7 +16,7 @@ custom-license-email: mailto:info@keyboardkit.com?subject=KeyboardKit%20Pro%20-%
 terms: /pro/terms
 ---
 
-KeyboardKit Pro is a [commercial add-on]({{site.urls.github_pro}}) that unlocks [pro features](#features) like 70+ locales, autocomplete, word prediction, AI support, emojis, themes, dictation, [and much more](#features).
+KeyboardKit Pro is a commercial product that unlocks [pro features](#features) like 70+ locales, autocomplete, word prediction, AI support, emojis, themes, dictation, [and much more](#features).
 
 <a name="pricing" />
 
@@ -31,8 +31,4 @@ The standard [Terms & Conditions]({{page.terms}}) apply to all subscriptions. [c
 
 <a name="features" />
 
-## Pro Features
-
-KeyboardKit Pro unlocks Pro Features, that supercharge your keyboard and take it to the next level.
-
-{% include kankoda/grid/features.html features=site.data.pro-features %}
+{% include features-footer.html %}

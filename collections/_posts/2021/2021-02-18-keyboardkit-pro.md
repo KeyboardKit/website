@@ -28,4 +28,4 @@ KeyboardKit Pro requires a Pro license, which can be requested [here](/pro). The
 
 ## Project Site
 
-KeyboardKit Pro developer information and binaries are available at [the GitHub project site]({{site.urls.github_pro}}).
+KeyboardKit Pro developer information and binaries are available at [the GitHub project site]({{site.urls.github}}).
