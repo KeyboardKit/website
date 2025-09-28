@@ -17,13 +17,10 @@ image-show: 0
 description: KeyboardKit Online Documentation
 ---
 
-The online KeyboardKit [documentation]({{site.urls.docs}}) has a getting-started guide, articles, code samples & type documentation for all available features. KeyboardKit Pro has a [separate documentation website]({{site.urls.docs_pro}}).
+The online KeyboardKit [documentation]({{site.urls.docs}}) has a getting-started guide, articles, code samples & type documentation for all available features.
 
-To demonstrate things that the documentation can't visualize, the [open-source project]({{site.urls.github}}) has a demo app with code samples. You can also get the [KeyboardKit app]({{site.urls.appstore}}) from the App Store to test features.
+To demonstrate things that the documentation can't visualize, the [GitHub repository]({{site.urls.github}}) has a demo app with code samples that shows you how to set up and configure an app and its keyboard. 
+
+You can also download the [KeyboardKit app]({{site.urls.appstore}}) from the App Store to test many of the core and pro features that the SDK provides. This lets you try KeyboardKit without having to write any code.
 
 Make sure to [reach out]({{site.urls.email}}) if you find that the documentation lacks critical information that you need.
-
-
-## Read More
-
-Check out the online [documentation]({{site.urls.docs}}) and [Pro documentation]({{site.urls.docs_pro}}) for more information.
