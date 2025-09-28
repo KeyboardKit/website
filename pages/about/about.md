@@ -20,7 +20,9 @@ stockholm: https://www.google.com/maps/place/Stockholm,+Sweden/@59.3262131,17.81
 
 ## What is KeyboardKit?
 
-KeyboardKit is an [open-source](/open-source) software library (SDK) that lets you build custom keyboards for iOS, and typing tolls for macOS, tvOS, watchOS & visionOS, using native technology like [Swift]({{site.urls.swift}}) & [SwiftUI]({{site.urls.swiftui}}).
+KeyboardKit is a software developer kit (SDK) that lets you build custom keyboards and keyboard-related software for all major Apple platforms (iOS, macOS, tvOS, watchOS and visionOS).
+
+KeyboardKit is uses native technology like [Swift]({{site.urls.swift}}) & [SwiftUI]({{site.urls.swiftui}}), which gives you the full power to create native-running keyboard apps with minimum effort.
 
 
 ## What is a custom keyboard?
@@ -60,12 +62,12 @@ KeyboardKit extends these APIs with many more [features](/features) to let you c
 
 KeyboardKit provides you with a `KeyboardView` that mimics a native keyboard. It can be customized and styled to great extent, and lets you get a native-looking keyboard up and running in minutes.
 
-KeyboardKit is [open-source]({{site.urls.github}}) and completely free to use. You can also upgrade to [KeyboardKit Pro](/pro) to unlock powerful [pro features](/pro#features) like [{{site.locales.count}} languages](/locales), autocomplete, AI-enabling features, etc.
+KeyboardKit is completely free to start using. You can upgrade to [KeyboardKit Pro](/pro) to unlock more powerful [pro features](/pro#features) like [{{site.locales.count}} languages](/locales), autocomplete, emojis, AI-based features, etc.
 
 
 ## Who uses KeyboardKit?
 
-KeyboardKit is open-source, with over 1,5k stars on [GitHub](/open-source). This makes it one of the most popular open-source SDKs for creating custom iOS keyboards.
+With over 1,7k stars on [GitHub]({{site.urls.github}}), KeyboardKit is one of the most popular SDKs for creating custom keyboards on Apple platforms.
 
 KeyboardKit is used by enterprises, smaller companies, startups, universities and indie developers, who use it to improve the typing experience, bring AI-powered prompting to any app, etc.
 
