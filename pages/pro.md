@@ -31,8 +31,4 @@ The standard [Terms & Conditions]({{page.terms}}) apply to all subscriptions. [c
 
 <a name="features" />
 
-## Pro Features
-
-KeyboardKit Pro unlocks Pro Features, that supercharge your keyboard and take it to the next level.
-
-{% include kankoda/grid/features.html features=site.data.pro-features %}
+{% include features-footer.html %}
