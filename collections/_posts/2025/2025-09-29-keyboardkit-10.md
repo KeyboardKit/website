@@ -1,16 +1,16 @@
 ---
-title:  KeyboardKit 10 Release Candidate
-date:   2025-09-27 06:00:00 +0100
+title:  KeyboardKit 10 is out!
+date:   2025-09-29 06:00:00 +0100
 tags:   releases fonts clipboard emojis layout themes
 
 image-show: 0
-image: /assets/versions/10_0-beta.jpg
-assets: /assets/blog/25/0927/
+image: /assets/versions/10_0.jpg
+assets: /assets/blog/25/0929/
 
-release: https://github.com/KeyboardKit/KeyboardKit-Binaries/releases/tag/10.0.0-rc.1
+release: https://github.com/KeyboardKit/KeyboardKit-Binaries/releases/tag/10.0.0
 ---
 
-The KeyboardKit 10 Release Candidate is out! This final test version lets you take KeyboardKit 10 for a test drive and provide feedback before the release next week.
+KeyboardKit 10 is out! This is a huge release with many new features and changes. Let's take a look!
 
 ![Blog header image]({{page.image}})
 
@@ -28,7 +28,7 @@ A single, closed-source SDK will also enable us to serve enterprise customers be
 We strongly believe that going closed-source will make it easier to manage the project and to create new features and great documentation that will help everyone who use KeyboardKit.
 
 
-## 📄 KeyboardKit Pro License Changes
+## 📄 Pro License Changes
 
 KeyboardKit 10 has a new license file format. All license file customers will get an updated file when the new version is released. Until then, you can [reach out]({{site.urls.email}}) to get a new file.
 
@@ -70,7 +70,7 @@ The migration warning approach has been very appreciated in earlier major versio
 
 ## 📗 Documentation
 
-This online documentation is still built for KeyboardKit 9, but you can download the KeyboardKit 10 documentation from the [release page]({{page.release}}).
+The [online documentation]({{site.urls.docs}}) has been updated for 10.0, and now lives at [docs.keyboardkit.com]({{site.urls.docs}}).
 
 
 ## ⚡️ Autocomplete
@@ -148,18 +148,16 @@ Finally `Keyboard.InputType` is a new type that separates the keyboard type from
 
 Views now use environment injection instead of init injection for all observable contexts. This makes it a lot easier to use them, and will make it easier to change them as needed.
 
-The `Keyboard.ButtonContent` no longer displays a locale name for space, since this is no longer in the native keyboard.
-
-The `Keyboard.KeyboardType` has converted some keyboard types to input types. This makes it easier to switch input type wthout affecting the keyboard.
-
-The `KeyboardLayout` now uses iPad Pro layouts on all iPad devices, and on macOS, tvOS & visionOS.
-
 The `KeyboardView` has a fewer init arguments, which makes it a lot easier to use and customize. The final release may remove even a few more arguments.
+
+`Keyboard.KeyboardType` converts some keyboard types to input types to be able to switch without affecting the keyboard, and `KeyboardLayout` uses iPad Pro layouts on iPad, macOS, tvOS & visionOS.
+
+See the [KeyboardKit 10 release notes]({{page.release}}) for a full list of changes and bug fixes.
 
 
 ## Conclusion
 
-KeyboardKit 10 is a huge step forward for the library and for KeyboardKit as a product. Please give this new developer preview a try and let us know if you run into any bugs or problems.
+KeyboardKit 10 is a huge step forward for the library and for KeyboardKit as a product. Please give it a try and let us know if you run into any bugs or problems.
 
 For more info and to download the documentation, please see the [KeyboardKit 10 release notes]({{page.release}}). This page also contains a list of breaking changes that you should be aware of when updating.
 
