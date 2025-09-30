@@ -1,7 +1,7 @@
 ---
 title:  Replacing services with value builders and view modifiers
 date:   2025-04-22 08:00:00 +0100
-tags:   general swiftui
+tags:   general
 
 image-show: 0
 image: /assets/blog/25/0422/image.jpg
