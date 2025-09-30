@@ -1,86 +1,148 @@
+// Scroll
 
-//Global =====================
+  function scrollToOffset(offset) {
+    window.scrollTo({ top: offset, behavior: 'smooth' });
+  }
 
-var audioPlayer;
-
-
-//Init =======================
-
-$(document).ready(function() {
-  $("a[rel='external']").attr("target", "_blank");
-  setupBubbles();
-  setupTitles();
-});
-
-
-//Setup ======================
-
-function setupBubbles() {
-	var amplitude = 1.2;
-	$.each($("div.bubble:not(.no-rotate)"), function(i, el){
-		rotateElement($(el), 2 * amplitude * (Math.random()-0.5));
-		amplitude = -amplitude;
-	});
-}
-
-/*function setupTitles() {
-	var amplitude = 1.5;
-	$.each($(".box"), function(i, el){
-		rotateElement($(el), 2 * amplitude * (Math.random()-0.5));
-		amplitude = -amplitude;
-	});
-}*/
+  function scrollToAnchor(name) {
+    var anchor = $("a[name='"+ name +"']");
+    var offset = anchor.offset().top;
+    scrollToOffset(offset);
+  }
+  
+  function scrollToTop() {
+    scrollToOffset(0);
+  }
 
 
-//Helper methods =============
+  // Licenses
 
-function rotateElement(element, degrees) {
-	element.css('-webkit-transform', 'rotate(' + degrees + 'deg)');
-  	element.css('-moz-transform', 'rotate(' + degrees + 'deg)');
-  	element.css('-ms-transform', 'rotate(' + degrees + 'deg)');
-  	element.css('-o-transform', 'rotate(' + degrees + 'deg)');
-  	element.css('transform', 'rotate(' + degrees + 'deg)');
-}
+  function hideAllLicenseTables() {
+    $(".feature-table").hide();
+    $(".button-container.pricing a").removeClass("active");
+  }
+
+  function hideLicenseTable(sub) {
+    $(".feature-table." + sub).hide();
+  }
+
+  function showLicenseTable(sub) {
+    hideAllLicenseTables();
+    $(".feature-table." + sub).show(); 
+    $(".button-container.pricing ." + sub).addClass("active");
+  }
 
 
-//Audio player ===============
+  // Tags
 
-/*
-function AudioPlayer(source,volume,loop)
-{
-    this.source = "";
-    this.volume = 100;
-    this.loop = false;
-    var son;
-    this.son=son;
-    this.finish=false;
+  function toggleTagList() {
+    let el = $(".tag-list");
+    let toggle = $(".tag-list-toggle");
+    el.toggleClass("expanded");
+    let isExpanded = el.hasClass("expanded");
+    if (isExpanded) {
+      toggle.text("Hide tags");
+    } else {
+      toggle.text("Show tags");
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
 
-    this.play = function(source, volume, loop) {
-	    this.source = "";
-	    this.volume = 100;
-	    this.loop = false;
+  function hideAllTags() {
+    $(".tag-item").hide();
+  }
+
+  function hideTag(tag) {
+    $(".tag-" + tag).hide();
+  }
+
+  function showAllTags() {
+    $(".tag-item").show();
+  }
+
+  function showTag(tag) {
+    if ($(".tag-item")[0]){
+      hideAllTags();
+      $(".tag-" + tag).show();
+      scrollToAnchor("tag-item-list");
+    } else {
+      window.location.href = "/blog#" + tag; 
+    }
+  }
+
+  // Search ***
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const input = document.getElementById('searchbar');
+    const clear = document.getElementById('searchbar-clear');
+    if (!input) return;
+
+    // Find a sensible content scope
+    const scope = document.querySelector('main') || document;
+
+    // All H2s define post starts
+    const h2s = Array.from(scope.querySelectorAll('h2'));
+    if (h2s.length === 0) return;
+
+    // Wrap each post: move the H2 first, then hoover up siblings until the next H2
+    const posts = h2s.map(h2 => {
+      const wrapper = document.createElement('div');
+      wrapper.className = 'search-postblock';
+
+      // Insert wrapper before the h2, then move h2 into it
+      h2.parentNode.insertBefore(wrapper, h2);
+      wrapper.appendChild(h2);
+
+      // After moving h2, the next sibling of the WRAPPER is what used to be h2.nextElementSibling
+      let el = wrapper.nextElementSibling;
+      while (el && el.tagName !== 'H2') {
+        const next = el.nextElementSibling; // cache before moving
+        wrapper.appendChild(el);            // move under wrapper
+        el = next;                          // continue from the original flow
+      }
+
+      // Precompute searchable text
+      const title = (h2.textContent || '').toLowerCase();
+      const text  = (wrapper.textContent || '').toLowerCase();
+      return { wrapper, title, text };
+    });
+
+    // Debounce helper
+    let t = null;
+    const debounce = (fn, ms = 120) => (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), ms); };
+
+    function filter(query) {
+      const q = (query || '').trim().toLowerCase();
+      const showAll = q.length === 0;
+      let anyMatch = false;
+
+      posts.forEach(p => {
+        const match = showAll ? true : (p.title.includes(q) || p.text.includes(q));
+        p.wrapper.style.display = match ? '' : 'none';
+        if (match) anyMatch = true;
+      });
+
+      clear.hidden = showAll;
+
+      // No-results message
+      let empty = document.getElementById('searchbar-empty');
+      if (!empty) {
+        empty = document.createElement('p');
+        empty.id = 'searchbar-empty';
+        empty.style.opacity = '0.75';
+        empty.style.fontStyle = 'italic';
+        posts[0].wrapper.parentElement.insertBefore(empty, posts[0].wrapper);
+      }
+      empty.textContent = (!anyMatch && !showAll) ? 'No posts matched your search.' : '';
     }
 
-    this.start=function()
-    {
-        if(this.finish)return false;
-        this.son=document.createElement("embed");
-        this.son.setAttribute("src",this.source);
-        this.son.setAttribute("hidden","true");
-        this.son.setAttribute("volume",this.volume);
-        this.son.setAttribute("autostart","true");
-        this.son.setAttribute("loop",this.loop);
-        document.body.appendChild(this.son);
-    }
+    input.addEventListener('input', debounce(e => filter(e.target.value)));
+    clear.addEventListener('click', () => { input.value = ''; filter(''); input.focus(); });
 
-    this.stop=function()
-    {
-        document.body.removeChild(this.son);
+    // Support prefilled ?q=
+    const params = new URLSearchParams(location.search);
+    if (params.has('q')) {
+      input.value = params.get('q');
+      filter(input.value);
     }
-    this.remove=function()
-    {
-        document.body.removeChild(this.son);
-        this.finish=true;
-    }
-}
-*/
+  });

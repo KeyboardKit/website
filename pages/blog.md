@@ -6,12 +6,17 @@ permalink: /blog/
 page-class: glass-background bg-4
 ---
 
-<h1>Blog</h1>
+<div class="searchbar-header">
+  <h1>Blog</h1>
+
+  {% include kankoda/search/searchbar %}
+</div>
 
 <div class="blog list">
-    {%- include kankoda/tags/list.html tags=site.tags firstmost="releases,pro,promos" -%}
+    {%- include kankoda/tags/tag-list.html tags=site.tags firstmost="releases,pro" -%}
+
     {% for post in site.posts %}
     {% include kankoda/blog/list-item.html post=post %}
     {% endfor %}
-    {%- include kankoda/tags/scripts.html -%}
+    {%- include kankoda/tags/tag-scripts.html -%}
 </div>
