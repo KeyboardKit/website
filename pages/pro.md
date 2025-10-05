@@ -4,8 +4,6 @@ title: Pro
 layout: page
 permalink: /pro
 
-page-class: glass-background bg-1
-
 hero-title: KeyboardKit Pro
 hero-description: Unlock pro features that take your keyboard to the next level
 hero-icon: /assets/heros/pro.png

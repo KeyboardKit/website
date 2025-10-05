@@ -4,8 +4,6 @@ title: Terminology
 layout: page
 permalink: /about/terminology
 
-page-class: glass-background bg-1
-
 hero-icon: /assets/heros/icon.png
 hero-title: Terminology
 hero-description: Custom Keyboard Concepts

@@ -4,7 +4,7 @@ title: Documentation
 layout: page
 permalink: /documentation
 
-page-class: glass-background bg-4
+page-class: glass-background bg4
 
 redirect_from: /docs
 

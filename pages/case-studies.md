@@ -3,7 +3,7 @@ layout: blog
 title: Case Studies
 permalink: /case-studies/
 
-page-class: glass-background bg-4
+page-class: glass-background bg4
 
 image: /assets/headers/case-studies.jpg
 ---

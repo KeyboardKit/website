@@ -3,7 +3,7 @@ layout: blog
 title: Blog
 permalink: /blog/
 
-page-class: glass-background bg-4
+page-class: glass-background bg4
 ---
 
 <div class="searchbar-header">

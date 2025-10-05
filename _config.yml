@@ -102,7 +102,7 @@ defaults:
       layout: page
       hero-icon-class: plain large
       image: /assets/headers/icon.jpg
-      page-class: glass-background bg-1
+      page-class: glass-background bg1
   -
     scope:
       type: "case-studies"
@@ -113,7 +113,7 @@ defaults:
       type: "features"
     values:
       layout: feature
-      page-class: glass-background bg-1
+      page-class: glass-background bg1
       assets: /assets/features/
   -
     scope:
@@ -122,7 +122,7 @@ defaults:
       layout: post
       author: danielsaidi
       image:  /assets/headers/icon.jpg
-      page-class: glass-background bg-1
+      page-class: glass-background bg1
 
 exclude:
   - Gemfile
