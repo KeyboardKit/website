@@ -1,7 +1,7 @@
 {% assign tags = (include.tags | sort:0) %}
 {% assign firstmost = (include.firstmost | split: ",") %}
 
-<section class="tag-list">
+<section class="tag-list {{include.class}}">
   <a class="tag all" href="javascript:showAllTags()">
     show all
   </a>

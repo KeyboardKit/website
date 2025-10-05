@@ -56,6 +56,31 @@ section.tag-list {
   }
 }
 
+.tag-list.collapsed {
+  height: 125px;
+  overflow: hidden;
+  border-bottom: solid 1px #0002;
+  transition: all 200ms ease-in-out, color 1s ease-out 100ms !important;
+}
+
+.tag-list.expanded {
+  height: inherit;
+  border-bottom: none;
+}
+
+.tag-list-separator {
+  text-align: center;
+
+  a {
+    margin: 20px;
+  }
+
+  hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
 .tag-list-toggle {
   font-size: small;
   display: inline-block;

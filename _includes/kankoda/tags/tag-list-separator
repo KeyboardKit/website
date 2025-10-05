@@ -1,0 +1,5 @@
+<div class="tag-list-separator" >
+  <a class="tag-list-toggle" href="javascript:toggleTagList()">Show tags</a>
+  <hr />
+</div>
+<a name="tag-item-list"></a>
