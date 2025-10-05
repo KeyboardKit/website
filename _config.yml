@@ -53,20 +53,22 @@ urls:
 #    text: 👑 Cyber Monday Discount - Save 50% on KeyboardKit Pro! 👑
 #    url:  /blog/2024/12/02/cyber-monday
 
-header_pages:
-  - pages/home.md
-  - pages/features.md
-  - pages/blog.md
-  - pages/pricing.md
+header:
+  pages:
+    - pages/home.md
+    - pages/features.md
+    - pages/blog.md
+    - pages/pricing.md
 
-footer_sitemap:
-  - index.html
-  - pages/about/about.md
-  - pages/features.md
-  - pages/pricing.md
-  - pages/app/app.md
-  - pages/case-studies.md
-  - pages/documentation.md
+footer:
+  sitemap:
+    - index.html
+    - pages/about/about.md
+    - pages/features.md
+    - pages/pricing.md
+    - pages/app/app.md
+    - pages/case-studies.md
+    - pages/documentation.md
 
 collections_dir: collections
 

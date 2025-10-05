@@ -9,7 +9,7 @@
         {%- else -%}
         <img src="{{ feature.image }}" alt="{{ feature.title }} icon" title="{{ feature.title }}" />
         {%- endif -%}
-        
+          
         {%- if feature.tags -%}
           {% assign tags = feature.tags | split: " " %}
           {% assign first_tag = tags[0] %}

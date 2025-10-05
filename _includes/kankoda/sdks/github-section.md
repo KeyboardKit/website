@@ -1,1 +1,1 @@
-{{ page.title }} is hosted at [GitHub]({{include.sdk.github}}), where you find releases, [documentation]({{include.sdk.documentation}}), code samples, an issue tracker, release notes, and more.
+{{ page.title }} is hosted at [GitHub]({{include.sdk.github}}), where you find releases, an issue tracker, [documentation]({{include.sdk.documentation}}), etc.
