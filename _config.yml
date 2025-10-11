@@ -48,6 +48,9 @@ urls:
   swift: https://www.swift.org
   swiftui: https://developer.apple.com/xcode/swiftui/
 
+analytics:
+  measurement-id: G-XJ0HPZDSM3
+
 # header:
 #  banner:
 #    text: 👑 Cyber Monday Discount - Save 50% on KeyboardKit Pro! 👑
