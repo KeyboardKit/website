@@ -71,6 +71,31 @@ p + .grid {
   }
 }
 
+.grid.image-item {
+  grid-template-columns: 2fr 2fr;
+  gap: 3rem;
+  align-items: end;
+
+  div {
+    text-align: left;
+    margin-bottom: 20px;
+    h3 { 
+      font-size: 1.2em;
+      margin-bottom: 0px;
+    }
+  }
+}
+
+.grid.image-item.reversed {
+  img { order: 2; }
+  p { order: 1; }
+}
+
+.grid.image-item + .grid.image-item {
+
+  margin-top: 60px !important;
+}
+
 @media (max-width: 600px) {
   
   .grid.home { 
@@ -84,6 +109,13 @@ p + .grid {
   
   .grid.col2, .grid.col3 { 
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid.image-item {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0rem;
+    img { order: 1; }
+    div { order: 2; }
   }
 }
 

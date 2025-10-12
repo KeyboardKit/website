@@ -17,13 +17,15 @@
       {{page.hero-emoji}}
   </div>
   {% endif %}
-  <h1>{{page.hero-title | default: page.title}}</h1>
-  {% if page.hero-tagline %}
-  <h2>{{page.hero-tagline}}</h2>
-  <h3>{{page.hero-description | default: page.description}}</h3>
-  {% else %}
-  <h2>{{page.hero-description | default: page.description}}</h2>
-  {% endif %}
+  <div class="text">
+    <h1>{{page.hero-title | default: page.title}}</h1>
+    {% if page.hero-tagline %}
+    <h2>{{page.hero-tagline}}</h2>
+    <h3>{{page.hero-description | default: page.description}}</h3>
+    {% else %}
+    <h2>{{page.hero-description | default: page.description}}</h2>
+    {% endif %}
+  </div>
 
   {%- if page.cta or page.cta-secondary -%}
   <div class="cta-container">

@@ -3,6 +3,10 @@
 	border: 0 !important;
   padding-top: 15px;
 
+  a {
+    font-weight: 600;
+  }
+
   .row {
     align-items: center;
     min-height: 40px;
@@ -65,10 +69,18 @@
   }
 
   .column {
+    opacity: 0.75;
     flex-basis: 20%;
+    font-size: smaller;
     
     p {
-      font-weight: bold;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    p:first-of-type {
+      margin-top: 0px;
     }
 
     a, div {

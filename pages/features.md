@@ -8,15 +8,14 @@ page-class: glass-background bg3
 
 hero-title: Features
 hero-icon: /assets/heros/features.png
+hero-tagline: Powerful keyboard features
+hero-description: KeyboardKit is packed with features that help you build amazing keyboards.
 
 image: /assets/headers/features.jpg
 image-show: 0
 
-description: KeyboardKit has powerful keyboard and input-related features
+description: KeyboardKit has powerful keyboard-related features
 ---
-
-KeyboardKit is packed with powerful core features that help you build amazing keyboards. You can upgrade to [KeyboardKit Pro](/pro) to unlock pro features that take your apps to the next level.
-
 
 ## Languages
 

@@ -77,11 +77,18 @@
 
       <div class="column">
         <p>Kankoda</p>
-        <a href="https://kankoda.com">Kankoda</a>
+        <a href="https://kankoda.com">Website</a>
+
+        <p>SDKs</p>
         <a href="https://keyboardkit.com">KeyboardKit</a>
         <a href="https://kankoda.com/licensekit">LicenseKit</a>
+        <a href="https://kankoda.com/vietnameseinput">VietnameseInput</a>
+
+        <p>Apps</p>
+        <a href="https://kankoda.com/emojipicker">Emoji Picker</a>
+        <a href="https://keyboardkit.com/app">KeyboardKit</a>
+        <a href="https://kankoda.com/onetouchpaste">One Touch Paste</a>
         <a href="https://wally.app">Wally</a>
-        <a href="https://kankoda.com/emojipicker">EmojiPicker</a>
       </div>
 
     </div>
