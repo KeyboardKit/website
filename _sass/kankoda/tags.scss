@@ -31,10 +31,10 @@
   border: solid 1px #ddaa00;
 }
 
-.tag.releases {
+.tag.releases, .tag.slides {
   color: black !important;
   background-color: white;
-  border: solid 1px #aaa;
+  border: solid 1px black;
 }
 
 .tag.swift {
@@ -68,11 +68,13 @@ section.tag-list {
   border-bottom: none;
 }
 
-.tag-list-separator {
+.tag-list-toggle {
   text-align: center;
 
   a {
     margin: 20px;
+    font-size: small;
+    display: inline-block;
   }
 
   hr {
@@ -81,7 +83,18 @@ section.tag-list {
   }
 }
 
-.tag-list-toggle {
-  font-size: small;
-  display: inline-block;
+.tag-list-toggle + p {
+  margin-top: 40px;
+}
+
+.tag-date-title {
+
+  font-size: smaller; 
+  color: $foreground-secondary !important;
+  
+  .tags {
+    .tag {
+      font-size: smaller; 
+    }
+  }
 }

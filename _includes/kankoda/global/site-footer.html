@@ -45,10 +45,10 @@
         {% endif %}
       </div>
       
-      {% if site.footer_extra_title %}
+      {% if site.footer.extra.title %}
       <div class="column">
-        <p>{{site.footer_extra_title }}</p>
-        {% include kankoda/global/site-footer-links.html paths=site.footer_extra %}
+        <p>{{site.footer.extra.title }}</p>
+        {% include kankoda/global/site-footer-links.html paths=site.footer.extra.url %}
       </div>
       {% endif %}
       
@@ -56,7 +56,7 @@
       <div class="column">
         <p>App</p>
         <a href="{{site.urls.appstore}}">App Store</a>
-        {% include kankoda/global/site-footer-links.html paths=site.footer_app %}
+        {% include kankoda/global/site-footer-links.html paths=site.footer.app %}
       </div>
       {% endif %}
       

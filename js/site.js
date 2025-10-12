@@ -37,12 +37,14 @@ function showLicenseTable(sub) {
 
 function toggleTagList() {
   let el = $(".tag-list");
-  let toggle = $(".tag-list-toggle");
+  let toggle = $(".tag-list-toggle a");
   el.toggleClass("expanded");
   let isExpanded = el.hasClass("expanded");
   if (isExpanded) {
+    el.removeClass("collapsed")
     toggle.text("Hide tags");
   } else {
+    el.addClass("collapsed")
     toggle.text("Show tags");
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }

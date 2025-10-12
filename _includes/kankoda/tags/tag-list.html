@@ -5,13 +5,15 @@
   <a class="tag all" href="javascript:showAllTags()">
     show all
   </a>
-  ·&nbsp;
-  {% for tag in firstmost %}
-    {% include kankoda/tags/tag.html name=tag %}
-  {% endfor %}
+  {% if firstmost %}
+    ·&nbsp;
+    {% for tag in firstmost %}
+      {% include kankoda/tags/tag.html name=tag %}
+    {% endfor %}
+  {% endif %}
   ·&nbsp;
   {% for tag in tags %}
-    {% assign name = tag | first | slugify %}
+    {% assign name = tag | first | slugify | default: tag %}
     {% if firstmost contains name %}
     {% else %}
       {% include kankoda/tags/tag.html name=name %}
