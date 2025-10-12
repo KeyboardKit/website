@@ -6,5 +6,6 @@
   {% include kankoda/site/head-styles %}
   {% include kankoda/site/head-scripts %}
   {% include kankoda/site/head-icons %}
+  
   {% include kankoda/site/head-google-analytics %}
 </head>
