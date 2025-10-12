@@ -44,18 +44,21 @@ description: KeyboardKit is a powerful SDK for creating custom keyboard extensio
   </section>
 
   <section>
-    <h2>Social Media</h2>
-    <p>Follow KeyboardKit on <a href="{{site.urls.bluesky}}">Bluesky</a> and <a href="{{site.urls.mastodon}}">Mastodon</a> for the latest news.</p>
-    <div>
-      {% include kankoda/buttons/social name="bluesky" href=site.urls.bluesky class="scale" %}
-      {% include kankoda/buttons/social name="mastodon" href=site.urls.mastodon class="scale" %}  
+    <div class="grid col2">
+      <div>
+        <h2>Social Media</h2>
+        <p>Follow KeyboardKit on <a href="{{site.urls.bluesky}}">Bluesky</a> and <a href="{{site.urls.mastodon}}">Mastodon</a> for the latest news.</p>
+        <div>
+          {% include kankoda/buttons/social name="bluesky" href=site.urls.bluesky class="scale" %}
+          {% include kankoda/buttons/social name="mastodon" href=site.urls.mastodon class="scale" %}  
+        </div>
+      </div>
+      <div>
+        <h2>Newsletter</h2>
+        <p>Subscribe to <a href="{{site.urls.newsletter}}">the KeyboardKit newsletter</a> for periodic updates.</p>
+        {% include kankoda/widgets/newsletter %}
+      </div>
     </div>
-  </section>
-
-  <section>
-    <h2>Newsletter</h2>
-    <p>Subscribe to <a href="{{site.urls.newsletter}}">the KeyboardKit newsletter</a> for periodic updates.</p>
-    {% include kankoda/widgets/newsletter %}
   </section>
   
   <section>
@@ -67,5 +70,7 @@ description: KeyboardKit is a powerful SDK for creating custom keyboard extensio
     {% include case-study-links.html items=studies limit=4 featured=true %}
   </section>
 
-  {% include features-footer.html %}
+  <section>
+    {% include features-footer.html %}
+  </section>
 </div>
