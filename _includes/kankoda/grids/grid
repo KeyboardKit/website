@@ -14,7 +14,7 @@
       {% continue %}
     {% else %}
     <a href="{{item-url}}" name="{{item-slug}}" title="{{item-title}}" class="scale">
-      {% include kankoda/grid/item.html type=type title=item-title name=item-title icon=icon image=item-image image-class=item-image-class %}
+      {% include kankoda/grids/grid-item type=type title=item-title name=item-title icon=icon image=item-image image-class=item-image-class %}
     </a>  
     {% endif %}
   {% endfor %}

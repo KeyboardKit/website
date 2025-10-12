@@ -4,7 +4,7 @@ layout: default
 
 <article class="blog post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   
-  {% include kankoda/buttons/back.html url="/blog" title="Blog" %}
+  {% include kankoda/buttons/back url="/blog" title="Blog" %}
 
   {% assign url_bluesky = page.bsky | default: site.urls.bluesky %}  
   {% assign url_mastodon = page.toot | default: site.urls.mastodon %}  
@@ -14,7 +14,7 @@ layout: default
     {{ page.title | escape }}
   </h1>
 
-  {% include kankoda/tags/tag-date-title item=page links=0 %}
+  {% include kankoda/tags/date-title item=page links=0 %}
 
   <div class="e-content" itemprop="articleBody">
     {{ content }}
@@ -31,4 +31,4 @@ layout: default
   <a class="u-url" href="{{page.url | relative_url}}" hidden></a>
 </article>
 
-{% include kankoda/tags/tag-scripts.html %}
+{% include kankoda/tags/scripts %}

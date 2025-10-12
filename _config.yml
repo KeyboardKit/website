@@ -48,7 +48,7 @@ urls:
   swift: https://www.swift.org
   swiftui: https://developer.apple.com/xcode/swiftui/
 
-analytics:
+google-analytics:
   measurement-id: G-XJ0HPZDSM3
 
 # header:

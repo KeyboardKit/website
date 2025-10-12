@@ -24,4 +24,4 @@
 {% assign unique_tags = all_tags | uniq | sort %}
 
 {% comment %} Display the sorted tags {% endcomment %}
-{% include kankoda/tags/tag-list.html tags=unique_tags firstmost=include.firstmost class=include.class %}
+{% include kankoda/tags/list tags=unique_tags firstmost=include.firstmost class=include.class %}

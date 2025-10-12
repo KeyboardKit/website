@@ -25,7 +25,7 @@ description: KeyboardKit is a powerful SDK for creating custom keyboard extensio
 
   <section>
     <h2>Explore</h2>
-    {% include kankoda/grid/features.html features=site.data.home-features %}
+    {% include kankoda/grids/features features=site.data.home-features %}
   </section>
 
   <section>
@@ -36,7 +36,7 @@ description: KeyboardKit is a powerful SDK for creating custom keyboard extensio
     <div class="grid home blog list">
       {% for post in site.posts limit:2 %}
       <div>
-        {% include kankoda/blog/image-item.html post=posts.first tag-limit=1 %}
+        {% include kankoda/blog/image-item post=posts.first tag-limit=1 %}
       </div>
       {% endfor %}
     </div>
@@ -46,15 +46,15 @@ description: KeyboardKit is a powerful SDK for creating custom keyboard extensio
     <h2>Social Media</h2>
     <p>Follow KeyboardKit on <a href="{{site.urls.bluesky}}">Bluesky</a> and <a href="{{site.urls.mastodon}}">Mastodon</a> for the latest news.</p>
     <div>
-      {% include kankoda/buttons/social.html name="bluesky" href=site.urls.bluesky class="scale" %}
-      {% include kankoda/buttons/social.html name="mastodon" href=site.urls.mastodon class="scale" %}  
+      {% include kankoda/buttons/social name="bluesky" href=site.urls.bluesky class="scale" %}
+      {% include kankoda/buttons/social name="mastodon" href=site.urls.mastodon class="scale" %}  
     </div>
   </section>
 
   <section>
     <h2>Newsletter</h2>
     <p>Subscribe to <a href="{{site.urls.newsletter}}">the KeyboardKit newsletter</a> for periodic updates.</p>
-    {% include kankoda/widgets/newsletter.html %}
+    {% include kankoda/widgets/newsletter %}
   </section>
   
   <section>

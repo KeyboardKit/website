@@ -18,7 +18,7 @@ KeyboardKit Pro comes with many predefined themes, as well as style variations f
 <section class="themes">
 {% for theme in site.data.themes %}
     <h3>{{theme.name}}</h3>
-    {% include kankoda/grid/grid.html items=theme.styles type="themes" image-class="keyboard-theme" image-folder="/assets/themes/" image-extension="jpg" %}
+    {% include kankoda/grids/grid items=theme.styles type="themes" image-class="keyboard-theme" image-folder="/assets/themes/" image-extension="jpg" %}
 {% endfor %}
 </section>
 

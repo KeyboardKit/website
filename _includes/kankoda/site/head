@@ -1,0 +1,10 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {% include kankoda/site/head-fonts %}
+  {% include kankoda/site/head-styles %}
+  {% include kankoda/site/head-scripts %}
+  {% include kankoda/site/head-icons %}
+  {% include kankoda/site/head-google-analytics %}
+</head>

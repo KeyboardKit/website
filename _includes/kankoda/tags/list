@@ -8,7 +8,7 @@
   {% if firstmost %}
     ·&nbsp;
     {% for tag in firstmost %}
-      {% include kankoda/tags/tag.html name=tag %}
+      {% include kankoda/tags/tag name=tag %}
     {% endfor %}
   {% endif %}
   ·&nbsp;
@@ -16,7 +16,7 @@
     {% assign name = tag | first | slugify | default: tag %}
     {% if firstmost contains name %}
     {% else %}
-      {% include kankoda/tags/tag.html name=name %}
+      {% include kankoda/tags/tag name=name %}
     {% endif %}
   {% endfor %}
 </section>

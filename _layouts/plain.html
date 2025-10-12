@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  {% include kankoda/head/head.html %}
+  {% include kankoda/site/head %}
 
   <body class="{{page.id}} {{page.page-class}}"> 
     
     <!-- Header -->
     <header class="site-header" role="banner">
-      {% include kankoda/global/site-header.html %}
+      {% include kankoda/site/header %}
     </header>
 
     <!-- Content -->
     <main class="page-content" aria-label="Content">
-      {% include kankoda/heros/hero.html %}
+      {% include kankoda/site/hero %}
       {{ content }}
     </main>
 
     <!-- Footer -->
-    {% include kankoda/global/site-footer.html %}
+    {% include kankoda/site/footer %}
   </body>
 </html>

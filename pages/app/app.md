@@ -26,4 +26,4 @@ The KeyboardKit app uses [KeyboardKit Pro](/pro) to support many [pro](/pro) fea
 
 For information on how the app collects and uses data (it doesn't), you find the privacy policy [here](/app/privacy-policy).
 
-{% include kankoda/buttons/app-store.html image-class="plain" %}
+{% include kankoda/buttons/app-store image-class="plain" %}

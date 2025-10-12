@@ -12,12 +12,12 @@ page-class: glass-background bg4 paper
 </div>
 
 <div class="blog list">
-  {%- include kankoda/tags/tag-list.html tags=site.tags firstmost="releases,pro" class="collapsed" -%}
-  {% include kankoda/tags/tag-list-toggle %}
+  {%- include kankoda/tags/list tags=site.tags firstmost="releases,pro" class="collapsed" -%}
+  {% include kankoda/tags/list-toggle %}
   
   <a name="tag-item-list"></a>
     {% for post in site.posts %}
-      {% include kankoda/blog/list-item.html post=post %}
+      {% include kankoda/blog/list-item post=post %}
     {% endfor %}
-    {%- include kankoda/tags/tag-scripts.html -%}
+    {%- include kankoda/tags/scripts -%}
 </div>

@@ -6,5 +6,5 @@
     <img src="{{post.image}}" alt="{{post.title}}" class="scale">
     <h3>{{ post.title }}</h3>
   </a>
-  {% include kankoda/tags/tag-date-title item=post tag-limit=tag-limit %}
+  {% include kankoda/tags/date-title item=post tag-limit=tag-limit %}
 </article>

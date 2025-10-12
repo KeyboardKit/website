@@ -3,17 +3,17 @@
     {% if site.header_axis == "vertical" %}
     <div class="center-content">
       <p>
-        {% include kankoda/global/site-header-logo.html %}
+        {% include kankoda/site/header-logo %}
       </p>
-      {% include kankoda/global/site-header-links.html %}
+      {% include kankoda/site/header-links %}
     </div>
     {% else %}  
     <div class="row">
       <div class="column">
-        {% include kankoda/global/site-header-logo.html %}
+        {% include kankoda/site/header-logo %}
       </div>
       <div class="column">
-        {% include kankoda/global/site-header-links.html %}
+        {% include kankoda/site/header-links %}
       </div>
     </div>
     {% endif %}

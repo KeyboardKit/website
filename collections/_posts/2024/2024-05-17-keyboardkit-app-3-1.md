@@ -21,4 +21,4 @@ The new iPad Pro layout has been added to all locales. This means that you can e
 
 We hope you like this new version of the KeyboardKit app!
 
-{% include kankoda/buttons/app-store.html image-class="plain" %}
+{% include kankoda/buttons/app-store image-class="plain" %}
