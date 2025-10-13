@@ -3,6 +3,8 @@ title:  KeyboardKit 9.1 is out
 date:   2025-01-30 08:00:00 +0100
 tags:   releases essentials app emojis layout ui
 
+redirect_from: /blog/2025/01/27/keyboardkit-9-1-rc
+
 image-show: 0
 image: /assets/versions/9_1.jpg
 assets: /assets/blog/25/0130/
