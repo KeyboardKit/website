@@ -11,7 +11,7 @@ rob: https://www.linkedin.com/in/rob-whitaker/
 daniel: https://accessibilityupto11.com
 
 article1: https://peterheery.me/posts/supporting-voiceover-typing-preferences/
-article2: https://accessibilityupto11.com/Blog/2021-01-21-01/
+article2: https://accessibilityupto11.com/post/2021-01-21-01/
 article-rotor: https://support.apple.com/en-gb/111796
 article-switch: https://support.apple.com/en-us/119835
 
