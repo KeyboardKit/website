@@ -7,7 +7,7 @@ title: KeyboardKit
 description: >-
   KeyboardKit helps you create custom keyboards for iOS and iPadOS, using Swift and SwiftUI. 
 
-url: http://keyboardkit.com
+url: https://keyboardkit.com
 email: info@keyboardkit.com
 
 is_lib: 1
@@ -35,7 +35,7 @@ urls:
   email-custom-terms: mailto:info@keyboardkit.com?subject=Custom%20Terms
   rss:        https://keyboardkit.com/feed.xml
 
-  appstore:   http://itunes.apple.com/app/keyboardkit/id1568444977
+  appstore:   https://itunes.apple.com/app/keyboardkit/id1568444977
   blog:       /blog
   bluesky:    https://bsky.app/profile/keyboardkit.bsky.social
   docs:       https://docs.keyboardkit.com
@@ -78,10 +78,10 @@ collections_dir: collections
 collections:
   case-studies:
     output: true
-    permalink: /case-studies/:name/
+    permalink: /case-studies/:name
   features:
     output: true
-    permalink: /features/:name/
+    permalink: /features/:name
   posts:
     output: true
     permalink: /blog/:categories/:year/:month/:day/:title
