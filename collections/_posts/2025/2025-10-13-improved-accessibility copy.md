@@ -1,7 +1,7 @@
 ---
 title:  Improved Accessibility
-date:   2025-10-13 07:00:00 +0100
-tags:   releases accessibility
+date:   2025-10-13 06:00:00 +0100
+tags:   accessibility
 
 assets: /assets/blog/25/1013/
 image: /assets/blog/25/1013/image.jpg
