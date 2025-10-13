@@ -6,7 +6,7 @@ hero-description: Make the text document proxy do more
 hero-emoji: 📄
 ---
 
-Custom keyboards use a [text document proxy](/about/terminology) to integrate with the currently active text field. It lets you insert and delete text, get the selected text, move the input cursor, etc.
+Custom keyboards use a [text document proxy](/terminology) to integrate with the currently active text field. It lets you insert and delete text, get the selected text, move the input cursor, etc.
 
 The native proxy APIs are however *very* limited, which makes it hard to get information about the text and to perform many common keyboard operations. 
 

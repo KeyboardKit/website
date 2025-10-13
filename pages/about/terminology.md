@@ -2,7 +2,8 @@
 id: about-terminology
 title: Terminology
 layout: page
-permalink: /about/terminology
+permalink: /terminology
+redirect_from: /about/terminology
 
 hero-icon: /assets/heros/icon.png
 hero-title: Terminology
