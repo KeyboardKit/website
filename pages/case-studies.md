@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Case Studies
-permalink: /case-studies/
+permalink: /case-studies
 
 page-class: glass-background bg4
 

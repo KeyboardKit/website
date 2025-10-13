@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Blog
-permalink: /blog/
+permalink: /blog
 
 page-class: glass-background bg4 paper
 ---
