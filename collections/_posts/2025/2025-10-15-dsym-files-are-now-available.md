@@ -3,8 +3,8 @@ title:  dSYMs are now available
 date:   2025-10-15 06:00:01 +0100
 tags:   releases accessibility
 
-assets: /assets/blog/25/1014/
-image: /assets/blog/25/1014/image.jpg
+assets: /assets/blog/25/1015/
+image: /assets/blog/25/1015/image.jpg
 image-show: 0
 
 release: https://github.com/KeyboardKit/KeyboardKit-Binaries/releases/tag/10.0.2
