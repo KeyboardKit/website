@@ -2,6 +2,7 @@
 {%- assign date = include.item.date -%}
 {%- assign tags = include.item.tags -%}
 {%- assign links = include.links | default: 1 -%}
+{%- assign limit = include.tag-limit | default: 1000 -%}
 
 <p class="tag-date-title">
   <span class="date">
@@ -11,7 +12,7 @@
   &nbsp;·&nbsp;
   
   <span class="tags">
-    {%- assign tags = tags -%}
+    {%- assign tags = tags | slice: 0, limit -%}
     {%- if tags -%}
       {%- for tag in tags -%}
         {%- assign tag = tag | slugify -%}

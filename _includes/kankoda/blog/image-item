@@ -1,6 +1,5 @@
 {%- assign post = include.post -%}
 {%- assign tag-limit = include.tag-limit -%}
-
 <article class="image-item">
   <a href="{{post.url}}" title="{{post.title}}">
     <img src="{{post.image}}" alt="{{post.title}}" class="scale">
