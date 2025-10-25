@@ -48,8 +48,11 @@ Gold customers have the option to connect over an initial onboarding call, where
 Gold customers have the option to opt-in to a monthly call, where we keep track of your project, discuss any problems or questions that you may have, etc.
 
 
+### Reddit
+
+All license customers are welcome to join the [KeyboardKit subreddit]({{site.urls.reddit}}), which is where discussions about the KeyboardKit SDK takes place.
+
+
 ### Discord Server
 
-The KeyboardKit Discord server is available to all Pro users, and offers private, company-specific channels to Gold and Custom license customers.
-
-If you purchased your license from [Gumroad]({{site.urls.gumroad}}), you'll find the Discord link on your purchase screen. Otherwise, [reach out]({{site.email_url}}?subject=Discord) for an invite.
+The KeyboardKit Discord server is available to all Gold and Business customers, and offers public and private, company-specific channels.

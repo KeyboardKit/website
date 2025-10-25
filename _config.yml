@@ -43,10 +43,11 @@ urls:
   gumroad:    https://kankoda.gumroad.com/l/keyboardkitpro
   mastodon:   https://techhub.social/@keyboardkit
   newsletter: https://kankoda.gumroad.com/subscribe
+  reddit:     https://www.reddit.com/r/KeyboardKit
   twitter:    https://twitter.com/keyboardkitsdk
 
-  swift: https://www.swift.org
-  swiftui: https://developer.apple.com/xcode/swiftui/
+  swift:      https://www.swift.org
+  swiftui:    https://developer.apple.com/xcode/swiftui/
 
 google-analytics:
   measurement-id: G-XJ0HPZDSM3

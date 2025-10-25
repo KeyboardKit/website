@@ -37,6 +37,9 @@
         {% if site.urls.mastodon %}
         <a href="{{site.urls.mastodon}}">Mastodon</a>
         {% endif %}
+        {% if site.urls.reddit %}
+        <a href="{{site.urls.reddit}}">Reddit</a>
+        {% endif %}
         {% if site.urls.instagram %}
         <a href="{{site.urls.instagram}}">Instagram</a>
         {% endif %}
