@@ -7,6 +7,10 @@ image-show: 0
 image: /assets/versions/10_0.jpg
 assets: /assets/blog/25/0929/
 
+redirect_from: 
+    - /blog/2025/09/15/keyboardkit-10-beta
+    - /blog/2025/09/08/keyboardkit-10-beta
+
 release: https://github.com/KeyboardKit/KeyboardKit-Binaries/releases/tag/10.0.0
 ---
 

@@ -3,10 +3,11 @@ title:  KeyboardKit 9.0
 date:   2024-12-02 08:00:00 +0100
 tags:   releases
 
-redirect_from: /blog/2024/11/08/keyboardkit-9-rc1
-redirect_from: /blog/2024/11/12/keyboardkit-9-rc2
-redirect_from: /blog/2024/11/20/keyboardkit-9-rc4
-redirect_from: /blog/2024/11/21/keyboardkit-9-rc5
+redirect_from: 
+    - /blog/2024/11/08/keyboardkit-9-rc1
+    - /blog/2024/11/12/keyboardkit-9-rc2
+    - /blog/2024/11/20/keyboardkit-9-rc4
+    - /blog/2024/11/21/keyboardkit-9-rc5
 
 image: /assets/versions/9.jpg
 

@@ -35,7 +35,7 @@ KeyboardKit lets you customize the [callouts](/features/callouts) that are shown
 
 ## Services
 
-KeyboardKit has services for most behavior, like an [action handler](/features/action), an [autocomplete service](/features/autocomplete), etc. All services can be replaced by your own custom implementations.
+KeyboardKit has services for most behavior, like an [action handler](/features/actions), an [autocomplete service](/features/autocomplete), etc. All services can be replaced by your own custom implementations.
 
 [KeyboardKit Pro](/pro) unlocks [pro services](/pro), such as local and remote autocomplete, an action handler that registers the most recent emojis, etc. You can use them as they are, or customize them further.
 
