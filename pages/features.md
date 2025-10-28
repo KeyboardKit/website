@@ -19,8 +19,10 @@ description: KeyboardKit has powerful keyboard-related features
 
 ## Languages
 
-KeyboardKit supports [{{site.locales.count}} languages](/locales):
+KeyboardKit supports [{{site.locales.count}} languages](/locales).
 
 {{site.locales.flags}}
+
+Please see [this page](/locales) for a full list of the exact locales.
 
 {% include features-footer.html %}

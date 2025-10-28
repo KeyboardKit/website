@@ -16,14 +16,14 @@
 - title: GitHub
   url:  https://github.com/keyboardkit/keyboardkit
   image: /assets/heros/github.png
-  text: KeyboardKit is hosted on GitHub free to start using.
+  text: KeyboardKit is hosted on GitHub and free to start using.
 
 - title: App
   url:  /app
   image: /assets/heros/app.png
-  text: Create custom keyboards directly on your iPhone or iPad.
+  text: A custom keyboard that is truly yours, for your iPhone and iPad.
 
 - title: Documentation
   url:  /documentation
   image: /assets/heros/documentation.png
-  text: KeyboardKit has an extensive online documentation.
+  text: The online documentation helps you get started with KeyboardKit.
