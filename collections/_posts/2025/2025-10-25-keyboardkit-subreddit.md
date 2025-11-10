@@ -1,7 +1,7 @@
 ---
 title:  KeyboardKit Subreddit
 date:   2025-10-25 08:00:00 +0100
-tags:   social
+tags:   social support
 
 assets: /assets/blog/25/1025/
 image: /assets/blog/25/1025/image.jpg
