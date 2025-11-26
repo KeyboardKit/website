@@ -18,5 +18,9 @@ Enter the following discount code in the [checkout flow]({{site.urls.gumroad}}),
   BLACK-FRIDAY-2025
 </div>
 
-
 There has never been a better time to go Pro! See the [KeyboardKit Pro info page](/pro) for more details.
+
+
+## Network & Community
+
+We are so happy to have an amazing network of friends and partners. See [BlackFridayDeals.dev](https://blackfridaydeals.dev/deals/swift/#keyboard-kit-pro-list) for other amazing Black Friday deals from the community.
