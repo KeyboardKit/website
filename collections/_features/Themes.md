@@ -13,12 +13,17 @@ KeyboardKit Pro unlocks a theme engine, with many themes, an observable context 
 
 ## 👑 KeyboardKit Pro
 
-KeyboardKit Pro comes with many predefined themes, as well as style variations for each theme. You can create custom themes and use a `KeyboardTheme.Shelf` to list and pick available themes.
+KeyboardKit Pro comes with many predefined themes, with various style variations for each theme.
 
 <section class="themes">
 {% for theme in site.data.themes %}
     <h3>{{theme.name}}</h3>
-    {% include kankoda/grids/grid items=theme.styles type="themes" image-class="keyboard-theme" image-folder="/assets/themes/" image-extension="jpg" %}
+    <div class="grid col4">
+    {% for style in theme.styles %}
+      <img src="{{style.image}}" alt="Style preview" style="border-radius:6px" />
+    {% endfor %}
+    </div>
+    {{style}}
 {% endfor %}
 </section>
 
