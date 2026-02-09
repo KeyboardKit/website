@@ -20,16 +20,20 @@ You must use KeyboardKit Pro to unlock an `AutocompleteService` that can autocom
 The `StandardAutocompleteService` that is unlocked by KeyboardKit Pro will autocomplete typed text, and perform various predictions, like next character prediction.
 
 
-### Next Character Prediction
-
-KeyboardKit Pro will use autocomplete results to perform next character prediction to predict which keys that are more likely to be pressed next.
-
-Next-character prediction is also used for "Predictive Typing", where the key tap area is increased for more probable keys. You can also integrate with 3rd party services for more powerful features.
-
-
 ### Next Word Prediction
 
-KeyboardKit Pro unlocks ways to use 3rd party services to perform next word prediction. You can enable OpenAI and Claude integrations with a single line of code.
+KeyboardKit Pro unlocks ways to use Apple Intelligence and 3rd party tools like Claude and OpenAI to perform next word prediction. You can enable OpenAI and Claude with a single line of code.
+
+
+### Next Character Prediction
+
+KeyboardKit Pro can use autocomplete to perform next character prediction, to predict which keys that are more likely to be pressed next.
+
+
+### Predictive Typing
+
+KeyboardKit Pro can use next character prediction to enable "Predictive Typing", where the key tap area is increased for more probable keys.
+
 
 
 [Pro]: /pro

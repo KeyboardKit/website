@@ -23,7 +23,7 @@ KeyboardKit Pro unlocks ways for the document proxy to read *all* text from any 
 
 ### Next Word Prediction
 
-KeyboardKit Pro unlocks ways to use 3rd party tools like Claude and OpenAI to perform next word prediction. This makes autocomplete even better. See [autocomplete](/features/autocomplete) for more information.
+KeyboardKit Pro unlocks ways to use Apple Intelligence and 3rd party tools like Claude and OpenAI to perform next word prediction. See [autocomplete](/features/autocomplete) for more information.
 
 
 ### Text Input
