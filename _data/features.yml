@@ -1,7 +1,7 @@
 - title:  Essentials
   emoji:  🌱
   url:    /features/essentials
-  text:   KeyboardKit provides essential models, features & views.
+  text:   KeyboardKit comes with essential models, features & views.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/essentials-article
 
 - title:  Keyboard View
@@ -26,8 +26,9 @@
 - title:  App Utilities
   emoji:  📱
   url:    /features/app
-  text:   KeyboardKit has tools for setting up great keyboard apps.
+  text:   KeyboardKit makes it easy to set up great keyboard apps.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/app-article
+  tags:   pro
 
 - title:  Autocomplete
   emoji:  💡
@@ -49,12 +50,6 @@
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/clipboard-article
   tags:   pro
 
-- title:  Device Utilities
-  emoji:  🖥️
-  url:    /features/device-utilities
-  text:   KeyboardKit can identify device types, capabilities, etc.
-  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/device-article
-
 - title:  Dictation
   emoji:  🎤
   url:    /features/dictation  
@@ -67,12 +62,6 @@
   url:    /features/emojis
   text:   KeyboardKit has emojis models, an emoji keyboard, etc.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/emojis-article
-
-- title:  Escrow
-  emoji:  📦
-  url:    /features/escrow
-  text:   KeyboardKit Pro offers Escrow Services to enterprise customers.
-  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/escrow
   tags:   pro
 
 - title:  External Keyboards
@@ -120,6 +109,7 @@
   url:    /features/localization
   text:   KeyboardKit supports <b>75 locales</b>, with localized assets & layouts.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/localization-article
+  tags:   pro
 
 - title:  Navigation
   emoji:  🗺️
@@ -127,23 +117,19 @@
   text:   KeyboardKit lets you open urls and apps from the keyboard.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/navigation-article
 
-- title:  Previews
-  emoji:  👁
-  url:    /features/previews
-  text:   KeyboardKit has built-in support for SwiftUI and in-app previews.
-  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/previews-article
-
 - title:  Proxy Utilities
   emoji:  📄
   url:    /features/proxy-utilities
   text:   KeyboardKit can access the full document content in more ways.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/proxy-utilities-article
+  tags:   pro
 
 - title:  Settings
   emoji:  ⚙️
   url:    /features/settings
   text:   KeyboardKit has tools for in-app settings & System Settings.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/settings-article
+  tags:   pro
 
 - title:  Status
   emoji:  🩺
