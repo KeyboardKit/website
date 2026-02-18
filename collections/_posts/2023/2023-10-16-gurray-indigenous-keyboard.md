@@ -1,5 +1,5 @@
 ---
-title:  Gurray - Australian Indigenous Keyboard
+title:  New Case Study - Gurray Indigenous Keyboard
 date:   2023-10-16 08:00:00 +0100
 tags:   case-studies
 
@@ -11,4 +11,4 @@ anomaly:    https://anomaly.ltd
 portfolio:  https://www.anomaly.ltd/portfolio/wcc/gurray
 ---
 
-Say hello to [Gurray]({{page.appstore}}) - a keyboard for indigenous communication, developed by Australian [Anomaly Software]({{page.anomaly}}) for the [WCC Language Program]({{page.wcclp}}).
+Say hello to [Gurray]({{page.appstore}}) - a keyboard for Australian indigenous communication, developed by Australian [Anomaly Software]({{page.anomaly}}) for the [WCC Language Program]({{page.wcclp}}).
