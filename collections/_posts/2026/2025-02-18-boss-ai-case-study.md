@@ -6,7 +6,7 @@ tags:   case-studies
 image: /assets/case-studies/boss-ai/header.jpg
 redirect_to: /case-studies/boss-ai
 
-appstore: https://apps.apple.com/us/app/boss-ai-voice-first-keyboard/id6738732843
+website: https://bossai.tech
 ---
 
-Meet [BossAI]({{page.appstore}}) - a voice-first AI keyboard that transforms how you use your apps. Speak naturally, get polished text. Give a command, get intelligent responses. All without leaving your conversation.
+Meet [BossAI]({{page.website}}) - a voice-first AI keyboard that transforms how you use your apps. Speak naturally, get polished text. Give a command, get intelligent responses. All without leaving your conversation.

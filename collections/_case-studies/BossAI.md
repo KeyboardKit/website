@@ -8,18 +8,19 @@ assets: /assets/case-studies/boss-ai/
 featured: 1
 
 appstore: https://apps.apple.com/us/app/boss-ai-voice-first-keyboard/id6738732843
+website:  https://bossai.tech
 developer: Hyathi Technologies
 developer-url: https://hyathi.com
 ---
 
-Meet [BossAI]({{page.appstore}}) - a voice-first AI keyboard that transforms how you use your apps. Speak naturally, get polished text. Give a command, get intelligent responses. All without leaving your conversation.
+Meet [BossAI]({{page.website}}) - a voice-first AI keyboard that transforms how you use your apps. Speak naturally, get polished text. Give a command, get intelligent responses. All without leaving your conversation.
 
 ![BossAI Header Image]({{page.image}})
 
 
 ## What is BossAI?
 
-[BossAI]({{page.appstore}}) is a voice-first AI keyboard with two powerful modes that work in every app with a text field - Mail, Slack, WhatsApp, LinkedIn, code editors, and more.
+[BossAI]({{page.website}}) is a voice-first AI keyboard with two powerful modes that work in every app with a text field - Mail, Slack, WhatsApp, LinkedIn, code editors, and more.
 
 <div class="grid col3">
     <div class="col"><img src="{{page.assets}}screenshot-1.webp"></div>
@@ -55,11 +56,11 @@ Rather than reinventing keyboard fundamentals, KeyboardKit provided an infrastru
 
 > Clean architecture, solid documentation, and Daniel's responsiveness made it straightforward to build on top of KeyboardKit. Without it, the product would have taken significantly longer to ship.
 
-The Hyathi team could dedicate their expertise to what makes BossAI different, and add that on top of the keyboard engine. [BossAI]({{page.appstore}}) is now live on the App Store.
+The Hyathi team could dedicate their expertise to what makes BossAI different, and add that on top of the keyboard engine. [BossAI]({{page.website}}) is now live on the App Store.
 
 
 ## Give it a try
 
-Download [BossAI]({{page.appstore}}) from the App Store today to experience their vision of voice-first communication. Stop typing your thoughts - speak them. Let AI handle the rest.
+Download [BossAI]({{page.website}}) from the [App Store]({{page.appstore}}) today to experience their vision of voice-first communication. Stop typing your thoughts - speak them. Let AI handle the rest.
 
 {% include kankoda/buttons/app-store image-class="plain" url=page.appstore %}
