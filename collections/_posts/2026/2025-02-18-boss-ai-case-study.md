@@ -4,7 +4,7 @@ date:   2026-02-18 08:00:00 +0100
 tags:   case-studies
 
 image: /assets/case-studies/boss-ai/header.jpg
-redirect_to: /case-studies/boss-ai
+redirect_to: /case-studies/bossai
 
 website: https://bossai.tech
 ---
