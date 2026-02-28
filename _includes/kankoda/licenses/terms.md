@@ -13,7 +13,7 @@
 
 These are the Standard Terms & Conditions for the [{{product}} SDK]({{include.url}}) ("the Software"), which is owned and licensed by [Kankoda Sweden AB]({{kankoda-url}}) (“the Licensor").
 
-The standard license is for indies, startups and small businesses. For companies with $10M+ annual revenue or apps with $1M+ annual revenue, please [contact us]({{custom-email}}) for a custom license.
+The standard license is for indies, startups and small businesses. For companies with $10M+ annual revenue or apps with $1M+ annual revenue, please [contact us]({{custom-email}}) for a <a href="/pro/custom-licenses">custom plan</a>.
 
 
 ## License Activation

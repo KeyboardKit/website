@@ -1,7 +1,8 @@
 ---
 title: AI Support
 description: Essential features for AI keyboards
-hero-emoji: 🤖
+hero:
+  emoji: 🤖
 ---
 
 Apple's native keyboard APIs lack many features that are often needed for AI-powered keyboards.

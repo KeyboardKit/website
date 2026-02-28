@@ -1,7 +1,8 @@
 ---
 title: Actions
 description: Trigger keyboard actions with ease
-hero-emoji: 💥
+hero:
+  emoji: 💥
 ---
 
 KeyboardKit has a ``KeyboardAction`` enum that defines keyboard-specific actions , like ``.character``, ``.backspace``, ``.nextLocale``, ``.nextKeyboard``, etc. It's also a namespace for action-related types & views.

@@ -2,7 +2,11 @@
 title: Locales
 permalink: /locales
 redirect_from: /languages
-hero-icon: /assets/heros/locales.png
+
+hero:
+  icon: /assets/heros/locales.png
+  icon-class: plain
+  
 description: KeyboardKit supports 75 locales
 ---
 

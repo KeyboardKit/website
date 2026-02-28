@@ -1,7 +1,8 @@
 ---
 title: Themes
 description: Flexible keyboard themes
-hero-emoji: 🍭
+hero:
+  emoji: 🍭
 
 redirect_from: 
   - /themes

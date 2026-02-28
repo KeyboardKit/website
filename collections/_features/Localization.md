@@ -1,7 +1,8 @@
 ---
 title: Localization
 description: KeyboardKit supports 75 locales
-hero-emoji: 🌐
+hero:
+  emoji: 🌐
 ---
 
 KeyboardKit supports [{{site.locales.count}} locales](/locales):

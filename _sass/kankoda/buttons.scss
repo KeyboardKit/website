@@ -15,22 +15,8 @@ a.cta + a.cta {
   margin-left: 20px;
 }
 
-.hero a.cta, a.cta.padding {
-  padding: 10px;
-}
-
 a.cta:hover { color: $cta-foreground; }
 a.cta:visited { color: $cta-foreground !important; }
-
-a.cta.secondary {
-  color: $cta-secondary-foreground;
-  background-color: $cta-secondary-background;
-  border-color: $cta-secondary-border !important;
-  border: solid 1px;
-}
-
-a.cta.secondary:hover { color: $cta-secondary-foreground; }
-a.cta.secondary:visited { color: $cta-secondary-foreground !important; }
 
 .cta-container {
   text-align: center;

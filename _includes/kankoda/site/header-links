@@ -8,7 +8,13 @@
       </a>
     </li>
   {%- endfor -%}
-  {%- if site.header.cta -%}
+  {%- if page.cta or page.cta-secondary -%}
+  <li></li>
+    <a href="{{ page.cta.url }}" class="cta scale">
+      {{ page.cta.title }}
+    </a>
+  </li>
+  {%- elsif site.header.cta -%}
   <li>
     <a href="{{ site.header.cta.url }}" class="cta">
       {{ site.header.cta.title }}

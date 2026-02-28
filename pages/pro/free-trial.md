@@ -1,11 +1,13 @@
 ---
-id: free-trial
+id: trial
 title: KeyboardKit Pro - Free Trial
 layout: page
-permalink: /pro/free-trial
+permalink: /pro/trial
 redirect_from: trial
 
-hero-image: /assets/heros/pro.png
+hero:
+  icon: /assets/heros/pro.png
+  icon-class: plain
 
 description: KeyboardKit Pro has a free trial
 ---

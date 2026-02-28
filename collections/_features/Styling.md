@@ -1,7 +1,8 @@
 ---
 title: Styling
 description: Easily style your custom keyboard
-hero-emoji: 🎨
+hero:
+  emoji: 🎨
 ---
 
 While iOS has very limited ways to customize the look and feel of the native keyboard, KeyboardKit can be styled and customized with styles and themes.

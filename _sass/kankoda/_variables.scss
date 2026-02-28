@@ -28,10 +28,6 @@ $cta-background: $cta-blue;
 $cta-foreground: white;
 $cta-border: transparent;
 
-$cta-secondary-background: transparent;
-$cta-secondary-foreground: $cta-blue;
-$cta-secondary-border: $cta-blue;
-
 $feature-table-border-color: $border;
 $feature-table-background: white;
 $feature-table-even-row-color: #f7f7f7;
@@ -58,3 +54,6 @@ $tag-swiftui: #004080;
 $texture: transparent;
 $texture-size: 350px;
 $texture-overlay: transparent;
+
+$wrapper-width: 900px;
+$wrapper-width-wide: 1200px;

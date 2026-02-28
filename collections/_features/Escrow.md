@@ -1,7 +1,8 @@
 ---
 title:  Software Escrow Services
 description: Protect your software investment
-hero-emoji: 📦
+hero:
+  emoji: 📦
 ---
 
 The KeyboardKit Pro Enterprise Plan includes software escrow services, which provide an additional layer of security and continuity for companies that rely on businesses Pro.

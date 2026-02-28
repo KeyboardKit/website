@@ -1,7 +1,8 @@
 ---
 title: Navigation
 description: Open the main app and custom URLs
-hero-emoji: 🗺️
+hero:
+  emoji: 🗺️
 ---
 
 Custom keyboards may have to open a URL or trigger a deep link, for instance to take the user to an app to perform a task, or to Settings to perform system configurations.

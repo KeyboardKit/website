@@ -40,6 +40,11 @@ p + .grid {
   }
 }
 
+.grid.icons.liquid-glass, .grid.icons .liquid-glass {
+  border-radius: none;
+  box-shadow: none;
+}
+
 .grid.col2 { 
   grid-template-columns: repeat(2, 1fr);
 }

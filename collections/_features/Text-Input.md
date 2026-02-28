@@ -1,7 +1,8 @@
 ---
 title: Text Input
 description: Let users type within the keyboard
-hero-emoji: 📝
+hero:
+  emoji: 📝
 ---
 
 Custom keyboards will by default only send typed text to the [host application](/terminology)'s text field, and will not detect if you try to type text into a text field in the keyboard.

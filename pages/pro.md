@@ -4,10 +4,11 @@ title: Pro
 layout: page
 permalink: /pro
 
-hero-title: KeyboardKit Pro
-hero-icon: /assets/heros/pro.png
-hero-tagline: Unlock pro features that take your keyboard to the next level
-hero-description: KeyboardKit Pro unlocks critical <a href="#features">pro features</a> like 70+ languages, on-device autocomplete & autocorrect, AI support, themes, emoijs, and <a href="#features">much more</a>.
+hero:
+  title: KeyboardKit Pro
+  icon: /assets/heros/pro.png
+  icon-class: plain
+  description: KeyboardKit Pro unlocks critical <a href="#features">pro features</a> like 70+ languages, on-device autocomplete & autocorrect, AI support, themes, emoijs, and <a href="#features">much more</a>.
 
 description: KeyboardKit Pro unlocks pro features that take your keyboard to the next level
 
@@ -17,7 +18,7 @@ terms: /pro/terms
 
 ## Pricing
 
-The standard tiers are for indies, startups and small businesses. For companies with $10M+ annual revenue or apps with $1M+ annual revenue, please [contact us]({{site.urls.email-custom-plan}}) for a custom plan.
+The standard tiers are for indies, startups and small businesses. For companies with $10M+ annual revenue or apps with $1M+ annual revenue, please [contact us]({{site.urls.email-custom-plan}}) for a <a href="/pro/custom-licenses">custom license</a>.
 
 {% include licenses/feature-table.html tiers=site.data.tiers %}
 

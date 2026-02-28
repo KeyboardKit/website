@@ -1,7 +1,8 @@
 ---
 title: Essentials
 description: Essential keyboard features
-hero-emoji: 🌱
+hero:
+  emoji: 🌱
 
 keyboard-view: /features/essential-keyboardview
 ---

@@ -1,9 +1,12 @@
 ---
 title: Proxy Utilities
 
-hero-title: Text Document Proxy Utilities
-hero-description: Make the text document proxy do more
-hero-emoji: 📄
+hero:
+  title: Text Document Proxy Utilities
+  emoji: 📄
+
+description: Make the custom keyboard text document proxy do more
+  
 ---
 
 Custom keyboards use a [text document proxy](/terminology) to integrate with the currently active text field. It lets you insert and delete text, get the selected text, move the input cursor, etc.

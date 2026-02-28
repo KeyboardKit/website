@@ -1,7 +1,8 @@
 ---
 title: Callouts
 description: Customizable input and action callouts
-hero-emoji: 🗯
+hero:
+  emoji: 🗯
 ---
 
 Callouts are an important part of the typing experience, where input callouts highlight the currently pressed input key and action callouts show secondary actions.

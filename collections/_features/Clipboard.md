@@ -1,7 +1,8 @@
 ---
 title: Clipboard
 description: Paste from the pasteboard and user clips
-hero-emoji: 📋
+hero:
+  emoji: 📋
 ---
 
 KeyboardKit makes it easy to integrate with the system clipboard, where the user can paste directly from the system pasteboard, or from a list of custom clips.

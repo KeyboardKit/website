@@ -1,5 +1,4 @@
 {% assign product = include.product %}
-{% include kankoda/buttons/back title=product url=include.url %}    
 
 ## Add-ons
 

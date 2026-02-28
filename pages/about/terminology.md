@@ -5,11 +5,11 @@ layout: page
 permalink: /terminology
 redirect_from: /about/terminology
 
-hero-icon: /assets/heros/icon.png
-hero-title: Terminology
-hero-description: Custom Keyboard Concepts
+hero:
+  icon: /assets/heros/icon.png
+  icon-class: plain
 
-description: This page describes custom iOS keyboard terminology
+description: This page describes some common terminology that is involved with custom iOS keyboard.
 
 sponsor: https://github.com/sponsors/danielsaidi
 

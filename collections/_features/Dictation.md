@@ -1,7 +1,8 @@
 ---
 title: Dictation
 description: Trigger dictation from the keyboard
-hero-emoji: 🎤
+hero:
+  emoji: 🎤
 ---
 
 Dictation can be used to let users enter text by speaking instead of typing. This can be hard to do in a keyboard extension where microphone access is unavailable, but [KeyboardKit Pro](/pro) makes it easy. 

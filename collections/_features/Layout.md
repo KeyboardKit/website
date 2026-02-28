@@ -1,7 +1,8 @@
 ---
 title: Layout
 description: A powerful and flexible layout engine
-hero-emoji: 🔣
+hero:
+  emoji: 🔣
 ---
 
 

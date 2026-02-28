@@ -1,35 +1,35 @@
 ---
 id: home
 title: Home
-layout: default
+layout: plain
 
 image:  /assets/headers/icon.jpg
 
 page-class: glass-background bg1
 
-hero-image: /assets/devices.png
-hero-title: KeyboardKit
-hero-description: KeyboardKit is an SDK that makes it easy to create custom keyboard apps on all major Apple platforms, using Swift & SwiftUI.
-hero-tagline: Create amazing custom keyboards
+hero:
+  title: Create amazing custom keyboards
+  image: /assets/heros/devices.png
+  description: KeyboardKit lets you create custom keyboard apps for all Apple platforms, using modern mobile technologies like Swift & SwiftUI.
+  tagline: 
 
-description: KeyboardKit is a powerful SDK for creating custom keyboard extensions
+description: 
 ---
 
 <div class="home-content paper">
   
-  <section>
+  <section class="wrapper">
     <p>
-      KeyboardKit lets you create <a href="/about">custom keyboards</a> in no time, using technologies like <a href="{{site.urls.swift}}">Swift</a> & <a href="{{site.urls.swiftui}}">SwiftUI</a>.
-      It's <a href="{{site.urls.github}}">free to start using</a>, has many <a href="/features">features</a> and can be extended with <a href="/pro">pro features</a>.
+      KeyboardKit generates a custom keyboard that looks and behaves just like the native keyboard, <button type="submit"></button> can be customized to look and behave exactly like you want it to.
     </p>
   </section>
 
-  <section>
+  <section class="wrapper wide">
     <h2>Explore</h2>
     {% include kankoda/grids/features features=site.data.home-features %}
   </section>
 
-  <section>
+  <section class="wrapper wide">
     <h2>Latest News</h2>
     <p> 
       Follow the <a href="/blog">KeyboardKit blog</a> for news & updates.
@@ -43,7 +43,7 @@ description: KeyboardKit is a powerful SDK for creating custom keyboard extensio
     </div>
   </section>
 
-  <section>
+  <section class="wrapper">
     <div class="grid col2">
       <div>
         <h2>Social Media</h2>
@@ -61,7 +61,7 @@ description: KeyboardKit is a powerful SDK for creating custom keyboard extensio
     </div>
   </section>
   
-  <section>
+  <section class="wrapper wide">
     <h2>Case Studies</h2>
     <p> 
       Check out some <a href="/case-studies">case-studies</a> of amazing apps & products that use KeyboardKit in their keyboards.
@@ -70,7 +70,7 @@ description: KeyboardKit is a powerful SDK for creating custom keyboard extensio
     {% include case-study-links.html items=studies limit=4 featured=true %}
   </section>
 
-  <section>
+  <section class="wrapper">
     {% include features-footer.html %}
   </section>
 </div>

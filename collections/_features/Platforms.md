@@ -1,23 +1,21 @@
 ---
 title: Platform Support
 
-hero-title: Multi-Platform Support
-hero-description: Support all major Apple platforms
-hero-emoji: 📱 💻 📺 ⌚️
+hero:
+  icon: /assets/heros/pro.png
+  icon-class: plain
+
+description: KeyboardKit Pro support all major Apple platforms
 ---
 
-KeyboardKit supports all major Apple platforms (iOS, macOS, tvOS, watchOS, visionOS) and can be used to create keyboard-oriented apps on all platforms.
 
-So even if you may think that it may make little sense to create a keyboard app for, say, Apple TV, you can still use KeyboardKit's models, settings, etc. to extend your product offering.
+## Multi-Platform Support
 
-One example could be a macOS companion app that lets users manage App Group-synced settings, create keyboard settings-related widgets for quick access on the Apple Watch, etc.
+While KeyboardKit supports iOS, [KeyboardKit Pro][Pro] supports *all* major Apple platforms (iOS, macOS, tvOS, watchOS, visionOS) and can be used to create keyboard-oriented apps on all platforms.
 
+Even if a custom keyboard makes little sense on the laptop, watch, or TV, you can use KeyboardKit to extend your product offering and create companion apps for your custom keyboard.
 
-## How does it work?
-
-Since KeyboardKit is a closed-source library, it must be explicitly built for each platform. This means that we must explicitly create separate tags for each platform combination.
-
-Given that this involve additional complexities in the release creation process, we only provide this to [KeyboardKit Pro][Pro] customers (Gold and above), who [reach out]({{site.urls.email}}) to us regarding this.
+Since KeyboardKit Pro must be explicitly built for each platform, we only provide on-demand builds for specific versions to [Business][Pro] customers who [reach out]({{site.urls.email}}) to us regarding this.
 
 
 ## Android
@@ -27,12 +25,6 @@ Although Android support hasn't been requested that much in the past, more compa
 We have so far been focused on making KeyboardKit the best it can be for Swift and SwiftUI, but are investigating what it would involve to also support Android.
 
 Please [reach out]({{site.urls.email}}) if you need Android support, or if you'd be willing to invest in making this happen.
-
-
-
-## 👑 KeyboardKit Pro
-
-By signing up for [KeyboardKit Pro][Pro] Gold or higher, you can [reach out]({{site.urls.email}}) to adjust the release process to involve the platforms you need.
 
 
 

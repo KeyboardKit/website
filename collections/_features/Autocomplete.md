@@ -1,7 +1,8 @@
 ---
 title: Autocomplete
 description: Autocomplete and autocorrect text
-hero-emoji: 💡
+hero:
+  emoji: 💡
 ---
 
 Autocomplete is an important part of the typing experience, where word suggestions can be shown as the user types, and autocorrections can automatically correct mistyped words.

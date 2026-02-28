@@ -1,7 +1,8 @@
 ---
 title: Fonts
 description: Type with custom fonts
-hero-emoji: 𝒜
+hero:
+  emoji: 𝒜
 ---
 
 KeyboardKit can apply a custom unicode font to your keyboard, to let users type with custom fonts.

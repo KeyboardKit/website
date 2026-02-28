@@ -1,7 +1,8 @@
 ---
 title: Gestures
 description: Easily handle a rich set of gestures
-hero-emoji: 👆
+hero:
+  emoji: 👆
 ---
 
 The native iOS keyboard has more gestures than you may think. Keys can be pressed, released, and long pressed, space can be dragged to move the cursor, shift can be double tapped, etc.

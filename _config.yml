@@ -12,7 +12,7 @@ email: info@keyboardkit.com
 
 is_lib: 1
 
-copyright_year: 2016-2025
+copyright_year: 2016-2026
 copyright_owner: Kankoda Sweden AB
 copyright_url: https://kankoda.com
 
@@ -43,6 +43,7 @@ urls:
   gumroad:    https://kankoda.gumroad.com/l/keyboardkitpro
   mastodon:   https://techhub.social/@keyboardkit
   newsletter: https://kankoda.gumroad.com/subscribe
+  pricing:    /pricing
   reddit:     https://www.reddit.com/r/KeyboardKit
   twitter:    https://twitter.com/keyboardkitsdk
 
@@ -107,7 +108,6 @@ defaults:
       type: "pages"
     values:
       layout: page
-      hero-icon-class: plain large
       image: /assets/headers/icon.jpg
       page-class: glass-background bg1
   -

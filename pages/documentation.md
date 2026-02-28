@@ -8,13 +8,14 @@ page-class: glass-background bg4
 
 redirect_from: /docs
 
-hero-icon: /assets/heros/documentation.png
-hero-title: Documentation
+hero:
+  icon: /assets/heros/documentation.png
+  icon-class: plain
 
 image:  /assets/headers/documentation.jpg
 image-show: 0
 
-description: KeyboardKit Online Documentation
+description: KeyboardKit's online documentation has all the information you need to create powerful custom keyboards.
 ---
 
 The online KeyboardKit [documentation]({{site.urls.docs}}) has a getting-started guide, articles, code samples & type documentation for all available features.

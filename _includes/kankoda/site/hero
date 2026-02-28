@@ -1,52 +1,26 @@
-{% assign has-emoji = page.hero-emoji | size %}
-{% assign has-icon = page.hero-icon | size %}
-{% assign has-image = page.hero-image | size %}
-{% assign has-title = page.hero-title | size %}
+{% assign has-emoji = page.hero.emoji | size %}
+{% assign has-icon = page.hero.icon | size %}
+{% assign has-image = page.hero.image | size %}
 
-{% if has-icon > 0 or has-image > 0 or has-emoji > 0 or has-title > 0 %}
-    {%- assign has-hero = 1 -%}
-{% endif %}
-  
-{% if has-hero %}
-<section class="hero wrapper">
-  {% if has-icon > 0 %}
-  <img class="app-icon sticker {{page.hero-icon-class}}" src="{{page.hero-icon}}" />
-  {% endif %}
-  {% if has-emoji > 0 %}
-  <div class="emoji">
-      {{page.hero-emoji}}
-  </div>
-  {% endif %}
-  <div class="text">
-    <h1>{{page.hero-title | default: page.title}}</h1>
-    {% if page.hero-tagline %}
-    <h2>{{page.hero-tagline}}</h2>
-    <h3>{{page.hero-description | default: page.description}}</h3>
-    {% else %}
-    <h2>{{page.hero-description | default: page.description}}</h2>
+{% if page.hero %}
+  <section class="hero wrapper wide">
+    {% if has-icon > 0 %}
+    <img class="app-icon sticker {{page.hero.icon-class}}" src="{{page.hero.icon}}" />
     {% endif %}
-  </div>
+    {% if has-emoji > 0 %}
+    <div class="emoji">
+        {{page.hero.emoji}}
+    </div>
+    {% endif %}
+    
+    <h1>{{page.hero.title | default: page.title }}</h1>
+    <p>{{page.hero.description | default: page.description }}</p>
 
-  {%- if page.cta or page.cta-secondary -%}
-  <div class="cta-container">
-    {%- if page.cta-secondary -%}
-    <a href="{{ page.cta-secondary.url }}" class="cta secondary scale">
-      {{ page.cta-secondary.title }}
-    </a>
-    {%- endif -%}
-    {%- if page.cta -%}
-    <a href="{{ page.cta.url }}" class="cta scale">
-      {{ page.cta.title }}
-    </a>
-    {%- endif -%}
-  </div>
-  {%- endif -%}
-</section>
+    {% if has-image > 0 %}
+    <section class="image wrapper {{page.hero.image-class}}">
+      <img src="{{page.hero.image}}" alt="Hero image for {{page.id}} page" class="hero-image {{page.hero.image-class}}" />
+    </section>
+    {% endif %}
 
-{% if has-image > 0 %}
-<section class="hero image wrapper">
-  <img src="{{page.hero-image}}" alt="Hero image for {{page.id}} page" class="hero-image {{page.hero-image-class}}" />
-</section>
-{% endif %}
-
+  </section>
 {% endif %}

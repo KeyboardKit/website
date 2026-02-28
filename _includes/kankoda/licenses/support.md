@@ -1,6 +1,5 @@
 {% assign product = include.product %}
 
-
 ## Support Levels
 
 [{{product}}]({{include.url}}) has different support levels, based on its license tiers and your needs.

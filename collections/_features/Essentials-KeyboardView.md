@@ -1,7 +1,8 @@
 ---
 title: Keyboard View
 description: A fully customizable keyboard view
-hero-emoji: ⌨️
+hero:
+  emoji: ⌨️
 ---
 
 KeyboardKit has a ``KeyboardView`` that lets you mimic a native iOS keyboard with a few lines of code.

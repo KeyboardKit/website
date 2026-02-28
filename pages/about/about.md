@@ -6,10 +6,10 @@ permalink: /about
 
 page-class: glass-background bg2
 
-hero-icon: /assets/heros/icon.png
-hero-title: About KeyboardKit
-hero-tagline: An SDK that lets you build amazing custom keyboards
-hero-description: Build keyboard apps for all major Apple platforms, using Swift & SwiftUI.
+hero:
+  icon: /assets/heros/icon.png
+  icon-class: plain
+  title: About KeyboardKit
 
 description: KeyboardKit lets you build amazing keyboard extensions with Swift & SwiftUI
 

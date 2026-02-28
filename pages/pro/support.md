@@ -1,12 +1,14 @@
 ---
 id: pro-support
-title: Support
+title: License Support
 layout: page
 permalink: /pro/support
 
-hero-icon: /assets/heros/pro.png
+hero:
+  icon: /assets/heros/pro.png
+  icon-class: plain
 
-description: KeyboardKit Pro has many support channels
+description: KeyboardKit Pro has custom support levels for larger organizations
 ---
 
 [KeyboardKit Pro](/pro) has different support levels, that are based on the license tiers and your needs.

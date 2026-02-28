@@ -1,7 +1,8 @@
 ---
 title: Device Utilities
 description: Detect and support various device types
-hero-emoji: 🖥️
+hero:
+  emoji: 🖥️
 ---
 
 Although you should avoid designing for a specific device, orientation, or screen size, KeyboardKit can detect various device types and their supported capabilities.

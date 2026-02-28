@@ -37,9 +37,6 @@
         {% if site.urls.mastodon %}
         <a href="{{site.urls.mastodon}}">Mastodon</a>
         {% endif %}
-        {% if site.urls.reddit %}
-        <a href="{{site.urls.reddit}}">Reddit</a>
-        {% endif %}
         {% if site.urls.instagram %}
         <a href="{{site.urls.instagram}}">Instagram</a>
         {% endif %}
@@ -85,6 +82,7 @@
         <p>SDKs</p>
         <a href="https://keyboardkit.com">KeyboardKit</a>
         <a href="https://kankoda.com/licensekit">LicenseKit</a>
+        <a href="https://kankoda.com/mediakit">MediaKit</a>
         <a href="https://kankoda.com/vietnameseinput">VietnameseInput</a>
 
         <p>Apps</p>

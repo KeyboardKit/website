@@ -1,7 +1,8 @@
 ---
 title: External Keyboards
 description: Detect and handle external keyboards
-hero-emoji: ⌨️
+hero:
+  emoji: ⌨️
 ---
 
 Custom keyboards will stop functioning as expected when an external keyboard is connected. The text document proxy will for instance not update its text, which affects features like autocomplete.

@@ -1,7 +1,8 @@
 ---
 title: App Utilities
 description: Powerful app models and templates 
-hero-emoji: 📱
+hero:
+  emoji: 📱
 ---
 
 KeyboardKit provides main app utilities to let you build a great main app for your custom keyboard.

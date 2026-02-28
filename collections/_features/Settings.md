@@ -1,7 +1,8 @@
 ---
 title: Settings
 description: KeyboardKit has auto-persisted settings
-hero-emoji: ⚙️
+hero:
+  emoji: ⚙️
 ---
 
 Great keyboard apps use the main app to onboard the user and to show the state of the keyboard, for instance if the keyboard is enabled, if Full Access is enabled, etc.

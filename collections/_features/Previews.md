@@ -1,7 +1,8 @@
 ---
 title: Previews
 description: Convenient SwiftUI and in-app previews
-hero-emoji: 👁
+hero:
+  emoji: 👁
 ---
 
 SwiftUI previews are a great way to work on your design in Xcode without having to launch the app to see the result. Just update your views and models, and the preview will update.

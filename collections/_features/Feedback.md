@@ -1,7 +1,8 @@
 ---
 title: Feedback
 description: Trigger audio and haptic feedback
-hero-emoji: 🔉
+hero:
+  emoji: 🔉
 ---
 
 Feedback is an important part of the typing experience, where the keyboard can trigger audio and haptic feedback when a user taps on a key or performs an action.

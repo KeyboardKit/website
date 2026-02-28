@@ -1,7 +1,8 @@
 ---
 title: Emojis
 description: Emoji models and keyboards
-hero-emoji: 😀
+hero:
+  emoji: 😀
 ---
 
 KeyboardKit has an ``Emoji`` struct that represents an emoji value. It also serves as a namespace for emoji-related types and views.

@@ -1,7 +1,8 @@
 ---
 title: Status
 description: Easily inspect the keyboard status
-hero-emoji: 🩺
+hero:
+  emoji: 🩺
 ---
 
 KeyboardKit has ways to check the keyboard status, e.g. if a keyboard is enabled in Settings, if Full Access is enabled, if the keyboard is actively being used, etc.
