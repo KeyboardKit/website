@@ -1,5 +1,9 @@
 .home {
 
+  img {
+    max-height: 400px;
+  }
+
   section {
 
     article {
@@ -19,8 +23,17 @@
   }
 
   .social-buttons {
-    img { 
+    img {
       box-shadow: none;
+    }
+  }
+
+  .feature-box {
+    h3 {
+      margin: 0px;
+    }
+    img {
+      margin: 30px 0;
     }
   }
 }

@@ -17,7 +17,10 @@
     <p>{{page.hero.description | default: page.description }}</p>
 
     {% if page.hero.image %}
-    <section class="image wrapper {{page.hero.image-class}}">
+    <section class="image paper wrapper {{page.hero.image-class}}">
+      {% if page.hero.image-divider %}
+      <hr />
+      {% endif %}
       <img src="{{page.hero.image}}" alt="Hero image for {{page.id}} page" class="hero-image {{page.hero.image-class}}" />
     </section>
     {% endif %}

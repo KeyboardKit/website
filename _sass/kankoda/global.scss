@@ -47,4 +47,9 @@ hr {
 
 .wrapper.wide {
   max-width: $wrapper-width-wide;
+
+  p {
+    max-width: $wrapper-width;
+    margin: auto;
+  }
 }

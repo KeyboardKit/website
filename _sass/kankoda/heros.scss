@@ -41,12 +41,19 @@ section.hero {
     margin-bottom: 60px;
   }
 
-  p + .image.wrapper {
+  .image.wrapper {
     margin-top: 60px;
-  }
 
-  .image.wrapper + .cta-container {
-    margin-top: 20px;
+    hr {
+      position: relative;
+      z-index: 1;
+    }
+
+    hr + img {
+      margin-top: -50px;
+      position: relative;
+      z-index: 0;
+    }
   }
 }
 

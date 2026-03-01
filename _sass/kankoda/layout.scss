@@ -40,3 +40,7 @@ section + section {
 article + .grid {
   margin-top: 60px;
 }
+
+section > *:last-child {
+  margin-bottom: 0;
+}
