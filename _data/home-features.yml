@@ -1,4 +1,5 @@
 - title: About
+  hidden: 1
   url: /about
   image: /assets/heros/icon.png
   text: Why build a custom keyboard and how can KeyboardKit help?
@@ -14,6 +15,7 @@
   text: Unlock pro features to take your keyboard to the next level.
 
 - title: GitHub
+  hidden: 1
   url:  https://github.com/keyboardkit/keyboardkit
   image: /assets/heros/github.png
   text: KeyboardKit is hosted on GitHub and free to start using.
@@ -24,6 +26,7 @@
   text: A custom keyboard that is truly yours, for your iPhone and iPad.
 
 - title: Documentation
+  hidden: 1
   url:  /documentation
   image: /assets/heros/documentation.png
   text: The online documentation helps you get started with KeyboardKit.

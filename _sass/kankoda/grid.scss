@@ -6,6 +6,10 @@ p + .grid {
   margin: 50px 0px;
 }
 
+.grid + .grid {
+  margin-top: 50px;
+}
+
 section {
   p + .grid {
     margin-bottom: 0px !important;
