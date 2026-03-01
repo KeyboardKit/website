@@ -6,14 +6,20 @@ p + .grid {
   margin: 50px 0px;
 }
 
+section {
+  p + .grid {
+    margin-bottom: 0px !important;
+  }
+}
+
 .grid { 
   display: grid; 
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   grid-template-columns: repeat(4, minmax(0, 1fr));
 
-  .column > h2 {
-    margin-top: 0px;
+  h2 {
+    margin-top: 0px !important;
   }
 }
 

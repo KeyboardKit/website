@@ -31,6 +31,10 @@
 
 section + section {
   margin-top: 75px;
+
+  h2 {
+    margin-top: 0px !important;
+  }
 }
 
 article + .grid {
