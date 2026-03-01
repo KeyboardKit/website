@@ -5,7 +5,7 @@ hero:
   emoji: 🌐
 ---
 
-KeyboardKit supports [{{site.locales.count}} locales](/locales):
+KeyboardKit supports [{{site.locales.count}} languages (locales)](/locales):
 
 {{ site.locales.flags }}
 

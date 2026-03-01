@@ -4,6 +4,12 @@
   text:   KeyboardKit comes with essential models, features & views.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/essentials-article
 
+- title:  Languages
+  emoji:  🌐
+  url:    /features/localization
+  text:   KeyboardKit supports <b>75 locales</b>, with localized assets & layouts.
+  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/localization-article
+
 - title:  Keyboard View
   emoji:  ⌨️
   url:    /features/essentials-keyboardview
@@ -103,13 +109,6 @@
   url:    /features/layout
   text:   KeyboardKit has dynamic and fully customizable layout engine.
   docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/layout-article
-
-- title:  Localization
-  emoji:  🌐
-  url:    /features/localization
-  text:   KeyboardKit supports <b>75 locales</b>, with localized assets & layouts.
-  docs:   https://keyboardkit.github.io/KeyboardKit/documentation/keyboardkit/localization-article
-  tags:   pro
 
 - title:  Navigation
   emoji:  🗺️
