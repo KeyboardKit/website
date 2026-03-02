@@ -108,7 +108,7 @@ defaults:
       type: "pages"
     values:
       layout: page
-      image: /assets/headers/icon.jpg
+      image: /assets/headers/keyboardkit.jpg
       page-class: glass-background bg1
   -
     scope:
@@ -128,7 +128,7 @@ defaults:
     values:
       layout: post
       author: danielsaidi
-      image:  /assets/headers/icon.jpg
+      image:  /assets/headers/blog.jpg
       page-class: glass-background bg1
 
 exclude:
