@@ -13,7 +13,7 @@ hero:
   icon: /assets/heros/pro.png
   icon-class: plain large
 
-description: KeyboardKit Pro provides custom licenses and plans for larger organizations.
+description: KeyboardKit Pro has business licenses for larger companies and apps.
 ---
 
 [KeyboardKit Pro](/pro) requires a business license if your company has $10M+ in annual revenue or your app has $1M+ in annual revenue. 
