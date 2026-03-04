@@ -5,7 +5,6 @@
   }
 
   section {
-
     article {
       text-align: left;
     }
@@ -23,23 +22,8 @@
   }
 
   .social-buttons {
-    img {
+    img { 
       box-shadow: none;
-    }
-  }
-
-  .feature-box {
-    h3 {
-      margin: 0px;
-    }
-    img {
-      margin: 30px 0;
-    }
-    .cta-container {
-      margin-top: 30px;
-    }
-    > *:last-child {
-      margin-bottom: 0;
     }
   }
 }

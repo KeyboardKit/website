@@ -1,0 +1,34 @@
+{% comment %}                                                                                                    ╎│
+Promo box for displaying features with title, image, description, and CTAs.                ╎│                                                                                                                 ╎│
+  Parameters:                                                                                                    ╎│
+  - title: (required) The heading text for the feature box                                                       ╎│
+  - image: (required) The image source path                                                                      ╎│
+  - text: (required) The descriptive text/content                                                                ╎│
+  - class: (optional) Optional css class (e.g., "slide-in delay-1")                                     ╎│
+  - cta_link: (optional) The URL for a secondary call-to-action button                                         ╎│
+  - cta_text: (optional) Custom text for a secondary CTA button (defaults to "Learn more" if not provided)     ╎│
+  - cta_primary_link: (optional) The URL for a primary call-to-action button                                   ╎│
+  - cta_primary_text: (optional) Custom text for a primary CTA button (required if cta_primary_link is set)    ╎│
+{% endcomment %}
+
+<div class="promo-box{% if include.class %} {{include.class}}{% endif %}">
+  <h3>{{ include.title }}</h3>
+  <img src="{{ include.image }}" alt="{{ include.title }} feature" />
+  <p>
+    {{ include.text }}
+  </p>
+  {% if include.cta_link or include.cta_primary_link %}
+  <div class="cta-container">
+    {% if include.cta_link %}
+    <a class="cta secondary" href="{{ include.cta_link }}">
+      {% if include.cta_text %}{{ include.cta_text }}{% else %}Learn more{% endif %}
+    </a>
+    {% endif %}
+    {% if include.cta_primary_link %}
+    <a class="cta" href="{{ include.cta_primary_link }}">
+      {{ include.cta_primary_text }}
+    </a>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
