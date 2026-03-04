@@ -30,6 +30,6 @@ Custom licenses can tailor the SLA and support level to fit your organization's 
 Custom licenses can define custom license terms, to accomodate to business & legal requirements.
 
 
-## Software Escrow Services
+## Software Escrow
 
 Custom licenses can include software escrow, which will let you access the SDK source code in case anything happens to the SDK or its owner company. All Enterprise licenses include software escrow. 

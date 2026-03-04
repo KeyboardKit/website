@@ -31,7 +31,7 @@ locales:
 
 urls:
   email:      mailto:info@keyboardkit.com
-  email-custom-plan: mailto:info@keyboardkit.com?subject=Custom%20Plan
+  email-business-license: mailto:info@keyboardkit.com?subject=Business%License
   email-custom-terms: mailto:info@keyboardkit.com?subject=Custom%20Terms
   rss:        https://keyboardkit.com/feed.xml
 

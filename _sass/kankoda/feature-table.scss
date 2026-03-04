@@ -50,44 +50,11 @@
       border-radius: 7px;
       display: block;
       text-align: center;
-      background-color: rgba(255, 255, 255, 0.6);
       border: solid 1px $feature-table-border-color;
 
       .cta {
         display: block;
-        color: white;
-        background-color: black;
         padding: 10px 15px;
-      }
-    }
-
-    .tier.silver, .tier.starter, .tier.standard {
-      background-color: rgba(100, 100, 100, 0.1);
-    }
-
-    .tier.gold, .tier.pro {
-      border: solid 1px gold;
-      background-color: rgba(255, 215, 0, 0.4);
-
-      .cta {
-        color: black !important;
-        background-color: gold;
-      }
-
-      .cta:hover {
-        text-decoration: none;
-        box-shadow: 1px 2px 2px $shadow;
-      }
-    }
-
-    .tier.custom, .tier.business {
-      border: solid 1px #334;
-      background-color: rgba(0, 0, 25, 0.8);
-      color: white;
-
-      .cta {
-        color: black;
-        background-color: white;
       }
     }
 

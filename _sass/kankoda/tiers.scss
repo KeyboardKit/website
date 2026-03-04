@@ -1,0 +1,60 @@
+.tier.basic, .tier.standard {
+  background-color: white;
+
+  .cta {
+    color: white;
+    background-color: black;
+  }
+}
+
+.tier.silver, .tier.starter {
+  background-color: rgba(100, 100, 100, 0.1);
+
+  .cta {
+    color: white;
+    background-color: black;
+  }
+}
+
+.tier.gold, .tier.pro {
+  border: solid 1px gold;
+  background-color: rgba(255, 215, 0, 0.4);
+
+  .cta {
+    color: black !important;
+    background-color: gold;
+  }
+
+  .cta:hover {
+    text-decoration: none;
+    box-shadow: 1px 2px 2px $shadow;
+  }
+}
+
+.tier.custom, .tier.business {
+  border: solid 1px #334;
+  background-color: rgba(0, 0, 25, 0.8);
+  color: white;
+
+  .cta {
+    color: black !important;
+    background-color: white;
+  }
+}
+
+
+.tier.box {
+  padding: 20px;
+  
+  text-align: center;
+
+  h3 { 
+    margin-top: 0px; 
+    font-size: 1.1em;
+  }
+
+  .cta-container {
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+}
