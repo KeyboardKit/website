@@ -7,6 +7,8 @@ permalink: /pro/business-licenses
 redirect_from: 
   - pro/custom-licenses
 
+image: /assets/headers/business-licenses.jpg
+
 hero:
   icon: /assets/heros/pro.png
   icon-class: plain large
