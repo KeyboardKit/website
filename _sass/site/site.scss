@@ -2,17 +2,6 @@
   max-height: 65px !important;
 }
 
-@media (max-width: 500px) {
-
-    // Hide open-source on smaller screens
-  .feature-table {
-    .grid {
-      grid-template-columns: repeat(3, 1fr) !important;
-    }
-    .feature + div { display: none !important; }
-  }
-}
-
 .box {
   text-align: center;
   margin: 40px 0;

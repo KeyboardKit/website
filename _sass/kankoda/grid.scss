@@ -25,6 +25,10 @@ section {
   h2 {
     margin-top: 0px !important;
   }
+
+  .mobile-extra {
+    display: none;
+  }
 }
 
 .grid.icons {
@@ -61,17 +65,6 @@ section {
 
 .grid.col3 { 
   grid-template-columns: repeat(3, 1fr);
-}
-
-.grid.home {
-  grid-column-gap: 40px;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid.home.centered {
-  .column {
-    text-align: center;
-  }
 }
 
 .grid.icons, .grid.centered {
@@ -111,6 +104,17 @@ section {
   margin-top: 60px !important;
 }
 
+@media (max-width: 800px) {
+  
+  .grid.col3 { 
+    grid-template-columns: repeat(2, 1fr);
+
+    .mobile-extra {
+      display: block !important;
+    }
+  }
+}
+
 @media (max-width: 600px) {
   
   .grid.home { 
@@ -118,12 +122,18 @@ section {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .grid.col4, .grid.icons { 
+  .grid.icons, .grid.screenshots { 
     grid-template-columns: repeat(2, 1fr);
   }
   
-  .grid.col2, .grid.col3 { 
+  .grid.col2, .grid.col3, .grid.col4 { 
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid.col3 { 
+    .mobile-extra {
+      display: none !important;
+    }
   }
 
   .grid.image-item {
@@ -131,12 +141,5 @@ section {
     gap: 0rem;
     img { order: 1; }
     div { order: 2; }
-  }
-}
-
-@media (max-width: 800px) {
-  
-  .grid.col3 { 
-    grid-template-columns: repeat(2, 1fr);
   }
 }

@@ -1,5 +1,4 @@
 .grid.features {
-  grid-template-columns: repeat(3, 1fr);
   font-size: 0.9em;
 
   .image-container {
@@ -42,10 +41,6 @@
 
 @media (max-width: 900px) {
 
-  .grid.features {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
   .grid.features.scrollable { 
     
     margin-left: -15px;
