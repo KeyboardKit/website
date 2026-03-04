@@ -3,7 +3,7 @@
     {%- if feature.hidden -%}
     {%- else -%}
     <a href="{{ feature.url }}{{ include.anchor }}">
-      <div class="image-container rounded glass-panel scale">
+      <div class="image-container rounded glass scale">
         {%- if feature.emoji -%}
         <span class="emoji">{{feature.emoji}}</span>
         {%- else -%}

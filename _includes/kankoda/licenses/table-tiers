@@ -1,5 +1,5 @@
 <div class="table-header-container">
-    <div class="grid table-header glass-panel">
+    <div class="grid table-header glass">
         <div class="feature"></div>
 
         {% for tier in include.tiers %}

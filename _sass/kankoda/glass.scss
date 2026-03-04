@@ -23,7 +23,7 @@
 .glass-background.bg3::before { background-image: url('/assets/glass/bg3.jpg'); }
 .glass-background.bg4::before { background-image: url('/assets/glass/bg4.jpg'); }
 
-.glass-panel {
+.glass {
   background: rgba(255,255,255,0.1);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px); // For Safari support
@@ -40,6 +40,6 @@
   }
 }
 
-a:hover .glass-panel {
+a:hover .glass {
   box-shadow: 0 4px 24px rgba(0,0,0,0.22);
 }
