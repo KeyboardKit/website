@@ -43,6 +43,9 @@
         {% if site.urls.linkedin %}
         <a href="{{site.urls.linkedin}}">LinkedIn</a>
         {% endif %}
+        {% if site.urls.reddit %}
+        <a href="{{site.urls.reddit}}">Reddit</a>
+        {% endif %}
       </div>
       
       {% if site.footer.extra.title %}

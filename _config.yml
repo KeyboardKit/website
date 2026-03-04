@@ -71,6 +71,7 @@ footer:
     - pages/about/about.md
     - pages/features.md
     - pages/pricing.md
+    - pages/pro/business-licenses.md
     - pages/app/app.md
     - pages/case-studies.md
     - pages/documentation.md
