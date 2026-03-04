@@ -9,9 +9,24 @@
       {% include kankoda/site/header %}
     </header>
 
+    <!-- Top Message -->
+    {% if page.top-message %}
+    <section class="glass-message">
+      {% include kankoda/glass/message message=page.top-message %}
+    </section>
+    {% endif %}
+
     <!-- Content -->
     <main class="page-content" aria-label="Content">
       {% include kankoda/site/hero %}
+
+      <!-- Below Hero Message -->
+      {% if page.hero-message %}
+      <section class="glass-message below-hero">
+        {% include kankoda/glass/message message=page.hero-message %}
+      </section>
+      {% endif %}
+    
       {{ content }}
     </main>
 

@@ -4,6 +4,13 @@ title: Blog
 permalink: /blog
 
 page-class: glass-background bg4 paper
+
+top-message:
+  text: Problems discovered in iOS 26.4 beta.
+  type: warning
+  link:
+    text: Read more
+    url: /blog/2026/03/02/ios-26-4-host-application-bundle-id-bug
 ---
 
 <div class="searchbar-header">

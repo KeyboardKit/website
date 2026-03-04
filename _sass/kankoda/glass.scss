@@ -1,3 +1,52 @@
+.glass {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); // For Safari support
+  border: 1px solid rgba(255,255,255,0.8);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+
+  .tag {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    z-index: 10;
+    font-size: small;
+    /* Add your existing tag styling here */
+  }
+}
+
+a:hover .glass {
+  box-shadow: 0 4px 24px rgba(0,0,0,0.22);
+}
+
+.glass-message {
+  margin: 50px 0;
+  font-size: 0.8em;
+  text-align: center;
+
+  .glass {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .glass.promo {
+    background: rgba(40, 200, 100, 0.15);
+  }
+
+  .glass.warning {
+    background: rgba(255, 193, 7, 0.15);
+  }
+
+  .glass.alert {
+    background: rgba(220, 53, 69, 0.15);
+  }
+}
+
+.glass-message.below-hero {
+  margin: 75px 0;
+}
+
 .glass-background {
   position: relative;
   z-index: 1;
@@ -22,24 +71,3 @@
 .glass-background.bg2::before { background-image: url('/assets/glass/bg2.jpg'); }
 .glass-background.bg3::before { background-image: url('/assets/glass/bg3.jpg'); }
 .glass-background.bg4::before { background-image: url('/assets/glass/bg4.jpg'); }
-
-.glass {
-  background: rgba(255,255,255,0.1);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px); // For Safari support
-  border: 1px solid rgba(255,255,255,0.8);
-  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
-
-  .tag {
-    position: absolute;
-    bottom: 8px;
-    right: 8px;
-    z-index: 10;
-    font-size: small;
-    /* Add your existing tag styling here */
-  }
-}
-
-a:hover .glass {
-  box-shadow: 0 4px 24px rgba(0,0,0,0.22);
-}
