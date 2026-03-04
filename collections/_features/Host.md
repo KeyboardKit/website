@@ -1,8 +1,16 @@
 ---
 title: Host Application Utilities
 description: Identify and open other apps
+
 hero:
   emoji: 🏠
+
+top-message:
+  text: This feature experiences problems in iOS 26.4 beta.
+  type: warning
+  link:
+    text: Read more
+    url: /blog/2026/03/02/ios-26-4-host-application-bundle-id-bug
 ---
 
 Some keyboards may need to identify the [host application](/terminology), which is the app that is currently using the keyboard. This is needed to configure or style the keyboard for certain apps.
