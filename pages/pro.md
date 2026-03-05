@@ -35,9 +35,9 @@ Yearly Gold licenses and above include a license file that lets you validate you
 
 ## Business Licenses
 
-If your company has $10M+ in annual revenue or your app has $1M+ in annual revenue, we ask you to [contact us]({{site.urls.email-custom-plan}}) to discuss a <a href="business-licenses">business license</a> that aligns with your needs.
+If your company has $10M+ in annual revenue or your app has $1M+ in annual revenue, we ask you to [contact us]({{site.urls.email-custom-plan}}) to discuss a <a href="/pro/business-licenses">business license</a> that aligns with your needs.
 
-Our business plans include critical business features like signed agreements, custom billing, custom terms, software escrow, expiration grace, custom SLAs, and much more. <a href="business-licenses">Read more here</a>.
+Our business plans include critical business features like signed agreements, custom billing, custom terms, software escrow, expiration grace, custom SLAs, and much more. <a href="/pro/business-licenses">Read more here</a>.
 
 
 <a name="features" />
