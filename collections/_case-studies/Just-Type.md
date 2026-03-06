@@ -5,7 +5,7 @@ title: JustType - Type efficiently & accurately with AI
 image:  /assets/case-studies/just-type/header.jpg
 assets: /assets/case-studies/just-type/article/
 
-featured: 1
+featured: 0
 
 appstore: https://apps.apple.com/se/app/justtype-ai-keyboard/id6590604907
 youtube-1: https://www.youtube.com/watch?v=vvnDaSA8o80

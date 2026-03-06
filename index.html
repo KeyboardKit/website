@@ -136,10 +136,15 @@ description: KeyboardKit lets you create custom keyboard apps for all Apple plat
   <section class="wrapper wide slide-in">
     <h2>Case Studies</h2>
     <p>
-      Check out some <a href="/case-studies">case-studies</a> of amazing apps & products that use KeyboardKit in their keyboards.
+      Check out some <a href="/case-studies">case studies</a> of amazing apps & products that use KeyboardKit in their keyboards.
     </p>
     {% assign studies = site.case-studies | where:"featured",1 %}
     {% include case-study-links.html items=studies limit=4 featured=true %}
+    <div class="cta-container">
+      <a class="cta secondary" href="/case-studies">
+        See all case studies
+      </a>
+    </div>
   </section>
 
   <section class="wrapper wide slide-in">

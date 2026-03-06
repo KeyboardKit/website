@@ -5,7 +5,7 @@ title: Lingo - Your Intelligent Translation Keyboard
 image:  /assets/case-studies/lingo/header.jpg
 assets: /assets/case-studies/lingo/article/
 
-featured: 1
+featured: 0
 
 appstore: https://apps.apple.com/de/app/translator-keyboard-lingo/id6670622037?l=en-GB
 company:  https://cranberry.app

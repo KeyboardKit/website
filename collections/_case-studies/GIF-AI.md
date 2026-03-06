@@ -5,7 +5,7 @@ title: GIF AI Keyboard - Generate Custom GIFs
 image:  /assets/case-studies/gif-ai/header.jpg
 assets: /assets/case-studies/gif-ai/
 
-featured: 1
+featured: 0
 
 appstore: https://apps.apple.com/us/app/gif-ai-keyboard/id6748157345
 developer: Damiaan Twelker
