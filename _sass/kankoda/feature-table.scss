@@ -108,11 +108,11 @@
     border: none;
   }
 
-  .even, .even + .grid {   // !!!
+  .even, .even + .grid {
     background-color: $feature-table-background;
   }
 
-  .odd, .odd + .grid {   // !!!
+  .odd, .odd + .grid {
     background-color: $feature-table-even-row-color;
   }
 }

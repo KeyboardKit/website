@@ -1,18 +1,23 @@
-{% comment %}                                                                                                    ╎│
-Promo box for displaying features with title, image, description, and CTAs.                ╎│                                                                                                                 ╎│
-  Parameters:                                                                                                    ╎│
-  - title: (required) The heading text for the feature box                                                       ╎│
-  - image: (required) The image source path                                                                      ╎│
-  - text: (required) The descriptive text/content                                                                ╎│
-  - class: (optional) Optional css class (e.g., "slide-in delay-1")                                     ╎│
-  - cta_link: (optional) The URL for a secondary call-to-action button                                         ╎│
-  - cta_text: (optional) Custom text for a secondary CTA button (defaults to "Learn more" if not provided)     ╎│
-  - cta_primary_link: (optional) The URL for a primary call-to-action button                                   ╎│
-  - cta_primary_text: (optional) Custom text for a primary CTA button (required if cta_primary_link is set)    ╎│
+{% comment %}
+Promo box for displaying features with title, image, description, and CTAs.
+  Parameters:
+  - title: (required) The heading text for the feature box
+  - image: (required) The image source path
+  - text: (required) The descriptive text/content
+  - class: (optional) Optional css class (e.g., "slide-in delay-1")
+  - hr: (optional) Show horizontal rule (1 or 0, defaults to 1)
+  - hr-class: (optional) CSS class for the horizontal rule
+  - cta_link: (optional) The URL for a secondary call-to-action button
+  - cta_text: (optional) Custom text for a secondary CTA button (defaults to "Learn more" if not provided)
+  - cta_primary_link: (optional) The URL for a primary call-to-action button
+  - cta_primary_text: (optional) Custom text for a primary CTA button (required if cta_primary_link is set)
 {% endcomment %}
 
 <div class="promo-box{% if include.class %} {{include.class}}{% endif %}">
   <h3>{{ include.title }}</h3>
+  {% if include.hr or include.class contains "with-separator" %}
+  <hr class="{% if include.hr-class %}{{ include.hr-class }}{% endif %}" />
+  {% endif %}
   <img src="{{ include.image }}" alt="{{ include.title }} feature" />
   <p>
     {{ include.text }}

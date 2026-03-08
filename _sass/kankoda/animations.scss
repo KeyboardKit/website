@@ -11,6 +11,11 @@
   -webkit-transform: translateX(-50px); /* Safari prefix */
 }
 
+.slide-in.from-top {
+  transform: translateY(-50px);
+  -webkit-transform: translateY(-50px); /* Safari prefix */
+}
+
 .slide-in.from-right {
   transform: translateX(50px);
   -webkit-transform: translateX(50px); /* Safari prefix */
