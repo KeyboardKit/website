@@ -9,8 +9,8 @@ featured: 0
 
 appstore: https://apps.apple.com/us/app/tapling-type-with-bongo-cat/id6756097345
 website:  https://tapling.app
-developer: Benno Builder
-developer-url: https://github.com/builder-group/tapling
+developer: https://github.com/builder-group/tapling
+bongo: https://store.steampowered.com/app/3419430/Bongo_Cat/
 ---
 
 Meet [Tapling]({{page.website}}) - a small companion that lives in your keyboard’s suggestion bar and taps along while you type. Type normally and Tapling quietly keeps you company.
@@ -33,7 +33,7 @@ The idea is simple. Type normally and Tapling quietly keeps you company. Every k
 
 ## The Story Behind Tapling
 
-The idea started when Tapling's creator [Benno]({{page.developer-url}}) came across the Bongo Cat typing companion game on Steam.
+The idea started when Tapling's creator [Benno]({{page.developer}}) came across the [Bongo Cat]({{page.bongo}}) typing companion game on Steam.
 
 > I liked the idea of a small companion reacting while you type and slowly collecting cosmetics. It turns everyday typing into a small cozy experience.
 
@@ -46,7 +46,9 @@ Since the game is made for desktop computers, and primarily Windows, Benno start
 
 Since Apple doesn't let you add UI elements like Tapling to the system keyboard, the only option is to build a full custom keyboard extension.
 
-That means recreating many features users expect from a normal keyboard such as layouts, gestures, autocomplete, and autocorrect.KeyboardKit provided the foundation for this. 
+This involves a lot of work, to mimic the system keyboard and recreating many features that users expect from a normal keyboard such as layouts, gestures, autocomplete, and autocorrect.
+
+KeyboardKit provided the foundation for this. 
 
 > I used KeyboardKit as the base and extended it with the features I needed. This made it possible to focus on the Tapling experience instead of rebuilding keyboard fundamentals.
 
