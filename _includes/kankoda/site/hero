@@ -1,29 +1,28 @@
 {% if page.hero %}
-  <section class="hero wrapper wide">
-    {% if page.hero.icon %}
-    <img class="app-icon sticker {{page.hero.icon-class}}" src="{{page.hero.icon}}" />
-    {% endif %}
-    {% if page.hero.emoji %}
-    <div class="emoji">
-        {{page.hero.emoji}}
-    </div>
-    {% endif %}
-    
-    {% if page.hero.eyebrow %}
-    <h3>{{page.hero.eyebrow }}</h3>
-    {% endif %}
+<section class="hero wrapper wide">
+  {% if page.hero.icon %}
+  <img class="app-icon sticker {{page.hero.icon-class}}" src="{{page.hero.icon}}" />
+  {% endif %}
+  {% if page.hero.emoji %}
+  <div class="emoji">
+      {{page.hero.emoji}}
+  </div>
+  {% endif %}
+  
+  {% if page.hero.eyebrow %}
+  <h3>{{page.hero.eyebrow }}</h3>
+  {% endif %}
 
-    <h1>{{page.hero.title | default: page.title }}</h1>
-    <p>{{page.hero.description | default: page.description }}</p>
+  <h1>{{page.hero.title | default: page.title }}</h1>
+  <p>{{page.hero.description | default: page.description }}</p>
 
-    {% if page.hero.image %}
-    <section class="image paper wrapper {{page.hero.image-class}}">
-      {% if page.hero.image-divider %}
-      <hr />
-      {% endif %}
-      <img src="{{page.hero.image}}" alt="Hero image for {{page.id}} page" class="hero-image {{page.hero.image-class}}" />
-    </section>
+  {% if page.hero.image %}
+  <section class="image paper wrapper {{page.hero.image-class}}">
+    {% if page.hero.image-divider %}
+    <hr />
     {% endif %}
-
+    <img src="{{page.hero.image}}" alt="Hero image for {{page.id}} page" class="hero-image slide-in {{page.hero.image-class}}" />
   </section>
+  {% endif %}
+</section>
 {% endif %}
