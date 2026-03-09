@@ -39,7 +39,7 @@ Lingo uses KeyboardKit Pro to implement the main keyboard and to power many of i
 
 Lingo is one of those apps that make you truly happy to use. The onboarding is a true first class experience, and all aspects of the app are tastefully designed.
 
-> "Building keyboard extensions with KeyboardKit is not just easy; It’s genuinely enjoyable!“  - Stefan Liesendal
+> Building custom keyboards with KeyboardKit is not just easy; It’s genuinely enjoyable!
 
 
 

@@ -16,11 +16,11 @@ Say hello to [Hayatar]({{page.appstore}}) - an Armenian keyboard built by Rotter
 
 To Arshak Aghakaryan, the current state of typing in Armenian on iOS is not as great as it could be:
 
-> The story of the Armenian typing experience on iOS is quite sad. iOS comes with an Armenian keyboard, but the layout is not one that most who write in Armenian are used to. 
+> The story of the iOS Armenian typing experience is quite sad. The Armenian keyboard that comes with iOS uses a layout that most who write in Armenian are not used to. 
 
 Although several 3rd party Armenian keyboards exists, none has a layout or UI that he expected. As Arshak got an iPad, he started experiencing even more issues with the one that he was using.
 
-> I decided to try and build a keyboard I’d be happy to use myself. I discovered KeyboardKit and fell into a rabbit hole of third-party keyboard development.
+> I decided to try building a keyboard I’d love to use myself. I discovered KeyboardKit and fell into a rabbit hole of third-party keyboard development.
 
 After some time in development, Arshak's Armenian keyboard [Hayatar]({{page.appstore}}) is now available on the App Store. It’s open-source, looks and feels native, is customizable and syncs changes to iCloud. 
 

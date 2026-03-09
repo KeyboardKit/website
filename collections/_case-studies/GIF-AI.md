@@ -40,7 +40,7 @@ The journey to building [GIF AI Keyboard]({{page.appstore}}) is a story of patie
 
 Developer [{{page.developer}}]({{page.developer-url}}) first conceived the idea of GIF AI in the summer of 2024 while living in Porto with his girlfriend. The creative environment of Portugal, combined with the inspiration from other indie makers in Portugal like [Pieter Levels]({{https://x.com/levelsio}}), sparked a wave of enthusiasm for the project.
 
-> "Generative AI was up and coming and I've always been a fan of using AI to spread joy, while taking into account some safety factors such as not making fun at the expense of others. I thought, what if you could create a custom tailored GIF right from within your favorite messaging app? It would increase engagement on the conversation and who doesn't want to have a laugh with their peers." - Damiaan Twelker
+> Generative AI was up and coming and I've always been a fan of using AI to spread joy, while taking into account some safety factors such as not making fun at the expense of others. I thought, what if you could create a custom tailored GIF right from within your favorite messaging app? It would increase engagement on the conversation and who doesn't want to have a laugh with their peers. - Damiaan Twelker
 
 However, there was a critical problem: the AI models of 2024 simply weren't fast enough. The first requirement - speed - couldn't be met, so the project was put on hold. Fast forward one year, and new AI models finally enabled real-time GIF generation. The timing was perfect to resume work.
 
@@ -51,11 +51,11 @@ With the generative AI speed requirement finally met, a new challenge emerged: t
 
 To allow users to type prompts to generate GIFs directly in the keyboard, the system keyboard can't be used. This meant building the entire keyboard from scratch - a daunting task given the intricate details of text input, autocorrection, and multi-language support.
 
-> "The thought of having to replicate the keyboard by myself quite scared me, with all the intricate details of language and text. Fortunately KeyboardKit came to the rescue, really the only product on the market that makes this part a bliss. It allowed me to focus on other delicate and important details." - Damiaan Twelker
+> The thought of having to replicate the keyboard by myself quite scared me, with all the intricate details of language and text. Fortunately KeyboardKit came to the rescue, really the only product on the market that makes this part a bliss. It allowed me to focus on other delicate and important details.
 
 Rather than spending months (or years) building a robust keyboard implementation, KeyboardKit provided a production-ready solution that handled all the complexity, to let Damiaan focus on the unique aspects of GIF AI Keyboard.
 
-> "Seeing everything come together made me very excited to finish the product fast, and within a week I got the first release out."
+> Seeing everything come together made me very excited to finish the product fast, and within a week I got the first release out.
 
 GIF AI Keyboard shares GIF data between the keyboard extension and the main app, to let users generate images wherever it feels more natural. The result is a robust custom iOS keyboard that brings a unique and fun touch to the chat experience.
 

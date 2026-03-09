@@ -50,7 +50,7 @@ This involves a lot of work, to mimic the system keyboard and recreating many fe
 
 KeyboardKit provided the foundation for this. 
 
-> I used KeyboardKit as the base and extended it with the features I needed. This made it possible to focus on the Tapling experience instead of rebuilding keyboard fundamentals.
+> I used KeyboardKit as the base and extended it with the features I needed. This made it possible to focus on the Tapling experience instead of building keyboard fundamentals.
 
 Instead of starting from a blank canvas, KeyboardKit provided the base structure needed to build a custom keyboard with SwiftUI, and to let Benno focus on what makes his keyboard unique.
 

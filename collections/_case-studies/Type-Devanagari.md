@@ -19,13 +19,13 @@ After starting to learn Sanskrit many years ago, Natasha was surprised to find t
 
 The built-in keyboard was very difficult to use and required a whole new system to learn for typing. 
 
-> No matter how much I used it, it never became easy, fast, or natural. It became impossible to look up Sanskrit words on the go on mobile, as typing each word took such a long time.
+> No matter how much I used it, it never became easy, fast, or natural. It was impossible to look up Sanskrit words on the go, as typing each word took such a long time.
 
 This is when Natasha got the idea to build a Sanskrit keyboard, using a standard English keyboard layout, with a few extra characters inspired by the IAST roman script for Devanagari.
 
 ![Type Devanagari screenshots]({{page.assets}}screenshots.jpg){:class="plain"}
 
-> KeyboardKit made it very simple and quick to actually make it! Thank you.
+> KeyboardKit made implementing this keyboard very simple and quick! Thank you.
 
 Stories like these are so inspiring! Creating a custom keyboard shouldn't have to be hard or take a long time. It's wonderful to hear that Natasha enjoyed using KeyboardKit to build her app.
 
