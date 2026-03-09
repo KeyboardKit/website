@@ -38,11 +38,13 @@ section {
     align-items: center;
     width: 100%;
     max-width: 100%; /* Ensures it doesn't grow beyond its cell */
+    min-width: 0; /* Allows flex items to shrink below content size */
     box-sizing: border-box;
   }
   p {
     width: 100%;
     max-width: 100%;
+    min-width: 0; /* Allows flex items to shrink below content size */
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;

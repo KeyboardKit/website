@@ -125,22 +125,26 @@
   .feature-table {
 
     .grid {
-      grid-template-columns: repeat(4, 1fr) !important;
+      grid-template-columns: repeat(3, 1fr) !important;
 
       .feature {
         display: none;
         background-color: red;
       }
+
+      > div:nth-child(2) {
+        display: none;
+      }
     }
 
-    .table-section-header { 
+    .table-section-header {
       display: inherit;
       border-top: solid 1px $feature-table-border-color !important;
     }
 
     .table-section-header + .grid {
       border-top: none !important;
-    } 
+    }
   }
 }
   
