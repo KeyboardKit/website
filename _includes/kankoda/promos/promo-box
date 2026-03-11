@@ -23,14 +23,14 @@ Promo box for displaying features with title, image, description, and CTAs.
     {{ include.text }}
   </p>
   {% if include.cta_link or include.cta_primary_link %}
-  <div class="cta-container">
+  <div class="cta">
     {% if include.cta_link %}
-    <a class="cta secondary" href="{{ include.cta_link }}">
+    <a class="secondary" href="{{ include.cta_link }}">
       {% if include.cta_text %}{{ include.cta_text }}{% else %}Learn more{% endif %}
     </a>
     {% endif %}
     {% if include.cta_primary_link %}
-    <a class="cta" href="{{ include.cta_primary_link }}">
+    <a href="{{ include.cta_primary_link }}">
       {{ include.cta_primary_text }}
     </a>
     {% endif %}

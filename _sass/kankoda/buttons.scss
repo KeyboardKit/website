@@ -1,4 +1,12 @@
-a.cta {
+.cta {
+  text-align: center;
+}
+
+div.cta {
+  margin: 50px 0;
+}
+
+.cta a, a.cta {
   color: $cta-foreground;
   background-color: $cta-background;
   border-color: $cta-border;
@@ -7,34 +15,21 @@ a.cta {
   font-weight: 600;
   font-size: medium;
   min-width: 100px;
-  text-align: center;
   padding: 10px 20px;
+  margin: 0 10px;
+  text-decoration: none;
 }
 
-.cta, .cta:hover, a.cta:visited {
+.cta a:hover, a.cta:hover, .cta a:visited, a.cta:visited {
   color: $cta-foreground !important;
 }
 
-.cta.secondary, .cta.secondary:hover, a.cta.secondary:visited {
+a.cta.secondary, a.cta.secondary:hover, a.cta.secondary:visited,
+.cta a.secondary, .cta a.secondary:hover, .cta a.secondary:visited
+ {
   color: $cta-background !important;
   background-color: $cta-foreground;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
-}
-
-a.cta + a.cta {
-  margin-left: 20px;
-}
-
-a.cta:hover { color: $cta-foreground; }
-a.cta:visited { color: $cta-foreground !important; }
-
-.cta-container {
-  text-align: center;
-  margin: 50px 0;
-}
-
-a.scale, a.cta {
-  text-decoration: none;
 }
 
 a.scale:hover, a:hover .scale, a.cta:hover, .cta a:hover  {
@@ -133,38 +128,4 @@ a.forward-button:after {
 .social-button.twitter {
   mask: url(/assets/kankoda/social-icons/twitter.svg) no-repeat center;
   -webkit-mask: url(/assets/kankoda/social-icons/twitter.svg) no-repeat center;
-}
-
-article > .button-container {
-  margin-top: 15px;
-}
-
-article > .button-container ~ .button-container {
-  margin-top: 25px;
-}
-
-.button-container {
-  font-size: small;
-  text-align: center;
-  margin-bottom: 50px;
-
-  .group {
-    padding: 15px 5px;
-    border: solid 1px $button-container-border;
-    border-radius: 20px;
-    background-color: $button-container-background;
-
-    a {
-      padding: 10px;
-      border-radius: 15px;
-      display: inline-block;
-      color: $button-container-foreground;
-    }
-  
-    a.active {
-      color: $button-container-selected-foreground;
-      background-color: $button-container-selected-background;
-      box-shadow: 0px 1px 2px $shadow;
-    }
-  }
 }

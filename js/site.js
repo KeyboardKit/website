@@ -15,24 +15,6 @@ function scrollToTop() {
 }
 
 
-// Licenses
-
-function hideAllLicenseTables() {
-  $(".feature-table").hide();
-  $(".button-container.pricing a").removeClass("active");
-}
-
-function hideLicenseTable(sub) {
-  $(".feature-table." + sub).hide();
-}
-
-function showLicenseTable(sub) {
-  hideAllLicenseTables();
-  $(".feature-table." + sub).show(); 
-  $(".button-container.pricing ." + sub).addClass("active");
-}
-
-
 // Tags
 
 function toggleTagList() {

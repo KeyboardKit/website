@@ -26,46 +26,38 @@ Our business plans include critical business features like signed agreements, cu
 <div class="grid col3">
   <div class="rounded glass tier box">
     <h3>Business</h3>
-    <div>
-      $10k / year<br />
-      Standard Terms<br />
-      Signed Agreement<br />
-      Custom Billing<br />
-    </div>
-    <div class="cta-container">
-      <a class="cta" href="{{site.urls.email-business-license}}">Contact us</a>
+    <div>$10k / year</div>
+    <div>Standard Terms</div>
+    <div>Signed Agreement</div>
+    <div>Custom Billing</div>
+    <div class="cta">
+      <a href="{{site.urls.email-business-license}}">Contact us</a>
     </div>
   </div>
   <div class="rounded glass tier box">
     <h3>Business+</h3>
-    <div>
-      $25k / year<br />
-      Custom Terms<br />
-      Software Escrow<br />
-      Expiration Grace<br />
-    </div>
-    <div class="cta-container">
-      <a class="cta" href="{{site.urls.email-business-license}}">Contact us</a>
+    <div>$25k / year</div>
+    <div>Custom Terms</div>
+    <div>Software Escrow</div>
+    <div>Expiration Grace</div>
+    <div class="cta">
+      <a href="{{site.urls.email-business-license}}">Contact us</a>
     </div>
   </div>
   <div class="rounded glass tier box">
     <h3>Enterprise</h3>
-    <div>
-      $50k+ / year<br />
-      High Volume<br />
-      High Impact<br />
-      Custom SLA<br />
-    </div>
-    <div class="cta-container">
-      <a class="cta" href="{{site.urls.email-business-license}}">Contact us</a>
+    <div>$50k+ / year</div>
+    <div>High Volume</div>
+    <div>High Impact</div>
+    <div>Custom SLA</div>
+    <div class="cta">
+      <a href="{{site.urls.email-business-license}}">Contact us</a>
     </div>
   </div>
 </div>
 
-Business licenses include additional benefits, like custom billing, expiration grace periods, custom SLA, software escrow services, etc. Just [reach out](mailto:{{site.email}}?subject=KeyboardKit%20Pro%20Custom%20Plan) to set up a license that fits your needs.
 
-
-## Business License Features
+## Features
 
 ### Additional Apps & Products
 
@@ -93,4 +85,4 @@ Business licenses include the right to request tailored multi-platform builds fo
 
 ### Software Escrow
 
-Business+ licenses include Software Escrow, which will let you access the library source code in case anything happens to KeyboardKit Pro's owner company. Read more [here](/features/escrow).
+Business+ licenses include Software Escrow, which will let you access the library source code in case anything happens to KeyboardKit Pro's owner company. Read more about Software Escrow [here](/features/escrow).
