@@ -5,7 +5,7 @@ tags:   ios-bugs
 
 assets: /assets/blog/26/0302
 image: /assets/blog/26/0302/image.jpg
-image-show: 1
+image-show: 0
 
 issue: https://github.com/KeyboardKit/KeyboardKit/issues/1014
 ---
