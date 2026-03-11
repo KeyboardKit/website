@@ -16,12 +16,12 @@ hero:
 description: KeyboardKit Pro has business licenses for larger companies and apps.
 ---
 
-[KeyboardKit Pro](/pro) requires a business license if your company has $10M+ in annual revenue or your app has $1M+ in annual revenue. 
+[KeyboardKit Pro](/pro) requires a business license if your company has $10M+ in annual revenue, or if your app has $1M+ in annual revenue.
 
 
 ## Plans
 
-Our business plans include critical business features like signed agreements, custom billing, custom terms, software escrow, expiration grace, custom SLAs, and much more.
+ Our business licenses include critical business features like signed agreements, custom terms and billing, [software escrow]({{site.urls.software-escrow}}), expiration grace, custom SLAs, etc.
 
 <div class="grid col3">
   <div class="rounded glass tier box">
@@ -85,4 +85,8 @@ Business licenses include the right to request tailored multi-platform builds fo
 
 ### Software Escrow
 
-Business+ licenses include Software Escrow, which will let you access the library source code in case anything happens to KeyboardKit Pro's owner company. Read more about Software Escrow [here](/features/escrow).
+Business+ licenses include Software Escrow, which will let you access the library source code in case anything happens to KeyboardKit Pro's owner company. 
+
+<div class="cta">
+  <a class="secondary" href="{{site.urls.software-escrow}}">Read more about Software Escrow</a>
+</div>

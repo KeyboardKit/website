@@ -18,7 +18,7 @@ terms: /pro/terms
 
 ## Pricing
 
-The standard tiers are for indies, startups & small businesses. If your company has $10M+ in annual revenue or your app has $1M+ in annual revenue, please [contact us]({{site.urls.email-business-license}}) to discuss a <a href="#business-licenses">custom license</a>.
+The Basic, Silver & Gold tiers are for indies, startups and small businesses. Companies with $10M+ in annual revenue and apps with $1M+ in annual revenue need a [business license](#business-licenses).
 
 {% include licenses/feature-table.html tiers=site.data.tiers %}
 
@@ -30,19 +30,18 @@ The standard [Terms & Conditions]({{page.terms}}) apply to all standard tiers. [
 
 ## Gold Licenses
 
-Yearly Gold licenses and above include a license file that lets you validate your KeyboardKit license directly on device. [Contact us]({{site.urls.email-custom-plan}}) if you want to discuss the benefits of a yearly Gold license.
+Yearly Gold licenses and above include a license file that lets you validate your KeyboardKit license directly on device. [Contact us]({{site.urls.email-custom-plan}}) to discuss the benefits of a yearly Gold license.
 
 
 ## Business Licenses
 
-If your company has $10M+ in annual revenue or your app has $1M+ in annual revenue, we ask you to [contact us]({{site.urls.email-custom-plan}}) to discuss a <a href="/pro/business-licenses">business license</a> that aligns with your needs.
+KeyboardKit Pro requires a [business license]({{site.urls.business-licenses}}) if your company has $10M+ in annual revenue, or if your app has $1M+ in annual revenue. Our business plans include critical business features like signed agreements, custom terms & billing, [software escrow]({{site.urls.software-escrow}}), expiration grace, custom SLAs, etc.
 
-Our business plans include critical business features like signed agreements, custom billing, custom terms, software escrow, expiration grace, custom SLAs, and much more. <a href="/pro/business-licenses">Read more here</a>.
+<div class="cta">
+  <a href="{{site.urls.business-licenses}}">Read more</a>
+</div>
 
 
 <a name="features" />
 
 {% include features-footer.html %}
-
-
-[Business-Licenses]: /pro/business-licenses
