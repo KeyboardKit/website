@@ -10,7 +10,7 @@ image-show: 0
 issue: https://github.com/KeyboardKit/KeyboardKit/issues/1014
 ---
 
-A bug has been discovered in the iOS 26.4 betas, that causes the host application bundle ID value to become empty. This causes different problems for different versions of KeyboardKit.
+A change has been discovered in the iOS 26.4 beta, that causes the host application bundle ID value to become empty. This causes different problems for different versions of KeyboardKit.
 
 
 ## The Issue
