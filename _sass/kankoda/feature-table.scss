@@ -3,68 +3,51 @@
 
 .feature-table {
 
-  margin-bottom: 30px;
+  font-size: 0.9em;
+  margin: 60px 0;
+
+  .glass {
+    border-radius: 10px;
+  }
 
   .grid {
-    grid-row-gap: 10px;
     grid-column-gap: 5px;
     grid-template-columns: repeat(5, 1fr);
 
-    > div.feature { 
-      justify-content: left;
-      font-size: small;
-      font-weight: bold;
-      margin-left: 10px;
-    }
-
     > div {
       padding: 10px 0;
-      font-size: 0.9em;
       display: flex;
       justify-content: center;
       align-items: center;
     }
-
-    .gumroad-button {
-      span.logo-full {
-        display: none;
-      }
-    }
   }
 
-  .grid.footer {
-    background-color: transparent;
-  }
-
-  .table-header-container {
+  .tiers {
     position: sticky; 
     top: 0;
-  }
 
-  .table-header {
-    padding: 6px;
-    border-radius: 10px;
-    margin-bottom: 15px;
+    .grid {
+      padding: 6px;
+      margin-bottom: 15px;
+    }
 
     .tier {
       border-radius: 7px;
       display: block;
       text-align: center;
       border: solid 1px $feature-table-border-color;
-
-      .cta {
-        display: block;
-        padding: 10px 15px;
-      }
     }
 
     h3 {
       font-size: 1.1em;
     }
 
+    h3, p {
+      margin: 0; padding: 0;
+    }
+
     h3+div {
-      font-size: 1em;
-      font-weight: 600;
+      font-weight: 500;
 
       .subtitle {
         font-size: smaller;
@@ -73,47 +56,36 @@
       }
     }
 
-    h3, p {
-      margin: 0; padding: 0;
-    }
-
     .cta {
+      display: block;
+      padding: 10px 15px;
       margin: 20px 10px 0px 10px; 
     }
   }
 
-  .table-section-header {
-    background-color: $feature-table-background;
-    display: none;
-    padding: 5px 5px 0px 5px;
-    font-size: smaller;
-    font-weight: bold;
+  .sections > div {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+
+    .table-row:nth-child(even) {
+      background-color: $feature-table-even-row-color;
+    }
+
+    .feature { 
+      justify-content: left;
+      font-size: small;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+
+    .feature.header {
+      display: none;
+      padding: 5px 5px 0px 5px;
+    }
   }
 
-  .table-section-header + .grid {
-    border-top: solid 1px $feature-table-border-color !important;
-  }
-
-  hr {
-    border: none !important;
-    border-bottom: solid 1px $feature-table-border-color !important;
-    height: 50px !important;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-    box-shadow: 0 20px 20px -20px $feature-table-shadow-color !important;
-    margin: -50px auto 10px !important; 
-  }
-
-  .grid + .grid {
-    border: none;
-  }
-
-  .even, .even + .grid {
-    background-color: $feature-table-background;
-  }
-
-  .odd, .odd + .grid {
-    background-color: $feature-table-even-row-color;
+  .sections > div + div {
+    margin-top: 20px;
   }
 }
 
@@ -137,13 +109,8 @@
       }
     }
 
-    .table-section-header {
-      display: inherit;
-      border-top: solid 1px $feature-table-border-color !important;
-    }
-
-    .table-section-header + .grid {
-      border-top: none !important;
+    .feature.header {
+      display: inherit !important;
     }
   }
 }
@@ -151,16 +118,6 @@
 @media (max-width: 600px) {
 
   .feature-table {
-
-    font-size: smaller;
-
-    h3.regular { 
-      display: none !important; 
-    }
-    
-    h3.compact { 
-      display: block !important; 
-    }
 
     .cta {
       font-size: small;

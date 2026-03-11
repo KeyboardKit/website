@@ -33,11 +33,11 @@ a.cta:visited { color: $cta-foreground !important; }
   margin: 50px 0;
 }
 
-a.scale {
+a.scale, a.cta {
   text-decoration: none;
 }
 
-a.scale:hover, a:hover .scale {
+a.scale:hover, a:hover .scale, a.cta:hover, .cta a:hover  {
   transform: scale(1.04);
 }
 

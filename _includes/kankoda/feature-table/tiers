@@ -1,10 +1,9 @@
-<div class="table-header-container">
-    <div class="grid table-header glass">
+<div class="tiers">
+    <div class="grid glass">
         <div class="feature"></div>
 
         {% for tier in include.tiers %}
         <div class="tier {{tier.name | downcase}}">
-            
             <h3>{{tier.name}}</h3>
             <div>
             {% if tier.price_month %}
@@ -16,7 +15,7 @@
             {% endif %}
 
             {% if tier.cta %}
-            <a href="{{tier.url}}" class="cta scale">
+            <a href="{{tier.url}}" class="cta">
                 {{tier.cta}}
             </a>
             {% endif %}
