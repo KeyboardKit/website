@@ -3,6 +3,8 @@
   <p>Add KeyboardKit to your project and be up and running in minutes.</p>
   {% highlight swift-package-manager %}{{site.urls.github}}{% endhighlight %}
   <div>
-    <a href="/get-started" class="cta glass">More Information</a>
+    <a href="/get-started" class="cta">More Information</a>
+    <a href="{{site.urls.github}}" class="cta secondary">GitHub</a>
   </div>
+  
 </div>
