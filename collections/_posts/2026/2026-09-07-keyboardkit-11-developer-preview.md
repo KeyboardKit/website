@@ -1,13 +1,13 @@
 ---
 title:  KeyboardKit 11 Developer Preview
-date:   2026-08-28 06:00:00 +0100
+date:   2026-09-07 06:00:00 +0100
 tags:   releases essentials autocomplete dictation localization settings
 
-assets: /assets/blog/26/0828/
-image: /assets/versions/11_0-dp1.jpg
+assets: /assets/blog/26/0907/
+image: /assets/versions/11_0-dp.jpg
 image-show: 0
 
-release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/11.0.0-dp.1
+release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/11.0-dp.2
 ---
 
 KeyboardKit 11 Developer Preview 1 is out! This pre-release is a way for you to test the many coming changes in the next major version of the framework.
