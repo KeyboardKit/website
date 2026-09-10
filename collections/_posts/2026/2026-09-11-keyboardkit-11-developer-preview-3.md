@@ -1,16 +1,16 @@
 ---
-title:  KeyboardKit 11 Developer Preview
-date:   2026-09-07 06:00:00 +0100
-tags:   releases essentials autocomplete dictation localization settings
+title:  KeyboardKit 11 Developer Preview 3
+date:   2026-09-11 06:00:00 +0100
+tags:   releases essentials autocomplete dictation localization plugins settings
 
-assets: /assets/blog/26/0907/
+assets: /assets/blog/26/0911/
 image: /assets/versions/11_0-dp.jpg
 image-show: 0
 
-release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/11.0-dp.2
+release: https://github.com/KeyboardKit/KeyboardKit/releases/tag/11.0-dp.3
 ---
 
-KeyboardKit 11 Developer Preview 2 is out! This pre-release is a way for you to test the many coming changes in the next major version of the framework.
+KeyboardKit 11 Developer Preview 3 is out! This pre-release is a way for you to test the many coming changes in the next major version of the framework.
 
 ![KeyboardKit header image]({{page.image}})
 
@@ -30,13 +30,13 @@ And before we start discussing everything in KeyboardKit 11... yes, we count Plu
 
 ## Major Changes
 
-This version bumps the package to Swift 6.2 and adopts strict concurrency, which means that most UI-focused features are now main actor-bound. This removes a lot of dispatch queueing, and makes the library safer to use.
+This version bumps the package to Swift 6.2 and strict concurrency, which means that many UI types are now @MainActor-bound. This removes a lot of dispatch queueing, and makes the library safer to use.
 
-As part of separating the UI-bound parts of the library from the parts that shouldn't be bound to the main actor, we have moved all proxy logic from the `KeyboardContext` to a new `KeyboardControllerContext`.
+As part of separating the UI parts of the library from the parts that shouldn't be bound to the main actor, we have moved all proxy logic from the `KeyboardContext` to a new `KeyboardControllerContext`.
 
-Many types are now `@MainActor`-bound, but we have tried to limit this to types that directly need to use the controller or its text document proxy. More types are also `Sendable`.
+Many types are now `@MainActor`-bound, but we have tried to limit this to types that directly need to use the controller or its text document proxy. Many more types than before are now also `Sendable`.
 
-This is a major change to the library. We have tried to design the changes in a way that will affect you as little as possible, but don't hesitate to let us know if something doesn't sit right with you, or if you run into bugs.
+This is a major change to the library. We have tried to design the changes in a way that will affect you as little as possible, but don't hesitate to let us know if something doesn't sit right with you.
 
 
 ## Feature Updates
@@ -44,6 +44,11 @@ This is a major change to the library. We have tried to design the changes in a 
 While many features have been adjusted to the concurrency changes mentioned above, you should still feel at home with the overall structure, which doesn't change all that much.
 
 The biggest change is that the dictation feature drops support for in-app dictation, since KeyboardKit can now perform dictation directly from the keyboard.
+
+
+### 📦 Package
+
+The package now uses Swift 6.2 and strict concurrency, and includes a new `KeyboardKitHostApplication` plugin, as well as a `KeyboardKitDictation` plugin.
 
 ### 🌱 Essentials
 
@@ -61,7 +66,19 @@ The `AutocompleteSuggestionType.unknown` case has been renamed to `.current`, si
 
 ### 🎤 Dictation
 
+The `KeyboardKitDictation` plugin is a new plugin that can be loaded from the package. It contains all code that requires permissions, which means that KeyboardKit library no longer requires any permissions.
+
+As a result, dictation is simplified. The `DictationVolumeRecorder` or `DictationSpeechRecognizer` have been moved to the plugin, together with the standard dictation engine, which has been renamed.
+
 The in-app dictation flow and its `.app` dictation method have been removed, since dictation is now performed in the keyboard. See [the docs]({{site.urls.docs}}) to make sure that your app supports the background audio mode.
+
+### 🧩 Extensions
+
+The native `ProcessInfo` type is extended with a new `isLiquidGlassAvailable` property that makes it easy to detect if Liquid Glass is available.
+
+### 🏠 Host Application
+
+The `KeyboardKitHostApplication` plugin is a new plugin that can be loaded from the package. It makes all calls needed to resolve the host application, which means that KeyboardKit no longer contains any such code.
 
 ### 🌐 Localization
 
